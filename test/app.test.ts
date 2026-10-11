@@ -71,4 +71,33 @@ describe("API infrastructure", () => {
     expect(response.status).toBe(404);
     expect(await response.json()).toEqual({ error: "not_found" });
   });
+
+  it("rejects invalid dates, unbounded ranges, members and includes before reading the database", async () => {
+    const select = vi.spyOn(database, "select");
+    for (const query of [
+      "from=2026-02-30&through=2026-03-01",
+      "from=2026-01-01&through=2026-02-01",
+      "from=2026-10-11&through=2026-10-10",
+      "from=2026-10-11&through=2026-10-11&member=unknown",
+      "from=2026-10-11&through=2026-10-11&include=events,wrong",
+      "from=2026-10-11&through=2026-10-11&include=events,events",
+    ])
+      expect(
+        (await createApp(database).request(`/v1/timeline?${query}`)).status,
+      ).toBe(400);
+    expect(select).not.toHaveBeenCalled();
+  });
+
+  it("rejects punctuation-only searches and excessive page sizes", async () => {
+    for (const query of [
+      "q=!!!",
+      "limit=101",
+      "offset=-1",
+      "include=history",
+    ]) {
+      expect(
+        (await createApp(database).request(`/v1/works?${query}`)).status,
+      ).toBe(400);
+    }
+  });
 });

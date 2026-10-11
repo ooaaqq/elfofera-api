@@ -1,76 +1,77 @@
-# AI 查询接口
+# 查询接口
 
-接口是只读的，返回稳定的 JSON 结构。日期统一使用 `YYYY-MM-DD`，时间按资料中的 Asia/Shanghai 解释。
+公开入口为 `https://elfofera.com`，只提供查询。`GET /openapi.json` 描述参数与响应
+schema，`GET /health` 检查应用和数据库连接。日期统一使用真实的 `YYYY-MM-DD`，
+按 Asia/Shanghai 解释。
 
-## 查询某天或某周
+## 时间线
 
 ```text
 GET /v1/timeline?from=2026-10-05&through=2026-10-11
+GET /v1/timeline?from=2026-10-09&through=2026-10-09&member=luzao&include=events,performances,recordings
 ```
 
-`include` 可以限制查询内容，默认包含 `events,plans,performances,recordings,changes`：
+日期范围包含两端，最多 31 天。`include` 支持 `events,plans,performances,recordings,changes`，
+默认包含 `events,plans,recordings,changes`；逐曲歌单需要显式请求 `performances`。
+未知或重复分类、无效日期及逆序范围返回 400。
+
+响应包含 `range`、`timeZone`、`included`、`completeness` 和按日期排列的 `days`。
+范围内空日期也会返回。事件附带已关联表演；未关联事件或没有请求事件时，表演放在
+当天的顶层 `performances`。录播保留 BV、直接观看链接和可靠关联的事件 ID。
+
+`member` 支持 `luzao`（露早）、`youen`（柚恩）、`yumo`（虞莫）、`waner`（莞儿）和
+`minuo`（米诺）。事件按录播明确提及的成员或计划成员筛选；两类成员在返回值中
+分别保留。表演只按明确的 `creditedMembers` 筛选，不从整场参与者或上传者推断
+演唱身份。计划仅保留匹配的场次，录播仅保留有匹配事件关联的记录。成员筛选可能
+排除身份尚不明确的资料。
+
+## 歌曲搜索
 
 ```text
-GET /v1/timeline?from=2026-10-09&through=2026-10-09&include=events,performances
-```
-
-返回按日期分组的 `days`。每一天包含 `events`、`plans`、`performances`、`recordings` 和 `changes` 数组。已关联事件的表演会在事件对象上附加 `performances`；没有 `eventId` 的表演保留在当天的顶层 `performances`，不会丢失。录播保留 `eventId`（如果已有可靠关联），无法关联时保持为空。
-
-`days` 会包含范围内的每一个日期，即使当天没有记录也会返回空数组。单次范围最多 366 天。
-
-每个对象仍保留数据库中的 `data` 字段，因此需要来源或完整原始字段时可以继续读取；聚合字段用于直接回答问题。
-
-## 模糊搜索歌曲或原唱
-
-```text
-GET /v1/works?q=lemon
-GET /v1/works?q=残酷
+GET /v1/works?q=Lemon&limit=20&offset=0
 GET /v1/works?artist=米津玄師
 ```
 
-`q` 会匹配歌名和原唱字段，`artist` 只匹配原唱。搜索会先做 NFKC、大小写、空白和标点归一化，再进行不区分大小写的包含匹配，适合不完整歌名和艺人名；不会把搜索结果误写成确定的别名关系。
+`q` 匹配歌名和原唱，`artist` 只匹配原唱。搜索使用 NFKC、大小写、空白和标点
+归一化后的字面包含匹配。关键词最多 200 字符，不能仅由标点或空白组成。
+同名不同作品保留独立 ID；先核对原唱和来源，再查询对应的演唱历史。
 
-结果默认最多 50 条，可使用 `limit` 和 `offset` 分页，`limit` 最大为 200。
+## 演唱与表演历史
 
-## 查询一首歌唱过的时间
-
-先使用 `/v1/works` 获取 `id`，再查询：
-
-```text
-GET /v1/works/song_xxx/history
-```
-
-响应包含作品信息和 `history`，每条记录提供演出日期、演出成员、表演形式以及关联直播事件。
-
-也可以直接附带历史：
+使用歌曲搜索返回的真实作品 ID：
 
 ```text
-GET /v1/works?q=Lemon&include=history
+GET /v1/works/song_xxx/history?limit=20&offset=0
+GET /v1/works/song_xxx/history?from=2022-07-24&through=2023-12-31&member=youen
 ```
 
-## 规范入口
+响应包含 `work`、表演 `items`，每条保留日期、表演类型、明确署名成员、关联
+事件及来源链接。`from`、`through` 和 `member` 可选；不存在的作品返回 404。
 
-```text
-GET /openapi.json
-```
+搜索与历史都返回 `total`、`limit`、`offset`、`hasMore` 和 `completeness`。
+默认每页 20 条，最多 100 条。稳定排序后分页，下一页的 offset 为本页 offset
+加实际返回条数。未翻完页时不能声称已列出全部历史；搜索接口不嵌入无界历史。
 
-AI 客户端应优先使用结构化参数，不需要先拼接自然语言查询。MCP 接入后复用这些接口和同一套业务函数，不另建一套数据规则。
+## 回答规则
 
-数据库首次启用或更新确认数据时，先运行迁移，再运行导入：
+- `completeness: known-records` 表示已确认的子集；空结果不能证明从未直播或演唱。
+- 计划、取消、改期和实际事件分别返回，不能把计划当作发生证据。
+- 成员没有明确署名时保留未知，不从录播上传者或整场参与者推断歌曲演唱者。
+- 回答可引用 `sourceUrls` 和录播 `url`。接口不返回本机 evidence 路径、研究摘录或数据库 raw data。
+- 请求失败明确报告查询未完成；400 修正参数，404 核对作品 ID，不能把失败当成空结果。
+
+AstrBot 插件复用这三个接口，工具描述维护模型调用与回答规则。插件实现和服务器部署
+由 infra fleet 管理，业务筛选与数据含义只在本项目维护。
+
+## 数据维护与检查
+
+独立开发数据库执行迁移和确认资料导入：
 
 ```sh
 pnpm db:migrate
 pnpm db:import:confirmed
-```
-
-导入命令读取确认目录中 2022-07 至 2026-10 的数据。
-
-## 数据库回归检查
-
-在独立开发数据库执行迁移与全量导入后，用相同的 `PGHOST`、`PGPORT`、`PGDATABASE`、`PGUSER` 环境变量运行：
-
-```sh
 pnpm test:integration
 ```
 
-检查首播当天、整周日程变更、2026 年事件、未关联事件的表演、歌曲搜索归一化和完整演唱历史。测试只查询已有数据，不清空或写入数据库；全量导入会在事务中替换数据，只在独立开发数据库验证。
+检查日期聚合、成员筛选、来源链接、歌名归一化和历史分页。全量导入在事务中替换
+查询资料，生产导入由 fleet 的应用命令显式执行，部署不自动覆盖数据。

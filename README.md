@@ -45,14 +45,15 @@ curl --fail http://127.0.0.1:3000/health
 ## API
 
 - `GET /health`
-- `GET /events?from=&through=&kind=&q=&limit=&offset=`：按日期、类型、标题和分页查询事件
-- `GET /works`
-- `GET /performances?eventId=&workId=&limit=&offset=`：按事件或作品分页查询表演
-- `GET /plans?from=&through=&limit=&offset=`：按日期和分页查询日程计划
-- `GET /v1/timeline?from=&through=&include=`：按天聚合事件、计划、表演、录播和日程变更，适合 AI 或其他只读客户端
+- `GET /v1/timeline?from=&through=&member=&include=`：聚合最多 31 天的事件、计划、表演、录播和日程变更
+- `GET /v1/works?q=&artist=&limit=&offset=`：分页搜索歌曲或原唱
+- `GET /v1/works/{workId}/history?from=&through=&member=&limit=&offset=`：分页查询已确认表演历史
 - `GET /openapi.json`
 
 AI 查询接口的参数、返回结构和示例见 [AI 查询接口](docs/ai-api.md)。
+
+公开服务为 `https://elfofera.com`。生产版本、依赖打包、HTTPS 和 AstrBot 查询插件由
+`ooaaqq/nixos-server-fleet` 管理；启动执行结构迁移，确认资料由应用命令显式导入。
 
 当前导入命令覆盖确认目录中的 2022-07 至 2026-10 数据；范围由导入脚本的日期边界控制。
 

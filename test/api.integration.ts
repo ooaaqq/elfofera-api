@@ -1,6 +1,7 @@
 import { sql } from "drizzle-orm";
 import { afterAll, describe, expect, it } from "vitest";
 import { z } from "zod";
+import { timelineSchema as responseSchema } from "../src/contracts.js";
 import { createDatabase } from "../src/db/client.js";
 import { createApp } from "../src/index.js";
 
@@ -24,17 +25,47 @@ const timelineSchema = z.object({
 });
 const workSchema = z.object({
   id: z.string(),
-  history: z.array(z.unknown()).optional(),
 });
 const searchSchema = z.object({ items: z.array(workSchema) });
+const historySchema = z.object({
+  work: workSchema,
+  items: z.array(
+    z.object({
+      id: z.string(),
+      date: z.string(),
+      creditedMembers: z.array(z.string()),
+    }),
+  ),
+  total: z.number(),
+  limit: z.number(),
+  offset: z.number(),
+  hasMore: z.boolean(),
+});
 afterAll(async () => {
   await pool.end();
 });
 
 describe("imported PostgreSQL queries", () => {
+  it("validates compact response contracts across every imported month", async () => {
+    for (
+      let timestamp = Date.UTC(2022, 6, 1);
+      timestamp <= Date.UTC(2026, 9, 1);
+    ) {
+      const start = new Date(timestamp);
+      const end = new Date(
+        Date.UTC(start.getUTCFullYear(), start.getUTCMonth() + 1, 0),
+      );
+      const response = await app.request(
+        `/v1/timeline?from=${start.toISOString().slice(0, 10)}&through=${end.toISOString().slice(0, 10)}&include=events,plans,performances,recordings,changes`,
+      );
+      expect(response.status, start.toISOString()).toBe(200);
+      responseSchema.parse(await response.json());
+      timestamp = Date.UTC(start.getUTCFullYear(), start.getUTCMonth() + 1, 1);
+    }
+  }, 20000);
   it("returns events, performances, plans and recordings for debut day", async () => {
     const response = await app.request(
-      "/v1/timeline?from=2022-07-24&through=2022-07-24",
+      "/v1/timeline?from=2022-07-24&through=2022-07-24&include=events,plans,performances,recordings,changes",
     );
     expect(response.status).toBe(200);
     const body = timelineSchema.parse(await response.json());
@@ -92,7 +123,7 @@ describe("imported PostgreSQL queries", () => {
       .object({ date: z.string(), count: z.number() })
       .parse(rows.rows[0]);
     const response = await app.request(
-      `/v1/timeline?from=${source.date}&through=${source.date}`,
+      `/v1/timeline?from=${source.date}&through=${source.date}&include=events,performances`,
     );
     const body = timelineSchema.parse(await response.json());
     expect(body.days[0]?.performances).toHaveLength(source.count);
@@ -116,22 +147,75 @@ describe("imported PostgreSQL queries", () => {
     expect(results[2]).toEqual(results[0]);
   });
 
-  it("returns singer search results and matching complete history", async () => {
+  it("returns artist search results and paginated history", async () => {
     const response = await app.request(
-      `/v1/works?artist=${encodeURIComponent("米津")}&include=history`,
+      `/v1/works?artist=${encodeURIComponent("米津")}`,
     );
     const body = searchSchema.parse(await response.json());
     expect(body.items.length).toBeGreaterThan(0);
-    const work = body.items.find((item) => item.history?.length);
+    const work = body.items[0];
     expect(work).toBeDefined();
     if (!work) throw new Error("No work history returned");
     const historyResponse = await app.request(`/v1/works/${work.id}/history`);
-    const history = workSchema.parse(await historyResponse.json());
+    const history = historySchema.parse(await historyResponse.json());
     const counts = await database.execute(
       sql`SELECT count(*)::int AS count FROM performances WHERE work_id = ${work.id}`,
     );
-    expect(history.history).toHaveLength(Number(counts.rows[0]?.count));
-    expect(history.history).toEqual(work.history);
+    expect(history.total).toBe(Number(counts.rows[0]?.count));
+    expect(history.items.length).toBe(Math.min(history.total, history.limit));
+    expect(history.work.id).toBe(work.id);
+    expect(history.hasMore).toBe(history.total > history.limit);
+  });
+
+  it("pages history deterministically without missing or repeating records", async () => {
+    const rows = await database.execute(
+      sql`SELECT work_id FROM performances GROUP BY work_id HAVING count(*) > 2 LIMIT 1`,
+    );
+    const workId = z.string().parse(rows.rows[0]?.work_id);
+    const first = historySchema.parse(
+      await (await app.request(`/v1/works/${workId}/history?limit=1`)).json(),
+    );
+    const next = historySchema.parse(
+      await (
+        await app.request(`/v1/works/${workId}/history?limit=1&offset=1`)
+      ).json(),
+    );
+    expect(first.total).toBe(next.total);
+    expect(first.hasMore).toBe(true);
+    expect(first.items[0]?.id).not.toBe(next.items[0]?.id);
+  });
+
+  it("filters credited members and dates without inferring performers from recording uploaders", async () => {
+    const rows = await database.execute(
+      sql`SELECT work_id, date, data->'creditedMembers'->>0 AS member FROM performances WHERE jsonb_array_length(data->'creditedMembers') > 0 LIMIT 1`,
+    );
+    const source = z
+      .object({ work_id: z.string(), date: z.string(), member: z.string() })
+      .parse(rows.rows[0]);
+    const response = await app.request(
+      `/v1/works/${source.work_id}/history?member=${source.member}&from=${source.date}&through=${source.date}`,
+    );
+    expect(response.status).toBe(200);
+    const result = historySchema.parse(await response.json());
+    expect(result.total).toBeGreaterThan(0);
+    expect(
+      result.items.every(
+        (item) =>
+          item.date === source.date &&
+          item.creditedMembers.includes(source.member),
+      ),
+    ).toBe(true);
+  });
+
+  it("publishes source links without research paths or raw database data", async () => {
+    const response = await app.request(
+      "/v1/timeline?from=2022-07-24&through=2022-07-24&include=events,performances,recordings,plans,changes",
+    );
+    expect(response.status).toBe(200);
+    const text = await response.text();
+    expect(text).toContain("https://www.bilibili.com/video/");
+    expect(text).not.toContain("../evidence/");
+    expect(text).not.toContain('"data":');
   });
 
   it("returns 404 for a missing work and 400 for reversed dates", async () => {
