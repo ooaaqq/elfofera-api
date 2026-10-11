@@ -1,0 +1,2516 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "scope": {
+    "from": "2024-03-01",
+    "through": "2024-03-31"
+  },
+  "events": [
+    {
+      "id": "evt_0c15e1f5-e256-4289-bd38-8e19d5932f8c",
+      "date": "2024-03-01",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "莞儿暂别直播，生日会等安排延期",
+      "text": "亲爱的EOES们，大家好。由于身体健康的原因，@莞儿睡不醒 将缺席本月接下来的直播，也将缺席今日的团播。回归时间将根据其身体健康状态评估而定。在此期间，其包括生日会在内的内容安排将全部延后，给大家造成的不便还请理解。",
+      "publishedAt": "2024-03-01T07:39:31.000Z",
+      "occurrence": "announced",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+            "locator": "903834511244001287"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+            "locator": "903834511244001287"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+            "locator": "903834511244001287"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_213b066a-b092-48da-8582-56a2e365bc25",
+      "date": "2024-03-01",
+      "kind": "livestream",
+      "title": "【3D】谁是大聪明",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV19t42157TW",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19t42157TW"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV19t42157TW",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19t42157TW"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19t42157TW"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19t42157TW"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19t42157TW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3cedd341-582f-4c86-92e3-249e00b48771",
+      "date": "2024-03-01",
+      "kind": "livestream",
+      "title": "【电台】聊聊天",
+      "occurrence": "recording-attested",
+      "formatLabel": "电台",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV13U411F7fe",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV13U411F7fe"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV13U411F7fe",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV13U411F7fe"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV13U411F7fe"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV13U411F7fe"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV13U411F7fe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_1305fb6d-8a3f-4423-820c-998ea3341e23",
+      "date": "2024-03-02",
+      "kind": "livestream",
+      "title": "【3D】起名大作战",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1fF4m1G7EY",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1fF4m1G7EY"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1fF4m1G7EY",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1fF4m1G7EY"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1fF4m1G7EY"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1fF4m1G7EY"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1fF4m1G7EY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_49d9748f-b213-4d48-84b0-46b4959b11ad",
+      "date": "2024-03-02",
+      "kind": "livestream",
+      "title": "【2D】见！",
+      "occurrence": "recording-attested",
+      "formatLabel": "2D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1ax42127JB",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ax42127JB"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ax42127JB",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ax42127JB"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ax42127JB"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ax42127JB"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ax42127JB"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_63c0ede9-db03-4229-9620-58e01f424bee",
+      "date": "2024-03-03",
+      "kind": "livestream",
+      "title": "【2D】战斗，爽！",
+      "occurrence": "recording-attested",
+      "formatLabel": "2D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1om411o7q6",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1om411o7q6"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1om411o7q6",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1om411o7q6"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1om411o7q6"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1om411o7q6"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1om411o7q6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_8f0b06d4-8af9-4a82-93ec-60a9c21b10ab",
+      "date": "2024-03-03",
+      "kind": "livestream",
+      "title": "【突击】钢琴电台！",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1EC411p7yG",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1EC411p7yG"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1EC411p7yG",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1EC411p7yG"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1EC411p7yG"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1EC411p7yG"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1EC411p7yG"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_f33078ff-505c-434a-9008-9654225e3e0b",
+      "date": "2024-03-04",
+      "kind": "livestream",
+      "title": "【2D】柚是我！",
+      "occurrence": "recording-attested",
+      "formatLabel": "2D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1hm411Z7Dg",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1hm411Z7Dg"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1hm411Z7Dg",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1hm411Z7Dg"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1hm411Z7Dg"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1hm411Z7Dg"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1hm411Z7Dg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_23177534-d482-49f4-a683-24a50273e227",
+      "date": "2024-03-06",
+      "kind": "livestream",
+      "title": "【3D】好运来",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1U2421M71P",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1U2421M71P"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1U2421M71P",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1U2421M71P"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1U2421M71P"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1U2421M71P"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1U2421M71P"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_a361c85d-f6dd-4cae-b669-657a1e192f71",
+      "date": "2024-03-06",
+      "kind": "livestream",
+      "title": "【3D】小歌回之看看是不是嗓子好了",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1S2421M7te",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1S2421M7te"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1S2421M7te",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1S2421M7te"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1S2421M7te"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1S2421M7te"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1S2421M7te"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3f199e2d-3acd-44c0-a434-dc1f2ad0d71c",
+      "date": "2024-03-07",
+      "kind": "livestream",
+      "title": "【2D】王者荣耀，启动！",
+      "occurrence": "recording-attested",
+      "formatLabel": "2D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1oK42147qz",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1oK42147qz"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1oK42147qz",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1oK42147qz"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1oK42147qz"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1oK42147qz"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1oK42147qz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_62212897-e3e9-4e58-ba8b-ae25759220eb",
+      "date": "2024-03-07",
+      "kind": "livestream",
+      "title": "柚恩是猪。",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1Gw4m1o7yM",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gw4m1o7yM"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Gw4m1o7yM",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gw4m1o7yM"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gw4m1o7yM"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gw4m1o7yM"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gw4m1o7yM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_141a821a-b9d6-4f2c-a3e7-bf638ea75b01",
+      "date": "2024-03-08",
+      "kind": "livestream",
+      "title": "【3D】瞧瞧我又来了嘛这不是",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1Wr421H74d",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1Wr421H74d"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Wr421H74d",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1Wr421H74d"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1Wr421H74d"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1Wr421H74d"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1Wr421H74d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_735b485a-0a24-4893-858b-d37f99a3ec9a",
+      "date": "2024-03-08",
+      "kind": "livestream",
+      "title": "【1D】不小心点错了",
+      "occurrence": "recording-attested",
+      "formatLabel": "1D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1RF4m1F7g7",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1RF4m1F7g7"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1RF4m1F7g7",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1RF4m1F7g7"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1RF4m1F7g7"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1RF4m1F7g7"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1RF4m1F7g7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_a2163fe5-31c6-4169-a132-6f0c0cca73f4",
+      "date": "2024-03-08",
+      "kind": "livestream",
+      "title": "【3D】没想到吧，又是我",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1hK421x7KS",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1hK421x7KS"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1hK421x7KS",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1hK421x7KS"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1hK421x7KS"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1hK421x7KS"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1hK421x7KS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_f3e259b8-cd43-4013-82b8-c786804bdf0b",
+      "date": "2024-03-09",
+      "kind": "livestream",
+      "title": "【3D】EOE鉴宝回",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1hw4m1d7aa",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1hw4m1d7aa"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1hw4m1d7aa",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1hw4m1d7aa"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1hw4m1d7aa"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1hw4m1d7aa"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1hw4m1d7aa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_c112991a-14ce-4591-8b86-462ffe1342a8",
+      "date": "2024-03-10",
+      "kind": "livestream",
+      "title": "【2D】玩玩游戏",
+      "occurrence": "recording-attested",
+      "formatLabel": "2D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1RF4m1F723",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1RF4m1F723"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1RF4m1F723",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1RF4m1F723"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1RF4m1F723"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1RF4m1F723"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1RF4m1F723"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_fb85e596-570d-4c89-90ac-539cf10071f1",
+      "date": "2024-03-10",
+      "kind": "livestream",
+      "title": "【3D】难道她真的有绝对音感",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1Ex421C7wM",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Ex421C7wM"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Ex421C7wM",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Ex421C7wM"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Ex421C7wM"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Ex421C7wM"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Ex421C7wM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_77b222e4-62a7-4e2c-abcd-c4e53877397a",
+      "date": "2024-03-12",
+      "kind": "livestream",
+      "title": "【2D】名利游戏启动！",
+      "occurrence": "recording-attested",
+      "formatLabel": "2D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1A2421T727",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1A2421T727"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1A2421T727",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1A2421T727"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1A2421T727"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1A2421T727"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1A2421T727"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_05fe6b4b-eec8-4a46-adfb-d5e57db7fdee",
+      "date": "2024-03-13",
+      "kind": "livestream",
+      "title": "【3D】夜深了......",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1mJ4m1h7AY",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1mJ4m1h7AY"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1mJ4m1h7AY",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1mJ4m1h7AY"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1mJ4m1h7AY"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1mJ4m1h7AY"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1mJ4m1h7AY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_8d66d8b6-2137-4041-89fb-d7dd7d027e4f",
+      "date": "2024-03-13",
+      "kind": "livestream",
+      "title": "【3D】游戏时间",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1mr421H7ts",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1mr421H7ts"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1mr421H7ts",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1mr421H7ts"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1mr421H7ts"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1mr421H7ts"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1mr421H7ts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_401d00ec-e0b7-4f4c-91a0-8b67e15c741a",
+      "date": "2024-03-14",
+      "kind": "livestream",
+      "title": "【3D】苦情歌小歌回",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1mx421r75z",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1mx421r75z"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1mx421r75z",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1mx421r75z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1mx421r75z"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1mx421r75z"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1mx421r75z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_c6a29eb4-ca23-475f-96bf-5da3ab04d89c",
+      "date": "2024-03-14",
+      "kind": "livestream",
+      "title": "【3D】我家过情人节，来",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1Gr42187Tb",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gr42187Tb"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Gr42187Tb",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gr42187Tb"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gr42187Tb"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gr42187Tb"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gr42187Tb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3a222265-0cfc-4fb0-9c1c-b17490bc6c7a",
+      "date": "2024-03-15",
+      "kind": "livestream",
+      "title": "【3D】大富翁",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV122421A7QX",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV122421A7QX"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV122421A7QX",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV122421A7QX"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV122421A7QX"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV122421A7QX"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV122421A7QX"
+          }
+        ]
+      },
+      "reviewIssues": [
+        "2024-03-same-topic-recordings"
+      ]
+    },
+    {
+      "id": "evt_a89083b0-64bd-4d80-8be0-fec6c4aa528e",
+      "date": "2024-03-15",
+      "kind": "livestream",
+      "title": "【3D】大富翁",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV14K421v7oA",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV14K421v7oA"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV14K421v7oA",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV14K421v7oA"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV14K421v7oA"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV14K421v7oA"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV14K421v7oA"
+          }
+        ]
+      },
+      "reviewIssues": [
+        "2024-03-same-topic-recordings"
+      ]
+    },
+    {
+      "id": "evt_875a4206-ce26-4681-98e5-f9d9dd3f726a",
+      "date": "2024-03-15",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『lost you twice』一首唱给单思的R&B",
+      "publishedAt": "2024-03-15T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_c7fcee4b-6fe1-4733-a31d-d40b87f3a13a"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1dZ421b7Zr",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1dZ421b7Zr]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1dZ421b7Zr]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-03-15T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1dZ421b7Zr]",
+            "sourceField": "title",
+            "excerpt": "『lost you twice』一首唱给单思的R&B"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1dZ421b7Zr]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_daee0a03-0b9c-4d12-ab5a-7c9bdd7fd785",
+      "date": "2024-03-15",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『OOTD』芳心捕手，正在出击【柚恩翻跳】",
+      "text": "原曲：Dreamcatcher\n翻跳：柚恩\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bi",
+      "publishedAt": "2024-03-15T09:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_5fe3b34d-ac94-4ca2-aa39-20c7a688893d"
+      ],
+      "assets": [
+        {
+          "bvid": "BV15H4y1s7v7",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=7].items[bvid=BV15H4y1s7v7]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=7].items[bvid=BV15H4y1s7v7]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-03-15T09:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=7].items[bvid=BV15H4y1s7v7]",
+            "sourceField": "title",
+            "excerpt": "『OOTD』芳心捕手，正在出击【柚恩翻跳】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=7].items[bvid=BV15H4y1s7v7]",
+            "sourceField": "description",
+            "excerpt": "原曲：Dreamcatcher\n翻跳：柚恩\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bi"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_35c5b2ac-3ef5-4159-903c-cd6e034f4db1",
+      "date": "2024-03-16",
+      "kind": "livestream",
+      "title": "【3D】誓要拿回属于我的东西",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1UJ4m187cm",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1UJ4m187cm"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1UJ4m187cm",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1UJ4m187cm"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1UJ4m187cm"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1UJ4m187cm"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1UJ4m187cm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_ab9f9c3a-5f84-4d4f-bec0-102878e672a2",
+      "date": "2024-03-17",
+      "kind": "livestream",
+      "title": "【2D】冰雪可爱的女孩",
+      "occurrence": "recording-attested",
+      "formatLabel": "2D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV19W421c7Sn",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19W421c7Sn"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV19W421c7Sn",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19W421c7Sn"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19W421c7Sn"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19W421c7Sn"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19W421c7Sn"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_b40bbebc-98ae-4bd8-9c8e-04e01d70c010",
+      "date": "2024-03-17",
+      "kind": "livestream",
+      "title": "【电台】看谁还在睡懒觉",
+      "occurrence": "recording-attested",
+      "formatLabel": "电台",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1ct42157Se",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1ct42157Se"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ct42157Se",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1ct42157Se"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1ct42157Se"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1ct42157Se"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1ct42157Se"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_4b2dcd44-6056-4bc9-8d7a-5977cf189ce6",
+      "date": "2024-03-18",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "《No.9》把我的心通通带走",
+      "publishedAt": "2024-03-18T11:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_015b1ec4-c876-496e-82f8-92a462cd6138"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1zy421v7kv",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1zy421v7kv]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1zy421v7kv]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-03-18T11:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1zy421v7kv]",
+            "sourceField": "title",
+            "excerpt": "《No.9》把我的心通通带走"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1zy421v7kv]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_6d79aee8-36a1-4e6a-b73b-3592f3c2feb5",
+      "date": "2024-03-19",
+      "kind": "livestream",
+      "title": "【3D】来点怀旧的",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1pZ421b7NV",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1pZ421b7NV"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1pZ421b7NV",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1pZ421b7NV"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1pZ421b7NV"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1pZ421b7NV"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1pZ421b7NV"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_b5a5a03d-554d-45ac-bf6a-a39088372a6a",
+      "date": "2024-03-19",
+      "kind": "livestream",
+      "title": "【3D】唱歌了大家集合",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1SH4y1W7qz",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1SH4y1W7qz"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1SH4y1W7qz",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1SH4y1W7qz"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1SH4y1W7qz"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1SH4y1W7qz"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1SH4y1W7qz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_29f0e021-b9ae-4f1e-b15d-c45310d5d1e1",
+      "date": "2024-03-19",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "爱情好像《流沙》，让我无法挣扎",
+      "publishedAt": "2024-03-19T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_2614632f-9831-4197-89e1-72ec2c000181"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1B2421N7aY",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1B2421N7aY]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1B2421N7aY]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-03-19T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1B2421N7aY]",
+            "sourceField": "title",
+            "excerpt": "爱情好像《流沙》，让我无法挣扎"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1B2421N7aY]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_144025db-a5c4-4ab1-b79e-9ca8f1e91bd9",
+      "date": "2024-03-20",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "有一种痛叫《空白格》【米诺翻唱】",
+      "publishedAt": "2024-03-20T05:14:41.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_c4bb6a82-6c1a-4117-a57a-bce3c9f92a8d"
+      ],
+      "assets": [
+        {
+          "bvid": "BV15H4y1s7Zn",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV15H4y1s7Zn]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV15H4y1s7Zn]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-03-20T05:14:41.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV15H4y1s7Zn]",
+            "sourceField": "title",
+            "excerpt": "有一种痛叫《空白格》【米诺翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV15H4y1s7Zn]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_c75dfa0b-acf0-4283-a486-8ef50f3396ea",
+      "date": "2024-03-21",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "今夜，用狮子王主题曲《Can You Feel the Love Tonight》诉说爱意",
+      "publishedAt": "2024-03-21T09:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_0faf63e9-81b7-4161-9345-0abbf21a338a"
+      ],
+      "assets": [
+        {
+          "bvid": "BV19F4m1c78D",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV19F4m1c78D]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV19F4m1c78D]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-03-21T09:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV19F4m1c78D]",
+            "sourceField": "title",
+            "excerpt": "今夜，用狮子王主题曲《Can You Feel the Love Tonight》诉说爱意"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV19F4m1c78D]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_178875e7-10e4-4f4d-890f-ce2edfde545c",
+      "date": "2024-03-22",
+      "kind": "livestream",
+      "title": "【3D】什么能进我的直播间",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1HD42177T1",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1HD42177T1"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1HD42177T1",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1HD42177T1"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1HD42177T1"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1HD42177T1"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1HD42177T1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_d5a0f570-14f5-4b47-ad52-6a1a14a91777",
+      "date": "2024-03-23",
+      "kind": "livestream",
+      "title": "【3D】直男挑战",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1R6421F72G",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1R6421F72G"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1R6421F72G",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1R6421F72G"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1R6421F72G"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1R6421F72G"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1R6421F72G"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_34dfe81c-950d-4d66-995c-7299b2b96f05",
+      "date": "2024-03-24",
+      "kind": "livestream",
+      "title": "【3D】聊聊那些尬事儿",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1Si421X7YX",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Si421X7YX"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Si421X7YX",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Si421X7YX"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Si421X7YX"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Si421X7YX"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Si421X7YX"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_5eb0b2d3-d07a-4318-8515-95923973fcf0",
+      "date": "2024-03-24",
+      "kind": "livestream",
+      "title": "【3D】烤柚恩蜜，倍儿香",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV15p421m7JR",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV15p421m7JR"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV15p421m7JR",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV15p421m7JR"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV15p421m7JR"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV15p421m7JR"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV15p421m7JR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_18d6fcc3-b517-42f0-8d39-9826493237ea",
+      "date": "2024-03-24",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "谢谢你，成为我的《几分之几》",
+      "publishedAt": "2024-03-24T07:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_42ded635-c150-4cb7-be3e-91b0c62f6a6c"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1YC41187hg",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1YC41187hg]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1YC41187hg]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-03-24T07:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1YC41187hg]",
+            "sourceField": "title",
+            "excerpt": "谢谢你，成为我的《几分之几》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1778026586,page=1].items[bvid=BV1YC41187hg]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_3588ee14-4026-4ced-bcc1-7a2aa0dd613b",
+      "date": "2024-03-25",
+      "kind": "livestream",
+      "title": "【3D】注意细节",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1L1421Q7rV",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1L1421Q7rV"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1L1421Q7rV",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1L1421Q7rV"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1L1421Q7rV"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1L1421Q7rV"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1L1421Q7rV"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_8a2b0b59-e710-495d-8d7f-fc7a36c0a5c7",
+      "date": "2024-03-25",
+      "kind": "livestream",
+      "title": "【D】MIMI的奇妙冒险",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1cA4m1N7K3",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1cA4m1N7K3"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1cA4m1N7K3",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1cA4m1N7K3"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1cA4m1N7K3"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1cA4m1N7K3"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1cA4m1N7K3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_7f083c04-2a64-4fba-ae10-aabc31331d51",
+      "date": "2024-03-26",
+      "kind": "livestream",
+      "title": "【3D】春日宴",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV13D421j7UG",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV13D421j7UG"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV13D421j7UG",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV13D421j7UG"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV13D421j7UG"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV13D421j7UG"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV13D421j7UG"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_dbb00ebc-fb8a-45f3-aec9-e2624f6a8d1c",
+      "date": "2024-03-26",
+      "kind": "livestream",
+      "title": "【3D】大夫，我有病",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV16K421a7wv",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV16K421a7wv"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV16K421a7wv",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV16K421a7wv"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV16K421a7wv"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV16K421a7wv"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV16K421a7wv"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_085588e4-c28b-4707-8784-d0525705df6e",
+      "date": "2024-03-27",
+      "kind": "livestream",
+      "title": "莞星KTV生日嗨唱中",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1DC411t7o1",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1DC411t7o1"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1DC411t7o1",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1DC411t7o1"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1DC411t7o1"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1DC411t7o1"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1DC411t7o1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_836aa8c3-ca06-4828-a8bb-d7eb50d9b172",
+      "date": "2024-03-27",
+      "kind": "livestream",
+      "title": "再聊五毛钱",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1P1421U7mB",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1P1421U7mB"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1P1421U7mB",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1P1421U7mB"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1P1421U7mB"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1P1421U7mB"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1P1421U7mB"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_0a31a57f-1e9b-4c62-8604-ef5042e4d6d5",
+      "date": "2024-03-28",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "莞儿后续主要采用2D直播",
+      "text": "亲爱的EOES们，大家好。经过与莞儿的沟通，我们共同决定，接下来 将主要以2D直播的形式跟大家见面。而近期，莞儿将着重筹备自己的生日会直播内容，加上其需处理较为繁重的个人事务，这段时间的3D直播将会适应性的减少，也不会参与日常3D团播。\n做出这样的改变经过了各方面考虑，包括最重要的莞儿的身心健康和状态。我们希望她在追求梦想的同时，能够把重心多分给个人一些，好好生活，保持健康和快乐，继续去探索这个世界。虽然只是换了一种形式，但莞儿也依然会在每周跟大家相聚。因此，请大家积极地看待这个改变，不管以怎样的形式，莞儿会一直陪伴着大家，给大家带来元气和活力的！",
+      "publishedAt": "2024-03-28T05:52:46.000Z",
+      "occurrence": "announced",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2024.json",
+            "locator": "913826301650927620"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/dynamics-2024.json",
+            "locator": "913826301650927620"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/history-01/dynamics-2024.json",
+            "locator": "913826301650927620"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_f6c316d1-98f1-42f0-bbc6-b47d96fae118",
+      "date": "2024-03-28",
+      "kind": "livestream",
+      "title": "【3D】MME：超级姐",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1Zt421g72z",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Zt421g72z"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Zt421g72z",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Zt421g72z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Zt421g72z"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Zt421g72z"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Zt421g72z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3d0e3f1d-ba0b-4edd-bca4-bcce60a4f1b2",
+      "date": "2024-03-29",
+      "kind": "livestream",
+      "title": "【2D】咩咩咩咩咩",
+      "occurrence": "recording-attested",
+      "formatLabel": "2D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1MC411L7kh",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1MC411L7kh"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1MC411L7kh",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1MC411L7kh"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1MC411L7kh"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1MC411L7kh"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1MC411L7kh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_9adc0251-cad0-4c23-bec5-469ae1255a45",
+      "date": "2024-03-30",
+      "kind": "livestream",
+      "title": "今天也聊五毛钱",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1XC411t7Jn",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1XC411t7Jn"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1XC411t7Jn",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1XC411t7Jn"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1XC411t7Jn"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1XC411t7Jn"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1XC411t7Jn"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_22afd38d-e4b6-43de-90d2-dc095b83f8fb",
+      "date": "2024-03-31",
+      "kind": "announcement",
+      "title": "八期舰长礼物示意图公布",
+      "description": "原图说明2024年4月1日至6月30日在EOE成员直播间上舰可获得对应成员船员福利；舰长礼为相机亚克力挂件及正比、Q版证件照，提督加亚克力娃娃机拼图和亲签明信片，总督加To签明信片。以最终成品为主；不表示已发货或交付。",
+      "occurrence": "source-attested",
+      "evidence": {
+        "officialImage": {
+          "file": "../source/march-2024/915007147074387972.png",
+          "locator": "915007147074387972"
+        },
+        "officialDynamic": {
+          "file": "../evidence/history-01/dynamics-2024.json",
+          "locator": "915007147074387972"
+        }
+      }
+    },
+    {
+      "id": "evt_cc7d37d5-6412-40f2-810c-20815f2266ab",
+      "date": "2024-03-31",
+      "kind": "livestream",
+      "title": "【3D】三个臭皮匠",
+      "occurrence": "recording-attested",
+      "formatLabel": "3D",
+      "tags": [],
+      "recordings": [
+        {
+          "bvid": "BV1tr42147Ti",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1tr42147Ti"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1tr42147Ti",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1tr42147Ti"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1tr42147Ti"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1tr42147Ti"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1tr42147Ti"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_4b626174-d65a-450d-b3e2-3a73b379606d",
+      "date": "2024-03-14",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "当虚偶舞担翻跳XG的LEFT RIGHT会是什么样子？",
+      "publishedAt": "2024-03-14T14:40:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_ba0ac39e-a0aa-49eb-b2f7-28dbfeb5d64f"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1br421n7GU",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1br421n7GU]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1br421n7GU]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-03-14T14:40:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1br421n7GU]",
+            "sourceField": "title",
+            "excerpt": "当虚偶舞担翻跳XG的LEFT RIGHT会是什么样子？"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1br421n7GU]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "当虚偶舞担翻跳XG的LEFT RIGHT会是什么样子？\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802\n官号﻿@EOE组合 ：h"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802\n官号﻿@EOE组合 ：h"
+    },
+    {
+      "id": "evt_04eed560-e189-48db-9628-a186e8873c39",
+      "date": "2024-03-26",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "🥵我控制不了我自己了🥵【I cant stop me】",
+      "publishedAt": "2024-03-26T09:38:14.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_6bcf9ced-0957-4694-92e5-527d1b37c2fe"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1sH4y1H7fp",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1sH4y1H7fp]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1sH4y1H7fp]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-03-26T09:38:14.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1sH4y1H7fp]",
+            "sourceField": "title",
+            "excerpt": "🥵我控制不了我自己了🥵【I cant stop me】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1sH4y1H7fp]",
+            "sourceField": "title",
+            "excerpt": "🥵我控制不了我自己了🥵【I cant stop me】"
+          }
+        ]
+      },
+      "note": "目录标题明确作品身份；只确认投稿发布与作品关联，不据投稿日推断演出日期。",
+      "text": "原曲：TWICE — 《I CANT STOP ME》\n表演：虞莫"
+    }
+  ]
+}

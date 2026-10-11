@@ -1,0 +1,364 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "events": [
+    {
+      "id": "evt_1c065320-3b33-4018-92d8-4ece8b882dac",
+      "date": "2026-10-02",
+      "kind": "livestream",
+      "title": "【2D】早德赛续集45",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["luzao"],
+      "titleHours": [12],
+      "recordings": [
+        {
+          "bvid": "BV1Yham6uEx5",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Yham6uEx5"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Yham6uEx5",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Yham6uEx5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_5f4be159-1e60-4c10-98e2-19b5d1fbf50b",
+      "date": "2026-10-03",
+      "kind": "livestream",
+      "title": "【2D】御姐继续看新三",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV1yCHi6NEzA",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1yCHi6NEzA"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1yCHi6NEzA",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1yCHi6NEzA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_da318d81-3098-455f-bc3b-b24e81bcd80d",
+      "date": "2026-10-04",
+      "kind": "livestream",
+      "title": "【2D】专业裁缝玩针影裁梦",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [11],
+      "recordings": [
+        {
+          "bvid": "BV1rZH663EYX",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1rZH663EYX"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1rZH663EYX",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1rZH663EYX"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/date-eoe-ink/master.json",
+            "locator": "2026-10-04"
+          }
+        ]
+      },
+      "plannedMembers": ["youen"],
+      "plannedTime": "12:00"
+    },
+    {
+      "id": "evt_4aa8a15e-5d47-4651-ae13-b1ba71620d32",
+      "date": "2026-10-04",
+      "kind": "livestream",
+      "title": "【2D】萌妹玩御姐！！46",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["luzao"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV1U1HJ6fEgo",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1U1HJ6fEgo"
+          }
+        },
+        {
+          "bvid": "BV1QLHE6hEfV",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/fan-sources-2026.json",
+            "locator": "BV1QLHE6hEfV"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1U1HJ6fEgo",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1U1HJ6fEgo"
+          },
+          {
+            "file": "../evidence/fan-sources-2026.json",
+            "locator": "BV1QLHE6hEfV"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_90a9ae54-caa8-467d-a02e-ff25eb0a6b46",
+      "date": "2026-10-04",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "弹一首『琵琶曲』 世人争相思意",
+      "text": "歌势复健day1\n\n原曲：《琵琶曲》 - 郑浩/冰洁\n翻唱：柚恩",
+      "publishedAt": "2026-10-04T03:30:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": ["song_c897480e-71c3-461f-adb9-ebf2e11fc862"],
+      "assets": [
+        {
+          "bvid": "BV19sHi67EF3",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV19sHi67EF3]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV19sHi67EF3]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-10-04T03:30:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV19sHi67EF3]",
+            "sourceField": "title",
+            "excerpt": "弹一首『琵琶曲』 世人争相思意"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV19sHi67EF3]",
+            "sourceField": "description",
+            "excerpt": "歌势复健day1\n\n原曲：《琵琶曲》 - 郑浩/冰洁\n翻唱：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV19sHi67EF3]",
+            "sourceField": "description",
+            "excerpt": "歌势复健day1\n\n原曲：《琵琶曲》 - 郑浩/冰洁\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": ["youen"]
+    },
+    {
+      "id": "evt_f4b567d7-8837-483b-b44a-345f401825b2",
+      "date": "2026-10-05",
+      "kind": "livestream",
+      "title": "【突击】踩缝纫机，艰难但坚持",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [12],
+      "recordings": [
+        {
+          "bvid": "BV1o7Hs6WED9",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1o7Hs6WED9"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1o7Hs6WED9",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1o7Hs6WED9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_2fded5ca-cdf3-40a0-99c2-7e62d9b656a8",
+      "date": "2026-10-06",
+      "kind": "livestream",
+      "title": "【突击】和小纸",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [21],
+      "recordings": [
+        {
+          "bvid": "BV12bpP6EEr4",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV12bpP6EEr4"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV12bpP6EEr4",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV12bpP6EEr4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_235916de-3c6e-4237-a8d4-c61ce85c5d11",
+      "date": "2026-10-07",
+      "kind": "livestream",
+      "title": "【2D】赤新三时间",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV1CcH16REMC",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1CcH16REMC"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1CcH16REMC",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1CcH16REMC"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/date-eoe-ink/master.json",
+            "locator": "2026-10-07"
+          }
+        ]
+      },
+      "plannedMembers": ["youen"],
+      "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_f86bc923-bd64-450d-beda-046dc525f1b6",
+      "date": "2026-10-08",
+      "kind": "livestream",
+      "title": "【2D】萌妹徒步中47",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["luzao"],
+      "recordings": [
+        {
+          "bvid": "BV1AEH96jEhL",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[kind=video-directory,accountId=3493074548296022,page=1].items[bvid=BV1AEH96jEhL]"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1AEH96jEhL",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[kind=video-directory,accountId=3493074548296022,page=1].items[bvid=BV1AEH96jEhL]"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[kind=video-directory,accountId=3493074548296022,page=1].items[bvid=BV1AEH96jEhL]"
+          }
+        ],
+        "recordings": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[kind=video-directory,accountId=3493074548296022,page=1].items[bvid=BV1AEH96jEhL]"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_1756b744-5f31-46e4-a4df-c1ac0cca76fb",
+      "date": "2026-10-09",
+      "kind": "livestream",
+      "title": "【2D】御姐教妹妹开车",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "recordings": [
+        {
+          "bvid": "BV1Bapt6eETd",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch02.json",
+            "locator": "sources[kind=video-directory,accountId=105260060,page=1].items[bvid=BV1Bapt6eETd]"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Bapt6eETd",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch02.json",
+            "locator": "sources[kind=video-directory,accountId=105260060,page=1].items[bvid=BV1Bapt6eETd]"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch02.json",
+            "locator": "sources[kind=video-directory,accountId=105260060,page=1].items[bvid=BV1Bapt6eETd]"
+          }
+        ],
+        "recordings": [
+          {
+            "file": "../evidence/round-08-source-directory-batch02.json",
+            "locator": "sources[kind=video-directory,accountId=105260060,page=1].items[bvid=BV1Bapt6eETd]"
+          }
+        ]
+      }
+    }
+  ]
+}

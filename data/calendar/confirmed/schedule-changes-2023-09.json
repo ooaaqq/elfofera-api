@@ -1,0 +1,21 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "844903441033592832",
+      "action": "cancellation",
+      "date": "2023-09-24",
+      "member": "yumo",
+      "plannedTime": "21:30",
+      "relatedEventId": "evt_38a244f1-6d6f-4a4a-a6c6-905c8cbe483e",
+      "evidence": {
+        "file": "../evidence/history-01/dynamics-2023.json",
+        "locator": "844903441033592832"
+      },
+      "memberEvidence": {
+        "file": "../evidence/september-2023-official-details.json",
+        "locator": "844903441033592832"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "849652682739154999",
+      "action": "cancellation",
+      "date": "2023-10-07",
+      "plannedTime": "19:00",
+      "relatedEventId": "evt_4641f473-0004-47f1-bbf6-e1a8c1288df3",
+      "evidence": {
+        "file": "../evidence/history-01/dynamics-2023.json",
+        "locator": "849652682739154999"
+      }
+    },
+    {
+      "announcementId": "857101564782837766",
+      "action": "cancellation",
+      "date": "2023-10-27",
+      "member": "minuo",
+      "plannedTime": "20:00",
+      "relatedEventId": "evt_2a273905-11c5-4d04-9371-2c7f30583ab3",
+      "evidence": {
+        "file": "../evidence/history-01/dynamics-2023.json",
+        "locator": "857101564782837766"
+      },
+      "memberEvidence": {
+        "file": "../source/october-2023/855471431403700228.png",
+        "locator": "855471431403700228"
+      }
+    }
+  ]
+}

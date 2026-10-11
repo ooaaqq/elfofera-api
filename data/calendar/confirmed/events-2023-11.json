@@ -1,0 +1,4059 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "scope": {
+    "from": "2023-11-01",
+    "through": "2023-11-30",
+    "completeness": "known-events-only"
+  },
+  "events": [
+    {
+      "date": "2023-11-01",
+      "kind": "livestream",
+      "title": "【3D】开心鬼撞鬼",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Xa4y1X7is",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1Xa4y1X7is"
+          }
+        },
+        {
+          "bvid": "BV1n84y197YJ",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1n84y197YJ"
+          }
+        }
+      ],
+      "id": "evt_d5215c58-d66c-434e-87bc-4f7612c87346",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1Xa4y1X7is"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1n84y197YJ"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/october-2023/858074679812816916.jpg",
+            "locator": "858074679812816916"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Xa4y1X7is",
+      "plannedMembers": [
+        "minuo"
+      ],
+      "plannedTime": "19:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-01",
+      "kind": "livestream",
+      "title": "【3D】我的十二宗“最”",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1dN4y167EE",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1dN4y167EE"
+          }
+        },
+        {
+          "bvid": "BV1z94y1G7xX",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1z94y1G7xX"
+          }
+        }
+      ],
+      "id": "evt_f976b021-e2e3-40b0-8a49-e1090937f997",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1dN4y167EE"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1z94y1G7xX"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/october-2023/858074679812816916.jpg",
+            "locator": "858074679812816916"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1dN4y167EE",
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "20:30",
+      "participation": "individual"
+    },
+    {
+      "id": "evt_dd789e65-fe98-4fb9-9388-71e769c25e99",
+      "date": "2023-11-02",
+      "kind": "announcement",
+      "title": "启用备用网络，直播即将开始",
+      "text": "官方通知已启用备用网络，直播即将开始。",
+      "publishedAt": "2023-11-02T11:05:42.000Z",
+      "occurrence": "announced",
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2023.json",
+          "locator": "859357423323840550"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-02",
+      "kind": "announcement",
+      "title": "亲爱的EOES，大家好，临时插播一条消息。当前公司网络突然中断，暂时无法开始直播。因此原定于今日的两场直播将暂定延后，待技术人员修复后开始。",
+      "text": "亲爱的EOES，大家好，临时插播一条消息。当前公司网络突然中断，暂时无法开始直播。因此原定于今日的两场直播将暂定延后，待技术人员修复后开始。",
+      "publishedAt": "2023-11-02T10:54:46.000Z",
+      "occurrence": "announced",
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2023.json",
+          "locator": "859354606087438372"
+        }
+      ],
+      "id": "evt_9cfefcd3-f2d6-4034-b129-2fe653223d42",
+      "relatedEvents": [
+        {
+          "eventId": "evt_dd789e65-fe98-4fb9-9388-71e769c25e99",
+          "relation": "announces"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-02",
+      "kind": "livestream",
+      "title": "【3D】点击领取11月好运",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1rc411d782",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1rc411d782"
+          }
+        },
+        {
+          "bvid": "BV1qg4y1R7XU",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1qg4y1R7XU"
+          }
+        }
+      ],
+      "id": "evt_6f888a47-7395-4269-8122-889c113c923a",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1rc411d782"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1qg4y1R7XU"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/october-2023/858074679812816916.jpg",
+            "locator": "858074679812816916"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1rc411d782",
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "19:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-02",
+      "kind": "livestream",
+      "title": "【3D】欧~米茄？！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ba4y1D7Q6",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1ba4y1D7Q6"
+          }
+        },
+        {
+          "bvid": "BV1iH4y1z7GY",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1iH4y1z7GY"
+          }
+        }
+      ],
+      "id": "evt_b32b73b4-2a6e-4a5c-a9c2-95d2b61af68e",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1ba4y1D7Q6"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1iH4y1z7GY"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/october-2023/858074679812816916.jpg",
+            "locator": "858074679812816916"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1ba4y1D7Q6",
+      "plannedMembers": [
+        "minuo",
+        "yumo"
+      ],
+      "plannedTime": "20:30",
+      "participation": "collaboration"
+    },
+    {
+      "date": "2023-11-03",
+      "kind": "livestream",
+      "title": "【2D自习室】学习系偶像",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1YG411X7Ah",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1YG411X7Ah"
+          }
+        },
+        {
+          "bvid": "BV1sM411Q7zn",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1sM411Q7zn"
+          }
+        }
+      ],
+      "id": "evt_accaeb9b-8ef1-4dc2-bd9f-94f6e0fcc1b6",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1YG411X7Ah"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1sM411Q7zn"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1YG411X7Ah"
+    },
+    {
+      "id": "evt_29482962-dd70-4b49-8ba0-3d78a8292470",
+      "date": "2023-11-04",
+      "kind": "announcement",
+      "title": "露早生日会天选礼物补偿说明",
+      "text": "官方说明天选礼未能在开播时上线，宣布为当日上舰成员追加露早Q版挂件。",
+      "publishedAt": "2023-11-04T15:36:51.000Z",
+      "occurrence": "announced",
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2023.json",
+          "locator": "860169468495527936"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "eventId": "evt_d56f8db9-1684-4778-bceb-153093c26941",
+          "relation": "announces"
+        }
+      ]
+    },
+    {
+      "id": "evt_1cd28a71-73a9-4fdb-8ea2-a8af37e6b210",
+      "date": "2023-11-04",
+      "kind": "announcement",
+      "title": "露早生日演唱会达成2000+舰长",
+      "text": "官方图片宣布露早生日演唱会达成2000+舰长。",
+      "publishedAt": "2023-11-04T15:38:04.000Z",
+      "occurrence": "announced",
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2023.json",
+          "locator": "860169782052257847"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "eventId": "evt_d56f8db9-1684-4778-bceb-153093c26941",
+          "relation": "announces"
+        }
+      ]
+    },
+    {
+      "id": "evt_d8655c4d-be26-4b40-bbf4-1716f8331f85",
+      "date": "2023-11-04",
+      "kind": "announcement",
+      "title": "露早生日演唱会结尾内容致歉",
+      "text": "官方就生日演唱会结尾彩蛋呈现与执行造成理解困难、影响观看感受致歉，并转发露早对叙事结构的说明。",
+      "publishedAt": "2023-11-04T15:25:09.000Z",
+      "occurrence": "announced",
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2023.json",
+          "locator": "860166453428486176"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "eventId": "evt_d56f8db9-1684-4778-bceb-153093c26941",
+          "relation": "announces"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-04",
+      "kind": "livestream",
+      "title": "【3D】露早生日演唱会--重生",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1PN411g7Fn",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1PN411g7Fn"
+          }
+        },
+        {
+          "bvid": "BV1ZQ4y1J7YG",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1ZQ4y1J7YG"
+          }
+        }
+      ],
+      "id": "evt_d56f8db9-1684-4778-bceb-153093c26941",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1PN411g7Fn"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1ZQ4y1J7YG"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/october-2023/858074679812816916.jpg",
+            "locator": "858074679812816916"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1PN411g7Fn",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30",
+      "participation": "birthday-event",
+      "assets": [
+        {
+          "bvid": "BV11u4y187Th",
+          "role": "program-excerpt",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV11u4y187Th]"
+          }
+        }
+      ]
+    },
+    {
+      "id": "evt_5aaea4dc-3c65-44e5-9df4-4b813a157238",
+      "date": "2023-11-04",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "与我，一齐《登神》",
+      "publishedAt": "2023-11-04T14:31:14.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_a78556c6-ebf7-477a-a991-8e3050635fe6"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1tC4y1J7Vf",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1tC4y1J7Vf]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1tC4y1J7Vf]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-04T14:31:14.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1tC4y1J7Vf]",
+            "sourceField": "title",
+            "excerpt": "与我，一齐《登神》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1tC4y1J7Vf]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "date": "2023-11-05",
+      "kind": "livestream",
+      "title": "【2D】一起莞游戏",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        13
+      ],
+      "recordings": [
+        {
+          "bvid": "BV18z4y1A74q",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV18z4y1A74q"
+          }
+        },
+        {
+          "bvid": "BV1Pg4y1d7La",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Pg4y1d7La"
+          }
+        }
+      ],
+      "id": "evt_e3053c87-0a83-468c-8b63-386c8fb8e973",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV18z4y1A74q"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Pg4y1d7La"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/october-2023/858074679812816916.jpg",
+            "locator": "858074679812816916"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV18z4y1A74q",
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "14:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-05",
+      "kind": "livestream",
+      "title": "【3D】一起重生看二创",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Cg4y1R7dc",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Cg4y1R7dc"
+          }
+        },
+        {
+          "bvid": "BV1ia4y1D7tn",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1ia4y1D7tn"
+          }
+        }
+      ],
+      "id": "evt_c2b1c373-4e2d-49df-9b2b-8fbf69a96c2e",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Cg4y1R7dc"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1ia4y1D7tn"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/october-2023/858074679812816916.jpg",
+            "locator": "858074679812816916"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Cg4y1R7dc",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30",
+      "participation": "individual"
+    },
+    {
+      "id": "evt_e655d806-cfe1-4562-b1fb-6c1398d961d6",
+      "date": "2023-11-05",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "这是艺术！翻过这座山，我将迎来真正的重生『Running Up That Hill』【露早翻唱】",
+      "publishedAt": "2023-11-05T09:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_c6399a8c-9f69-4b1d-b3c5-bd23de8baba1"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1pQ4y1n7wD",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1pQ4y1n7wD]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1pQ4y1n7wD]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-05T09:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1pQ4y1n7wD]",
+            "sourceField": "title",
+            "excerpt": "这是艺术！翻过这座山，我将迎来真正的重生『Running Up That Hill』【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1pQ4y1n7wD]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "date": "2023-11-06",
+      "kind": "livestream",
+      "title": "【电台】粘人系偶像",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        13
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1aw411s72U",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1aw411s72U"
+          }
+        },
+        {
+          "bvid": "BV1Tg4y1d7Wd",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Tg4y1d7Wd"
+          }
+        }
+      ],
+      "id": "evt_fb504e28-89c2-48b6-99f4-accafc180b32",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1aw411s72U"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Tg4y1d7Wd"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1aw411s72U"
+    },
+    {
+      "id": "evt_cefbbe0e-8de1-44e2-b51a-7e50986d7331",
+      "date": "2023-11-06",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "就算你有一座『心墙』，我的爱会攀上窗台盛放【露早翻唱】",
+      "publishedAt": "2023-11-06T09:10:33.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_1b9a7c21-f0a2-4327-8b99-c3dafd774942"
+      ],
+      "assets": [
+        {
+          "bvid": "BV14N411G7jo",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV14N411G7jo]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV14N411G7jo]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-06T09:10:33.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV14N411G7jo]",
+            "sourceField": "title",
+            "excerpt": "就算你有一座『心墙』，我的爱会攀上窗台盛放【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV14N411G7jo]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_38065142-bbd8-4641-9c71-0bf461b38c2d",
+      "date": "2023-11-06",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "极致破碎！双重空灵嗓音演绎宿命感『lovely』",
+      "text": "原曲：lovely-Billie Eilish\n翻唱：露早 黑泽诺亚",
+      "publishedAt": "2023-11-06T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_26413798-277f-4080-9c46-df7a508f0abf"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1Rg4y1R7S8",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Rg4y1R7S8]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Rg4y1R7S8]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-06T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Rg4y1R7S8]",
+            "sourceField": "title",
+            "excerpt": "极致破碎！双重空灵嗓音演绎宿命感『lovely』"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Rg4y1R7S8]",
+            "sourceField": "description",
+            "excerpt": "原曲：lovely-Billie Eilish\n翻唱：露早 黑泽诺亚"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "date": "2023-11-07",
+      "kind": "livestream",
+      "title": "【3D】喝个奶茶真不容易",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1aj411h7F2",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1aj411h7F2"
+          }
+        },
+        {
+          "bvid": "BV1xa4y1Q7A4",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1xa4y1Q7A4"
+          }
+        }
+      ],
+      "id": "evt_6d7d772c-2c74-4958-a36d-d01d6ff8bb1a",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1aj411h7F2"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1xa4y1Q7A4"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/860668685446021124.jpg",
+            "locator": "860668685446021124"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1aj411h7F2",
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "19:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-07",
+      "kind": "livestream",
+      "title": "【3D】我测测",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1gg4y197T4",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1gg4y197T4"
+          }
+        },
+        {
+          "bvid": "BV1384y1X7yy",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1384y1X7yy"
+          }
+        }
+      ],
+      "id": "evt_b6f88a5a-f9bb-4e1d-97ce-0bf296d10222",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1gg4y197T4"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1384y1X7yy"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/860668685446021124.jpg",
+            "locator": "860668685446021124"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1gg4y197T4",
+      "plannedMembers": [
+        "minuo"
+      ],
+      "plannedTime": "20:30",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-07",
+      "kind": "livestream",
+      "title": "【突击】饿得",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        22
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1AG411Q7h7",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1AG411Q7h7"
+          }
+        },
+        {
+          "bvid": "BV1zz4y1P7fp",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1zz4y1P7fp"
+          }
+        }
+      ],
+      "id": "evt_7496ceca-f665-44aa-8acd-f27ce299f35d",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1AG411Q7h7"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1zz4y1P7fp"
+          }
+        ],
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1AG411Q7h7"
+          }
+        ],
+        "userConfirmation": [
+          {
+            "file": "../evidence/round-07-user-clarifications-2022-10-piano.json",
+            "locator": "eated-same-event",
+            "sourceField": "user-confirmation",
+            "excerpt": "用户查验确认 BV1AG411Q7h7 与 BV1zz4y1P7fp 内容一模一样，属于同一场。"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1AG411Q7h7",
+      "recordingDateClaims": [
+        {
+          "date": "2023-11-08",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1zz4y1P7fp"
+          },
+          "note": "录播组日期为上传/录播标注差异；用户已查验两条内容完全相同，仍归同一场。"
+        }
+      ]
+    },
+    {
+      "id": "evt_b297cfa4-c7f8-436a-8071-eb0570a11cdb",
+      "date": "2023-11-07",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "We got that 《Power》，超能力为你展现【EOE翻唱跳】",
+      "publishedAt": "2023-11-07T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_569fffcf-a9de-4eaf-b8d5-8e1ee8822cbf"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1Qw411M7Uy",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Qw411M7Uy]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Qw411M7Uy]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-07T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Qw411M7Uy]",
+            "sourceField": "title",
+            "excerpt": "We got that 《Power》，超能力为你展现【EOE翻唱跳】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Qw411M7Uy]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_842ac5af-ea20-4345-99ea-e3955b53e58f",
+      "date": "2023-11-07",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "有你在，每天都是 『好日子』💘【露早翻唱】",
+      "publishedAt": "2023-11-07T09:46:04.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_0fc2418a-addf-47f0-8ebb-f0c7fbd852be"
+      ],
+      "assets": [
+        {
+          "bvid": "BV18C4y1J7x5",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV18C4y1J7x5]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV18C4y1J7x5]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-07T09:46:04.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV18C4y1J7x5]",
+            "sourceField": "title",
+            "excerpt": "有你在，每天都是 『好日子』💘【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV18C4y1J7x5]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "date": "2023-11-08",
+      "kind": "livestream",
+      "title": "【3D】莞星大改造！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1vM411S714",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1vM411S714"
+          }
+        },
+        {
+          "bvid": "BV1TC4y1U7xy",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1TC4y1U7xy"
+          }
+        }
+      ],
+      "id": "evt_90fd894d-fde4-437d-a035-a4ad4220f581",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1vM411S714"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1TC4y1U7xy"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/860668685446021124.jpg",
+            "locator": "860668685446021124"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1vM411S714",
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "19:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-08",
+      "kind": "livestream",
+      "title": "【3D】现场QA",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1o84y1Q77p",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1o84y1Q77p"
+          }
+        },
+        {
+          "bvid": "BV1Nu4y1N7fq",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Nu4y1N7fq"
+          }
+        }
+      ],
+      "id": "evt_71674f6c-b268-42b8-94e4-250a115c4212",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1o84y1Q77p"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Nu4y1N7fq"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/860668685446021124.jpg",
+            "locator": "860668685446021124"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1o84y1Q77p",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "20:30",
+      "participation": "individual"
+    },
+    {
+      "id": "evt_b8500fc4-bea6-4b34-a993-657729acdd27",
+      "date": "2023-11-08",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "我们绕了这么一圈才《遇到》【露早生日会大合唱】",
+      "publishedAt": "2023-11-08T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_1ffab99c-20e8-477c-8c2f-339964633d29"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1Pg4y197jE",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Pg4y197jE]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Pg4y197jE]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-08T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Pg4y197jE]",
+            "sourceField": "title",
+            "excerpt": "我们绕了这么一圈才《遇到》【露早生日会大合唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Pg4y197jE]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_0b7e3c03-39e1-4170-bc9b-90b120615b7b",
+      "date": "2023-11-08",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "虚拟偶像也要跳《Baddie》！",
+      "text": "莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802\n官号﻿@EOE组合 ：h",
+      "publishedAt": "2023-11-08T06:09:52.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_cedb3ff8-c438-444b-b45b-0fe3a9be82f9"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1kM411S7rp",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1kM411S7rp]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1kM411S7rp]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-08T06:09:52.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1kM411S7rp]",
+            "sourceField": "title",
+            "excerpt": "虚拟偶像也要跳《Baddie》！"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1kM411S7rp]",
+            "sourceField": "description",
+            "excerpt": "莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802\n官号﻿@EOE组合 ：h"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "date": "2023-11-09",
+      "kind": "livestream",
+      "title": "【3D】你所不知道的我",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV16w411K73v",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV16w411K73v"
+          }
+        },
+        {
+          "bvid": "BV1eN4y1D7D2",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1eN4y1D7D2"
+          }
+        }
+      ],
+      "id": "evt_9823968d-2ef2-4d0c-b234-ac38ce708f40",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV16w411K73v"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1eN4y1D7D2"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/860668685446021124.jpg",
+            "locator": "860668685446021124"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV16w411K73v",
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "19:30",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-09",
+      "kind": "livestream",
+      "title": "【电台】怎么说呢…",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        22
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1aC4y177m4",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1aC4y177m4"
+          }
+        },
+        {
+          "bvid": "BV1o84y1Q78v",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1o84y1Q78v"
+          }
+        }
+      ],
+      "id": "evt_196ee0c5-fbd4-48d5-8715-d92b6aa5275c",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1aC4y177m4"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1o84y1Q78v"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/860668685446021124.jpg",
+            "locator": "860668685446021124"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1aC4y177m4",
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "22:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-09",
+      "kind": "livestream",
+      "title": "突！莞儿睡醒了",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        13
+      ],
+      "recordings": [
+        {
+          "bvid": "BV14z4y1P7N8",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV14z4y1P7N8"
+          }
+        },
+        {
+          "bvid": "BV1nj411h7TH",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1nj411h7TH"
+          }
+        }
+      ],
+      "id": "evt_087ca167-3e8e-4e1e-af61-6fab0f551bf3",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV14z4y1P7N8"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1nj411h7TH"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV14z4y1P7N8"
+    },
+    {
+      "id": "evt_78259f15-c242-443d-bf5e-8de168230ecb",
+      "date": "2023-11-09",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "黑暗来袭！艰难团战！我方英雄能否逆袭翻盘？《Crown|复苏》",
+      "publishedAt": "2023-11-09T03:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_404c77f2-aeeb-406d-b830-bec181d4f094"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1984y1Q7NZ",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1984y1Q7NZ]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1984y1Q7NZ]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-09T03:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1984y1Q7NZ]",
+            "sourceField": "title",
+            "excerpt": "黑暗来袭！艰难团战！我方英雄能否逆袭翻盘？《Crown|复苏》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1984y1Q7NZ]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "date": "2023-11-10",
+      "kind": "livestream",
+      "title": "【2D】抽个卡！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Eb4y1g7DZ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Eb4y1g7DZ"
+          }
+        },
+        {
+          "bvid": "BV1Wc411X7fz",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Wc411X7fz"
+          }
+        }
+      ],
+      "id": "evt_c443be67-0150-444f-8cdb-4531247e3d5d",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Eb4y1g7DZ"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Wc411X7fz"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/860668685446021124.jpg",
+            "locator": "860668685446021124"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Eb4y1g7DZ",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-10",
+      "kind": "livestream",
+      "title": "【2D】一起莞游戏",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        22
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1fG411Q7GG",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1fG411Q7GG"
+          }
+        },
+        {
+          "bvid": "BV1sz4y1w7b7",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1sz4y1w7b7"
+          }
+        }
+      ],
+      "id": "evt_e77dc07c-8bd0-47a4-a40a-a3876ab72975",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1fG411Q7GG"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1sz4y1w7b7"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/860668685446021124.jpg",
+            "locator": "860668685446021124"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1fG411Q7GG",
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "22:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-10",
+      "kind": "livestream",
+      "title": "【电台】迟到是因为…",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        10
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1jN411g74K",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1jN411g74K"
+          }
+        },
+        {
+          "bvid": "BV1BG41197kt",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1BG41197kt"
+          }
+        }
+      ],
+      "id": "evt_b781479f-87a5-46da-a0e2-9816e5671c7b",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1jN411g74K"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1BG41197kt"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1jN411g74K"
+    },
+    {
+      "date": "2023-11-11",
+      "kind": "announcement",
+      "title": "兼具舒适、性价比和共处一室的房子确实很难找，坚定的友情和羁绊也不会因为不住一起而弱哪怕半分，何况姑娘们的新家彼此距离如此之近。有E思们请不必担心一些企划的正常变动。我们还会陪伴大家很漫长的时间。所以，",
+      "text": "兼具舒适、性价比和共处一室的房子确实很难找，坚定的友情和羁绊也不会因为不住一起而弱哪怕半分，何况姑娘们的新家彼此距离如此之近。有E思们请不必担心一些企划的正常变动。我们还会陪伴大家很漫长的时间。所以，接下来的许多年，还请大家继续支持EOE！",
+      "publishedAt": "2023-11-11T13:25:46.000Z",
+      "occurrence": "announced",
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2023.json",
+          "locator": "862733284811997185"
+        }
+      ],
+      "id": "evt_a8e89959-a30b-4048-a17a-2f836ea3eab1"
+    },
+    {
+      "date": "2023-11-11",
+      "kind": "livestream",
+      "title": "单身派对，拒绝深夜emo",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ZN411g76T",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1ZN411g76T"
+          }
+        },
+        {
+          "bvid": "BV1TC4y1E7SE",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1TC4y1E7SE"
+          }
+        }
+      ],
+      "id": "evt_b8ca69b1-6b16-487b-8d80-aec2e9493a48",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1ZN411g76T"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1TC4y1E7SE"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/860668685446021124.jpg",
+            "locator": "860668685446021124"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1ZN411g76T",
+      "plannedTime": "19:30",
+      "participation": "group"
+    },
+    {
+      "id": "evt_bf29ea2d-fa25-4725-827c-42ee1e78e670",
+      "date": "2023-11-11",
+      "kind": "announcement",
+      "title": "露早缺席当日团播公告",
+      "text": "亲爱的EOES，大家好，临时插播一条消息。@露早GOGO 由于突发急性肠胃炎，将缺席今日团播。还请大家理解。",
+      "publishedAt": "2023-11-11T07:02:45.000Z",
+      "occurrence": "announced",
+      "relatedEvents": [
+        "evt_b8ca69b1-6b16-487b-8d80-aec2e9493a48"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2023.json",
+          "locator": "862634582173810697"
+        }
+      ]
+    },
+    {
+      "id": "evt_f70d9dfa-3595-4c68-9ae3-d5642165e197",
+      "date": "2023-11-11",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "极致体验！你绝对没听过的三人版《一路向北》",
+      "publishedAt": "2023-11-11T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_2bce4ad6-54be-418b-935a-4610b7b0c7b6"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1Tw411W7h4",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1Tw411W7h4]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1Tw411W7h4]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-11T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1Tw411W7h4]",
+            "sourceField": "title",
+            "excerpt": "极致体验！你绝对没听过的三人版《一路向北》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1Tw411W7h4]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "date": "2023-11-12",
+      "kind": "livestream",
+      "title": "【电台】放松time",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        23
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1gz4y1w7GT",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1gz4y1w7GT"
+          }
+        }
+      ],
+      "id": "evt_a3623faa-6f48-4468-a589-887222a2c07f",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1gz4y1w7GT"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1gz4y1w7GT"
+    },
+    {
+      "date": "2023-11-12",
+      "kind": "livestream",
+      "title": "米诺&柚恩2D联动",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo",
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1iu4y1N78j",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1iu4y1N78j"
+          }
+        },
+        {
+          "bvid": "BV1hN4y1U7oG",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1hN4y1U7oG"
+          }
+        },
+        {
+          "bvid": "BV1tu4y1N7aR",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1tu4y1N7aR"
+          }
+        },
+        {
+          "bvid": "BV1QH4y1B7ou",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1QH4y1B7ou"
+          }
+        }
+      ],
+      "id": "evt_9d05f825-b8b1-4026-b493-d3f68e00ff8a",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1iu4y1N78j"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1hN4y1U7oG"
+          },
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1tu4y1N7aR"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1QH4y1B7ou"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/860668685446021124.jpg",
+            "locator": "860668685446021124"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1iu4y1N78j",
+      "plannedMembers": [
+        "minuo",
+        "youen"
+      ],
+      "plannedTime": "19:00",
+      "participation": "collaboration"
+    },
+    {
+      "date": "2023-11-13",
+      "kind": "livestream",
+      "title": "【电台】大吃特吃",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ru4y1b7tN",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1ru4y1b7tN"
+          }
+        },
+        {
+          "bvid": "BV1uH4y1z7iD",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1uH4y1z7iD"
+          }
+        }
+      ],
+      "id": "evt_f538bbca-deed-4738-b571-ddca4e3fc8e3",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1ru4y1b7tN"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1uH4y1z7iD"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/863266797044891664.jpg",
+            "locator": "863266797044891664"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1ru4y1b7tN",
+      "plannedTime": "19:30",
+      "participation": "group"
+    },
+    {
+      "date": "2023-11-14",
+      "kind": "livestream",
+      "title": "【3D】白导拉片",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Bb4y1g7HP",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Bb4y1g7HP"
+          }
+        },
+        {
+          "bvid": "BV1bC4y1j7YM",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1bC4y1j7YM"
+          }
+        }
+      ],
+      "id": "evt_82747f87-c7dd-4eb3-95ac-b6407e3e5762",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Bb4y1g7HP"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1bC4y1j7YM"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/863266797044891664.jpg",
+            "locator": "863266797044891664"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Bb4y1g7HP",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "20:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-15",
+      "kind": "livestream",
+      "title": "【3D】关于我们的一些小事",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1cH4y1q7Vx",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1cH4y1q7Vx"
+          }
+        },
+        {
+          "bvid": "BV1NN4y1S7RE",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1NN4y1S7RE"
+          }
+        }
+      ],
+      "id": "evt_85be39e9-5a17-4969-a6e0-01f4f89a0aa1",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1cH4y1q7Vx"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1NN4y1S7RE"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/863266797044891664.jpg",
+            "locator": "863266797044891664"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1cH4y1q7Vx",
+      "plannedMembers": [
+        "minuo"
+      ],
+      "plannedTime": "19:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-15",
+      "kind": "livestream",
+      "title": "【3D】玩点真的！！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1SN411M7q7",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1SN411M7q7"
+          }
+        },
+        {
+          "bvid": "BV1nu411F7QR",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1nu411F7QR"
+          }
+        }
+      ],
+      "id": "evt_e24f712a-49c1-4e56-b75e-1bdf795e3350",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1SN411M7q7"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1nu411F7QR"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/863266797044891664.jpg",
+            "locator": "863266797044891664"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1SN411M7q7",
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "20:30",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-16",
+      "kind": "livestream",
+      "title": "【3D】我~来~了",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1bH4y1q7Qi",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1bH4y1q7Qi"
+          }
+        },
+        {
+          "bvid": "BV1fu4y1A7mh",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1fu4y1A7mh"
+          }
+        }
+      ],
+      "id": "evt_b3bf234a-7631-403b-8327-bface2333b29",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1bH4y1q7Qi"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1fu4y1A7mh"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/863266797044891664.jpg",
+            "locator": "863266797044891664"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1bH4y1q7Qi",
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "20:30",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-16",
+      "kind": "livestream",
+      "title": "【3D】小莞树洞",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1yb4y1M7Gb",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1yb4y1M7Gb"
+          }
+        },
+        {
+          "bvid": "BV1XC4y1j7wG",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1XC4y1j7wG"
+          }
+        }
+      ],
+      "id": "evt_52530874-25e6-4516-af3d-ff1ebba3dc9e",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1yb4y1M7Gb"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1XC4y1j7wG"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/863266797044891664.jpg",
+            "locator": "863266797044891664"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1yb4y1M7Gb",
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "19:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-17",
+      "kind": "livestream",
+      "title": "【3D】2024直播推介会",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV18g4y1X7My",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV18g4y1X7My"
+          }
+        },
+        {
+          "bvid": "BV1BN411u7Yp",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1BN411u7Yp"
+          }
+        }
+      ],
+      "id": "evt_eb4ac0e3-7d8e-449e-8104-0af1cde4dc64",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV18g4y1X7My"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1BN411u7Yp"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/863266797044891664.jpg",
+            "locator": "863266797044891664"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV18g4y1X7My",
+      "plannedTime": "19:30",
+      "participation": "group"
+    },
+    {
+      "date": "2023-11-17",
+      "kind": "livestream",
+      "title": "【电台】上午好",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        10
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1gw411K77o",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1gw411K77o"
+          }
+        },
+        {
+          "bvid": "BV1Uw411H7Z5",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Uw411H7Z5"
+          }
+        }
+      ],
+      "id": "evt_1eb6356d-9e77-4821-bebe-dd3e9bbfc876",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1gw411K77o"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Uw411H7Z5"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1gw411K77o"
+    },
+    {
+      "id": "evt_f8f196bd-1b9d-4c09-a6c1-d070d1254deb",
+      "date": "2023-11-17",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『ふりそでーしょん』纪念日要和你一起度过💓【露早翻唱】",
+      "publishedAt": "2023-11-17T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_1007d8fb-1eef-4ac0-84fa-34984fecddf7"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1xw411W7gd",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1xw411W7gd]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1xw411W7gd]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-17T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1xw411W7gd]",
+            "sourceField": "title",
+            "excerpt": "『ふりそでーしょん』纪念日要和你一起度过💓【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1xw411W7gd]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_7be6dbf7-5ea5-427f-a66f-c59962ef20e7",
+      "date": "2023-11-17",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "女王驾到👑《Baddie》翻跳💃",
+      "text": "原曲：Baddie-IVE\n翻跳：虞莫",
+      "publishedAt": "2023-11-17T09:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_cedb3ff8-c438-444b-b45b-0fe3a9be82f9"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1pw411N7GN",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1pw411N7GN]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1pw411N7GN]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-17T09:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1pw411N7GN]",
+            "sourceField": "title",
+            "excerpt": "女王驾到👑《Baddie》翻跳💃"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1pw411N7GN]",
+            "sourceField": "description",
+            "excerpt": "原曲：Baddie-IVE\n翻跳：虞莫"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "date": "2023-11-18",
+      "kind": "livestream",
+      "title": "莞睡电台~",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        0
+      ],
+      "recordings": [
+        {
+          "bvid": "BV17G411D7kL",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV17G411D7kL"
+          }
+        },
+        {
+          "bvid": "BV1Hg4y1X7En",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Hg4y1X7En"
+          }
+        }
+      ],
+      "id": "evt_65439f2a-e718-4031-a66b-e0e640f7d1c7",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV17G411D7kL"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Hg4y1X7En"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV17G411D7kL"
+    },
+    {
+      "date": "2023-11-19",
+      "kind": "livestream",
+      "title": "【3D】卡拉永远OK",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1eN411T73V",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1eN411T73V"
+          }
+        },
+        {
+          "bvid": "BV15H4y127y2",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV15H4y127y2"
+          }
+        }
+      ],
+      "id": "evt_47855a1e-5a5a-4049-9f2a-c7ffdafed86a",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1eN411T73V"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV15H4y127y2"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/863266797044891664.jpg",
+            "locator": "863266797044891664"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1eN411T73V",
+      "plannedMembers": [
+        "luzao",
+        "yumo"
+      ],
+      "plannedTime": "19:30",
+      "participation": "collaboration"
+    },
+    {
+      "date": "2023-11-20",
+      "kind": "livestream",
+      "title": "【电台】呵呵，",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        21
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1XC4y1m7QN",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1XC4y1m7QN"
+          }
+        },
+        {
+          "bvid": "BV1Uz4y1c7pr",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Uz4y1c7pr"
+          }
+        }
+      ],
+      "id": "evt_98620335-e8a1-4356-8750-3c2ab6b2710c",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1XC4y1m7QN"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Uz4y1c7pr"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1XC4y1m7QN"
+    },
+    {
+      "date": "2023-11-20",
+      "kind": "livestream",
+      "title": "【直播标题】2D突击",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        15
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1wu4y1j72M",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1wu4y1j72M"
+          }
+        },
+        {
+          "bvid": "BV1qe411f7NJ",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1qe411f7NJ"
+          }
+        }
+      ],
+      "id": "evt_8078331c-30fb-4ac2-b9fd-66565fb63d32",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1wu4y1j72M"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1qe411f7NJ"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1wu4y1j72M"
+    },
+    {
+      "id": "evt_797d5844-e297-4693-bfb2-7c43ca9b4277",
+      "date": "2023-11-20",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "《With a smile》神秘梦中人扰乱我的心神【露早生日会】",
+      "publishedAt": "2023-11-20T06:25:03.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_cb3ed95a-104d-4d52-b8bf-d652229fdf83"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1Fw411P7HM",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Fw411P7HM]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Fw411P7HM]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-20T06:25:03.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Fw411P7HM]",
+            "sourceField": "title",
+            "excerpt": "《With a smile》神秘梦中人扰乱我的心神【露早生日会】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1Fw411P7HM]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "date": "2023-11-21",
+      "kind": "livestream",
+      "title": "【2D】看好了别眨眼哦",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        21
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Yc41167k3",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Yc41167k3"
+          }
+        },
+        {
+          "bvid": "BV1Su4y1L7WR",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Su4y1L7WR"
+          }
+        }
+      ],
+      "id": "evt_96d9e2a7-44e3-4b60-a0bf-74ec5a0db894",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Yc41167k3"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Su4y1L7WR"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/865862331694841865.png",
+            "locator": "865862331694841865"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Yc41167k3",
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "21:30",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-21",
+      "kind": "livestream",
+      "title": "【3D】嘘..让我躺在你身边",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1tu4y1w7XQ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1tu4y1w7XQ"
+          }
+        },
+        {
+          "bvid": "BV1Hw411p7Am",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Hw411p7Am"
+          }
+        }
+      ],
+      "id": "evt_99951215-7b81-4596-9b5f-ed0bdbc93717",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1tu4y1w7XQ"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Hw411p7Am"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/865862331694841865.png",
+            "locator": "865862331694841865"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1tu4y1w7XQ",
+      "plannedMembers": [
+        "minuo"
+      ],
+      "plannedTime": "19:30",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-22",
+      "kind": "livestream",
+      "title": "【2D】O(∩_∩)O哈哈~",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        21
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ww411n7dH",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1ww411n7dH"
+          }
+        },
+        {
+          "bvid": "BV1vC4y1P7Bb",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1vC4y1P7Bb"
+          }
+        }
+      ],
+      "id": "evt_82a040da-defe-4070-b6e8-05ce24a8d001",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1ww411n7dH"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1vC4y1P7Bb"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/865862331694841865.png",
+            "locator": "865862331694841865"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1ww411n7dH",
+      "plannedMembers": [
+        "minuo"
+      ],
+      "plannedTime": "21:30",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-22",
+      "kind": "livestream",
+      "title": "【3D】玩点真实的",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1WC4y1P7R4",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1WC4y1P7R4"
+          }
+        },
+        {
+          "bvid": "BV19j411j74i",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV19j411j74i"
+          }
+        }
+      ],
+      "id": "evt_d0ee8e98-b023-4e62-a141-e6c77a295bf7",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1WC4y1P7R4"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV19j411j74i"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1WC4y1P7R4"
+    },
+    {
+      "date": "2023-11-22",
+      "kind": "livestream",
+      "title": "【电台】上午好！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        10
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1o34y1c7Z1",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1o34y1c7Z1"
+          }
+        },
+        {
+          "bvid": "BV1A34y1w7X2",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1A34y1w7X2"
+          }
+        }
+      ],
+      "id": "evt_9985ba53-de07-46f6-bb6e-448b5a7d80ec",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1o34y1c7Z1"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1A34y1w7X2"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1o34y1c7Z1"
+    },
+    {
+      "date": "2023-11-23",
+      "kind": "livestream",
+      "title": "【3D】#复古#怀旧",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1rN4y117s6",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1rN4y117s6"
+          }
+        },
+        {
+          "bvid": "BV1Pw411n7WT",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Pw411n7WT"
+          }
+        }
+      ],
+      "id": "evt_1b108931-1c67-4aa8-9949-3ed3441162ca",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1rN4y117s6"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1Pw411n7WT"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1rN4y117s6"
+    },
+    {
+      "date": "2023-11-23",
+      "kind": "livestream",
+      "title": "【3D】无罪or牢内",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV18H4y127D6",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV18H4y127D6"
+          }
+        },
+        {
+          "bvid": "BV1k34y1w7pz",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1k34y1w7pz"
+          }
+        }
+      ],
+      "id": "evt_b4406209-ccb9-4c6f-b232-605830c4f120",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV18H4y127D6"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1k34y1w7pz"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/865862331694841865.png",
+            "locator": "865862331694841865"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV18H4y127D6",
+      "plannedMembers": [
+        "waner",
+        "luzao",
+        "youen"
+      ],
+      "plannedTime": "20:30",
+      "participation": "trio"
+    },
+    {
+      "date": "2023-11-23",
+      "kind": "livestream",
+      "title": "【电台】下午签个名~",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        15
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1qG411U77B",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1qG411U77B"
+          }
+        },
+        {
+          "bvid": "BV1WM411f7fa",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1WM411f7fa"
+          }
+        }
+      ],
+      "id": "evt_4958500f-d6c8-4093-9e2d-b9504755ac09",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1qG411U77B"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1WM411f7fa"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1qG411U77B"
+    },
+    {
+      "id": "evt_6d9088a9-2d09-43ba-a4c7-9d47e6507beb",
+      "date": "2023-11-23",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "当美艳特工翻跳《Drama》",
+      "text": "莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802\n官号﻿@EOE组合 ：h",
+      "publishedAt": "2023-11-23T03:53:15.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_40b6f6c1-b45e-48e8-a67d-6e12c47ba5d3"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1b34y1w7Xo",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1b34y1w7Xo]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1b34y1w7Xo]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-23T03:53:15.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1b34y1w7Xo]",
+            "sourceField": "title",
+            "excerpt": "当美艳特工翻跳《Drama》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1b34y1w7Xo]",
+            "sourceField": "description",
+            "excerpt": "莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802\n官号﻿@EOE组合 ：h"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_c6fe2498-501c-41ea-9954-2e9bd35b449f",
+      "date": "2023-11-24",
+      "kind": "announcement",
+      "title": "EOE综合医院开放日直播延迟",
+      "text": "官方因技术问题通知直播预计延迟约20分钟。",
+      "publishedAt": "2023-11-24T11:32:47.000Z",
+      "occurrence": "announced",
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2023.json",
+          "locator": "867528276495564820"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "eventId": "evt_02c9451a-b04f-494e-a0e4-86538616875b",
+          "relation": "announces"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-24",
+      "kind": "livestream",
+      "title": "【3D】EOE综合医院开放日",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1KQ4y1t7Mo",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1KQ4y1t7Mo"
+          }
+        },
+        {
+          "bvid": "BV1cz4y1w7yo",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1cz4y1w7yo"
+          }
+        }
+      ],
+      "id": "evt_02c9451a-b04f-494e-a0e4-86538616875b",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1KQ4y1t7Mo"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1cz4y1w7yo"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/865862331694841865.png",
+            "locator": "865862331694841865"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1KQ4y1t7Mo",
+      "plannedTime": "19:30",
+      "participation": "group"
+    },
+    {
+      "date": "2023-11-25",
+      "kind": "livestream",
+      "title": "【3D】还有这些规定？",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Xb4y1T7rW",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Xb4y1T7rW"
+          }
+        },
+        {
+          "bvid": "BV1a94y1J7hC",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1a94y1J7hC"
+          }
+        }
+      ],
+      "id": "evt_3fed8f26-bd6e-4a96-9ab0-66a784a5f105",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Xb4y1T7rW"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1a94y1J7hC"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/865862331694841865.png",
+            "locator": "865862331694841865"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Xb4y1T7rW",
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "20:30"
+    },
+    {
+      "date": "2023-11-25",
+      "kind": "livestream",
+      "title": "【3D】重生之我是小家闺秀",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1cc411Q7sT",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1cc411Q7sT"
+          }
+        }
+      ],
+      "id": "evt_5673ea8c-a836-4c38-919d-99aba1f82e74",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1cc411Q7sT"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/865862331694841865.png",
+            "locator": "865862331694841865"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1cc411Q7sT",
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "19:00"
+    },
+    {
+      "date": "2023-11-26",
+      "kind": "livestream",
+      "title": "【3D】自研游戏实机试玩速来！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1tM411o7bJ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1tM411o7bJ"
+          }
+        },
+        {
+          "bvid": "BV1gv411F7xX",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1gv411F7xX"
+          }
+        }
+      ],
+      "id": "evt_9f359c72-8e7b-48a6-baf7-dab5ee45b2b0",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1tM411o7bJ"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1gv411F7xX"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/865862331694841865.png",
+            "locator": "865862331694841865"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1tM411o7bJ",
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "19:30",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-26",
+      "kind": "livestream",
+      "title": "【电台】在吃榴莲蛋挞",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        22
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Ra4y1Z7xr",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1Ra4y1Z7xr"
+          }
+        },
+        {
+          "bvid": "BV1X34y1F7tu",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1X34y1F7tu"
+          }
+        }
+      ],
+      "id": "evt_c494a5b0-4d76-4390-bc3b-7866f8390065",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1Ra4y1Z7xr"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1X34y1F7tu"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Ra4y1Z7xr"
+    },
+    {
+      "id": "evt_9c9f8823-853c-477a-a270-79707903d67e",
+      "date": "2023-11-26",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "说跳就跳！冷艳舞担的《Drama》",
+      "text": "莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802\n官号﻿@EOE组合 ：h",
+      "publishedAt": "2023-11-26T10:46:05.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_40b6f6c1-b45e-48e8-a67d-6e12c47ba5d3"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1cN41177Kg",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1cN41177Kg]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1cN41177Kg]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-26T10:46:05.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1cN41177Kg]",
+            "sourceField": "title",
+            "excerpt": "说跳就跳！冷艳舞担的《Drama》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1cN41177Kg]",
+            "sourceField": "title",
+            "excerpt": "说跳就跳！冷艳舞担的《Drama》"
+          },
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=2].items[bvid=BV1cN41177Kg]",
+            "sourceField": "description",
+            "excerpt": "莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802\n官号﻿@EOE组合 ：h"
+          }
+        ]
+      },
+      "note": "投稿标题明确作品身份；本记录表示作品发布或切片，不推断直播演出日期。"
+    },
+    {
+      "date": "2023-11-28",
+      "kind": "livestream",
+      "title": "【2D】看水浒",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Xa4y1d7z1",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Xa4y1d7z1"
+          }
+        }
+      ],
+      "id": "evt_651bcdab-30ee-4b2d-9645-e5a689132652",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Xa4y1d7z1"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Xa4y1d7z1"
+    },
+    {
+      "date": "2023-11-29",
+      "kind": "livestream",
+      "title": "【3D】难道她真的是游戏黑洞",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV19w41187tp",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19w41187tp"
+          }
+        },
+        {
+          "bvid": "BV1BC4y1y7rv",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1BC4y1y7rv"
+          }
+        }
+      ],
+      "id": "evt_2c6684cb-f3b0-4051-a3ac-58a381506f20",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19w41187tp"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1BC4y1y7rv"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/868534703301328900.jpg",
+            "locator": "868534703301328900"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV19w41187tp",
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "19:30",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-30",
+      "kind": "livestream",
+      "title": "【3D】米の普老哥",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1xb4y1M7PD",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1xb4y1M7PD"
+          }
+        },
+        {
+          "bvid": "BV1GQ4y1x7BQ",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1GQ4y1x7BQ"
+          }
+        }
+      ],
+      "id": "evt_dd162816-192e-495a-8f65-8fddec0b2783",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1xb4y1M7PD"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1GQ4y1x7BQ"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/868534703301328900.jpg",
+            "locator": "868534703301328900"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1xb4y1M7PD",
+      "plannedMembers": [
+        "minuo"
+      ],
+      "plannedTime": "19:00",
+      "participation": "individual"
+    },
+    {
+      "date": "2023-11-30",
+      "kind": "livestream",
+      "title": "【3D】心里得有点E数",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Y94y1E7tN",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Y94y1E7tN"
+          }
+        },
+        {
+          "bvid": "BV1nH4y1176m",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1nH4y1176m"
+          }
+        }
+      ],
+      "id": "evt_4edf1a5f-c82f-4f1c-9cd3-ec76b4d95087",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1Y94y1E7tN"
+          },
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+            "locator": "BV1nH4y1176m"
+          }
+        ],
+        "schedule": [
+          {
+            "file": "../source/november-2023/868534703301328900.jpg",
+            "locator": "868534703301328900"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Y94y1E7tN",
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "20:30",
+      "participation": "individual"
+    },
+    {
+      "id": "evt_13305e37-9efc-4e17-977b-dde258899585",
+      "date": "2023-11-18",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『Magnetic Moon+Moonlight』皎洁月下，为你起舞【露早翻唱】",
+      "publishedAt": "2023-11-18T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_7544d65e-34fa-427f-8056-7b57ab4ce01d",
+        "song_d3f22c12-aa73-4e0f-8614-f2f43c6da052"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1qv411c7he",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1qv411c7he]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1qv411c7he]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-18T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1qv411c7he]",
+            "sourceField": "title",
+            "excerpt": "『Magnetic Moon+Moonlight』皎洁月下，为你起舞【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1qv411c7he]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "『Magnetic Moon+Moonlight』皎洁月下，为你起舞【露早翻唱】\n原曲：\nMagnetic Moon-Tiffany\nMoonlight-Kali Uchis\n翻唱：露早\n\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "原曲：\nMagnetic Moon-Tiffany\nMoonlight-Kali Uchis\n翻唱：露早\n\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩"
+    },
+    {
+      "id": "evt_1770e057-68be-4fa5-9dcc-5e6448b0c537",
+      "date": "2023-11-05",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "V圈要有自己的玛奇玛！“路我还在走，从不曾回头”『Jopping+莲』【露早唱跳】",
+      "publishedAt": "2023-11-05T03:28:45.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_1f205671-7afa-4445-bdd1-6a53a3cfa560",
+        "song_2f7aca1b-9a1b-4e41-8546-e4c4b3b364fc"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1pN4y1r7ZH",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1pN4y1r7ZH]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1pN4y1r7ZH]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-05T03:28:45.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1pN4y1r7ZH]",
+            "sourceField": "title",
+            "excerpt": "V圈要有自己的玛奇玛！“路我还在走，从不曾回头”『Jopping+莲』【露早唱跳】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=5].items[bvid=BV1pN4y1r7ZH]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "V圈要有自己的玛奇玛！“路我还在走，从不曾回头”『Jopping+莲』【露早唱跳】\n原曲：\nJopping-SuperM\n莲 (Lit)-张艺兴\n\n表演：露早@露早GOGO  \n-------------------------------------------------------\n莞儿@莞儿睡不醒   ：https://space.bilibili.com/1875044092\n露早@露早GOGO   ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女   ：https://space.bilibili.com/1778026586\n"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "原曲：\nJopping-SuperM\n莲 (Lit)-张艺兴\n\n表演：露早@露早GOGO  \n-------------------------------------------------------\n莞儿@莞儿睡不醒   ：https://space.bilibili.com/1875044092\n露早@露早GOGO   ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女   ：https://space.bilibili.com/1778026586\n"
+    },
+    {
+      "id": "evt_5181ad53-f39e-4b96-9639-c9fbcde6d020",
+      "date": "2023-11-10",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "为什么！为什么要演唱春日影！",
+      "publishedAt": "2023-11-10T07:13:22.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_ac1a45bd-6837-4269-be23-8e469526d5b0"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1MM411D7fx",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1MM411D7fx]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1MM411D7fx]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-10T07:13:22.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1MM411D7fx]",
+            "sourceField": "title",
+            "excerpt": "为什么！为什么要演唱春日影！"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1MM411D7fx]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "为什么！为什么要演唱春日影！\n原曲：春日影（Haruhikage）「BanG Dream! It's MyGO!!!!!」#7 插曲\n翻唱：柚恩\n----------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "原曲：春日影（Haruhikage）「BanG Dream! It's MyGO!!!!!」#7 插曲\n翻唱：柚恩\n----------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞"
+    },
+    {
+      "id": "evt_e323bfb4-493a-4e43-8bf0-bc22d6c5526d",
+      "date": "2023-11-22",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "虚 偶 也 要 翻 跳 Chill Kill",
+      "publishedAt": "2023-11-22T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_293290e6-ea97-4f3d-a66d-188a82e79757"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1e94y1H7XY",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1e94y1H7XY]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1e94y1H7XY]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-22T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1e94y1H7XY]",
+            "sourceField": "title",
+            "excerpt": "虚 偶 也 要 翻 跳 Chill Kill"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1e94y1H7XY]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "虚 偶 也 要 翻 跳 Chill Kill\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802\n官号﻿@EOE组合 ：h"
+          }
+        ]
+      },
+      "note": "目录标题明确曲目与歌舞内容，仅采用投稿发布与作品关联；不由发布日、主页模板或账号身份推断现场演出日期及参与成员。",
+      "text": "莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802\n官号﻿@EOE组合 ：h"
+    },
+    {
+      "id": "evt_bab7e3ff-c797-4b22-9583-ce839984dc44",
+      "date": "2023-11-14",
+      "kind": "publication",
+      "subtype": "performance-video",
+      "title": "Lovelee【成员作品视频】",
+      "publishedAt": "2023-11-14T03:59:17.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_a10cd3ba-08e5-45d3-9b51-3400ecafe1f7"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1te411Q7gV",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1875044092,page=3].items[bvid=BV1te411Q7gV]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1875044092,page=3].items[bvid=BV1te411Q7gV]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-14T03:59:17.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1875044092,page=3].items[bvid=BV1te411Q7gV]",
+            "sourceField": "title",
+            "excerpt": "Lovelee"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1875044092,page=3].items[bvid=BV1te411Q7gV]",
+            "sourceField": "title",
+            "excerpt": "Lovelee"
+          }
+        ]
+      },
+      "note": "来源标题明确曲名；只登记发布事件，不把投稿日期当实际演出日期，也不从账号归属推断成员出演。"
+    },
+    {
+      "id": "evt_e000c139-c073-4a0f-af88-1179282312f8",
+      "date": "2023-11-08",
+      "kind": "publication",
+      "subtype": "performance-video",
+      "title": "Stop don't talk to me【成员作品视频】",
+      "publishedAt": "2023-11-08T08:46:14.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_bd95bbee-1503-438f-bff9-1c6b9ccdca24"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1iQ4y1n72R",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1875044092,page=3].items[bvid=BV1iQ4y1n72R]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1875044092,page=3].items[bvid=BV1iQ4y1n72R]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-08T08:46:14.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1875044092,page=3].items[bvid=BV1iQ4y1n72R]",
+            "sourceField": "title",
+            "excerpt": "Stop don't talk to me"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1875044092,page=3].items[bvid=BV1iQ4y1n72R]",
+            "sourceField": "title",
+            "excerpt": "Stop don't talk to me"
+          }
+        ]
+      },
+      "note": "来源标题明确曲名；只登记发布事件，不把投稿日期当实际演出日期，也不从账号归属推断成员出演。"
+    },
+    {
+      "id": "evt_270c1f85-2bfc-41fe-ad06-34d520cba419",
+      "date": "2023-11-15",
+      "kind": "publication",
+      "subtype": "performance-video",
+      "title": "WHY oh WHY【成员作品视频】",
+      "publishedAt": "2023-11-15T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_a18a2be8-5810-4a71-847f-dd0529eefca8"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1ju411F7Wu",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1ju411F7Wu]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1ju411F7Wu]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-15T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1ju411F7Wu]",
+            "sourceField": "title",
+            "excerpt": "WHY oh WHY"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1ju411F7Wu]",
+            "sourceField": "title",
+            "excerpt": "WHY oh WHY"
+          }
+        ]
+      },
+      "note": "来源标题明确曲名；只登记发布事件，不把投稿日期当实际演出日期，也不从账号归属推断成员出演。"
+    },
+    {
+      "id": "evt_d5a377df-d0b5-4779-8d21-59ce5f4c5eb0",
+      "date": "2023-11-09",
+      "kind": "publication",
+      "subtype": "performance-video",
+      "title": "DAY BY DAY【成员作品视频】",
+      "publishedAt": "2023-11-09T09:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_46c75c56-4bd7-435d-a8d5-29c7adc989ad"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1Fg4y197dy",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1Fg4y197dy]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1Fg4y197dy]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-09T09:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1Fg4y197dy]",
+            "sourceField": "title",
+            "excerpt": "DAY BY DAY"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1Fg4y197dy]",
+            "sourceField": "title",
+            "excerpt": "DAY BY DAY"
+          }
+        ]
+      },
+      "note": "来源标题明确曲名；只登记发布事件，不把投稿日期当实际演出日期，也不从账号归属推断成员出演。"
+    },
+    {
+      "id": "evt_17c54d93-aff1-420a-956b-d7f73719f7c0",
+      "date": "2023-11-01",
+      "kind": "publication",
+      "subtype": "performance-video",
+      "title": "QUEENCARD【成员作品视频】",
+      "publishedAt": "2023-11-01T07:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_84f8df53-7e08-4f9f-b365-45952352c7ad"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1SC4y1n7jW",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1SC4y1n7jW]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1SC4y1n7jW]",
+            "sourceField": "publishedAt",
+            "excerpt": "2023-11-01T07:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1SC4y1n7jW]",
+            "sourceField": "title",
+            "excerpt": "QUEENCARD"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=9].items[bvid=BV1SC4y1n7jW]",
+            "sourceField": "title",
+            "excerpt": "QUEENCARD"
+          }
+        ]
+      },
+      "note": "来源标题明确曲名；只登记发布事件，不把投稿日期当实际演出日期，也不从账号归属推断成员出演。"
+    }
+  ]
+}

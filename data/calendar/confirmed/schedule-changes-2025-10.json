@@ -1,0 +1,138 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "date": "2025-10-08",
+      "action": "schedule-revision",
+      "originalPlan": {
+        "date": "2025-10-08",
+        "restDay": false,
+        "events": [
+          {
+            "members": ["youen"],
+            "plannedTime": "19:00",
+            "formatLabel": "3D",
+            "participation": "individual"
+          },
+          {
+            "members": ["luzao"],
+            "plannedTime": "20:50",
+            "formatLabel": "3D",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "dynamicId": "1117894089977626645",
+          "image": "../source/september-2025/1117894089977626645-2.jpg"
+        }
+      },
+      "revisedPlan": {
+        "date": "2025-10-08",
+        "restDay": false,
+        "events": [
+          {
+            "members": ["youen"],
+            "plannedTime": "19:00",
+            "formatLabel": "3D",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "dynamicId": "1120476224347439107",
+          "image": "../source/october-2025/1120476224347439107.jpg"
+        }
+      },
+      "note": "后发周表撤下原露早安排；只记录计划版本变化，不认定实际取消、改期或原因。"
+    },
+    {
+      "date": "2025-10-09",
+      "action": "schedule-revision",
+      "originalPlan": {
+        "date": "2025-10-09",
+        "restDay": false,
+        "events": [
+          {
+            "members": ["luzao"],
+            "plannedTime": "19:00",
+            "formatLabel": "3D",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "dynamicId": "1117894089977626645",
+          "image": "../source/september-2025/1117894089977626645-2.jpg"
+        }
+      },
+      "revisedPlan": {
+        "date": "2025-10-09",
+        "restDay": true,
+        "events": [],
+        "source": {
+          "dynamicId": "1120476224347439107",
+          "image": "../source/october-2025/1120476224347439107.jpg"
+        }
+      },
+      "note": "后发周表撤下原露早安排；只记录计划版本变化，不认定实际取消、改期或原因。"
+    },
+    {
+      "date": "2025-10-10",
+      "action": "schedule-revision",
+      "originalPlan": {
+        "date": "2025-10-10",
+        "restDay": false,
+        "events": [
+          {
+            "members": ["luzao"],
+            "plannedTime": "19:30",
+            "formatLabel": "2D",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "dynamicId": "1117894089977626645",
+          "image": "../source/september-2025/1117894089977626645-2.jpg"
+        }
+      },
+      "revisedPlan": {
+        "date": "2025-10-10",
+        "restDay": true,
+        "events": [],
+        "source": {
+          "dynamicId": "1120476224347439107",
+          "image": "../source/october-2025/1120476224347439107.jpg"
+        }
+      },
+      "note": "后发周表撤下原露早安排；只记录计划版本变化，不认定实际取消、改期或原因。"
+    },
+    {
+      "date": "2025-10-12",
+      "action": "schedule-revision",
+      "originalPlan": {
+        "date": "2025-10-12",
+        "restDay": false,
+        "events": [
+          {
+            "members": ["luzao"],
+            "plannedTime": "19:30",
+            "formatLabel": "电台",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "dynamicId": "1117894089977626645",
+          "image": "../source/september-2025/1117894089977626645-2.jpg"
+        }
+      },
+      "revisedPlan": {
+        "date": "2025-10-12",
+        "restDay": true,
+        "events": [],
+        "source": {
+          "dynamicId": "1120476224347439107",
+          "image": "../source/october-2025/1120476224347439107.jpg"
+        }
+      },
+      "note": "后发周表撤下原露早安排；只记录计划版本变化，不认定实际取消、改期或原因。"
+    }
+  ]
+}

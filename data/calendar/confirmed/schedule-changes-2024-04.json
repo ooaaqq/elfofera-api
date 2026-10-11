@@ -1,0 +1,126 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "920204216423677959",
+      "relatedAnnouncementEventId": "evt_df69ea7d-98a8-4061-957d-2eed05191bfe",
+      "date": "2024-04-14",
+      "action": "member-absence",
+      "member": "luzao",
+      "plannedTime": "19:30",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+        "locator": "920204216423677959"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-04-14/events/0"
+      }
+    },
+    {
+      "announcementId": "921675959974756372",
+      "relatedAnnouncementEventId": "evt_a8f57d18-93f2-4b5c-8f97-fb31bb06f67c",
+      "date": "2024-04-18",
+      "action": "cancel",
+      "member": "yumo",
+      "plannedTime": "19:00",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+        "locator": "921675959974756372"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-04-18/events/0"
+      }
+    },
+    {
+      "announcementId": "923890299096268820",
+      "relatedAnnouncementEventId": "evt_d1b5703c-2c0d-4933-afec-f238b2535987",
+      "date": "2024-04-24",
+      "action": "cancel",
+      "member": "minuo",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+        "locator": "923890299096268820"
+      },
+      "scope": "仅采用公告明确的个人取消事实，未补造原周表或其他排期。"
+    },
+    {
+      "announcementId": "923890299096268820",
+      "relatedAnnouncementEventId": "evt_d1b5703c-2c0d-4933-afec-f238b2535987",
+      "date": "2024-04-24",
+      "action": "time-change",
+      "member": "yumo",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+        "locator": "923890299096268820"
+      },
+      "fromTime": "20:40",
+      "toTime": "19:00",
+      "scope": "原时刻由公告直接声明，未从缺失周表推导其余安排。"
+    },
+    {
+      "announcementId": "924974250052288521",
+      "relatedAnnouncementEventId": "evt_f22fe0f8-f3a1-4bcf-894e-de35301886cf",
+      "date": "2024-04-27",
+      "action": "cancel",
+      "member": "minuo",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+        "locator": "924974250052288521"
+      },
+      "scope": "仅采用公告明确的个人取消事实，未补造原周表或其他排期。"
+    },
+    {
+      "announcementId": "926093016038375504",
+      "relatedAnnouncementEventId": "evt_1eea880e-28c1-41b8-8e01-9074656aacfa",
+      "date": "2024-04-30",
+      "action": "cancel",
+      "member": "minuo",
+      "plannedTime": "20:40",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+        "locator": "926093016038375504"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-04-30/events/1"
+      }
+    },
+    {
+      "announcementId": "926093016038375504",
+      "relatedAnnouncementEventId": "evt_1eea880e-28c1-41b8-8e01-9074656aacfa",
+      "date": "2024-05-05",
+      "action": "member-absence",
+      "member": "minuo",
+      "plannedTime": "19:30",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+        "locator": "926093016038375504"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-05-05/events/0"
+      }
+    },
+    {
+      "announcementId": "926093016038375504",
+      "relatedAnnouncementEventId": "evt_1eea880e-28c1-41b8-8e01-9074656aacfa",
+      "date": "2024-05-05",
+      "action": "room-change",
+      "plannedTime": "19:30",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+        "locator": "926093016038375504"
+      },
+      "fromAccountId": "1778026586",
+      "toAccountId": "1669777785",
+      "relatedEventId": "evt_6582ada4-5c98-413b-a3d5-51fb9fb05b58",
+      "scope": "原周表标米诺直播间，公告改为露早直播间；房间安排不等同实际参与者名单。",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-05-05/events/0"
+      }
+    }
+  ]
+}

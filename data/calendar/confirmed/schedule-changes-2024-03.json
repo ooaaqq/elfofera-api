@@ -1,0 +1,50 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "903834511244001287",
+      "relatedAnnouncementEventId": "evt_0c15e1f5-e256-4289-bd38-8e19d5932f8c",
+      "action": "member-absence",
+      "member": "waner",
+      "fromDate": "2024-03-01",
+      "throughDate": "2024-03-31",
+      "scope": "公告宣布缺席当日团播及本月接下来的直播；回归依健康状态评估。保留当时公告，不据此推翻后续明确安排或认定全团取消。",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+        "locator": "903834511244001287"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-03-01/events/0"
+      }
+    },
+    {
+      "announcementId": "903834511244001287",
+      "relatedAnnouncementEventId": "evt_0c15e1f5-e256-4289-bd38-8e19d5932f8c",
+      "action": "postpone",
+      "member": "waner",
+      "fromDate": "2024-03-01",
+      "scope": "包括生日会在内的内容安排延后，未给新日期。",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-03-04.json",
+        "locator": "903834511244001287"
+      }
+    },
+    {
+      "announcementId": "913826301650927620",
+      "relatedAnnouncementEventId": "evt_0a31a57f-1e9b-4c62-8604-ef5042e4d6d5",
+      "action": "member-absence",
+      "member": "waner",
+      "fromDate": "2024-03-28",
+      "scope": "近期不参与日常3D团播；主要采用2D直播，3D直播减少，未给结束日期。不等同退出组合或取消全部直播。",
+      "source": {
+        "file": "events-2024-03.json",
+        "locator": "evt_0a31a57f-1e9b-4c62-8604-ef5042e4d6d5"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-03-28/events/0"
+      }
+    }
+  ]
+}

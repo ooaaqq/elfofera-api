@@ -1,0 +1,81 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "972171314977570841",
+      "relatedAnnouncementEventId": "evt_1b72564f-7027-427e-8124-bed8cfe72f06",
+      "date": "2024-09-01",
+      "action": "format-change",
+      "member": "luzao",
+      "plannedTime": "21:00",
+      "fromFormatLabel": "2D",
+      "toFormatLabel": "电台",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-09-01/events/1"
+      },
+      "source": {
+        "file": "../evidence/round-02-september-schedule-notice-details.json",
+        "locator": "972171314977570841"
+      }
+    },
+    {
+      "announcementId": "979077311044255746",
+      "relatedAnnouncementEventId": "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470",
+      "date": "2024-09-20",
+      "action": "schedule-announcement",
+      "source": {
+        "file": "../evidence/round-02-september-schedule-notice-details.json",
+        "locator": "979077311044255746"
+      },
+      "scope": "temporary-3d-suspension",
+      "effectiveFrom": "2024-09-20",
+      "expectedDuration": "三周",
+      "text": "设备迁移期间暂停3D，成员以2D或电台形式出现。",
+      "note": "预计时长不转换为已确定恢复日期；不回填逐日形式，也不将设备暂停等同停止所有直播。"
+    },
+    {
+      "announcementId": "979077311044255746",
+      "relatedAnnouncementEventId": "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470",
+      "date": "2024-09-20",
+      "action": "schedule-announcement",
+      "source": {
+        "file": "../evidence/round-02-september-schedule-notice-details.json",
+        "locator": "979077311044255746"
+      },
+      "scope": "member-hiatus",
+      "member": "minuo",
+      "effectiveFrom": "2024-09-20",
+      "text": "自9月20日起停止活动，进入休眠状态。",
+      "note": "按公告决定收录，不推断退团、账号删除或永久停止活动。"
+    },
+    {
+      "announcementId": "979077311044255746",
+      "relatedAnnouncementEventId": "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470",
+      "date": "2024-09-20",
+      "action": "schedule-announcement",
+      "source": {
+        "file": "../evidence/round-02-september-schedule-notice-details.json",
+        "locator": "979077311044255746"
+      },
+      "scope": "member-hiatus",
+      "member": "waner",
+      "effectiveFrom": "2024-09-30",
+      "text": "自9月30日起停止活动，进入休眠状态。",
+      "note": "保留9/30原图14点计划及后续独立事件证据，不把公告起始日期当成逐条取消证明。"
+    },
+    {
+      "announcementId": "979077311044255746",
+      "relatedAnnouncementEventId": "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470",
+      "date": "2024-09-20",
+      "action": "schedule-announcement",
+      "source": {
+        "file": "../evidence/round-02-september-schedule-notice-details.json",
+        "locator": "979077311044255746"
+      },
+      "scope": "group-future-arrangements",
+      "text": "接下来EOE将以三人的形式继续活动。",
+      "note": "公告未给三人名单，不把剩余成员推断写成实际出席名单，也不覆盖原周表。"
+    }
+  ]
+}

@@ -1,0 +1,3910 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "scope": {
+    "from": "2022-12-01",
+    "through": "2022-12-31",
+    "completeness": "known-events-only"
+  },
+  "events": [
+    {
+      "id": "evt_0c2f1bcf-8b23-42fc-a223-a977ea48c1e0",
+      "date": "2022-12-01",
+      "kind": "announcement",
+      "title": "亲爱的EOES们，大家好。 根据防疫政策，今日的直播安排依旧无法完成，原定于今日的虞莫直播暂定于明天晚上10点开始，而原定于本周五的双播将延期至下周进行。感谢大家的理解。",
+      "occurrence": "announced",
+      "publishedAt": "2022-12-01T08:51:23.000Z",
+      "text": "亲爱的EOES们，大家好。 根据防疫政策，今日的直播安排依旧无法完成，原定于今日的虞莫直播暂定于明天晚上10点开始，而原定于本周五的双播将延期至下周进行。感谢大家的理解。",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "734638191756181544"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "734638191756181544"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "734638191756181544"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_5b70f0a1-d59c-43bc-ac91-76eaf3a4e1d2",
+      "date": "2022-12-01",
+      "kind": "announcement",
+      "title": "各位EOES们大家好啊，现在来通知一下近期关于舰长礼的问题：",
+      "occurrence": "announced",
+      "publishedAt": "2022-12-01T10:40:03.000Z",
+      "text": "各位EOES们大家好啊，现在来通知一下近期关于舰长礼的问题：\n❗由于疫情影响，目前舰长礼的商务、生产、运送，以及需要线下办公的各种流程都受到一定的影响，原本需要2个月左右就能完成的流程因此会产生一定的延迟。\n🎁EOE的一期舰长礼预计于12月生产完毕，年底前发货；二期舰长礼以及露早生日会的礼物（除视频来信）也将延后发出，请各位稍安勿躁。\n另外有些EOES反应某次上舰后没有收到舰长地址收集，这部分舰长不用担心，发货前我们会对同一UID的上舰信息进行整合，并且发起补充收集，可以关注我们 的动态及时进行填写。\n❤️感谢各位对于EOE的支持！",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "734666194950291458"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "734666194950291458"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "734666194950291458"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_2e3a4f61-88d4-4f8d-875e-c0730331606b",
+      "date": "2022-12-02",
+      "kind": "livestream",
+      "title": "您几位啊",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1LP4y1Q7Ca",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1LP4y1Q7Ca"
+          }
+        },
+        {
+          "bvid": "BV1v14y1E7Z1",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1v14y1E7Z1"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1LP4y1Q7Ca"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1LP4y1Q7Ca"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1LP4y1Q7Ca"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1LP4y1Q7Ca"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735001726381195330"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735001726381195330"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735001726381195330"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1LP4y1Q7Ca",
+      "plannedTime": "19:00",
+      "plannedMembers": [
+        "minuo"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_c85c8087-31bb-41af-8d98-76ba1e54b6eb",
+      "date": "2022-12-02",
+      "kind": "livestream",
+      "title": "苏虞传媒招聘啦！",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1k84y1k7He",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1k84y1k7He"
+          }
+        },
+        {
+          "bvid": "BV1q14y1E7M6",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1q14y1E7M6"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1k84y1k7He"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1k84y1k7He"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1k84y1k7He"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1k84y1k7He"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../source/december-2022/735001726381195330-1.png",
+            "locator": "2022-12-02"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "734638191756181544"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "734638191756181544"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1k84y1k7He",
+      "plannedTime": "20:30",
+      "plannedMembers": [
+        "yumo"
+      ],
+      "participation": "individual",
+      "originalPlannedTime": "22:00"
+    },
+    {
+      "id": "evt_88aa2b4a-96d8-4393-a8ae-48499e803b42",
+      "date": "2022-12-02",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "可以成为我的『独家记忆』吗？【莞儿翻唱】",
+      "publishedAt": "2022-12-02T08:35:32.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_c2282d65-42b3-4e59-9330-bcf2aba7bf29"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1WD4y1Y7J2",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1WD4y1Y7J2]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1WD4y1Y7J2]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-02T08:35:32.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1WD4y1Y7J2]",
+            "sourceField": "title",
+            "excerpt": "可以成为我的『独家记忆』吗？【莞儿翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1WD4y1Y7J2]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_c4fb3d8f-b704-4d5a-a251-462b97363d6a",
+      "date": "2022-12-02",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『泡沫』疑似虚拟邓紫棋出道曲【米诺翻唱】",
+      "publishedAt": "2022-12-02T13:18:45.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_5553d76f-804f-4d4f-a506-a94f84a151d8"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1p84y167Uj",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1p84y167Uj]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1p84y167Uj]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-02T13:18:45.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1p84y167Uj]",
+            "sourceField": "title",
+            "excerpt": "『泡沫』疑似虚拟邓紫棋出道曲【米诺翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1p84y167Uj]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_4ff1660a-93aa-4347-bd4d-1b087f3d5222",
+      "date": "2022-12-03",
+      "kind": "publication",
+      "subtype": "variety-show",
+      "title": "【EOE小团综第3期】米诺激情热舞社会摇 露早竟直呼退团？！",
+      "publishedAt": "2022-12-03T04:00:00.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV1bP4y197Az",
+          "role": "publication",
+          "source": {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1bP4y197Az"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1bP4y197Az"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1bP4y197Az"
+          }
+        ],
+        "publishedAt": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1bP4y197Az"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1bP4y197Az"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_8ca5e1b1-a68a-46c6-99fc-e692162d201b",
+      "date": "2022-12-03",
+      "kind": "livestream",
+      "title": "补充GOGO能量",
+      "occurrence": "recording-attested",
+      "formatLabel": "电台",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Cd4y147jH",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Cd4y147jH"
+          }
+        },
+        {
+          "bvid": "BV1QW4y1u7Cr",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1QW4y1u7Cr"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Cd4y147jH"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Cd4y147jH"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Cd4y147jH"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Cd4y147jH"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1QW4y1u7Cr"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../source/december-2022/735001726381195330-1.png",
+            "locator": "2022-12-03"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735001726381195330"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735001726381195330"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Cd4y147jH",
+      "plannedTime": "21:00",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_cd616566-f809-4a2a-a6d1-c25dda395475",
+      "date": "2022-12-03",
+      "kind": "livestream",
+      "title": "莞儿电脑维修店开业啦",
+      "occurrence": "recording-attested",
+      "formatLabel": "电台",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1QG4y1G7PE",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1QG4y1G7PE"
+          }
+        },
+        {
+          "bvid": "BV1V84y1672T",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1V84y1672T"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1QG4y1G7PE"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1QG4y1G7PE"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1QG4y1G7PE"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1QG4y1G7PE"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1V84y1672T"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../source/december-2022/735001726381195330-1.png",
+            "locator": "2022-12-03"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735001726381195330"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735001726381195330"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1QG4y1G7PE",
+      "plannedTime": "19:00",
+      "plannedMembers": [
+        "waner"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_31f976f5-856d-4f9f-9c8c-2252f0e7212a",
+      "date": "2022-12-03",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『他不爱我』听完这首歌，你会想起谁？【米诺翻唱】",
+      "publishedAt": "2022-12-03T07:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_b568cf6f-3333-4e2c-a1fb-1dcee2423caf"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1iK411X7KC",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1iK411X7KC]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1iK411X7KC]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-03T07:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1iK411X7KC]",
+            "sourceField": "title",
+            "excerpt": "『他不爱我』听完这首歌，你会想起谁？【米诺翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1iK411X7KC]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_805bab42-a3de-4347-9ee2-f81792d99360",
+      "date": "2022-12-04",
+      "kind": "livestream",
+      "title": "新衣特别晚会",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV19D4y1Y7Dj",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV19D4y1Y7Dj"
+          }
+        },
+        {
+          "bvid": "BV1QP411T7xQ",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1QP411T7xQ"
+          },
+          "additionalEvidence": []
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV19D4y1Y7Dj"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV19D4y1Y7Dj"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV19D4y1Y7Dj"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV19D4y1Y7Dj"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1QP411T7xQ"
+          },
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735001726381195330"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735001726381195330"
+          }
+        ]
+      },
+      "participation": "group",
+      "plannedTime": "19:30",
+      "preferredRecordingBvid": "BV19D4y1Y7Dj"
+    },
+    {
+      "id": "evt_1da54806-4fa2-45bb-b3d9-7c66bb6cd18a",
+      "date": "2022-12-04",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『天黑黑』横冲直撞的追梦路上，很幸运与你们相遇",
+      "publishedAt": "2022-12-04T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_f1ff49b1-c3ab-473c-adbb-a71cf0a0f754"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1ED4y1Y7uE",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=9].items[bvid=BV1ED4y1Y7uE]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=9].items[bvid=BV1ED4y1Y7uE]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-04T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=9].items[bvid=BV1ED4y1Y7uE]",
+            "sourceField": "title",
+            "excerpt": "『天黑黑』横冲直撞的追梦路上，很幸运与你们相遇"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=9].items[bvid=BV1ED4y1Y7uE]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_6b90d39d-9a70-43b9-8b16-39a1e2e7c014",
+      "date": "2022-12-05",
+      "kind": "livestream",
+      "title": "GOGO队的好物推荐",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1714y1J7C5",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1714y1J7C5"
+          }
+        },
+        {
+          "bvid": "BV1nd4y1s7jB",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1nd4y1s7jB"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1714y1J7C5"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1714y1J7C5"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1714y1J7C5"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1714y1J7C5"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1714y1J7C5",
+      "plannedTime": "20:00",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_40538241-d787-42ff-8a95-6073a1e677ee",
+      "date": "2022-12-05",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "童年回忆🪄魔法少女露早的《Groovy!》",
+      "publishedAt": "2022-12-05T14:03:01.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_1e08842a-06b8-4c90-8b81-2d0762e50fbf"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1bG411T71c",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1bG411T71c]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1bG411T71c]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-05T14:03:01.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1bG411T71c]",
+            "sourceField": "title",
+            "excerpt": "童年回忆🪄魔法少女露早的《Groovy!》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1bG411T71c]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_b1f06b45-b5a6-4e56-9d1e-0bc8b23e4baf",
+      "date": "2022-12-05",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "JK新装💗偶像少女的心动告白💗你的答案会是「Yes or Yes」？【EOE翻跳】",
+      "text": "原曲：Yes or Yes - TWICE\n翻跳：EOE组合\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩",
+      "publishedAt": "2022-12-05T04:37:41.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_4660fa2f-4d4c-4c14-9b7a-2aaa72fca676"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1ev4y1R7Uw",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1ev4y1R7Uw]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1ev4y1R7Uw]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-05T04:37:41.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1ev4y1R7Uw]",
+            "sourceField": "title",
+            "excerpt": "JK新装💗偶像少女的心动告白💗你的答案会是「Yes or Yes」？【EOE翻跳】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1ev4y1R7Uw]",
+            "sourceField": "description",
+            "excerpt": "原曲：Yes or Yes - TWICE\n翻跳：EOE组合\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_194c734e-cb5f-4e2e-95e4-f58d7f8aa8f4",
+      "date": "2022-12-05",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "洒落鳞粉🦋让火燃烧得更加热烈吧🔥经典双人舞《Magnet》",
+      "text": "原曲：初音ミク/巡音ルカ/ minato-magnet\n翻跳：莞儿、柚恩\n振付：みうめ BV13x411w7r8\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bil",
+      "publishedAt": "2022-12-05T10:28:41.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_e735183f-2d47-4218-9475-bf0765a9cf8c"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1MR4y1C72P",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=15].items[bvid=BV1MR4y1C72P]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=15].items[bvid=BV1MR4y1C72P]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-05T10:28:41.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=15].items[bvid=BV1MR4y1C72P]",
+            "sourceField": "title",
+            "excerpt": "洒落鳞粉🦋让火燃烧得更加热烈吧🔥经典双人舞《Magnet》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=15].items[bvid=BV1MR4y1C72P]",
+            "sourceField": "description",
+            "excerpt": "原曲：初音ミク/巡音ルカ/ minato-magnet\n翻跳：莞儿、柚恩\n振付：みうめ BV13x411w7r8\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bil"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_a00d814f-c9e4-4e47-9c0f-a4523ef9db54",
+      "date": "2022-12-07",
+      "kind": "livestream",
+      "title": "大喜之日",
+      "occurrence": "recording-attested",
+      "formatLabel": "电台",
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1EG4y1V7td",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1EG4y1V7td"
+          }
+        },
+        {
+          "bvid": "BV1LV4y1P7rf",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1LV4y1P7rf"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1EG4y1V7td"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1EG4y1V7td"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1EG4y1V7td"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1EG4y1V7td"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1LV4y1P7rf"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "736911054097874979"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ]
+      },
+      "plannedTime": "21:15",
+      "preferredRecordingBvid": "BV1EG4y1V7td",
+      "plannedMembers": [
+        "minuo"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_d0851b6a-6e8f-48d5-88da-1f40844658e1",
+      "date": "2022-12-07",
+      "kind": "announcement",
+      "title": "各位EOES大家好！临时插播一条消息，由于工作事务耽搁，今日 的直播将延后75分钟，于21:15直播，还请大家理解。",
+      "occurrence": "announced",
+      "publishedAt": "2022-12-07T11:51:15.000Z",
+      "text": "各位EOES大家好！临时插播一条消息，由于工作事务耽搁，今日 的直播将延后75分钟，于21:15直播，还请大家理解。",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "736911054097874979"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "736911054097874979"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "736911054097874979"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_4be16604-a9ad-4d22-8b3d-962e2a614333",
+      "date": "2022-12-07",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "莞儿挑战『昨日青空』，送给青春故事里最好的我们",
+      "publishedAt": "2022-12-07T09:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_9851fed2-6492-4ef8-955a-6acfceea1863"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1x24y1k76V",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1x24y1k76V]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1x24y1k76V]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-07T09:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1x24y1k76V]",
+            "sourceField": "title",
+            "excerpt": "莞儿挑战『昨日青空』，送给青春故事里最好的我们"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1x24y1k76V]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_b3b5eec0-d8df-475a-a911-0d257ac3a58a",
+      "date": "2022-12-07",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "✨高校音乐节✨米诺学姐带你嗨翻天⚡『Shiny tale+輪!Moon!dass!cry!』男高+女高OP串烧",
+      "text": "原曲出处：\n男子高中生的日常op Shiny Tale\n女高中生的虚度日常op 輪！ Moon！ dass！ cry！\n翻唱：米诺\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://",
+      "publishedAt": "2022-12-07T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_c11e6262-7828-4d88-a1ca-5a9f45eb1d62",
+        "song_63d51f4b-fd63-4b70-b62c-c16c1f680ee9"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1MV4y1P7Tt",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1MV4y1P7Tt]"
+          }
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1MV4y1P7Tt]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-07T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1MV4y1P7Tt]",
+            "sourceField": "title",
+            "excerpt": "✨高校音乐节✨米诺学姐带你嗨翻天⚡『Shiny tale+輪!Moon!dass!cry!』男高+女高OP串烧"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1MV4y1P7Tt]",
+            "sourceField": "description",
+            "excerpt": "原曲出处：\n男子高中生的日常op Shiny Tale\n女高中生的虚度日常op 輪！ Moon！ dass！ cry！\n翻唱：米诺\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://"
+          }
+        ]
+      },
+      "note": "简介明确两首原曲及虞莫翻唱跳；记录为双曲作品发布，不推断演出日期或逐曲场次。"
+    },
+    {
+      "id": "evt_cf383547-dcf2-472f-88f5-c9f54b1bbe94",
+      "date": "2022-12-08",
+      "kind": "livestream",
+      "title": "睡不醒的心动闯关物语",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1sP4y1X7kQ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1sP4y1X7kQ"
+          }
+        },
+        {
+          "bvid": "BV1qK411976v",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1qK411976v"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1sP4y1X7kQ"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1sP4y1X7kQ"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1sP4y1X7kQ"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1sP4y1X7kQ"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1sP4y1X7kQ",
+      "plannedTime": "20:30",
+      "plannedMembers": [
+        "waner"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_f9c48163-48c0-4987-b883-636348fc2db3",
+      "date": "2022-12-08",
+      "kind": "livestream",
+      "title": "运营姐姐噶了",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1U44y1m79R",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1U44y1m79R"
+          }
+        },
+        {
+          "bvid": "BV1MG411M767",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1MG411M767"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1U44y1m79R"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1U44y1m79R"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1U44y1m79R"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1U44y1m79R"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "735988452166729768"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1U44y1m79R",
+      "plannedTime": "19:00",
+      "plannedMembers": [
+        "yumo"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_982d6129-9a6e-4b07-ae7e-5992a1d04d16",
+      "date": "2022-12-08",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "入站神曲「LEVEL5 -Judgelight-」燃起你心中的裁决之光！【柚恩翻唱】",
+      "text": "原曲：fripSide\n翻唱：柚恩\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://",
+      "publishedAt": "2022-12-08T05:06:51.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_a354766e-a186-4121-965b-6bc116b29235"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1tR4y1C7kY",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=15].items[bvid=BV1tR4y1C7kY]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=15].items[bvid=BV1tR4y1C7kY]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-08T05:06:51.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=15].items[bvid=BV1tR4y1C7kY]",
+            "sourceField": "title",
+            "excerpt": "入站神曲「LEVEL5 -Judgelight-」燃起你心中的裁决之光！【柚恩翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=15].items[bvid=BV1tR4y1C7kY]",
+            "sourceField": "description",
+            "excerpt": "原曲：fripSide\n翻唱：柚恩\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_421912bd-02bb-4bd1-a964-5fb3e3b582d3",
+      "date": "2022-12-09",
+      "kind": "announcement",
+      "title": "柚恩、米诺本周缺席及临时直播安排",
+      "occurrence": "announced",
+      "publishedAt": "2022-12-09T02:06:55.000Z",
+      "text": "亲爱的EOES们，临时插播一条消息。@柚恩不加糖 于昨日出现低烧症状，今日抗原阳性，我们将安排她休假一周，因此她将缺席本周的所有直播。而@米诺高分少女 也出现低烧情况，抗原为阴性，因此她也将缺席本周余下所有直播。5个姑娘已于昨日安排各自单独居住。接下来我们也将每日观察团员身体情况以安排直播。因此造成的随机性和不确定性，还请大家理解。\n今日直播安排：20:00 @露早GOGO 直播。\n明日直播安排：20:00 @莞儿睡不醒 &@露早GOGO 双播（@莞儿睡不醒 直播间）",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "737502642886934577"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "737502642886934577"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "737502642886934577"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_b8d6ba42-0905-4853-b375-661122937c03",
+      "date": "2022-12-09",
+      "kind": "announcement",
+      "title": "露早缺席本周余下直播",
+      "occurrence": "announced",
+      "publishedAt": "2022-12-09T08:02:51.000Z",
+      "text": "亲爱的EOES们，再次插播一条消息。@露早GOGO 此刻也出现了发烧症状，目前体温38.4度，抗原阴性，因此她也将缺席本周余下的所有直播。后续直播时间也将根据团队成员身体状况排播，还请大家理解。",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "737594366209556645"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "737594366209556645"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "737594366209556645"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_961a3d96-de8a-411b-8246-d2e49413d040",
+      "date": "2022-12-09",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "爷青回！仙剑奇侠传三神级插曲「偏爱」【虞莫翻唱】",
+      "publishedAt": "2022-12-09T05:37:26.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_986c4d8c-39de-404e-b97d-fd8ffb46576f"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1jK41167yx",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=8].items[bvid=BV1jK41167yx]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=8].items[bvid=BV1jK41167yx]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-09T05:37:26.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=8].items[bvid=BV1jK41167yx]",
+            "sourceField": "title",
+            "excerpt": "爷青回！仙剑奇侠传三神级插曲「偏爱」【虞莫翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=8].items[bvid=BV1jK41167yx]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_2216ca1e-3b7b-44fa-9daf-0c593c68769a",
+      "date": "2022-12-10",
+      "kind": "livestream",
+      "title": "和大家聊聊天儿～",
+      "occurrence": "recording-attested",
+      "formatLabel": "电台",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Qd4y1e7VY",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1Qd4y1e7VY"
+          }
+        },
+        {
+          "bvid": "BV1UW4y1g72S",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1UW4y1g72S"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1Qd4y1e7VY"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1Qd4y1e7VY"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1Qd4y1e7VY"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1Qd4y1e7VY"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1UW4y1g72S"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Qd4y1e7VY"
+    },
+    {
+      "id": "evt_d78d0707-7041-438b-a114-9861f30442af",
+      "date": "2022-12-10",
+      "kind": "publication",
+      "subtype": "variety-show",
+      "title": "【EOE小团综第4期】虽然很困难，但还是给大家带来最有意思的一集",
+      "publishedAt": "2022-12-10T04:00:00.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV1914y1K7Br",
+          "role": "publication",
+          "source": {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1914y1K7Br"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1914y1K7Br"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1914y1K7Br"
+          }
+        ],
+        "publishedAt": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1914y1K7Br"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1914y1K7Br"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_edd9115a-f65d-481f-a205-649099b9f054",
+      "date": "2022-12-10",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "全新版本！全新听感！💕五位少女合唱抒情版《Mr.love》",
+      "text": "五位少女合唱抒情版《Mr.love》",
+      "publishedAt": "2022-12-10T09:00:00.000Z",
+      "occurrence": "published",
+      "creditedMembers": [
+        "waner",
+        "luzao",
+        "minuo",
+        "yumo",
+        "youen"
+      ],
+      "creditedGroup": "EOE",
+      "relatedWorks": [
+        "song_a050600f-15ce-4523-a7bf-d7569cea5c28"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1pV4y1P7Tk",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch04.json",
+            "locator": "sources[accountId=1669777785,page=13].items[bvid=BV1pV4y1P7Tk]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch04.json",
+            "locator": "sources[accountId=1669777785,page=13].items[bvid=BV1pV4y1P7Tk]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-10T09:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch04.json",
+            "locator": "sources[accountId=1669777785,page=13].items[bvid=BV1pV4y1P7Tk]",
+            "sourceField": "title",
+            "excerpt": "全新版本！全新听感！💕五位少女合唱抒情版《Mr.love》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch04.json",
+            "locator": "sources[accountId=1669777785,page=13].items[bvid=BV1pV4y1P7Tk]",
+            "sourceField": "title",
+            "excerpt": "《Mr.love》"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch04.json",
+            "locator": "sources[accountId=1669777785,page=13].items[bvid=BV1pV4y1P7Tk]",
+            "sourceField": "descriptionExcerpt",
+            "excerpt": "目录简介列出莞儿、露早、米诺、虞莫、柚恩及官号"
+          }
+        ]
+      },
+      "note": "复用 EOE 原曲 Mr.Love；简介未提供直播演出日期，投稿日仅表示作品发布。"
+    },
+    {
+      "id": "evt_08429448-8733-4115-af93-68119baba54e",
+      "date": "2022-12-11",
+      "kind": "announcement",
+      "title": "米诺生日会延期及虞莫暂时缺席直播",
+      "occurrence": "announced",
+      "publishedAt": "2022-12-11T09:41:42.000Z",
+      "text": "亲爱的EOES们，大家好。鉴于当前EOE成员及团队工作人员已有多人感染阳性，出现身体状态不佳的情况，考虑到直播的观看体验，我们决定原定于12月17日的米诺生日会直播将延期，重启时间将在EOE组合成员及工作人员身体状态恢复后再做确定。而相关的二创活动、上舰活动的截止时间也将延后。\r\n此外，@虞莫MOMO 今日也出现发烧症状，因此她也将缺席近期的直播直至身体恢复。接下来，EOE组合的直播时间也将根据成员身体状况做临时性安排。还请各位理解。",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "738362010008289300"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "738362010008289300"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "738362010008289300"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_96c39a15-05ed-4f2e-abb6-793a29b9d8f5",
+      "date": "2022-12-11",
+      "kind": "livestream",
+      "title": "今日有莞",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1gg411n7YB",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1gg411n7YB"
+          }
+        },
+        {
+          "bvid": "BV13P4y1D7fr",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV13P4y1D7fr"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1gg411n7YB"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1gg411n7YB"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1gg411n7YB"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1gg411n7YB"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1gg411n7YB"
+    },
+    {
+      "id": "evt_80680568-6db3-40e9-9768-aff2ec418588",
+      "date": "2022-12-11",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "听着温柔的兔子先生🐇进入雪白柔软的梦乡吧",
+      "text": "原版：洛天依-BV1Ms411U7KT\n翻唱：莞儿\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：",
+      "publishedAt": "2022-12-11T15:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_e5c6395a-300a-4e2c-b7cb-df341fcd9e98"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1i24y1Q7QZ",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1i24y1Q7QZ]"
+          }
+        }
+      ],
+      "creditedMembers": [
+        "waner"
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1i24y1Q7QZ]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-11T15:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1i24y1Q7QZ]",
+            "sourceField": "title",
+            "excerpt": "听着温柔的兔子先生🐇进入雪白柔软的梦乡吧"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1875044092,page=8].items[bvid=BV1i24y1Q7QZ]",
+            "sourceField": "description",
+            "excerpt": "原版：洛天依-BV1Ms411U7KT\n翻唱：莞儿"
+          },
+          {
+            "file": "../evidence/round-18-original-bv-details.json",
+            "locator": "items[bvid=BV1i24y1Q7QZ]",
+            "sourceField": "title"
+          }
+        ]
+      },
+      "note": "账号投稿简介与原曲 BV 详情共同明确作品身份；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_31f8f8aa-6da8-425e-b191-6ebd1ab85327",
+      "date": "2022-12-14",
+      "kind": "announcement",
+      "title": "成员健康状况与本周直播安排",
+      "occurrence": "announced",
+      "publishedAt": "2022-12-14T04:39:30.000Z",
+      "text": "亲爱的EOES们，跟各位分享一下目前各位成员的身体状况。截止到中午@米诺高分少女 已经退烧，但是一直在咳嗽。@露早GOGO 体温维持在37.5℃左右，开始咳嗽鼻塞，身体状态有所好转，可能处在感染后的恢复阶段。@虞莫MOMO 昨天退烧之后，今天又有低烧症状。@柚恩不加糖 一直处在低烧状态，已经去过三甲医院进行诊断，无大碍，需要继续吃药休息。队长@莞儿睡不醒 目前尚未被感染，依然处在健康状态下。本周的直播也依然由队长带给大家。而其他成员将在身体恢复后，开启直播。",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "739397389208518741"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-health-notice-2022-12-14.json",
+            "locator": "739397389208518741"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-health-notice-2022-12-14.json",
+            "locator": "739397389208518741"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_0f4cfa11-c400-45af-9172-8a77f8c40e6f",
+      "date": "2022-12-16",
+      "kind": "livestream",
+      "title": "莞儿来啦！！",
+      "occurrence": "recording-attested",
+      "formatLabel": "电台",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1714y1N7am",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1714y1N7am"
+          }
+        },
+        {
+          "bvid": "BV1qV4y1A7Lx",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1qV4y1A7Lx"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1714y1N7am"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1714y1N7am"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1714y1N7am"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1714y1N7am"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1qV4y1A7Lx"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1714y1N7am"
+    },
+    {
+      "id": "evt_65150d02-9c58-40fb-87aa-eacf7b4c0a29",
+      "date": "2022-12-17",
+      "kind": "announcement",
+      "title": "莞儿缺席本周余下直播及成员健康情况",
+      "occurrence": "announced",
+      "publishedAt": "2022-12-17T06:56:11.000Z",
+      "text": "亲爱的EOES们，插播一条消息。@莞儿睡不醒 今天也出现了发烧症状，目前体温38度，抗原阴性。出于安全起见，她将缺席本周余下的所有直播。\n目前其余四位成员均已退烧，症状基本为不同程度的咳嗽，也请大家放心。预计下周晚些时候，将会有成员恢复健康直播。当然，后续直播安排将根据团队成员身体状况，在身体状态允许的情况下复播，还请大家理解。",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "740545867756339225"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "740545867756339225"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "740545867756339225"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_6531d5c0-0253-4299-abc9-116034cdcf2f",
+      "date": "2022-12-17",
+      "kind": "publication",
+      "subtype": "variety-show",
+      "title": "【EOE小团综第5期】米诺直译新兰告白时刻 虞莫记忆方法大公开",
+      "publishedAt": "2022-12-17T04:00:00.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV1n8411p7gd",
+          "role": "publication",
+          "source": {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1n8411p7gd"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1n8411p7gd"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1n8411p7gd"
+          }
+        ],
+        "publishedAt": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1n8411p7gd"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1n8411p7gd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_7f821646-c90b-4fae-8487-c4f7963f9cbd",
+      "date": "2022-12-18",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "关于青春的约定✨米诺翻唱周董经典曲『蒲公英的约定』",
+      "publishedAt": "2022-12-18T13:27:31.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_29d51583-8176-4ce6-84a9-30c246962ec0"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1DG4y1E7XM",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1DG4y1E7XM]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1DG4y1E7XM]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-18T13:27:31.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1DG4y1E7XM]",
+            "sourceField": "title",
+            "excerpt": "关于青春的约定✨米诺翻唱周董经典曲『蒲公英的约定』"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1DG4y1E7XM]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_7d57c551-7f7e-4c63-9cbc-e0f46b7e404b",
+      "date": "2022-12-19",
+      "kind": "publication",
+      "subtype": "promotional-video",
+      "title": "【EOE小团综偷跑花絮】嘘！来点你们想看的！",
+      "publishedAt": "2022-12-19T09:00:19.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV1NG4y1J7rX",
+          "role": "publication",
+          "source": {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1NG4y1J7rX"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1NG4y1J7rX"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1NG4y1J7rX"
+          }
+        ],
+        "publishedAt": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1NG4y1J7rX"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1NG4y1J7rX"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_6b4a0ad5-6c37-45fd-88b5-5d104990d9ae",
+      "date": "2022-12-19",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『遇到』还记得3年E班的露湘琴吗？【露早翻唱】",
+      "publishedAt": "2022-12-19T07:05:45.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_1ffab99c-20e8-477c-8c2f-339964633d29"
+      ],
+      "assets": [
+        {
+          "bvid": "BV19e4y1K72F",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV19e4y1K72F]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV19e4y1K72F]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-19T07:05:45.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV19e4y1K72F]",
+            "sourceField": "title",
+            "excerpt": "『遇到』还记得3年E班的露湘琴吗？【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV19e4y1K72F]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_4ee762d8-7734-4a9a-af02-45476f9f36d4",
+      "date": "2022-12-20",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『遇萤』愿赠你满天流萤【柚恩催泪翻唱《遇龙》主题曲】",
+      "text": "原唱：CRITTY\n翻唱：柚恩\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://sp",
+      "publishedAt": "2022-12-20T04:19:18.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_16799797-444d-4177-952e-be67f522d70d"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1KW4y1T7Eu",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1KW4y1T7Eu]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1KW4y1T7Eu]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-20T04:19:18.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1KW4y1T7Eu]",
+            "sourceField": "title",
+            "excerpt": "『遇萤』愿赠你满天流萤【柚恩催泪翻唱《遇龙》主题曲】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1KW4y1T7Eu]",
+            "sourceField": "description",
+            "excerpt": "原唱：CRITTY\n翻唱：柚恩\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://sp"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_9f13888f-febb-440b-9acf-061ad703ab88",
+      "date": "2022-12-21",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『刻在我心底的名字』有些名字，记住就是一辈子【米诺翻唱】",
+      "text": "翻唱：米诺\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibi",
+      "publishedAt": "2022-12-21T03:40:21.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_de1c70f6-e78c-4d2e-9d7d-7aaa0295be43"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1cW4y1M7qU",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1cW4y1M7qU]"
+          }
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1cW4y1M7qU]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-21T03:40:21.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1cW4y1M7qU]",
+            "sourceField": "title",
+            "excerpt": "『刻在我心底的名字』有些名字，记住就是一辈子【米诺翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1cW4y1M7qU]",
+            "sourceField": "description",
+            "excerpt": "翻唱：米诺\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibi"
+          }
+        ]
+      },
+      "note": "账号投稿简介明确歌曲及演唱/翻唱信息；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_962694bf-b76d-4739-8ecc-2909222d600f",
+      "date": "2022-12-22",
+      "kind": "livestream",
+      "title": "歪歪歪，莞儿给你来电",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1284y147fj",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1284y147fj"
+          }
+        },
+        {
+          "bvid": "BV17G411N7CM",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV17G411N7CM"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1284y147fj"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1284y147fj"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1284y147fj"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1284y147fj"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1284y147fj",
+      "plannedTime": "20:00",
+      "plannedMembers": [
+        "waner"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_28932ff7-1e41-4a1e-9aca-9d13931c2cd9",
+      "date": "2022-12-23",
+      "kind": "livestream",
+      "title": "虞你唠嗑",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1v84y1s75K",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1v84y1s75K"
+          }
+        },
+        {
+          "bvid": "BV1oA411X75J",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1oA411X75J"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1v84y1s75K"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1v84y1s75K"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1v84y1s75K"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1v84y1s75K"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1v84y1s75K",
+      "plannedTime": "19:00",
+      "plannedMembers": [
+        "yumo"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_7841dce2-81ab-4a84-b388-402ff1bbaf50",
+      "date": "2022-12-23",
+      "kind": "livestream",
+      "title": "来聊天柚",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1dW4y1N7tp",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dW4y1N7tp"
+          }
+        },
+        {
+          "bvid": "BV1MG4y1n7Je",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1MG4y1n7Je"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dW4y1N7tp"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dW4y1N7tp"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dW4y1N7tp"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dW4y1N7tp"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1dW4y1N7tp",
+      "plannedTime": "20:30",
+      "plannedMembers": [
+        "youen"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_1020c4fb-753d-4d95-90f1-15082ed4bfed",
+      "date": "2022-12-24",
+      "kind": "publication",
+      "subtype": "variety-show",
+      "title": "【EOE小团综第6期】露早神助攻米诺临门一脚 虞莫去酒吧其实是为了…",
+      "publishedAt": "2022-12-24T04:00:00.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV1pM411179j",
+          "role": "publication",
+          "source": {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1pM411179j"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1pM411179j"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1pM411179j"
+          }
+        ],
+        "publishedAt": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1pM411179j"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1pM411179j"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_84ce78b9-3202-4fe6-9433-1e67f7fc30ad",
+      "date": "2022-12-24",
+      "kind": "livestream",
+      "title": "杂谈之神回归",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV183411Q77m",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV183411Q77m"
+          }
+        },
+        {
+          "bvid": "BV1Nv4y1z7xy",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1Nv4y1z7xy"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV183411Q77m"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV183411Q77m"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV183411Q77m"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV183411Q77m"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV183411Q77m",
+      "plannedTime": "19:00",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_9f3dfc66-edd6-40d7-a24a-0db984dff580",
+      "date": "2022-12-24",
+      "kind": "livestream",
+      "title": "好久不见",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1F84y1x7sa",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1F84y1x7sa"
+          }
+        },
+        {
+          "bvid": "BV15d4y1a7wk",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV15d4y1a7wk"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1F84y1x7sa"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1F84y1x7sa"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1F84y1x7sa"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1F84y1x7sa"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1F84y1x7sa",
+      "plannedTime": "20:30",
+      "plannedMembers": [
+        "minuo"
+      ],
+      "participation": "individual"
+    },
+    {
+      "id": "evt_b13283b4-7fbb-4998-a8fd-daee5c258728",
+      "date": "2022-12-25",
+      "kind": "livestream",
+      "title": "柚恩终于有新衣了！",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Gd4y1a7N2",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gd4y1a7N2"
+          }
+        },
+        {
+          "bvid": "BV1j14y1w75W",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1j14y1w75W"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gd4y1a7N2"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gd4y1a7N2"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gd4y1a7N2"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Gd4y1a7N2"
+          }
+        ],
+        "participation": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ],
+        "hostMember": [
+          {
+            "file": "../evidence/december-2022.json",
+            "locator": "741691490162442244"
+          }
+        ]
+      },
+      "participation": "group",
+      "plannedTime": "19:30",
+      "hostMember": "luzao",
+      "preferredRecordingBvid": "BV1Gd4y1a7N2"
+    },
+    {
+      "id": "evt_1f2a2b63-2ef3-4d59-80fe-7e028b503975",
+      "date": "2022-12-26",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "12月26–27日官方周表调整",
+      "publishedAt": "2022-12-26T07:20:41.000Z",
+      "occurrence": "announced",
+      "announcedActivity": {
+        "changes": [
+          {
+            "date": "2022-12-26",
+            "status": "rest-day"
+          },
+          {
+            "date": "2022-12-27",
+            "plannedEvents": [
+              {
+                "members": [
+                  "waner"
+                ],
+                "plannedTime": "19:00",
+                "participation": "individual"
+              },
+              {
+                "members": [
+                  "luzao"
+                ],
+                "plannedTime": "20:30",
+                "participation": "individual"
+              }
+            ]
+          }
+        ]
+      },
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "743891947940216920"
+          }
+        ],
+        "text": [
+          {
+            "file": "../source/december-2022-extra/743778148487790609.png",
+            "locator": "主代理实际查看完整原图"
+          },
+          {
+            "file": "../source/december-2022-extra/743891947940216920.png",
+            "locator": "主代理实际查看完整原图"
+          }
+        ]
+      },
+      "note": "早版26莞儿19:30、27露早19:30；晚版26休息、27莞儿19:00和露早20:30。保留两版及发布先后，不认定实际开播。"
+    },
+    {
+      "id": "evt_30ec7005-a351-4190-b2d3-b06316bac88f",
+      "date": "2022-12-27",
+      "kind": "publication",
+      "subtype": "promotional-video",
+      "title": "啥是高科技？漏勺再立大功？米诺生日会XR舞台抢先看！",
+      "publishedAt": "2022-12-27T04:00:31.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV1sP4y1q7vw",
+          "role": "publication",
+          "source": {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1sP4y1q7vw"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1sP4y1q7vw"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1sP4y1q7vw"
+          }
+        ],
+        "publishedAt": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1sP4y1q7vw"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1sP4y1q7vw"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3517d041-0159-43f3-8687-a1fb9d33416f",
+      "date": "2022-12-27",
+      "kind": "livestream",
+      "title": "露早和她的朋友",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Pv4y167JC",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Pv4y167JC"
+          }
+        },
+        {
+          "bvid": "BV1m14y1w7Za",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1m14y1w7Za"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Pv4y167JC"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Pv4y167JC"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Pv4y167JC"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Pv4y167JC"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Pv4y167JC"
+    },
+    {
+      "id": "evt_74a0a2ff-6956-44ce-b72b-253fcc87b8a1",
+      "date": "2022-12-27",
+      "kind": "livestream",
+      "title": "莞儿的台词摄影会",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1y14y1w7Gh",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1y14y1w7Gh"
+          }
+        },
+        {
+          "bvid": "BV1oA411D73N",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1oA411D73N"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1y14y1w7Gh"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1y14y1w7Gh"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1y14y1w7Gh"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1875044092.json",
+            "locator": "BV1y14y1w7Gh"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1y14y1w7Gh"
+    },
+    {
+      "id": "evt_6b301e1f-057d-45d0-9705-51f62e850cfa",
+      "date": "2022-12-28",
+      "kind": "livestream",
+      "title": "MOMO治愈系版本开启",
+      "occurrence": "recording-attested",
+      "formatLabel": "电台",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1t3411D71v",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1t3411D71v"
+          }
+        },
+        {
+          "bvid": "BV1y44y1o7J4",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1y44y1o7J4"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1t3411D71v"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1t3411D71v"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1t3411D71v"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1811071010.json",
+            "locator": "BV1t3411D71v"
+          }
+        ],
+        "formatLabel": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "744639658786291745"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "744639658786291745"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "744639658786291745"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1t3411D71v",
+      "plannedTime": "19:00",
+      "plannedMembers": [
+        "yumo"
+      ]
+    },
+    {
+      "id": "evt_dff380a9-75ea-4c2f-970f-bd5a40b90a66",
+      "date": "2022-12-28",
+      "kind": "livestream",
+      "title": "柚柚的视频来电",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1bY411U72w",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1bY411U72w"
+          }
+        },
+        {
+          "bvid": "BV1dg41147Gq",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1dg41147Gq"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1bY411U72w"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1bY411U72w"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1bY411U72w"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1bY411U72w"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "744639658786291745"
+          }
+        ],
+        "plannedMembers": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "744639658786291745"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1bY411U72w",
+      "plannedTime": "20:30",
+      "plannedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_ead46007-1dee-442c-9309-eb657db1f254",
+      "date": "2022-12-28",
+      "kind": "announcement",
+      "title": "虞莫直播形式与日期调整、柚恩开播时间调整",
+      "occurrence": "announced",
+      "publishedAt": "2022-12-28T07:42:11.000Z",
+      "text": "各位EOES大家好，临时插播一条消息。由于@虞莫MOMO 身体不适，原定于今晚的3d直播改为电台直播，时间调整为19:00，同时虞莫本周3d直播时间改为周日（1月1日）18:30。@柚恩不加糖 去医院复查，直播时间改为20:30。请大家不要担心，工作人员会在考虑成员的身体健康基础上合理灵活排播。",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "744639658786291745"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "744639658786291745"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+            "locator": "744639658786291745"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_ec8d2f70-ca00-4452-b287-c0719d1db7c0",
+      "date": "2022-12-28",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "一句难释怀，一场旧遗憾【倒带-蔡依林】露早翻唱",
+      "publishedAt": "2022-12-28T06:15:11.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_b62c045b-bf07-4d24-8520-49ace6b5b5e3"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1x44y1o7Rb",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1x44y1o7Rb]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1x44y1o7Rb]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-28T06:15:11.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1x44y1o7Rb]",
+            "sourceField": "title",
+            "excerpt": "一句难释怀，一场旧遗憾【倒带-蔡依林】露早翻唱"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1x44y1o7Rb]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_fd1c5225-a8b6-4392-83e1-e9bb83be9240",
+      "date": "2022-12-29",
+      "kind": "publication",
+      "subtype": "promotional-video",
+      "title": "牌神❓漏神❗直击米诺生日歌单泄漏现场❗",
+      "publishedAt": "2022-12-29T04:09:30.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV1g3411D7DR",
+          "role": "publication",
+          "source": {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1g3411D7DR"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1g3411D7DR"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1g3411D7DR"
+          }
+        ],
+        "publishedAt": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1g3411D7DR"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/december-publications.json",
+            "locator": "BV1g3411D7DR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_40d0b96d-5a82-475c-a56f-5a46bbfa65b9",
+      "date": "2022-12-30",
+      "kind": "livestream",
+      "title": "米诺生日演唱会",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1QR4y1U7G8",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1QR4y1U7G8"
+          }
+        },
+        {
+          "bvid": "BV1e44y1R7wL",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1e44y1R7wL"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1QR4y1U7G8"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1QR4y1U7G8"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1QR4y1U7G8"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1778026586.json",
+            "locator": "BV1QR4y1U7G8"
+          }
+        ],
+        "promotion": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "745340043399266304"
+          }
+        ],
+        "plannedTime": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "745340043399266304"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1QR4y1U7G8",
+      "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_c653bb56-3e96-472a-8780-381d4a502d4a",
+      "date": "2022-12-30",
+      "kind": "announcement",
+      "subtype": "milestone",
+      "title": "米诺达成2100+舰长成就公告",
+      "publishedAt": "2022-12-30T15:16:45.000Z",
+      "occurrence": "announced",
+      "relatedEventId": "evt_40d0b96d-5a82-475c-a56f-5a46bbfa65b9",
+      "announcedMilestone": {
+        "member": "minuo",
+        "metric": "舰长",
+        "displayedCount": "2100+"
+      },
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "745498970086703154"
+          }
+        ],
+        "text": [
+          {
+            "file": "../source/december-2022-extra/745498970086703154.jpg",
+            "locator": "主代理实际查看完整原图"
+          }
+        ],
+        "relatedEventId": [
+          {
+            "file": "events-2022-12.json",
+            "locator": "evt_40d0b96d-5a82-475c-a56f-5a46bbfa65b9"
+          }
+        ]
+      },
+      "note": "官方发布于米诺生日演唱会当晚，只记录2100+声明，不反推精确达成时刻。"
+    },
+    {
+      "id": "evt_f835ffdf-3bcf-4a5c-b0d0-42a40e075335",
+      "date": "2022-12-30",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『红色高跟鞋』当一个女孩穿上高跟鞋，当一个小恶魔完成蜕变",
+      "publishedAt": "2022-12-30T15:42:11.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_92fa1366-3e4e-45d7-bab5-eeca0dc262cd"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1HW4y1L7HX",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1HW4y1L7HX]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1HW4y1L7HX]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-30T15:42:11.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1HW4y1L7HX]",
+            "sourceField": "title",
+            "excerpt": "『红色高跟鞋』当一个女孩穿上高跟鞋，当一个小恶魔完成蜕变"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV1HW4y1L7HX]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_1b86b3e1-fc3e-4051-aa36-b72e3509313f",
+      "date": "2022-12-31",
+      "kind": "livestream",
+      "title": "一起跨年！",
+      "occurrence": "recording-attested",
+      "formatLabel": null,
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Td4y1h7QM",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Td4y1h7QM"
+          }
+        },
+        {
+          "bvid": "BV1S3411D7fE",
+          "relation": "same-event",
+          "source": {
+            "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+            "locator": "BV1S3411D7fE"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Td4y1h7QM"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Td4y1h7QM"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Td4y1h7QM"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Td4y1h7QM"
+          }
+        ]
+      },
+      "preferredRecordingBvid": "BV1Td4y1h7QM"
+    },
+    {
+      "id": "evt_c490bfbf-6bbf-495a-92cd-f7e3c3724fd2",
+      "date": "2022-12-31",
+      "kind": "announcement",
+      "subtype": "digital-merchandise",
+      "title": "EOE五位成员UP主大表情上线公告",
+      "publishedAt": "2022-12-31T02:00:00.000Z",
+      "occurrence": "announced",
+      "announcedMembers": [
+        "waner",
+        "luzao",
+        "minuo",
+        "yumo",
+        "youen"
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2022.json",
+            "locator": "745664734347395201"
+          }
+        ],
+        "text": [
+          {
+            "file": "../source/december-2022-extra/745664734347395201.jpg",
+            "locator": "主代理实际查看完整原图"
+          }
+        ]
+      },
+      "note": "原图注明加入主播粉丝团或大航海可使用对应表情；分别展示粉丝团、舰长、提督、总督表情，不将表情图片当新衣发布。"
+    },
+    {
+      "id": "evt_5e8942f5-435e-425f-8ed4-235075cb3037",
+      "date": "2022-12-31",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "全网首个虚偶XR乐队LIVE现场！告五人《爱人错过》 ，这是不是你们忘记的第六人？",
+      "publishedAt": "2022-12-31T12:15:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_75113980-7e7d-4d8b-a1d9-b5a14ac53ca1"
+      ],
+      "assets": [
+        {
+          "bvid": "BV188411n7ds",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV188411n7ds]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV188411n7ds]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-31T12:15:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV188411n7ds]",
+            "sourceField": "title",
+            "excerpt": "全网首个虚偶XR乐队LIVE现场！告五人《爱人错过》 ，这是不是你们忘记的第六人？"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1778026586,page=9].items[bvid=BV188411n7ds]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_e1b90d36-85f9-4aba-9984-73c9e02c9286",
+      "date": "2022-12-31",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『Someone you loved』开口醉的含金量！西米露主唱CP带你的耳朵飞飞飞",
+      "publishedAt": "2022-12-31T06:15:56.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_e7251c94-ddc5-40bb-a1a7-de5226db1026"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1E44y1d7FC",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1E44y1d7FC]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1E44y1d7FC]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-31T06:15:56.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1E44y1d7FC]",
+            "sourceField": "title",
+            "excerpt": "『Someone you loved』开口醉的含金量！西米露主唱CP带你的耳朵飞飞飞"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1E44y1d7FC]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_722e932a-0ff3-4002-a8a7-9d95de466a94",
+      "date": "2022-12-25",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "超优雅公主晚礼服！柚恩绝美新衣上演钢琴独奏！【Secret+蒲公英的约定】",
+      "publishedAt": "2022-12-25T13:57:11.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_3b145831-3f98-4764-ac54-ed901171147a",
+        "song_29d51583-8176-4ce6-84a9-30c246962ec0"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1XD4y177EM",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1XD4y177EM]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1XD4y177EM]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-25T13:57:11.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1XD4y177EM]",
+            "sourceField": "title",
+            "excerpt": "超优雅公主晚礼服！柚恩绝美新衣上演钢琴独奏！【Secret+蒲公英的约定】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1XD4y177EM]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "超优雅公主晚礼服！柚恩绝美新衣上演钢琴独奏！【Secret+蒲公英的约定】\n原曲：周杰伦\n翻唱：柚恩\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "原曲：周杰伦\n翻唱：柚恩\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space"
+    },
+    {
+      "id": "evt_fda16ec9-d7cf-4ece-b16d-3a776b78f733",
+      "date": "2022-12-25",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "这就是青春疼痛的滋味吗？柚恩学姐深情演绎【匆匆那年】",
+      "publishedAt": "2022-12-25T07:20:45.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_b19a9d47-9233-48bd-8541-e41f77afddfd"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1G14y1P7TB",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1G14y1P7TB]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1G14y1P7TB]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-25T07:20:45.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1G14y1P7TB]",
+            "sourceField": "title",
+            "excerpt": "这就是青春疼痛的滋味吗？柚恩学姐深情演绎【匆匆那年】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=14].items[bvid=BV1G14y1P7TB]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "这就是青春疼痛的滋味吗？柚恩学姐深情演绎【匆匆那年】\n原唱：王菲\n翻唱：柚恩\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space."
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "原唱：王菲\n翻唱：柚恩\n-----------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space."
+    },
+    {
+      "id": "evt_456c8b50-7c21-4f88-b1ea-6cdf102d6e5c",
+      "date": "2022-12-07",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "💗 Pick Me Up 💗 元气学姐，等你选择！【虞莫翻跳】",
+      "publishedAt": "2022-12-07T06:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_bf7d6550-af0e-4a22-84c9-2d9d11dab1b8"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1DG4y1g7Er",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=8].items[bvid=BV1DG4y1g7Er]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=8].items[bvid=BV1DG4y1g7Er]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-07T06:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=8].items[bvid=BV1DG4y1g7Er]",
+            "sourceField": "title",
+            "excerpt": "💗 Pick Me Up 💗 元气学姐，等你选择！【虞莫翻跳】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch03.json",
+            "locator": "sources[accountId=1811071010,page=8].items[bvid=BV1DG4y1g7Er]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "💗 Pick Me Up 💗 元气学姐，等你选择！【虞莫翻跳】\n翻跳：虞莫\n原版：创造101\n—————————\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.co"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "翻跳：虞莫\n原版：创造101\n—————————\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.co"
+    },
+    {
+      "id": "evt_3867e440-cb93-49a6-a339-37ad81ce36f7",
+      "date": "2022-12-24",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "【露早翻唱】《Love Will Show You Everything》\"Take this gift and don't ask why\"",
+      "publishedAt": "2022-12-24T12:41:45.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_dbf87861-1b8e-4524-bdd5-a1109c9a6da7"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1Fv4y1z7vn",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1Fv4y1z7vn]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1Fv4y1z7vn]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-24T12:41:45.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1Fv4y1z7vn]",
+            "sourceField": "title",
+            "excerpt": "【露早翻唱】《Love Will Show You Everything》\"Take this gift and don't ask why\""
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1Fv4y1z7vn]",
+            "sourceField": "title",
+            "excerpt": "【露早翻唱】《Love Will Show You Everything》\"Take this gift and don't ask why\"；精确匹配曲目：Love Will Show You Everything"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n@露早GOGO  ：https://space.bilibili.com/1669777785"
+    },
+    {
+      "id": "evt_2e12ce09-9251-4694-bc25-f1e6d223dd66",
+      "date": "2022-12-24",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "【露早翻唱】《喜欢》“有时候只愿意听你唱完一首歌”",
+      "publishedAt": "2022-12-24T12:41:19.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_84a3cd0d-e4dd-460c-8549-4aecd2ba3798"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1aG4y177C5",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1aG4y177C5]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1aG4y177C5]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-24T12:41:19.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1aG4y177C5]",
+            "sourceField": "title",
+            "excerpt": "【露早翻唱】《喜欢》“有时候只愿意听你唱完一首歌”"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1aG4y177C5]",
+            "sourceField": "title",
+            "excerpt": "【露早翻唱】《喜欢》“有时候只愿意听你唱完一首歌”；精确匹配曲目：喜欢"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n@露早GOGO  ：https://space.bilibili.com/1669777785"
+    },
+    {
+      "id": "evt_5624de9e-2b79-4c1e-8852-6f0f747057f5",
+      "date": "2022-12-24",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "【露早翻唱】《每一天》“你微笑的在我身边”",
+      "publishedAt": "2022-12-24T11:26:42.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_dd1488f9-0523-49c6-b301-400165c7d789"
+      ],
+      "assets": [
+        {
+          "bvid": "BV19A411X7t1",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV19A411X7t1]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV19A411X7t1]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-24T11:26:42.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV19A411X7t1]",
+            "sourceField": "title",
+            "excerpt": "【露早翻唱】《每一天》“你微笑的在我身边”"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV19A411X7t1]",
+            "sourceField": "title",
+            "excerpt": "【露早翻唱】《每一天》“你微笑的在我身边”；精确匹配曲目：每一天"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n@露早GOGO  ：https://space.bilibili.com/1669777785"
+    },
+    {
+      "id": "evt_c3e26c83-e24d-4015-a5b5-0c93020d54fb",
+      "date": "2022-12-12",
+      "kind": "publication",
+      "subtype": "dance-video",
+      "title": "偶像or摇子？花手女团带你《接化发》",
+      "publishedAt": "2022-12-12T03:50:18.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_61205318-da50-4935-ac12-7b7a10c1738a"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1YV4y1w7CZ",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1YV4y1w7CZ]"
+          }
+        }
+      ],
+      "creditedMembers": [
+        "waner",
+        "luzao",
+        "youen",
+        "yumo",
+        "minuo"
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1YV4y1w7CZ]",
+            "sourceField": "publishedAt",
+            "excerpt": "2022-12-12T03:50:18.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1YV4y1w7CZ]",
+            "sourceField": "title",
+            "excerpt": "偶像or摇子？花手女团带你《接化发》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1YV4y1w7CZ]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "出镜：EOE；标题明确《接化发》并标注花手女团舞蹈"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=10].items[bvid=BV1YV4y1w7CZ]",
+            "sourceField": "descriptionExcerpt",
+            "excerpt": "出镜：EOE；标题明确《接化发》并标注花手女团舞蹈"
+          }
+        ]
+      },
+      "note": "原始条目明确作品名与舞蹈形式；只登记投稿事件，不把投稿日期当作实际演出日期。"
+    }
+  ]
+}

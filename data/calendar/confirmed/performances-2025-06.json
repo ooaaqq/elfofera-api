@@ -1,0 +1,1678 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "scope": {
+    "from": "2025-06-01",
+    "through": "2025-06-30",
+    "coverage": "adopted-evidence-supported-subset; not exhaustive"
+  },
+  "performances": [
+    {
+      "id": "perf_9e11b7db-92bb-4dc5-b974-dd8c3a350312",
+      "workId": "song_0590df98-bc04-49f6-9b88-ad6e94ee4811",
+      "date": "2025-06-03",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1sE7hzpE3Q",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1sE7hzpE3Q",
+          "sourceField": "raw.pages[].part",
+          "partNumber": 1,
+          "contentId": 30303718737,
+          "excerpt": "爱你"
+        },
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1sE7hzpE3Q",
+          "sourceField": "raw.desc",
+          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年06月03日\n露早&柚恩【那一天的XX，XX起来！】直播剪辑\n"
+        },
+        {
+          "file": "../evidence/round-02-june-event-audio-comparison.json",
+          "locator": "BV1Xc7YzkEDP",
+          "sourceField": "results",
+          "excerpt": "两个非相邻片段音频对齐与同场景/日期/时长支持同场。"
+        }
+      ],
+      "eventId": "evt_7c9175bf-9af1-4689-86b5-851618e78f7b"
+    },
+    {
+      "id": "perf_bb20f2d4-c8da-4285-b12a-eada68a1ce3b",
+      "workId": "song_b62c045b-bf07-4d24-8520-49ace6b5b5e3",
+      "date": "2025-06-03",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1sE7hzpE3Q",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            2
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1sE7hzpE3Q",
+          "sourceField": "raw.pages[].part",
+          "partNumber": 2,
+          "contentId": 30303718913,
+          "excerpt": "倒带"
+        },
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1sE7hzpE3Q",
+          "sourceField": "raw.desc",
+          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年06月03日\n露早&柚恩【那一天的XX，XX起来！】直播剪辑\n"
+        },
+        {
+          "file": "../evidence/round-02-june-event-audio-comparison.json",
+          "locator": "BV1Xc7YzkEDP",
+          "sourceField": "results",
+          "excerpt": "两个非相邻片段音频对齐与同场景/日期/时长支持同场。"
+        }
+      ],
+      "eventId": "evt_7c9175bf-9af1-4689-86b5-851618e78f7b"
+    },
+    {
+      "id": "perf_e4ff33e3-0e3c-46f5-ace8-382351b8ac76",
+      "workId": "song_1d0d5399-b84c-4992-a1c2-ec63e6f1dc51",
+      "date": "2025-06-03",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1sE7hzpE3Q",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1sE7hzpE3Q",
+          "sourceField": "raw.pages[].part",
+          "partNumber": 3,
+          "contentId": 30303718314,
+          "excerpt": "letting go"
+        },
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1sE7hzpE3Q",
+          "sourceField": "raw.desc",
+          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年06月03日\n露早&柚恩【那一天的XX，XX起来！】直播剪辑\n"
+        },
+        {
+          "file": "../evidence/round-02-june-event-audio-comparison.json",
+          "locator": "BV1Xc7YzkEDP",
+          "sourceField": "results",
+          "excerpt": "两个非相邻片段音频对齐与同场景/日期/时长支持同场。"
+        },
+        {
+          "file": "../source/song-identity/BV1sE7hzpE3Q-P3-150s.jpg",
+          "locator": "150秒舞台背景歌词",
+          "sourceField": "舞台歌词",
+          "identityAdoption": {
+            "file": "../evidence/round-02-june2025-song-content-identity-adoption.json",
+            "locator": "perf_e4ff33e3-0e3c-46f5-ace8-382351b8ac76"
+          }
+        }
+      ],
+      "eventId": "evt_7c9175bf-9af1-4689-86b5-851618e78f7b"
+    },
+    {
+      "id": "perf_6aea1c90-9fc8-4f19-809e-f8e5b449c07f",
+      "workId": "song_dc305e75-8fca-47ae-9a6a-e80f4af37a68",
+      "date": "2025-06-03",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1sE7hzpE3Q",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            4
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1sE7hzpE3Q",
+          "sourceField": "raw.pages[].part",
+          "partNumber": 4,
+          "contentId": 30303781026,
+          "excerpt": "说爱你"
+        },
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1sE7hzpE3Q",
+          "sourceField": "raw.desc",
+          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年06月03日\n露早&柚恩【那一天的XX，XX起来！】直播剪辑\n"
+        },
+        {
+          "file": "../evidence/round-02-june-event-audio-comparison.json",
+          "locator": "BV1Xc7YzkEDP",
+          "sourceField": "results",
+          "excerpt": "两个非相邻片段音频对齐与同场景/日期/时长支持同场。"
+        }
+      ],
+      "eventId": "evt_7c9175bf-9af1-4689-86b5-851618e78f7b"
+    },
+    {
+      "id": "perf_21488f40-8655-4c50-b765-9f5f90526d68",
+      "workId": "song_14d38a82-2ed4-4d45-9fe4-31bb316606d2",
+      "date": "2025-06-03",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1sE7hzpE3Q",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1sE7hzpE3Q",
+          "sourceField": "raw.pages[].part",
+          "partNumber": 5,
+          "contentId": 30303784883,
+          "excerpt": "爱的双重魔力"
+        },
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1sE7hzpE3Q",
+          "sourceField": "raw.desc",
+          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年06月03日\n露早&柚恩【那一天的XX，XX起来！】直播剪辑\n"
+        },
+        {
+          "file": "../evidence/round-02-june-event-audio-comparison.json",
+          "locator": "BV1Xc7YzkEDP",
+          "sourceField": "results",
+          "excerpt": "两个非相邻片段音频对齐与同场景/日期/时长支持同场。"
+        }
+      ],
+      "eventId": "evt_7c9175bf-9af1-4689-86b5-851618e78f7b"
+    },
+    {
+      "id": "perf_1b537e83-9146-4780-b28d-4cd7355c6b35",
+      "workId": "song_bafb956c-a14e-4309-ac76-e6eced290f8e",
+      "date": "2025-06-05",
+      "eventId": "evt_7412f2e6-7ae8-42fe-804f-2f6611c038a7",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1MqT4ztE3b",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1H9T4z2EzX",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1MqT4ztE3b",
+          "sourceField": "title",
+          "excerpt": "【EOE露早】《宝贝》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1MqT4ztE3b",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年06月05日\n露早【必须当一次硬茬子！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1H9T4z2EzX",
+          "sourceField": "title",
+          "excerpt": "宝贝【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1H9T4z2EzX",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.6.5 必须当一次硬茬子！【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.co"
+        }
+      ]
+    },
+    {
+      "id": "perf_f636944c-3ef7-4b71-97bd-865f7a2c33e9",
+      "workId": "song_961ee1ff-b92a-4f19-bb8f-1e57a2587c4c",
+      "date": "2025-06-05",
+      "eventId": "evt_2dbafd25-f238-42c4-8a45-9b3eb9e369d2",
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1waTtzDEh2",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV16qTtzjEx4",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1waTtzDEh2",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《芒种》【翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1waTtzDEh2",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月05日\n柚恩【她们之间的故事】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504409"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV16qTtzjEx4",
+          "sourceField": "title",
+          "excerpt": "【柚恩】《芒种》“一想到你我就”Free翻跳"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV16qTtzjEx4",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.05 直播切片\n时轴：撕烂分镜本\n封面：000\n---------------------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.c"
+        }
+      ]
+    },
+    {
+      "id": "perf_b374d6fa-3baa-4e3c-be76-cc2d5576822f",
+      "workId": "song_d70705fe-1e8c-4701-a3ca-de7195aefc36",
+      "date": "2025-06-05",
+      "eventId": "evt_2dbafd25-f238-42c4-8a45-9b3eb9e369d2",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1A1Tsz5EM8",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ZCTtzGEhd",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1A1Tsz5EM8",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《叹云兮》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1A1Tsz5EM8",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月05日\n柚恩【她们之间的故事】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504409"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1ZCTtzGEhd",
+          "sourceField": "title",
+          "excerpt": "【柚恩】“命中最美的相见”丨《叹云兮》翻唱"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1ZCTtzGEhd",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.05 直播切片\n原唱：鞠婧祎\n时轴：撕烂分镜本\n封面：000\n---------------------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.c"
+        }
+      ]
+    },
+    {
+      "id": "perf_67b915b2-311c-49a3-aca7-8c354be8dced",
+      "workId": "song_82a438f3-ba34-471f-901a-03db54e0f68a",
+      "date": "2025-06-05",
+      "eventId": "evt_7412f2e6-7ae8-42fe-804f-2f6611c038a7",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1SJTtzZEVF",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV19uTtzvEd5",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1SJTtzZEVF",
+          "sourceField": "title",
+          "excerpt": "【EOE露早】《Close To You》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1SJTtzZEVF",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年06月05日\n露早【必须当一次硬茬子！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV19uTtzvEd5",
+          "sourceField": "title",
+          "excerpt": "close to you【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV19uTtzvEd5",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.6.5 必须当一次硬茬子！【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.co"
+        }
+      ]
+    },
+    {
+      "id": "perf_77f64359-ed88-4a42-ad58-98a9098b1b99",
+      "workId": "song_61262d45-5b89-44e3-ae88-cb17d5451766",
+      "date": "2025-06-05",
+      "eventId": "evt_2dbafd25-f238-42c4-8a45-9b3eb9e369d2",
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1wvTtzUEej",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1FfT4zVEg1",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1jNTtzuE8f",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1wvTtzUEej",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《Maria》【翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1wvTtzUEej",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月05日\n柚恩【她们之间的故事】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504409"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1FfT4zVEg1",
+          "sourceField": "title",
+          "excerpt": "【柚恩】《Maria》翻跳（无马版）"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1FfT4zVEg1",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.05 直播切片\n时轴：撕烂分镜本\n封面：000\n---------------------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.c"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1jNTtzuE8f",
+          "sourceField": "title",
+          "excerpt": "【柚恩】《Maria》翻跳（全马版）"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1jNTtzuE8f",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.05 直播切片\n时轴：撕烂分镜本\n封面：000\n---------------------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.c"
+        }
+      ]
+    },
+    {
+      "id": "perf_7f6898a7-e475-4373-a821-849a01342156",
+      "workId": "song_bafb956c-a14e-4309-ac76-e6eced290f8e",
+      "date": "2025-06-11",
+      "eventId": "evt_fc3306c6-13e9-442b-9869-b6f2d6219027",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1YxMHzWESJ",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1YxMHzWEZD",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1YxMHzWESJ",
+          "sourceField": "title",
+          "excerpt": "【EOE露早】《宝贝》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1YxMHzWESJ",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年06月11日\n露早【露早表演课】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1YxMHzWEZD",
+          "sourceField": "title",
+          "excerpt": "宝贝【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1YxMHzWEZD",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025年6月11日\n3D【露早表演课】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.bili"
+        }
+      ]
+    },
+    {
+      "id": "perf_b823cf00-be8a-4226-914d-c665fe4cc40c",
+      "workId": "song_fabf9d35-6097-4796-a558-62cac069b7a9",
+      "date": "2025-06-11",
+      "eventId": "evt_a228f3c2-d636-4e44-a196-c7d39aa71f3c",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV14qMJzMEzK",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV14BMJzqEKa",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV14qMJzMEzK",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《九张机》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV14qMJzMEzK",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月11日\n柚恩【这怎么选？】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV14BMJzqEKa",
+          "sourceField": "title",
+          "excerpt": "【柚恩】《九张机》翻唱"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV14BMJzqEKa",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.11 直播切片\n原唱：叶炫清\n时轴：000\n封面：芥舟粥\n---------------------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/"
+        }
+      ]
+    },
+    {
+      "id": "perf_19f351fe-4bd0-4e25-9850-03e489af0f92",
+      "workId": "song_dd32390a-43f5-43ca-b62e-b1b41bdce453",
+      "date": "2025-06-11",
+      "eventId": "evt_a228f3c2-d636-4e44-a196-c7d39aa71f3c",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV14vMJzzEep",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV14vMJzzEep",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《心跳的证明》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV14vMJzzEep",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月11日\n柚恩【这怎么选？】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+        }
+      ]
+    },
+    {
+      "id": "perf_e0659626-ce10-4101-bdfc-5d2fbaddc9cc",
+      "workId": "song_7e99e85a-6abf-40af-976c-5dc7474ebdbf",
+      "date": "2025-06-18",
+      "eventId": "evt_2d6e403d-4e26-4fc9-b109-f208fa642c2d",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1edN7ziEvs",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1dQN7zuEmt",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1edN7ziEvs",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《宁夏》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1edN7ziEvs",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月18日\n柚恩【夏日的烦恼】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1dQN7zuEmt",
+          "sourceField": "title",
+          "excerpt": "【柚恩】回到小时候的夏天，『宁夏』翻唱"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1dQN7zuEmt",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.18 直播切片\n原唱：梁静茹\n时轴：000\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    },
+    {
+      "id": "perf_c0d4f26e-ae08-4f73-9ae1-3054016c55ec",
+      "workId": "song_db83cfc4-a297-457c-b2e4-7a90834ea8b5",
+      "date": "2025-06-18",
+      "eventId": "evt_2d6e403d-4e26-4fc9-b109-f208fa642c2d",
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1jYNEz3Eua",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1jYNEzGE9y",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1jYNEz3Eua",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《DEEP BLUE TOWNへおいでよ》（到深蓝城来吧）【翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1jYNEz3Eua",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月18日\n柚恩【夏日的烦恼】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1jYNEzGE9y",
+          "sourceField": "title",
+          "excerpt": "【柚恩】『Deep Blue Townへおいでよ』翻跳（到深蓝城来吧）"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1jYNEzGE9y",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.18 直播切片\n时轴：000\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    },
+    {
+      "id": "perf_3f42c4af-2c10-4926-860a-063ac2d695e9",
+      "workId": "song_91554eca-847f-4a98-9dc7-0a695c6b5f04",
+      "date": "2025-06-18",
+      "eventId": "evt_2d6e403d-4e26-4fc9-b109-f208fa642c2d",
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1L8NEzVE1v",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1qhNEzkEMg",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1L8NEzVE1v",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《Love Shake》【翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1L8NEzVE1v",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月18日\n柚恩【夏日的烦恼】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1qhNEzkEMg",
+          "sourceField": "title",
+          "excerpt": "【柚恩】Baby don’t let me stop,『Love Shake』翻跳"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1qhNEzkEMg",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.18 直播切片\n时轴：000\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    },
+    {
+      "id": "perf_9c2e742d-47a0-4b3b-8af2-dddf783b2592",
+      "workId": "song_e1fbfad8-1c2e-4b8a-9461-fb542545346a",
+      "date": "2025-06-18",
+      "eventId": "evt_2d6e403d-4e26-4fc9-b109-f208fa642c2d",
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1UPNEzcEXp",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1oSN7z6Ev9",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1UPNEzcEXp",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《Shake It》【翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1UPNEzcEXp",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月18日\n柚恩【夏日的烦恼】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1oSN7z6Ev9",
+          "sourceField": "title",
+          "excerpt": "【柚恩】翻跳『Shake It』“和我一起共舞”"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1oSN7z6Ev9",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.18 直播切片\n时轴：000\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    },
+    {
+      "id": "perf_8d333e90-a030-490f-8e33-9278443f7c89",
+      "workId": "song_479b976a-6cda-44f3-89a6-6cdb135c7248",
+      "date": "2025-06-18",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1vXNJzjERB",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
+        },
+        {
+          "bvid": "BV19BNnz1Ep3",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1vXNJzjERB",
+          "sourceField": "raw.pages[].part",
+          "partNumber": 1,
+          "contentId": 30570382022,
+          "excerpt": "【字幕版】2025.06.18 露早 夏天的风"
+        },
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1vXNJzjERB",
+          "sourceField": "raw.desc",
+          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年06月18日\n露早【养殖大户猪露早】直播剪辑\n"
+        },
+        {
+          "file": "../evidence/round-02-june-event-audio-comparison.json",
+          "locator": "BV1aTNpzyEdZ",
+          "sourceField": "results",
+          "excerpt": "两个非相邻片段音频对齐与同场景/日期/时长支持同场。"
+        },
+        {
+          "file": "../source/song-identity/BV1vXNJzjERB-P1-70s.jpg",
+          "locator": "70秒底部字幕",
+          "sourceField": "字幕",
+          "identityAdoption": {
+            "file": "../evidence/round-02-june2025-song-content-identity-adoption.json",
+            "locator": "perf_8d333e90-a030-490f-8e33-9278443f7c89"
+          }
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV19BNnz1Ep3",
+          "sourceField": "title",
+          "excerpt": "夏天的风【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV19BNnz1Ep3",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.6.18 养殖大户猪露早【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com"
+        }
+      ],
+      "eventId": "evt_9cb7650b-a277-4f02-9db8-7db8f93862af"
+    },
+    {
+      "id": "perf_1a155318-6466-430e-8115-c0915a7d4a07",
+      "workId": "song_b19a9d47-9233-48bd-8541-e41f77afddfd",
+      "date": "2025-06-19",
+      "eventId": "evt_70c4c97c-d4fd-412d-b1be-f12770925263",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1yyNdztEAo",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1yyNdztEAo",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩&露早】《匆匆那年》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1yyNdztEAo",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月19日\n柚恩&露早【辩论赛？毋庸置疑！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875"
+        }
+      ]
+    },
+    {
+      "id": "perf_92de0963-5610-439b-9a8f-5a4ef6e87178",
+      "workId": "song_bd314c63-026e-4f4f-b6a8-a7b0e2154f03",
+      "date": "2025-06-25",
+      "eventId": "evt_beeb8d15-05a0-4cb9-a9ed-95824aaea042",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1yxKHziE9C",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1NyKnzvEdQ",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1yxKHziE9C",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《我的好兄弟》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1yxKHziE9C",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月25日\n柚恩【这么有力量！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1NyKnzvEdQ",
+          "sourceField": "title",
+          "excerpt": "【柚恩】翻唱『我的好兄弟』“心里有苦你对我说”"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1NyKnzvEdQ",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.25 直播切片\n原唱：高进/小沈阳\n时轴：000\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    },
+    {
+      "id": "perf_4c5cc3fe-dfe8-438c-be6a-8ee57cd3c5d7",
+      "workId": "song_ab624111-2dff-45ca-9a09-dbd2b9e0e5cf",
+      "date": "2025-06-25",
+      "eventId": "evt_beeb8d15-05a0-4cb9-a9ed-95824aaea042",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1CaKHzaELX",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1aaKnzCEgT",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1CaKHzaELX",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《致青春》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1CaKHzaELX",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月25日\n柚恩【这么有力量！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1aaKnzCEgT",
+          "sourceField": "title",
+          "excerpt": "【柚恩】致我们终将逝去的青春 『致青春』翻唱"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1aaKnzCEgT",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.25 直播切片\n原唱：王菲\n时轴：撕烂分镜本\n封面：000\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    },
+    {
+      "id": "perf_030aeca5-c3d0-47b4-880f-dd8e8f41b475",
+      "workId": "song_b62b5929-f897-4c1e-90d5-5814edabc3f3",
+      "date": "2025-06-26",
+      "eventId": "evt_ad7d3cd6-8d23-469d-aea5-2d4264b28ba0",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1eXKZz9EnR",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1UxKZzGEWi",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1eXKZz9EnR",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《被风吹过的夏天》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1eXKZz9EnR",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月26日\n柚恩【夏日音乐节！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1UxKZzGEWi",
+          "sourceField": "title",
+          "excerpt": "【柚恩翻唱】蓝色的思念，带来『 被风吹过的夏天』"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1UxKZzGEWi",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.26 直播切片\n原唱：金莎/林俊杰\n时轴：撕烂分镜本\n封面：000\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785"
+        }
+      ]
+    },
+    {
+      "id": "perf_3afa66fe-2197-4e76-a3b3-63c5debb49af",
+      "workId": "song_ddc5f3e4-0e5c-4090-806e-75a5b86f232c",
+      "date": "2025-06-26",
+      "eventId": "evt_ad7d3cd6-8d23-469d-aea5-2d4264b28ba0",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1tUKfzjEpW",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            2
+          ]
+        },
+        {
+          "bvid": "BV1eiKfzsEo5",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1tUKfzjEpW",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《前のめり》《僕はいない》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1tUKfzjEpW",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月26日\n柚恩【夏日音乐节！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092"
+        },
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1tUKfzjEpW",
+          "sourceField": "raw.pages[].part",
+          "partNumber": 2,
+          "contentId": 30713513946,
+          "excerpt": "僕はいない"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1eiKfzsEo5",
+          "sourceField": "title",
+          "excerpt": "【柚恩】翻唱串烧『僕はいない』『前のめり』"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1eiKfzsEo5",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.26 直播切片\n原唱：NMB48、SKE48\n时轴：撕烂分镜本\n封面：000\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/16697"
+        }
+      ]
+    },
+    {
+      "id": "perf_17969958-5b67-4511-b362-cb75ca93f228",
+      "workId": "song_34f58965-e5d4-424c-aed7-7af82c2101ba",
+      "date": "2025-06-26",
+      "eventId": "evt_ad7d3cd6-8d23-469d-aea5-2d4264b28ba0",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1tUKfzjEpW",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1tUKfzjEpW",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《前のめり》《僕はいない》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1tUKfzjEpW",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月26日\n柚恩【夏日音乐节！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092"
+        },
+        {
+          "file": "../evidence/round-02-song-collection-details-2025-06.json",
+          "locator": "BV1tUKfzjEpW",
+          "sourceField": "raw.pages[].part",
+          "partNumber": 1,
+          "contentId": 30711679155,
+          "excerpt": "前のめり"
+        }
+      ]
+    },
+    {
+      "id": "perf_44615550-998f-407e-a28d-b2d40c330264",
+      "workId": "song_7d68a316-db94-4cb5-b7ea-2903cc6752f6",
+      "date": "2025-06-26",
+      "eventId": "evt_ad7d3cd6-8d23-469d-aea5-2d4264b28ba0",
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1eQKdz2EYp",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1eQKdz2EYp",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《夏色えがおで1,2,Jump!》【翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1eQKdz2EYp",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月26日\n柚恩【夏日音乐节！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092"
+        }
+      ]
+    },
+    {
+      "id": "perf_b3301270-afc1-4c60-b534-a88990c49252",
+      "workId": "song_479b976a-6cda-44f3-89a6-6cdb135c7248",
+      "date": "2025-06-26",
+      "eventId": "evt_ad7d3cd6-8d23-469d-aea5-2d4264b28ba0",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1vXKZz9E2T",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1YZKZznEqq",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1vXKZz9E2T",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《夏天的风》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1vXKZz9E2T",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月26日\n柚恩【夏日音乐节！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1YZKZznEqq",
+          "sourceField": "title",
+          "excerpt": "【柚恩】翻唱“『夏天的风』你是否记得”"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1YZKZznEqq",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.26 直播切片\n原唱：温岚\n时轴：撕烂分镜本\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    },
+    {
+      "id": "perf_12defd3c-e4a2-4c3e-a40e-450ed46ce029",
+      "workId": "song_72850bdb-6c2d-4db3-9bb3-c06076f07d43",
+      "date": "2025-06-26",
+      "eventId": "evt_ad7d3cd6-8d23-469d-aea5-2d4264b28ba0",
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1HJKfzKEyH",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1qSKZzdEVb",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1HJKfzKEyH",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《小城夏天》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1HJKfzKEyH",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月26日\n柚恩【夏日音乐节！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1qSKZzdEVb",
+          "sourceField": "title",
+          "excerpt": "【柚恩】『小城夏天』翻唱“泡沫汽水和你都是夏天感觉~”"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1qSKZzdEVb",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.26 直播切片\n原唱：LBI利比\n时轴：撕烂分镜本\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    },
+    {
+      "id": "perf_34e65883-556e-4f9a-89e9-ba4de93331b7",
+      "workId": "song_546e6d42-1db3-4852-84d2-227346357385",
+      "date": "2025-06-26",
+      "eventId": "evt_ad7d3cd6-8d23-469d-aea5-2d4264b28ba0",
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1ieKfzdEcr",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1tPKozBEzN",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1ieKfzdEcr",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《Power Up》【翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1ieKfzdEcr",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月26日\n柚恩【夏日音乐节！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1tPKozBEzN",
+          "sourceField": "title",
+          "excerpt": "【柚恩】【Red Velvet】『POWER UP』翻跳"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1tPKozBEzN",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.26 直播切片\n时轴：撕烂分镜本\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    },
+    {
+      "id": "perf_e945f385-9d35-4eed-a344-0cc67494b136",
+      "workId": "song_98145f4c-eaf4-4ee4-ae98-5a11266ad2aa",
+      "date": "2025-06-26",
+      "eventId": "evt_ad7d3cd6-8d23-469d-aea5-2d4264b28ba0",
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1pjKfzMEyJ",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1PZKfzgE6Y",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1pjKfzMEyJ",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《Rollin'》【翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1pjKfzMEyJ",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年06月26日\n柚恩【夏日音乐节！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1PZKfzgE6Y",
+          "sourceField": "title",
+          "excerpt": "【柚恩】夏日必备 翻跳『ROLLIN』"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1PZKfzgE6Y",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.26 直播切片"
+        }
+      ]
+    },
+    {
+      "id": "perf_3e3c04d5-b6da-47c1-8082-4cec38801a8d",
+      "workId": "song_dc305e75-8fca-47ae-9a6a-e80f4af37a68",
+      "date": "2025-06-03",
+      "eventId": null,
+      "type": "singing",
+      "creditedMembers": [
+        "youen",
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1AZ7hzdEXK",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1AZ7hzdEXK",
+          "sourceField": "title",
+          "excerpt": "说爱你【露早&柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1AZ7hzdEXK",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025年6月3日\n3D【那一天的XX，XX起来！】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://spac"
+        }
+      ]
+    },
+    {
+      "id": "perf_1153c116-c780-4a7d-b106-afe54ffc0520",
+      "workId": "song_0590df98-bc04-49f6-9b88-ad6e94ee4811",
+      "date": "2025-06-03",
+      "eventId": null,
+      "type": "singing",
+      "creditedMembers": [
+        "youen",
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1hy7hzvEww",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1hy7hzvEww",
+          "sourceField": "title",
+          "excerpt": "爱你【露早&柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1hy7hzvEww",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025年6月3日\n3D【那一天的XX，XX起来！】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://spac"
+        }
+      ]
+    },
+    {
+      "id": "perf_7c74ae26-f438-42cd-975e-3afed53de780",
+      "workId": "song_14d38a82-2ed4-4d45-9fe4-31bb316606d2",
+      "date": "2025-06-03",
+      "eventId": null,
+      "type": "singing",
+      "creditedMembers": [
+        "youen",
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1xG7hz4EHT",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1xG7hz4EHT",
+          "sourceField": "title",
+          "excerpt": "爱的双重魔力【露早&柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1xG7hz4EHT",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025年6月3日\n3D【那一天的XX，XX起来！】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://spac"
+        }
+      ]
+    },
+    {
+      "id": "perf_d587ee2d-3bc2-4432-95bf-b04ff8daef9c",
+      "workId": "song_9b9c4322-d97a-4296-9c58-a6ea6670e946",
+      "date": "2025-06-07",
+      "eventId": null,
+      "type": "singing",
+      "creditedMembers": [
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1RzT2zoEDr",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1RzT2zoEDr",
+          "sourceField": "title",
+          "excerpt": "Pretty Boy【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1RzT2zoEDr",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.6.7 再一起唱歌!【2D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/2"
+        }
+      ]
+    },
+    {
+      "id": "perf_a12dc2f7-c294-40bb-96ac-28fbf56b2539",
+      "workId": "song_dd32390a-43f5-43ca-b62e-b1b41bdce453",
+      "date": "2025-06-11",
+      "eventId": null,
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1WAMJzaEGV",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1WAMJzaEGV",
+          "sourceField": "title",
+          "excerpt": "【柚恩】翻唱“每一次都是《心跳的证明》”"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1WAMJzaEGV",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.11 直播切片\n原唱：刘人语\n时轴：000\n封面：000\n---------------------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/"
+        }
+      ]
+    },
+    {
+      "id": "perf_db18541c-3673-40e4-a249-c7ee17b8e9ae",
+      "workId": "song_2486bbee-2310-459f-ae93-d2e6f1150a45",
+      "date": "2025-06-13",
+      "eventId": null,
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV17uMBzgE6e",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV17uMBzgE6e",
+          "sourceField": "title",
+          "excerpt": "【柚恩】【2D翻唱合集】《好汉歌》《珠玉》"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV17uMBzgE6e",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 2D 25.06.13 直播切片\n时轴：撕烂分镜本\n封面：000\n---------------------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/16697"
+        }
+      ]
+    },
+    {
+      "id": "perf_311dd57c-f72b-452f-b138-f66a9b5ccc8d",
+      "workId": "song_b19a9d47-9233-48bd-8541-e41f77afddfd",
+      "date": "2025-06-19",
+      "eventId": null,
+      "type": "singing",
+      "creditedMembers": [
+        "youen",
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1QKNozVEyp",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1QKNozVEyp",
+          "sourceField": "title",
+          "excerpt": "匆匆那年【露早柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1QKNozVEyp",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.6.19 辩论赛？毋庸置疑！【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.c"
+        }
+      ]
+    },
+    {
+      "id": "perf_98a05b30-974b-4d90-9379-df8e725abfa8",
+      "workId": "song_28128390-b23b-42b3-b0c0-9c93326e6287",
+      "date": "2025-06-26",
+      "eventId": null,
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1HpKfzPE3b",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1JpKfzPEQu",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1HpKfzPE3b",
+          "sourceField": "title",
+          "excerpt": "【柚恩】【Dreamcatcher】『BEcause』 翻跳"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1HpKfzPE3b",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.26 直播切片\n时轴：撕烂分镜本\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1JpKfzPEQu",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《BEcause》【翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1JpKfzPEQu",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025.06.26 柚恩 \n柚恩【夏日音乐节！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044"
+        }
+      ]
+    },
+    {
+      "id": "perf_a1ac270c-f94d-4e54-80b4-5a4e3f22ce44",
+      "workId": "song_1d0d5399-b84c-4992-a1c2-ec63e6f1dc51",
+      "date": "2025-06-03",
+      "eventId": null,
+      "type": "singing",
+      "creditedMembers": [
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1NR7hzZETM",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1NR7hzZETM",
+          "sourceField": "title",
+          "excerpt": "歌词翻译20次的letting go【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1NR7hzZETM",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025年6月3日\n3D【那一天的XX，XX起来！】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://spac"
+        }
+      ]
+    },
+    {
+      "id": "perf_63bdbf17-7be9-48e3-916a-9f5560a23464",
+      "workId": "song_9f28ac52-88be-459b-8460-78b75f62d3d2",
+      "date": "2025-06-26",
+      "eventId": null,
+      "type": "singing",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1omKdzJEwg",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1omKdzJEwg",
+          "sourceField": "title",
+          "excerpt": "【柚恩】Super Idol的笑容 都没你的甜丨翻唱『热爱105度的你』"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1omKdzJEwg",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.26 直播切片\n原唱：阿肆\n时轴：撕烂分镜本\n封面：000\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    },
+    {
+      "id": "perf_5e7503ce-980e-43ab-8372-e884ae83c8a6",
+      "workId": "song_fb26deb8-8d47-49e4-b2d7-2947c2562b84",
+      "date": "2025-06-26",
+      "eventId": null,
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1UAKozuEmt",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1UAKozuEmt",
+          "sourceField": "title",
+          "excerpt": "【柚恩】LoveLive『夏色えがおで』(夏日笑颜) 翻跳"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1UAKozuEmt",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.06.26 直播切片\n时轴：撕烂分镜本\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+        }
+      ]
+    }
+  ]
+}

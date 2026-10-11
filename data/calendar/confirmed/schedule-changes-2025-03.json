@@ -1,0 +1,51 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "1039262687743180805",
+      "relatedAnnouncementEventId": "evt_58750c0e-691b-4f23-8f1d-d7242a1ab5ac",
+      "member": "luzao",
+      "action": "reschedule",
+      "fromDate": "2025-03-02",
+      "toDate": "2025-03-07",
+      "fromPlannedTime": "19:30",
+      "toPlannedTime": "19:30",
+      "source": {
+        "file": "../evidence/round-02-march-plan-change-details.json",
+        "locator": "1039262687743180805"
+      },
+      "originalPlan": {
+        "file": "plans.json",
+        "locator": "2025-03-02/events/0"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2025-03-07/events/0"
+      },
+      "note": "完整正文AT明确露早，原图与后续周表分别支持新旧排期；目标时刻取后续周表，不把公告未给时刻视为同一时间承诺。"
+    },
+    {
+      "announcementId": "1041908724747206664",
+      "relatedAnnouncementEventId": "evt_bbd0d3b4-f0c0-4829-a345-953287eb519d",
+      "member": "luzao",
+      "action": "reschedule",
+      "fromDate": "2025-03-08",
+      "toDate": "2025-03-10",
+      "fromPlannedTime": "19:30",
+      "toPlannedTime": "19:30",
+      "source": {
+        "file": "../evidence/round-02-march-plan-change-details.json",
+        "locator": "1041908724747206664"
+      },
+      "originalPlan": {
+        "file": "plans.json",
+        "locator": "2025-03-08/events/0"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2025-03-10/events/0"
+      },
+      "note": "完整正文AT明确露早，原图与后续周表分别支持新旧排期；目标时刻取后续周表，不把公告未给时刻视为同一时间承诺。"
+    }
+  ]
+}

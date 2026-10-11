@@ -1,0 +1,43 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "1007351765758115846",
+      "relatedAnnouncementEventId": "evt_75dd8ba1-0277-464a-acff-e4a33597a0c3",
+      "date": "2024-12-06",
+      "member": "luzao",
+      "plannedTime": "19:00",
+      "action": "format-change",
+      "fromFormatLabel": "3D",
+      "toFormatLabel": "2D",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-12-06/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-december-schedule-notice-detail.json",
+        "locator": "1007351765758115846"
+      },
+      "note": "plans只保留原图形式；公告声明的原形式与后续调整在此独立记录，不把公告回填原图。"
+    },
+    {
+      "announcementId": "1007351765758115846",
+      "relatedAnnouncementEventId": "evt_75dd8ba1-0277-464a-acff-e4a33597a0c3",
+      "date": "2024-12-08",
+      "member": "luzao",
+      "plannedTime": "19:30",
+      "action": "format-change",
+      "fromFormatLabel": "2D",
+      "toFormatLabel": "3D",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-12-08/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-december-schedule-notice-detail.json",
+        "locator": "1007351765758115846"
+      },
+      "note": "plans只保留原图形式；公告声明的原形式与后续调整在此独立记录，不把公告回填原图。"
+    }
+  ]
+}

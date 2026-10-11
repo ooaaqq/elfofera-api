@@ -1,0 +1,30 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "sourceSnapshot": {
+    "path": "../source/schedules.json",
+    "sha256": "b700e3dd5ba35825a0503b340860bad0b910258f9421b4cec13f975066fc5858",
+    "recordNumbering": "one-based-array-position"
+  },
+  "files": [
+    {
+      "path": "recordings-2022.json",
+      "recordings": 324
+    },
+    {
+      "path": "recordings-2023.json",
+      "recordings": 1025
+    },
+    {
+      "path": "recordings-2024.json",
+      "recordings": 1224
+    },
+    {
+      "path": "recordings-2025.json",
+      "recordings": 1215
+    },
+    {
+      "path": "recordings-2026.json",
+      "recordings": 726
+    }
+  ]
+}

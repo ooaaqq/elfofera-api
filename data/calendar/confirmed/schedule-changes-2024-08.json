@@ -1,0 +1,60 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "961695700795523091",
+      "relatedAnnouncementEventId": "evt_95a159a5-0adf-4139-b0ae-9015aba5afae",
+      "date": "2024-08-04",
+      "member": "luzao",
+      "plannedTime": "20:40",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-08-04/events/1"
+      },
+      "source": {
+        "file": "../evidence/round-02-august-schedule-notice-details.json",
+        "locator": "961695700795523091"
+      },
+      "action": "format-change",
+      "fromFormatLabel": "3D",
+      "toFormatLabel": "电台",
+      "note": "3D为完整公告明确声明的原形式；原周表未标形式，originalFormatLabel保留null，不回填原图。"
+    },
+    {
+      "announcementId": "966586349961347081",
+      "relatedAnnouncementEventId": "evt_dfb6417a-32e4-4da0-bf3b-1282a2fdf872",
+      "date": "2024-08-17",
+      "member": "yumo",
+      "plannedTime": "19:00",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-08-17/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-august-schedule-notice-details.json",
+        "locator": "966586349961347081"
+      },
+      "action": "format-change",
+      "fromFormatLabel": "3D",
+      "toFormatLabel": "2D",
+      "note": "3D为完整公告明确声明的原形式；原周表未标形式，originalFormatLabel保留null，不回填原图。"
+    },
+    {
+      "announcementId": "969533174302375975",
+      "relatedAnnouncementEventId": "evt_effc6750-5997-47df-8510-ef5e4eb3d749",
+      "date": "2024-08-25",
+      "member": "yumo",
+      "plannedTime": "19:00",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-08-25/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-august-schedule-notice-details.json",
+        "locator": "969533174302375975"
+      },
+      "action": "cancel",
+      "formatLabel": "3D"
+    }
+  ]
+}

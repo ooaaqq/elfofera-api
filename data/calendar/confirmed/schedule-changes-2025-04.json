@@ -1,0 +1,58 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "1053812840759033858",
+      "relatedAnnouncementEventId": "evt_6974b935-8777-4301-9ba0-61e2f92d1c7f",
+      "member": "luzao",
+      "action": "reschedule",
+      "fromDate": "2025-04-09",
+      "toDate": "2025-04-14",
+      "fromPlannedTime": "20:40",
+      "toPlannedTime": "20:40",
+      "source": {
+        "file": "../evidence/round-02-april-plan-change-details.json",
+        "locator": "1053812840759033858"
+      },
+      "originalPlan": {
+        "file": "plans.json",
+        "locator": "2025-04-09/events/1"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2025-04-14/events/0"
+      },
+      "note": "公告明确同一时间20:40；后续4/14原图为19:00。两种声明分别保留，不猜实际开播时刻，目标计划仍按原图19:00。"
+    },
+    {
+      "announcementId": "1053812840759033858",
+      "relatedAnnouncementEventId": "evt_6974b935-8777-4301-9ba0-61e2f92d1c7f",
+      "member": "luzao",
+      "action": "format-change",
+      "date": "2025-04-09",
+      "plannedTime": "20:40",
+      "fromFormat": "3D",
+      "toFormat": "电台",
+      "source": {
+        "file": "../evidence/round-02-april-plan-change-details.json",
+        "locator": "1053812840759033858"
+      },
+      "note": "原3D计划另改至4/14，当日20:40明确另作电台安排；两项分开保留，不把原计划删除。"
+    },
+    {
+      "announcementId": "1053812840759033858",
+      "relatedAnnouncementEventId": "evt_6974b935-8777-4301-9ba0-61e2f92d1c7f",
+      "member": "luzao",
+      "action": "format-change",
+      "fromDate": "2025-04-15",
+      "throughDate": "2025-04-25",
+      "fromFormat": "2D/3D",
+      "toFormat": "电台",
+      "source": {
+        "file": "../evidence/round-02-april-plan-change-details.json",
+        "locator": "1053812840759033858"
+      },
+      "note": "仅期间形式安排，不据此推每天均开播或额外创建每日计划；已读周表具体电台排期分别采用。"
+    }
+  ]
+}

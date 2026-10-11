@@ -1,0 +1,71 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "799558353400365171",
+      "relatedAnnouncementEventId": "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b",
+      "evidence": {
+        "file": "../evidence/round-02-schedule-notice-2023-05-25.json",
+        "locator": "799558353400365171"
+      },
+      "action": "cancel",
+      "date": "2023-05-26",
+      "member": "waner",
+      "plannedTime": "19:00",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2023-05-26/events/0"
+      },
+      "scope": "公告发布后本周个人直播取消；不倒推已发生场次取消。"
+    },
+    {
+      "announcementId": "799558353400365171",
+      "relatedAnnouncementEventId": "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b",
+      "evidence": {
+        "file": "../evidence/round-02-schedule-notice-2023-05-25.json",
+        "locator": "799558353400365171"
+      },
+      "action": "tentative-absence",
+      "member": "waner",
+      "fromDate": "2023-05-25",
+      "throughDate": "2023-05-28",
+      "scope": "暂定缺席本周团播，不等同实际出席结论。",
+      "relatedPlans": [
+        {
+          "file": "plans.json",
+          "locator": "2023-05-28/events/0"
+        }
+      ]
+    },
+    {
+      "announcementId": "799558353400365171",
+      "relatedAnnouncementEventId": "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b",
+      "evidence": {
+        "file": "../evidence/round-02-schedule-notice-2023-05-25.json",
+        "locator": "799558353400365171"
+      },
+      "action": "time-change",
+      "date": "2023-05-26",
+      "member": "yumo",
+      "fromTime": "20:30",
+      "toTime": "20:00",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2023-05-26/events/1"
+      }
+    },
+    {
+      "announcementId": "799558353400365171",
+      "relatedAnnouncementEventId": "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b",
+      "evidence": {
+        "file": "../evidence/round-02-schedule-notice-2023-05-25.json",
+        "locator": "799558353400365171"
+      },
+      "action": "postpone",
+      "members": ["waner", "yumo"],
+      "eventTitle": "双人才艺回",
+      "originalDateLabel": "2023年6月初",
+      "scope": "新日期未公布；不把6月3日周表双播自动等同延期才艺回。"
+    }
+  ]
+}

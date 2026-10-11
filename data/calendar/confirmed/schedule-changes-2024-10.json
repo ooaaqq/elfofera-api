@@ -1,0 +1,52 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "988126336812843011",
+      "relatedAnnouncementEventId": "evt_811e06cc-6f69-4aaf-81cf-db9d0a238ce0",
+      "source": {
+        "file": "../evidence/round-02-october-schedule-notice-detail.json",
+        "locator": "988126336812843011"
+      },
+      "action": "reschedule",
+      "member": "yumo",
+      "fromDate": "2024-10-18",
+      "toDate": "2024-10-17",
+      "fromPlannedTime": "19:00",
+      "toPlannedTime": "19:00",
+      "originalPlan": {
+        "date": "2024-10-18",
+        "member": "yumo",
+        "plannedTime": "19:00",
+        "source": {
+          "file": "../evidence/round-02-october-schedule-notice-detail.json",
+          "locator": "988126336812843011"
+        }
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-10-17/events/0"
+      },
+      "note": "原周五安排由公告明确声明，现存10/14周表已列调整后安排；原计划保留在变更中，未把移期当取消。"
+    },
+    {
+      "announcementId": "988126336812843011",
+      "relatedAnnouncementEventId": "evt_811e06cc-6f69-4aaf-81cf-db9d0a238ce0",
+      "source": {
+        "file": "../evidence/round-02-october-schedule-notice-detail.json",
+        "locator": "988126336812843011"
+      },
+      "action": "time-change",
+      "member": "luzao",
+      "date": "2024-10-18",
+      "fromPlannedTime": null,
+      "toPlannedTime": "19:00",
+      "formatLabel": "电台",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-10-18/events/0"
+      },
+      "note": "公告未给原时刻，保留null，不用提前一词猜测原时刻。"
+    }
+  ]
+}

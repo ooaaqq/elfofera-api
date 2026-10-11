@@ -1,0 +1,3371 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "scope": {
+    "from": "2023-05-01",
+    "through": "2023-05-31",
+    "coverage": "adopted-evidence-supported-subset; not exhaustive"
+  },
+  "performances": [
+    {
+      "id": "perf_5e167645-6e82-4e1d-bef4-6a4f0c52ca8d",
+      "workId": "song_8e3479f1-5f6c-454d-bd92-64320ce24bf8",
+      "date": "2023-05-02",
+      "eventId": "evt_bbe9ddb5-53fc-4a0c-bcc9-753670a72ca8",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1nk4y1E7LE",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1nk4y1E7LE",
+          "sourceField": "title",
+          "excerpt": "2D首唱『野狼disco』“这茄子怎么叮梆打电话呢”【莞儿翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1nk4y1E7LE",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月02日\n莞儿L2D【新人主播出道，请多关注！】 直播剪辑\n--------------------------------------------------------\n剪辑：鹿千鸽\n时轴：彩恶灵\n封面：太空橘猫\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bil"
+        }
+      ],
+      "creditedMembers": [
+        "waner"
+      ]
+    },
+    {
+      "id": "perf_7d51944a-982b-47e8-b9b4-8ea9553fa92f",
+      "workId": "song_a8c599fe-15b3-459a-b75d-962d32d11a65",
+      "date": "2023-05-06",
+      "eventId": "evt_84157489-0b29-4744-82d4-519d18050841",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Sk4y1E7rs",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1bV4y1k7Dv",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1Sk4y1E7rs",
+          "sourceField": "title",
+          "excerpt": "YOASOBI『アイドル』\"天才般的偶像大人\"【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1Sk4y1E7rs",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月06日\n柚恩直播【柚恩蜜新衣采购会】 直播剪辑\n--------------------------------------------------------\n剪辑：Subtitle\n时轴：菜市场代言人\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space."
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1bV4y1k7Dv].pages[page=1]",
+          "sourceField": "part",
+          "excerpt": "【歌】 アイドル-"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1bV4y1k7Dv]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】 2023.05.06 柚恩蜜新衣采购会『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_747c4bae-850d-4a2c-930c-c0d16a3c2c30",
+      "workId": "song_065c7caa-6ed8-418e-8841-a69366eff0eb",
+      "date": "2023-05-07",
+      "eventId": "evt_9a829b23-c590-4cc4-b540-7faa23121991",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1d24y1T71W",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1d24y1T71W",
+          "sourceField": "title",
+          "excerpt": "【EOE】团舞3.0《和你在一起》“就想要和你在一起”"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1d24y1T71W",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月07日\n团播【AiDORU挑战】直播剪辑\n--------------------------------------------------------\n剪辑：白酒酿子\n时轴：黑川赤音\n封面：夜幽嵐\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.c"
+        }
+      ],
+      "creditedGroup": "EOE"
+    },
+    {
+      "id": "perf_75144db8-986b-4947-8422-b20e2a12029b",
+      "workId": "song_d702fbdb-ef7e-4d3b-a942-1486d70640d8",
+      "date": "2023-05-07",
+      "eventId": "evt_9a829b23-c590-4cc4-b540-7faa23121991",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1YL41187s5",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1YL41187s5",
+          "sourceField": "title",
+          "excerpt": "『L-O-V-E』“爱是我能给你的一切。”【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1YL41187s5",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月07日\n团播【AiDORU挑战】直播剪辑\n--------------------------------------------------------\n剪辑：洛晨\n时轴：水怪怪怪\n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_a712b604-f49c-4164-bcf2-0df422500e5d",
+      "workId": "song_f5f7f3f5-8b82-412c-bfab-ebc37813b6fc",
+      "date": "2023-05-07",
+      "eventId": "evt_9a829b23-c590-4cc4-b540-7faa23121991",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Cs4y1X775",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1Cs4y1X775",
+          "sourceField": "title",
+          "excerpt": "周杰伦『大笨钟』“我从未爱过你 怎么会想念你”【莞儿翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1Cs4y1X775",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月07日\n团播【AiDORU挑战】直播剪辑\n--------------------------------------------------------\n剪辑：问号\n时轴：芝士桃子\n封面：烈焰诚池\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.co"
+        }
+      ],
+      "creditedMembers": [
+        "waner"
+      ]
+    },
+    {
+      "id": "perf_b578c37c-a115-49e2-ae9a-3c64d3ae90f2",
+      "workId": "song_b77211a8-fd61-4ad5-9837-44bd19e43a27",
+      "date": "2023-05-07",
+      "eventId": "evt_9a829b23-c590-4cc4-b540-7faa23121991",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1qa4y1g7wd",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1qa4y1g7wd",
+          "sourceField": "title",
+          "excerpt": "James Blunt『You're Beautiful 』“你真漂亮”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1qa4y1g7wd",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月07日\n团播【AiDORU挑战】直播剪辑\n--------------------------------------------------------\n剪辑：水怪怪怪\n时轴：彩恶灵\n封面：大盗魔理沙\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili."
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_d300fad9-29bb-4472-895c-0bd54725dc0e",
+      "workId": "song_2b9bfdc1-7c17-4436-9a91-b559890d23a6",
+      "date": "2023-05-07",
+      "eventId": "evt_9a829b23-c590-4cc4-b540-7faa23121991",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1KL411h7R4",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1KL411h7R4",
+          "sourceField": "title",
+          "excerpt": "王菲『传奇』“ 想你时你在天边”【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1KL411h7R4",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月07日\n团播【AIDORU挑战】直播剪辑\n--------------------------------------------------------\n剪辑：柑橘鱼鱼\n时轴：Subtitle\n封面：大盗魔理沙\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bili"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_ef0988d1-38fb-4ff5-8d3d-5a903dd15ec4",
+      "workId": "song_f040750e-04b7-4bf7-84df-464c76303abe",
+      "date": "2023-05-07",
+      "eventId": "evt_9a829b23-c590-4cc4-b540-7faa23121991",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1P24y1M7NU",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1P24y1M7NU",
+          "sourceField": "title",
+          "excerpt": "李翊君『雨蝶』“想你的拥抱把我包围”【虞莫翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1P24y1M7NU",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月07日\n团播【AiDORU挑战】直播剪辑\n--------------------------------------------------------\n剪辑：柑橘鱼鱼\n时轴：一杯柚恩蜜全糖去冰\n封面：大盗魔理沙\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bil"
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ]
+    },
+    {
+      "id": "perf_2221d77e-dce1-4790-8ead-68f4f7952efc",
+      "workId": "song_12f092b3-b106-4617-9593-93ea710922c2",
+      "date": "2023-05-11",
+      "eventId": "evt_bda836f9-4f20-4163-bed2-8a83e3b179fb",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV12s4y1Q7Hk",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV12s4y1Q7Hk",
+          "sourceField": "title",
+          "excerpt": "IVE『Kitsch』“在浮华的世界里我只想做自己”【虞莫翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV12s4y1Q7Hk",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月11日\n虞莫直播【 《我的母亲》 】 直播剪辑\n--------------------------------------------------------\n剪辑：柚恩有点甜\n时轴：黑川赤音\n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bi"
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ]
+    },
+    {
+      "id": "perf_429abbd4-57d7-4d3c-bfbb-bdd19d7860c0",
+      "workId": "song_978e2544-60a6-4d94-9103-8579c3a29c92",
+      "date": "2023-05-11",
+      "eventId": "evt_032a6305-0e69-407f-a035-0ea32c520e16",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1ms4y1Q71C",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1ms4y1Q71C",
+          "sourceField": "title",
+          "excerpt": "韩宝仪『粉红色的回忆』“不能忘记你 心里想的还是你”【莞儿翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1ms4y1Q71C",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月11日\n莞儿直播【重新定义我的妈咪】 直播剪辑\n--------------------------------------------------------\n剪辑：嘉点孜然\n时轴：冰冰\n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilib"
+        }
+      ],
+      "creditedMembers": [
+        "waner"
+      ]
+    },
+    {
+      "id": "perf_8d1d90a8-23ba-4882-932e-9eae80807864",
+      "workId": "song_8c0ec221-ea44-4853-b669-be582144a368",
+      "date": "2023-05-11",
+      "eventId": "evt_032a6305-0e69-407f-a035-0ea32c520e16",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1ZX4y1y7Lj",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1ZX4y1y7Lj",
+          "sourceField": "title",
+          "excerpt": "『管人泪』“一首管人泪，唱哭管人痴”【莞儿翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1ZX4y1y7Lj",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月11日\n莞儿直播【重新定义我的妈咪】 直播剪辑\n--------------------------------------------------------\n剪辑：嘉点孜然\n时轴：白酒酿子、冰冰\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space."
+        }
+      ],
+      "creditedMembers": [
+        "waner"
+      ]
+    },
+    {
+      "id": "perf_9aa6467d-f6a1-4f79-8a71-e8dfbfb78c89",
+      "workId": "song_c2f66957-6032-4d19-9bca-6f6f160f6d08",
+      "date": "2023-05-11",
+      "eventId": "evt_bda836f9-4f20-4163-bed2-8a83e3b179fb",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV12M4y147WW",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV12M4y147WW",
+          "sourceField": "title",
+          "excerpt": "柳爽『漠河舞厅』“你会来看一看我吧”【虞莫翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV12M4y147WW",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月11日\n虞莫直播【 《我的母亲》 】 直播剪辑\n--------------------------------------------------------\n剪辑：嘉点孜然\n时轴：冰冰\n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilib"
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ]
+    },
+    {
+      "id": "perf_e2a008d0-ef85-4b6d-8c56-edfef45f3e6e",
+      "workId": "song_4fd6f1b5-2180-4017-b88d-9df9b5d9c63b",
+      "date": "2023-05-11",
+      "eventId": "evt_bda836f9-4f20-4163-bed2-8a83e3b179fb",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1gs4y1Q7tr",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1gs4y1Q7tr",
+          "sourceField": "title",
+          "excerpt": "『易燃易爆炸』“夸我含苞待放还夸我欲盖弥彰”【虞莫翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1gs4y1Q7tr",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月11日\n虞莫【《我的母亲》】 直播剪辑\n--------------------------------------------------------\n剪辑：韶华\n时轴：1206\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com"
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ]
+    },
+    {
+      "id": "perf_21fc6f87-85d7-4700-9db7-92d7ba4df3f5",
+      "workId": "song_ca984926-fb2c-4c3d-992d-6730669e1954",
+      "date": "2023-05-13",
+      "eventId": "evt_1d04a5e5-8e5c-436c-96a5-73550d21b204",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1bs4y1Q7mn",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1bs4y1Q7mn",
+          "sourceField": "title",
+          "excerpt": "『I Could Be the One』“我愿是你要面对一切的指引”【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1bs4y1Q7mn",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月13日\n露早直播【GOGO严选】 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilib"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_4cce7ec6-17d1-4efc-b547-2106af956327",
+      "workId": "song_a84ed7ed-bc4b-4140-87f0-956583cdcdb0",
+      "date": "2023-05-13",
+      "eventId": "evt_9ac3d306-edb6-428f-856c-a294d152dff9",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1tu41147a3",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1tu41147a3",
+          "sourceField": "title",
+          "excerpt": "『玫瑰』“人终会因其年少不可得之物而困其一生”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1tu41147a3",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月13日\n米诺直播【这下真的头大了】 直播剪辑\n--------------------------------------------------------\n剪辑：Subtitle\n时轴：Subtitle\n封面：热焰诚实\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_87f95430-e0f9-488e-b02d-d17286a305f9",
+      "workId": "song_dc0d554b-ce88-4439-abe4-c302c57f6626",
+      "date": "2023-05-13",
+      "eventId": "evt_1d04a5e5-8e5c-436c-96a5-73550d21b204",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1ZM4y147Jv",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1ZM4y147Jv",
+          "sourceField": "title",
+          "excerpt": "『Lovefool』“假装你还爱我”【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1ZM4y147Jv",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月13日\n露早直播【GOGO严选】 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilib"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_9a7e10a6-6def-45c4-9c9b-aefac8b3718c",
+      "workId": "song_7102cbc7-d859-44b4-8aa6-3deca846221d",
+      "date": "2023-05-13",
+      "eventId": "evt_1d04a5e5-8e5c-436c-96a5-73550d21b204",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1bc411K7oS",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1bc411K7oS",
+          "sourceField": "title",
+          "excerpt": "陈绮贞『太聪明』“我们都太自诩聪明 才让距离无法靠近”【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1bc411K7oS",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月13日\n露早直播【GOGO严选】 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilib"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_a7a66c56-6554-487a-9440-95bc6481ed47",
+      "workId": "song_69d44546-b4ec-4a1e-bbd0-78205b22da6e",
+      "date": "2023-05-13",
+      "eventId": "evt_9ac3d306-edb6-428f-856c-a294d152dff9",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1qa4y137ot",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1qa4y137ot",
+          "sourceField": "title",
+          "excerpt": "孙燕姿『遇见』“幸运的是遇见你 遗憾的是只是遇见你”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1qa4y137ot",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月13日\n米诺直播【这下真的头大了】 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bili"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_e33559f6-e41e-43bb-8b52-003e0fd6dfc1",
+      "workId": "song_cdd62ff2-a359-4b86-aae3-c039dd459f6e",
+      "date": "2023-05-13",
+      "eventId": "evt_9ac3d306-edb6-428f-856c-a294d152dff9",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1hh41157BS",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1hh41157BS",
+          "sourceField": "title",
+          "excerpt": "张惠妹『人质』“在我心上用力的开一枪 让一切归零在这声巨响”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1hh41157BS",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月13日\n米诺直播【这下真的头大了】 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bili"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_e75c9240-1477-473a-99c4-17baa3b43634",
+      "workId": "song_20648676-aefb-49da-bcac-3c9c9d8479a7",
+      "date": "2023-05-13",
+      "eventId": "evt_9ac3d306-edb6-428f-856c-a294d152dff9",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV16h4y1b7Pp",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV16h4y1b7Pp",
+          "sourceField": "title",
+          "excerpt": "『Call Me Maybe』“我疯狂的想着你”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV16h4y1b7Pp",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月13日\n米诺直播【这下真的头大了】 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bili"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_192905b5-21ed-4873-9af1-6c5bc6b68dbd",
+      "workId": "song_9daf441b-eb8d-474c-86ad-41e3244917b7",
+      "date": "2023-05-14",
+      "eventId": "evt_83ccf028-9c87-457b-b16f-0195a76400e2",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Vs4y1M7ce",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1Vs4y1M7ce",
+          "sourceField": "title",
+          "excerpt": "【EOE】合唱“我们五个就是吉祥如意的一家”《吉祥三宝》"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1Vs4y1M7ce",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月14日\n团播【E家人饭局】直播剪辑\n--------------------------------------------------------\n剪辑：水怪怪怪\n时轴：水怪怪怪\n封面：大盗魔理沙\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com"
+        }
+      ],
+      "creditedGroup": "EOE"
+    },
+    {
+      "id": "perf_5af2c3d8-b610-4827-8023-dfa5ee036bce",
+      "workId": "song_2806c492-8946-404d-9618-4a8d2ce054e5",
+      "date": "2023-05-14",
+      "eventId": "evt_83ccf028-9c87-457b-b16f-0195a76400e2",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1em4y1b7MK",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1em4y1b7MK",
+          "sourceField": "title",
+          "excerpt": "周杰伦『听妈妈的话』“别让她受伤”【莞儿&米诺丨翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1em4y1b7MK",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月14日\n团播【E家人饭局】直播剪辑\n--------------------------------------------------------\n剪辑：水怪怪怪\n时轴：水怪怪怪\n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.c"
+        }
+      ],
+      "creditedMembers": [
+        "waner",
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_7189a46c-b6e8-421a-bbad-ecc45e8224e2",
+      "workId": "song_14d38a82-2ed4-4d45-9fe4-31bb316606d2",
+      "date": "2023-05-14",
+      "eventId": "evt_83ccf028-9c87-457b-b16f-0195a76400e2",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1yc411P7Z3",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1yc411P7Z3",
+          "sourceField": "title",
+          "excerpt": "重混版『爱的双重魔力』“是告诉你我爱你”【露早&虞莫丨翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1yc411P7Z3",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月14日\n团播【E家人饭局】直播剪辑\n--------------------------------------------------------\n剪辑：subtitle\n时轴：subtitle\n封面：大盗魔理沙\n混音：GOGO队-小莞熊\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https"
+        }
+      ],
+      "creditedMembers": [
+        "luzao",
+        "yumo"
+      ]
+    },
+    {
+      "id": "perf_8da15630-86f5-4562-8a52-5b52899e754a",
+      "workId": "song_4ae5f2b4-aa75-4d2b-a17a-b5167f47d31d",
+      "date": "2023-05-14",
+      "eventId": "evt_83ccf028-9c87-457b-b16f-0195a76400e2",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1LX4y117T7",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1LX4y117T7",
+          "sourceField": "title",
+          "excerpt": "Lainey Lou『Oceanside』“我的世界繁星乱坠”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1LX4y117T7",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月14日\n团播【E家人饭局】直播剪辑\n--------------------------------------------------------\n剪辑：水怪怪怪\n时轴：水怪怪怪\n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.c"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_de6e635d-1343-4663-9e4d-12f9a9737bcf",
+      "workId": "song_378d9510-c4d1-4ab9-9e83-abdac0aaf720",
+      "date": "2023-05-14",
+      "eventId": "evt_83ccf028-9c87-457b-b16f-0195a76400e2",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1EV4y1k7pB",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1EV4y1k7pB",
+          "sourceField": "title",
+          "excerpt": "董真『醉梦仙霖』“不能忘情徒惹得心困”【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1EV4y1k7pB",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月14日\n团播【E家人饭局】直播剪辑\n--------------------------------------------------------\n剪辑：水怪怪怪\n时轴：水怪怪怪\n封面：大盗魔理沙\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_fd93f660-44c5-4f90-862c-35ee67e86891",
+      "workId": "song_51aced16-a3bb-4e9f-9749-b351795ca653",
+      "date": "2023-05-14",
+      "eventId": "evt_83ccf028-9c87-457b-b16f-0195a76400e2",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1qc411P7mC",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qc411P7mC",
+          "sourceField": "title",
+          "excerpt": "梅艳芳『女人花』“真情真爱无人懂”【莞儿翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qc411P7mC",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月14日\n团播【E家人饭局】直播剪辑\n--------------------------------------------------------\n剪辑：水怪怪怪\n时轴：水怪怪怪\n封面：太空橘猫\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/"
+        }
+      ],
+      "creditedMembers": [
+        "waner"
+      ]
+    },
+    {
+      "id": "perf_48fbbf01-23f0-41e9-8fa1-4fab7ee92c98",
+      "workId": "song_354b1c6f-db67-4bf5-bd3c-7306eb1d9a4f",
+      "date": "2023-05-15",
+      "eventId": "evt_baf7395d-c4db-4a49-986f-1fd582e0941e",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1JV4y1k7AM",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1JV4y1k7AM",
+          "sourceField": "title",
+          "excerpt": "『夏天的风』『Almost Is Never Enough』【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1JV4y1k7AM",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月15日\n露早L2D【一起来云养女儿！！】 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.b"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_ae9e7f18-fd50-4791-84bf-3fb31aa44e42",
+      "workId": "song_479b976a-6cda-44f3-89a6-6cdb135c7248",
+      "date": "2023-05-15",
+      "eventId": "evt_baf7395d-c4db-4a49-986f-1fd582e0941e",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1JV4y1k7AM",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1JV4y1k7AM",
+          "sourceField": "title",
+          "excerpt": "『夏天的风』『Almost Is Never Enough』【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1JV4y1k7AM",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月15日\n露早L2D【一起来云养女儿！！】 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.b"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_addd32ab-e651-4422-a36b-d9f00cbb4cb0",
+      "workId": "song_bd600340-5c26-4f65-806f-29cda1556b54",
+      "date": "2023-05-17",
+      "eventId": "evt_76c22979-4a97-4453-8fec-3e3e9aaa4572",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1vX4y1C7eD",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1vX4y1C7eD",
+          "sourceField": "title",
+          "excerpt": "喻言『蠢货』“我要走进你的世界”【露早&莞儿翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1vX4y1C7eD",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月17日\n 露早&莞儿【姐妹挖挖乐】 直播剪辑\n --------------------------------------------------------\n 剪辑：问号\n 时轴：subtitle \n 封面：小早今天吃什么 \n --------------------------------------------------------\n 莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n 露早@露早GOGO ：https://"
+        }
+      ],
+      "creditedMembers": [
+        "waner",
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_d251b458-b16a-4b15-ad6a-f7a88056daea",
+      "workId": "song_45fbf467-a123-4ebb-972a-999941c65fcb",
+      "date": "2023-05-17",
+      "eventId": "evt_76c22979-4a97-4453-8fec-3e3e9aaa4572",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1mT411x7zg",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1mT411x7zg",
+          "sourceField": "title",
+          "excerpt": "王心凌『彩虹的微笑』“雨下再大又怎样 干脆开心的淋一场”【露早&莞儿翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1mT411x7zg",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月17日\n露早&莞儿直播【《姐妹挖挖乐》】 直播剪辑\n--------------------------------------------------------\n剪辑：subtitle\n时轴：彩恶灵\n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://spac"
+        }
+      ],
+      "creditedMembers": [
+        "waner",
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_9e49acff-6871-4525-b713-780c880c3245",
+      "workId": "song_8c5218d0-511c-45c2-8089-d3e1660745bf",
+      "date": "2023-05-18",
+      "eventId": "evt_e2c68118-f2d0-4615-9091-23f70c5cfdcd",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Eo4y1G76z",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Eo4y1G76z",
+          "sourceField": "title",
+          "excerpt": "『狮子座』“短发酷诺米也可以对抗和可爱”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Eo4y1G76z",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月18日\nEOE组合团播【七分熟少女】 直播剪辑\n --------------------------------------------------------\n 剪辑：Subtitle\n 时轴：鹿千鸽\n 封面：太空橘貓\n --------------------------------------------------------\n 莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n 露早@露早GOGO ：https://spa"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_9edc1a49-3ce7-499d-a6ed-62391e45c395",
+      "workId": "song_c5651fe9-ca40-4e9b-b6c2-c45bf548ed80",
+      "date": "2023-05-18",
+      "eventId": "evt_e2c68118-f2d0-4615-9091-23f70c5cfdcd",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Um4y187gR",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Um4y187gR",
+          "sourceField": "title",
+          "excerpt": "高姗『遇见你的时候所有的星星都落到我头上』“我们还要走很长时间”【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Um4y187gR",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月18日\nEOE组合团播【七分熟少女】 直播剪辑\n --------------------------------------------------------\n 剪辑：韶华\n 时轴：韶华\n 封面：热焰诚实\n --------------------------------------------------------\n 莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n 露早@露早GOGO ：https://space.bili"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_d9e11717-36e2-466f-b882-365b98b74054",
+      "workId": "song_c5c93082-633b-4c54-97bd-1c5f9655fb74",
+      "date": "2023-05-18",
+      "eventId": "evt_e2c68118-f2d0-4615-9091-23f70c5cfdcd",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1oP411X7ey",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1oP411X7ey",
+          "sourceField": "title",
+          "excerpt": "By2『我知道』“我知道你还是爱着我”【莞儿虞莫翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1oP411X7ey",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月18日\nEOE组合团播【七分熟少女】 直播剪辑\n --------------------------------------------------------\n 剪辑：问号\n 时轴：芝士桃子\n 封面：小黑\n --------------------------------------------------------\n 莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n 露早@露早GOGO ：https://space.bili"
+        }
+      ],
+      "creditedMembers": [
+        "waner",
+        "yumo"
+      ]
+    },
+    {
+      "id": "perf_33418bd6-31ef-4eba-9e2a-6885b5ac087f",
+      "workId": "song_925a393b-a184-4d5c-9c18-515a1b8674c8",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV17L411B7X1",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            10
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV17L411B7X1",
+          "sourceField": "title",
+          "excerpt": "战姬绝唱『不死鸟之炎』“不死的旋律 闪耀的真心”【柚恩生日会丨米诺&柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV17L411B7X1",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：太空橘猫\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=10]",
+          "sourceField": "part",
+          "excerpt": "柚恩米诺 不死鳥のフランメ"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "minuo",
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_43f478be-2d2d-48d1-b2ea-0cb75f87151f",
+      "workId": "song_93d8d453-93c4-450d-bd27-e7384c1ed270",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing-and-dance",
+      "assets": [
+        {
+          "bvid": "BV1224y1P7DD",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            8
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1224y1P7DD",
+          "sourceField": "title",
+          "excerpt": "μ's『Snow halation』“奇迹的橙色”【柚恩生日会丨翻唱跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1224y1P7DD",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：海风橙子皮\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibil"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=8]",
+          "sourceField": "part",
+          "excerpt": "柚恩 Snow halation"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_45743ce4-a202-417d-8abd-b0f06835b21a",
+      "workId": "song_8f1b6373-0515-40ee-b2d6-715bce528076",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1nh4y1t7Vv",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            11
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1nh4y1t7Vv",
+          "sourceField": "title",
+          "excerpt": "『はやくそれになりたい！』“想快点成为那个样子啦！>_<”【柚恩生日会丨莞儿&柚恩翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1nh4y1t7Vv",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=11]",
+          "sourceField": "part",
+          "excerpt": "柚恩莞儿 はやくそれになりたい！"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "waner",
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_4ad006bc-fde9-49a4-904d-c385dff8723e",
+      "workId": "song_c2f66957-6032-4d19-9bca-6f6f160f6d08",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing-and-dance",
+      "assets": [
+        {
+          "bvid": "BV1wk4y1j7n4",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            9
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1wk4y1j7n4",
+          "sourceField": "title",
+          "excerpt": "柳爽『漠河舞厅』“三千里 偶然见过你”【柚恩生日会丨翻唱跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1wk4y1j7n4",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.c"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=9]",
+          "sourceField": "part",
+          "excerpt": "柚恩 漠河舞厅"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_4ad73907-9197-451f-b219-453a6e692d2e",
+      "workId": "song_471b9b45-ea6c-467e-b9fa-1ef564fb2c90",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing-and-dance",
+      "assets": [
+        {
+          "bvid": "BV1Ra4y1u7St",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            7
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Ra4y1u7St",
+          "sourceField": "title",
+          "excerpt": "Dreamcatcher『YOU AND I』“祈祷那无数的星星只照耀你一个人”【柚恩生日会丨翻唱跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Ra4y1u7St",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：烈焰誠池\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=7]",
+          "sourceField": "part",
+          "excerpt": "柚恩 YOU AND I"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_6724f005-4500-4136-98f2-cb165bd70272",
+      "workId": "song_58d1b507-e70e-49b3-8aee-0669d5597843",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Vh411F7SJ",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            15
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Vh411F7SJ",
+          "sourceField": "title",
+          "excerpt": "张韶涵『隐形的翅膀』“带我飞 飞过绝望”【柚恩生日会丨翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Vh411F7SJ",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：大盗魔理沙 \n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibi"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=15]",
+          "sourceField": "part",
+          "excerpt": "柚恩 隐形的翅膀"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_77864c4d-7aa7-4b22-a472-b66413bacd8c",
+      "workId": "song_59c0223c-7b26-4df1-a61e-39d997632a10",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing-and-dance",
+      "assets": [
+        {
+          "bvid": "BV1QV4y1z7EE",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            4
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1QV4y1z7EE",
+          "sourceField": "title",
+          "excerpt": "『红马』“一袭红衣 一匹红马 浪迹天涯”【柚恩生日会丨唱跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1QV4y1z7EE",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilib"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=4]",
+          "sourceField": "part",
+          "excerpt": "柚恩 红马"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_7a59839a-f33e-420f-a880-de1093468215",
+      "workId": "song_1eb9382d-72d7-4e9a-ac8c-b4f5af979a93",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1WL411B7Jh",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1WL411B7Jh",
+          "sourceField": "title",
+          "excerpt": "『象王行』“象王行处狐踪绝，狮子咆哮百兽危”【柚恩生日会丨翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1WL411B7Jh",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=1]",
+          "sourceField": "part",
+          "excerpt": "柚恩 象王行"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_7a5c3ae6-17bf-4021-ad8f-a57a0473157f",
+      "workId": "song_36f601f0-9fae-4efb-80bf-489711b7653d",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV15u411x7Nf",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            13
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV15u411x7Nf",
+          "sourceField": "title",
+          "excerpt": "白蛇2『问花』【柚恩生日会丨虞莫&柚恩翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV15u411x7Nf",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.c"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=13]",
+          "sourceField": "part",
+          "excerpt": "柚恩虞莫 问花"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "yumo",
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_82b36ee2-fdb1-40bb-87c3-11467e66cfff",
+      "workId": "song_ff9b136b-4ed2-4667-85fa-b4b71f5c14b2",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV11L41167pD",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            17
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV11L41167pD",
+          "sourceField": "title",
+          "excerpt": "米津玄师『Lemon』“时至今日 你仍是我的光芒”【柚恩生日会丨翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV11L41167pD",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：洛晨\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili."
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=17]",
+          "sourceField": "part",
+          "excerpt": "柚恩 Lemon"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_87c8ff22-b754-4f00-a03b-c21948422215",
+      "workId": "song_6f795d67-d24a-4643-b895-687e01f6c386",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV11T411x752",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            19
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV11T411x752",
+          "sourceField": "title",
+          "excerpt": "陈奕迅『陪你度过漫长岁月』“陪伴你一直把故事给说完”【柚恩生日会丨翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV11T411x752",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：水怪怪怪\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibil"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=19]",
+          "sourceField": "part",
+          "excerpt": "柚恩 陪你度过漫长岁月"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_a1dbe167-e56e-4bbe-82ca-b1f551985b7d",
+      "workId": "song_48e11d90-66c3-40dd-82b9-f039440350b2",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing-and-dance",
+      "assets": [
+        {
+          "bvid": "BV1Xg4y1V7Mz",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            6
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Xg4y1V7Mz",
+          "sourceField": "title",
+          "excerpt": "ITZY『Not Shy』“Not Shy Not Me UN”【柚恩生日会丨中文翻唱跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Xg4y1V7Mz",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=6]",
+          "sourceField": "part",
+          "excerpt": "柚恩 Not Shy"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_a763a4df-91a9-487f-9e3a-6b0fe41e9046",
+      "workId": "song_cfad02ec-7456-46cd-89ef-38ae5a575539",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing-and-dance",
+      "assets": [
+        {
+          "bvid": "BV1WL411B762",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1WL411B762",
+          "sourceField": "title",
+          "excerpt": "EVERGLOW『FIRST』“穿过虚假谎言有谁在陪你彷徨”【柚恩生日会丨中文翻唱跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1WL411B762",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=5]",
+          "sourceField": "part",
+          "excerpt": "柚恩 FIRST"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_c0ed6353-11a4-4b30-9062-a6de4ac4ec48",
+      "workId": "song_1df59b3f-9764-4502-a17c-934421218581",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1Q24y1P7n5",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            2
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Q24y1P7n5",
+          "sourceField": "title",
+          "excerpt": "『浮光』“浮光月影 静影沉璧 ”【柚恩生日会丨翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Q24y1P7n5",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：烈焰誠池\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=2]",
+          "sourceField": "part",
+          "excerpt": "柚恩 浮光"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_c2d6b8c8-dc96-4d61-9f0e-2eac47c50afb",
+      "workId": "song_6097e918-a3e7-4510-8a19-cb7262d1bad1",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1qM4y1q7CJ",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            16
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qM4y1q7CJ",
+          "sourceField": "title",
+          "excerpt": "千人合唱『遗失的美好 』“从此与你的美好永不遗失”【柚恩生日会丨翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qM4y1q7CJ",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=16]",
+          "sourceField": "part",
+          "excerpt": "柚恩 遗失的美好"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_c2f2aed8-4db4-4ae5-b0ac-590e5b7ff7b7",
+      "workId": "song_4827745c-39b9-47a4-89f5-b328bb73f898",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1AT41147Hd",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            12
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1AT41147Hd",
+          "sourceField": "title",
+          "excerpt": "『Speechless 』“我偏要改写这故事”【柚恩生日会丨露早&柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1AT41147Hd",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：烈焰誠池\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=12]",
+          "sourceField": "part",
+          "excerpt": "柚恩露早 Speechless"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "luzao",
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_c5baa252-a4b8-4ba5-a72d-a3e59e938b5a",
+      "workId": "song_7eb21e2f-4f37-4b2f-b9d4-bedf4bd30205",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1CT411x7ns",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            14
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1CT411x7ns",
+          "sourceField": "title",
+          "excerpt": "AKB48『365日の紙飛行機』“假如今天不如所愿 明天继续加油吧”【柚恩生日会丨翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1CT411x7ns",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=14]",
+          "sourceField": "part",
+          "excerpt": "合唱 365日の紙飛行機"
+        }
+      ],
+      "creditedMembers": []
+    },
+    {
+      "id": "perf_fd02d7c8-01a7-4ada-ba90-22ff2f7c01b4",
+      "workId": "song_71fc40a1-5f16-4326-8bcf-89bacdb9f9fb",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing-and-dance",
+      "assets": [
+        {
+          "bvid": "BV13k4y1j7fN",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV13k4y1j7fN",
+          "sourceField": "title",
+          "excerpt": "『鸿音』“是缘是劫 是悟是迷”【柚恩生日会丨唱跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV13k4y1j7fN",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：大盗魔理沙\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibil"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=3]",
+          "sourceField": "part",
+          "excerpt": "柚恩 鸿音"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_12129595-4893-49ba-83e2-a8f37e577aea",
+      "workId": "song_ae112ac6-3686-4dd0-94b7-f03c2448cd79",
+      "date": "2023-05-21",
+      "eventId": "evt_1ec5470d-d706-48ec-8b90-3828488f1c90",
+      "type": "singing",
+      "creditedMembers": [
+        "waner"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1nc411A7Dh",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            3
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-song-details-2023-05-06-uncertainties.json",
+          "locator": "BV1nc411A7Dh",
+          "sourceField": "title",
+          "excerpt": "『莞熊合唱歌会』“不得不爱&青柠&小酒窝”【翻唱合集】"
+        },
+        {
+          "file": "../evidence/round-02-song-details-2023-05-06-uncertainties.json",
+          "locator": "BV1nc411A7Dh",
+          "sourceField": "description",
+          "excerpt": "直播日期：2023年05月21日\n莞儿直播【 莞熊合唱歌会 】 直播剪辑"
+        },
+        {
+          "file": "../evidence/round-02-song-details-2023-05-06-uncertainties.json",
+          "locator": "BV1nc411A7Dh",
+          "sourceField": "parts",
+          "partNumber": 3,
+          "excerpt": "小酒窝"
+        }
+      ]
+    },
+    {
+      "id": "perf_438f1d36-7aa4-42b1-a304-52722b59d33f",
+      "workId": "song_f4c2cad0-425b-4717-ae62-b2ecee3a5386",
+      "date": "2023-05-21",
+      "eventId": "evt_1ec5470d-d706-48ec-8b90-3828488f1c90",
+      "type": "singing",
+      "creditedMembers": [
+        "waner"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1nc411A7Dh",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-song-details-2023-05-06-uncertainties.json",
+          "locator": "BV1nc411A7Dh",
+          "sourceField": "title",
+          "excerpt": "『莞熊合唱歌会』“不得不爱&青柠&小酒窝”【翻唱合集】"
+        },
+        {
+          "file": "../evidence/round-02-song-details-2023-05-06-uncertainties.json",
+          "locator": "BV1nc411A7Dh",
+          "sourceField": "description",
+          "excerpt": "直播日期：2023年05月21日\n莞儿直播【 莞熊合唱歌会 】 直播剪辑"
+        },
+        {
+          "file": "../evidence/round-02-song-details-2023-05-06-uncertainties.json",
+          "locator": "BV1nc411A7Dh",
+          "sourceField": "parts",
+          "partNumber": 1,
+          "excerpt": "不得不爱2.0"
+        }
+      ]
+    },
+    {
+      "id": "perf_44f2d9d0-c25d-4406-a78b-b6d00acb8c6d",
+      "workId": "song_b76d4a74-3e0b-4bd3-98f8-ba087fac9392",
+      "date": "2023-05-21",
+      "eventId": "evt_1ec5470d-d706-48ec-8b90-3828488f1c90",
+      "type": "singing",
+      "creditedMembers": [
+        "waner"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1nc411A7Dh",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            2
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-song-details-2023-05-06-uncertainties.json",
+          "locator": "BV1nc411A7Dh",
+          "sourceField": "title",
+          "excerpt": "『莞熊合唱歌会』“不得不爱&青柠&小酒窝”【翻唱合集】"
+        },
+        {
+          "file": "../evidence/round-02-song-details-2023-05-06-uncertainties.json",
+          "locator": "BV1nc411A7Dh",
+          "sourceField": "description",
+          "excerpt": "直播日期：2023年05月21日\n莞儿直播【 莞熊合唱歌会 】 直播剪辑"
+        },
+        {
+          "file": "../evidence/round-02-song-details-2023-05-06-uncertainties.json",
+          "locator": "BV1nc411A7Dh",
+          "sourceField": "parts",
+          "partNumber": 2,
+          "excerpt": "青柠"
+        }
+      ]
+    },
+    {
+      "id": "perf_94c901e0-70f4-40f2-9407-bf9f85520570",
+      "workId": "song_f35b820e-bf7b-4d12-b89e-694994503b47",
+      "date": "2023-05-21",
+      "eventId": "evt_9feec340-89c7-4187-a60a-6bb4b708667d",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Lu41147D3",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Lu41147D3",
+          "sourceField": "title",
+          "excerpt": "清唱版『I Will Always Love You』【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Lu41147D3",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月21日\n露早直播【你有一个视频来电】 直播剪辑\n--------------------------------------------------------\n剪辑：水怪怪怪 \n时轴：水怪怪怪 \n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.b"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_cacf6af5-3209-4c9e-94ca-b400be7a1378",
+      "workId": "song_bf75e495-4bb6-4fa7-b90b-06464016f85a",
+      "date": "2023-05-21",
+      "eventId": "evt_9feec340-89c7-4187-a60a-6bb4b708667d",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1qd4y1Z7eh",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qd4y1Z7eh",
+          "sourceField": "title",
+          "excerpt": "『I LOVE YOU』【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qd4y1Z7eh",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月21日\n露早直播【你有一个视频来电】 直播剪辑\n--------------------------------------------------------\n剪辑：水怪怪怪 \n时轴：彩恶灵\n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bil"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_dd8d5150-15e9-4b09-889c-0b3da8918231",
+      "workId": "song_bf07ee07-7877-44d1-bf06-58818313786d",
+      "date": "2023-05-22",
+      "eventId": "evt_55ad4dbe-58bf-4cd4-a8a6-822529985fcd",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1qL411B76v",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qL411B76v",
+          "sourceField": "title",
+          "excerpt": "大猛1虞莫怒音合唱『凉凉』直播念经功德+1【虞莫翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qL411B76v",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月22日\n莞儿L2D【莞上好~莞上好~】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：Eagle-g\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.co"
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ]
+    },
+    {
+      "id": "perf_18566cc4-8fc9-49f0-b2ae-d42636cc7230",
+      "workId": "song_4c5e394e-12d2-4ad2-b147-c94cf832ac42",
+      "date": "2023-05-24",
+      "eventId": "evt_a025f545-66c3-4d41-b1e3-9e11b7d14f94",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1qs4y1T7G5",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qs4y1T7G5",
+          "sourceField": "title",
+          "excerpt": "『First Kiss』“请与我约定 要一直这样喜欢我”【柚恩翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qs4y1T7G5",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月24日\n柚恩直播【 幕后大揭蜜！ 】 直播剪辑\n--------------------------------------------------------\n剪辑：冰冰\n时轴：彩恶灵\n封面：黑川赤音\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili."
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_3d498ded-dbd9-464d-98d6-aa591a683f8e",
+      "workId": "song_479b976a-6cda-44f3-89a6-6cdb135c7248",
+      "date": "2023-05-25",
+      "eventId": "evt_b075c5e3-2554-41d3-b463-223fd83ea76e",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Zo4y1g79V",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Zo4y1g79V",
+          "sourceField": "title",
+          "excerpt": "温岚『夏天的风』“清清楚楚的说你爱我”【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Zo4y1g79V",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月25日\n露早直播【在姐还小的时候】直播剪辑\n--------------------------------------------------------\n剪辑：洋葱 \n时轴：喜欢你的平地摔\n封面：黑川赤音\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibi"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_7472bf87-0ed6-455f-afa1-0116bea243a3",
+      "workId": "song_9d5f09c4-e110-4eca-b38b-2b2ade8b862d",
+      "date": "2023-05-25",
+      "eventId": "evt_b075c5e3-2554-41d3-b463-223fd83ea76e",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1sc411G7eu",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1sc411G7eu",
+          "sourceField": "title",
+          "excerpt": "V.A『啵啵颂』“大家一起来啵啵”【露早翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1sc411G7eu",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月25日\n露早直播【在姐还小的时候】直播剪辑\n--------------------------------------------------------\n剪辑：无限\n时轴：黑川赤音\n封面：黑川赤音\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.c"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_76bad025-bd20-4636-8b2e-88a7285a4ddc",
+      "workId": "song_55430e2e-2b4b-4c73-8b1f-a7937f195e7a",
+      "date": "2023-05-25",
+      "eventId": "evt_55b4dff9-f52c-441a-8d63-b2a9da55b9b7",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1zc411A7jQ",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1zc411A7jQ",
+          "sourceField": "title",
+          "excerpt": "周杰伦『等你下课』“等你下课一起走好吗”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1zc411A7jQ",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月25日\n米诺【舞室日志2.0】 直播剪辑\n --------------------------------------------------------\n 剪辑：夜幽嵐\n 时轴：喜欢你的平地摔\n 封面：大盗魔理沙\n --------------------------------------------------------\n 莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n 露早@露早GOGO ：https://space."
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_ac5b0928-a9e5-4b12-92b6-30c58a3f48da",
+      "workId": "song_41029ab2-66a4-4a7f-a14d-343dc43a1f87",
+      "date": "2023-05-25",
+      "eventId": "evt_55b4dff9-f52c-441a-8d63-b2a9da55b9b7",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1Fo4y137aV",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Fo4y137aV",
+          "sourceField": "title",
+          "excerpt": "『Cheating on You』“It got really real”【米诺翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Fo4y137aV",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月25日\n米诺直播【舞室日志2.0】直播剪辑\n--------------------------------------------------------\n剪辑：水怪怪怪\n时轴：问号\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili."
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_cd298207-a9d0-45e7-aac5-ba751c1ee6a7",
+      "workId": "song_f1a45b36-9568-4e96-93f7-8ba45cf58b62",
+      "date": "2023-05-25",
+      "eventId": "evt_b075c5e3-2554-41d3-b463-223fd83ea76e",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV14z4y1B7hy",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV14z4y1B7hy",
+          "sourceField": "title",
+          "excerpt": "Tori Kelly『Paper Hearts』“我要紧握你心的一角”【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV14z4y1B7hy",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月25日\n露早直播【在姐还小的时候】直播剪辑\n--------------------------------------------------------\n剪辑：柑橘鱼鱼\n时轴：黑川赤音\n封面：烈焰\n--------------------------------------------------------"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_6a066e91-5597-411b-9149-beeda26ce235",
+      "workId": "song_42a48f42-748f-4343-ade3-fcaeacc52e5d",
+      "date": "2023-05-26",
+      "eventId": "evt_99c55227-82a4-43f7-b92b-16bda61cb8c1",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1uM4y1i7Bf",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1uM4y1i7Bf",
+          "sourceField": "title",
+          "excerpt": "NMIXX『O.O』“双目瞪大 Like 'OO'”【虞莫翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1uM4y1i7Bf",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月26日\n虞莫【这也算瘾？！】 直播剪辑\n--------------------------------------------------------\n剪辑：白酒酿子\n时轴：无限\n封面：热焰诚实\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/"
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ]
+    },
+    {
+      "id": "perf_a4f71308-b385-4f16-8e34-3c633f1c1714",
+      "workId": "song_08d2ace3-5782-4632-86e9-7d164a995b2c",
+      "date": "2023-05-26",
+      "eventId": "evt_99c55227-82a4-43f7-b92b-16bda61cb8c1",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Rh4y1x7dU",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Rh4y1x7dU",
+          "sourceField": "title",
+          "excerpt": "张惠妹『连名带姓』“复制贴上你的爱”【虞莫翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Rh4y1x7dU",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月26日\n虞莫【这也算瘾？！】 直播剪辑\n--------------------------------------------------------\n剪辑：柑橘鱼鱼\n时轴：黑川赤音\n封面：大盗魔理沙\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.c"
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ]
+    },
+    {
+      "id": "perf_5f13482e-2eb4-4303-897c-99d90b09c026",
+      "workId": "song_eb1d9726-5d2d-4a26-918c-38262ac4d84b",
+      "date": "2023-05-27",
+      "eventId": "evt_b7e9726f-f0bb-41af-9abd-c4eb4309ccc0",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1uz4y1B7kZ",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1uz4y1B7kZ",
+          "sourceField": "title",
+          "excerpt": "周杰伦『告白气球』“亲爱的 爱上你 从那天起”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1uz4y1B7kZ",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月27日\n露早＆米诺＆柚恩【三个人的夜晚】 直播剪辑\n--------------------------------------------------------\n剪辑：冰冰\n时轴：鹿千鸽\n封面：热焰诚实\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_d5949c6f-c8b8-41d0-a434-e5cf62c27ee2",
+      "workId": "song_6b938dad-3bfd-45e1-83b6-8b8dca1935d6",
+      "date": "2023-05-27",
+      "eventId": "evt_b7e9726f-f0bb-41af-9abd-c4eb4309ccc0",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1UM4y1i7mP",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1UM4y1i7mP",
+          "sourceField": "title",
+          "excerpt": "张韶涵『喜欢你没道理』“Ninety-nine~”【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1UM4y1i7mP",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月27日\n露早＆米诺＆柚恩【三个人的夜晚】 直播剪辑\n--------------------------------------------------------\n剪辑：柑橘鱼鱼\n时轴：鹿千鸽\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bil"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_e49fdb55-c61f-4542-9d3c-07d536c0d197",
+      "workId": "song_55430e2e-2b4b-4c73-8b1f-a7937f195e7a",
+      "date": "2023-05-28",
+      "eventId": "evt_a09ad43e-fbc1-4294-a6bb-301257071942",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1TV4y1z733",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1TV4y1z733",
+          "sourceField": "title",
+          "excerpt": "周杰伦『等你下课2.0』“你又擦肩而过”【米诺翻唱丨重混版】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1TV4y1z733",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月28日\n团播【看看你的】 直播录像\n--------------------------------------------------------\n剪辑：问号\n时轴：冰冰\n封面：大盗魔理沙\n混音：GOGO队-小莞熊\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bil"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_e8f6b839-9cfd-48c7-9ee0-04e34cc32f41",
+      "workId": "song_dd29798c-7bb8-41d7-a440-57fd4203a8fa",
+      "date": "2023-05-28",
+      "eventId": "evt_a09ad43e-fbc1-4294-a6bb-301257071942",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1tm4y1b7Vw",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1tm4y1b7Vw",
+          "sourceField": "title",
+          "excerpt": "金莎『你的嘴』“每次犯错之前你就该动动脑筋”【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1tm4y1b7Vw",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月28日\n团播【看看你的】 直播剪辑\n --------------------------------------------------------\n 剪辑：冰冰\n 时轴：冰冰\n 封面：大盗魔理沙\n --------------------------------------------------------\n 莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n 露早@露早GOGO ：https://space.bilibili."
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_2533c032-b472-4ec1-b0d7-a9b27e2e4945",
+      "workId": "song_54211ef3-dd8a-42be-88b0-de135da4fb09",
+      "date": "2023-05-30",
+      "eventId": "evt_b6f0c9b4-270b-4e8a-90b1-d5813903e258",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1KN41117z9",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1KN41117z9",
+          "sourceField": "title",
+          "excerpt": "aespa『Spicy』“不要越过我的分界线”【虞莫翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1KN41117z9",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月30日\n虞莫【虞你相亲呀~】 直播剪辑\n--------------------------------------------------------\n剪辑：鹿千鸽\n时轴：黑川赤音\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com"
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ]
+    },
+    {
+      "id": "perf_4bf005cf-8566-41a8-955e-cb1beedcff20",
+      "workId": "song_7102cbc7-d859-44b4-8aa6-3deca846221d",
+      "date": "2023-05-30",
+      "eventId": "evt_f4e0df74-1181-45c3-b88f-94574466b84f",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1iL411q7ty",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1iL411q7ty",
+          "sourceField": "title",
+          "excerpt": "陈绮贞『太聪明』“我总是忽冷又忽热隐藏我的感受”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1iL411q7ty",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月30日\n米诺【如何评价这些标题】 直播剪辑\n--------------------------------------------------------\n剪辑：洛晨\n时轴：无限\n封面：太空橘猫\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_7b1b0ca0-5353-496d-9a98-45659528006d",
+      "workId": "song_9775618c-1590-48b4-8522-70c99ed5bb35",
+      "date": "2023-05-30",
+      "eventId": "evt_f4e0df74-1181-45c3-b88f-94574466b84f",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1KN41117kF",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1KN41117kF",
+          "sourceField": "title",
+          "excerpt": "陈绮贞『旅行的意义』“我爱你就是旅行的意义”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1KN41117kF",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月30日\n米诺【如何评价这些标题】 直播剪辑\n--------------------------------------------------------\n剪辑：洛晨\n时轴：无限\n封面：太空橘貓\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_b3cd21dd-d523-4248-a755-6bb91e7921fb",
+      "workId": "song_73495b44-66b7-4e48-96bb-2ce0548f4928",
+      "date": "2023-05-30",
+      "eventId": "evt_f4e0df74-1181-45c3-b88f-94574466b84f",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Zo4y1T7yq",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Zo4y1T7yq",
+          "sourceField": "title",
+          "excerpt": "郭顶『幸运大门』“幸运的大门会为我打开”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1Zo4y1T7yq",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月30日\n米诺【如何评价这些标题】 直播剪辑\n--------------------------------------------------------\n剪辑：露早今天吃什么\n时轴：鹿千鸽\n封面：大盗魔理沙\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibi"
+        }
+      ],
+      "creditedMembers": [
+        "minuo"
+      ]
+    },
+    {
+      "id": "perf_659f1c56-3881-43d4-bf0a-5c7bf8047a62",
+      "workId": "song_8e3479f1-5f6c-454d-bd92-64320ce24bf8",
+      "date": "2023-05-30",
+      "eventId": "evt_b6f0c9b4-270b-4e8a-90b1-d5813903e258",
+      "type": "dance",
+      "creditedMembers": [
+        "yumo"
+      ],
+      "assets": [
+        {
+          "bvid": "BV13m4y147wJ",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV13m4y147wJ",
+          "sourceField": "title",
+          "excerpt": "宝石Gem『野狼disco』“'内黑醉没盐噶 内字豆嘛”【虞莫即兴舞蹈】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV13m4y147wJ",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月30日\n虞莫【虞你相亲呀~】 直播剪辑\n--------------------------------------------------------\n剪辑：鹿千鸽\n时轴：不轴了\n封面：黑川赤音\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/"
+        }
+      ]
+    },
+    {
+      "id": "perf_19ab165e-fc49-446f-8636-a98c76e9b116",
+      "workId": "song_313964f9-f325-40f2-a78d-15d3daf8d8da",
+      "date": "2023-05-31",
+      "eventId": "evt_3609b517-fd05-485d-bae2-75fe285388f8",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1oo4y1M7vN",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1oo4y1M7vN",
+          "sourceField": "title",
+          "excerpt": "ICONIX『\"香蕉恰恰\"』“吃饱了就会有力气”【露早翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1oo4y1M7vN",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月31日\n 露早【在姐还小的时候2.0】 直播剪辑\n --------------------------------------------------------\n 剪辑：露早今天吃什么\n 时轴：无限\n 封面：小黑\n --------------------------------------------------------\n 莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n 露早@露早GOGO ：https://space."
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ]
+    },
+    {
+      "id": "perf_43bd68a1-a760-43c2-9999-31e55c72e1ae",
+      "workId": "song_e2b3f2b8-e3a9-429c-b372-076f8ec48ff7",
+      "date": "2023-05-31",
+      "eventId": "evt_ffcd5a3b-786f-4d8a-a7b2-b7a9e9ebe9cc",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1nP411D7xn",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1nP411D7xn",
+          "sourceField": "title",
+          "excerpt": "董贞『莫惜花前醉』“待君 莫惜花前醉 愿天公作美。”【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1nP411D7xn",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月31日\n柚恩【我是最健康的！吗？】 直播剪辑\n--------------------------------------------------------\n剪辑：冰冰\n时轴：彩恶灵\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_b4f63844-2aa0-40b7-baac-83eb45fe5a93",
+      "workId": "song_6a196bf8-9c61-4c2e-9ce6-417a4b99d549",
+      "date": "2023-05-31",
+      "eventId": "evt_ffcd5a3b-786f-4d8a-a7b2-b7a9e9ebe9cc",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1sX4y1a7Bq",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1sX4y1a7Bq",
+          "sourceField": "title",
+          "excerpt": "蔡依林『布拉格广场』“不远地方你远远吟唱， 没有我你真的不习惯。”【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1sX4y1a7Bq",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月31日\n柚恩【我是最健康的！吗？】 直播剪辑\n--------------------------------------------------------\n剪辑：露早今天吃什么\n时轴：21\n封面：热焰诚实\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibil"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_cf39f11c-e7b9-4c55-a1e9-714b70c7df49",
+      "workId": "song_1e8c181e-90ff-4256-b991-eecfe9b4b0e3",
+      "date": "2023-05-31",
+      "eventId": "evt_ffcd5a3b-786f-4d8a-a7b2-b7a9e9ebe9cc",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1dm4y1474V",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1dm4y1474V",
+          "sourceField": "title",
+          "excerpt": "『明明有了干劲就能行的偏偏就是没有那个干劲』【柚恩翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1dm4y1474V",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512501/\n 直播日期：2023年5月31日\n 柚恩【我是最健康的！吗？】 直播剪辑\n--------------------------------------------------------\n剪辑：问号\n时轴：时轴工具人\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/18750"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_ede5402a-e867-4736-9607-a82e2e9f3abe",
+      "workId": "song_1d6c9551-0076-464c-b22f-bbc75cdae84b",
+      "date": "2023-05-31",
+      "eventId": "evt_ffcd5a3b-786f-4d8a-a7b2-b7a9e9ebe9cc",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1eo4y1M7Lr",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1eo4y1M7Lr",
+          "sourceField": "title",
+          "excerpt": "水树奈奈『undercover』“把内心深处的爱 编制起来献给你”【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1eo4y1M7Lr",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月31日\n柚恩【我是最健康的！吗？】 直播剪辑\n--------------------------------------------------------\n剪辑：洛晨\n时轴：冰冰\n封面：黑川赤音\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_92aac421-8c00-47df-acd6-cdc7d3d29ad1",
+      "workId": "song_b65c85b0-e79d-4c78-bd5b-f6492cd0011a",
+      "date": "2023-05-09",
+      "eventId": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1jP4111781",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "parts",
+          "partNumber": 1,
+          "excerpt": "Love Fool"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "description",
+          "excerpt": "https://live.bilibili.com/25512476/\n直播日期：2023年05月09日\n露早L2D【汪汪公主殿下登场！】直播剪辑\n--------------------------------------------------------\n剪辑：问号\n时轴：鹿千鸽\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/2018113152/"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "title",
+          "excerpt": "2023.05.09露早2D歌切合集【露早2D翻唱】"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef"
+        }
+      ]
+    },
+    {
+      "id": "perf_517c2a16-c30f-47d6-b9a5-beb8d87ffffe",
+      "workId": "song_907c162d-95ef-4546-92e7-9525858c3dd9",
+      "date": "2023-05-09",
+      "eventId": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1jP4111781",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            3
+          ]
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "parts",
+          "partNumber": 3,
+          "excerpt": "水星记"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "description",
+          "excerpt": "https://live.bilibili.com/25512476/\n直播日期：2023年05月09日\n露早L2D【汪汪公主殿下登场！】直播剪辑\n--------------------------------------------------------\n剪辑：问号\n时轴：鹿千鸽\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/2018113152/"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "title",
+          "excerpt": "2023.05.09露早2D歌切合集【露早2D翻唱】"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef"
+        }
+      ]
+    },
+    {
+      "id": "perf_6b1b223a-7643-45ae-9f45-0a66fdec3063",
+      "workId": "song_c16389bd-a083-4ae1-b7d1-f3caf9d2c576",
+      "date": "2023-05-09",
+      "eventId": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1jP4111781",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            4
+          ]
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "parts",
+          "partNumber": 4,
+          "excerpt": "fly me to the moon"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "description",
+          "excerpt": "https://live.bilibili.com/25512476/\n直播日期：2023年05月09日\n露早L2D【汪汪公主殿下登场！】直播剪辑\n--------------------------------------------------------\n剪辑：问号\n时轴：鹿千鸽\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/2018113152/"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "title",
+          "excerpt": "2023.05.09露早2D歌切合集【露早2D翻唱】"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef"
+        }
+      ]
+    },
+    {
+      "id": "perf_70749415-e517-478d-a2fb-568ac9c10a83",
+      "workId": "song_02d2f933-fa6e-46ca-98d9-5dcbaa030e5c",
+      "date": "2023-05-09",
+      "eventId": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1jP4111781",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            5
+          ]
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "parts",
+          "partNumber": 5,
+          "excerpt": "黒い涙"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "description",
+          "excerpt": "https://live.bilibili.com/25512476/\n直播日期：2023年05月09日\n露早L2D【汪汪公主殿下登场！】直播剪辑\n--------------------------------------------------------\n剪辑：问号\n时轴：鹿千鸽\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/2018113152/"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "title",
+          "excerpt": "2023.05.09露早2D歌切合集【露早2D翻唱】"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef"
+        }
+      ]
+    },
+    {
+      "id": "perf_b34120be-cc69-447f-a1d4-ff49d76bdbd9",
+      "workId": "song_479b976a-6cda-44f3-89a6-6cdb135c7248",
+      "date": "2023-05-09",
+      "eventId": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1jP4111781",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            6
+          ]
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "parts",
+          "partNumber": 6,
+          "excerpt": "夏天的风"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "description",
+          "excerpt": "https://live.bilibili.com/25512476/\n直播日期：2023年05月09日\n露早L2D【汪汪公主殿下登场！】直播剪辑\n--------------------------------------------------------\n剪辑：问号\n时轴：鹿千鸽\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/2018113152/"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1jP4111781",
+          "sourceField": "title",
+          "excerpt": "2023.05.09露早2D歌切合集【露早2D翻唱】"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef"
+        }
+      ]
+    },
+    {
+      "id": "perf_0a2ece57-67e5-42c8-b5e4-b1b96311992f",
+      "workId": "song_b62c045b-bf07-4d24-8520-49ace6b5b5e3",
+      "date": "2023-05-03",
+      "eventId": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Tg4y1j7Sz",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "parts",
+          "partNumber": 1,
+          "excerpt": "【字幕版】倒带"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "description",
+          "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2023年5月3日\n虞莫L2D【进来见证一个冉冉升起的新星！】 直播剪辑\n--------------------------------------------------------\n剪辑：鹿千鸽\n时轴：彩恶灵\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号 @EOE组合 ：https://space.bilibili.com/2018113152/"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "title",
+          "excerpt": "2023.05.03虞莫2D歌切合集【虞莫2D翻唱】"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0"
+        }
+      ]
+    },
+    {
+      "id": "perf_8e9854f8-bafa-4f7a-8fef-405b058df3f8",
+      "workId": "song_5efb61a9-b3cf-4fe5-8ef3-975ec8338cda",
+      "date": "2023-05-03",
+      "eventId": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Tg4y1j7Sz",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            2
+          ]
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "parts",
+          "partNumber": 2,
+          "excerpt": "【字幕版】一眼万年"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "description",
+          "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2023年5月3日\n虞莫L2D【进来见证一个冉冉升起的新星！】 直播剪辑\n--------------------------------------------------------\n剪辑：鹿千鸽\n时轴：彩恶灵\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号 @EOE组合 ：https://space.bilibili.com/2018113152/"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "title",
+          "excerpt": "2023.05.03虞莫2D歌切合集【虞莫2D翻唱】"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0"
+        }
+      ]
+    },
+    {
+      "id": "perf_73513e2e-7192-470b-b51b-02c496b8a538",
+      "workId": "song_e4fc0f8f-7c29-4527-b0e7-51b19f3fe7bc",
+      "date": "2023-05-03",
+      "eventId": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Tg4y1j7Sz",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            3
+          ]
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "parts",
+          "partNumber": 3,
+          "excerpt": "【字幕版】我爱他"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "description",
+          "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2023年5月3日\n虞莫L2D【进来见证一个冉冉升起的新星！】 直播剪辑\n--------------------------------------------------------\n剪辑：鹿千鸽\n时轴：彩恶灵\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号 @EOE组合 ：https://space.bilibili.com/2018113152/"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "title",
+          "excerpt": "2023.05.03虞莫2D歌切合集【虞莫2D翻唱】"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0"
+        }
+      ]
+    },
+    {
+      "id": "perf_373ccd13-0dff-47e9-ae5c-eeff4acc7315",
+      "workId": "song_a7727553-2772-4727-91bd-26a04ef87421",
+      "date": "2023-05-03",
+      "eventId": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Tg4y1j7Sz",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            4
+          ]
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "parts",
+          "partNumber": 4,
+          "excerpt": "【字幕版】雨爱"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "description",
+          "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2023年5月3日\n虞莫L2D【进来见证一个冉冉升起的新星！】 直播剪辑\n--------------------------------------------------------\n剪辑：鹿千鸽\n时轴：彩恶灵\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号 @EOE组合 ：https://space.bilibili.com/2018113152/"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "title",
+          "excerpt": "2023.05.03虞莫2D歌切合集【虞莫2D翻唱】"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0"
+        }
+      ]
+    },
+    {
+      "id": "perf_00a978d5-5bc0-4bcd-aeab-b9ff6735ec58",
+      "workId": "song_1f7ab9bf-353e-4852-9f43-9473a5cd9d34",
+      "date": "2023-05-03",
+      "eventId": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1Tg4y1j7Sz",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            5
+          ]
+        }
+      ],
+      "creditedMembers": [
+        "yumo"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "parts",
+          "partNumber": 5,
+          "excerpt": "【字幕版】你是我的风景"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "description",
+          "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2023年5月3日\n虞莫L2D【进来见证一个冉冉升起的新星！】 直播剪辑\n--------------------------------------------------------\n剪辑：鹿千鸽\n时轴：彩恶灵\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586/\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号 @EOE组合 ：https://space.bilibili.com/2018113152/"
+        },
+        {
+          "file": "../evidence/round-02-recording-song-details-2023-04-05.json",
+          "locator": "BV1Tg4y1j7Sz",
+          "sourceField": "title",
+          "excerpt": "2023.05.03虞莫2D歌切合集【虞莫2D翻唱】"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0"
+        }
+      ]
+    },
+    {
+      "id": "perf_a379e3ef-ccf7-4713-a492-a3202a702571",
+      "workId": "song_744533b8-fcfe-4d15-8a6e-de818461f2c3",
+      "date": "2023-05-01",
+      "eventId": "evt_be9f46cd-96b1-4dd0-9e6c-d45e32adf20a",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1sL411a7x4",
+          "role": "performance-excerpt"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1sL411a7x4",
+          "sourceField": "title",
+          "excerpt": "张悬『模样』“我的模样有你的孤单”【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1sL411a7x4",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月01日\n露早直播 直播剪辑\n--------------------------------------------------------\n剪辑：洛晨\n时轴：鹿千鸽\n封面：太空橘猫\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/166977"
+        },
+        {
+          "file": "../confirmed/events-2023-05.json",
+          "locator": "evt_be9f46cd-96b1-4dd0-9e6c-d45e32adf20a"
+        }
+      ]
+    },
+    {
+      "id": "perf_47b9fa53-9668-4ba8-9e9e-4d616a4cfd5e",
+      "workId": "song_865c6fec-6f20-4a23-8b42-45672be0ad81",
+      "date": "2023-05-20",
+      "eventId": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1AP41197d9",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ao4y1g7k7",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            18
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1AP41197d9",
+          "sourceField": "title",
+          "excerpt": "柚恩原创曲『觅光』“因为微光在和她相约在永恒啊”【柚恩生日会】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1AP41197d9",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月20日\n柚恩生日演唱会【觅光 ALL FOR U】 直播剪辑\n--------------------------------------------------------\n剪辑：夜幽嵐\n封面：小黑\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.c"
+        },
+        {
+          "file": "events-2023-05.json",
+          "locator": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
+          "sourceField": "title",
+          "excerpt": "【3D】柚恩生日演唱会·觅光"
+        },
+        {
+          "file": "../evidence/history-01/series-1795147802.json",
+          "locator": "BV1hs4y1q76q"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7].pages[page=18]",
+          "sourceField": "part",
+          "excerpt": "柚恩 觅光"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch12.json",
+          "locator": "videos[bvid=BV1ao4y1g7k7]",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.05.20【3D】柚恩生日演唱会 觅光『节目合集』"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "perf_23448eb0-5f49-4d03-b24d-5e4ba85c9a08",
+      "workId": "song_ae6aa727-bc4e-4909-ac9c-0c384088f627",
+      "date": "2023-05-01",
+      "type": "dance",
+      "assets": [
+        {
+          "bvid": "BV1Vh411L715",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1Vh411L715",
+          "sourceField": "title",
+          "excerpt": "『劳动最光荣』【露早蹦蹦跳跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1Vh411L715",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年05月01日\n露早直播 直播剪辑\n--------------------------------------------------------\n剪辑：鹿千鸽\n时轴：鹿千鸽\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/16"
+        }
+      ],
+      "creditedMembers": [
+        "luzao"
+      ],
+      "eventId": "evt_be9f46cd-96b1-4dd0-9e6c-d45e32adf20a"
+    },
+    {
+      "id": "perf_cac75581-42cd-4cdf-8200-490320b23c06",
+      "workId": "song_865c6fec-6f20-4a23-8b42-45672be0ad81",
+      "date": "2023-05-24",
+      "eventId": "evt_a025f545-66c3-4d41-b1e3-9e11b7d14f94",
+      "type": "singing",
+      "assets": [
+        {
+          "bvid": "BV1bP411Q7MQ",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1bP411Q7MQ",
+          "sourceField": "title",
+          "excerpt": "柚恩原创曲『觅光』“与你一起 寻觅那道光芒”【柚恩编曲版】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1bP411Q7MQ",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "直播日期：2023年5月24日\n柚恩【幕后大揭秘】 直播剪辑\n--------------------------------------------------------\n剪辑：subtitle\n时轴：subtitle\n封面：露早今天吃什么\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.b"
+        },
+        {
+          "file": "../evidence/round-04-user-clarifications-2022-2023.json",
+          "locator": "clarification_7",
+          "sourceField": "answer",
+          "excerpt": "当场唱的"
+        },
+        {
+          "file": "events-2023-05.json",
+          "locator": "evt_a025f545-66c3-4d41-b1e3-9e11b7d14f94"
+        }
+      ],
+      "creditedMembers": [
+        "youen"
+      ]
+    }
+  ]
+}

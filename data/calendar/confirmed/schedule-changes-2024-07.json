@@ -1,0 +1,173 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "950997753296584706",
+      "relatedAnnouncementEventId": "evt_e451c764-9936-4e2a-83e3-6cc9e2de8454",
+      "date": "2024-07-06",
+      "action": "format-change",
+      "member": "luzao",
+      "plannedTime": "19:00",
+      "fromFormatLabel": null,
+      "toFormatLabel": "电台",
+      "source": {
+        "file": "../evidence/round-02-july-schedule-notice-details.json",
+        "locator": "950997753296584706"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-07-06/events/0"
+      }
+    },
+    {
+      "announcementId": "955096367527624770",
+      "relatedAnnouncementEventId": "evt_af6e2a17-3d64-451c-b845-78df7a4f8b57",
+      "date": "2024-07-17",
+      "action": "format-change",
+      "members": ["yumo", "luzao"],
+      "fromFormatLabel": "3D",
+      "toFormatLabels": ["2D", "电台"],
+      "relatedPlans": [
+        {
+          "file": "plans.json",
+          "locator": "2024-07-17/events/0"
+        },
+        {
+          "file": "plans.json",
+          "locator": "2024-07-17/events/1"
+        }
+      ],
+      "note": "公告未明确两种形式分别对应哪位成员；不按姓名顺序硬配，两个计划的具体形式仍不填。",
+      "source": {
+        "file": "../evidence/round-02-july-schedule-notice-details.json",
+        "locator": "955096367527624770"
+      }
+    },
+    {
+      "announcementId": "955096367527624770",
+      "relatedAnnouncementEventId": "evt_af6e2a17-3d64-451c-b845-78df7a4f8b57",
+      "date": "2024-07-17",
+      "action": "postpone",
+      "members": ["yumo", "luzao"],
+      "scope": "原3D内容将在之后找时间补回，未给补播日期；不推断哪场后续直播已实现补回。",
+      "relatedPlans": [
+        {
+          "file": "plans.json",
+          "locator": "2024-07-17/events/0"
+        },
+        {
+          "file": "plans.json",
+          "locator": "2024-07-17/events/1"
+        }
+      ],
+      "source": {
+        "file": "../evidence/round-02-july-schedule-notice-details.json",
+        "locator": "955096367527624770"
+      }
+    },
+    {
+      "announcementId": "955847441351966742",
+      "relatedAnnouncementEventId": "evt_b3fc6bd2-5449-45bd-b41f-18ca57920623",
+      "date": "2024-07-19",
+      "action": "postpone",
+      "scope": "当日直播暂时推迟，未给新时间。",
+      "plannedTime": "19:30",
+      "note": "保留19:30原计划时间，不作为实际开播时间。",
+      "source": {
+        "file": "../evidence/round-02-july-schedule-notice-details.json",
+        "locator": "955847441351966742"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-07-19/events/0"
+      }
+    },
+    {
+      "announcementId": "955854029827604514",
+      "relatedAnnouncementEventId": "evt_5b17c12f-6793-4b79-82f4-67d26a6bd7d1",
+      "date": "2024-07-19",
+      "action": "format-change",
+      "fromFormatLabel": "3D",
+      "toFormatLabel": "电台",
+      "relatedAnnouncementEventIds": [
+        "evt_b3fc6bd2-5449-45bd-b41f-18ca57920623"
+      ],
+      "note": "该日周表只有一项三人直播，按当日唯一计划关联；公告未给实际出席名单或新的开播时间。",
+      "source": {
+        "file": "../evidence/round-02-july-schedule-notice-details.json",
+        "locator": "955854029827604514"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-07-19/events/0"
+      }
+    },
+    {
+      "announcementId": "955854029827604514",
+      "relatedAnnouncementEventId": "evt_5b17c12f-6793-4b79-82f4-67d26a6bd7d1",
+      "date": "2024-07-19",
+      "action": "postpone",
+      "scope": "原3D内容之后补回，未给补播日期。",
+      "source": {
+        "file": "../evidence/round-02-july-schedule-notice-details.json",
+        "locator": "955854029827604514"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-07-19/events/0"
+      }
+    },
+    {
+      "announcementId": "960222810478739473",
+      "relatedAnnouncementEventId": "evt_6a8aab30-2539-4eb2-8744-81408fdc5fe7",
+      "date": "2024-07-31",
+      "action": "format-change",
+      "member": "youen",
+      "fromFormatLabel": "3D",
+      "toFormatLabel": "2D",
+      "plannedTime": "19:00",
+      "source": {
+        "file": "../evidence/round-02-july-schedule-notice-details.json",
+        "locator": "960222810478739473"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-07-31/events/0"
+      }
+    },
+    {
+      "announcementId": "960222810478739473",
+      "relatedAnnouncementEventId": "evt_6a8aab30-2539-4eb2-8744-81408fdc5fe7",
+      "date": "2024-07-31",
+      "action": "cancel",
+      "member": "luzao",
+      "plannedTime": "20:30",
+      "formatLabel": "2D",
+      "source": {
+        "file": "../evidence/round-02-july-schedule-notice-details.json",
+        "locator": "960222810478739473"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-07-31/events/1"
+      }
+    },
+    {
+      "announcementId": "960556666831503378",
+      "relatedAnnouncementEventId": "evt_525251e5-06f7-418b-86df-236e6e559766",
+      "date": "2024-08-02",
+      "action": "cancel",
+      "members": ["yumo", "luzao", "youen"],
+      "plannedTime": "19:30",
+      "note": "8/1周四公告明确原定周五三位成员直播取消；原图8/2同列这三位成员联动，关联原联动计划，不拆成三项新单播。",
+      "source": {
+        "file": "../evidence/round-02-july-schedule-notice-details.json",
+        "locator": "960556666831503378"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-08-02/events/0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "date": "2022-10-01",
+      "action": "schedule-revision",
+      "originalPlan": {
+        "date": "2022-10-01",
+        "restDay": false,
+        "events": [],
+        "source": {
+          "dynamicId": "710011188599062530",
+          "image": "../source/september-2022/710011188599062530.jpg"
+        },
+        "nonStreamActivities": ["国庆快乐"]
+      },
+      "revisedPlan": {
+        "date": "2022-10-01",
+        "restDay": true,
+        "events": [],
+        "source": {
+          "dynamicId": "711725915628896276",
+          "image": "../source/september-2022-extra/711725915628896276.png"
+        }
+      },
+      "evidence": [
+        {
+          "file": "../source/september-2022-extra/711725915628896276.png",
+          "locator": "主代理实际查看完整原图"
+        }
+      ],
+      "note": "前周跨月安排只有国庆祝语，假期表后明确休息；保留两版。"
+    },
+    {
+      "date": "2022-10-02",
+      "action": "schedule-revision",
+      "originalPlan": {
+        "date": "2022-10-02",
+        "restDay": false,
+        "events": [
+          {
+            "plannedTime": "19:00",
+            "members": ["waner", "luzao", "youen", "yumo", "minuo"],
+            "participation": "group",
+            "formatLabel": null,
+            "tags": ["冰火秋日游"]
+          }
+        ],
+        "source": {
+          "dynamicId": "710011188599062530",
+          "image": "../source/september-2022/710011188599062530.jpg"
+        }
+      },
+      "revisedPlan": {
+        "date": "2022-10-02",
+        "restDay": false,
+        "events": [],
+        "source": {
+          "dynamicId": "711725915628896276",
+          "image": "../source/september-2022-extra/711725915628896276.png"
+        },
+        "nonStreamActivities": ["冰火秋日游"],
+        "note": "原图无时刻及成员，保留活动名称，不补造团播或19:00"
+      },
+      "evidence": [
+        {
+          "file": "../source/september-2022-extra/711725915628896276.png",
+          "locator": "主代理实际查看完整原图"
+        }
+      ],
+      "note": "前周跨月表列19:00冰火秋日游，后发假期表只给活动名；保留原时刻来源，未据缺字推取消或改时。"
+    },
+    {
+      "date": "2022-10-05",
+      "action": "cancellation",
+      "originalPlan": {
+        "members": ["yumo"],
+        "plannedTime": "19:00",
+        "formatLabel": null,
+        "participation": "individual"
+      },
+      "announcementEventId": "evt_c51589de-af47-4e57-a397-7e7ef186a461",
+      "relatedEventId": "evt_fbdb635a-e174-4ae7-bd4a-41a93633346d",
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2022.json",
+          "locator": "713449400113823776"
+        },
+        {
+          "file": "../source/september-2022-extra/711725915628896276.png",
+          "locator": "主代理实际查看完整原图"
+        }
+      ],
+      "note": "原虞莫19:00计划保存，后续公告取消；不以同日柚恩直播替代或合并。"
+    },
+    {
+      "date": "2022-10-06",
+      "action": "schedule-revision",
+      "originalPlan": {
+        "date": "2022-10-06",
+        "restDay": false,
+        "events": [
+          {
+            "members": ["luzao"],
+            "plannedTime": "19:00",
+            "formatLabel": null,
+            "participation": "individual"
+          },
+          {
+            "members": ["waner"],
+            "plannedTime": "20:30",
+            "formatLabel": null,
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "dynamicId": "711725915628896276",
+          "image": "../source/september-2022-extra/711725915628896276.png"
+        }
+      },
+      "revisedPlan": {
+        "date": "2022-10-06",
+        "restDay": false,
+        "events": [
+          {
+            "members": ["waner"],
+            "plannedTime": "19:00",
+            "formatLabel": null,
+            "participation": "individual",
+            "changeSource": {
+              "file": "../evidence/history-01/dynamics-2022.json",
+              "locator": "713508524625231924"
+            }
+          },
+          {
+            "members": ["luzao"],
+            "plannedTime": "20:30",
+            "formatLabel": "电台",
+            "participation": "individual",
+            "changeSource": {
+              "file": "../evidence/history-01/dynamics-2022.json",
+              "locator": "713508524625231924"
+            }
+          }
+        ],
+        "source": {
+          "dynamicId": "713508524625231924",
+          "evidence": "../evidence/history-01/dynamics-2022.json",
+          "locator": "713508524625231924"
+        }
+      },
+      "announcementEventId": "evt_40651f02-87b6-4300-94f5-5a677eafc289",
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2022.json",
+          "locator": "713508524625231924"
+        },
+        {
+          "file": "../source/september-2022-extra/711725915628896276.png",
+          "locator": "主代理实际查看完整原图"
+        }
+      ],
+      "note": "原露早19:00、莞儿20:30计划保留；10/5公告将莞儿调19:00、露早调20:30电台，不覆盖原图。"
+    }
+  ]
+}

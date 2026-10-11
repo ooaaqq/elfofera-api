@@ -1,0 +1,132 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "930231509105770529",
+      "relatedAnnouncementEventId": "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e",
+      "date": "2024-05-11",
+      "action": "cancel",
+      "plannedTime": "19:30",
+      "formatLabel": "3D",
+      "participation": "group",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-05-11/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "930231509105770529"
+      }
+    },
+    {
+      "announcementId": "930231509105770529",
+      "relatedAnnouncementEventId": "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e",
+      "date": "2024-05-11",
+      "action": "additional-stream",
+      "member": "yumo",
+      "plannedTime": "19:30",
+      "plannedEndTime": "20:30",
+      "formatLabel": "电台/2D",
+      "replacesPlan": {
+        "file": "plans.json",
+        "locator": "2024-05-11/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "930231509105770529"
+      },
+      "participation": "individual"
+    },
+    {
+      "announcementId": "930231509105770529",
+      "relatedAnnouncementEventId": "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e",
+      "date": "2024-05-11",
+      "action": "additional-stream",
+      "member": "minuo",
+      "plannedTime": "20:30",
+      "plannedEndTime": "21:30",
+      "formatLabel": "电台/2D",
+      "replacesPlan": {
+        "file": "plans.json",
+        "locator": "2024-05-11/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "930231509105770529"
+      },
+      "participation": "individual"
+    },
+    {
+      "announcementId": "930231509105770529",
+      "relatedAnnouncementEventId": "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e",
+      "date": "2024-05-11",
+      "action": "additional-stream",
+      "member": "youen",
+      "plannedTime": "21:30",
+      "plannedEndTime": "22:30",
+      "formatLabel": "电台/2D",
+      "replacesPlan": {
+        "file": "plans.json",
+        "locator": "2024-05-11/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "930231509105770529"
+      },
+      "participation": "individual"
+    },
+    {
+      "announcementId": "930231509105770529",
+      "relatedAnnouncementEventId": "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e",
+      "date": "2024-05-11",
+      "action": "additional-stream",
+      "member": "luzao",
+      "plannedTime": "22:30",
+      "plannedEndTime": "23:30",
+      "formatLabel": "电台/2D",
+      "replacesPlan": {
+        "file": "plans.json",
+        "locator": "2024-05-11/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "930231509105770529"
+      },
+      "participation": "individual"
+    },
+    {
+      "announcementId": "933499004235284484",
+      "relatedAnnouncementEventId": "evt_a895b60d-cf4b-4074-b256-8ba9a5c6e4ab",
+      "date": "2024-05-20",
+      "action": "member-absence",
+      "member": "minuo",
+      "plannedTime": "19:30",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-05-20/events/0"
+      },
+      "source": {
+        "file": "../evidence/history-01/dynamics-2024.json",
+        "locator": "933499004235284484"
+      }
+    },
+    {
+      "announcementId": "934295209596944425",
+      "relatedAnnouncementEventId": "evt_a0ee3e46-6783-42ae-a810-0d0fc53e2066",
+      "date": "2024-05-22",
+      "action": "format-change",
+      "member": "minuo",
+      "plannedTime": "19:00",
+      "fromFormatLabel": "3D",
+      "toFormatLabel": "2D",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-05-22/events/0"
+      },
+      "source": {
+        "file": "../evidence/history-01/dynamics-2024.json",
+        "locator": "934295209596944425"
+      }
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "events": [
+    {
+      "id": "evt_b393f02d-37f5-4522-b6a9-545ab83b948d",
+      "date": "2026-09-02",
+      "kind": "livestream",
+      "title": "【3D】御姐弹钢琴",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [18],
+      "recordings": [
+        {
+          "bvid": "BV1LdtU6TEAd",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1LdtU6TEAd"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1LdtU6TEAd",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1LdtU6TEAd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_9381f158-8d68-4b32-8877-106460595b84",
+      "date": "2026-09-04",
+      "kind": "livestream",
+      "title": "【2D】又到了愉快的新三时间",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV1qet66JEyK",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1qet66JEyK"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1qet66JEyK",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1qet66JEyK"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_42b3b2f5-b86a-411c-84fa-2cd20a0df927",
+      "date": "2026-09-06",
+      "kind": "livestream",
+      "title": "【2D】看看",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV1CNb46RESS",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1CNb46RESS"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1CNb46RESS",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1CNb46RESS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_da42183b-b4f9-4039-af9c-94a0f9e0df84",
+      "date": "2026-09-09",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "柚恩因身体不适取消当晚19:00的3D直播通知",
+      "text": "大家好，临时插播一条消息！由于身体不适，原定于今晚19:00的@柚恩不加糖 3D直播取消，还请大家理解。大家也要好好保重身体哦！",
+      "publishedAt": "2026-09-09T06:16:30.000Z",
+      "occurrence": "announced",
+      "announcedActivity": {
+        "date": "2026-09-09",
+        "plannedTime": "19:00",
+        "members": ["youen"],
+        "formatLabel": "3D",
+        "status": "cancelled"
+      },
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2026.json",
+            "locator": "1245953648754688019"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/history-01/dynamics-2026.json",
+            "locator": "1245953648754688019"
+          }
+        ],
+        "originalPlan": [
+          {
+            "file": "plans.json",
+            "locator": "2026-09-09"
+          },
+          {
+            "file": "../source/september-2026/1245176304797483017.jpg",
+            "locator": "9/9柚恩3D19:00"
+          }
+        ]
+      },
+      "note": "保留原计划及取消声明，不新增已发生直播，也不推断具体疾病或补播日期。"
+    },
+    {
+      "id": "evt_c5625654-b00b-458f-9124-5b977a37d6fc",
+      "date": "2026-09-11",
+      "kind": "livestream",
+      "title": "【电台】泥嚎",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV1igYm62EXY",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1igYm62EXY"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1igYm62EXY",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1igYm62EXY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_1a640a3c-6f92-4b99-92e1-3152a2bd23ef",
+      "date": "2026-09-12",
+      "kind": "livestream",
+      "title": "【2D】少说话，看新三",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV13VYR6ZE1N",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV13VYR6ZE1N"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV13VYR6ZE1N",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV13VYR6ZE1N"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_1ad863a2-41df-40c4-9ba0-5807002f24e7",
+      "date": "2026-09-15",
+      "kind": "livestream",
+      "title": "【2D】柚纸一起玩",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [20],
+      "recordings": [
+        {
+          "bvid": "BV18xeH6eEdz",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV18xeH6eEdz"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV18xeH6eEdz",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV18xeH6eEdz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_2de61937-42b9-465f-bbb8-4f49cdd78211",
+      "date": "2026-09-16",
+      "kind": "livestream",
+      "title": "【3D】真是莫名其妙！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [18],
+      "recordings": [
+        {
+          "bvid": "BV1dFeP6tEdM",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dFeP6tEdM"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1dFeP6tEdM",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dFeP6tEdM"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_55884120-96bb-4c69-a921-042d95052088",
+      "date": "2026-09-19",
+      "kind": "livestream",
+      "title": "【2D】露米娅冒险家出发！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV1upeh6tEbp",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1upeh6tEbp"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1upeh6tEbp",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1upeh6tEbp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_96c44f32-8775-49b6-9414-55f9c810d2ed",
+      "date": "2026-09-20",
+      "kind": "livestream",
+      "title": "【2D】饭点新三Time",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [11],
+      "recordings": [
+        {
+          "bvid": "BV1kNev6xE4H",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1kNev6xE4H"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1kNev6xE4H",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1kNev6xE4H"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_4481f77e-c5c4-40b8-80be-64c62ff4fd31",
+      "date": "2026-09-22",
+      "kind": "livestream",
+      "title": "【2D】继续，看新，三国，吐槽",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV1sDhn6mETk",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1sDhn6mETk"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1sDhn6mETk",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1sDhn6mETk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_d796a10e-69b2-4ca0-ba42-3768c6e1d31b",
+      "date": "2026-09-22",
+      "kind": "announcement",
+      "subtype": "merchandise",
+      "title": "2026年第二季度与柚恩生日会特殊船员礼即将发放通知",
+      "text": "大家下午好！📣请注意，EOE@露早GOGO @柚恩不加糖 2026年第二季度、2026@柚恩不加糖 生日会特殊船员礼即将发放。请各位查看此动态，关注相关物流信息，收货后如有售后问题请联系@虚拟航海中心 进行处理~",
+      "publishedAt": "2026-09-22T04:16:25.000Z",
+      "occurrence": "announced",
+      "relatedEventIds": [
+        "evt_a63411f0-7679-4df8-95f6-e45cc69e1320",
+        "evt_2dc5c67a-0d45-4ec5-9eea-6c5093f6e34c"
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2026.json",
+            "locator": "1250746810813644833"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/history-01/dynamics-2026.json",
+            "locator": "1250746810813644833"
+          }
+        ],
+        "relatedEventIds": [
+          {
+            "file": "events-2026-03.json",
+            "locator": "evt_a63411f0-7679-4df8-95f6-e45cc69e1320"
+          },
+          {
+            "file": "events-2026-05.json",
+            "locator": "evt_2dc5c67a-0d45-4ec5-9eea-6c5093f6e34c"
+          }
+        ]
+      },
+      "note": "第二季度礼物与柚恩生日会分别关联；即将发放不代表全部收货或履约完成。"
+    },
+    {
+      "id": "evt_411a3fb2-9c72-4e26-a418-3f087b976bea",
+      "date": "2026-09-23",
+      "kind": "livestream",
+      "title": "【3D】目标是出一本写真集",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [18],
+      "recordings": [
+        {
+          "bvid": "BV1m6h86LE2d",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1m6h86LE2d"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1m6h86LE2d",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1m6h86LE2d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_dbe01b4a-69be-4fdb-9b1b-ab5908c8ecef",
+      "date": "2026-09-23",
+      "kind": "livestream",
+      "title": "【3D】I'm back",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["luzao"],
+      "titleHours": [20],
+      "recordings": [
+        {
+          "bvid": "BV1Eqhb68EjR",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Eqhb68EjR"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Eqhb68EjR",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Eqhb68EjR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_9dd24648-9844-4480-8edd-cf221616352d",
+      "date": "2026-09-24",
+      "kind": "livestream",
+      "title": "【3D】二次元偶像宅驾到",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [18],
+      "recordings": [
+        {
+          "bvid": "BV1WhaN6uEZN",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1WhaN6uEZN"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1WhaN6uEZN",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1WhaN6uEZN"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3824ff31-e496-4a9c-aa16-a801ce7e345b",
+      "date": "2026-09-25",
+      "kind": "livestream",
+      "title": "【2D】萌妹玩游戏42",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["luzao"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV11zhU6fEhX",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV11zhU6fEhX"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV11zhU6fEhX",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV11zhU6fEhX"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_42c1c806-5e1c-4172-87ff-eac5fb02a445",
+      "date": "2026-09-26",
+      "kind": "livestream",
+      "title": "【2D】花好月圆夜",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV17tho6uEkU",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV17tho6uEkU"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV17tho6uEkU",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV17tho6uEkU"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_1dd60e42-9424-4249-aeb8-ea52e72442a0",
+      "date": "2026-09-27",
+      "kind": "livestream",
+      "title": "【2D】12345",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["luzao"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV19Eaa6wECb",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV19Eaa6wECb"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV19Eaa6wECb",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV19Eaa6wECb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_5ac7e6b4-c40f-4f95-8fc0-afff0fa33a10",
+      "date": "2026-09-28",
+      "kind": "livestream",
+      "title": "【3D】归来吧！御姐玩萌妹！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen", "luzao"],
+      "titleHours": [18],
+      "recordings": [
+        {
+          "bvid": "BV1rgaV6RE1r",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1rgaV6RE1r"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1rgaV6RE1r",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1rgaV6RE1r"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_025e793d-7e28-4a43-9ce8-a6c194c407d4",
+      "date": "2026-09-29",
+      "kind": "livestream",
+      "title": "【3D】欢迎乘坐GOGO航空！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["luzao"],
+      "titleHours": [20],
+      "recordings": [
+        {
+          "bvid": "BV1UZaW6YEp8",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1UZaW6YEp8"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1UZaW6YEp8",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1UZaW6YEp8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_eb67fa8b-71ac-477a-9d10-71c0addf7ffb",
+      "date": "2026-09-29",
+      "kind": "livestream",
+      "title": "【3D】吉尼斯86724记录",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["youen"],
+      "titleHours": [18],
+      "recordings": [
+        {
+          "bvid": "BV1RFaH6eEPu",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1RFaH6eEPu"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1RFaH6eEPu",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1RFaH6eEPu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_9513817b-695c-48a3-8168-d2c40a7499fe",
+      "date": "2026-09-30",
+      "kind": "livestream",
+      "title": "【2D】44先聊会天，再萌妹钓鱼",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": ["luzao"],
+      "titleHours": [19],
+      "recordings": [
+        {
+          "bvid": "BV1XDaZ6KE1s",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1XDaZ6KE1s"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1XDaZ6KE1s",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1XDaZ6KE1s"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_015dec00-4283-43f9-8a01-c167d2d01f10",
+      "date": "2026-09-30",
+      "kind": "announcement",
+      "subtype": "merchandise",
+      "title": "露早与柚恩2026年10–12月大航海礼物公告",
+      "publishedAt": "2026-09-30T08:00:00.000Z",
+      "occurrence": "announced",
+      "giftWindow": {
+        "from": "2026-10-01",
+        "through": "2026-12-31",
+        "members": ["luzao", "youen"]
+      },
+      "giftTiers": [
+        {
+          "tier": "舰长",
+          "gifts": ["手机挂绳", "拍立得"]
+        },
+        {
+          "tier": "提督",
+          "gifts": ["手机挂绳", "亲签拍立得"]
+        },
+        {
+          "tier": "总督",
+          "gifts": ["手机挂绳", "TO签拍立得"]
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2026.json",
+            "locator": "1253773111350788115"
+          }
+        ],
+        "text": [
+          {
+            "file": "../source/september-2026/1253773111350788115.jpg",
+            "locator": "露早&柚恩10–12月大航海礼物；上舰2026/10/1–12/31；手机挂绳+拍立得"
+          }
+        ]
+      },
+      "note": "原图写款式、颜色、设计均在监修中，所有图片含示例服饰仅供参考，以实物为准；不记录为成品发布或已经发放。"
+    }
+  ]
+}

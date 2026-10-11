@@ -1,0 +1,94 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "997723501332791361",
+      "relatedAnnouncementEventId": "evt_95f1382a-a7d3-4b4f-a00c-10ad3c74bfaa",
+      "source": {
+        "file": "../evidence/round-02-november-schedule-notice-details.json",
+        "locator": "997723501332791361"
+      },
+      "member": "yumo",
+      "date": "2024-11-09",
+      "plannedTime": "19:00",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-11-09/events/0"
+      },
+      "action": "format-change",
+      "fromFormatLabel": "3D",
+      "toFormatLabel": "2D",
+      "note": "3D由公告声明，原图未标形式；plans保留原图null，变更独立记录为2D。"
+    },
+    {
+      "announcementId": "1001489208427151367",
+      "relatedAnnouncementEventId": "evt_4317f9bf-8b79-4476-a7fe-80a3c34d6ece",
+      "source": {
+        "file": "../evidence/round-02-november-schedule-notice-details.json",
+        "locator": "1001489208427151367"
+      },
+      "member": "yumo",
+      "date": "2024-11-19",
+      "plannedTime": "19:30",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-11-19/events/0"
+      },
+      "action": "cancel"
+    },
+    {
+      "announcementId": "1001804510548459520",
+      "relatedAnnouncementEventId": "evt_238dd24d-c7c7-49bd-a5af-3655eb39ba5a",
+      "source": {
+        "file": "../evidence/round-02-november-schedule-notice-details.json",
+        "locator": "1001804510548459520"
+      },
+      "member": "yumo",
+      "date": "2024-11-21",
+      "plannedTime": "19:00",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-11-21/events/0"
+      },
+      "action": "cancel",
+      "formatLabel": "3D"
+    },
+    {
+      "announcementId": "1001804510548459520",
+      "relatedAnnouncementEventId": "evt_238dd24d-c7c7-49bd-a5af-3655eb39ba5a",
+      "source": {
+        "file": "../evidence/round-02-november-schedule-notice-details.json",
+        "locator": "1001804510548459520"
+      },
+      "member": "yumo",
+      "date": "2024-11-20",
+      "action": "activity-pause",
+      "effectiveFrom": "2024-11-20",
+      "note": "公告称进入休眠并停止接下来所有活动安排；未声明永久退出或恢复日期，不推断未来实际参与情况。"
+    },
+    {
+      "announcementId": "1002526743661117477",
+      "relatedAnnouncementEventId": "evt_d6e3f794-9606-4720-8b9f-e0620e7c3df4",
+      "source": {
+        "file": "../evidence/round-02-november-schedule-notice-details.json",
+        "locator": "1002526743661117477"
+      },
+      "member": "luzao",
+      "action": "reschedule",
+      "fromDate": "2024-11-24",
+      "toDate": "2024-11-25",
+      "fromPlannedTime": "19:30",
+      "toPlannedTime": "19:30",
+      "formatLabel": "2D",
+      "originalPlan": {
+        "file": "plans.json",
+        "locator": "2024-11-24/events/0"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-11-25/events/0"
+      },
+      "note": "原周日计划与后周表周一19:30安排分别保留，公告关联两日；11/22的3D照常，未建立额外变更。"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "2022-2023-v0.1",
+  "status": "ready-for-publish-with-documented-source-gaps",
+  "scope": {
+    "from": "2022-07-19",
+    "through": "2023-12-31",
+    "timeZone": "Asia/Shanghai"
+  },
+  "sourceBoundary": "2022—2023 固定输入已完成全局离线核销；确认资料、明确候选、排除项和来源边界分别登记。仍不宣称历史演出零遗漏；未读目录、不可访问视频和索引线索不转成人工逐条观看任务。",
+  "counts": {
+    "events": 888,
+    "performances": 1849,
+    "recordings": 1278,
+    "plans": 517,
+    "works": 1207,
+    "globalWorks": 1622,
+    "originalArtistMatches": 43
+  },
+  "reports": [
+    "../reviews/round-05-partial-adoption.json",
+    "../reviews/round-06-content-freeze-audit.json",
+    "../reviews/round-06-cross-month-audit.json",
+    "../reviews/round-06-api-import-audit.json",
+    "../reviews/round-07-final-adoption.json",
+    "../reviews/round-07-evidence-review.json",
+    "../reviews/round-08-month-2023-01.json",
+    "../reviews/round-08-batch05-independent-review.json",
+    "../reviews/round-08-batch06-2022-adoption.json",
+    "../reviews/round-08-month-2023-02.json",
+    "../reviews/round-08-batch08-youen-form-recheck.json",
+    "../reviews/round-08-month-2023-11.json",
+    "../reviews/round-08-dream-song-adoption.json",
+    "../reviews/round-08-youen-batch09-2023-11.json",
+    "../reviews/round-08-gogo-read-directory-index.json",
+    "../reviews/round-08-youen-read-directory-index.json",
+    "../reviews/round-08-gogo-full-index-triage.json",
+    "../reviews/round-08-gogo-full-index-review.json",
+    "../reviews/round-08-youen-full-index-triage.json",
+    "../reviews/round-08-youen-batch10-2023-01.json",
+    "../reviews/round-08-batch10-january-triage.json",
+    "../reviews/round-08-batch10-adoption-2023-01.json",
+    "../reviews/round-08-batch07-targeted-review.json",
+    "../reviews/round-08-gogo-unknown-date-disposition.json",
+    "../reviews/round-08-gogo-details-batch11.json",
+    "../reviews/round-08-youen-followup-priority.json",
+    "../reviews/round-08-youen-batch12-adoption.json",
+    "../reviews/round-08-batch12-main-adoption.json",
+    "../reviews/round-08-batch12-independent-review.json",
+    "../reviews/round-08-batch12-adoption-check.json",
+    "../reviews/round-08-form-audit-candidates.json",
+    "../reviews/round-08-form-audit-review.json",
+    "../reviews/round-08-other-members-coverage-followup.json",
+    "../reviews/round-08-songlist-260103-inventory.json",
+    "../reviews/round-08-batch13-main-adoption.json",
+    "../reviews/round-08-month-2023-02-batch13.json",
+    "../reviews/round-08-month-2023-03-batch13.json",
+    "../reviews/round-08-month-2023-04-batch13.json",
+    "../reviews/round-08-batch13-independent-review.json",
+    "../reviews/round-08-july-gap-adoption.json",
+    "../reviews/round-08-jan-feb-gap-adoption.json",
+    "../reviews/round-08-sep-dec-adoption.json",
+    "../reviews/round-08-sep-dec-gap.json",
+    "../reviews/round-08-september-gap.json",
+    "../reviews/round-08-aug-nov-gap.json",
+    "../reviews/round-08-2022-2023-asset-coverage-final.json",
+    "../reviews/round-08-youen-fourteen-collections-current-crosscheck.json",
+    "../reviews/round-08-youen-parts-recheck-2023-05-09.json",
+    "../reviews/round-08-youen-workbook-full-local-crosscheck.json",
+    "../reviews/round-08-youen-unlinked-parts-disposition.json",
+    "../reviews/round-08-gogo-four-leads-recheck.json",
+    "../reviews/round-08-gogo-workbook-full-local-crosscheck.json",
+    "../reviews/round-08-same-video-work-label-triage.json",
+    "../reviews/round-08-same-video-work-label-review.json",
+    "../reviews/round-08-other-accounts-workbook-crosscheck.json",
+    "../reviews/round-08-youen-unlinked-parts-adoption.json",
+    "../reviews/round-08-youen-candidate-dedup.json",
+    "../reviews/round-08-manual-source-clues-2022-2023.json",
+    "../reviews/round-08-batch14-main-adoption.json",
+    "../reviews/round-08-closeout-acquired-inputs.json",
+    "../evidence/round-08-user-manual-review.json",
+    "../reviews/round-08-gogo-directory-closeout.json",
+    "../reviews/round-08-user-review-main-adoption.json",
+    "../reviews/round-08-stale-source-gap-closeout.json",
+    "../reviews/round-08-user-form-review-adoption.json",
+    "../reviews/round-08-global-closeout.json",
+    "../reviews/round-08-same-video-closeout.json"
+  ],
+  "files": [
+    {
+      "file": "confirmed/events.json",
+      "sha256": "59b03ec71116ce9a40622a9ed9e8fb61a09b73b576b2c16835c433187b7ae56c"
+    },
+    {
+      "file": "confirmed/songs.json",
+      "sha256": "ae79773d7cdde81ca97560a47eb3ba989b50828b5a552758d98b8ed62fe005b1"
+    },
+    {
+      "file": "confirmed/recordings.json",
+      "sha256": "96f04ee1b898fcb21064c177d99b1f5662465f0937a0243ab9268f55818a9545"
+    },
+    {
+      "file": "confirmed/plans.json",
+      "sha256": "17add4fdf52909e1d3874414a4bd68f903c2bd27fcd8310a05e34936f587d4eb"
+    },
+    {
+      "file": "confirmed/performances-2022-07.json",
+      "sha256": "a16abca6b3324a37c5ded4009e34bd5d19e8a96c4f709c906256903f196b19e2"
+    },
+    {
+      "file": "confirmed/performances-2022-08.json",
+      "sha256": "d0360ebabc40d178670090eb5079b9383b8929649fa79e64405578c4a7ccbd5e"
+    },
+    {
+      "file": "confirmed/performances-2022-09.json",
+      "sha256": "e49fddf8625d4bf2f52bd2f64b13409376d8edb68c72d15de49b330374744c4e"
+    },
+    {
+      "file": "confirmed/performances-2022-10.json",
+      "sha256": "a1837a92be0a5539e252a5c5c1eb11af212d33c937cf2ba230fb7a99d4fc609a"
+    },
+    {
+      "file": "confirmed/performances-2022-11.json",
+      "sha256": "3deb95673ee3ab26935d129dea84b16954c582f0f3b9dd5e1d3346e909ad981f"
+    },
+    {
+      "file": "confirmed/performances-2022-12.json",
+      "sha256": "b881e47c03ff335bd662e351ebf5b0dea973a04b06a084ba910a683df23fe636"
+    },
+    {
+      "file": "confirmed/performances-2023-01.json",
+      "sha256": "eca188843d708d5cc856f2ed6ace92e9cebf74909166b631a5b68d57c42b80fb"
+    },
+    {
+      "file": "confirmed/performances-2023-02.json",
+      "sha256": "a16877d4f4a20cf33116ee7541d4101508a45d1bc1399ed5b572f25fff0edca9"
+    },
+    {
+      "file": "confirmed/performances-2023-03.json",
+      "sha256": "fc5ee3773820647352a94b9eae97cf72686acaf1709021ada0ecdef10ab59d69"
+    },
+    {
+      "file": "confirmed/performances-2023-04.json",
+      "sha256": "b088075ef393bdfe18862ff07c7d7c9aeb2321fa575aaf58e2b324ee94a505a4"
+    },
+    {
+      "file": "confirmed/performances-2023-05.json",
+      "sha256": "4154a6c54545ea044d260c52ad50b51af9a83cc5f2f20bbbcff9142a3cb1c0a6"
+    },
+    {
+      "file": "confirmed/performances-2023-06.json",
+      "sha256": "04dc2ef324e1c87b156ad6db7802f1a657911d3e52e0a0f84d30ed80a551cdf2"
+    },
+    {
+      "file": "confirmed/performances-2023-07.json",
+      "sha256": "32e39c2debcb81d303c2b491ced6ced1bbf0291a7f3baf46f2cb3797fa1ec8b8"
+    },
+    {
+      "file": "confirmed/performances-2023-08.json",
+      "sha256": "c6d8fc5d6e9cbba45a405c80c3744e9cc0f3119e6a7c0a046bdf3dabfdd0cfb5"
+    },
+    {
+      "file": "confirmed/performances-2023-09.json",
+      "sha256": "9f4f5224463bb48f8e5b11bb4e6bd71407809263abc2e0e24d43b12b66203612"
+    },
+    {
+      "file": "confirmed/performances-2023-10.json",
+      "sha256": "6f660373037cdf8a17a92eb1bb8863d0eaf5e14f88baef50600ddbf88681c2ac"
+    },
+    {
+      "file": "confirmed/performances-2023-11.json",
+      "sha256": "f88e227c6e991cab9bf7adf6ea13558df07aa94865e79636f97324e88d46feac"
+    },
+    {
+      "file": "confirmed/performances-2023-12.json",
+      "sha256": "eb0c58098b2e5d7248762afb54acf87943858ece038caaa8eb0f8253789bbb87"
+    }
+  ]
+}

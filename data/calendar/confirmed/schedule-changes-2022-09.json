@@ -1,0 +1,41 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "708760455467761680",
+      "action": "lineup-change",
+      "date": "2022-09-23",
+      "plannedTime": "20:30",
+      "originalMembers": ["luzao"],
+      "members": ["waner"],
+      "formatLabel": "电台",
+      "eventId": "evt_837f252c-fd13-4969-8c9d-6d8aedaf08fc",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2022-09.json",
+        "locator": "708760455467761680"
+      },
+      "replacesPlan": {
+        "date": "2022-09-23",
+        "plannedTime": "20:30",
+        "members": ["luzao"]
+      }
+    },
+    {
+      "announcementId": "708760455467761680",
+      "action": "member-absence",
+      "date": "2022-09-24",
+      "member": "luzao",
+      "eventId": "evt_87279804-468a-4254-9386-0f140859e266",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2022-09.json",
+        "locator": "708760455467761680"
+      },
+      "replacesPlan": {
+        "date": "2022-09-24",
+        "plannedTime": "19:30",
+        "participation": "group",
+        "hostMember": "waner"
+      }
+    }
+  ]
+}

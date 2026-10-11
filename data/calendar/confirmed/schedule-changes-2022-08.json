@@ -1,0 +1,132 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "692628124347662356",
+      "action": "reschedule",
+      "from": {
+        "date": "2022-08-10",
+        "plannedTime": "19:00",
+        "members": ["youen"]
+      },
+      "to": {
+        "date": "2022-08-12",
+        "plannedTime": "18:00"
+      },
+      "source": {
+        "file": "../evidence/history-01/dynamics-2022.json",
+        "locator": "692628124347662356"
+      },
+      "replacesPlan": {
+        "date": "2022-08-10",
+        "plannedTime": "19:00",
+        "members": ["youen"]
+      },
+      "eventId": "evt_da3c7d9c-c05d-4ac5-b381-556e26452015",
+      "resolutionEvidence": [
+        {
+          "file": "../evidence/history-01/series-1795147802.json",
+          "locator": "BV1cY4y1c75W"
+        }
+      ],
+      "associationDecision": "官方8/10单播改到8/12，原周表成员及后续成员回放支持柚恩同场关联；18:00计划不覆盖标题17点场声明。"
+    },
+    {
+      "announcementId": "693817040001040385",
+      "action": "member-absence",
+      "date": "2022-08-13",
+      "member": "minuo",
+      "source": {
+        "file": "../evidence/history-01/dynamics-2022.json",
+        "locator": "693817040001040385"
+      },
+      "replacesPlan": {
+        "date": "2022-08-13",
+        "plannedTime": "19:00",
+        "participation": "group",
+        "hostMember": "luzao"
+      }
+    },
+    {
+      "announcementId": "698609583658106913",
+      "action": "member-absence",
+      "date": "2022-08-27",
+      "member": "minuo",
+      "source": {
+        "file": "../evidence/history-01/dynamics-2022.json",
+        "locator": "698609583658106913"
+      },
+      "replacesPlan": {
+        "date": "2022-08-27",
+        "plannedTime": "19:00",
+        "participation": "group",
+        "hostMember": "waner"
+      },
+      "additionalEvidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2022.json",
+          "locator": "685297529989890054",
+          "excerpt": "小恶魔要来捣蛋吗？",
+          "meaning": "官方转发来源authorAccountId=1778026586，即米诺，确认小恶魔称呼。"
+        },
+        {
+          "file": "../evidence/history-01/dynamics-2022.json",
+          "locator": "686824193288831045",
+          "excerpt": "美貌与才华兼备的小恶魔！",
+          "meaning": "官方再次用该称呼转发米诺账号1778026586，交叉确认身份。"
+        }
+      ]
+    },
+    {
+      "announcementId": "700144415996379172",
+      "action": "cancel",
+      "date": "2022-08-31",
+      "members": ["luzao", "yumo"],
+      "source": {
+        "file": "../evidence/history-01/dynamics-2022.json",
+        "locator": "700144415996379172"
+      },
+      "plannedTime": "20:30",
+      "eventId": "evt_90b4afed-5b48-4af5-aaed-7562a6a9b118",
+      "replacesPlan": {
+        "date": "2022-08-31",
+        "plannedTime": "20:30",
+        "members": ["luzao", "yumo"]
+      }
+    },
+    {
+      "announcementId": "700506949895061619",
+      "action": "lineup-change",
+      "date": "2022-09-01",
+      "upper": {
+        "plannedTime": "19:00",
+        "memberCount": 2,
+        "members": ["waner", "youen"],
+        "originalMembers": ["yumo"],
+        "eventId": "evt_1bbc7a88-deb9-4516-b661-e9718bf8b623",
+        "replacesPlan": {
+          "date": "2022-09-01",
+          "plannedTime": "19:00",
+          "members": ["yumo"]
+        }
+      },
+      "lower": {
+        "members": ["waner", "youen", "luzao"],
+        "tags": ["game"],
+        "plannedTime": null,
+        "eventId": "evt_dc0d1b76-7f07-4158-b211-d989b08005ac",
+        "replacesPlan": {
+          "date": "2022-09-01",
+          "plannedTime": "20:30",
+          "participation": "group",
+          "hostMember": "youen"
+        },
+        "note": "原团播20:30仅作原计划定位；公告未给变更后下半场时刻。"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics.json",
+        "locator": "700506949895061619"
+      }
+    }
+  ]
+}

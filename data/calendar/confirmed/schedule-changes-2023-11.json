@@ -1,0 +1,72 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "859354606087438372",
+      "action": "delay",
+      "date": "2023-11-02",
+      "affectedPlans": [
+        {
+          "members": ["youen"],
+          "plannedTime": "19:00",
+          "relatedEventId": "evt_6f888a47-7395-4269-8122-889c113c923a",
+          "source": {
+            "file": "plans.json",
+            "locator": "2023-11-02/events/0"
+          }
+        },
+        {
+          "members": ["minuo", "yumo"],
+          "plannedTime": "20:30",
+          "hostMember": "minuo",
+          "relatedEventId": "evt_b32b73b4-2a6e-4a5c-a9c2-95d2b61af68e",
+          "source": {
+            "file": "plans.json",
+            "locator": "2023-11-02/events/1"
+          }
+        }
+      ],
+      "followupAnnouncementId": "859357423323840550",
+      "evidence": {
+        "file": "../evidence/history-01/dynamics-2023.json",
+        "locator": "859354606087438372"
+      },
+      "followupEvidence": {
+        "file": "../evidence/history-01/dynamics-2023.json",
+        "locator": "859357423323840550"
+      },
+      "affectedPlansEvidence": {
+        "file": "../source/october-2023/858074679812816916.jpg",
+        "locator": "11/2日期格：19:00柚恩；20:30米诺&虞莫，米诺直播间；主代理实际查看原图"
+      }
+    },
+    {
+      "announcementId": "867528276495564820",
+      "action": "delay",
+      "date": "2023-11-24",
+      "relatedEventId": "evt_02c9451a-b04f-494e-a0e4-86538616875b",
+      "estimatedDelayMinutes": 20,
+      "evidence": {
+        "file": "../evidence/history-01/dynamics-2023.json",
+        "locator": "867528276495564820"
+      }
+    },
+    {
+      "announcementId": "862634582173810697",
+      "action": "member-absence",
+      "date": "2023-11-11",
+      "member": "luzao",
+      "relatedEventId": "evt_b8ca69b1-6b16-487b-8d80-aec2e9493a48",
+      "source": {
+        "file": "../evidence/history-01/dynamics-2023.json",
+        "locator": "862634582173810697"
+      },
+      "replacesPlan": {
+        "date": "2023-11-11",
+        "plannedTime": "19:30",
+        "participation": "group",
+        "hostMember": "waner"
+      }
+    }
+  ]
+}

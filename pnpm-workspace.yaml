@@ -1,0 +1,6 @@
+savePrefix: ""
+engineStrict: true
+strictPeerDependencies: true
+minimumReleaseAge: 0
+allowBuilds:
+  esbuild: true

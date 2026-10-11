@@ -1,0 +1,86 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "882289976002215942",
+      "date": "2024-01-03",
+      "action": "cancel",
+      "members": ["luzao"],
+      "plannedTime": "19:00",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
+        "locator": "882289976002215942"
+      }
+    },
+    {
+      "announcementId": "882289976002215942",
+      "date": "2024-01-03",
+      "action": "reschedule",
+      "from": {
+        "date": "2024-01-03",
+        "plannedTime": "20:30",
+        "members": ["minuo"]
+      },
+      "to": {
+        "date": "2024-01-03",
+        "plannedTime": "19:00"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
+        "locator": "882289976002215942"
+      }
+    },
+    {
+      "announcementId": "890101366204137475",
+      "date": "2024-01-24",
+      "action": "cancel",
+      "members": ["minuo"],
+      "plannedTime": "19:00",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
+        "locator": "890101366204137475"
+      }
+    },
+    {
+      "announcementId": "890101366204137475",
+      "date": "2024-01-24",
+      "action": "reschedule",
+      "from": {
+        "date": "2024-01-24",
+        "plannedTime": "20:30",
+        "members": ["luzao"]
+      },
+      "to": {
+        "date": "2024-01-24",
+        "plannedTime": "20:00"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
+        "locator": "890101366204137475"
+      }
+    },
+    {
+      "announcementId": "891590882337226839",
+      "date": "2024-01-28",
+      "action": "cancel",
+      "members": ["minuo", "luzao"],
+      "plannedTime": "19:30",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
+        "locator": "891590882337226839"
+      }
+    },
+    {
+      "announcementId": "891590882337226839",
+      "date": "2024-01-28",
+      "action": "additional-stream",
+      "members": ["luzao"],
+      "plannedTime": "19:30",
+      "formatLabel": "2D",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
+        "locator": "891590882337226839"
+      }
+    }
+  ]
+}

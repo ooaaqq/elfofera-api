@@ -1,0 +1,28 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "1021510426074021905",
+      "relatedAnnouncementEventId": "evt_1c3b3138-1528-4ac1-8dda-80edef37c801",
+      "member": "luzao",
+      "action": "reschedule",
+      "fromDate": "2025-01-12",
+      "toDate": "2025-01-13",
+      "fromPlannedTime": "19:30",
+      "toPlannedTime": "19:30",
+      "source": {
+        "file": "../evidence/round-02-january-schedule-notice-detail.json",
+        "locator": "1021510426074021905"
+      },
+      "originalPlan": {
+        "file": "plans.json",
+        "locator": "2025-01-12/events/0"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2025-01-13/events/0"
+      },
+      "note": "完整公告AT明确露早，两周原图独立支持新旧排期；原计划保留，公告不单独证明实际出席。"
+    }
+  ]
+}

@@ -1,0 +1,1119 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "events": [
+    {
+      "id": "evt_623cf270-3d9e-4ffb-9c18-3fc18d8c9ef6",
+      "date": "2025-03-01",
+      "kind": "livestream",
+      "title": "【2D】孤独摇滚！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1QKXoYSEu5",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1QKXoYSEu5"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1QKXoYSEu5",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1QKXoYSEu5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_58750c0e-691b-4f23-8f1d-d7242a1ab5ac",
+      "date": "2025-03-01",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "露早03-02的2D直播移至03-07",
+      "text": "EOES们大家好，临时插播一条消息：由于日程安排临时变动，原定于本周日@露早GOGO 的2D直播将调整至下周五（3月7日），由此带来的不便还请大家见谅。",
+      "publishedAt": "2025-03-01T06:30:00.000Z",
+      "occurrence": "announced",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-02-march-plan-change-details.json",
+            "locator": "1039262687743180805"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-march-plan-change-details.json",
+            "locator": "1039262687743180805"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-march-plan-change-details.json",
+            "locator": "1039262687743180805"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_ec561afa-9962-4c16-a80e-2c5d80539492",
+      "date": "2025-03-04",
+      "kind": "livestream",
+      "title": "【2D】喂喂喂",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ss9HYyE3o",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ss9HYyE3o"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ss9HYyE3o",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ss9HYyE3o"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_88937aea-32e2-45cf-a2e4-502eab0ed40e",
+      "date": "2025-03-05",
+      "kind": "livestream",
+      "title": "【3D】柚恩的宾果游戏",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ym9oY1Eaf",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ym9oY1Eaf"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ym9oY1Eaf",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ym9oY1Eaf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_6cdff281-eafc-41f6-9f60-50b355fdd70c",
+      "date": "2025-03-05",
+      "kind": "livestream",
+      "title": "【3D】露早多元宇宙",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1gE9ZYsEHz",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1gE9ZYsEHz"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1gE9ZYsEHz",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1gE9ZYsEHz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_2723d436-7b00-4b5d-a80f-ac6191600111",
+      "date": "2025-03-06",
+      "kind": "livestream",
+      "title": "【3D】不心动挑战",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1EERKY4Ec9",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1EERKY4Ec9"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1EERKY4Ec9",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1EERKY4Ec9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_661e38f6-b72c-42cf-8893-e36c8621544e",
+      "date": "2025-03-07",
+      "kind": "livestream",
+      "title": "【突】哇咔咔",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        12
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Rt91YfEnZ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Rt91YfEnZ"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Rt91YfEnZ",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Rt91YfEnZ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_b32b558e-11bb-4f71-930c-4401d7632175",
+      "date": "2025-03-07",
+      "kind": "livestream",
+      "title": "【2D】继续2077！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV11Q9SYfEDY",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV11Q9SYfEDY"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV11Q9SYfEDY",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV11Q9SYfEDY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_bbd0d3b4-f0c0-4829-a345-953287eb519d",
+      "date": "2025-03-08",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "露早03-08的2D直播移至03-10",
+      "text": "EOES们大家好，临时插播一条消息：由于@露早GOGO 身体不适，原定于今日19:30的2D直播将调整至下周一（3月10日），由此带来的不便还请大家见谅。",
+      "publishedAt": "2025-03-08T09:37:59.000Z",
+      "occurrence": "announced",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-02-march-plan-change-details.json",
+            "locator": "1041908724747206664"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-march-plan-change-details.json",
+            "locator": "1041908724747206664"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-march-plan-change-details.json",
+            "locator": "1041908724747206664"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_d6cc1f6e-7fa7-4c9d-abdb-71c5c99fa56f",
+      "date": "2025-03-09",
+      "kind": "livestream",
+      "title": "【电台】中午好！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        12
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1WURbYNEzY",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1WURbYNEzY"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1WURbYNEzY",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1WURbYNEzY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_6d295f53-5df0-430e-8b28-3c3ed1a7bdc4",
+      "date": "2025-03-09",
+      "kind": "livestream",
+      "title": "【电台】堂堂连载！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1TsRaYEEUF",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1TsRaYEEUF"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1TsRaYEEUF",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1TsRaYEEUF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_52b854b2-c6b8-45ce-8591-49f6ecc1fa76",
+      "date": "2025-03-10",
+      "kind": "livestream",
+      "title": "【2D】随便玩玩！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1S4RVYPE6m",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1S4RVYPE6m"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1S4RVYPE6m",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1S4RVYPE6m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_083df846-1c9f-4dc5-a2c3-1afad1713848",
+      "date": "2025-03-11",
+      "kind": "livestream",
+      "title": "【聊天】哈哈。",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        21
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1iGQLYrEJJ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1iGQLYrEJJ"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1iGQLYrEJJ",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1iGQLYrEJJ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_f8c14437-bcb6-4fcb-95b0-9115f0e7947f",
+      "date": "2025-03-12",
+      "kind": "livestream",
+      "title": "【3D】网络社交指南",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1jtQWYYExJ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1jtQWYYExJ"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1jtQWYYExJ",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1jtQWYYExJ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_643f2d6c-64ee-456d-bf9b-567af3c4a2ef",
+      "date": "2025-03-12",
+      "kind": "livestream",
+      "title": "【3D】分手模拟器",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1z6QpYvE1K",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1z6QpYvE1K"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1z6QpYvE1K",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1z6QpYvE1K"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_27b7a4ae-b9be-4bfe-a72e-70769fb55a8e",
+      "date": "2025-03-13",
+      "kind": "livestream",
+      "title": "【3D】今天说话要小心哦~",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV13PQNYTE52",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV13PQNYTE52"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV13PQNYTE52",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV13PQNYTE52"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_b61c8573-3269-40a5-929e-d48c5d26ee60",
+      "date": "2025-03-14",
+      "kind": "livestream",
+      "title": "【2D】白色情人节~",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        11
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ciQ3YzE3f",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ciQ3YzE3f"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ciQ3YzE3f",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ciQ3YzE3f"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_6b256dde-0630-4542-84d4-8b337b6f892e",
+      "date": "2025-03-15",
+      "kind": "livestream",
+      "title": "【2D】奇异人生 第三回",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ksQDYJE8y",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ksQDYJE8y"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ksQDYJE8y",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ksQDYJE8y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_00059280-4ad7-46eb-b9b0-f0d6c37855ba",
+      "date": "2025-03-16",
+      "kind": "livestream",
+      "title": "【2D】捣蛋早！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV126QhYqE9x",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV126QhYqE9x"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV126QhYqE9x",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV126QhYqE9x"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_1ccd3944-00ee-4306-895c-91f85ab7836e",
+      "date": "2025-03-18",
+      "kind": "livestream",
+      "title": "【2D】午间小憩",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        11
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1CNX5YnE9N",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1CNX5YnE9N"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1CNX5YnE9N",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1CNX5YnE9N"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_4c0d7bbd-1180-4136-a2f5-17ce59dc811f",
+      "date": "2025-03-19",
+      "kind": "livestream",
+      "title": "【3D】智力没问题",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1oNQoY4ER5",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1oNQoY4ER5"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1oNQoY4ER5",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1oNQoY4ER5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_e0b0efc1-8c52-418a-91b0-fa127676774c",
+      "date": "2025-03-19",
+      "kind": "livestream",
+      "title": "【3D】柚恩的编舞挑战",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1XJQfYREjz",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1XJQfYREjz"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1XJQfYREjz",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1XJQfYREjz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3ca2927a-81bd-4039-8883-e70bd730da65",
+      "date": "2025-03-20",
+      "kind": "livestream",
+      "title": "【3D】双影奇境！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1AcXvYyEo4",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1AcXvYyEo4"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1AcXvYyEo4",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1AcXvYyEo4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_6038070f-e351-4ab2-8527-f32fd75adca0",
+      "date": "2025-03-21",
+      "kind": "livestream",
+      "title": "【2D】奇异人生，完结！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        11
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1FsXCYcEpp",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1FsXCYcEpp"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1FsXCYcEpp",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1FsXCYcEpp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_dfd82633-b8e6-441a-880c-f5996537471e",
+      "date": "2025-03-21",
+      "kind": "livestream",
+      "title": "【2D】露早爱玩斗地主",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1M3X1YmEEj",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1M3X1YmEEj"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1M3X1YmEEj",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1M3X1YmEEj"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_aa650bc1-7693-47d1-a632-7d27b1a71ec2",
+      "date": "2025-03-22",
+      "kind": "livestream",
+      "title": "【2D】今天是3D麦",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1exXxYiEN5",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1exXxYiEN5"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1exXxYiEN5",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1exXxYiEN5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3a08170c-c354-4534-a9d8-1e1cd31b89ef",
+      "date": "2025-03-22",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "【珍珠奶茶赋格】疑似半夜喝不到珍珠奶茶产生的幻觉…【三人混声cover】",
+      "text": "原曲：BV1dZ421i7ky\n翻唱：\n蜂蜜柚柚女高音：@柚恩不加糖  \n草莓多多女低音：@哆啦不炸毛  \n桑葚莓莓男高音&男低音：@楚枫_ciaran",
+      "publishedAt": "2025-03-22T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_3a957eb8-2dc8-4936-bc90-75e407cd028f"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1eQQRY7EuQ",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1eQQRY7EuQ]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1eQQRY7EuQ]",
+            "sourceField": "publishedAt",
+            "excerpt": "2025-03-22T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1eQQRY7EuQ]",
+            "sourceField": "title",
+            "excerpt": "【珍珠奶茶赋格】疑似半夜喝不到珍珠奶茶产生的幻觉…【三人混声cover】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1eQQRY7EuQ]",
+            "sourceField": "description",
+            "excerpt": "原曲：BV1dZ421i7ky\n翻唱：\n蜂蜜柚柚女高音：@柚恩不加糖  \n草莓多多女低音：@哆啦不炸毛  \n桑葚莓莓男高音&男低音：@楚枫_ciaran"
+          }
+        ]
+      },
+      "note": "投稿简介明确原曲及演唱/翻跳者；记录为作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_1791a8ae-ced3-4f7c-a60a-039cd972c11d",
+      "date": "2025-03-25",
+      "kind": "livestream",
+      "title": "【2D】咕咕嘎嘎",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        11
+      ],
+      "recordings": [
+        {
+          "bvid": "BV12YoxYvE3e",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV12YoxYvE3e"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV12YoxYvE3e",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV12YoxYvE3e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_92892ecf-0274-4fb6-a8df-68ed7d63c780",
+      "date": "2025-03-26",
+      "kind": "livestream",
+      "title": "【3D】最显眼包的一集",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1gPoiYKEN5",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1gPoiYKEN5"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1gPoiYKEN5",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1gPoiYKEN5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_719434c9-ba50-4382-9271-ae1072c9504a",
+      "date": "2025-03-26",
+      "kind": "announcement",
+      "title": "虞莫生日会礼物即将发放",
+      "publishedAt": "2025-03-26T09:52:54.000Z",
+      "occurrence": "announced",
+      "description": "【虞莫生日会】礼物即将发放。此外未提到的礼物还在制作中，请等待后续发货~\n请需要修改收件信息或有相关问题的EOES们在期限内联系@虚拟航海中心 进行处理~\n官方转发文字证明即将发放及其他礼物仍在制作，不证明发货或交付；未给具体收件信息修改期限，也不据此推断虞莫恢复活动。",
+      "evidence": {
+        "officialDynamic": {
+          "file": "../evidence/history-01/dynamics-2025.json",
+          "locator": "1048592101882724353"
+        }
+      }
+    },
+    {
+      "id": "evt_e0512d22-a3f6-4969-8617-0f19481bbf2f",
+      "date": "2025-03-27",
+      "kind": "livestream",
+      "title": "【3D】想想你会怎么做？",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1TJZ5YzExz",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1TJZ5YzExz"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1TJZ5YzExz",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1TJZ5YzExz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_ab8decf7-9cdb-477f-8539-62dc124780a4",
+      "date": "2025-03-28",
+      "kind": "livestream",
+      "title": "【2D】来玩玩inZOI！！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1yuoRYyEv5",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1yuoRYyEv5"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1yuoRYyEv5",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1yuoRYyEv5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_77aa4b9c-15f8-45de-81e6-9ec0f78eca91",
+      "date": "2025-03-29",
+      "kind": "livestream",
+      "title": "连吃带唱！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1FuZaYgEcv",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+            "locator": "BV1FuZaYgEcv"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1FuZaYgEcv",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+            "locator": "BV1FuZaYgEcv",
+            "sourceField": "title",
+            "excerpt": "【EOE】露早 2025.03.29 连吃带唱！【4K丨直播录像】"
+          },
+          {
+            "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+            "locator": "BV1FuZaYgEcv",
+            "sourceField": "descriptionExcerpt",
+            "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年03月29日\n露早【连吃带唱！】直播录像\n--------------------------------------------------------\n录制：录制工具人\n压制：压制工具人\n笔记：笔记工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+          },
+          {
+            "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+            "locator": "BV18TZYY8Es1",
+            "sourceField": "descriptionExcerpt",
+            "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年03月29日\n露早【连吃带唱！】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_19508043-b638-444f-8d5b-e641a489d6e9",
+      "date": "2025-03-30",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "分手了，最后合唱一次《跳楼机》♪baby我们的感情好像跳楼机~♪【中国绊爱x露早】",
+      "publishedAt": "2025-03-30T10:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_df6e9dfc-042e-4323-9f4c-9f60f22e2cdd"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1tFZBY6ECD",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1tFZBY6ECD]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1tFZBY6ECD]",
+            "sourceField": "publishedAt",
+            "excerpt": "2025-03-30T10:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1tFZBY6ECD]",
+            "sourceField": "title",
+            "excerpt": "分手了，最后合唱一次《跳楼机》♪baby我们的感情好像跳楼机~♪【中国绊爱x露早】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch01.json",
+            "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1tFZBY6ECD]",
+            "sourceField": "description"
+          }
+        ]
+      },
+      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    }
+  ]
+}

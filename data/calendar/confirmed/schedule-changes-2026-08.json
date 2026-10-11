@@ -1,0 +1,36 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "date": "2026-08-19",
+      "action": "postponement",
+      "members": ["youen"],
+      "originalPlan": {
+        "date": "2026-08-19",
+        "restDay": false,
+        "events": [
+          {
+            "members": ["youen"],
+            "plannedTime": "20:45",
+            "formatLabel": "3D",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "dynamicId": "1237383516141912087",
+          "image": "../source/august-2026/1237383516141912087.jpg"
+        }
+      },
+      "announcedPlannedTime": "21:15",
+      "announcementEventId": "evt_aa0c1edd-411f-41b8-a132-bcfa5fbf9c97",
+      "relatedEventId": "evt_6b089664-6b4c-4b32-99ce-84b0dfa24e7c",
+      "evidence": [
+        {
+          "file": "../evidence/history-01/dynamics-2026.json",
+          "locator": "1238224043395514372"
+        }
+      ],
+      "note": "原20:45计划保留，延期21:15为公布安排，未推精确实际开播。"
+    }
+  ]
+}

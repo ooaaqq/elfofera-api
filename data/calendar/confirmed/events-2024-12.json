@@ -1,0 +1,1387 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "events": [
+    {
+      "id": "evt_daaa4908-10d4-46f6-90af-810f2d08079f",
+      "date": "2024-12-02",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "“满怀着勇气 ，开辟属于自己的道路”捕梦网『JUSTICE』翻唱跳",
+      "text": "“即使在痛苦中挣扎，你却依然信任着我，感受着我生命的节奏”\n\n原曲：JUSTICE - Dreamcatcher\n翻唱&翻跳：柚恩",
+      "publishedAt": "2024-12-02T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_7f7cb066-e0ed-496e-a7fc-2435309c879e"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1ME6NYqEyW",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1ME6NYqEyW]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1ME6NYqEyW]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-12-02T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1ME6NYqEyW]",
+            "sourceField": "title",
+            "excerpt": "“满怀着勇气 ，开辟属于自己的道路”捕梦网『JUSTICE』翻唱跳"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1ME6NYqEyW]",
+            "sourceField": "description",
+            "excerpt": "“即使在痛苦中挣扎，你却依然信任着我，感受着我生命的节奏”\n\n原曲：JUSTICE - Dreamcatcher\n翻唱&翻跳：柚恩"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_97ca2f7b-2802-42b3-afaa-4a77ed3e9c3f",
+      "date": "2024-12-03",
+      "kind": "livestream",
+      "title": "【2D】玩点啥",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1TazUY9ETf",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1TazUY9ETf"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1TazUY9ETf",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1TazUY9ETf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_c16862fb-5779-4ea7-a2ca-2133d5cc2e3f",
+      "date": "2024-12-04",
+      "kind": "livestream",
+      "title": "【2D】做点兼职！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1v8imYsENm",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1v8imYsENm"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1v8imYsENm",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1v8imYsENm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_4497a239-eba1-403e-8269-16438835d6b9",
+      "date": "2024-12-05",
+      "kind": "livestream",
+      "title": "咕嘟",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        23
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ZCiZYxEn2",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ZCiZYxEn2"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ZCiZYxEn2",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ZCiZYxEn2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_fb44b171-6e28-45ae-bf71-47682755d130",
+      "date": "2024-12-05",
+      "kind": "livestream",
+      "title": "【3D】茶艺鉴赏",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1o6idYSEcJ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1o6idYSEcJ"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1o6idYSEcJ",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1o6idYSEcJ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_75dd8ba1-0277-464a-acff-e4a33597a0c3",
+      "date": "2024-12-05",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "露早12月6日直播改2D、12月8日直播改3D",
+      "text": "亲爱的eoes，临时插播一条消息：由于工作安排临时更改，本周五@露早GOGO 的3D直播将改为2D直播，同时周日@露早GOGO 的2D直播将改为3D直播，由此带来的不便，还请大家理解。",
+      "publishedAt": "2024-12-05T06:39:20.000Z",
+      "occurrence": "announced",
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-02-december-schedule-notice-detail.json",
+            "locator": "1007351765758115846"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-december-schedule-notice-detail.json",
+            "locator": "1007351765758115846"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-december-schedule-notice-detail.json",
+            "locator": "1007351765758115846"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_07ffff74-403d-4a6b-9ff0-38f88c1ceb59",
+      "date": "2024-12-07",
+      "kind": "livestream",
+      "title": "【2D】踩缝纫机的玩无限暖暖",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV129q5YXE8Z",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV129q5YXE8Z"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV129q5YXE8Z",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV129q5YXE8Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_fefc660e-4c68-4215-b7fe-11fc8f4b8517",
+      "date": "2024-12-08",
+      "kind": "livestream",
+      "title": "【3D】我太想进步了！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1tSqWY7EYd",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1tSqWY7EYd"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1tSqWY7EYd",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1tSqWY7EYd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_c196de89-6bb9-4958-971c-90a2becd23d4",
+      "date": "2024-12-10",
+      "kind": "livestream",
+      "title": "【2D】底特律：化身为人（打折全款拿下）",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV19hqkYGEG8",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19hqkYGEG8"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV19hqkYGEG8",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19hqkYGEG8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_11347c4c-85c6-46bf-ab87-4c052d00ee21",
+      "date": "2024-12-11",
+      "kind": "livestream",
+      "title": "【3D】怎么和我想的不一样呢O.o",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1hDqDYaEDp",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1hDqDYaEDp"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1hDqDYaEDp",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1hDqDYaEDp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_a3da03a1-0020-4a09-9351-13dee7b568a0",
+      "date": "2024-12-11",
+      "kind": "livestream",
+      "title": "【3D】想到哪说到哪",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1pxqDYUEiA",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1pxqDYUEiA"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1pxqDYUEiA",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1pxqDYUEiA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_22e1439e-eb9d-4ccc-8c24-87480a26caec",
+      "date": "2024-12-15",
+      "kind": "livestream",
+      "title": "【2D】继续：底特律化身为人",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ooBcYTEXF",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ooBcYTEXF"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ooBcYTEXF",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1ooBcYTEXF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_a8c9eb95-39b2-4f79-a4f4-31be0efd837b",
+      "date": "2024-12-17",
+      "kind": "livestream",
+      "title": "【电台】谁家古风女友",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        21
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1wqkHYjEBc",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1wqkHYjEBc"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1wqkHYjEBc",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1wqkHYjEBc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3a56ff82-ef65-4c26-ab01-2c087a14d539",
+      "date": "2024-12-18",
+      "kind": "livestream",
+      "title": "【2D】第三次：底特律化身为人",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV11rkNYBEXj",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV11rkNYBEXj"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV11rkNYBEXj",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV11rkNYBEXj"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_a0e4e4ab-300a-432c-bed5-80f0a0638385",
+      "date": "2024-12-19",
+      "kind": "livestream",
+      "title": "【2D】let's rockkkkk!!",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1MckrYkEjE",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1MckrYkEjE"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1MckrYkEjE",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1MckrYkEjE"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_e7310287-feeb-4c37-a462-9aaa97d7b3f2",
+      "date": "2024-12-20",
+      "kind": "livestream",
+      "title": "【3D】双双又播播啊",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1PWkSYfEho",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1PWkSYfEho"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1PWkSYfEho",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1PWkSYfEho"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_c595cb2e-e35f-4498-831a-7b35a4630a5b",
+      "date": "2024-12-20",
+      "kind": "livestream",
+      "title": "【3D】装一下",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        17
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1sEkmYsE8a",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1sEkmYsE8a"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1sEkmYsE8a",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1sEkmYsE8a"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_8b9953f2-f210-447d-89ce-a1bdc88d3dc7",
+      "date": "2024-12-21",
+      "kind": "livestream",
+      "title": "【2D】米塔!!",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV15tk8YsEg2",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV15tk8YsEg2"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV15tk8YsEg2",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV15tk8YsEg2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_587cff28-e9aa-4cd5-839c-318411f2219a",
+      "date": "2024-12-22",
+      "kind": "livestream",
+      "title": "【2D】最后一集！底特律：化身为人",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1pnCMYCEBx",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1pnCMYCEBx"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1pnCMYCEBx",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1pnCMYCEBx"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_1f495846-7e19-4d39-a1af-698e295540ee",
+      "date": "2024-12-23",
+      "kind": "announcement",
+      "title": "当日无直播，周表次日公布",
+      "publishedAt": "2024-12-23T03:57:44.000Z",
+      "occurrence": "announced",
+      "description": "各位eoes早上好！\n本周的日程表会明天公布给大家，今日没有直播安排，明天见！\n后续原周表将12月23日列为休息日；这是排期公布说明，不是取消已有直播计划。",
+      "evidence": {
+        "officialDynamic": {
+          "file": "../evidence/history-01/dynamics-2024.json",
+          "locator": "1013989654868787203"
+        },
+        "officialImage": {
+          "file": "../source/december-2024/1014366134517891124.png",
+          "locator": "12月23日休息日"
+        }
+      }
+    },
+    {
+      "id": "evt_949ec660-5c11-4177-b893-80d4874a364a",
+      "date": "2024-12-24",
+      "kind": "livestream",
+      "title": "【突】平安夜！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        21
+      ],
+      "recordings": [
+        {
+          "bvid": "BV14QkoYXELf",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV14QkoYXELf"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV14QkoYXELf",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV14QkoYXELf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_067d433a-e59a-476f-a309-bd0899080168",
+      "date": "2024-12-25",
+      "kind": "livestream",
+      "title": "【2D】圣诞快乐！米塔",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV16eCvYUEaJ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV16eCvYUEaJ"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV16eCvYUEaJ",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV16eCvYUEaJ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_7d8e833d-abe4-48ca-b125-221899089145",
+      "date": "2024-12-26",
+      "kind": "livestream",
+      "title": "【3D】年度美食评选",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1RWC1YKEKb",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1RWC1YKEKb"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1RWC1YKEKb",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1RWC1YKEKb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_51f2191b-3216-4cba-bc21-4fa4bfa22fc1",
+      "date": "2024-12-26",
+      "kind": "livestream",
+      "title": "【3D】注意身体啊",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1hkC6YUExB",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1hkC6YUExB"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1hkC6YUExB",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1hkC6YUExB"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_2c3287c9-f427-42b9-9c48-55c2b2a16240",
+      "date": "2024-12-28",
+      "kind": "livestream",
+      "title": "【2D】棉花糖回",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Z36pYNEks",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Z36pYNEks"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Z36pYNEks",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Z36pYNEks"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_cbbda72a-864b-4be0-ad40-0e365b0ddfec",
+      "date": "2024-12-29",
+      "kind": "livestream",
+      "title": "【2D】都给我跪下。",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1fs6hYtEaX",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1fs6hYtEaX"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1fs6hYtEaX",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1fs6hYtEaX"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_38fc411e-285f-4595-86e6-9d0747f41f77",
+      "date": "2024-12-30",
+      "kind": "livestream",
+      "title": "【3D】我也年终总结",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1qJ6LY2EnG",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1qJ6LY2EnG"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1qJ6LY2EnG",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1qJ6LY2EnG"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_a3bdb438-650b-4859-8cdf-bfc0e4434b83",
+      "date": "2024-12-30",
+      "kind": "livestream",
+      "title": "【3D】年终总结",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1J36VY5Eeb",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1J36VY5Eeb"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1J36VY5Eeb",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1J36VY5Eeb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_2dfcf0a7-0141-4b4b-a4e1-c066141a7ca2",
+      "date": "2024-12-31",
+      "kind": "livestream",
+      "title": "一起跨年！！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        22
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1LK6DYVEgi",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1LK6DYVEgi"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1LK6DYVEgi",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1LK6DYVEgi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_019deb85-894b-43b4-bc84-c186b49d2817",
+      "date": "2024-12-21",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "清冷虚拟偶像的“Spicy Honey”Challenge",
+      "publishedAt": "2024-12-21T09:20:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_a10d6a5e-a24e-4d58-99ab-bd80b8e1f9cf"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1Nnk4YYEW9",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1Nnk4YYEW9]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1Nnk4YYEW9]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-12-21T09:20:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1Nnk4YYEW9]",
+            "sourceField": "title",
+            "excerpt": "清冷虚拟偶像的“Spicy Honey”Challenge"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1Nnk4YYEW9]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "清冷虚拟偶像的“Spicy Honey”Challenge\n豪庭！！cha一下(*¯︶¯*)\n\n原曲：Spicy Honey-虞书欣\n翻跳：柚恩"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "豪庭！！cha一下(*¯︶¯*)\n\n原曲：Spicy Honey-虞书欣\n翻跳：柚恩"
+    },
+    {
+      "id": "evt_c763cf31-1d89-413e-86a1-b15ac8fdc5e1",
+      "date": "2024-12-08",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『还是会寂寞』【露早翻唱】",
+      "publishedAt": "2024-12-08T14:26:09.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_99889c41-308c-4550-8c79-5cc65251825d"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1q8qWYcEDF",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1q8qWYcEDF]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1q8qWYcEDF]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-12-08T14:26:09.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1q8qWYcEDF]",
+            "sourceField": "title",
+            "excerpt": "『还是会寂寞』【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1q8qWYcEDF]",
+            "sourceField": "title",
+            "excerpt": "『还是会寂寞』【露早翻唱】；精确匹配曲目：还是会寂寞"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\nhttps://live.bilibili.com/25512443\n直播日期：2024年12月8日\n3D【我太想进步了】直播翻唱\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/17951"
+    },
+    {
+      "id": "evt_8ed28b4d-4c02-4745-9ac7-cb2eb9aeb3ab",
+      "date": "2024-12-08",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『走马』【露早翻唱】",
+      "publishedAt": "2024-12-08T14:24:33.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_6c4b8577-fefb-4b59-9f48-5e5fa2d47e36"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1ihqWY8Esk",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1ihqWY8Esk]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1ihqWY8Esk]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-12-08T14:24:33.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1ihqWY8Esk]",
+            "sourceField": "title",
+            "excerpt": "『走马』【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1ihqWY8Esk]",
+            "sourceField": "title",
+            "excerpt": "『走马』【露早翻唱】；精确匹配曲目：走马"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\nhttps://live.bilibili.com/25512443\n直播日期：2024年12月8日\n3D【我太想进步了】直播翻唱\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/17951"
+    },
+    {
+      "id": "evt_59849cb6-6397-46de-8fad-02603cb08f0e",
+      "date": "2024-12-08",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『宝贝』【露早翻唱】",
+      "publishedAt": "2024-12-08T14:23:09.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_bafb956c-a14e-4309-ac76-e6eced290f8e"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1ohqWY8ECk",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1ohqWY8ECk]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1ohqWY8ECk]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-12-08T14:23:09.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1ohqWY8ECk]",
+            "sourceField": "title",
+            "excerpt": "『宝贝』【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1ohqWY8ECk]",
+            "sourceField": "title",
+            "excerpt": "『宝贝』【露早翻唱】；精确匹配曲目：宝贝"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\nhttps://live.bilibili.com/25512443\n直播日期：2024年12月8日\n3D【我太想进步了】直播翻唱\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/17951"
+    },
+    {
+      "id": "evt_c5afe3a7-325c-41b9-aee1-b507a74728d9",
+      "date": "2024-12-08",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『After 17』【露早翻唱】",
+      "publishedAt": "2024-12-08T14:20:15.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_8c56ed69-844f-4265-ae99-ed9d8b9ea620"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1qhqWY8Eu3",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qhqWY8Eu3]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qhqWY8Eu3]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-12-08T14:20:15.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qhqWY8Eu3]",
+            "sourceField": "title",
+            "excerpt": "『After 17』【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qhqWY8Eu3]",
+            "sourceField": "title",
+            "excerpt": "『After 17』【露早翻唱】；精确匹配曲目：After 17"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\nhttps://live.bilibili.com/25512443\n直播日期：2024年12月8日\n3D【我太想进步了】直播翻唱\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795"
+    },
+    {
+      "id": "evt_feeec631-e57d-4254-96c9-786d0a7ba05a",
+      "date": "2024-12-08",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『心墙』【露早翻唱】",
+      "publishedAt": "2024-12-08T14:20:12.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_1b9a7c21-f0a2-4327-8b99-c3dafd774942"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1f4qWYAEtj",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1f4qWYAEtj]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1f4qWYAEtj]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-12-08T14:20:12.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1f4qWYAEtj]",
+            "sourceField": "title",
+            "excerpt": "『心墙』【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1f4qWYAEtj]",
+            "sourceField": "title",
+            "excerpt": "『心墙』【露早翻唱】；精确匹配曲目：心墙"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n\nhttps://live.bilibili.com/25512443\n直播日期：2024年12月8日\n3D【我太想进步了】直播翻唱\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/17951"
+    },
+    {
+      "id": "evt_36eea4a9-f2df-4e0d-831e-6e68618015b7",
+      "date": "2024-12-08",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『只对你有感觉』【露早翻唱】",
+      "publishedAt": "2024-12-08T14:16:23.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_2b4c0cae-9e3a-4bdb-b668-33e15f0118a2"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1BtqWYaEhm",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BtqWYaEhm]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BtqWYaEhm]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-12-08T14:16:23.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BtqWYaEhm]",
+            "sourceField": "title",
+            "excerpt": "『只对你有感觉』【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BtqWYaEhm]",
+            "sourceField": "title",
+            "excerpt": "『只对你有感觉』【露早翻唱】；精确匹配曲目：只对你有感觉"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\nhttps://live.bilibili.com/25512443\n直播日期：2024年12月8日\n3D【我太想进步了】直播翻唱\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802"
+    },
+    {
+      "id": "evt_7ab02ba2-7146-4ee4-a4c3-c14195099fe0",
+      "date": "2024-12-30",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『初次与你相遇』【露早翻唱】",
+      "publishedAt": "2024-12-30T13:16:11.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_0c045b29-6420-4b10-be6c-db48a8948a2e"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1at6VYYEgf",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1at6VYYEgf]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1at6VYYEgf]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-12-30T13:16:11.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1at6VYYEgf]",
+            "sourceField": "title",
+            "excerpt": "『初次与你相遇』【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1at6VYYEgf]",
+            "sourceField": "title",
+            "excerpt": "『初次与你相遇』【露早翻唱】；精确匹配曲目：初次与你相遇"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n直播日期：2024年12月30日\n3D【年终总结】直播翻唱\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/17951"
+    },
+    {
+      "id": "evt_f65fdd59-445b-4f2b-9f45-25ff088a4d87",
+      "date": "2024-12-30",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『part of your world』【露早翻唱】",
+      "publishedAt": "2024-12-30T13:09:59.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_3c73bd16-6821-494d-b1e7-731412c0cc63"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1346VYPEq7",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1346VYPEq7]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1346VYPEq7]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-12-30T13:09:59.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1346VYPEq7]",
+            "sourceField": "title",
+            "excerpt": "『part of your world』【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch15.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1346VYPEq7]",
+            "sourceField": "title",
+            "excerpt": "『part of your world』【露早翻唱】；精确匹配曲目：part of your world"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n直播日期：2024年12月30日\n3D【年终总结】直播翻唱\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/17951"
+    }
+  ]
+}

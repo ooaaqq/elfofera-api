@@ -1,0 +1,224 @@
+{
+  "meaning": "根据分P标题人工分组；durationSeconds为选定分P时长之和，不是直播时长，未观看确认完整性。普通版仅表示未标弹幕，不确认纯净无弹幕。",
+  "recordings": [
+    {
+      "bvid": "BV1RG41187mS",
+      "groups": [
+        {
+          "label": "普通版",
+          "parts": [1, 2, 3],
+          "durationSeconds": 10576,
+          "version": "unmarked"
+        },
+        {
+          "label": "弹幕版",
+          "parts": [4, 5, 6],
+          "durationSeconds": 10572,
+          "version": "danmaku"
+        },
+        {
+          "label": "古神版",
+          "parts": [7],
+          "durationSeconds": 10579,
+          "version": "other"
+        }
+      ],
+      "source": {
+        "file": "../evidence/july-2022.json",
+        "locator": "BV1RG41187mS"
+      }
+    },
+    {
+      "bvid": "BV1dB4y1b7br",
+      "groups": [
+        {
+          "label": "普通版",
+          "parts": [3, 4],
+          "durationSeconds": 8527,
+          "version": "unmarked"
+        },
+        {
+          "label": "弹幕版",
+          "parts": [1, 2],
+          "durationSeconds": 8527,
+          "version": "danmaku"
+        }
+      ],
+      "source": {
+        "file": "../evidence/july-2022.json",
+        "locator": "BV1dB4y1b7br"
+      }
+    },
+    {
+      "bvid": "BV1RY4y1A7zo",
+      "groups": [
+        {
+          "label": "普通版",
+          "parts": [1],
+          "durationSeconds": 3956,
+          "version": "unmarked"
+        },
+        {
+          "label": "弹幕版",
+          "parts": [2],
+          "durationSeconds": 4262,
+          "version": "danmaku"
+        }
+      ],
+      "source": {
+        "file": "../evidence/july-2022.json",
+        "locator": "BV1RY4y1A7zo"
+      }
+    },
+    {
+      "bvid": "BV1pe4y1X77E",
+      "groups": [
+        {
+          "label": "普通版",
+          "parts": [1],
+          "durationSeconds": 3828,
+          "version": "unmarked"
+        },
+        {
+          "label": "弹幕版",
+          "parts": [2],
+          "durationSeconds": 3828,
+          "version": "danmaku"
+        }
+      ],
+      "source": {
+        "file": "../evidence/july-2022.json",
+        "locator": "BV1pe4y1X77E"
+      }
+    },
+    {
+      "bvid": "BV1aB4y1C7z6",
+      "groups": [
+        {
+          "label": "普通版",
+          "parts": [1],
+          "durationSeconds": 3834,
+          "version": "unmarked"
+        },
+        {
+          "label": "弹幕版",
+          "parts": [2],
+          "durationSeconds": 3834,
+          "version": "danmaku"
+        }
+      ],
+      "source": {
+        "file": "../evidence/july-2022.json",
+        "locator": "BV1aB4y1C7z6"
+      }
+    },
+    {
+      "bvid": "BV1Ka411S7NW",
+      "groups": [
+        {
+          "label": "普通版",
+          "parts": [1],
+          "durationSeconds": 3667,
+          "version": "unmarked"
+        },
+        {
+          "label": "弹幕版",
+          "parts": [2],
+          "durationSeconds": 3667,
+          "version": "danmaku"
+        }
+      ],
+      "source": {
+        "file": "../evidence/july-2022.json",
+        "locator": "BV1Ka411S7NW"
+      }
+    },
+    {
+      "bvid": "BV1za411T7Ly",
+      "groups": [
+        {
+          "label": "普通版",
+          "parts": [1],
+          "durationSeconds": 4779,
+          "version": "unmarked"
+        },
+        {
+          "label": "弹幕版",
+          "parts": [2],
+          "durationSeconds": 4780,
+          "version": "danmaku"
+        }
+      ],
+      "source": {
+        "file": "../evidence/july-2022.json",
+        "locator": "BV1za411T7Ly"
+      }
+    },
+    {
+      "bvid": "BV1HG4y1i7LY",
+      "groups": [
+        {
+          "label": "未标版本",
+          "parts": [1, 2],
+          "durationSeconds": 10576,
+          "version": "unmarked"
+        }
+      ],
+      "source": {
+        "file": "../evidence/july-2022.json",
+        "locator": "BV1HG4y1i7LY"
+      }
+    },
+    {
+      "bvid": "BV1ZF411P7V9",
+      "groups": [
+        {
+          "label": "未标版本",
+          "parts": [1, 2, 3, 4],
+          "durationSeconds": 10591,
+          "version": "unmarked"
+        }
+      ],
+      "source": {
+        "file": "../evidence/july-2022.json",
+        "locator": "BV1ZF411P7V9"
+      }
+    },
+    {
+      "bvid": "BV1Wa411N7PT",
+      "groups": [
+        {
+          "label": "未标版本",
+          "parts": [1],
+          "durationSeconds": 8529,
+          "version": "unmarked"
+        }
+      ],
+      "source": {
+        "file": "../evidence/july-2022.json",
+        "locator": "BV1Wa411N7PT"
+      }
+    },
+    {
+      "bvid": "BV1WB4y1k7dM",
+      "groups": [
+        {
+          "label": "纯净版（上传者标注）",
+          "parts": [1, 2, 3, 4, 5],
+          "durationSeconds": 10574,
+          "version": "clean"
+        },
+        {
+          "label": "弹幕版",
+          "parts": [6, 7, 8, 9, 10],
+          "durationSeconds": 10574,
+          "version": "danmaku"
+        }
+      ],
+      "source": {
+        "file": "../evidence/supplement-recordings-2022-07-08.json",
+        "locator": "BV1WB4y1k7dM"
+      }
+    }
+  ]
+}

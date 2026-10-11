@@ -1,0 +1,188 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "943922104120639488",
+      "relatedAnnouncementEventId": "evt_7dae166e-ab46-4b7c-a965-d70a13efa1b9",
+      "date": "2024-06-17",
+      "action": "cancel",
+      "member": "yumo",
+      "plannedTime": "20:00",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-06-17/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "943922104120639488"
+      }
+    },
+    {
+      "announcementId": "946123016924823558",
+      "relatedAnnouncementEventId": "evt_349f5f53-938b-4cf4-b7c8-e46daaf96a59",
+      "date": "2024-06-23",
+      "action": "cancel",
+      "member": "minuo",
+      "plannedTime": "19:00",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-06-23/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "946123016924823558"
+      }
+    },
+    {
+      "announcementId": "946964139265228805",
+      "relatedAnnouncementEventId": "evt_a7f43d34-b0c0-4e96-802f-01c262c8d054",
+      "date": "2024-06-25",
+      "action": "cancel",
+      "member": "minuo",
+      "plannedTime": "21:00",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-06-25/events/1"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "946964139265228805"
+      }
+    },
+    {
+      "announcementId": "948362073573687304",
+      "relatedAnnouncementEventId": "evt_fd895432-5342-4d8b-a814-03eb3ca0a017",
+      "date": "2024-06-29",
+      "action": "cancel",
+      "member": "minuo",
+      "plannedTime": "20:40",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-06-29/events/1"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "948362073573687304"
+      }
+    },
+    {
+      "announcementId": "945821763860693041",
+      "relatedAnnouncementEventId": "evt_bf307209-0658-4df0-a14e-64abd0718cb9",
+      "date": "2024-06-22",
+      "action": "member-absence",
+      "member": "minuo",
+      "plannedTime": "19:30",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-06-22/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "945821763860693041"
+      }
+    },
+    {
+      "announcementId": "947974401262878759",
+      "relatedAnnouncementEventId": "evt_8acb8679-04a1-4a0a-9335-ea3629eec742",
+      "date": "2024-06-28",
+      "action": "time-change",
+      "member": "youen",
+      "fromPlannedTime": "19:00",
+      "toPlannedTime": "18:30",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-06-28/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "947974401262878759"
+      }
+    },
+    {
+      "announcementId": "947974401262878759",
+      "relatedAnnouncementEventId": "evt_8acb8679-04a1-4a0a-9335-ea3629eec742",
+      "date": "2024-06-28",
+      "action": "schedule-announcement",
+      "member": "youen",
+      "title": "观看绝区零前瞻直播",
+      "plannedTime": "18:30",
+      "formatLabel": "2D",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-06-28/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "947974401262878759"
+      }
+    },
+    {
+      "announcementId": "947974401262878759",
+      "relatedAnnouncementEventId": "evt_8acb8679-04a1-4a0a-9335-ea3629eec742",
+      "date": "2024-06-28",
+      "action": "format-change",
+      "member": "youen",
+      "fromFormatLabel": null,
+      "toFormatLabel": "2D",
+      "note": "原图未标形式，不能由该公告倒推出原计划为3D。",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-06-28/events/0"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "947974401262878759"
+      }
+    },
+    {
+      "announcementId": "947974401262878759",
+      "relatedAnnouncementEventId": "evt_8acb8679-04a1-4a0a-9335-ea3629eec742",
+      "date": "2024-06-28",
+      "action": "time-change",
+      "member": "yumo",
+      "fromPlannedTime": "21:00",
+      "toPlannedTime": "18:30",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-06-28/events/1"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "947974401262878759"
+      }
+    },
+    {
+      "announcementId": "947974401262878759",
+      "relatedAnnouncementEventId": "evt_8acb8679-04a1-4a0a-9335-ea3629eec742",
+      "date": "2024-06-28",
+      "action": "schedule-announcement",
+      "member": "yumo",
+      "title": "观看绝区零前瞻直播",
+      "plannedTime": "18:30",
+      "formatLabel": "2D",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2024-06-28/events/1"
+      },
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "947974401262878759"
+      }
+    },
+    {
+      "announcementId": "948362073573687304",
+      "relatedAnnouncementEventId": "evt_fd895432-5342-4d8b-a814-03eb3ca0a017",
+      "date": "2024-06-29",
+      "action": "schedule-announcement",
+      "member": "minuo",
+      "effectiveFrom": "2024-07-01",
+      "text": "米诺减少直播安排作休养调整；自下周起更多投入个人3D及2D单播，多人直播以双人及三人形式呈现。",
+      "scope": "forward-policy",
+      "source": {
+        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
+        "locator": "948362073573687304"
+      },
+      "note": "后续方针仅按公告收录；不推断停止活动，不据此修改任何具体日期的名单或确认实际执行。"
+    }
+  ]
+}

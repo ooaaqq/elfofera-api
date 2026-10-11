@@ -1,0 +1,103 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "750198841113837585",
+      "action": "cancel",
+      "date": "2023-01-12",
+      "plannedTime": "20:30",
+      "members": ["minuo"],
+      "evidence": {
+        "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+        "locator": "750198841113837585"
+      },
+      "replacesPlan": {
+        "date": "2023-01-12",
+        "source": {
+          "dynamicId": "748978215705378819",
+          "image": "../source/january-2023/748978215705378819-1.png",
+          "evidence": "../evidence/january-2023.json",
+          "locator": "748978215705378819"
+        }
+      }
+    },
+    {
+      "announcementId": "750224593753473078",
+      "action": "format-change",
+      "date": "2023-01-12",
+      "plannedTime": "19:00",
+      "fromFormat": "3D",
+      "toFormat": "电台",
+      "member": "luzao",
+      "evidence": {
+        "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+        "locator": "750224593753473078"
+      },
+      "eventId": "evt_1b5c9415-ebac-43e6-a352-ece2fb8d6e6b",
+      "replacesPlan": {
+        "date": "2023-01-12",
+        "source": {
+          "dynamicId": "748978215705378819",
+          "image": "../source/january-2023/748978215705378819-1.png",
+          "evidence": "../evidence/january-2023.json",
+          "locator": "748978215705378819"
+        }
+      }
+    },
+    {
+      "announcementId": "750612025594347541",
+      "action": "reschedule",
+      "from": {
+        "date": "2023-01-13",
+        "title": "动漫歌回"
+      },
+      "to": {
+        "date": "2023-01-16",
+        "title": "动漫歌回"
+      },
+      "evidence": {
+        "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+        "locator": "750612025594347541"
+      },
+      "recording": {
+        "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+        "locator": "BV1RY411978S"
+      },
+      "eventId": "evt_6c78d976-e0ab-4a7e-94e7-c912eebb3b36",
+      "replacesPlan": {
+        "date": "2023-01-13",
+        "source": {
+          "dynamicId": "748978215705378819",
+          "image": "../source/january-2023/748978215705378819-1.png",
+          "evidence": "../evidence/january-2023.json",
+          "locator": "748978215705378819"
+        }
+      }
+    },
+    {
+      "announcementId": "750612025594347541",
+      "action": "member-absence",
+      "date": "2023-01-13",
+      "member": "minuo",
+      "eventId": "evt_c6071c29-3116-48bf-8b59-280cbf2bab92",
+      "evidence": {
+        "file": "../evidence/round-02-authenticated-dynamics-2022-12-2023-01.json",
+        "locator": "750612025594347541"
+      },
+      "replacesPlan": {
+        "date": "2023-01-13",
+        "source": {
+          "dynamicId": "748978215705378819",
+          "image": "../source/january-2023/748978215705378819-1.png",
+          "evidence": "../evidence/january-2023.json",
+          "locator": "748978215705378819"
+        }
+      },
+      "revisedArrangement": {
+        "participation": "group",
+        "plannedMemberCount": 4,
+        "members": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,2460 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "events": [
+    {
+      "id": "evt_c1df53dc-b248-4c6e-a3f3-ddbad00a3246",
+      "date": "2026-06-01",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "极致吸引双人舞，别轻易触碰 | 《Touch》",
+      "text": "原曲：《Touch》 - Miss A\n翻唱&翻跳：@柚恩不加糖  & @露早GOGO",
+      "publishedAt": "2026-06-01T03:45:00.000Z",
+      "occurrence": "published",
+      "creditedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "relatedWorks": [
+        "song_48477935-1e83-41ea-a777-907f39c63c29"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1v6VS6KEVz",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1v6VS6KEVz]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1v6VS6KEVz]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-01T03:45:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1v6VS6KEVz]",
+            "sourceField": "title",
+            "excerpt": "极致吸引双人舞，别轻易触碰 | 《Touch》"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-16-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1v6VS6KEVz]",
+            "sourceField": "description",
+            "excerpt": "原曲：《Touch》 - Miss A\n翻唱&翻跳：@柚恩不加糖  & @露早GOGO"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1v6VS6KEVz]",
+            "sourceField": "title",
+            "excerpt": "极致吸引双人舞，别轻易触碰 | 《Touch》"
+          }
+        ]
+      },
+      "note": "按视频元数据记录翻唱/唱跳视频发布；未提供演出或录制日期，不按投稿日期建立直播表演。客串署名保留在原始简介中。"
+    },
+    {
+      "id": "evt_deea2111-87ff-4120-bf57-99548ed4a974",
+      "date": "2026-06-01",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "仙袂飘摇，青白成双，人间这般唯美",
+      "text": "原曲：\n《青城山下白素贞》-鞠婧祎\n《青白》-银临&黄诗扶\n\n翻唱：柚恩&UU0510",
+      "publishedAt": "2026-06-01T10:35:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_ddd2afe5-36ea-4940-be8a-05e1446ee340",
+        "song_aef6a70e-0092-4c62-a58f-efbd3478a14a"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1jqVS6MEV8",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1jqVS6MEV8]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1jqVS6MEV8]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-01T10:35:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1jqVS6MEV8]",
+            "sourceField": "title",
+            "excerpt": "仙袂飘摇，青白成双，人间这般唯美"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1jqVS6MEV8]",
+            "sourceField": "description",
+            "excerpt": "原曲：\n《青城山下白素贞》-鞠婧祎\n《青白》-银临&黄诗扶\n\n翻唱：柚恩&UU0510"
+          }
+        ]
+      },
+      "note": "简介明确两首原曲及表演关系；记录为双曲作品发布，不推断演出日期或逐曲场次。"
+    },
+    {
+      "id": "evt_76ae1015-fd69-4277-837c-0efb8cf402f4",
+      "date": "2026-06-02",
+      "kind": "livestream",
+      "title": "【2D】萌妹聊天玩游戏34",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ULV66hEcs",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1ULV66hEcs"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ULV66hEcs",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1ULV66hEcs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_9d757189-07a5-430a-b6fe-630fb840dcd9",
+      "date": "2026-06-02",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "凡人皆有执念，谁的《归期》里又皆是意难平呢",
+      "text": "原曲：《归期》 - 钱润玉\n翻唱：柚恩",
+      "publishedAt": "2026-06-02T03:45:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_e776a648-c297-42eb-9f9d-aba85b2fe116"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1tRVS6dEgt",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1tRVS6dEgt]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1tRVS6dEgt]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-02T03:45:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1tRVS6dEgt]",
+            "sourceField": "title",
+            "excerpt": "凡人皆有执念，谁的《归期》里又皆是意难平呢"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1tRVS6dEgt]",
+            "sourceField": "description",
+            "excerpt": "原曲：《归期》 - 钱润玉\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_450f743b-b10f-4b8d-9d34-671bfdb13923",
+      "date": "2026-06-02",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "这世界那么多人，多幸运我有个我们",
+      "text": "原曲：《这世界那么多人》 - 莫文蔚\n翻唱：柚恩",
+      "publishedAt": "2026-06-02T10:30:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_97232be9-df3b-47a0-ab0f-8e1d7324fb50"
+      ],
+      "assets": [
+        {
+          "bvid": "BV132VS6wErz",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV132VS6wErz]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV132VS6wErz]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-02T10:30:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV132VS6wErz]",
+            "sourceField": "title",
+            "excerpt": "这世界那么多人，多幸运我有个我们"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV132VS6wErz]",
+            "sourceField": "description",
+            "excerpt": "原曲：《这世界那么多人》 - 莫文蔚\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_d0ae035b-7413-42bb-be2f-f3985b4320ae",
+      "date": "2026-06-03",
+      "kind": "livestream",
+      "title": "【3D】快乐开心健康生活",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1rN7X6hE1u",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1rN7X6hE1u"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1rN7X6hE1u",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1rN7X6hE1u"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_6e84a51d-f5b0-4698-9a1e-03703e8ee1e5",
+      "date": "2026-06-03",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "柚恩3D直播因网络线路问题暂缓开播",
+      "text": "各位柚恩蜜大家好，由于网络线路问题，原定于今日19:00的@柚恩不加糖 3D直播将暂缓开播。直播时间待定，如网络恢复将提前通知！给大家带来的不便，请大家多多包涵～",
+      "publishedAt": "2026-06-03T11:09:52.000Z",
+      "occurrence": "announced",
+      "announcedActivity": {
+        "date": "2026-06-03",
+        "originalPlannedTime": "19:00",
+        "members": [
+          "youen"
+        ],
+        "formatLabel": "3D",
+        "status": "postponed-time-undetermined"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2026-06-03"
+      },
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-02-june-2026-notice-details.json",
+            "locator": "1209662901727526945"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/round-02-june-2026-notice-details.json",
+            "locator": "1209662901727526945"
+          }
+        ],
+        "relatedPlan": [
+          {
+            "file": "../evidence/round-02-june-2026-notice-details.json",
+            "locator": "1209662901727526945"
+          },
+          {
+            "file": "plans.json",
+            "locator": "2026-06-03"
+          }
+        ]
+      },
+      "note": "原通知时间待定，原周表保留；同slot多段回放关系尚未确定，不生成精确实际时刻。"
+    },
+    {
+      "id": "evt_ea726df9-ca75-4c36-9bc9-995aa3dd0bcd",
+      "date": "2026-06-03",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "柚恩网络恢复与3D直播即将开始通知",
+      "text": "目前​网络已恢复，@柚恩不加糖 的3D直播将于五分钟后开始，感谢大家的理解与等待～",
+      "publishedAt": "2026-06-03T11:40:23.000Z",
+      "occurrence": "announced",
+      "relatedEventId": "evt_6e84a51d-f5b0-4698-9a1e-03703e8ee1e5",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2026-06-03"
+      },
+      "announcedActivity": {
+        "date": "2026-06-03",
+        "members": [
+          "youen"
+        ],
+        "formatLabel": "3D",
+        "relativeDelayMinutes": 5,
+        "status": "start-announced"
+      },
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2026.json",
+            "locator": "1209670765767557140"
+          }
+        ],
+        "text": [
+          {
+            "file": "../evidence/history-01/dynamics-2026.json",
+            "locator": "1209670765767557140"
+          }
+        ],
+        "relatedEventId": [
+          {
+            "file": "../evidence/history-01/dynamics-2026.json",
+            "locator": "1209670765767557140"
+          },
+          {
+            "file": "../evidence/round-02-june-2026-notice-details.json",
+            "locator": "1209662901727526945"
+          }
+        ]
+      },
+      "note": "19:40:23发布时声明五分钟后开始；保存相对安排，不当作已证实的实际开播时间。"
+    },
+    {
+      "id": "evt_56b5c5ff-eeec-45a5-9988-871657b2569c",
+      "date": "2026-06-03",
+      "kind": "publication",
+      "subtype": "greeting-video",
+      "title": "【2026高考祝福】落笔生花，前程似锦！",
+      "text": "披星戴月走过的路，终将会繁花满地！\n祝每一位考生从容落笔，如愿而归！\n出镜：@露早GOGO  @柚恩不加糖",
+      "publishedAt": "2026-06-03T04:15:37.000Z",
+      "occurrence": "published",
+      "creditedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1TSV16CEzb",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-02-june-2026-notice-details.json",
+            "locator": "BV1TSV16CEzb"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-02-june-2026-notice-details.json",
+            "locator": "BV1TSV16CEzb"
+          },
+          {
+            "file": "../evidence/history-01/dynamics-2026.json",
+            "locator": "1209556150294413320"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-02-june-2026-notice-details.json",
+            "locator": "BV1TSV16CEzb"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-02-june-2026-notice-details.json",
+            "locator": "BV1TSV16CEzb"
+          }
+        ],
+        "occurrence": [
+          {
+            "file": "../evidence/round-02-june-2026-notice-details.json",
+            "locator": "BV1TSV16CEzb"
+          }
+        ]
+      },
+      "note": "官方视频元数据明确发布时刻及出镜成员，时长50秒；未据祝福主题建立歌曲表演。"
+    },
+    {
+      "id": "evt_6eb19585-bb41-42c6-81dc-4ca03e179e5e",
+      "date": "2026-06-03",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "你们就是此刻的意义 | 《如果我们不曾相遇》",
+      "text": "原曲：《如果我们不曾相遇》 - 五月天\n翻唱：柚恩",
+      "publishedAt": "2026-06-03T10:30:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_c926a1b4-b01c-4a6d-bee1-4ed8e3c6641d"
+      ],
+      "assets": [
+        {
+          "bvid": "BV132VS6wE6h",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV132VS6wE6h]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV132VS6wE6h]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-03T10:30:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV132VS6wE6h]",
+            "sourceField": "title",
+            "excerpt": "你们就是此刻的意义 | 《如果我们不曾相遇》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV132VS6wE6h]",
+            "sourceField": "description",
+            "excerpt": "原曲：《如果我们不曾相遇》 - 五月天\n翻唱：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV132VS6wE6h]",
+            "sourceField": "description",
+            "excerpt": "原曲：《如果我们不曾相遇》 - 五月天\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_119be375-42b4-4c7d-9ed2-bf09c98d1455",
+      "date": "2026-06-03",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "心向破茧，武魂永不熄灭",
+      "text": "原曲：《破茧》 - 张韶涵\n翻唱：柚恩",
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_d7dfdace-ff92-4842-9638-d22bc5db85ce"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1GyVS6YEZM",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1GyVS6YEZM]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1GyVS6YEZM]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-03T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1GyVS6YEZM]",
+            "sourceField": "title",
+            "excerpt": "心向破茧，武魂永不熄灭"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1GyVS6YEZM]",
+            "sourceField": "description",
+            "excerpt": "原曲：《破茧》 - 张韶涵\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_67b1df80-1cc7-4842-8ebb-9b52db40224c",
+      "date": "2026-06-04",
+      "kind": "livestream",
+      "title": "【突击】钢琴电台",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        22
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Y6EA67EUW",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Y6EA67EUW"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Y6EA67EUW",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Y6EA67EUW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_4a4fcda9-f176-4bae-9eff-977df2664db7",
+      "date": "2026-06-04",
+      "kind": "livestream",
+      "title": "【3D】旗袍的万种风情",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1TMEc6aEVQ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1TMEc6aEVQ"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1TMEc6aEVQ",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1TMEc6aEVQ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_6c69eee9-60ba-40d3-9b2d-f391a5a09d3e",
+      "date": "2026-06-04",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "期待一道『彩虹』 连接我们的天空🌈",
+      "text": "原曲：《彩虹》 - TimeZ\n翻唱：柚恩",
+      "publishedAt": "2026-06-04T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_43bfb588-a5d1-412a-91c5-9b2b23693abc"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1r6V26BE9B",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1r6V26BE9B]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1r6V26BE9B]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-04T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1r6V26BE9B]",
+            "sourceField": "title",
+            "excerpt": "期待一道『彩虹』 连接我们的天空🌈"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1r6V26BE9B]",
+            "sourceField": "description",
+            "excerpt": "原曲：《彩虹》 - TimeZ\n翻唱：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1r6V26BE9B]",
+            "sourceField": "description",
+            "excerpt": "原曲：《彩虹》 - TimeZ\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_91785a4f-36b7-44f1-9af4-5375d4bb7d6d",
+      "date": "2026-06-05",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『梦底』春晚绝美舞台复刻！",
+      "text": "原曲：《梦底》 - 海来阿木\n翻唱：柚恩\n舞蹈翻跳：UU0510",
+      "publishedAt": "2026-06-05T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_ae880179-9abd-4bec-887b-7798feb15bb6"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1FCV26qEzY",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1FCV26qEzY]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1FCV26qEzY]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-05T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1FCV26qEzY]",
+            "sourceField": "title",
+            "excerpt": "『梦底』春晚绝美舞台复刻！"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1FCV26qEzY]",
+            "sourceField": "description",
+            "excerpt": "原曲：《梦底》 - 海来阿木\n翻唱：柚恩\n舞蹈翻跳：UU0510"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1FCV26qEzY]",
+            "sourceField": "description",
+            "excerpt": "原曲：《梦底》 - 海来阿木\n翻唱：柚恩\n舞蹈翻跳：UU0510"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_39069fba-05b4-4078-b166-1ed4a423273f",
+      "date": "2026-06-06",
+      "kind": "livestream",
+      "title": "【2D】666，今天新三",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1dsEJ6aE3Y",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dsEJ6aE3Y"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1dsEJ6aE3Y",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dsEJ6aE3Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_a886d29e-32b5-47d0-8421-fef3221dd9d7",
+      "date": "2026-06-06",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "时光流转 山川变幻 至少还有你",
+      "text": "原曲：《至少还有你》- 林忆莲\n翻唱：柚恩 柚恩蜜",
+      "publishedAt": "2026-06-06T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_c5f1cd31-179d-4074-b9a6-b2a22adf8d76"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1YFVm6REFy",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1YFVm6REFy]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1YFVm6REFy]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-06T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1YFVm6REFy]",
+            "sourceField": "title",
+            "excerpt": "时光流转 山川变幻 至少还有你"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1YFVm6REFy]",
+            "sourceField": "description",
+            "excerpt": "原曲：《至少还有你》- 林忆莲\n翻唱：柚恩 柚恩蜜"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1YFVm6REFy]",
+            "sourceField": "description",
+            "excerpt": "原曲：《至少还有你》- 林忆莲\n翻唱：柚恩 柚恩蜜"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_caab7fb5-dc61-4a3d-88da-5e3b0c7ba875",
+      "date": "2026-06-07",
+      "kind": "livestream",
+      "title": "【2D】聊聊看看唱唱",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1jCE86cE26",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1jCE86cE26"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1jCE86cE26",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1jCE86cE26"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_7e2cbc8d-640c-4818-9bcf-5de4399b75d9",
+      "date": "2026-06-07",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "我在我的『雾里』多么清晰",
+      "text": "原曲：《雾里》- 姚六一\n翻唱：柚恩",
+      "publishedAt": "2026-06-07T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_47b5e367-4db5-4014-9cb0-ac96336f5cd5"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1XfV26xEyk",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1XfV26xEyk]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1XfV26xEyk]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-07T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1XfV26xEyk]",
+            "sourceField": "title",
+            "excerpt": "我在我的『雾里』多么清晰"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1XfV26xEyk]",
+            "sourceField": "description",
+            "excerpt": "原曲：《雾里》- 姚六一\n翻唱：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1XfV26xEyk]",
+            "sourceField": "description",
+            "excerpt": "原曲：《雾里》- 姚六一\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_feb33fa4-608b-44c1-b4b6-6385eb3f47ed",
+      "date": "2026-06-08",
+      "kind": "livestream",
+      "title": "【2D】全站最好听的新三笑声直播间",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV12tE36tExd",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV12tE36tExd"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV12tE36tExd",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV12tE36tExd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_55e1860d-79df-409c-9f04-c14417523515",
+      "date": "2026-06-08",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "时光机开启 一起回到听妈妈的话的年纪",
+      "text": "原曲：《听妈妈的话》- 周杰伦\n翻唱：柚恩",
+      "publishedAt": "2026-06-08T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_2806c492-8946-404d-9618-4a8d2ce054e5"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1hAVm6XEJg",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1hAVm6XEJg]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1hAVm6XEJg]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-08T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1hAVm6XEJg]",
+            "sourceField": "title",
+            "excerpt": "时光机开启 一起回到听妈妈的话的年纪"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1hAVm6XEJg]",
+            "sourceField": "description",
+            "excerpt": "原曲：《听妈妈的话》- 周杰伦\n翻唱：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1hAVm6XEJg]",
+            "sourceField": "description",
+            "excerpt": "原曲：《听妈妈的话》- 周杰伦\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_25bb3b38-1384-4828-bdee-41d5c953aed2",
+      "date": "2026-06-09",
+      "kind": "livestream",
+      "title": "【2D】萌妹聊天玩游戏36",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1pJE26DE5N",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1pJE26DE5N"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1pJE26DE5N",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1pJE26DE5N"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_87ac8b79-7b4c-4bfb-b5d7-03bb612f30b0",
+      "date": "2026-06-09",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "驿站街 🐎马蹄铁🔥火光熔成这个世界！",
+      "text": "原曲：《淘金小镇》- 周杰伦\n翻唱：柚恩",
+      "publishedAt": "2026-06-09T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_a1efc3fd-1322-4e7e-ad8f-3a4d7d4b277f"
+      ],
+      "assets": [
+        {
+          "bvid": "BV19MEu6YECq",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV19MEu6YECq]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV19MEu6YECq]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-09T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV19MEu6YECq]",
+            "sourceField": "title",
+            "excerpt": "驿站街 🐎马蹄铁🔥火光熔成这个世界！"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV19MEu6YECq]",
+            "sourceField": "description",
+            "excerpt": "原曲：《淘金小镇》- 周杰伦\n翻唱：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV19MEu6YECq]",
+            "sourceField": "description",
+            "excerpt": "原曲：《淘金小镇》- 周杰伦\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_dd8581fe-4383-4205-ac26-de6790f91db1",
+      "date": "2026-06-10",
+      "kind": "livestream",
+      "title": "【3D】分享近期！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ByER6iEFU",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1ByER6iEFU"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ByER6iEFU",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1ByER6iEFU"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_44c3c813-60e6-434c-b36d-c3dc6907f839",
+      "date": "2026-06-10",
+      "kind": "livestream",
+      "title": "【3D】完全删除！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1BtEd6TEwX",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1BtEd6TEwX"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1BtEd6TEwX",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1BtEd6TEwX"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_37e3cd18-a4dc-49af-8b41-b8e5a9a277cb",
+      "date": "2026-06-10",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "当浪漫升起 当月亮🌙忘了",
+      "text": "原曲：《月亮忘了》- 袁娅维\n翻唱：柚恩",
+      "publishedAt": "2026-06-10T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_d3ad9725-9696-444c-80df-dd869a72458f"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1ZwEu6qE7n",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1ZwEu6qE7n]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1ZwEu6qE7n]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-10T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1ZwEu6qE7n]",
+            "sourceField": "title",
+            "excerpt": "当浪漫升起 当月亮🌙忘了"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1ZwEu6qE7n]",
+            "sourceField": "description",
+            "excerpt": "原曲：《月亮忘了》- 袁娅维\n翻唱：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1ZwEu6qE7n]",
+            "sourceField": "description",
+            "excerpt": "原曲：《月亮忘了》- 袁娅维\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_5df688e7-85f7-4034-b5d8-07f8db8406b5",
+      "date": "2026-06-11",
+      "kind": "livestream",
+      "title": "【3D】萌妹玩御姐2",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1DKEq6BEY7",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1DKEq6BEY7"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1DKEq6BEY7",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1DKEq6BEY7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_240a04d3-ad5a-4e10-aabd-936337806278",
+      "date": "2026-06-11",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "逐个击破 我将恶魔逮捕😈",
+      "text": "原曲：《Takedown》- HUNTR/X\n翻跳：柚恩",
+      "publishedAt": "2026-06-11T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_83c00277-19a1-4918-9aa1-84115da6a238"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1RTEu6PE62",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1RTEu6PE62]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1RTEu6PE62]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-11T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1RTEu6PE62]",
+            "sourceField": "title",
+            "excerpt": "逐个击破 我将恶魔逮捕😈"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1RTEu6PE62]",
+            "sourceField": "description",
+            "excerpt": "原曲：《Takedown》- HUNTR/X\n翻跳：柚恩"
+          }
+        ]
+      },
+      "note": "投稿简介明确原曲及演唱/翻跳者；记录为作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_6642429b-9334-4fc1-a7ff-37198e4622c3",
+      "date": "2026-06-12",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "这么有活！？管家唱跳rap高光时刻！",
+      "text": "原曲：《杀手》- 林俊杰\n翻唱：柚恩",
+      "publishedAt": "2026-06-12T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_294b604b-4dab-43ed-b98f-eef5bfc382ad"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1aFE26eEnY",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1aFE26eEnY]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1aFE26eEnY]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-12T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1aFE26eEnY]",
+            "sourceField": "title",
+            "excerpt": "这么有活！？管家唱跳rap高光时刻！"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1aFE26eEnY]",
+            "sourceField": "description",
+            "excerpt": "原曲：《杀手》- 林俊杰\n翻唱：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1aFE26eEnY]",
+            "sourceField": "description",
+            "excerpt": "原曲：《杀手》- 林俊杰\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_5d31641d-3ccd-4072-96cb-4b593dd769d2",
+      "date": "2026-06-13",
+      "kind": "livestream",
+      "title": "【电台】哇哦",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        12
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1GBJE6ZEFs",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1GBJE6ZEFs"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1GBJE6ZEFs",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1GBJE6ZEFs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_ae9b66dc-8fc5-4bb4-bbf1-8f4b9968d4d5",
+      "date": "2026-06-13",
+      "kind": "livestream",
+      "title": "【电台】嗯呐",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        12
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1YBJE6ZEL5",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1YBJE6ZEL5"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1YBJE6ZEL5",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1YBJE6ZEL5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_9a3cdea9-1587-463b-ac4c-b6fee0636ec4",
+      "date": "2026-06-13",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "此刻memories！记住你的心跳！",
+      "text": "原曲：《此刻memories》- 李艺彤\n翻跳：柚恩",
+      "publishedAt": "2026-06-13T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_ea2ecfae-790f-44cf-9d51-e3b770c3d3f0"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1bTE26fENs",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1bTE26fENs]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1bTE26fENs]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-13T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1bTE26fENs]",
+            "sourceField": "title",
+            "excerpt": "此刻memories！记住你的心跳！"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1bTE26fENs]",
+            "sourceField": "description",
+            "excerpt": "原曲：《此刻memories》- 李艺彤\n翻跳：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1bTE26fENs]",
+            "sourceField": "description",
+            "excerpt": "原曲：《此刻memories》- 李艺彤\n翻跳：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_b8fc923d-f4d9-4d5f-8fbe-d568d56cf32c",
+      "date": "2026-06-14",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "置身于黑暗中的白月光",
+      "text": "原曲：《Good Girls in the Dark》-YENA崔叡娜\n翻跳：柚恩",
+      "publishedAt": "2026-06-14T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_e33048a0-c48e-41dd-9c68-08e6e3451ba1"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1mgE26oEiV",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1mgE26oEiV]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1mgE26oEiV]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-14T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1mgE26oEiV]",
+            "sourceField": "title",
+            "excerpt": "置身于黑暗中的白月光"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1mgE26oEiV]",
+            "sourceField": "description",
+            "excerpt": "原曲：《Good Girls in the Dark》-YENA崔叡娜\n翻跳：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1mgE26oEiV]",
+            "sourceField": "description",
+            "excerpt": "原曲：《Good Girls in the Dark》-YENA崔叡娜\n翻跳：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_f9bda9d0-7738-4bc0-8454-dd8c1eeaf159",
+      "date": "2026-06-15",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "有你在❤命中注定的安排",
+      "text": "原曲：《有你在》- Rosy赵露思\n翻唱：柚恩",
+      "publishedAt": "2026-06-15T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_2658fd2d-7066-407d-a5a7-839c4ce18fc2"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1mgE26oENS",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1mgE26oENS]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1mgE26oENS]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-15T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1mgE26oENS]",
+            "sourceField": "title",
+            "excerpt": "有你在❤命中注定的安排"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1mgE26oENS]",
+            "sourceField": "description",
+            "excerpt": "原曲：《有你在》- Rosy赵露思\n翻唱：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-18-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1mgE26oENS]",
+            "sourceField": "description",
+            "excerpt": "原曲：《有你在》- Rosy赵露思\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+      "creditedMembers": [
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_a9d9b7a2-a39d-408a-a1c0-c1a8919ccf99",
+      "date": "2026-06-15",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "向『TOOOOO BUSY』的生活say no！",
+      "text": "原曲：《TOOOOO BUSY》- 王霏霏\n翻唱&翻跳：柚恩",
+      "publishedAt": "2026-06-15T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_acce679e-f591-4ff7-9d3b-6e99be2f7646"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1hwE26AE9B",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1hwE26AE9B]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1hwE26AE9B]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-15T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1hwE26AE9B]",
+            "sourceField": "title",
+            "excerpt": "向『TOOOOO BUSY』的生活say no！"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1hwE26AE9B]",
+            "sourceField": "description",
+            "excerpt": "原曲：《TOOOOO BUSY》- 王霏霏\n翻唱&翻跳：柚恩"
+          }
+        ]
+      },
+      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_ed7df888-eb7f-40e9-8957-8a44ce3144be",
+      "date": "2026-06-16",
+      "kind": "livestream",
+      "title": "【3D】那些很想感谢的人",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ovjV6CEeg",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1ovjV6CEeg"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ovjV6CEeg",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1ovjV6CEeg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_279ee2a9-5997-4e64-8a99-7b62392e1a26",
+      "date": "2026-06-17",
+      "kind": "livestream",
+      "title": "【3D】 柚柚甜品店",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1gLLR61EJ3",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1gLLR61EJ3"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1gLLR61EJ3",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1gLLR61EJ3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_baa64f2c-a9d0-4d70-9781-0865978bcdae",
+      "date": "2026-06-17",
+      "kind": "livestream",
+      "title": "【3D】不怕不怕啦！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1GtL96mEhR",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1GtL96mEhR"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1GtL96mEhR",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1GtL96mEhR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_0afa5fef-267f-4976-8a20-ef45a62f7561",
+      "date": "2026-06-18",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "Set me free ~",
+      "text": "-",
+      "publishedAt": "2026-06-18T11:09:09.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_9d3495e8-72a8-44b3-996b-fc83ccf3ab80"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1GtjA6zEZV",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1669777785,page=1].items[bvid=BV1GtjA6zEZV]"
+          }
+        }
+      ],
+      "creditedMembers": [],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1669777785,page=1].items[bvid=BV1GtjA6zEZV]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-18T11:09:09.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1669777785,page=1].items[bvid=BV1GtjA6zEZV]",
+            "sourceField": "title",
+            "excerpt": "Set me free ~"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1669777785,page=1].items[bvid=BV1GtjA6zEZV]",
+            "sourceField": "description",
+            "excerpt": "-"
+          }
+        ]
+      },
+      "note": "投稿简介明确原曲及演唱/翻跳者；记录为作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_e87a581b-21c7-4085-b618-51a804c7d01b",
+      "date": "2026-06-20",
+      "kind": "livestream",
+      "title": "【2D】端午假期，宜品新三",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1aqjn6xErE",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1aqjn6xErE"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1aqjn6xErE",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1aqjn6xErE"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_c80d3cd3-fc13-4b7c-8c32-d5a5afb844e6",
+      "date": "2026-06-21",
+      "kind": "livestream",
+      "title": "【2D】萌妹聊天玩游戏37",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV18Qjf68E8y",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV18Qjf68E8y"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV18Qjf68E8y",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV18Qjf68E8y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_7bd2bc25-7c1e-43c1-8819-71f07e6931a1",
+      "date": "2026-06-21",
+      "kind": "livestream",
+      "title": "【2D】中午好",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        11
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1gijt6gELa",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1gijt6gELa"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1gijt6gELa",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1gijt6gELa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3446e8e2-66af-4b3d-9bce-2cf3ecb049cf",
+      "date": "2026-06-22",
+      "kind": "livestream",
+      "title": "【2D】萌妹爱聊天38",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Cz7T66EHY",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Cz7T66EHY"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Cz7T66EHY",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1Cz7T66EHY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_89cde47f-53a3-4a48-b2fa-5ae8fae177f7",
+      "date": "2026-06-23",
+      "kind": "livestream",
+      "title": "【3D】微迷糊夏夜烦恼",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1dAjS6GEjK",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dAjS6GEjK"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1dAjS6GEjK",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1dAjS6GEjK"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_f7188f48-54ae-457f-a0ac-0268493bc1e2",
+      "date": "2026-06-24",
+      "kind": "livestream",
+      "title": "【3D】原来不是所有人都这样",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1iejo6PERx",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1iejo6PERx"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1iejo6PERx",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1iejo6PERx"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_727c6fa5-7d3a-437f-a907-381ee179801a",
+      "date": "2026-06-24",
+      "kind": "livestream",
+      "title": "【2D】MC",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        12
+      ],
+      "recordings": [
+        {
+          "bvid": "BV16cj96FEWQ",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV16cj96FEWQ"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV16cj96FEWQ",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV16cj96FEWQ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_733a6d7a-864a-4883-90a2-59cef828219c",
+      "date": "2026-06-24",
+      "kind": "livestream",
+      "title": "【3D】你觉得好用吗？",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV18Ujo69Exq",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV18Ujo69Exq"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV18Ujo69Exq",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV18Ujo69Exq"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_aab9b67e-83cb-4ea6-8202-5fd5eaf99acd",
+      "date": "2026-06-25",
+      "kind": "livestream",
+      "title": "【2D】神笔早良来也！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV19T7v6KEfw",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV19T7v6KEfw"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV19T7v6KEfw",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV19T7v6KEfw"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_ba642e44-99c6-44ee-afd6-74db8f0fb54d",
+      "date": "2026-06-25",
+      "kind": "livestream",
+      "title": "【2D】和美少女一起躲猫猫",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Sj7v6FEke",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Sj7v6FEke"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Sj7v6FEke",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1Sj7v6FEke"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_041bb413-6cdf-49e5-9656-0da03f924c6f",
+      "date": "2026-06-26",
+      "kind": "livestream",
+      "title": "【2D】清冷笑声继续新三",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV16w7j6oEGh",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV16w7j6oEGh"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV16w7j6oEGh",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV16w7j6oEGh"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_da6c8410-777b-41fd-b3c0-bb7c981e1c4d",
+      "date": "2026-06-28",
+      "kind": "livestream",
+      "title": "【3D】哇是拼好团新衣！！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1yqTu6WE4L",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1yqTu6WE4L"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1yqTu6WE4L",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1669777785.json",
+            "locator": "BV1yqTu6WE4L"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_8517ff1d-f5df-4547-ae40-f692a5da07f3",
+      "date": "2026-06-28",
+      "kind": "livestream",
+      "title": "【3D】拼好团新衣发布！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1yqTu6WE3v",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1yqTu6WE3v"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1yqTu6WE3v",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV1yqTu6WE3v"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_f4f8c68f-f96c-40bb-af67-5441a110ae79",
+      "date": "2026-06-29",
+      "kind": "publication",
+      "subtype": "music-video",
+      "title": "炸裂!!!我看虚拟偶像就是为了这个!!拼好团飒翻了!!!6人自编舞唱跳《惊奇无限假期》",
+      "text": "黎歌：爽爽爽！\n宣小纸：哇哇哇！\n东爱璃：摸摸摸！\n笙歌：媚媚媚！\n露早：汪汪汪！\n柚恩：嗡嗡嗡！\n\n原唱：《惊奇无限假期》—袁娅维TIA RAY，A-Lin，万妮达 Vinda Weng\n演唱：@黎歌Neeko @宣小纸不怕火 @东爱璃Lovely @帅比笙歌超可爱OvO @露早GOGO @柚恩不加糖",
+      "publishedAt": "2026-06-28T16:29:53.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_8597e298-9d12-4d4c-8436-e09874a81e3b"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1H4TG6ZErH",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1H4TG6ZErH]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1H4TG6ZErH]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-28T16:29:53.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1H4TG6ZErH]",
+            "sourceField": "title",
+            "excerpt": "炸裂!!!我看虚拟偶像就是为了这个!!拼好团飒翻了!!!6人自编舞唱跳《惊奇无限假期》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1H4TG6ZErH]",
+            "sourceField": "title",
+            "excerpt": "炸裂!!!我看虚拟偶像就是为了这个!!拼好团飒翻了!!!6人自编舞唱跳《惊奇无限假期》"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "file": "../evidence/round-16-post-video-details-batch01.json",
+            "locator": "videos[bvid=BV1H4TG6ZErH]",
+            "sourceField": "description",
+            "excerpt": "黎歌：爽爽爽！\n宣小纸：哇哇哇！\n东爱璃：摸摸摸！\n笙歌：媚媚媚！\n露早：汪汪汪！\n柚恩：嗡嗡嗡！\n\n原唱：《惊奇无限假期》—袁娅维TIA RAY，A-Lin，万妮达 Vinda Weng\n演唱：@黎歌Neeko @宣小纸不怕火 @东爱璃Lovely @帅比笙歌超可爱OvO @露早GOGO @柚恩不加糖"
+          }
+        ]
+      },
+      "note": "确认视频发布与曲目；未明确的演出日期及逐曲成员留空，不从联合投稿目录推导成员或建立直播表演。",
+      "creditedMembers": [
+        "luzao",
+        "youen"
+      ]
+    },
+    {
+      "id": "evt_f7c0a809-83d4-42ce-b20c-49e034dfa9af",
+      "date": "2026-06-30",
+      "kind": "livestream",
+      "title": "【2D】先聊天，然后愉快地……",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV19yTc62EMT",
+          "relation": "primary-evidence",
+          "source": {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19yTc62EMT"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV19yTc62EMT",
+      "evidence": {
+        "recordings": [
+          {
+            "file": "../evidence/history-01/series-1795147802.json",
+            "locator": "BV19yTc62EMT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_4a599ca0-ebba-4cd3-b888-a3aeb952e2ea",
+      "date": "2026-06-30",
+      "kind": "announcement",
+      "subtype": "merchandise",
+      "title": "露早与柚恩2026年7–9月大航海礼物公告",
+      "text": "上舰窗口2026-07-01至2026-09-30。舰长：PU皮卡包+小卡；提督：PU皮卡包+亲签小卡；总督：PU皮卡包+TO签小卡。设计监修中，所有图片（包含示例服饰）仅供参考，具体请以实物为准。",
+      "publishedAt": "2026-06-30T09:00:00.000Z",
+      "occurrence": "announced",
+      "eligibilityWindow": {
+        "from": "2026-07-01",
+        "through": "2026-09-30"
+      },
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/history-01/dynamics-2026.json",
+            "locator": "1219648737160200216"
+          }
+        ],
+        "text": [
+          {
+            "file": "../source/june-2026/1219648737160200216.jpg",
+            "locator": "上舰时间、三层礼品权益与底部监修说明"
+          }
+        ]
+      },
+      "note": "图示为监修中方案，不证明最终设计、生产、发货或履约。"
+    },
+    {
+      "id": "evt_8ed48f3d-a7d7-4305-9c64-ed5e9632bdcc",
+      "date": "2026-06-28",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "Cool Girl【拼好团翻唱】",
+      "publishedAt": "2026-06-28T15:11:06.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_a1f9c102-c192-43fc-9f8f-ee28f95a2284"
+      ],
+      "assets": [
+        {
+          "bvid": "BV12eTu6xEWj",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV12eTu6xEWj]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV12eTu6xEWj]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-28T15:11:06.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV12eTu6xEWj]",
+            "sourceField": "title",
+            "excerpt": "Cool Girl【拼好团翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch03.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV12eTu6xEWj]",
+            "sourceField": "title",
+            "excerpt": "Cool Girl【拼好团翻唱】；精确匹配曲目：Cool Girl"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n直播日期：2026年6月28日\n3D【哇是拼好团新衣！！！】直播录像\n-------------------------------------------------------\n【露早GOGO】https://space.bilibili.com/1669777785\n【柚恩不加糖】https://space.bilibili.com/1795147802\n【宣小纸不怕火】https://space.bilibili.com/346"
+    },
+    {
+      "id": "evt_68b18803-12ba-46aa-ab76-098d0b63aa06",
+      "date": "2026-06-10",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "怎样【露早翻唱】",
+      "publishedAt": "2026-06-10T13:26:52.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_b0fc1598-49f7-4c2c-8624-639e17a6f381"
+      ],
+      "assets": [
+        {
+          "bvid": "BV15DER6aESm",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV15DER6aESm]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV15DER6aESm]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-06-10T13:26:52.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV15DER6aESm]",
+            "sourceField": "title",
+            "excerpt": "怎样【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV15DER6aESm]",
+            "sourceField": "title",
+            "excerpt": "怎样【露早翻唱】；精确匹配曲目：怎样"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n直播日期：2026年6月10日\n3D【分享近期！】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.bili"
+    }
+  ]
+}

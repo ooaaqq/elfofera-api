@@ -1,0 +1,47 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "date": "2026-06-03",
+      "action": "postponement-and-start-announcement",
+      "members": ["youen"],
+      "originalPlan": {
+        "date": "2026-06-03",
+        "restDay": false,
+        "events": [
+          {
+            "members": ["youen"],
+            "plannedTime": "19:00",
+            "formatLabel": "3D",
+            "participation": "individual"
+          },
+          {
+            "members": ["luzao"],
+            "plannedTime": "20:50",
+            "formatLabel": "3D",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "dynamicId": "1208809957718229030",
+          "image": "../source/june-2026/1208809957718229030.jpg"
+        }
+      },
+      "announcementEventIds": [
+        "evt_6e84a51d-f5b0-4698-9a1e-03703e8ee1e5",
+        "evt_ea726df9-ca75-4c36-9bc9-995aa3dd0bcd"
+      ],
+      "evidence": [
+        {
+          "file": "../evidence/round-02-june-2026-notice-details.json",
+          "locator": "1209662901727526945"
+        },
+        {
+          "file": "../evidence/history-01/dynamics-2026.json",
+          "locator": "1209670765767557140"
+        }
+      ],
+      "note": "柚恩原计划19:00，19:09网络线路故障暂缓通知、19:40恢复后五分钟安排按各自声明保存；不替换原周表，不给露早安排推同样变更，也不认定精确实际开始时间。"
+    }
+  ]
+}

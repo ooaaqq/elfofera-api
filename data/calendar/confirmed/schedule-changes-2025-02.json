@@ -1,0 +1,47 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "1035941297163075593",
+      "action": "time-change",
+      "member": "luzao",
+      "date": "2025-02-19",
+      "fromPlannedTime": "19:00",
+      "toPlannedTime": "19:30",
+      "originalPlan": {
+        "file": "../reviews/round-02-schedule-adoption-2025-02.json",
+        "locator": "originalPlans/2025-02-19/events/0"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2025-02-19/events/0"
+      },
+      "source": {
+        "file": "../source/february-2025/1035941297163075593.jpg",
+        "locator": "February 19–20 cells"
+      },
+      "note": "2/20发布的修订周表与2/17原图存在时间差异，只记录计划版本，不倒推2/19实际开播时刻。 原图计划恢复至plans，修订值在此独立保留。"
+    },
+    {
+      "announcementId": "1035941297163075593",
+      "action": "room-change",
+      "date": "2025-02-20",
+      "members": ["luzao", "youen"],
+      "originalPlan": {
+        "file": "../reviews/round-02-schedule-adoption-2025-02.json",
+        "locator": "originalPlans/2025-02-20/events/0"
+      },
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2025-02-20/events/0"
+      },
+      "source": {
+        "file": "../source/february-2025/1035941297163075593.jpg",
+        "locator": "February 19–20 cells"
+      },
+      "note": "原图与修订图分别保留联动房间；图片不单独证明实际出席。 原图计划恢复至plans，修订值在此独立保留。",
+      "fromHostMember": "youen",
+      "toHostMember": "luzao"
+    }
+  ]
+}

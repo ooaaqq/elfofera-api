@@ -1,0 +1,21 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "828852641465368582",
+      "action": "cancellation",
+      "date": "2023-08-12",
+      "plannedTime": "20:00",
+      "relatedEventId": "evt_a7f2b583-b9d8-4f35-bfe6-d9033e4ea5ee",
+      "evidence": {
+        "file": "../evidence/round-02-schedule-notice-2023-08-12.json",
+        "locator": "828852641465368582"
+      },
+      "member": "yumo",
+      "relatedPlan": {
+        "file": "plans.json",
+        "locator": "2023-08-12/events/0"
+      }
+    }
+  ]
+}

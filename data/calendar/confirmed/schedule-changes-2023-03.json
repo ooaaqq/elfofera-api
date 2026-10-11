@@ -1,0 +1,33 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "announcementId": "770628737833107511",
+      "action": "room-change",
+      "date": "2023-03-08",
+      "plannedTime": "19:00",
+      "members": ["luzao", "yumo"],
+      "relatedEventId": "evt_06c9748a-e375-4ccb-a784-366e1f12ecfd",
+      "evidence": {
+        "file": "../evidence/round-02-authenticated-dynamics-2023-02-03.json",
+        "locator": "770628737833107511"
+      },
+      "fromAccountId": "1669777785",
+      "toAccountId": "1811071010"
+    },
+    {
+      "announcementId": "770628737833107511",
+      "action": "room-change",
+      "date": "2023-03-10",
+      "plannedTime": "19:00",
+      "member": "luzao",
+      "relatedEventId": "evt_c9bebeb4-15b1-4ea2-8b93-ac7f9e407542",
+      "evidence": {
+        "file": "../evidence/round-02-authenticated-dynamics-2023-02-03.json",
+        "locator": "770628737833107511"
+      },
+      "fromAccountId": "1669777785",
+      "toAccountId": "2018113152"
+    }
+  ]
+}
