@@ -19,10 +19,16 @@
     "check": "pnpm lint && pnpm typecheck && pnpm test && pnpm build",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "node --env-file-if-exists=.env.local --import tsx/esm src/db/migrate.ts",
-    "db:import:2022-2023": "node --env-file-if-exists=.env.local --import tsx/esm src/db/import.ts",
-    "deps:outdated": "pnpm outdated"
+    "db:import:confirmed": "node --env-file-if-exists=.env.local --import tsx/esm src/db/import.ts",
+    "deps:outdated": "pnpm outdated",
+    "frontend:data": "node frontend/build-data.mjs",
+    "frontend:dev": "pnpm frontend:data && vite frontend --host 127.0.0.1 --port 4173",
+    "frontend:build": "pnpm frontend:data && vite build frontend",
+    "frontend:preview": "vite preview frontend --host 127.0.0.1 --port 4174 --strictPort",
+    "test:integration": "vitest run --config vitest.integration.config.ts"
   },
   "dependencies": {
+    "@fontsource-variable/inter": "5.3.0",
     "@hono/node-server": "2.1.4",
     "@hono/zod-openapi": "1.6.3",
     "drizzle-orm": "0.45.3",
@@ -37,6 +43,7 @@
     "drizzle-kit": "0.31.11",
     "tsx": "4.23.15",
     "typescript": "7.0.2",
+    "vite": "8.3.4",
     "vitest": "5.0.3"
   }
 }

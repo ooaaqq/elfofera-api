@@ -2,17 +2,29 @@ import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createDatabase } from "./client.js";
-import { events, performances, plans, recordings, works } from "./schema.js";
+import {
+  events,
+  performances,
+  plans,
+  recordings,
+  scheduleChanges,
+  works,
+} from "./schema.js";
 
 const root = fileURLToPath(
   new URL("../../data/calendar/confirmed/", import.meta.url),
 );
 const from = "2022-07-01";
-const through = "2023-12-31";
+const through = "2026-12-31";
 const inScope = (date: string | undefined) =>
   date !== undefined && date >= from && date <= through;
 const readJson = async <T>(name: string) =>
   JSON.parse(await readFile(join(root, name), "utf8")) as T;
+const normalizeSearch = (value: string) =>
+  value
+    .normalize("NFKC")
+    .toLocaleLowerCase("zh-CN")
+    .replace(/[\p{P}\p{S}\s]+/gu, "");
 
 const eventFiles = (await readdir(root)).filter((name) =>
   /^events-\d{4}-\d{2}\.json$/.test(name),
@@ -59,15 +71,54 @@ const recordingRows = (
   .filter((recording) =>
     inScope((recording.titleSession as { date?: string } | undefined)?.date),
   );
+const scheduleChangeFiles = (await readdir(root)).filter((name) =>
+  /^schedule-changes-\d{4}-\d{2}\.json$/.test(name),
+);
+const scheduleChangeRows = (
+  await Promise.all(
+    scheduleChangeFiles.map((name) =>
+      readJson<{ changes: Array<Record<string, unknown>> }>(name),
+    ),
+  )
+)
+  .flatMap((file) => file.changes)
+  .flatMap((change, index) => {
+    const dates = [
+      change.date,
+      (change.from as { date?: string } | undefined)?.date,
+      (change.to as { date?: string } | undefined)?.date,
+    ].filter(
+      (date): date is string => typeof date === "string" && inScope(date),
+    );
+    return [...new Set(dates)].map((date, dateIndex) => ({
+      id: `change_${date}_${index}_${dateIndex}`,
+      date,
+      action: change.action as string,
+      data: change,
+    }));
+  });
 const planDays = (
   await readJson<{ days: Array<Record<string, unknown>> }>("plans.json")
 ).days.filter((day) => inScope(day.date as string | undefined));
+const bvids = (value: unknown): string[] => {
+  if (Array.isArray(value)) return value.flatMap(bvids);
+  if (!value || typeof value !== "object") return [];
+  return Object.entries(value).flatMap(([key, child]) =>
+    key === "bvid" && typeof child === "string" ? [child] : bvids(child),
+  );
+};
+const eventByBvid = new Map(
+  eventRows.flatMap((event) =>
+    bvids(event).map((bvid) => [bvid, event.id as string] as const),
+  ),
+);
 
 const { database, pool } = createDatabase();
 try {
   await database.transaction(async (tx) => {
     await tx.delete(performances);
     await tx.delete(recordings);
+    await tx.delete(scheduleChanges);
     await tx.delete(plans);
     await tx.delete(events);
     await tx.delete(works);
@@ -76,7 +127,11 @@ try {
         workRows.map((work) => ({
           id: work.id as string,
           title: work.title as string,
+          normalizedTitle: normalizeSearch(work.title as string),
           originalArtists: work.originalArtists ?? null,
+          normalizedArtists: Array.isArray(work.originalArtists)
+            ? normalizeSearch(work.originalArtists.join(" "))
+            : null,
           data: work,
         })),
       );
@@ -117,6 +172,7 @@ try {
             date:
               (recording.titleSession as { date?: string } | undefined)?.date ??
               null,
+            eventId: eventByBvid.get(recording.bvid as string) ?? null,
             title: recording.title as string,
             uploaderName: uploader?.name ?? null,
             uploaderAccountId: uploader?.accountId ?? null,
@@ -134,6 +190,9 @@ try {
         })),
       );
     }
+    if (scheduleChangeRows.length) {
+      await tx.insert(scheduleChanges).values(scheduleChangeRows);
+    }
   });
   console.log(
     JSON.stringify({
@@ -142,6 +201,7 @@ try {
       works: workRows.length,
       recordings: recordingRows.length,
       plans: planDays.length,
+      scheduleChanges: scheduleChangeRows.length,
     }),
   );
 } finally {

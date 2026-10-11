@@ -73,7 +73,10 @@
       "plannedTime": "18:30",
       "plannedMembers": [
         "yumo"
-      ]
+      ],
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_27f380e5-38e0-4cb6-84b7-59e87931d926",
@@ -126,7 +129,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1Sg411x72X"
+      "preferredRecordingBvid": "BV1Sg411x72X",
+      "contentType": "celebration",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_3fc5ad3c-be9d-4635-8ea1-29ae004c9950",
@@ -515,7 +521,7 @@
       "id": "evt_2b36228c-0814-4be2-bacc-1ce405de4f0f",
       "date": "2023-01-03",
       "kind": "livestream",
-      "title": "【电台】小早来啦",
+      "title": "小早来啦",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -564,7 +570,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1t14y1G7xF"
+      "preferredRecordingBvid": "BV1t14y1G7xF",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_d298609a-c414-4b37-ae28-361901faee7b",
@@ -722,7 +731,7 @@
       "id": "evt_1bc5a485-d9e3-41e0-a331-f768c17b9654",
       "date": "2023-01-04",
       "kind": "livestream",
-      "title": "【3D】战略会议",
+      "title": "战略会议",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -771,7 +780,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1T8411J7AF"
+      "preferredRecordingBvid": "BV1T8411J7AF",
+      "contentType": "talk",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_7023ce34-a9c3-4335-9644-d91dc60885ef",
@@ -924,7 +936,7 @@
       "id": "evt_bf375333-0455-40fc-87b1-a7acef647496",
       "date": "2023-01-05",
       "kind": "livestream",
-      "title": "【3D】有趣的灵魂万里挑一",
+      "title": "有趣的灵魂万里挑一",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -973,13 +985,16 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1w24y1i7CL"
+      "preferredRecordingBvid": "BV1w24y1i7CL",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f49c5bdf-813d-4462-9b25-43bc60bbf830",
       "date": "2023-01-05",
       "kind": "livestream",
-      "title": "【3D】海龟侦探",
+      "title": "海龟侦探",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -1028,7 +1043,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1MM411a721"
+      "preferredRecordingBvid": "BV1MM411a721",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_645e5aa9-902b-4b19-8e70-e7a84488da18",
@@ -1134,7 +1152,7 @@
       "id": "evt_8f9f91f7-5f5a-4629-bc75-a05967808b3f",
       "date": "2023-01-06",
       "kind": "livestream",
-      "title": "【3D】早子姐的二三事",
+      "title": "早子姐的二三事",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -1183,13 +1201,16 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1BD4y1V7u9"
+      "preferredRecordingBvid": "BV1BD4y1V7u9",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_d9b9a8a2-6a58-4695-938e-292137db27ed",
       "date": "2023-01-06",
       "kind": "livestream",
-      "title": "【3D】赛博诊脉",
+      "title": "赛博诊脉",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -1238,7 +1259,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV16e4y137f7"
+      "preferredRecordingBvid": "BV16e4y137f7",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_65ce7ad0-97a7-4345-96af-0eb91253647f",
@@ -1342,7 +1366,7 @@
       "id": "evt_a1070582-9f76-4ec3-9c6d-6770372a7272",
       "date": "2023-01-07",
       "kind": "livestream",
-      "title": "【3D】小小柚成长记",
+      "title": "小小柚成长记",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -1391,13 +1415,16 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1t3411m7W2"
+      "preferredRecordingBvid": "BV1t3411m7W2",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f1ac1555-70cf-475b-b42f-6c4aad545726",
       "date": "2023-01-07",
       "kind": "livestream",
-      "title": "【3D】苏总的年货清单",
+      "title": "苏总的年货清单",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -1446,7 +1473,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1gD4y157X4"
+      "preferredRecordingBvid": "BV1gD4y157X4",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_7719b225-ff43-4c2f-ba16-240082efded7",
@@ -1545,7 +1575,7 @@
       "id": "evt_f4c9280e-8f0d-4cbb-98fa-0e7d3de5fb13",
       "date": "2023-01-08",
       "kind": "livestream",
-      "title": "【3D】EOE春晚主持人面试",
+      "title": "EOE春晚主持人面试",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -1594,7 +1624,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1S24y1e74y"
+      "preferredRecordingBvid": "BV1S24y1e74y",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_94e7046d-c8f1-49a3-9ff9-90b09e3ef676",
@@ -1724,7 +1757,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1K14y1u7gH"
+      "preferredRecordingBvid": "BV1K14y1u7gH",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_0075804b-d876-445f-927b-32286ad6b70d",
@@ -1828,7 +1864,7 @@
       "id": "evt_d2c4207f-a393-48bd-8b69-f5e76552f14d",
       "date": "2023-01-10",
       "kind": "livestream",
-      "title": "【3D】向往的生活",
+      "title": "向往的生活",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao",
@@ -1882,13 +1918,16 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1bG4y1y7n3"
+      "preferredRecordingBvid": "BV1bG4y1y7n3",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_9680079e-3794-4930-ae31-4e13f5274a91",
       "date": "2023-01-10",
       "kind": "livestream",
-      "title": "【3D】莞儿的新年愿望清单",
+      "title": "莞儿的新年愿望清单",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -1937,7 +1976,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1nD4y157ka"
+      "preferredRecordingBvid": "BV1nD4y157ka",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_7d1ce673-e063-4031-9474-f297091ee179",
@@ -2041,7 +2083,7 @@
       "id": "evt_079e2aeb-1973-4fc8-8159-408e858e0ed4",
       "date": "2023-01-11",
       "kind": "livestream",
-      "title": "【3D】当舞担回到家",
+      "title": "当舞担回到家",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -2082,13 +2124,16 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1Zx4y1g7Vf"
+      "preferredRecordingBvid": "BV1Zx4y1g7Vf",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_05de882b-1030-4c2d-9453-e44b47ff1a47",
       "date": "2023-01-11",
       "kind": "livestream",
-      "title": "【3D】虎年最后一场单播",
+      "title": "虎年最后一场单播",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -2137,7 +2182,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1F24y1Y7yR"
+      "preferredRecordingBvid": "BV1F24y1Y7yR",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f2802ce7-ba3c-4e86-add6-99590c0e9e41",
@@ -2225,7 +2273,7 @@
       "id": "evt_1b5c9415-ebac-43e6-a352-ece2fb8d6e6b",
       "date": "2023-01-12",
       "kind": "livestream",
-      "title": "【电台】来聊天吧",
+      "title": "来聊天吧",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -2297,7 +2345,10 @@
       "plannedMembers": [
         "luzao"
       ],
-      "formatLabel": "电台"
+      "formatLabel": "电台",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ce8e8bf6-88c7-42a6-9e1d-dea17883b516",
@@ -2393,7 +2444,7 @@
       "id": "evt_c6071c29-3116-48bf-8b59-280cbf2bab92",
       "date": "2023-01-13",
       "kind": "livestream",
-      "title": "【3D】国王游戏",
+      "title": "国王游戏",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -2442,13 +2493,16 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV15D4y1H7Li"
+      "preferredRecordingBvid": "BV15D4y1H7Li",
+      "contentType": "game",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_57bc0caa-2158-400f-bee6-f1c6b12b4f06",
       "date": "2023-01-14",
       "kind": "livestream",
-      "title": "【电台】没标题",
+      "title": "没标题",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -2497,7 +2551,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV18P4y1k7WM"
+      "preferredRecordingBvid": "BV18P4y1k7WM",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_45143540-eebf-4163-a590-dde2ef493fa3",
@@ -2641,7 +2698,7 @@
       "id": "evt_6c78d976-e0ab-4a7e-94e7-c912eebb3b36",
       "date": "2023-01-16",
       "kind": "livestream",
-      "title": "【3D】动漫歌回",
+      "title": "动漫歌回",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -2697,7 +2754,10 @@
         ]
       },
       "preferredRecordingBvid": "BV1VG4y1w7gc",
-      "participation": "group"
+      "participation": "group",
+      "contentType": "singing",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e93acfa5-8a39-48c3-8cdc-55501bc8b9d4",
@@ -2788,7 +2848,7 @@
       "id": "evt_6138c7a8-514d-41db-b541-0b24989e90fa",
       "date": "2023-01-17",
       "kind": "livestream",
-      "title": "【3D】EOE春节联欢晚会",
+      "title": "EOE春节联欢晚会",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -2837,7 +2897,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1y8411A7GE"
+      "preferredRecordingBvid": "BV1y8411A7GE",
+      "contentType": "celebration",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f0d10a7f-b075-47b0-9cc0-7af7a29cb44c",
@@ -3172,7 +3235,7 @@
       "id": "evt_db755d31-2d8f-422e-9f45-d7d52e5f1507",
       "date": "2023-01-19",
       "kind": "livestream",
-      "title": "【电台】放假第二天~",
+      "title": "放假第二天~",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -3221,7 +3284,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1d3411974o"
+      "preferredRecordingBvid": "BV1d3411974o",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_443f8c80-105f-4bf8-a6af-a80f8d892863",
@@ -3268,7 +3334,7 @@
       "id": "evt_e25251d0-4f0b-4988-8be1-99d29363674c",
       "date": "2023-01-20",
       "kind": "livestream",
-      "title": "【电台】假期小聊",
+      "title": "假期小聊",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -3309,7 +3375,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1rT41127K8"
+      "preferredRecordingBvid": "BV1rT41127K8",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_244cfede-cbba-491a-b61c-ddb3b567e190",
@@ -3408,7 +3477,7 @@
       "id": "evt_276e828e-2e27-4bc6-be5c-1f715ba6a70e",
       "date": "2023-01-25",
       "kind": "livestream",
-      "title": "【电台】突突突突击电台~",
+      "title": "突突突突击电台~",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -3457,7 +3526,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1KR4y1h7JE"
+      "preferredRecordingBvid": "BV1KR4y1h7JE",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": true
     },
     {
       "id": "evt_3ff50e32-f574-47bb-aaee-d1f5ee03e188",
@@ -3514,7 +3586,7 @@
       "id": "evt_8b62315b-85d6-4ed0-a9c7-c34ccabda2fd",
       "date": "2023-01-26",
       "kind": "livestream",
-      "title": "【电台】春节小莞电台大放送",
+      "title": "春节小莞电台大放送",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -3563,7 +3635,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1m24y1z7bU"
+      "preferredRecordingBvid": "BV1m24y1z7bU",
+      "contentType": "celebration",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_fe927278-06b9-4489-9a3d-28c5084d8f6f",
@@ -3667,7 +3742,7 @@
       "id": "evt_04ca4d45-7d58-45f2-b68b-1d3c6f195840",
       "date": "2023-01-28",
       "kind": "livestream",
-      "title": "【电台】好久不见",
+      "title": "好久不见",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -3716,13 +3791,16 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1kT411f79i"
+      "preferredRecordingBvid": "BV1kT411f79i",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_32ac050e-1213-4193-9719-848c78f26cf5",
       "date": "2023-01-28",
       "kind": "livestream",
-      "title": "【电台】近一点",
+      "title": "近一点",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -3771,7 +3849,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1H34y1f7Xi"
+      "preferredRecordingBvid": "BV1H34y1f7Xi",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_d8ebf00d-1af8-4183-914e-18494ffe48f2",
@@ -3821,7 +3902,7 @@
       "id": "evt_79ae692f-03fc-4f89-9517-e0f1211bfba4",
       "date": "2023-01-29",
       "kind": "livestream",
-      "title": "【电台】煲个电话粥",
+      "title": "煲个电话粥",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -3870,13 +3951,16 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1ad4y1H7V1"
+      "preferredRecordingBvid": "BV1ad4y1H7V1",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e9e39715-c7fb-4b8c-bf96-d96c60fdeb17",
       "date": "2023-01-30",
       "kind": "livestream",
-      "title": "【电台】来聊天吧",
+      "title": "来聊天吧",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -3925,13 +4009,16 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1cY4y1d7Zz"
+      "preferredRecordingBvid": "BV1cY4y1d7Zz",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_371f30e6-4333-4b4e-86de-8105b0bf8dd0",
       "date": "2023-01-31",
       "kind": "livestream",
-      "title": "【3D】国王游戏Ⅱ",
+      "title": "国王游戏Ⅱ",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -3980,7 +4067,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1Pv4y1r79V"
+      "preferredRecordingBvid": "BV1Pv4y1r79V",
+      "contentType": "game",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_0db45558-e497-4181-b9a4-865e9813672b",

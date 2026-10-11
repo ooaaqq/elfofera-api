@@ -49,7 +49,7 @@
       "id": "evt_be9f46cd-96b1-4dd0-9e6c-d45e32adf20a",
       "date": "2023-05-01",
       "kind": "livestream",
-      "title": "【3D】让我看看！",
+      "title": "让我看看！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -109,13 +109,16 @@
       "plannedMembers": [
         "luzao"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_c139acbf-cdfc-418b-af87-4cc18e782ea7",
       "date": "2023-05-01",
       "kind": "livestream",
-      "title": "【3D】现场好多人啊",
+      "title": "现场好多人啊",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -175,7 +178,10 @@
       "plannedMembers": [
         "minuo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e4c06d7d-e1b1-4abf-b390-6502015fb31c",
@@ -303,7 +309,7 @@
       "id": "evt_41af08ec-4a13-426d-b8bb-fcb6cb50750d",
       "date": "2023-05-02",
       "kind": "livestream",
-      "title": "【电台】突击一下！",
+      "title": "突击一下！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -340,13 +346,16 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV18m4y1C7wi"
+      "preferredRecordingBvid": "BV18m4y1C7wi",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": true
     },
     {
       "id": "evt_bbe9ddb5-53fc-4a0c-bcc9-753670a72ca8",
       "date": "2023-05-02",
       "kind": "livestream",
-      "title": "【2D】新人主播出道，请多关注！",
+      "title": "新人主播出道，请多关注！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -406,13 +415,16 @@
       "plannedMembers": [
         "waner"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ac4dda13-cb84-45f0-9704-993f7f60c8c0",
       "date": "2023-05-03",
       "kind": "livestream",
-      "title": "【2D】进来见证一个冉冉升起的新星！",
+      "title": "进来见证一个冉冉升起的新星！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -488,13 +500,16 @@
       "plannedMembers": [
         "yumo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_5f85e24d-1388-492d-b7ca-a9f2fcac66ca",
       "date": "2023-05-05",
       "kind": "livestream",
-      "title": "【2D】突击！突突突突突突",
+      "title": "突击！突突突突突突",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -531,7 +546,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1ET411b7ne"
+      "preferredRecordingBvid": "BV1ET411b7ne",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": true
     },
     {
       "id": "evt_34e28ae0-c0e4-43fd-8397-b0ef617ff04c",
@@ -561,7 +579,7 @@
       "id": "evt_84157489-0b29-4744-82d4-519d18050841",
       "date": "2023-05-06",
       "kind": "livestream",
-      "title": "【3D】柚恩蜜新衣采购会",
+      "title": "柚恩蜜新衣采购会",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -621,13 +639,16 @@
       "plannedMembers": [
         "youen"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "special",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_9a829b23-c590-4cc4-b540-7faa23121991",
       "date": "2023-05-07",
       "kind": "livestream",
-      "title": "【3D】AiDORU挑战",
+      "title": "AiDORU挑战",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -686,13 +707,16 @@
         "minuo"
       ],
       "participation": "group",
-      "hostMember": "minuo"
+      "hostMember": "minuo",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e0c230ff-c69b-4350-9a6e-277769312bd6",
       "date": "2023-05-07",
       "kind": "livestream",
-      "title": "【电台】上午好～",
+      "title": "上午好～",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -729,7 +753,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1mL411a7J9"
+      "preferredRecordingBvid": "BV1mL411a7J9",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_999b3aa7-c4d1-4ed3-829d-7f4f097243eb",
@@ -786,7 +813,7 @@
       "id": "evt_01eda3dc-90af-4f93-be0f-b91a534af7de",
       "date": "2023-05-08",
       "kind": "livestream",
-      "title": "【2D】小恶魔来袭",
+      "title": "小恶魔来袭",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -846,7 +873,10 @@
       "plannedMembers": [
         "minuo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_01e7d382-c88c-4976-9a2e-50360354a21f",
@@ -901,7 +931,7 @@
       "id": "evt_f40b8a51-ea2c-4852-93ed-0c06a81122ef",
       "date": "2023-05-09",
       "kind": "livestream",
-      "title": "【2D】汪汪公主殿下登场！",
+      "title": "汪汪公主殿下登场！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -977,13 +1007,16 @@
       "plannedMembers": [
         "luzao"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_5ee7c646-bb3d-4b9b-9903-9febd995d979",
       "date": "2023-05-10",
       "kind": "livestream",
-      "title": "【2D首秀】今天出生啦",
+      "title": "首秀今天出生啦",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -1043,13 +1076,16 @@
       "plannedMembers": [
         "youen"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "special",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_7a13c672-7626-428f-9397-02787433d28a",
       "date": "2023-05-10",
       "kind": "livestream",
-      "title": "【电台】火锅女团聚餐！",
+      "title": "火锅女团聚餐！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -1128,7 +1164,10 @@
           }
         }
       ],
-      "note": "同一次聚餐跨午夜，网络波动后的重开不增加场次；录播中的房间分P保留。"
+      "note": "同一次聚餐跨午夜，网络波动后的重开不增加场次；录播中的房间分P保留。",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_9b2d3d83-9048-4cf0-a208-66840069c2b8",
@@ -1172,7 +1211,7 @@
       "id": "evt_032a6305-0e69-407f-a035-0ea32c520e16",
       "date": "2023-05-11",
       "kind": "livestream",
-      "title": "【3D】重新定义我的妈咪",
+      "title": "重新定义我的妈咪",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -1232,7 +1271,10 @@
       "plannedMembers": [
         "waner"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_63476f95-bf38-42de-97b7-71ae2a67f29b",
@@ -1253,7 +1295,7 @@
       "id": "evt_bda836f9-4f20-4163-bed2-8a83e3b179fb",
       "date": "2023-05-11",
       "kind": "livestream",
-      "title": "【3D】《我的妈妈》",
+      "title": "《我的妈妈》",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -1313,7 +1355,10 @@
       "plannedMembers": [
         "yumo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f238fbb1-6548-4459-926a-203654b16d45",
@@ -1335,7 +1380,10 @@
         }
       ],
       "evidence": {},
-      "preferredRecordingBvid": "BV1BL41187Xu"
+      "preferredRecordingBvid": "BV1BL41187Xu",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": true
     },
     {
       "id": "evt_f9f58fe1-fde3-4e9e-9158-0b765dab24a3",
@@ -1416,7 +1464,7 @@
       "id": "evt_1d04a5e5-8e5c-436c-96a5-73550d21b204",
       "date": "2023-05-13",
       "kind": "livestream",
-      "title": "【3D】GOGO严选",
+      "title": "GOGO严选",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -1476,13 +1524,16 @@
       "plannedMembers": [
         "luzao"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_9ac3d306-edb6-428f-856c-a294d152dff9",
       "date": "2023-05-13",
       "kind": "livestream",
-      "title": "【3D】这下真的头大了",
+      "title": "这下真的头大了",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -1542,7 +1593,10 @@
       "plannedMembers": [
         "minuo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_32df7d61-2535-4ed1-b286-4f57f82f27f0",
@@ -1597,7 +1651,7 @@
       "id": "evt_83ccf028-9c87-457b-b16f-0195a76400e2",
       "date": "2023-05-14",
       "kind": "livestream",
-      "title": "【3D】E家人饭局，你不来没人敢动筷",
+      "title": "E家人饭局，你不来没人敢动筷",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -1642,7 +1696,10 @@
           }
         ]
       },
-      "preferredRecordingBvid": "BV1fd4y1f7r1"
+      "preferredRecordingBvid": "BV1fd4y1f7r1",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_1651546f-92c0-4c8a-8f01-7a1d0465daa8",
@@ -1697,7 +1754,7 @@
       "id": "evt_723f7794-18fe-463c-bddb-a9da0e675824",
       "date": "2023-05-15",
       "kind": "livestream",
-      "title": "【2D】久违的游戏Time！",
+      "title": "久违的游戏Time！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -1737,13 +1794,16 @@
         "waner"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1ta4y1u7Cv"
+      "preferredRecordingBvid": "BV1ta4y1u7Cv",
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_baf7395d-c4db-4a49-986f-1fd582e0941e",
       "date": "2023-05-15",
       "kind": "livestream",
-      "title": "【2D】一起来云养女儿！！",
+      "title": "一起来云养女儿！！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -1783,13 +1843,16 @@
         "luzao"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1dL411z7aT"
+      "preferredRecordingBvid": "BV1dL411z7aT",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_836b76ce-0e8a-46e1-a800-205bd650ec6a",
       "date": "2023-05-16",
       "kind": "livestream",
-      "title": "【2D】吃点什么好呢",
+      "title": "吃点什么好呢",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -1829,13 +1892,16 @@
         "minuo"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1CT411t7Yn"
+      "preferredRecordingBvid": "BV1CT411t7Yn",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f3ef6180-ee71-422f-bfe2-1751401beadb",
       "date": "2023-05-16",
       "kind": "livestream",
-      "title": "【2D】斗斗斗",
+      "title": "斗斗斗",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -1875,7 +1941,10 @@
         "yumo"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1Dz4y1t75i"
+      "preferredRecordingBvid": "BV1Dz4y1t75i",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_39e5e7c5-4d8d-446e-8cc1-3c55e51baf76",
@@ -1932,7 +2001,7 @@
       "id": "evt_76c22979-4a97-4453-8fec-3e3e9aaa4572",
       "date": "2023-05-17",
       "kind": "livestream",
-      "title": "【3D】姐妹挖挖乐",
+      "title": "姐妹挖挖乐",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -1974,7 +2043,10 @@
       ],
       "participation": "collaboration",
       "hostMember": "luzao",
-      "preferredRecordingBvid": "BV1WL411B73U"
+      "preferredRecordingBvid": "BV1WL411B73U",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_3c804657-5830-460b-a8b5-ffefd47df7fc",
@@ -2029,7 +2101,7 @@
       "id": "evt_e2c68118-f2d0-4615-9091-23f70c5cfdcd",
       "date": "2023-05-18",
       "kind": "livestream",
-      "title": "【3D】七分熟少女",
+      "title": "七分熟少女",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -2074,7 +2146,10 @@
       ],
       "participation": "group",
       "hostMember": "waner",
-      "preferredRecordingBvid": "BV1dT411x7WV"
+      "preferredRecordingBvid": "BV1dT411x7WV",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f114bdf7-5446-44c9-9e54-bddeffcdcc5b",
@@ -2180,7 +2255,7 @@
       "id": "evt_a8c54f5e-6eff-4bbb-98d8-3e03cd5aa825",
       "date": "2023-05-20",
       "kind": "livestream",
-      "title": "【3D】柚恩生日演唱会·觅光",
+      "title": "柚恩生日演唱会·觅光",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -2244,7 +2319,10 @@
             "locator": "BV1xL41167MK"
           }
         }
-      ]
+      ],
+      "contentType": "celebration",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_3a3166d1-00bc-4eb8-97bc-753bec8d06c7",
@@ -2330,7 +2408,7 @@
       "id": "evt_1ec5470d-d706-48ec-8b90-3828488f1c90",
       "date": "2023-05-21",
       "kind": "livestream",
-      "title": "【3D】莞熊合唱歌会",
+      "title": "莞熊合唱歌会",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -2370,13 +2448,16 @@
         "waner"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1cz4y187ps"
+      "preferredRecordingBvid": "BV1cz4y187ps",
+      "contentType": "singing",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_3052b572-e182-4dbf-93c8-80b7b31a7e16",
       "date": "2023-05-21",
       "kind": "livestream",
-      "title": "【3D】和你在一起",
+      "title": "和你在一起",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -2416,13 +2497,16 @@
         "yumo"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1hc411A7Rt"
+      "preferredRecordingBvid": "BV1hc411A7Rt",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_907c7be0-5f8b-43ad-872a-0ae6799e63df",
       "date": "2023-05-21",
       "kind": "livestream",
-      "title": "【3D】却难把握住相遇",
+      "title": "却难把握住相遇",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -2462,13 +2546,16 @@
         "minuo"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1Th411c7H3"
+      "preferredRecordingBvid": "BV1Th411c7H3",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_9feec340-89c7-4187-a60a-6bb4b708667d",
       "date": "2023-05-21",
       "kind": "livestream",
-      "title": "【3D】你有一个视频来电",
+      "title": "你有一个视频来电",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -2508,13 +2595,16 @@
         "luzao"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1Tu41147aw"
+      "preferredRecordingBvid": "BV1Tu41147aw",
+      "contentType": "talk",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e57f627b-1c43-4439-9f36-22f451376389",
       "date": "2023-05-21",
       "kind": "livestream",
-      "title": "【3D】来看二创内",
+      "title": "来看二创内",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -2554,7 +2644,10 @@
         "youen"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1Qm4y1t7wW"
+      "preferredRecordingBvid": "BV1Qm4y1t7wW",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_984c73c3-c9d8-4bc8-ab32-35cb4a8c0465",
@@ -2611,7 +2704,7 @@
       "id": "evt_55ad4dbe-58bf-4cd4-a8a6-822529985fcd",
       "date": "2023-05-22",
       "kind": "livestream",
-      "title": "【2D】莞上好~莞上好~",
+      "title": "莞上好~莞上好~",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -2651,7 +2744,10 @@
         "waner"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1RV4y1678J"
+      "preferredRecordingBvid": "BV1RV4y1678J",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_66790e50-d6ad-4117-9dc8-0be300afacec",
@@ -2852,7 +2948,7 @@
       "id": "evt_a025f545-66c3-4d41-b1e3-9e11b7d14f94",
       "date": "2023-05-24",
       "kind": "livestream",
-      "title": "【3D】幕后大揭蜜！",
+      "title": "幕后大揭蜜！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -2892,13 +2988,16 @@
         "youen"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1bP411Q7zt"
+      "preferredRecordingBvid": "BV1bP411Q7zt",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ff7fe4d0-6225-4eab-bccf-df84a52c36eb",
       "date": "2023-05-24",
       "kind": "livestream",
-      "title": "【2D】展 望 未 来",
+      "title": "展 望 未 来",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -2938,7 +3037,10 @@
         "yumo"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV14h411c7oW"
+      "preferredRecordingBvid": "BV14h411c7oW",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_30da6a7a-9e5a-474c-be07-d549014e43cb",
@@ -3044,7 +3146,7 @@
       "id": "evt_55b4dff9-f52c-441a-8d63-b2a9da55b9b7",
       "date": "2023-05-25",
       "kind": "livestream",
-      "title": "【3D】舞室日志2.0",
+      "title": "舞室日志2.0",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -3084,13 +3186,16 @@
         "minuo"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1Fo4y137mv"
+      "preferredRecordingBvid": "BV1Fo4y137mv",
+      "contentType": "dance",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_b075c5e3-2554-41d3-b463-223fd83ea76e",
       "date": "2023-05-25",
       "kind": "livestream",
-      "title": "【3D】在姐还小的时候",
+      "title": "在姐还小的时候",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -3130,7 +3235,10 @@
         "luzao"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1yV4y1B7Ev"
+      "preferredRecordingBvid": "BV1yV4y1B7Ev",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b",
@@ -3202,7 +3310,7 @@
       "id": "evt_224b7e24-3099-4209-bada-f19cca525ae9",
       "date": "2023-05-26",
       "kind": "livestream",
-      "title": "【2D】说来就来",
+      "title": "说来就来",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -3235,13 +3343,16 @@
         "yumo"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1Yh4y1o7LP"
+      "preferredRecordingBvid": "BV1Yh4y1o7LP",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_99c55227-82a4-43f7-b92b-16bda61cb8c1",
       "date": "2023-05-26",
       "kind": "livestream",
-      "title": "【3D】这也算瘾？！",
+      "title": "这也算瘾？！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -3274,7 +3385,10 @@
         "yumo"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1bk4y1x72e"
+      "preferredRecordingBvid": "BV1bk4y1x72e",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_cd035e62-03b6-4a1b-a313-30dc8abb26e6",
@@ -3439,7 +3553,7 @@
       "id": "evt_12131bb1-d080-4d06-bb0b-d3ac59154e99",
       "date": "2023-05-27",
       "kind": "livestream",
-      "title": "【2D】莞上好~莞上好~",
+      "title": "莞上好~莞上好~",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "waner"
@@ -3454,7 +3568,10 @@
           }
         }
       ],
-      "preferredRecordingBvid": "BV1Xh4y1R7ES"
+      "preferredRecordingBvid": "BV1Xh4y1R7ES",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_25efddd8-7852-4ea8-8361-51f82f417872",
@@ -3484,7 +3601,7 @@
       "id": "evt_b7e9726f-f0bb-41af-9abd-c4eb4309ccc0",
       "date": "2023-05-27",
       "kind": "livestream",
-      "title": "【3D】三个人的夜晚",
+      "title": "三个人的夜晚",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -3527,7 +3644,10 @@
       ],
       "participation": "collaboration",
       "hostMember": "minuo",
-      "preferredRecordingBvid": "BV1ZP411Q7hq"
+      "preferredRecordingBvid": "BV1ZP411Q7hq",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_62f19034-04c1-416f-a1f5-00c9eef03174",
@@ -3634,7 +3754,7 @@
       "id": "evt_a09ad43e-fbc1-4294-a6bb-301257071942",
       "date": "2023-05-28",
       "kind": "livestream",
-      "title": "【3D】看看你的",
+      "title": "看看你的",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -3679,7 +3799,10 @@
       ],
       "participation": "group",
       "hostMember": "luzao",
-      "preferredRecordingBvid": "BV1924y1A7SE"
+      "preferredRecordingBvid": "BV1924y1A7SE",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_2100b5d6-c7df-4a79-a98c-6339bc1aa21d",
@@ -3736,7 +3859,7 @@
       "id": "evt_5836d0e1-62d5-457f-ba3f-1fb0fb659f60",
       "date": "2023-05-29",
       "kind": "livestream",
-      "title": "【2D】继续看二创！",
+      "title": "继续看二创！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -3751,7 +3874,10 @@
           }
         }
       ],
-      "preferredRecordingBvid": "BV1Uh4y1R7VG"
+      "preferredRecordingBvid": "BV1Uh4y1R7VG",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_2684293f-adbe-4d67-a86d-e630d6b35c8c",
@@ -3806,7 +3932,7 @@
       "id": "evt_b6f0c9b4-270b-4e8a-90b1-d5813903e258",
       "date": "2023-05-30",
       "kind": "livestream",
-      "title": "【3D】虞你相亲呀～",
+      "title": "虞你相亲呀～",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "yumo"
@@ -3846,13 +3972,16 @@
         "yumo"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1zV4y1z7ct"
+      "preferredRecordingBvid": "BV1zV4y1z7ct",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f4e0df74-1181-45c3-b88f-94574466b84f",
       "date": "2023-05-30",
       "kind": "livestream",
-      "title": "【3D】如何评价这些标题",
+      "title": "如何评价这些标题",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "minuo"
@@ -3892,7 +4021,10 @@
         "minuo"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1WN411172A"
+      "preferredRecordingBvid": "BV1WN411172A",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ebf3fcfd-9a6e-4269-b0b6-be6691384232",
@@ -4049,7 +4181,7 @@
       "id": "evt_3609b517-fd05-485d-bae2-75fe285388f8",
       "date": "2023-05-31",
       "kind": "livestream",
-      "title": "【3D】在姐还小的时候2.0",
+      "title": "在姐还小的时候2.0",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -4089,13 +4221,16 @@
         "luzao"
       ],
       "participation": "individual",
-      "preferredRecordingBvid": "BV1p24y1P7St"
+      "preferredRecordingBvid": "BV1p24y1P7St",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ffcd5a3b-786f-4d8a-a7b2-b7a9e9ebe9cc",
       "date": "2023-05-31",
       "kind": "livestream",
-      "title": "【3D】我是最健康的！ 吗？",
+      "title": "我是最健康的！ 吗？",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -4110,7 +4245,10 @@
           }
         }
       ],
-      "preferredRecordingBvid": "BV1K24y1P7VC"
+      "preferredRecordingBvid": "BV1K24y1P7VC",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_fc8ff4b6-490a-499a-a3d6-77eb9b3ae1aa",

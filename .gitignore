@@ -9,6 +9,9 @@ coverage/
 .direnv/
 result
 
+# Generated frontend data, rebuilt from confirmed records
+frontend/public/data/
+
 # Local archival copies of research inputs and review history
 .local/calendar-backup-*/
 

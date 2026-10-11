@@ -5,7 +5,7 @@
       "id": "evt_6e422873-9a75-4cfb-a8a0-f49aa49b89df",
       "date": "2024-11-01",
       "kind": "livestream",
-      "title": "【2D】骗子酒馆之玩的明白吗？",
+      "title": "骗子酒馆之玩的明白吗？",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["yumo"],
       "titleHours": [18],
@@ -27,13 +27,16 @@
             "locator": "BV1DCSoYCE6X"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_86887236-2bec-48c3-a57f-6daaf8e5a0d1",
       "date": "2024-11-01",
       "kind": "livestream",
-      "title": "【2D】骗子，，",
+      "title": "骗子，，",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [18],
@@ -55,13 +58,16 @@
             "locator": "BV1UUSoYgE8Y"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_1f9ac45e-0f63-45be-ac90-6f6b9dceab08",
       "date": "2024-11-01",
       "kind": "livestream",
-      "title": "【2D】骗子酒馆",
+      "title": "骗子酒馆",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["youen"],
       "titleHours": [18],
@@ -83,7 +89,10 @@
             "locator": "BV1WjSoYAEGg"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_964dcddf-fe2c-4559-aac9-31182bdf0e7e",
@@ -111,13 +120,16 @@
             "locator": "BV1wVDPYEEVa"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_214ea8aa-0f0b-4211-a305-8314ac12294c",
       "date": "2024-11-03",
       "kind": "livestream",
-      "title": "【2D】港诡实录",
+      "title": "港诡实录",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["youen"],
       "titleHours": [21],
@@ -139,13 +151,16 @@
             "locator": "BV11zSUY5EBJ"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_8485b813-1e3e-486d-86d4-310311f7ca49",
       "date": "2024-11-03",
       "kind": "livestream",
-      "title": "【3D】我要成为社交达人",
+      "title": "我要成为社交达人",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [19],
@@ -167,13 +182,16 @@
             "locator": "BV1d5S2YXEwj"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_0dd62bb2-9342-43a5-93b9-8ee6b4a30762",
       "date": "2024-11-03",
       "kind": "livestream",
-      "title": "【电台】精神状态良好",
+      "title": "精神状态良好",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [9],
@@ -195,13 +213,16 @@
             "locator": "BV1yGSCYtEwf"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_5660ac92-1f5e-47d1-8812-0aedd1d38dec",
       "date": "2024-11-05",
       "kind": "livestream",
-      "title": "【电台】泥嚎吗",
+      "title": "泥嚎吗",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [19],
@@ -223,13 +244,16 @@
             "locator": "BV1cqDNYDEHk"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e747f6c3-123c-4493-b8f5-dabcf600ffb6",
       "date": "2024-11-07",
       "kind": "livestream",
-      "title": "【2D】和新朋友们一起玩游戏！",
+      "title": "和新朋友们一起玩游戏！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [19],
@@ -259,13 +283,16 @@
         ]
       },
       "plannedMembers": ["luzao"],
-      "plannedTime": null
+      "plannedTime": null,
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_beab4079-4d3d-4294-b382-d235489c3a84",
       "date": "2024-11-08",
       "kind": "livestream",
-      "title": "【2D】港诡实录",
+      "title": "港诡实录",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["youen"],
       "titleHours": [20],
@@ -287,13 +314,16 @@
             "locator": "BV1MLDvY7EnR"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_01245d7b-2af4-4956-9b60-e05e04d72245",
       "date": "2024-11-08",
       "kind": "livestream",
-      "title": "【2D】保洁阿虞已上线",
+      "title": "保洁阿虞已上线",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["yumo"],
       "titleHours": [18],
@@ -315,13 +345,16 @@
             "locator": "BV1dqDYYWE1t"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_805e6ab9-e7b8-430b-912a-3f27fa2ecfe1",
       "date": "2024-11-09",
       "kind": "livestream",
-      "title": "【2D】一起建造游乐园",
+      "title": "一起建造游乐园",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["yumo"],
       "titleHours": [18],
@@ -343,7 +376,10 @@
             "locator": "BV1koD6Y9EYu"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_95f1382a-a7d3-4b4f-a00c-10ad3c74bfaa",
@@ -379,7 +415,7 @@
       "id": "evt_bf664d98-919d-4fb5-b553-1672321c3179",
       "date": "2024-11-10",
       "kind": "livestream",
-      "title": "【2D】让我看看怎么个事",
+      "title": "让我看看怎么个事",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["yumo"],
       "titleHours": [12],
@@ -401,13 +437,16 @@
             "locator": "BV1UimBYUEPE"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_14e45a3d-a792-4bd0-8d35-731225242305",
       "date": "2024-11-10",
       "kind": "livestream",
-      "title": "【3D】组一辈子乐队好吗？",
+      "title": "组一辈子乐队好吗？",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["youen"],
       "titleHours": [20],
@@ -429,13 +468,16 @@
             "locator": "BV1L2mrYzERr"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_d0a6b039-03f4-451a-a7af-e77a13e33114",
       "date": "2024-11-10",
       "kind": "livestream",
-      "title": "【3D】GOGO队也能学会的相处技巧",
+      "title": "GOGO队也能学会的相处技巧",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [18],
@@ -457,13 +499,16 @@
             "locator": "BV1aSmzYfEde"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_719a6dcf-7dcc-4a70-8f24-a47a4ef48905",
       "date": "2024-11-13",
       "kind": "livestream",
-      "title": "【3D】老年人了",
+      "title": "老年人了",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["yumo"],
       "titleHours": [20],
@@ -485,13 +530,16 @@
             "locator": "BV16CUKYmEHL"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_99296b9d-aff3-468e-9912-2f46d3d210bb",
       "date": "2024-11-13",
       "kind": "livestream",
-      "title": "【3D】我接受不了",
+      "title": "我接受不了",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["youen"],
       "titleHours": [18],
@@ -513,13 +561,16 @@
             "locator": "BV1RRUKYgEyy"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_11a3c33c-b105-4b3d-ba5c-b959ae5e37d9",
       "date": "2024-11-14",
       "kind": "livestream",
-      "title": "【3D】美食荒漠觅食指南",
+      "title": "美食荒漠觅食指南",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [19],
@@ -541,7 +592,10 @@
             "locator": "BV19YU5Y4ENx"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_a04afe6b-b78b-446d-ae12-be330d83413a",
@@ -569,13 +623,16 @@
             "locator": "BV1bQmZYgEkN"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_58abd4e5-a974-4347-a856-987b916cf9b8",
       "date": "2024-11-15",
       "kind": "livestream",
-      "title": "【2D】看看咋回事",
+      "title": "看看咋回事",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["yumo"],
       "titleHours": [18],
@@ -597,13 +654,16 @@
             "locator": "BV13tmfY1EeF"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_2e72eb83-15ae-4ab1-8386-0963732cbd90",
       "date": "2024-11-16",
       "kind": "livestream",
-      "title": "【电台】(._.)",
+      "title": "(._.)",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [19],
@@ -625,13 +685,16 @@
             "locator": "BV1vyUeYDE1h"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_1bcf8dc4-2231-484d-a520-2dbb70398946",
       "date": "2024-11-17",
       "kind": "livestream",
-      "title": "【2D】港诡实录",
+      "title": "港诡实录",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["youen"],
       "titleHours": [18],
@@ -653,7 +716,10 @@
             "locator": "BV1q3U7YuE5P"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_4317f9bf-8b79-4476-a7fe-80a3c34d6ece",
@@ -689,7 +755,7 @@
       "id": "evt_ea43519d-c670-45bf-a333-aa3cb11d044f",
       "date": "2024-11-20",
       "kind": "livestream",
-      "title": "【2D】中国式家长",
+      "title": "中国式家长",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["youen"],
       "titleHours": [19],
@@ -711,7 +777,10 @@
             "locator": "BV1KFUyYaEcQ"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_238dd24d-c7c7-49bd-a5af-3655eb39ba5a",
@@ -747,7 +816,7 @@
       "id": "evt_274d4b4e-00cb-4a12-b496-89a1188a41a6",
       "date": "2024-11-21",
       "kind": "livestream",
-      "title": "【电台】我回来啦",
+      "title": "我回来啦",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [20],
@@ -769,13 +838,16 @@
             "locator": "BV1P7UDY5EVk"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_b6b1d443-80d1-47b1-bffc-dfa9904389ae",
       "date": "2024-11-22",
       "kind": "livestream",
-      "title": "【3D】要不要按下去呢？",
+      "title": "要不要按下去呢？",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [19],
@@ -797,7 +869,10 @@
             "locator": "BV1FzBBYLEad"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_d6e3f794-9606-4720-8b9f-e0620e7c3df4",
@@ -833,7 +908,7 @@
       "id": "evt_e3d9f2f3-9769-4375-bc16-f9f66cc32846",
       "date": "2024-11-23",
       "kind": "livestream",
-      "title": "【3D】冬天里的一把火",
+      "title": "冬天里的一把火",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["youen"],
       "titleHours": [18],
@@ -855,13 +930,16 @@
             "locator": "BV1vNBmYbEAd"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_01fb2e0f-2574-41b7-820d-a9f549fda181",
       "date": "2024-11-25",
       "kind": "livestream",
-      "title": "【2D】早早妹爱飙车！",
+      "title": "早早妹爱飙车！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [18],
@@ -883,7 +961,10 @@
             "locator": "BV1KLzKYvEf6"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_7247eb71-b0de-4311-b720-573dca07ea74",
@@ -911,13 +992,16 @@
             "locator": "BV1SqBUYxEae"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_9567bd47-23a1-408d-846f-35ce6524202a",
       "date": "2024-11-27",
       "kind": "livestream",
-      "title": "【2D】美女室友竟然……？",
+      "title": "美女室友竟然……？",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["youen"],
       "titleHours": [19],
@@ -939,13 +1023,16 @@
             "locator": "BV1q7BZYcEoz"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_6c836ed7-c833-4c19-a6d6-b2e57254a723",
       "date": "2024-11-28",
       "kind": "livestream",
-      "title": "【3D】柚姐的公式真是柚柚又恩恩啊",
+      "title": "柚姐的公式真是柚柚又恩恩啊",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["youen"],
       "titleHours": [19],
@@ -967,13 +1054,16 @@
             "locator": "BV1k2z8YhEUd"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_2142de29-c72a-47b2-b079-075bd7520a1c",
       "date": "2024-11-29",
       "kind": "livestream",
-      "title": "【2D】早早妹爱炫舞！",
+      "title": "早早妹爱炫舞！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [19],
@@ -995,13 +1085,16 @@
             "locator": "BV1ELzrYHEu2"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_d8d38790-aef0-43b7-a2b7-846ffd336a9f",
       "date": "2024-11-30",
       "kind": "livestream",
-      "title": "【3D】有点冷！",
+      "title": "有点冷！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": ["luzao"],
       "titleHours": [19],
@@ -1023,7 +1116,10 @@
             "locator": "BV1c7zpYMEgK"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_2e0c6772-2790-456e-acbd-8d7b190c406d",

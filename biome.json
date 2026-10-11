@@ -6,12 +6,15 @@
       "src/**",
       "test/**",
       "scripts/**",
+      "frontend/**/*.js",
       "*.{js,jsx,ts,tsx,json,jsonc}",
       "!node_modules",
       "!.local",
       "!.direnv",
       "!dist",
+      "!**/dist",
       "!coverage",
+      "!frontend/data.js",
       "!.git",
       "!migrations/meta"
     ]

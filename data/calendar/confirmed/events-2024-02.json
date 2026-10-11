@@ -9,7 +9,7 @@
       "id": "evt_9c8fa004-d422-4c14-9350-468a5a9e7725",
       "date": "2024-02-01",
       "kind": "livestream",
-      "title": "【3D】请查收我的年度碎碎片",
+      "title": "请查收我的年度碎碎片",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -49,13 +49,16 @@
             "locator": "BV1kK421173t"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_c9be6dd8-4e4f-4d3d-bcfc-027e53859431",
       "date": "2024-02-01",
       "kind": "livestream",
-      "title": "【2D】唠嗑的艺术",
+      "title": "唠嗑的艺术",
       "occurrence": "recording-attested",
       "formatLabel": "2D",
       "tags": [],
@@ -95,7 +98,10 @@
             "locator": "BV1MU421Z7wG"
           }
         ]
-      }
+      },
+      "contentType": "talk",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_42bfb844-4b32-4b92-9bf9-265a79e3f9d0",
@@ -352,7 +358,7 @@
       "id": "evt_8b71d65b-78f4-437f-a89e-d442edf07a2c",
       "date": "2024-02-03",
       "kind": "livestream",
-      "title": "【3D】有事您说话2.0",
+      "title": "有事您说话2.0",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -392,13 +398,16 @@
             "locator": "BV1uJ4m1b7RA"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f6e2c6fa-3405-4985-9e60-fe2430b011ea",
       "date": "2024-02-03",
       "kind": "livestream",
-      "title": "【3D】年味渐浓",
+      "title": "年味渐浓",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -438,7 +447,10 @@
             "locator": "BV1C6421g7CK"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f6577342-7d0f-47a5-91a0-5630964cdfd6",
@@ -486,13 +498,16 @@
             "locator": "items[334]"
           }
         ]
-      }
+      },
+      "contentType": "singing",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_05bbedbd-8153-49d3-aa49-877b6a774b2c",
       "date": "2024-02-04",
       "kind": "livestream",
-      "title": "【电台】人在东百",
+      "title": "人在东百",
       "occurrence": "recording-attested",
       "formatLabel": "电台",
       "tags": [],
@@ -532,13 +547,16 @@
             "locator": "BV1dH4y1e7kN"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_162ebf34-1b74-4313-b166-3a32fbd9ccd8",
       "date": "2024-02-04",
       "kind": "livestream",
-      "title": "【3D】游戏time",
+      "title": "游戏time",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -578,7 +596,10 @@
             "locator": "BV1kC411z77T"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_96d35e38-b7a2-422f-872a-f7b0c90c293e",
@@ -624,7 +645,10 @@
             "locator": "BV1EC411478k"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_e60ffb1f-4fd8-40da-99df-5431be87dd8c",
@@ -730,7 +754,7 @@
       "id": "evt_a18928e4-3bec-4170-809c-50124811bd5a",
       "date": "2024-02-06",
       "kind": "livestream",
-      "title": "【3D】春节联欢晚会",
+      "title": "春节联欢晚会",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -784,7 +808,10 @@
         "yumo",
         "minuo"
       ],
-      "plannedTime": "19:30"
+      "plannedTime": "19:30",
+      "contentType": "celebration",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_de1d18c0-cc75-4e4f-9795-06a0c9732398",
@@ -1139,7 +1166,10 @@
             "locator": "BV1Fj421X7xg"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_3777e355-466b-4372-82f1-2a1441ba9276",
@@ -1185,7 +1215,10 @@
             "locator": "BV13J4m1x7YC"
           }
         ]
-      }
+      },
+      "contentType": "celebration",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_45f75565-c617-43c7-8da7-0d52276edd13",
@@ -1231,13 +1264,16 @@
             "locator": "BV1Ux4y1C7k2"
           }
         ]
-      }
+      },
+      "contentType": "celebration",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_6226976d-d172-4c96-927c-55ad9aa2ba29",
       "date": "2024-02-14",
       "kind": "livestream",
-      "title": "【2D】情人节快乐",
+      "title": "情人节快乐",
       "occurrence": "recording-attested",
       "formatLabel": "2D",
       "tags": [],
@@ -1277,13 +1313,16 @@
             "locator": "BV1Pp421d7F1"
           }
         ]
-      }
+      },
+      "contentType": "celebration",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_950beb0b-5ae6-4cf6-bc0b-4054503b447b",
       "date": "2024-02-15",
       "kind": "livestream",
-      "title": "【电台】吃香香",
+      "title": "吃香香",
       "occurrence": "recording-attested",
       "formatLabel": "电台",
       "tags": [],
@@ -1326,13 +1365,16 @@
       },
       "reviewIssues": [
         "february-2024-same-topic-recordings"
-      ]
+      ],
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_d435bf18-2d4d-4e85-b91e-a12f89bfc376",
       "date": "2024-02-15",
       "kind": "livestream",
-      "title": "【电台】吃香香",
+      "title": "吃香香",
       "occurrence": "recording-attested",
       "formatLabel": "电台",
       "tags": [],
@@ -1375,13 +1417,16 @@
       },
       "reviewIssues": [
         "february-2024-same-topic-recordings"
-      ]
+      ],
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_a1c37c38-0637-44ca-bc76-0f6e808787d9",
       "date": "2024-02-16",
       "kind": "livestream",
-      "title": "【电台】哇咔咔咔咔",
+      "title": "哇咔咔咔咔",
       "occurrence": "recording-attested",
       "formatLabel": "电台",
       "tags": [],
@@ -1421,13 +1466,16 @@
             "locator": "BV1ty421b7be"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ef3d2c5e-31f5-4268-bd5f-390ac7ff8e38",
       "date": "2024-02-18",
       "kind": "livestream",
-      "title": "【3D】京中有善技者",
+      "title": "京中有善技者",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -1467,7 +1515,10 @@
             "locator": "BV1fF4m1L7eT"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e4fd588f-a96a-4da3-b854-892d65e6318d",
@@ -1591,7 +1642,7 @@
       "id": "evt_a5fa9948-36e2-45fa-851f-fa76e9918ebb",
       "date": "2024-02-20",
       "kind": "livestream",
-      "title": "【3D】返工了！",
+      "title": "返工了！",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -1631,13 +1682,16 @@
             "locator": "BV1TH4y1J75K"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e3d1388c-6cbc-4d73-aab7-3071c12b58b5",
       "date": "2024-02-20",
       "kind": "livestream",
-      "title": "【3D】美女，在线减肥",
+      "title": "美女，在线减肥",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -1677,13 +1731,16 @@
             "locator": "BV1b2421F71L"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_82ee6c96-2d94-43c2-b6e7-653065bfdee5",
       "date": "2024-02-21",
       "kind": "livestream",
-      "title": "【3D】跳舞!!!爽!!!!",
+      "title": "跳舞!!!爽!!!!",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -1723,13 +1780,16 @@
             "locator": "BV1iA4m1377t"
           }
         ]
-      }
+      },
+      "contentType": "dance",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_d037285c-aa7b-4e41-9fbf-c01b1d729122",
       "date": "2024-02-21",
       "kind": "livestream",
-      "title": "【3D】怎么会这样",
+      "title": "怎么会这样",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -1769,7 +1829,10 @@
             "locator": "BV1MK42187sM"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_1cf53fe8-798f-4edd-8325-900c65b3c1fc",
@@ -1815,13 +1878,16 @@
             "locator": "BV1ej421D7aH"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_33f3648d-e903-48df-ac1b-d07670effc89",
       "date": "2024-02-22",
       "kind": "livestream",
-      "title": "【2D】深夜科目一",
+      "title": "深夜科目一",
       "occurrence": "recording-attested",
       "formatLabel": "2D",
       "tags": [],
@@ -1861,7 +1927,10 @@
             "locator": "BV1AW421K7ev"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_4bf589ed-8794-44fc-96b4-b6ea3eda1bc6",
@@ -1907,13 +1976,16 @@
             "locator": "BV1Mj421Q7Q9"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_c4b6b0f5-ae18-4778-b37f-fdc87f651350",
       "date": "2024-02-23",
       "kind": "livestream",
-      "title": "【3D】谁加特林卖我100",
+      "title": "谁加特林卖我100",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -1953,7 +2025,10 @@
             "locator": "BV1Ej421Q7y4"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_9b3e925e-3e8e-404c-a2bd-d3fe50a78cc8",
@@ -1989,7 +2064,7 @@
       "id": "evt_b7de336a-b9ea-4e91-b7c1-2fffe1e3d4c9",
       "date": "2024-02-24",
       "kind": "livestream",
-      "title": "【3D】闹元宵",
+      "title": "闹元宵",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -2029,13 +2104,16 @@
             "locator": "BV1VZ421y7p9"
           }
         ]
-      }
+      },
+      "contentType": "celebration",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_1e02aebe-9cff-4759-8723-e9381fe23851",
       "date": "2024-02-25",
       "kind": "livestream",
-      "title": "【电台】晚自习",
+      "title": "晚自习",
       "occurrence": "recording-attested",
       "formatLabel": "电台",
       "tags": [],
@@ -2075,13 +2153,16 @@
             "locator": "BV1NC411s7a8"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e3efc249-e559-4ba1-8404-e6bcb2740d4b",
       "date": "2024-02-25",
       "kind": "livestream",
-      "title": "【3D】介素在干森马",
+      "title": "介素在干森马",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -2121,13 +2202,16 @@
             "locator": "BV1Zx42117Vx"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_6acf06e5-140d-425d-94ea-7c0950329bf0",
       "date": "2024-02-26",
       "kind": "livestream",
-      "title": "【3D】土星公主的开年体测",
+      "title": "土星公主的开年体测",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -2167,13 +2251,16 @@
             "locator": "BV1jw4m1f7zn"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_524d4943-3058-40dc-8645-aaccc9a4be0a",
       "date": "2024-02-26",
       "kind": "livestream",
-      "title": "【2D】来看芙莉莲了！",
+      "title": "来看芙莉莲了！",
       "occurrence": "recording-attested",
       "formatLabel": "2D",
       "tags": [],
@@ -2213,13 +2300,16 @@
             "locator": "items[259]"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_dd8d7886-21e6-4977-8709-53e8a09cea5c",
       "date": "2024-02-27",
       "kind": "livestream",
-      "title": "【2D】来看芙莉莲了！",
+      "title": "来看芙莉莲了！",
       "occurrence": "recording-attested",
       "formatLabel": "2D",
       "tags": [],
@@ -2259,7 +2349,10 @@
             "locator": "BV1Fj421D7nj"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_0d98d3b8-a756-47ee-845c-dd950248043c",
@@ -2363,7 +2456,7 @@
       "id": "evt_7da377f3-d248-4321-a484-bd9215a11a4d",
       "date": "2024-02-28",
       "kind": "livestream",
-      "title": "【3D】把画拿来烤火",
+      "title": "把画拿来烤火",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -2403,13 +2496,16 @@
             "locator": "BV1wW421P7fJ"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_bc12f448-4e3c-4b4a-a63f-7a8e1bc7ddd9",
       "date": "2024-02-28",
       "kind": "livestream",
-      "title": "【3D】精通人性的女讲师",
+      "title": "精通人性的女讲师",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -2449,7 +2545,10 @@
             "locator": "BV1Uv421r7om"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ccda04fc-e80a-4848-be5e-c7deae7cb6e1",
@@ -2495,7 +2594,10 @@
             "locator": "BV1YW421P7Xy"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_a2ee7d8b-c298-46e4-9a4b-4c5ee5ef5dfa",
@@ -2550,7 +2652,7 @@
       "id": "evt_629f7844-cb1e-4007-81b4-8190c6b97258",
       "date": "2024-02-29",
       "kind": "livestream",
-      "title": "【3D】无罪or牢内 MOMO版",
+      "title": "无罪or牢内 MOMO版",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -2590,13 +2692,16 @@
             "locator": "BV1Zr421s7nQ"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_7ace775b-f64b-43b0-93d6-326b6af25eb1",
       "date": "2024-02-29",
       "kind": "livestream",
-      "title": "【3D】测测我的",
+      "title": "测测我的",
       "occurrence": "recording-attested",
       "formatLabel": "3D",
       "tags": [],
@@ -2636,7 +2741,10 @@
             "locator": "BV1bH4y1L7sN"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_6cf710dc-a2d0-4b13-90c0-9107fb790889",

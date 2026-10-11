@@ -1,0 +1,121 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "changes": [
+    {
+      "date": "2026-10-08",
+      "action": "postponement",
+      "title": "露早2D直播因网络调试延期至20:00通知",
+      "members": [
+        "luzao"
+      ],
+      "originalPlan": {
+        "date": "2026-10-08",
+        "restDay": false,
+        "events": [
+          {
+            "members": [
+              "luzao"
+            ],
+            "plannedTime": "19:30",
+            "formatLabel": "2D",
+            "title": "萌妹徒步中47",
+            "participation": "individual",
+            "source": {
+              "kind": "bilibili-dynamic",
+              "url": "https://t.bilibili.com/1256683593767321617",
+              "dynamicId": "1256683593767321617",
+              "excerpt": "直播预约：【2D】萌妹徒步中47；10-08 19:30 直播"
+            }
+          }
+        ],
+        "source": {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1255566689698840625",
+          "dynamicId": "1255566689698840625",
+          "excerpt": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00",
+          "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/2453180a7f4d6807cd82dcc13da7758c2018113152.jpg"
+        }
+      },
+      "announcedPlannedTime": "20:00",
+      "from": {
+        "date": "2026-10-08",
+        "title": "萌妹徒步中47",
+        "plannedTime": "19:30"
+      },
+      "to": {
+        "date": "2026-10-08",
+        "title": "萌妹徒步中47",
+        "plannedTime": "20:00"
+      },
+      "announcementEventId": "evt_d0ec8648-ca93-4357-9a14-4e85f18a5d75",
+      "relatedEventId": "evt_f86bc923-bd64-450d-beda-046dc525f1b6",
+      "evidence": [
+        {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1256794558528749607",
+          "dynamicId": "1256794558528749607",
+          "excerpt": "紧急网络调试！！！大约半个小时！8点见大家！不好意思！！[露早GOGO收藏集_谢谢]"
+        }
+      ],
+      "note": "保留原计划；公告中的调整不视为精确实际开播时刻。"
+    },
+    {
+      "date": "2026-10-11",
+      "action": "postponement",
+      "title": "露早3D直播因设备调试延后约10分钟通知",
+      "members": [
+        "luzao"
+      ],
+      "originalPlan": {
+        "date": "2026-10-11",
+        "restDay": false,
+        "events": [
+          {
+            "members": [
+              "luzao"
+            ],
+            "plannedTime": "19:00",
+            "formatLabel": "3D",
+            "title": "新人首播。",
+            "participation": "individual",
+            "source": {
+              "kind": "bilibili-dynamic",
+              "url": "https://t.bilibili.com/1257857717560672280",
+              "dynamicId": "1257857717560672280",
+              "excerpt": "直播预约：【3D】新人首播。；今天 19:00 直播"
+            }
+          }
+        ],
+        "source": {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1255566689698840625",
+          "dynamicId": "1255566689698840625",
+          "excerpt": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00",
+          "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/2453180a7f4d6807cd82dcc13da7758c2018113152.jpg"
+        }
+      },
+      "announcedDelayMinutes": 10,
+      "from": {
+        "date": "2026-10-11",
+        "title": "新人首播。",
+        "plannedTime": "19:00"
+      },
+      "to": {
+        "date": "2026-10-11",
+        "title": "新人首播。",
+        "delayMinutes": 10
+      },
+      "announcementEventId": "evt_2613a703-5095-4ed9-bc1d-1c09384a280d",
+      "evidence": [
+        {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1257901728116768768",
+          "dynamicId": "1257901728116768768",
+          "excerpt": "GOGO队们，正在驯服设备中，我们稍微晚10分钟见面，大家耐心等待一下呀"
+        }
+      ],
+      "note": "保留原计划；公告中的调整不视为精确实际开播时刻。",
+      "relatedEventId": "evt_1a3d51ec-fa5c-4752-8068-188fd9280e22"
+    }
+  ]
+}

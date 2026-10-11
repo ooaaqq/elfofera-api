@@ -24,7 +24,9 @@ export const events = pgTable(
 export const works = pgTable("works", {
   id: text("id").primaryKey(),
   title: text("title").notNull(),
+  normalizedTitle: text("normalized_title"),
   originalArtists: jsonb("original_artists"),
+  normalizedArtists: text("normalized_artists"),
   data: jsonb("data").notNull(),
 });
 
@@ -52,6 +54,7 @@ export const recordings = pgTable(
   {
     bvid: text("bvid").primaryKey(),
     date: text("date"),
+    eventId: text("event_id").references(() => events.id),
     title: text("title").notNull(),
     uploaderName: text("uploader_name"),
     uploaderAccountId: bigint("uploader_account_id", { mode: "number" }),
@@ -61,6 +64,17 @@ export const recordings = pgTable(
     index("recordings_date_idx").on(table.date),
     uniqueIndex("recordings_bvid_idx").on(table.bvid),
   ],
+);
+
+export const scheduleChanges = pgTable(
+  "schedule_changes",
+  {
+    id: text("id").primaryKey(),
+    date: text("date").notNull(),
+    action: text("action").notNull(),
+    data: jsonb("data").notNull(),
+  },
+  (table) => [index("schedule_changes_date_idx").on(table.date)],
 );
 
 export const plans = pgTable(

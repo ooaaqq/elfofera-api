@@ -5,7 +5,7 @@
       "id": "evt_b73e7f85-81e5-400a-af6f-60db1ec34f09",
       "date": "2025-02-01",
       "kind": "livestream",
-      "title": "【电台】孩子们我来了！",
+      "title": "孩子们我来了！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -31,13 +31,16 @@
             "locator": "BV1PEFeefEpL"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_cd1b993b-c183-49a0-8e98-901611173b49",
       "date": "2025-02-02",
       "kind": "livestream",
-      "title": "【电台】财运到！",
+      "title": "财运到！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -63,13 +66,16 @@
             "locator": "BV1C6FyeWENd"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e468e97f-44a2-44ad-8abd-689c49ed91da",
       "date": "2025-02-05",
       "kind": "livestream",
-      "title": "【3D】我们回来喽~",
+      "title": "我们回来喽~",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -95,13 +101,16 @@
             "locator": "BV1hJP2enEgD"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_916de10a-a34c-4c63-9739-34016f819d30",
       "date": "2025-02-06",
       "kind": "livestream",
-      "title": "【2D】中国式相亲",
+      "title": "中国式相亲",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -127,13 +136,16 @@
             "locator": "BV1n2NpeBEJ4"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_86d03330-d791-4c08-8b18-7caa95100ce6",
       "date": "2025-02-07",
       "kind": "livestream",
-      "title": "【2D】2077！",
+      "title": "2077！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -159,13 +171,16 @@
             "locator": "BV1QLNTeCESk"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_d003c968-32ed-4956-82ea-4201473d3c88",
       "date": "2025-02-08",
       "kind": "livestream",
-      "title": "【2D】中国式相亲",
+      "title": "中国式相亲",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -279,7 +294,10 @@
         "youen"
       ],
       "plannedTime": "19:30",
-      "description": "成员回放总标题为《中国式相亲》，但初段实际样本与录播组《生日快乐，人机》P1相同：120秒等待画面和600秒动态人物、屏幕聊天均对应。录播组同投稿P1为19:26:03《生日快乐，人机》、P2为22:21:52《中国式相亲》；P3/P4为各段压入弹幕版本。保留一个当日直播事件并关联七条歌切，不按改标题、分段或弹幕版本增加场次。只取样而未全片观看，不声称全部录像无缺段；文件名时间不当作精确开播时间。"
+      "description": "成员回放总标题为《中国式相亲》，但初段实际样本与录播组《生日快乐，人机》P1相同：120秒等待画面和600秒动态人物、屏幕聊天均对应。录播组同投稿P1为19:26:03《生日快乐，人机》、P2为22:21:52《中国式相亲》；P3/P4为各段压入弹幕版本。保留一个当日直播事件并关联七条歌切，不按改标题、分段或弹幕版本增加场次。只取样而未全片观看，不声称全部录像无缺段；文件名时间不当作精确开播时间。",
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f66edde5-99b9-449b-960e-725a58312e56",
@@ -305,7 +323,7 @@
       "id": "evt_22d6c08c-38b6-4ecf-b412-338e5a7fb1a1",
       "date": "2025-02-12",
       "kind": "livestream",
-      "title": "【2D】继续相亲",
+      "title": "继续相亲",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -331,13 +349,16 @@
             "locator": "BV1dVK7eUE1Q"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_689d8b85-5b2f-4b31-836b-8f2b06b98db7",
       "date": "2025-02-13",
       "kind": "livestream",
-      "title": "【3D】和柚恩蜜约会攻略是",
+      "title": "和柚恩蜜约会攻略是",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -363,13 +384,16 @@
             "locator": "BV1d4KWePEin"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_fdf3ed0e-e362-4576-8454-62c9aba07e1e",
       "date": "2025-02-14",
       "kind": "livestream",
-      "title": "【2D】情人节快乐",
+      "title": "情人节快乐",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -395,7 +419,10 @@
             "locator": "BV1CwKMeKE3M"
           }
         ]
-      }
+      },
+      "contentType": "celebration",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_2a60e40d-0066-4e3f-ac35-9831ca5462d4",
@@ -427,13 +454,16 @@
             "locator": "BV1QNKTe5Ex3"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_fcc30f1a-a4bc-4f3e-a141-b50a6685bc4d",
       "date": "2025-02-14",
       "kind": "livestream",
-      "title": "【电台】今天是什么日子！",
+      "title": "今天是什么日子！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -459,13 +489,16 @@
             "locator": "BV1ACKMeMEe3"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_1ffcbf85-2577-4ead-a166-1f4414242f01",
       "date": "2025-02-16",
       "kind": "livestream",
-      "title": "【3D生日会】无限",
+      "title": "生日会无限",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -511,7 +544,10 @@
       "plannedMembers": [
         "luzao"
       ],
-      "plannedTime": "19:30"
+      "plannedTime": "19:30",
+      "contentType": "celebration",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_a909adba-8fc3-4b6f-88ae-a0d7b0198d95",
@@ -566,7 +602,7 @@
       "id": "evt_98919048-2bc2-4d31-b561-89783ce9efe6",
       "date": "2025-02-17",
       "kind": "livestream",
-      "title": "【3D】柚恩蜜来演戏吧~",
+      "title": "柚恩蜜来演戏吧~",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -592,13 +628,16 @@
             "locator": "BV13zwderErE"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_99d59c4f-6b8f-4878-8928-6c4add572092",
       "date": "2025-02-17",
       "kind": "livestream",
-      "title": "【3D】生日会后日谈",
+      "title": "生日会后日谈",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -624,7 +663,10 @@
             "locator": "BV1BXwfebEvB"
           }
         ]
-      }
+      },
+      "contentType": "celebration",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f1e53886-f495-4be8-8a9c-26ff17338723",
@@ -728,7 +770,7 @@
       "id": "evt_5a596f67-bc3c-4d4a-96e5-b6a56dcf6e4c",
       "date": "2025-02-18",
       "kind": "livestream",
-      "title": "【2D】相亲",
+      "title": "相亲",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -754,7 +796,10 @@
             "locator": "BV16XAveNE8h"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e5eb1336-8fd0-4033-85f1-0c7d04fe3fce",
@@ -858,7 +903,7 @@
       "id": "evt_75b7b4a7-2db0-4a90-92d7-e5a960e5c40a",
       "date": "2025-02-19",
       "kind": "livestream",
-      "title": "【2D】勇闯仙剑世界！！！",
+      "title": "勇闯仙剑世界！！！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -884,7 +929,10 @@
             "locator": "BV1UUArewE42"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_757bd8a7-66f6-4c44-b776-b206ba3eafbe",
@@ -939,7 +987,7 @@
       "id": "evt_065ed9db-52fc-4d8e-a2fa-8b19a789e5ae",
       "date": "2025-02-20",
       "kind": "livestream",
-      "title": "【3D】春日的我们",
+      "title": "春日的我们",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -965,13 +1013,16 @@
             "locator": "BV1uLAseDEiw"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_2b88b317-6135-4910-9665-b425892ccc63",
       "date": "2025-02-21",
       "kind": "livestream",
-      "title": "【2D】继续2077！！！",
+      "title": "继续2077！！！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -997,7 +1048,10 @@
             "locator": "BV14yPFemEsV"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_799f8b2a-bbac-4ea4-a51b-f33d11e8c049",
@@ -1101,7 +1155,7 @@
       "id": "evt_5e6c9490-cae2-4e07-a944-de930009551a",
       "date": "2025-02-25",
       "kind": "livestream",
-      "title": "【2D】奇异人生，继续",
+      "title": "奇异人生，继续",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -1127,13 +1181,16 @@
             "locator": "BV1xGPieLEsB"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ff5d1d7e-3650-4044-bf75-d21e4dd24636",
       "date": "2025-02-25",
       "kind": "livestream",
-      "title": "【电台】来财，，来，，",
+      "title": "来财，，来，，",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -1159,13 +1216,16 @@
             "locator": "BV1RMPYenE5f"
           }
         ]
-      }
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
     },
     {
       "id": "evt_fc5efccd-794e-443c-8375-a51b8a91584e",
       "date": "2025-02-26",
       "kind": "livestream",
-      "title": "【3D】露早XX大揭秘",
+      "title": "露早XX大揭秘",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -1191,13 +1251,16 @@
             "locator": "BV1T7P7eFEAE"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_9ed54f88-f6f1-40c3-8c87-839c2eaf4c65",
       "date": "2025-02-26",
       "kind": "livestream",
-      "title": "【3D】配音整活挑战",
+      "title": "配音整活挑战",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -1223,7 +1286,10 @@
             "locator": "BV1ToP7eYENf"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_83b38c52-0e46-47b9-932a-9e9098ed7008",
@@ -1280,7 +1346,7 @@
       "id": "evt_641eb93f-f4ac-4387-ade9-726b482c2936",
       "date": "2025-02-27",
       "kind": "livestream",
-      "title": "【3D】扯头花专项训练",
+      "title": "扯头花专项训练",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -1306,7 +1372,10 @@
             "locator": "BV1vg9AYGE12"
           }
         ]
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_d8135bdf-9903-479e-872a-bc55f7c66b70",
@@ -1410,7 +1479,7 @@
       "id": "evt_281696b8-b118-455f-ad20-9029c0f2d578",
       "date": "2025-02-28",
       "kind": "livestream",
-      "title": "【2D】看二创和2077！！",
+      "title": "看二创和2077！！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "luzao"
@@ -1436,7 +1505,10 @@
             "locator": "BV1HY9GY7E12"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ce82b9bb-b446-4b4b-b92e-51908ec9288a",

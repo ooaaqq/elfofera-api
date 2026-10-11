@@ -98,7 +98,10 @@
         "luzao"
       ],
       "participation": "collaboration",
-      "hostMember": "youen"
+      "hostMember": "youen",
+      "contentType": "game",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_1bbc7a88-deb9-4516-b661-e9718bf8b623",
@@ -183,7 +186,10 @@
             "locator": "BV12W4y1q7JL"
           }
         ]
-      }
+      },
+      "contentType": "game",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_6de8cdc1-22c9-449f-9973-b6b6f24b95a5",
@@ -308,7 +314,10 @@
       "plannedMembers": [
         "youen"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "game",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_ff72218b-fb9c-4008-88a0-e0f97b2da4b6",
@@ -385,7 +394,10 @@
       "plannedMembers": [
         "luzao"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_6acdce19-95b3-47f9-a681-a29620ef6373",
@@ -522,7 +534,10 @@
         "minuo"
       ],
       "participation": "group",
-      "hostMember": "yumo"
+      "hostMember": "yumo",
+      "contentType": "game",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_aeae0beb-086f-47fe-a904-70716e86fb01",
@@ -821,7 +836,10 @@
         "yumo"
       ],
       "plannedTime": null,
-      "participation": "group"
+      "participation": "group",
+      "contentType": "game",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_fdbf3342-9ad3-405b-a24c-d7f073756b45",
@@ -892,7 +910,10 @@
       "plannedMembers": [
         "yumo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_12b2b0f9-f4e0-4294-a97d-4a0fdfdde205",
@@ -1020,7 +1041,10 @@
       "plannedMembers": [
         "minuo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_d9933205-f00e-4866-9985-d756e09d6629",
@@ -1097,7 +1121,10 @@
       "plannedMembers": [
         "youen"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_11bef8ac-4af3-4ae8-9cb3-be12e0d62ef1",
@@ -1249,7 +1276,10 @@
       "plannedMembers": [
         "waner"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "special",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_c3ccd54f-2c55-442f-b2cf-a191f900170c",
@@ -1326,7 +1356,10 @@
       "plannedMembers": [
         "luzao"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_7107e0d8-3304-4923-b5ff-b54100f054b1",
@@ -1432,7 +1465,10 @@
         "minuo"
       ],
       "participation": "group",
-      "hostMember": "youen"
+      "hostMember": "youen",
+      "contentType": "celebration",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_864e017b-561c-499f-9481-767eaa48bbff",
@@ -1657,7 +1693,10 @@
             "excerpt": "这个是断网了重开播，是同一场"
           }
         }
-      ]
+      ],
+      "contentType": "talk",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_0c7d8cdc-3fe8-4bfb-834d-0c825ece25ad",
@@ -1720,7 +1759,10 @@
       },
       "recordingNamedMembers": [
         "minuo"
-      ]
+      ],
+      "contentType": "talk",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_e7cd2ef1-551c-4a41-8483-a3a0f21e9e0e",
@@ -1970,7 +2012,10 @@
         "youen"
       ],
       "plannedTime": null,
-      "participation": "group"
+      "participation": "group",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_e3bca218-204c-420b-80d2-f9c288a6b087",
@@ -2041,7 +2086,10 @@
       "plannedMembers": [
         "youen"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_1baba399-c66e-4015-9827-6cea71f4044c",
@@ -2118,7 +2166,10 @@
       "plannedMembers": [
         "luzao"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_a7637959-96f3-4266-b5c2-474c93ebe8dd",
@@ -2195,7 +2246,10 @@
       "plannedMembers": [
         "waner"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_f2a1212e-fc0a-4144-8c31-eb655150a712",
@@ -2330,7 +2384,10 @@
       "plannedMembers": [
         "yumo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "talk",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_e641bce3-f2ec-4b60-9090-c57d9f81d5d5",
@@ -2407,7 +2464,10 @@
       "plannedMembers": [
         "minuo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_12a7bd3b-6d11-4dc0-9b2c-b7f0fa628825",
@@ -2575,7 +2635,10 @@
         "yumo",
         "minuo"
       ],
-      "participation": "group"
+      "participation": "group",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_eca856d0-0561-424c-a51a-f1b24e61bc2c",
@@ -2638,7 +2701,10 @@
       },
       "recordingNamedMembers": [
         "youen"
-      ]
+      ],
+      "contentType": "talk",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_d2bcacca-47aa-41aa-b6e7-dc3a587b2d9b",
@@ -2969,7 +3035,10 @@
             "excerpt": "这个是直播事故，开头放音频的时候炸了"
           }
         }
-      ]
+      ],
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_0efeec4d-7c0e-4137-91fc-5bcd17c94593",
@@ -3070,7 +3139,10 @@
       "plannedMembers": [
         "yumo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_3beaf796-ded2-4858-8b83-c6ab900ed2b1",
@@ -3147,7 +3219,10 @@
       "plannedMembers": [
         "waner"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_4991124e-8e99-4151-87e5-fbb16ca2d070",
@@ -3280,7 +3355,10 @@
         "youen"
       ],
       "participation": "collaboration",
-      "hostMember": "youen"
+      "hostMember": "youen",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_b1891a56-3dce-4eb8-af14-20bcbdb0ac33",
@@ -3408,7 +3486,10 @@
       "plannedMembers": [
         "youen"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_837f252c-fd13-4969-8c9d-6d8aedaf08fc",
@@ -3507,7 +3588,10 @@
       "changeSource": {
         "file": "../evidence/round-02-authenticated-dynamics-2022-09.json",
         "locator": "708760455467761680"
-      }
+      },
+      "contentType": "talk",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_da0d702d-4800-4b4b-84a9-e8a1b17b3e17",
@@ -3665,7 +3749,10 @@
       "changeSource": {
         "file": "../evidence/round-02-authenticated-dynamics-2022-09.json",
         "locator": "708760455467761680"
-      }
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_64cc0fa9-c3b7-4c77-a675-0f410857a040",
@@ -3791,7 +3878,10 @@
       "plannedMembers": [
         "minuo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_3757eb0f-b147-42ba-bfc5-1f0b2dad44b3",
@@ -3868,7 +3958,10 @@
       "plannedMembers": [
         "minuo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "singing",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_9ce5dcaa-71de-4eb1-a370-2e4b8ff95182",
@@ -3945,7 +4038,10 @@
       "plannedMembers": [
         "youen"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_a111e4d6-cbd8-4540-a9db-b975de6705a2",
@@ -4046,7 +4142,10 @@
       "plannedMembers": [
         "waner"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_b0fea4fb-4e6c-4dfe-9c12-ca3adf067946",
@@ -4217,7 +4316,10 @@
       "plannedMembers": [
         "yumo"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false
     },
     {
       "id": "evt_6362c885-b397-4128-8114-ba39e83799db",
@@ -4294,7 +4396,10 @@
       "plannedMembers": [
         "luzao"
       ],
-      "participation": "individual"
+      "participation": "individual",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_25d1b864-e995-41e3-bcd6-d04bbebebc8e",
@@ -4382,7 +4487,10 @@
         "minuo"
       ],
       "participation": "group",
-      "hostMember": "yumo"
+      "hostMember": "yumo",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     },
     {
       "id": "evt_34a50e6c-78bd-4a99-8bc1-cbca86512279",
