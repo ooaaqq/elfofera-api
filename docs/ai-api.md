@@ -61,6 +61,17 @@ GET /v1/works/song_xxx/history?from=2022-07-24&through=2023-12-31&member=youen
 默认每页 20 条，最多 100 条。稳定排序后分页，下一页的 offset 为本页 offset
 加实际返回条数。未翻完页时不能声称已列出全部历史；搜索接口不嵌入无界历史。
 
+## 表演次数统计
+
+`GET /v1/works/{workId}/statistics` 返回 `work`、可选日期范围 `range`、
+`total`、`uncredited` 和五位成员的 `byMember` 统计。支持 `from`、`through`，
+不分页；查询次数直接读取统计，查询完整明细才翻历史页。
+
+计数单位 `countingUnit: performance-record`：一条独立表演记录计一次，多个来源
+不增加次数；合唱分别计入明确署名的成员，因此成员次数之和可能大于总数。
+无成员署名的记录计入 `uncredited`，不推断演唱者。各成员的 `sourceUrls` 最多
+提供三个去重的来源示例，完整来源通过历史接口查看。统计只覆盖已确认资料。
+
 ## 回答规则
 
 - `completeness: known-records` 表示已确认的子集；空结果不能证明从未直播或演唱。
@@ -69,7 +80,7 @@ GET /v1/works/song_xxx/history?from=2022-07-24&through=2023-12-31&member=youen
 - 回答可引用 `sourceUrls` 和录播 `url`。接口不返回本机 evidence 路径、研究摘录或数据库 raw data。
 - 请求失败明确报告查询未完成；400 修正参数，404 核对作品 ID，不能把失败当成空结果。
 
-AstrBot 插件复用这三个接口，工具描述维护模型调用与回答规则。插件实现和服务器部署
+AstrBot 插件复用这些接口，工具描述维护模型调用与回答规则。插件实现和服务器部署
 由 infra fleet 管理，业务筛选与数据含义只在本项目维护。
 
 ## 数据维护与检查

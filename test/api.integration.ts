@@ -239,3 +239,52 @@ describe("imported PostgreSQL queries", () => {
     ).toBe(400);
   });
 });
+
+it("statistics agree with paginated member histories and honor date filters", async () => {
+  const found = await app.request("/v1/works?q=和你在一起");
+  const search = searchSchema.parse(await found.json());
+  const work = search.items[0];
+  if (!work) throw new Error("Missing known work");
+  const { statisticsSchema } = await import("../src/contracts.js");
+  const response = await app.request(`/v1/works/${work.id}/statistics`);
+  expect(response.status).toBe(200);
+  const stats = statisticsSchema.parse(await response.json());
+  for (const entry of stats.byMember) {
+    const history = historySchema.parse(
+      await (
+        await app.request(
+          `/v1/works/${work.id}/history?member=${entry.member}&limit=1`,
+        )
+      ).json(),
+    );
+    expect(entry.count).toBe(history.total);
+  }
+  const filtered = statisticsSchema.parse(
+    await (
+      await app.request(
+        `/v1/works/${work.id}/statistics?from=2023-04-01&through=2023-04-30`,
+      )
+    ).json(),
+  );
+  const history = historySchema.parse(
+    await (
+      await app.request(
+        `/v1/works/${work.id}/history?from=2023-04-01&through=2023-04-30&limit=1`,
+      )
+    ).json(),
+  );
+  expect(filtered.total).toBe(history.total);
+  expect(stats.total).toBeGreaterThanOrEqual(filtered.total);
+  expect(
+    (
+      await app.request(
+        `/v1/works/${work.id}/statistics?from=2024-01-02&through=2024-01-01`,
+      )
+    ).status,
+  ).toBe(400);
+  expect(
+    (await app.request(`/v1/works/${work.id}/statistics?from=2024-02-30`))
+      .status,
+  ).toBe(400);
+  expect((await app.request("/v1/works/missing/statistics")).status).toBe(404);
+});

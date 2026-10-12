@@ -313,3 +313,44 @@ export function page(
     completeness: "known-records" as const,
   };
 }
+
+export const statisticsSchema = z.object({
+  work: workSchema,
+  range: z.object({
+    from: dateSchema.nullable(),
+    through: dateSchema.nullable(),
+  }),
+  countingUnit: z.literal("performance-record"),
+  completeness: z.literal("known-records"),
+  total: z.number().int().nonnegative(),
+  uncredited: z.number().int().nonnegative(),
+  byMember: z.array(
+    z.object({
+      member: memberSchema,
+      count: z.number().int().nonnegative(),
+      sourceUrls: z.array(z.string()),
+    }),
+  ),
+});
+
+export function performanceStatistics(
+  items: z.infer<typeof performanceSchema>[],
+) {
+  const byMember = memberSchema.options.map((member) => {
+    const credited = items.filter((item) =>
+      item.creditedMembers.includes(member),
+    );
+    return {
+      member,
+      count: credited.length,
+      sourceUrls: [
+        ...new Set(credited.flatMap((item) => item.sourceUrls)),
+      ].slice(0, 3),
+    };
+  });
+  return {
+    total: items.length,
+    uncredited: items.filter((item) => !item.creditedMembers.length).length,
+    byMember,
+  };
+}

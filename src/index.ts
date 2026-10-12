@@ -9,9 +9,11 @@ import {
   page,
   pageFields,
   pageQuery,
+  performanceStatistics,
   performanceView,
   planView,
   recordingView,
+  statisticsSchema,
   type timelineEventSchema,
   timelineSchema,
   workSchema,
@@ -118,6 +120,29 @@ const historyRoute = createRoute({
         items: z.array(historyItemSchema),
         ...pageFields,
       }),
+    ),
+    400: jsonResponse("Invalid query", errorSchema),
+    404: jsonResponse("Work not found", errorSchema),
+  },
+});
+const statisticsRoute = createRoute({
+  method: "get",
+  path: "/v1/works/{workId}/statistics",
+  summary: "Count known performance records and explicitly credited members",
+  request: {
+    params: z.object({ workId: z.string().min(1).max(200) }),
+    query: z
+      .object({ from: dateSchema.optional(), through: dateSchema.optional() })
+      .strict()
+      .refine(
+        (value) => !value.from || !value.through || value.from <= value.through,
+        "from must precede through",
+      ),
+  },
+  responses: {
+    200: jsonResponse(
+      "Performance counts, without reading history pages",
+      statisticsSchema,
     ),
     400: jsonResponse("Invalid query", errorSchema),
     404: jsonResponse("Work not found", errorSchema),
@@ -263,6 +288,37 @@ export function createApp(database: Database) {
           event: event ? eventView(event) : null,
         })),
         ...page(z.number().parse(totals[0]?.total), limit, offset, rows.length),
+      },
+      200,
+    );
+  });
+  app.openapi(statisticsRoute, async (c) => {
+    const { workId } = c.req.valid("param");
+    const { from, through } = c.req.valid("query");
+    const [work] = await database
+      .select()
+      .from(works)
+      .where(eq(works.id, workId));
+    if (!work) return c.json({ error: "work_not_found" }, 404);
+    const rows = await database
+      .select()
+      .from(performances)
+      .where(
+        and(
+          eq(performances.workId, workId),
+          from ? gte(performances.date, from) : undefined,
+          through ? lte(performances.date, through) : undefined,
+        ),
+      )
+      .orderBy(asc(performances.date), asc(performances.id));
+    c.header("Cache-Control", "public, max-age=60");
+    return c.json(
+      {
+        work: workView(work),
+        range: { from: from ?? null, through: through ?? null },
+        countingUnit: "performance-record" as const,
+        completeness: "known-records" as const,
+        ...performanceStatistics(rows.map(performanceView)),
       },
       200,
     );
