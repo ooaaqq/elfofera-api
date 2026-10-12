@@ -1454,6 +1454,62 @@
         ]
       },
       "note": "投稿简介明确原曲及演唱/翻跳者；记录为作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_1a0a6022-29c4-4a3b-b01e-7ae0d89642c2",
+      "date": "2025-05-20",
+      "kind": "livestream",
+      "title": "520!",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20,
+        21
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1daJazJEdT",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1daJazJEdT",
+            "locator": "BV1daJazJEdT",
+            "excerpt": "【直播回放】【2D】520! 2025年05月20日21点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1daJazJEdT",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1daJazJEdT",
+            "locator": "BV1daJazJEdT",
+            "excerpt": "【直播回放】【2D】520! 2025年05月20日21点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1XiJaz2EX6",
+            "locator": "BV1XiJaz2EX6",
+            "excerpt": "【直播回放】【2D】520! 2025年05月20日20点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1068539761769054214",
+            "image": "../source/may-2025/1068539761769054214.jpg"
+          }
+        ]
+      },
+      "contentType": "celebration",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "20:30"
     }
   ]
 }

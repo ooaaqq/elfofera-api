@@ -743,6 +743,106 @@
       "isUnannounced": false
     },
     {
+      "id": "evt_73437191-6914-4ad0-87b2-bc23ae3794ae",
+      "date": "2025-04-15",
+      "kind": "livestream",
+      "title": "你好，",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1VQdfYBE6U",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1VQdfYBE6U",
+            "locator": "BV1VQdfYBE6U",
+            "excerpt": "【直播回放】【电台】你好， 2025年04月15日20点场；时长2320秒。"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1VQdfYBE6U",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1VQdfYBE6U",
+            "locator": "BV1VQdfYBE6U",
+            "excerpt": "【直播回放】【电台】你好， 2025年04月15日20点场；时长2320秒。"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1055551780707893253",
+            "image": "../source/april-2025/1055551780707893253.jpg"
+          }
+        ]
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
+      "note": "官方回放为20点场，时长约39分钟；与23点场分别保留，短暂停播或上下场关系没有明确证据。",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_8742f805-3236-4433-b6ec-810f02204456",
+      "date": "2025-04-15",
+      "kind": "livestream",
+      "title": "你好，，，",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        23
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1ECocYQE6o",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ECocYQE6o",
+            "locator": "BV1ECocYQE6o",
+            "excerpt": "【直播回放】【电台】你好，，， 2025年04月15日23点场；时长3541秒。"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1ECocYQE6o",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ECocYQE6o",
+            "locator": "BV1ECocYQE6o",
+            "excerpt": "【直播回放】【电台】你好，，， 2025年04月15日23点场；时长3541秒。"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1055551780707893253",
+            "image": "../source/april-2025/1055551780707893253.jpg"
+          }
+        ]
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
+      "note": "官方回放为23点场，时长约59分钟；不是短暂失败片段，与20点场分别保留。",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
+    },
+    {
       "id": "evt_b46a40f5-088d-4401-bbb1-c729cdf1a28b",
       "date": "2025-04-16",
       "kind": "livestream",

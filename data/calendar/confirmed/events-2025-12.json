@@ -2165,6 +2165,63 @@
       },
       "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
       "text": "续作。希望大家喜欢。以后还会继续创作！"
+    },
+    {
+      "id": "evt_31c35276-0ea0-4e52-9fab-798da3217963",
+      "date": "2025-12-14",
+      "kind": "livestream",
+      "title": "萌妹玩游戏12",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        12,
+        13
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1xzmvB8Ec6",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1xzmvB8Ec6",
+            "locator": "BV1xzmvB8Ec6",
+            "excerpt": "【直播回放】【2D】萌妹玩游戏12 2025年12月14日12点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1xzmvB8Ec6",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1xzmvB8Ec6",
+            "locator": "BV1xzmvB8Ec6",
+            "excerpt": "【直播回放】【2D】萌妹玩游戏12 2025年12月14日12点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV15JmvBVEXV",
+            "locator": "BV15JmvBVEXV",
+            "excerpt": "【直播回放】【2D】萌妹玩游戏12 2025年12月14日13点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1143870052204806151",
+            "image": "../source/december-2025/1143870052204806151.jpg"
+          }
+        ]
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "series": "萌妹玩游戏",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "12:00"
     }
   ]
 }

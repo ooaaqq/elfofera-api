@@ -23,6 +23,11 @@ GET /v1/timeline?from=2026-10-09&through=2026-10-09&member=luzao&include=events,
 
 事件的 `guests` 返回已确认的外部嘉宾账号列表，每项含 `accountId`、`name`、`url`；没有已登记嘉宾时返回空数组。嘉宾与 EOE 成员分开记录，不依据联动参与者名单推断逐曲表演者。
 
+事件的 `stages` 按顺序返回已确认的连续直播阶段，包含 `title`、`dimension`、
+`titleHours` 和 `recordingBvids`；没有登记阶段时为空数组。阶段切换或断线重开
+不增加直播场次。`titleHours` 来自录播标题，不表示精确开播时间；事件的
+`dimension` 表示主要录播形态，完整切换过程参照阶段记录。
+
 `member` 支持 `luzao`（露早）、`youen`（柚恩）、`yumo`（虞莫）、`waner`（莞儿）和
 `minuo`（米诺）。事件按录播明确提及的成员或计划成员筛选；两类成员在返回值中
 分别保留。表演只按明确的 `creditedMembers` 筛选，不从整场参与者或上传者推断

@@ -1261,6 +1261,61 @@
       "dimension": "2d",
       "isUnannounced": false,
       "series": "看新三国"
+    },
+    {
+      "id": "evt_6e298819-09d7-4658-91be-a5533aa0c9ec",
+      "date": "2026-07-19",
+      "kind": "livestream",
+      "title": "棉花糖！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1JnKC6gEmi",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1JnKC6gEmi",
+            "locator": "BV1JnKC6gEmi",
+            "excerpt": "【直播回放】【2D】棉花糖！ 2026年07月19日19点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1JnKC6gEmi",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1JnKC6gEmi",
+            "locator": "BV1JnKC6gEmi",
+            "excerpt": "【直播回放】【2D】棉花糖！ 2026年07月19日19点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1cgKz6aE2P",
+            "locator": "BV1cgKz6aE2P",
+            "excerpt": "【直播回放】【2D】棉花糖！ 2026年07月19日19点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1224395535001059331",
+            "image": "../source/july-2026/1224395535001059331.png"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
     }
   ]
 }

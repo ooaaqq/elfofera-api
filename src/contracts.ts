@@ -53,6 +53,12 @@ const guestSchema = z.object({
   name: z.string(),
   url: z.url(),
 });
+const stageSchema = z.object({
+  title: z.string(),
+  dimension: z.string(),
+  titleHours: z.array(z.number().int().min(0).max(23)),
+  recordingBvids: z.array(z.string()),
+});
 const eventFields = {
   id: z.string(),
   date: z.string(),
@@ -63,6 +69,7 @@ const eventFields = {
   recordingNamedMembers: z.array(z.string()),
   plannedMembers: z.array(z.string()),
   guests: z.array(guestSchema),
+  stages: z.array(stageSchema),
   contentType: z.string().nullable(),
   series: z.string().nullable(),
   dimension: z.string().nullable(),
@@ -189,6 +196,7 @@ const eventDataSchema = z.object({
   recordingNamedMembers: z.array(z.string()).default([]),
   plannedMembers: z.array(z.string()).default([]),
   guests: z.array(guestSchema).default([]),
+  stages: z.array(stageSchema).default([]),
   contentType: z.string().optional(),
   series: z.string().optional(),
   dimension: z.string().optional(),
@@ -206,6 +214,7 @@ export function eventView(row: typeof events.$inferSelect) {
     recordingNamedMembers: data.recordingNamedMembers,
     plannedMembers: data.plannedMembers,
     guests: data.guests,
+    stages: data.stages,
     contentType: data.contentType ?? null,
     series: data.series ?? null,
     dimension: data.dimension ?? null,

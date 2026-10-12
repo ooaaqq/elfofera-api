@@ -116,6 +116,120 @@
       ],
       "note": "保留原计划；公告中的调整不视为精确实际开播时刻。",
       "relatedEventId": "evt_1a3d51ec-fa5c-4752-8068-188fd9280e22"
+    },
+    {
+      "date": "2026-10-12",
+      "action": "rescheduling",
+      "title": "露早2D直播由2026-10-17调整至2026-10-1819:30",
+      "members": [
+        "luzao"
+      ],
+      "originalPlan": {
+        "date": "2026-10-17",
+        "restDay": false,
+        "events": [
+          {
+            "members": [
+              "luzao"
+            ],
+            "plannedTime": "19:30",
+            "formatLabel": "2D",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "dynamicId": "1258164285900587029",
+          "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/5edcd1dfdb43e12d8321848d7875d0722018113152.jpg",
+          "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17露早2D19:30；10.18柚恩2D19:30。"
+        }
+      },
+      "from": {
+        "date": "2026-10-17",
+        "members": [
+          "luzao"
+        ],
+        "plannedTime": "19:30",
+        "formatLabel": "2D"
+      },
+      "to": {
+        "date": "2026-10-18",
+        "members": [
+          "luzao"
+        ],
+        "plannedTime": "19:30",
+        "formatLabel": "2D"
+      },
+      "announcementEventId": "evt_a4240a96-240e-4096-ab8b-adf3a2f7370c",
+      "eventId": "evt_a4240a96-240e-4096-ab8b-adf3a2f7370c",
+      "evidence": [
+        {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "dynamicId": "1258164285900587029",
+          "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        }
+      ],
+      "note": "直接对照官方动态原图与替换后的图片；原安排保存在originalPlan，当前计划使用更新后的图片。未将预告记为实际直播。"
+    },
+    {
+      "date": "2026-10-12",
+      "action": "rescheduling",
+      "title": "柚恩2D直播由2026-10-18调整至2026-10-1719:30",
+      "members": [
+        "youen"
+      ],
+      "originalPlan": {
+        "date": "2026-10-18",
+        "restDay": false,
+        "events": [
+          {
+            "members": [
+              "youen"
+            ],
+            "plannedTime": "19:30",
+            "formatLabel": "2D",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "dynamicId": "1258164285900587029",
+          "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/5edcd1dfdb43e12d8321848d7875d0722018113152.jpg",
+          "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17露早2D19:30；10.18柚恩2D19:30。"
+        }
+      },
+      "from": {
+        "date": "2026-10-18",
+        "members": [
+          "youen"
+        ],
+        "plannedTime": "19:30",
+        "formatLabel": "2D"
+      },
+      "to": {
+        "date": "2026-10-17",
+        "members": [
+          "youen"
+        ],
+        "plannedTime": "19:30",
+        "formatLabel": "2D"
+      },
+      "announcementEventId": "evt_a4240a96-240e-4096-ab8b-adf3a2f7370c",
+      "eventId": "evt_a4240a96-240e-4096-ab8b-adf3a2f7370c",
+      "evidence": [
+        {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "dynamicId": "1258164285900587029",
+          "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        }
+      ],
+      "note": "直接对照官方动态原图与替换后的图片；原安排保存在originalPlan，当前计划使用更新后的图片。未将预告记为实际直播。"
     }
   ]
 }

@@ -311,6 +311,206 @@
       "note": "按视频元数据记录翻唱/唱跳视频发布；未提供演出或录制日期，不按投稿日期建立直播表演。客串署名保留在原始简介中。"
     },
     {
+      "id": "evt_5b4dcb43-4520-480b-a124-1ad892167d67",
+      "date": "2026-05-06",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "仰望【露早翻唱】",
+      "publishedAt": "2026-05-06T12:53:20.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_6af9955b-ca05-452c-9ebc-71b788ad9579"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1MvRxBoE1V",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1MvRxBoE1V]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1MvRxBoE1V]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-05-06T12:53:20.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1MvRxBoE1V]",
+            "sourceField": "title",
+            "excerpt": "仰望【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1MvRxBoE1V]",
+            "sourceField": "title",
+            "excerpt": "仰望【露早翻唱】；精确匹配曲目：仰望"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n直播日期：2026年5月6日\n3D【不同天气下的小确幸】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.b"
+    },
+    {
+      "id": "evt_4f912787-c409-4de2-b33c-35aae3e48988",
+      "date": "2026-05-06",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "阴天【露早翻唱】",
+      "publishedAt": "2026-05-06T12:14:41.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_ea40e900-29d4-4b5e-a47f-baddcc383895"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1BdRxBGEDk",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BdRxBGEDk]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BdRxBGEDk]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-05-06T12:14:41.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BdRxBGEDk]",
+            "sourceField": "title",
+            "excerpt": "阴天【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BdRxBGEDk]",
+            "sourceField": "title",
+            "excerpt": "阴天【露早翻唱】；精确匹配曲目：阴天"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n直播日期：2026年5月6日\n3D【不同天气下的小确幸】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.b"
+    },
+    {
+      "id": "evt_17ea73db-5775-4ec1-8c8b-3d7e9b614b62",
+      "date": "2026-05-06",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "雪 (Snow) / Snowman【露早翻唱】",
+      "publishedAt": "2026-05-06T11:57:09.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_b8654403-a216-4987-9ead-6dfbc3fe0463"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1z9RxBCEWs",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1z9RxBCEWs]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1z9RxBCEWs]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-05-06T11:57:09.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1z9RxBCEWs]",
+            "sourceField": "title",
+            "excerpt": "雪 (Snow) / Snowman【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1z9RxBCEWs]",
+            "sourceField": "title",
+            "excerpt": "雪 (Snow) / Snowman【露早翻唱】；精确匹配曲目：雪 (Snow) / Snowman"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n直播日期：2026年5月6日\n3D【不同天气下的小确幸】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.b"
+    },
+    {
+      "id": "evt_6b20c7e6-c3e2-4305-b80b-db97b6026afd",
+      "date": "2026-05-06",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "晴天【露早翻唱】",
+      "publishedAt": "2026-05-06T11:47:08.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_ec83f0a1-e785-4ecb-808c-3da199cf2737"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1qfRxBgEHZ",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qfRxBgEHZ]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qfRxBgEHZ]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-05-06T11:47:08.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qfRxBgEHZ]",
+            "sourceField": "title",
+            "excerpt": "晴天【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qfRxBgEHZ]",
+            "sourceField": "title",
+            "excerpt": "晴天【露早翻唱】；精确匹配曲目：晴天"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n直播日期：2026年5月6日\n3D【不同天气下的小确幸】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.b"
+    },
+    {
       "id": "evt_96cf2d84-108c-4055-a007-dbd2ee5dbf24",
       "date": "2026-05-07",
       "kind": "livestream",
@@ -694,6 +894,56 @@
       "isUnannounced": false
     },
     {
+      "id": "evt_a37f372a-8560-4d98-85fc-4c9411c244ae",
+      "date": "2026-05-15",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "残酷月光【露早翻唱】",
+      "publishedAt": "2026-05-15T11:37:08.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_1b04176a-3ffc-4b1d-b8ba-01a57e91d05b"
+      ],
+      "assets": [
+        {
+          "bvid": "BV12H5q69Eq3",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV12H5q69Eq3]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV12H5q69Eq3]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-05-15T11:37:08.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV12H5q69Eq3]",
+            "sourceField": "title",
+            "excerpt": "残酷月光【露早翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch16.json",
+            "locator": "sources[accountId=3493074548296022].items[bvid=BV12H5q69Eq3]",
+            "sourceField": "title",
+            "excerpt": "残酷月光【露早翻唱】；精确匹配曲目：残酷月光"
+          }
+        ]
+      },
+      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+      "text": "https://live.bilibili.com/25512443\n直播日期：2026年5月15日\n3D【长大其实是一件很具体的事】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://spa"
+    },
+    {
       "id": "evt_6b49aa0c-4d6c-4941-988e-3d093726d5bc",
       "date": "2026-05-16",
       "kind": "livestream",
@@ -941,6 +1191,94 @@
       "dimension": "2d",
       "isUnannounced": false,
       "series": "看新三国"
+    },
+    {
+      "id": "evt_2e560f87-37e8-4aa3-bdcf-2343b4f718f1",
+      "date": "2026-05-23",
+      "kind": "livestream",
+      "title": "萌妹聊天",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19,
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1AqG66WE1P",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AqG66WE1P",
+            "locator": "BV1AqG66WE1P",
+            "excerpt": "【直播回放】【电台】萌妹聊天 2026年05月23日20点场；时长10582秒。"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1AqG66WE1P",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1PhGB6SErc",
+            "locator": "BV1PhGB6SErc",
+            "excerpt": "【直播回放】【2D】萌妹聊天玩游戏31 2026年05月23日19点场；时长440秒。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1oUGB6TEM5",
+            "locator": "BV1oUGB6TEM5",
+            "excerpt": "【直播回放】【电台】萌妹聊天 2026年05月23日19点场；时长2288秒。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AqG66WE1P",
+            "locator": "BV1AqG66WE1P",
+            "excerpt": "【直播回放】【电台】萌妹聊天 2026年05月23日20点场；时长10582秒。"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1203614765253918728",
+            "image": "../source/may-2026/1203614765253918728.jpg"
+          }
+        ]
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
+      "note": "同一晚直播由约7分20秒的2D《萌妹聊天玩游戏31》转为电台《萌妹聊天》；19点和20点电台录播作为后续阶段，不增加场次。",
+      "stages": [
+        {
+          "title": "萌妹聊天玩游戏31",
+          "dimension": "2d",
+          "titleHours": [
+            19
+          ],
+          "recordingBvids": [
+            "BV1PhGB6SErc"
+          ]
+        },
+        {
+          "title": "萌妹聊天",
+          "dimension": "1d",
+          "titleHours": [
+            19,
+            20
+          ],
+          "recordingBvids": [
+            "BV1oUGB6TEM5",
+            "BV1AqG66WE1P"
+          ]
+        }
+      ],
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30",
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_254e9915-aa4b-4c9e-9657-1c266495dcad",
@@ -1285,6 +1623,56 @@
       "note": "预告歌声文案不支持具体曲目，计划19:30和回放标题19点分开。"
     },
     {
+      "id": "evt_8cc5fba9-6818-4db1-b0f9-439d5692e05b",
+      "date": "2026-05-30",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "我们都在用力地活着",
+      "publishedAt": "2026-05-30T14:59:34.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_3ac83a66-3281-424a-ba6e-d1d54ea67bd0"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1HnVV6VE7k",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HnVV6VE7k]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HnVV6VE7k]",
+            "sourceField": "publishedAt",
+            "excerpt": "2026-05-30T14:59:34.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HnVV6VE7k]",
+            "sourceField": "title",
+            "excerpt": "我们都在用力地活着"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HnVV6VE7k]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "我们都在用力地活着\n原曲：BV1B7411T7w2\n参考版本：BV15r4y1g7BP\n填词&翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "原曲：BV1B7411T7w2\n参考版本：BV15r4y1g7BP\n填词&翻唱：柚恩"
+    },
+    {
       "id": "evt_a41f801c-4f9a-4dfa-9821-c33af7066bc1",
       "date": "2026-05-31",
       "kind": "livestream",
@@ -1422,306 +1810,6 @@
       "note": "按原目录明确曲目关联作品发布；有截断或身份候选时仅保留已确认部分，不表示全集完整。不按投稿日推断演出日期。",
       "title": "多曲共舞，每一帧都是你爱看的",
       "text": "原曲：\n《I like that》-SISTAR\n《AYA》-MAMAMOO\n《One spark》-TWICE\n《Zoo》-Shakira\n\n翻跳：柚恩"
-    },
-    {
-      "id": "evt_8cc5fba9-6818-4db1-b0f9-439d5692e05b",
-      "date": "2026-05-30",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "我们都在用力地活着",
-      "publishedAt": "2026-05-30T14:59:34.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_3ac83a66-3281-424a-ba6e-d1d54ea67bd0"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1HnVV6VE7k",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HnVV6VE7k]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HnVV6VE7k]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-05-30T14:59:34.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HnVV6VE7k]",
-            "sourceField": "title",
-            "excerpt": "我们都在用力地活着"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HnVV6VE7k]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "我们都在用力地活着\n原曲：BV1B7411T7w2\n参考版本：BV15r4y1g7BP\n填词&翻唱：柚恩"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "原曲：BV1B7411T7w2\n参考版本：BV15r4y1g7BP\n填词&翻唱：柚恩"
-    },
-    {
-      "id": "evt_a37f372a-8560-4d98-85fc-4c9411c244ae",
-      "date": "2026-05-15",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "残酷月光【露早翻唱】",
-      "publishedAt": "2026-05-15T11:37:08.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_1b04176a-3ffc-4b1d-b8ba-01a57e91d05b"
-      ],
-      "assets": [
-        {
-          "bvid": "BV12H5q69Eq3",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV12H5q69Eq3]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV12H5q69Eq3]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-05-15T11:37:08.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV12H5q69Eq3]",
-            "sourceField": "title",
-            "excerpt": "残酷月光【露早翻唱】"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV12H5q69Eq3]",
-            "sourceField": "title",
-            "excerpt": "残酷月光【露早翻唱】；精确匹配曲目：残酷月光"
-          }
-        ]
-      },
-      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
-      "text": "https://live.bilibili.com/25512443\n直播日期：2026年5月15日\n3D【长大其实是一件很具体的事】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://spa"
-    },
-    {
-      "id": "evt_5b4dcb43-4520-480b-a124-1ad892167d67",
-      "date": "2026-05-06",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "仰望【露早翻唱】",
-      "publishedAt": "2026-05-06T12:53:20.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_6af9955b-ca05-452c-9ebc-71b788ad9579"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1MvRxBoE1V",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1MvRxBoE1V]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1MvRxBoE1V]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-05-06T12:53:20.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1MvRxBoE1V]",
-            "sourceField": "title",
-            "excerpt": "仰望【露早翻唱】"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1MvRxBoE1V]",
-            "sourceField": "title",
-            "excerpt": "仰望【露早翻唱】；精确匹配曲目：仰望"
-          }
-        ]
-      },
-      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
-      "text": "https://live.bilibili.com/25512443\n直播日期：2026年5月6日\n3D【不同天气下的小确幸】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.b"
-    },
-    {
-      "id": "evt_4f912787-c409-4de2-b33c-35aae3e48988",
-      "date": "2026-05-06",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "阴天【露早翻唱】",
-      "publishedAt": "2026-05-06T12:14:41.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_ea40e900-29d4-4b5e-a47f-baddcc383895"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1BdRxBGEDk",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BdRxBGEDk]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BdRxBGEDk]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-05-06T12:14:41.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BdRxBGEDk]",
-            "sourceField": "title",
-            "excerpt": "阴天【露早翻唱】"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1BdRxBGEDk]",
-            "sourceField": "title",
-            "excerpt": "阴天【露早翻唱】；精确匹配曲目：阴天"
-          }
-        ]
-      },
-      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
-      "text": "https://live.bilibili.com/25512443\n直播日期：2026年5月6日\n3D【不同天气下的小确幸】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.b"
-    },
-    {
-      "id": "evt_17ea73db-5775-4ec1-8c8b-3d7e9b614b62",
-      "date": "2026-05-06",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "雪 (Snow) / Snowman【露早翻唱】",
-      "publishedAt": "2026-05-06T11:57:09.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_b8654403-a216-4987-9ead-6dfbc3fe0463"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1z9RxBCEWs",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1z9RxBCEWs]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1z9RxBCEWs]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-05-06T11:57:09.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1z9RxBCEWs]",
-            "sourceField": "title",
-            "excerpt": "雪 (Snow) / Snowman【露早翻唱】"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1z9RxBCEWs]",
-            "sourceField": "title",
-            "excerpt": "雪 (Snow) / Snowman【露早翻唱】；精确匹配曲目：雪 (Snow) / Snowman"
-          }
-        ]
-      },
-      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
-      "text": "https://live.bilibili.com/25512443\n直播日期：2026年5月6日\n3D【不同天气下的小确幸】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.b"
-    },
-    {
-      "id": "evt_6b20c7e6-c3e2-4305-b80b-db97b6026afd",
-      "date": "2026-05-06",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "晴天【露早翻唱】",
-      "publishedAt": "2026-05-06T11:47:08.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_ec83f0a1-e785-4ecb-808c-3da199cf2737"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1qfRxBgEHZ",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qfRxBgEHZ]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qfRxBgEHZ]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-05-06T11:47:08.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qfRxBgEHZ]",
-            "sourceField": "title",
-            "excerpt": "晴天【露早翻唱】"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1qfRxBgEHZ]",
-            "sourceField": "title",
-            "excerpt": "晴天【露早翻唱】；精确匹配曲目：晴天"
-          }
-        ]
-      },
-      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
-      "text": "https://live.bilibili.com/25512443\n直播日期：2026年5月6日\n3D【不同天气下的小确幸】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.b"
     }
   ]
 }

@@ -2467,6 +2467,159 @@
       "contentType": "unknown",
       "dimension": "unknown",
       "isUnannounced": false
+    },
+    {
+      "id": "evt_d4b79fd6-c918-4605-b653-08cdeef2d7cf",
+      "date": "2024-06-03",
+      "kind": "livestream",
+      "title": "偷偷玩4399",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        21
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1HS411K7tD",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1HS411K7tD",
+            "locator": "BV1HS411K7tD",
+            "excerpt": "【直播回放】【2D】偷偷玩4399 2024年6月3日21点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1HS411K7tD",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1HS411K7tD",
+            "locator": "BV1HS411K7tD",
+            "excerpt": "【直播回放】【2D】偷偷玩4399 2024年6月3日21点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1jM4m1677c",
+            "locator": "BV1jM4m1677c",
+            "excerpt": "【直播回放】【2D】偷偷玩4399 2024年6月3日21点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "938722741058535448",
+            "image": "../source/june-2024/938722741058535448.jpg"
+          }
+        ]
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "21:30"
+    },
+    {
+      "id": "evt_fb6c987c-857f-4ee3-99db-ec12303d62d1",
+      "date": "2024-06-28",
+      "kind": "livestream",
+      "title": "女寝皆是修罗场2",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Di421a7LK",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Di421a7LK",
+            "locator": "BV1Di421a7LK",
+            "excerpt": "【直播回放】【2D】女寝皆是修罗场2 2024年6月28日18点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Di421a7LK",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Di421a7LK",
+            "locator": "BV1Di421a7LK",
+            "excerpt": "【直播回放】【2D】女寝皆是修罗场2 2024年6月28日18点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "946394755200188421",
+            "image": "../source/june-2024/946394755200188421.png"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "19:00"
+    },
+    {
+      "id": "evt_d1b765b1-ff6b-4660-b6b8-60d0b2e8d7a5",
+      "date": "2024-06-28",
+      "kind": "livestream",
+      "title": "玩GOGOTOWN!",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Cb421H7J4",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Cb421H7J4",
+            "locator": "BV1Cb421H7J4",
+            "excerpt": "【直播回放】【2D】玩GOGOTOWN! 2024年6月28日18点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Cb421H7J4",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Cb421H7J4",
+            "locator": "BV1Cb421H7J4",
+            "excerpt": "【直播回放】【2D】玩GOGOTOWN! 2024年6月28日18点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "946394755200188421",
+            "image": "../source/june-2024/946394755200188421.png"
+          }
+        ]
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "21:00"
     }
   ]
 }

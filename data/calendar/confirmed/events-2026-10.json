@@ -853,8 +853,8 @@
             "kind": "bilibili-dynamic",
             "url": "https://t.bilibili.com/1258164285900587029",
             "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/5edcd1dfdb43e12d8321848d7875d0722018113152.jpg",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17露早2D19:30；10.18柚恩2D19:30。"
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
           }
         ],
         "schedule": [
@@ -862,8 +862,48 @@
             "kind": "bilibili-dynamic",
             "url": "https://t.bilibili.com/1258164285900587029",
             "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/5edcd1dfdb43e12d8321848d7875d0722018113152.jpg",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17露早2D19:30；10.18柚恩2D19:30。"
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_a4240a96-240e-4096-ab8b-adf3a2f7370c",
+      "date": "2026-10-12",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "官方周表更新：10月17日柚恩、18日露早，均19:30",
+      "text": "官方替换同一条周表动态的图片，将周六、周日的露早与柚恩安排互换；其他安排不变，未说明调整原因或精确修改时刻。",
+      "occurrence": "announced",
+      "relatedEventId": "evt_85a4b770-16fd-4d73-bef1-b6a977de65c6",
+      "announcedActivity": {
+        "members": [
+          "luzao",
+          "youen"
+        ],
+        "dates": [
+          "2026-10-17",
+          "2026-10-18"
+        ]
+      },
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258164285900587029",
+            "dynamicId": "1258164285900587029",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258164285900587029",
+            "dynamicId": "1258164285900587029",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
           }
         ]
       }

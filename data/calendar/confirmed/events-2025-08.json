@@ -1358,6 +1358,119 @@
       "contentType": "unknown",
       "dimension": "2d",
       "isUnannounced": false
+    },
+    {
+      "id": "evt_0db4953c-4804-4ca5-a1d5-b94c67f80dd7",
+      "date": "2025-08-27",
+      "kind": "livestream",
+      "title": "男V女V向前冲-女生季！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen",
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1TRemzDEB2",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1TRemzDEB2",
+            "locator": "BV1TRemzDEB2",
+            "excerpt": "【直播回放】【3D】男V女V向前冲-女生季！ 2025年08月27日19点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1TRemzDEB2",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1TRemzDEB2",
+            "locator": "BV1TRemzDEB2",
+            "excerpt": "【直播回放】【3D】男V女V向前冲-女生季！ 2025年08月27日19点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1BVeUzqEhZ",
+            "locator": "BV1BVeUzqEhZ",
+            "excerpt": "【直播回放】【3D】男V女V向前冲-女生季！ 2025年08月27日19点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1104906108874522633",
+            "image": "../source/august-2025/1104906108874522633.jpg"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "plannedTime": "19:00"
+    },
+    {
+      "id": "evt_5f592688-6eb2-48bb-b3f9-94fbdf7f6f7e",
+      "date": "2025-08-29",
+      "kind": "livestream",
+      "title": "七夕快乐！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20,
+        21
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1MshZz3Eku",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1MshZz3Eku",
+            "locator": "BV1MshZz3Eku",
+            "excerpt": "【直播回放】【电台】七夕快乐！ 2025年08月29日21点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1MshZz3Eku",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1MshZz3Eku",
+            "locator": "BV1MshZz3Eku",
+            "excerpt": "【直播回放】【电台】七夕快乐！ 2025年08月29日21点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1bnhdzNEYU",
+            "locator": "BV1bnhdzNEYU",
+            "excerpt": "【直播回放】【电台】七夕快乐！ 2025年08月29日20点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1104906108874522633",
+            "image": "../source/august-2025/1104906108874522633.jpg"
+          }
+        ]
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "21:00"
     }
   ]
 }

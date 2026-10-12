@@ -1724,6 +1724,69 @@
       },
       "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
       "text": "终于剪好了，等待3D的日子还有一些囤货，等我慢慢来(*¯︶¯*)\n\n原曲：SOLO - Jennie\n翻唱&翻跳：柚恩"
+    },
+    {
+      "id": "evt_5c274f2f-c5f2-4058-8b88-5680774e774b",
+      "date": "2024-10-01",
+      "kind": "livestream",
+      "title": "早上好，逐日中！！！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        5,
+        6,
+        7
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1pFx8e1EYW",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1pFx8e1EYW",
+            "locator": "BV1pFx8e1EYW",
+            "excerpt": "【直播回放】早上好，逐日中！！！！ 2024年10月01日06点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1pFx8e1EYW",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1pFx8e1EYW",
+            "locator": "BV1pFx8e1EYW",
+            "excerpt": "【直播回放】早上好，逐日中！！！！ 2024年10月01日06点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1JKx8erE2K",
+            "locator": "BV1JKx8erE2K",
+            "excerpt": "【直播回放】早上好，逐日中！！！！ 2024年10月01日05点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1WFx8e1EtE",
+            "locator": "BV1WFx8e1EtE",
+            "excerpt": "【直播回放】早上好，逐日中！！！！ 2024年10月01日07点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "982854376078966804",
+            "image": "../source/september-2024/982854376078966804.png"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "05:00"
     }
   ]
 }

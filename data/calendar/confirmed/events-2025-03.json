@@ -1222,6 +1222,106 @@
         ]
       },
       "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_181251eb-7ec1-4174-afa4-a50ca098d2e6",
+      "date": "2025-03-14",
+      "kind": "livestream",
+      "title": "白色情人节！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        16
+      ],
+      "recordings": [
+        {
+          "bvid": "BV16oQgYKEpr",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV16oQgYKEpr",
+            "locator": "BV16oQgYKEpr",
+            "excerpt": "【直播回放】【电台】白色情人节！ 2025年03月14日16点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV16oQgYKEpr",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV16oQgYKEpr",
+            "locator": "BV16oQgYKEpr",
+            "excerpt": "【直播回放】【电台】白色情人节！ 2025年03月14日16点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1PbQ3Y5ERr",
+            "locator": "BV1PbQ3Y5ERr",
+            "excerpt": "【直播回放】【电台】白色情人节！ 2025年03月14日16点场"
+          }
+        ]
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
+    },
+    {
+      "id": "evt_cce69755-a0d2-4bce-83e6-4d06f69a808d",
+      "date": "2025-03-24",
+      "kind": "livestream",
+      "title": "快上车！！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1uWo2YAE9K",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1uWo2YAE9K",
+            "locator": "BV1uWo2YAE9K",
+            "excerpt": "【直播回放】【2D】快上车！！！ 2025年03月24日19点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1uWo2YAE9K",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1uWo2YAE9K",
+            "locator": "BV1uWo2YAE9K",
+            "excerpt": "【直播回放】【2D】快上车！！！ 2025年03月24日19点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Xfo2YMEb5",
+            "locator": "BV1Xfo2YMEb5",
+            "excerpt": "【直播回放】【2D】快上车！！！ 2025年03月24日19点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1047758992012476432",
+            "image": "../source/march-2025/1047758992012476432.jpg"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
     }
   ]
 }

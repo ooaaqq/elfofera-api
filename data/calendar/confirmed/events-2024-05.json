@@ -3713,6 +3713,108 @@
       },
       "note": "该条记录 demo 披露及作品关联；没有证据证明此短视频本身是现场演唱，不新增 performance。",
       "text": "演唱：柚恩\n作词：柚恩\n作曲：柚恩、史展恺"
+    },
+    {
+      "id": "evt_4dfac024-9217-46d0-a1ae-e683caf0a359",
+      "date": "2024-05-14",
+      "kind": "livestream",
+      "title": "都给我进来",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        16,
+        17
+      ],
+      "recordings": [
+        {
+          "bvid": "BV13m421g7xk",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV13m421g7xk",
+            "locator": "BV13m421g7xk",
+            "excerpt": "【直播回放】【电台】都给我进来 2024年5月14日16点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV13m421g7xk",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV13m421g7xk",
+            "locator": "BV13m421g7xk",
+            "excerpt": "【直播回放】【电台】都给我进来 2024年5月14日16点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ds421A739",
+            "locator": "BV1ds421A739",
+            "excerpt": "【直播回放】【电台】都给我进来 2024年5月14日17点场"
+          }
+        ]
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false
+    },
+    {
+      "id": "evt_549d7a53-5279-4699-869d-96eff2e7bb2d",
+      "date": "2024-05-17",
+      "kind": "livestream",
+      "title": "在路上",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        21,
+        22
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1HD421A7M1",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1HD421A7M1",
+            "locator": "BV1HD421A7M1",
+            "excerpt": "【直播回放】在路上 2024年5月17日22点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1HD421A7M1",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1HD421A7M1",
+            "locator": "BV1HD421A7M1",
+            "excerpt": "【直播回放】在路上 2024年5月17日22点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1LM4m1y7TW",
+            "locator": "BV1LM4m1y7TW",
+            "excerpt": "【直播回放】在路上 2024年5月17日21点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "930801446951059459",
+            "image": "../source/may-2024/930801446951059459.jpg"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "21:00"
     }
   ]
 }

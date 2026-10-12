@@ -177,6 +177,56 @@
       "isUnannounced": false
     },
     {
+      "id": "evt_d3b946a2-250a-4dc1-aac3-7a814ec0c3a6",
+      "date": "2024-07-03",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "『好运来DJ版』【柚恩翻唱】",
+      "publishedAt": "2024-07-03T12:51:14.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_457ab109-3e7e-46b8-b5ba-ac751490ba2e"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1oW421R7yy",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch18.json",
+            "locator": "sources[accountId=105260060,page=35].items[bvid=BV1oW421R7yy]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch18.json",
+            "locator": "sources[accountId=105260060,page=35].items[bvid=BV1oW421R7yy]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-07-03T12:51:14.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch18.json",
+            "locator": "sources[accountId=105260060,page=35].items[bvid=BV1oW421R7yy]",
+            "sourceField": "title",
+            "excerpt": "『好运来DJ版』【柚恩翻唱】"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch18.json",
+            "locator": "sources[accountId=105260060,page=35].items[bvid=BV1oW421R7yy]",
+            "sourceField": "title",
+            "excerpt": "『好运来DJ版』【柚恩翻唱】；匹配曲目：好运来DJ版"
+          }
+        ]
+      },
+      "note": "周报目录明确曲名及柚恩歌舞/翻跳内容；本条只确认投稿发布与作品关联，不以投稿日期推断演出日期。",
+      "text": "2024.07.03\n\n原唱：祖海\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
+    },
+    {
       "id": "evt_bd45f08b-560e-4d8c-b93d-2d1d14d8a621",
       "date": "2024-07-04",
       "kind": "livestream",
@@ -500,6 +550,86 @@
       "contentType": "unknown",
       "dimension": "2d",
       "isUnannounced": false
+    },
+    {
+      "id": "evt_ecf71050-7ed3-4ace-9078-bf78589b9b68",
+      "date": "2024-07-08",
+      "kind": "livestream",
+      "title": "突突突突突突",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        0
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1fi421a7n4",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fi421a7n4",
+            "locator": "BV1fi421a7n4",
+            "excerpt": "【直播回放】突突突突突突 2024年07月08日00点场；时长6823秒。"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1fi421a7n4",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fi421a7n4",
+            "locator": "BV1fi421a7n4",
+            "excerpt": "【直播回放】突突突突突突 2024年07月08日00点场；时长6823秒。"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
+      "note": "官方录播标题为00点场，时长约114分钟；与同日18点场相隔18小时，保留独立场次，不按同名合并。"
+    },
+    {
+      "id": "evt_54c4299a-3b25-4e6b-8eb6-bab3fa3d8148",
+      "date": "2024-07-08",
+      "kind": "livestream",
+      "title": "突突突突突突",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1yJ4m1T7gb",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1yJ4m1T7gb",
+            "locator": "BV1yJ4m1T7gb",
+            "excerpt": "【直播回放】突突突突突突 2024年07月08日18点场；时长4525秒。"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1yJ4m1T7gb",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1yJ4m1T7gb",
+            "locator": "BV1yJ4m1T7gb",
+            "excerpt": "【直播回放】突突突突突突 2024年07月08日18点场；时长4525秒。"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
+      "note": "官方录播标题为18点场，时长约75分钟；与同日00点场分开记录。"
     },
     {
       "id": "evt_ca6b06ee-2223-4c33-ae70-aa90a9a130c1",
@@ -1424,6 +1554,56 @@
       "isUnannounced": false
     },
     {
+      "id": "evt_e0cab64b-59b1-486b-a818-fb9af4e7fe55",
+      "date": "2024-07-20",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "乐意效劳，但虚拟偶像",
+      "publishedAt": "2024-07-20T09:20:29.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_92943ec1-b0fd-4f1a-be7e-219ac1a6531c"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1K4421f7sF",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1K4421f7sF]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1K4421f7sF]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-07-20T09:20:29.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1K4421f7sF]",
+            "sourceField": "title",
+            "excerpt": "乐意效劳，但虚拟偶像"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1K4421f7sF]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "乐意效劳，但虚拟偶像\n乐华天堂！！(*¯︶¯*)\n\nはいよろこんで\n翻跳&翻唱：柚恩\n参考视频：BV1em421G7oG"
+          }
+        ]
+      },
+      "note": "目录原文明确作品或原曲，补入投稿 publication；不从投稿日期推断演出日期。",
+      "text": "乐华天堂！！(*¯︶¯*)\n\nはいよろこんで\n翻跳&翻唱：柚恩\n参考视频：BV1em421G7oG"
+    },
+    {
       "id": "evt_29a4a98c-eaff-4ef7-95dd-1b32c7428c40",
       "date": "2024-07-21",
       "kind": "livestream",
@@ -1457,6 +1637,56 @@
       "contentType": "unknown",
       "dimension": "unknown",
       "isUnannounced": false
+    },
+    {
+      "id": "evt_2fade5e1-2e27-499b-b0e1-c765acbb0c5b",
+      "date": "2024-07-21",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "神啊，可不可以让我感受一下",
+      "publishedAt": "2024-07-21T11:55:56.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_1c6e9906-5189-4fd0-bb72-8d012245f7ee"
+      ],
+      "assets": [
+        {
+          "bvid": "BV14n4y1f7pm",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14n4y1f7pm]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14n4y1f7pm]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-07-21T11:55:56.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14n4y1f7pm]",
+            "sourceField": "title",
+            "excerpt": "神啊，可不可以让我感受一下"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14n4y1f7pm]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "神啊，可不可以让我感受一下\n好美的舞，一瞬间爱上(*¯︶¯*)\n\n原曲：暮色回响\n编舞：BV16T421a71Z\n翻唱&翻跳：柚恩"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "好美的舞，一瞬间爱上(*¯︶¯*)\n\n原曲：暮色回响\n编舞：BV16T421a71Z\n翻唱&翻跳：柚恩"
     },
     {
       "id": "evt_ac603370-8ca8-4e26-baf4-544a523cf9e8",
@@ -1930,6 +2160,56 @@
       "isUnannounced": false
     },
     {
+      "id": "evt_50ecc3b9-0c8a-4e16-9a54-026ad4a83130",
+      "date": "2024-07-27",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "甜美清冷感翻唱｜绝区零朱鸢EP《一颗方糖悬滞的时间》",
+      "publishedAt": "2024-07-27T09:10:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_7204cd74-686d-478f-9603-51b2606ef7b4"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1Fy411v7fV",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Fy411v7fV]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Fy411v7fV]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-07-27T09:10:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Fy411v7fV]",
+            "sourceField": "title",
+            "excerpt": "甜美清冷感翻唱｜绝区零朱鸢EP《一颗方糖悬滞的时间》"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Fy411v7fV]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "甜美清冷感翻唱｜绝区零朱鸢EP《一颗方糖悬滞的时间》\n原曲：BV1Zf421q7Ro\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "原曲：BV1Zf421q7Ro\n翻唱：柚恩"
+    },
+    {
       "id": "evt_d5b36a98-036b-47d4-9cc7-6cbf2cfa046b",
       "date": "2024-07-28",
       "kind": "livestream",
@@ -2123,6 +2403,106 @@
       "isUnannounced": false
     },
     {
+      "id": "evt_a0b2febf-9971-405c-b780-edb603ff915c",
+      "date": "2024-07-29",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "“Departures ～赠予你的爱之歌～”",
+      "publishedAt": "2024-07-29T09:20:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_e63353a2-4ece-4047-9e78-8723a63c8278"
+      ],
+      "assets": [
+        {
+          "bvid": "BV14z421i78u",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14z421i78u]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14z421i78u]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-07-29T09:20:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14z421i78u]",
+            "sourceField": "title",
+            "excerpt": "“Departures ～赠予你的爱之歌～”"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14z421i78u]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "“Departures ～赠予你的爱之歌～”\n“柚恩蜜，生日快乐。”\n\n原曲：Departures 〜あなたにおくるアイの歌〜  - EGOIST\n翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "“柚恩蜜，生日快乐。”\n\n原曲：Departures 〜あなたにおくるアイの歌〜  - EGOIST\n翻唱：柚恩"
+    },
+    {
+      "id": "evt_ac6269cb-ed0b-4a8f-ad3c-79c9c6ee5a6e",
+      "date": "2024-07-29",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "【原创曲舞台】这一枪的威力，你可承受得住？Hunter Games",
+      "publishedAt": "2024-07-29T04:00:00.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_6bd601ec-90ae-4cad-a72a-5262797012c7"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1UT42167Au",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UT42167Au]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UT42167Au]",
+            "sourceField": "publishedAt",
+            "excerpt": "2024-07-29T04:00:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UT42167Au]",
+            "sourceField": "title",
+            "excerpt": "【原创曲舞台】这一枪的威力，你可承受得住？Hunter Games"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-first-pages.json",
+            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UT42167Au]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "【原创曲舞台】这一枪的威力，你可承受得住？Hunter Games\nPlaying the hunter games"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "Playing the hunter games"
+    },
+    {
       "id": "evt_4e7f6f3a-5e03-4893-a1d2-2ba33593b3e8",
       "date": "2024-07-30",
       "kind": "livestream",
@@ -2307,106 +2687,6 @@
       }
     },
     {
-      "id": "evt_a0b2febf-9971-405c-b780-edb603ff915c",
-      "date": "2024-07-29",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "“Departures ～赠予你的爱之歌～”",
-      "publishedAt": "2024-07-29T09:20:00.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_e63353a2-4ece-4047-9e78-8723a63c8278"
-      ],
-      "assets": [
-        {
-          "bvid": "BV14z421i78u",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14z421i78u]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14z421i78u]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-07-29T09:20:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14z421i78u]",
-            "sourceField": "title",
-            "excerpt": "“Departures ～赠予你的爱之歌～”"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14z421i78u]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "“Departures ～赠予你的爱之歌～”\n“柚恩蜜，生日快乐。”\n\n原曲：Departures 〜あなたにおくるアイの歌〜  - EGOIST\n翻唱：柚恩"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "“柚恩蜜，生日快乐。”\n\n原曲：Departures 〜あなたにおくるアイの歌〜  - EGOIST\n翻唱：柚恩"
-    },
-    {
-      "id": "evt_2fade5e1-2e27-499b-b0e1-c765acbb0c5b",
-      "date": "2024-07-21",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "神啊，可不可以让我感受一下",
-      "publishedAt": "2024-07-21T11:55:56.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_1c6e9906-5189-4fd0-bb72-8d012245f7ee"
-      ],
-      "assets": [
-        {
-          "bvid": "BV14n4y1f7pm",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14n4y1f7pm]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14n4y1f7pm]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-07-21T11:55:56.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14n4y1f7pm]",
-            "sourceField": "title",
-            "excerpt": "神啊，可不可以让我感受一下"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV14n4y1f7pm]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "神啊，可不可以让我感受一下\n好美的舞，一瞬间爱上(*¯︶¯*)\n\n原曲：暮色回响\n编舞：BV16T421a71Z\n翻唱&翻跳：柚恩"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "好美的舞，一瞬间爱上(*¯︶¯*)\n\n原曲：暮色回响\n编舞：BV16T421a71Z\n翻唱&翻跳：柚恩"
-    },
-    {
       "id": "evt_5b6a5ad2-de73-41ed-a0d2-173da4872194",
       "date": "2024-07-31",
       "kind": "publication",
@@ -2455,206 +2735,6 @@
       },
       "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
       "text": "（微笑）（微笑）（微笑）\n美人虞要天天开心呐"
-    },
-    {
-      "id": "evt_50ecc3b9-0c8a-4e16-9a54-026ad4a83130",
-      "date": "2024-07-27",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "甜美清冷感翻唱｜绝区零朱鸢EP《一颗方糖悬滞的时间》",
-      "publishedAt": "2024-07-27T09:10:00.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_7204cd74-686d-478f-9603-51b2606ef7b4"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1Fy411v7fV",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Fy411v7fV]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Fy411v7fV]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-07-27T09:10:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Fy411v7fV]",
-            "sourceField": "title",
-            "excerpt": "甜美清冷感翻唱｜绝区零朱鸢EP《一颗方糖悬滞的时间》"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Fy411v7fV]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "甜美清冷感翻唱｜绝区零朱鸢EP《一颗方糖悬滞的时间》\n原曲：BV1Zf421q7Ro\n翻唱：柚恩"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "原曲：BV1Zf421q7Ro\n翻唱：柚恩"
-    },
-    {
-      "id": "evt_ac6269cb-ed0b-4a8f-ad3c-79c9c6ee5a6e",
-      "date": "2024-07-29",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "【原创曲舞台】这一枪的威力，你可承受得住？Hunter Games",
-      "publishedAt": "2024-07-29T04:00:00.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_6bd601ec-90ae-4cad-a72a-5262797012c7"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1UT42167Au",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UT42167Au]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UT42167Au]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-07-29T04:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UT42167Au]",
-            "sourceField": "title",
-            "excerpt": "【原创曲舞台】这一枪的威力，你可承受得住？Hunter Games"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UT42167Au]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "【原创曲舞台】这一枪的威力，你可承受得住？Hunter Games\nPlaying the hunter games"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "Playing the hunter games"
-    },
-    {
-      "id": "evt_d3b946a2-250a-4dc1-aac3-7a814ec0c3a6",
-      "date": "2024-07-03",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "『好运来DJ版』【柚恩翻唱】",
-      "publishedAt": "2024-07-03T12:51:14.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_457ab109-3e7e-46b8-b5ba-ac751490ba2e"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1oW421R7yy",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[accountId=105260060,page=35].items[bvid=BV1oW421R7yy]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[accountId=105260060,page=35].items[bvid=BV1oW421R7yy]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-07-03T12:51:14.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[accountId=105260060,page=35].items[bvid=BV1oW421R7yy]",
-            "sourceField": "title",
-            "excerpt": "『好运来DJ版』【柚恩翻唱】"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[accountId=105260060,page=35].items[bvid=BV1oW421R7yy]",
-            "sourceField": "title",
-            "excerpt": "『好运来DJ版』【柚恩翻唱】；匹配曲目：好运来DJ版"
-          }
-        ]
-      },
-      "note": "周报目录明确曲名及柚恩歌舞/翻跳内容；本条只确认投稿发布与作品关联，不以投稿日期推断演出日期。",
-      "text": "2024.07.03\n\n原唱：祖海\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
-    },
-    {
-      "id": "evt_e0cab64b-59b1-486b-a818-fb9af4e7fe55",
-      "date": "2024-07-20",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "乐意效劳，但虚拟偶像",
-      "publishedAt": "2024-07-20T09:20:29.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_92943ec1-b0fd-4f1a-be7e-219ac1a6531c"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1K4421f7sF",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1K4421f7sF]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1K4421f7sF]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-07-20T09:20:29.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1K4421f7sF]",
-            "sourceField": "title",
-            "excerpt": "乐意效劳，但虚拟偶像"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1K4421f7sF]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "乐意效劳，但虚拟偶像\n乐华天堂！！(*¯︶¯*)\n\nはいよろこんで\n翻跳&翻唱：柚恩\n参考视频：BV1em421G7oG"
-          }
-        ]
-      },
-      "note": "目录原文明确作品或原曲，补入投稿 publication；不从投稿日期推断演出日期。",
-      "text": "乐华天堂！！(*¯︶¯*)\n\nはいよろこんで\n翻跳&翻唱：柚恩\n参考视频：BV1em421G7oG"
     }
   ]
 }

@@ -1813,6 +1813,74 @@
       "contentType": "unknown",
       "dimension": "3d",
       "isUnannounced": false
+    },
+    {
+      "id": "evt_923293aa-e48e-4550-8eee-b009a2547abd",
+      "date": "2026-03-06",
+      "kind": "livestream",
+      "title": "萌妹玩游戏22我去！三角洲！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1KRPxzjE2z",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1KRPxzjE2z",
+            "locator": "BV1KRPxzjE2z",
+            "excerpt": "【直播回放】【2D】萌妹玩游戏22我去！三角洲！ 2026年03月06日19点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1KRPxzjE2z",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1KRPxzjE2z",
+            "locator": "BV1KRPxzjE2z",
+            "excerpt": "【直播回放】【2D】萌妹玩游戏22我去！三角洲！ 2026年03月06日19点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1gyPWzLEpL",
+            "locator": "BV1gyPWzLEpL",
+            "excerpt": "【直播回放】【2D】萌妹玩游戏22我去！三角洲！ 2026年03月06日19点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1uyPWzLEps",
+            "locator": "BV1uyPWzLEps",
+            "excerpt": "【直播回放】【2D】萌妹玩游戏22我去！三角洲！ 2026年03月06日19点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1SyPWz5Ef5",
+            "locator": "BV1SyPWz5Ef5",
+            "excerpt": "【直播回放】【2D】萌妹玩游戏22我去！三角洲！ 2026年03月06日19点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1175041206857498629",
+            "image": "../source/march-2026/1175041206857498629.jpg"
+          }
+        ]
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "series": "萌妹玩游戏",
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
     }
   ]
 }

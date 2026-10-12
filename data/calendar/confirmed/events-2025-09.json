@@ -1245,6 +1245,62 @@
       },
       "note": "原曲 BV 详情标题明确为《请不要带我走》；成员投稿简介将该 BV 作为原曲并标注柚恩表演。 只确认投稿发布与作品关联，不由投稿日期推断演出日期。",
       "text": "听见了吗，那跨越时空的对话。\n她在说——\n“大好河山，寸土不让。”\n\n原曲：BV1X5E3z7EN9\n舞蹈参考：BV156bqzQEip BV1pMT4z7Esn\n翻唱&表演：柚恩&UU0510\n运镜：@白醋wv"
+    },
+    {
+      "id": "evt_a3199a1b-2884-4230-91bf-10a9072719b5",
+      "date": "2025-09-06",
+      "kind": "livestream",
+      "title": "醒了。",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19,
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1zgYMzWEbG",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1zgYMzWEbG",
+            "locator": "BV1zgYMzWEbG",
+            "excerpt": "【直播回放】【2D】醒了。 2025年09月06日20点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1zgYMzWEbG",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1zgYMzWEbG",
+            "locator": "BV1zgYMzWEbG",
+            "excerpt": "【直播回放】【2D】醒了。 2025年09月06日20点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1zPYKzSEiX",
+            "locator": "BV1zPYKzSEiX",
+            "excerpt": "【直播回放】【2D】醒了。 2025年09月06日19点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1107503705083609092",
+            "image": "../source/september-2025/1107503705083609092.jpg"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
     }
   ]
 }

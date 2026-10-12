@@ -1284,6 +1284,62 @@
       "contentType": "unknown",
       "dimension": "3d",
       "isUnannounced": false
+    },
+    {
+      "id": "evt_93319d70-66a3-41ab-9a36-73b68197fceb",
+      "date": "2025-01-20",
+      "kind": "livestream",
+      "title": "想你们啦！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20,
+        22
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1AZwWeuEUR",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AZwWeuEUR",
+            "locator": "BV1AZwWeuEUR",
+            "excerpt": "【直播回放】【电台】想你们啦！ 2025年01月20日20点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1AZwWeuEUR",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AZwWeuEUR",
+            "locator": "BV1AZwWeuEUR",
+            "excerpt": "【直播回放】【电台】想你们啦！ 2025年01月20日20点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AZwWeuEZM",
+            "locator": "BV1AZwWeuEZM",
+            "excerpt": "【直播回放】【电台】想你们啦！ 2025年01月20日22点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1024380138556489800",
+            "image": "../source/january-2025/1024380138556489800.jpg"
+          }
+        ]
+      },
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
     }
   ]
 }

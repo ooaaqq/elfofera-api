@@ -1878,6 +1878,61 @@
       },
       "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
       "text": "著名创作歌手—炉灶狗狗 新作！\n【十一月来啦！】\n送给大家！希望大家喜欢！"
+    },
+    {
+      "id": "evt_532764cc-ca04-4cd6-b90f-644de668142a",
+      "date": "2025-11-27",
+      "kind": "livestream",
+      "title": "中午玩玩",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        12
+      ],
+      "recordings": [
+        {
+          "bvid": "BV17PSuBLEUC",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV17PSuBLEUC",
+            "locator": "BV17PSuBLEUC",
+            "excerpt": "【直播回放】【2D】中午玩玩 2025年11月27日12点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV17PSuBLEUC",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV17PSuBLEUC",
+            "locator": "BV17PSuBLEUC",
+            "excerpt": "【直播回放】【2D】中午玩玩 2025年11月27日12点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1wCUzBTEFJ",
+            "locator": "BV1wCUzBTEFJ",
+            "excerpt": "【直播回放】【2D】中午玩玩 2025年11月27日12点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1138674859771953154",
+            "image": "../source/november-2025/1138674859771953154.jpg"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "12:00"
     }
   ]
 }

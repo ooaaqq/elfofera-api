@@ -1192,6 +1192,62 @@
       "dimension": "2d",
       "isUnannounced": false,
       "series": "萌妹玩游戏"
+    },
+    {
+      "id": "evt_5aa7ab61-90ec-4de6-a7c1-b40581bc5633",
+      "date": "2025-10-18",
+      "kind": "livestream",
+      "title": "过生日啦！！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        18,
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1MvWtzqEVa",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1MvWtzqEVa",
+            "locator": "BV1MvWtzqEVa",
+            "excerpt": "【直播回放】【2D】过生日啦！！！ 2025年10月18日20点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1MvWtzqEVa",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1MvWtzqEVa",
+            "locator": "BV1MvWtzqEVa",
+            "excerpt": "【直播回放】【2D】过生日啦！！！ 2025年10月18日20点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1U9WbzGEd2",
+            "locator": "BV1U9WbzGEd2",
+            "excerpt": "【直播回放】【2D】过生日啦！！！ 2025年10月18日18点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1123095245968375857",
+            "image": "../source/october-2025/1123095245968375857.png"
+          }
+        ]
+      },
+      "contentType": "celebration",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
     }
   ]
 }

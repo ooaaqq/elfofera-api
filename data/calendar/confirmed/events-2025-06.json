@@ -72,6 +72,56 @@
       "isUnannounced": false
     },
     {
+      "id": "evt_98b3fcb9-5f28-4441-8325-de0ec4849ab2",
+      "date": "2025-06-01",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "【2025生日会】我们定义存在，用真心交换未来，『无束』盛开～",
+      "publishedAt": "2025-06-01T10:33:47.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_5101ccec-e4fb-48ce-8fbc-bb4b82ee771f"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1MP76z9EB1",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1MP76z9EB1]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1MP76z9EB1]",
+            "sourceField": "publishedAt",
+            "excerpt": "2025-06-01T10:33:47.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1MP76z9EB1]",
+            "sourceField": "title",
+            "excerpt": "【2025生日会】我们定义存在，用真心交换未来，『无束』盛开～"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-16-member-official-directory-batch02.json",
+            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1MP76z9EB1]",
+            "sourceField": "title + descriptionExcerpt",
+            "excerpt": "【2025生日会】我们定义存在，用真心交换未来，『无束』盛开～\n这首歌很快就上线平台啦，希望蜜宝喜欢这首新歌～\n原创曲：《无束》/柚恩"
+          }
+        ]
+      },
+      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+      "text": "这首歌很快就上线平台啦，希望蜜宝喜欢这首新歌～\n原创曲：《无束》/柚恩"
+    },
+    {
       "id": "evt_682487fc-c4b6-4c03-bda8-6b9f862252d4",
       "date": "2025-06-02",
       "kind": "livestream",
@@ -584,6 +634,84 @@
         ]
       },
       "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_9e521892-a33a-41f6-a586-65ebff7548ab",
+      "date": "2025-06-06",
+      "kind": "livestream",
+      "title": "一起唱歌!",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1BuT3zhELo",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1BuT3zhELo",
+            "locator": "BV1BuT3zhELo",
+            "excerpt": "【直播回放】【2D】一起唱歌! 2025年06月06日20点场；时长8724秒。"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1BuT3zhELo",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1a7Tuz7E6i",
+            "locator": "BV1a7Tuz7E6i",
+            "excerpt": "【直播回放】【1D】抢救中， 2025年06月06日20点场；时长271秒。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1BuT3zhELo",
+            "locator": "BV1BuT3zhELo",
+            "excerpt": "【直播回放】【2D】一起唱歌! 2025年06月06日20点场；时长8724秒。"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1073734954249093125",
+            "image": "../source/june-2025/1073734954249093125.jpg"
+          }
+        ]
+      },
+      "contentType": "singing",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "note": "同日同为20点场，先有约4分31秒的1D《抢救中》，后为2D《一起唱歌!》；按设备处理后续播的一场记录，阶段保留原始标题与形态。",
+      "stages": [
+        {
+          "title": "抢救中，",
+          "dimension": "1d",
+          "titleHours": [
+            20
+          ],
+          "recordingBvids": [
+            "BV1a7Tuz7E6i"
+          ]
+        },
+        {
+          "title": "一起唱歌!",
+          "dimension": "2d",
+          "titleHours": [
+            20
+          ],
+          "recordingBvids": [
+            "BV1BuT3zhELo"
+          ]
+        }
+      ],
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_287247dd-f058-4d06-8711-6673b42b3fc0",
@@ -1702,6 +1830,56 @@
       "isUnannounced": false
     },
     {
+      "id": "evt_2f9df64b-d624-40d2-83df-0bdf73a72d0b",
+      "date": "2025-06-26",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "【柚恩】夏日必备 翻跳『ROLLIN』",
+      "publishedAt": "2025-06-26T13:52:35.000Z",
+      "occurrence": "published",
+      "relatedWorks": [
+        "song_98145f4c-eaf4-4ee4-ae98-5a11266ad2aa"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1PZKfzgE6Y",
+          "role": "publication-link",
+          "source": {
+            "file": "../evidence/round-08-source-directory-batch19.json",
+            "locator": "sources[accountId=105260060,page=19].items[bvid=BV1PZKfzgE6Y]"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "file": "../evidence/round-08-source-directory-batch19.json",
+            "locator": "sources[accountId=105260060,page=19].items[bvid=BV1PZKfzgE6Y]",
+            "sourceField": "publishedAt",
+            "excerpt": "2025-06-26T13:52:35.000Z"
+          }
+        ],
+        "title": [
+          {
+            "file": "../evidence/round-08-source-directory-batch19.json",
+            "locator": "sources[accountId=105260060,page=19].items[bvid=BV1PZKfzgE6Y]",
+            "sourceField": "title",
+            "excerpt": "【柚恩】夏日必备 翻跳『ROLLIN』"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "file": "../evidence/round-08-source-directory-batch19.json",
+            "locator": "sources[accountId=105260060,page=19].items[bvid=BV1PZKfzgE6Y]",
+            "sourceField": "title",
+            "excerpt": "【柚恩】夏日必备 翻跳『ROLLIN』；匹配曲目：ROLLIN"
+          }
+        ]
+      },
+      "note": "周报目录明确曲名及柚恩歌舞/翻跳内容；本条只确认投稿发布与作品关联，不以投稿日期推断演出日期。",
+      "text": "柚恩 3D 25.06.26 直播切片\n时轴：撕烂分镜本\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
+    },
+    {
       "id": "evt_91273451-87f7-423c-a85b-44189f98b8fd",
       "date": "2025-06-27",
       "kind": "livestream",
@@ -1836,106 +2014,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "evt_98b3fcb9-5f28-4441-8325-de0ec4849ab2",
-      "date": "2025-06-01",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "【2025生日会】我们定义存在，用真心交换未来，『无束』盛开～",
-      "publishedAt": "2025-06-01T10:33:47.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_5101ccec-e4fb-48ce-8fbc-bb4b82ee771f"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1MP76z9EB1",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1MP76z9EB1]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1MP76z9EB1]",
-            "sourceField": "publishedAt",
-            "excerpt": "2025-06-01T10:33:47.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1MP76z9EB1]",
-            "sourceField": "title",
-            "excerpt": "【2025生日会】我们定义存在，用真心交换未来，『无束』盛开～"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=4].items[bvid=BV1MP76z9EB1]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "【2025生日会】我们定义存在，用真心交换未来，『无束』盛开～\n这首歌很快就上线平台啦，希望蜜宝喜欢这首新歌～\n原创曲：《无束》/柚恩"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "这首歌很快就上线平台啦，希望蜜宝喜欢这首新歌～\n原创曲：《无束》/柚恩"
-    },
-    {
-      "id": "evt_2f9df64b-d624-40d2-83df-0bdf73a72d0b",
-      "date": "2025-06-26",
-      "kind": "publication",
-      "subtype": "cover-video",
-      "title": "【柚恩】夏日必备 翻跳『ROLLIN』",
-      "publishedAt": "2025-06-26T13:52:35.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_98145f4c-eaf4-4ee4-ae98-5a11266ad2aa"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1PZKfzgE6Y",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch19.json",
-            "locator": "sources[accountId=105260060,page=19].items[bvid=BV1PZKfzgE6Y]"
-          }
-        }
-      ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-08-source-directory-batch19.json",
-            "locator": "sources[accountId=105260060,page=19].items[bvid=BV1PZKfzgE6Y]",
-            "sourceField": "publishedAt",
-            "excerpt": "2025-06-26T13:52:35.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-08-source-directory-batch19.json",
-            "locator": "sources[accountId=105260060,page=19].items[bvid=BV1PZKfzgE6Y]",
-            "sourceField": "title",
-            "excerpt": "【柚恩】夏日必备 翻跳『ROLLIN』"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-08-source-directory-batch19.json",
-            "locator": "sources[accountId=105260060,page=19].items[bvid=BV1PZKfzgE6Y]",
-            "sourceField": "title",
-            "excerpt": "【柚恩】夏日必备 翻跳『ROLLIN』；匹配曲目：ROLLIN"
-          }
-        ]
-      },
-      "note": "周报目录明确曲名及柚恩歌舞/翻跳内容；本条只确认投稿发布与作品关联，不以投稿日期推断演出日期。",
-      "text": "柚恩 3D 25.06.26 直播切片\n时轴：撕烂分镜本\n封面：芥舟粥\n------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/"
     }
   ]
 }

@@ -1,3 +1,4 @@
+import { randomUUID } from "node:crypto";
 import { sql } from "drizzle-orm";
 import { afterAll, describe, expect, it } from "vitest";
 import { z } from "zod";
@@ -116,17 +117,29 @@ describe("imported PostgreSQL queries", () => {
   });
 
   it("preserves performances without an event association", async () => {
-    const rows = await database.execute(
-      sql`SELECT date, count(*)::int AS count FROM performances WHERE event_id IS NULL GROUP BY date ORDER BY date LIMIT 1`,
-    );
-    const source = z
-      .object({ date: z.string(), count: z.number() })
-      .parse(rows.rows[0]);
-    const response = await app.request(
-      `/v1/timeline?from=${source.date}&through=${source.date}&include=events,performances`,
-    );
-    const body = timelineSchema.parse(await response.json());
-    expect(body.days[0]?.performances).toHaveLength(source.count);
+    const fixtureId = `perf_test_${randomUUID()}`;
+    try {
+      const rows = await database.execute(sql`
+        INSERT INTO performances (id, date, event_id, work_id, type, data)
+        SELECT ${fixtureId}, date, NULL, work_id, type,
+          (data - 'eventId') || jsonb_build_object('id', ${fixtureId}::text)
+        FROM performances ORDER BY id LIMIT 1
+        RETURNING date
+      `);
+      const source = z.object({ date: z.string() }).parse(rows.rows[0]);
+      const response = await app.request(
+        `/v1/timeline?from=${source.date}&through=${source.date}&include=events,performances`,
+      );
+      expect(response.status).toBe(200);
+      const body = responseSchema.parse(await response.json());
+      expect(body.days[0]?.performances).toContainEqual(
+        expect.objectContaining({ id: fixtureId, eventId: null }),
+      );
+    } finally {
+      await database.execute(
+        sql`DELETE FROM performances WHERE id = ${fixtureId}`,
+      );
+    }
   });
 
   it("normalizes song title spacing, case and full width input", async () => {

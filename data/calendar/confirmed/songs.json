@@ -75398,6 +75398,77 @@
           "rationale": "MusicBrainz 精确题名记录与已有曲目版本交叉匹配，作为可修正信息。"
         }
       ]
+    },
+    {
+      "id": "song_14d465ba-7ccb-4dc1-ad7e-a038d8390e78",
+      "title": "Water",
+      "kind": "cover",
+      "originalArtists": [
+        "Tyla"
+      ],
+      "originalArtistEvidence": [
+        {
+          "kind": "music-catalog",
+          "url": "https://music.apple.com/us/album/water/1699082722?i=1699082734&uo=4",
+          "excerpt": "Water — Tyla；按歌曲标题检索的合理原唱匹配，不据此反推演出版本。"
+        }
+      ]
+    },
+    {
+      "id": "song_55911e29-c8b1-4a65-ba98-2db514344784",
+      "title": "Genie in a Bottle",
+      "kind": "cover",
+      "originalArtists": [
+        "Christina Aguilera"
+      ],
+      "originalArtistEvidence": [
+        {
+          "kind": "music-catalog",
+          "url": "https://music.apple.com/us/album/genie-in-a-bottle/1308542675?i=1308542773&uo=4",
+          "excerpt": "Genie in a Bottle — Christina Aguilera；按歌曲标题检索的合理原唱匹配，不据此反推演出版本。"
+        }
+      ]
+    },
+    {
+      "id": "song_c4c18230-6a66-464e-9087-6e0cc1477444",
+      "title": "我们的明天",
+      "kind": "cover",
+      "originalArtists": [
+        "鹿晗"
+      ],
+      "originalArtistEvidence": [
+        {
+          "kind": "music-catalog",
+          "url": "https://music.apple.com/us/album/%E6%88%91%E4%BB%AC%E7%9A%84%E6%98%8E%E5%A4%A9-%E9%87%8D%E8%BF%9420%E5%B2%81-%E7%94%B5%E5%BD%B1%E4%B8%BB%E9%A2%98%E6%9B%B2/1824356492?i=1824356493&uo=4",
+          "excerpt": "我们的明天 (《重返20岁》电影主题曲) — LuHan；按歌曲标题检索的合理原唱匹配，不据此反推演出版本。"
+        }
+      ]
+    },
+    {
+      "id": "song_a9627739-ddf9-4b03-834e-6db5dff38ae6",
+      "title": "第七感",
+      "kind": "cover"
+    },
+    {
+      "id": "song_f851550a-d90d-4f44-9741-6ad665afa063",
+      "title": "你在哪里",
+      "kind": "cover"
+    },
+    {
+      "id": "song_43f051f6-b4b3-43d7-8e30-54e2bde58952",
+      "title": "相思",
+      "kind": "cover",
+      "originalArtists": [
+        "毛阿敏"
+      ],
+      "originalArtistEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Lnph6zEVr",
+          "locator": "BV1Lnph6zEVr",
+          "excerpt": "原曲：《相思》- 毛阿敏；翻唱：柚恩"
+        }
+      ]
     }
   ]
 }

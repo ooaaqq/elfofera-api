@@ -1501,6 +1501,122 @@
       },
       "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
       "text": "https://live.bilibili.com/25512443\n直播日期：2025年7月24日\n3D【三年之期龙王归来】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.b"
+    },
+    {
+      "id": "evt_e27e67d8-f9bf-4b4a-9709-ba0c630d1161",
+      "date": "2025-07-05",
+      "kind": "livestream",
+      "title": "诡秘一起逛街了，",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1FR39zvEoS",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1FR39zvEoS",
+            "locator": "BV1FR39zvEoS",
+            "excerpt": "【直播回放】【2D】诡秘一起逛街了， 2025年07月05日19点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1FR39zvEoS",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1FR39zvEoS",
+            "locator": "BV1FR39zvEoS",
+            "excerpt": "【直播回放】【2D】诡秘一起逛街了， 2025年07月05日19点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1sM3dzyEyg",
+            "locator": "BV1sM3dzyEyg",
+            "excerpt": "【直播回放】【2D】诡秘一起逛街了， 2025年07月05日19点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1084125339100119041",
+            "image": "../source/june-2025/1084125339100119041.jpg"
+          }
+        ]
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_e2e5053b-79eb-48fd-9b8b-dca4b02538e2",
+      "date": "2025-07-13",
+      "kind": "livestream",
+      "title": "网卡女王，",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1xZuPzaEGF",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1xZuPzaEGF",
+            "locator": "BV1xZuPzaEGF",
+            "excerpt": "【直播回放】【2D】网卡女王， 2025年07月13日19点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1xZuPzaEGF",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1xZuPzaEGF",
+            "locator": "BV1xZuPzaEGF",
+            "excerpt": "【直播回放】【2D】网卡女王， 2025年07月13日19点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1x9uwztEQk",
+            "locator": "BV1x9uwztEQk",
+            "excerpt": "【直播回放】【2D】网卡女王， 2025年07月13日19点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1x9uwz4EDb",
+            "locator": "BV1x9uwz4EDb",
+            "excerpt": "【直播回放】【2D】网卡女王， 2025年07月13日19点场"
+          }
+        ],
+        "schedule": [
+          {
+            "dynamicId": "1086351850143219732",
+            "image": "../source/july-2025/1086351850143219732.jpg"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
     }
   ]
 }

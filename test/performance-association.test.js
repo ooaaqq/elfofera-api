@@ -1,5 +1,6 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
+import { eventView } from "../src/contracts.js";
 
 const root = new URL("../data/calendar/confirmed/", import.meta.url);
 const read = (name) => JSON.parse(readFileSync(new URL(name, root), "utf8"));
@@ -14,6 +15,55 @@ const withVideo = (bvid) =>
   performances.filter((p) => p.assets.some((asset) => asset.bvid === bvid));
 
 describe("Performance associations", () => {
+  it("preserves continuous format changes as stages of one event", () => {
+    const change = events.find(
+      (event) =>
+        event.date === "2026-05-23" &&
+        event.recordingNamedMembers?.includes("luzao"),
+    );
+    expect(change.stages.map((stage) => stage.dimension)).toEqual(["2d", "1d"]);
+    expect(change.stages.flatMap((stage) => stage.recordingBvids)).toEqual([
+      "BV1PhGB6SErc",
+      "BV1oUGB6TEM5",
+      "BV1AqG66WE1P",
+    ]);
+    const view = eventView({
+      id: change.id,
+      date: change.date,
+      endDate: null,
+      title: change.title,
+      kind: change.kind,
+      occurrence: change.occurrence,
+      data: change,
+    });
+    expect(view.stages).toEqual(change.stages);
+    expect(view.dimension).toBe("1d");
+    const restart = events.filter(
+      (event) =>
+        event.date === "2025-06-06" &&
+        event.recordingNamedMembers?.includes("luzao"),
+    );
+    expect(restart).toHaveLength(1);
+    expect(restart[0].stages.map((stage) => stage.title)).toEqual([
+      "抢救中，",
+      "一起唱歌!",
+    ]);
+    expect(restart[0].recordings).toHaveLength(1);
+  });
+
+  it("keeps separated sessions distinct even when their titles are similar", () => {
+    for (const [date, member, hours] of [
+      ["2024-07-08", "waner", [0, 18]],
+      ["2025-04-15", "luzao", [20, 23]],
+    ]) {
+      const sessions = events.filter(
+        (event) =>
+          event.date === date && event.recordingNamedMembers?.includes(member),
+      );
+      expect(sessions).toHaveLength(2);
+      expect(sessions.flatMap((event) => event.titleHours)).toEqual(hours);
+    }
+  });
   it("keeps every adopted association pointing to an existing event", () => {
     expect(new Set(performances.map((p) => p.id)).size).toBe(
       performances.length,
@@ -107,5 +157,53 @@ describe("Performance associations", () => {
         (event) => event.date === "2026-10-15" && event.kind === "livestream",
       ),
     ).toBe(false);
+  });
+
+  it("uses the revised weekly image while retaining the original weekend plans", () => {
+    const days = read("plans.json").days;
+    expect(
+      days.find((day) => day.date === "2026-10-17").events[0].members,
+    ).toEqual(["youen"]);
+    expect(
+      days.find((day) => day.date === "2026-10-18").events[0].members,
+    ).toEqual(["luzao"]);
+    const changes = read("schedule-changes-2026-10.json").changes.filter(
+      (change) => change.action === "rescheduling",
+    );
+    expect(changes).toHaveLength(2);
+    for (const change of changes) {
+      expect(change.originalPlan.date).toBe(change.from.date);
+      expect(change.originalPlan.events[0].members).toEqual(change.members);
+      expect(change.to.date).not.toBe(change.from.date);
+      expect(eventById.get(change.eventId).kind).toBe("announcement");
+    }
+  });
+
+  it("attributes Luyi and Karmen clips to Luzao and keeps an independent cover on its publication", () => {
+    for (const bvid of [
+      "BV1f6AAzYEs1",
+      "BV1kYAAzMEwH",
+      "BV1hdAAzpEE3",
+      "BV1dzpn61Efe",
+      "BV1Rkpn6CEtA",
+      "BV162p765EB9",
+    ]) {
+      const matches = withVideo(bvid);
+      expect(matches).toHaveLength(1);
+      expect(matches[0].creditedMembers).toEqual(["luzao"]);
+      expect(eventById.get(matches[0].eventId).kind).toBe("livestream");
+    }
+    const cover = withVideo("BV1Lnph6zEVr")[0];
+    expect(eventById.get(cover.eventId).kind).toBe("publication");
+  });
+
+  it("groups interrupted game recordings without counting tiny failed segments as extra events", () => {
+    const matches = events.filter(
+      (event) => event.date === "2026-03-06" && event.title.includes("三角洲"),
+    );
+    expect(matches).toHaveLength(1);
+    expect(matches[0].recordings).toHaveLength(1);
+    expect(matches[0].preferredRecordingBvid).toBe("BV1KRPxzjE2z");
+    expect(matches[0].evidence.recordings).toHaveLength(4);
   });
 });
