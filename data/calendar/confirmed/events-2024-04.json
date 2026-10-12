@@ -2356,11 +2356,22 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1cD421n7fP"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1cD421n7fP",
+            "locator": "BV1cD421n7fP",
+            "excerpt": "【直播回放】【3D】露早人设复盘 2024年4月25日18点场"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "luzao"
+      ]
     },
     {
       "id": "evt_60e1b87d-3135-4ba6-960e-f5a6b939cbb9",

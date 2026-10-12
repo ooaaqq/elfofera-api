@@ -1694,10 +1694,9 @@
       "id": "perf_2c4b4de1-93ab-4188-84ed-a4537c0ca5c9",
       "workId": "song_ff7e233a-d13a-4d28-96bf-b9a98a191de2",
       "date": "2024-02-02",
-      "eventId": null,
+      "eventId": "evt_091f9d56-afa8-4465-bcac-87e1a499c003",
       "type": "singing",
       "creditedMembers": [
-        "luzao",
         "minuo",
         "youen"
       ],
@@ -1708,6 +1707,17 @@
           "partNumbers": [
             1
           ]
+        },
+        {
+          "bvid": "BV1zx42197ah",
+          "role": "performance-excerpt",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1zx42197ah",
+            "locator": "BV1zx42197ah",
+            "sourceField": "description",
+            "excerpt": "原唱：乐正绫、洛天依 \n翻唱：@露米Lumi_Official  @柚恩不加糖  @米诺高分少女  \n作曲：乌龟Sui \n作词：邪叫教主 \n人声本家：西瓜Kune"
+          }
         }
       ],
       "evidence": [
@@ -1715,8 +1725,18 @@
           "file": "../evidence/round-08-video-details-batch07.json",
           "locator": "videos[bvid=BV1sH4y1e7r7].pages[1]",
           "sourceField": "part.title + description",
-          "excerpt": "《九九八十一》-露米&米诺&柚恩；24.02.02直播剪辑；“露米”按既有露早+米诺组合称呼解释"
+          "excerpt": "《九九八十一》-露米&米诺&柚恩；24.02.02直播剪辑"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1zx42197ah",
+          "locator": "BV1zx42197ah",
+          "sourceField": "description",
+          "excerpt": "原唱：乐正绫、洛天依 \n翻唱：@露米Lumi_Official  @柚恩不加糖  @米诺高分少女  \n作曲：乌龟Sui \n作词：邪叫教主 \n人声本家：西瓜Kune"
         }
+      ],
+      "creditedPerformers": [
+        "露米Lumi_Official"
       ]
     }
   ]

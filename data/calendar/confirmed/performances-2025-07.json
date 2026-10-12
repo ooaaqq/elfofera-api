@@ -1755,7 +1755,7 @@
       "id": "perf_dcbd8f6b-9f0f-4dba-ab9a-b78bcb236d1c",
       "workId": "song_0590df98-bc04-49f6-9b88-ad6e94ee4811",
       "date": "2025-07-02",
-      "eventId": null,
+      "eventId": "evt_d2156cdf-4507-4c2f-8b4d-19baecbdecca",
       "type": "dance",
       "creditedMembers": [
         "luzao"
@@ -1785,7 +1785,7 @@
       "id": "perf_6d6b99f9-2ddf-4ddd-bd9a-118595650a1e",
       "workId": "song_0590df98-bc04-49f6-9b88-ad6e94ee4811",
       "date": "2025-07-23",
-      "eventId": null,
+      "eventId": "evt_5aa18b89-b7ca-45e7-a770-a8a4c0416936",
       "type": "dance",
       "creditedMembers": [
         "luzao"
@@ -1815,7 +1815,7 @@
       "id": "perf_830133ff-9de4-4406-8071-f56681fc1212",
       "workId": "song_43aff006-4af1-498f-b519-3809e4966005",
       "date": "2025-07-18",
-      "eventId": null,
+      "eventId": "evt_e6028699-faed-49e6-bfaf-995d618f364e",
       "type": "singing",
       "creditedMembers": [
         "youen"
@@ -1845,7 +1845,7 @@
       "id": "perf_022afc72-d8b4-485c-a1b7-85cce53b71ea",
       "workId": "song_0590df98-bc04-49f6-9b88-ad6e94ee4811",
       "date": "2025-07-19",
-      "eventId": null,
+      "eventId": "evt_bb005229-ab36-4756-9f21-fd70d628bd42",
       "type": "dance",
       "creditedMembers": [
         "luzao"
@@ -1875,7 +1875,7 @@
       "id": "perf_4fb5e1b1-18e4-4e1a-84f6-2736511eebbe",
       "workId": "song_254915eb-38f5-4005-a7ee-20bc228c24df",
       "date": "2025-07-19",
-      "eventId": null,
+      "eventId": "evt_bb005229-ab36-4756-9f21-fd70d628bd42",
       "type": "singing",
       "creditedMembers": [
         "luzao"
@@ -1904,8 +1904,8 @@
     {
       "id": "perf_f9b44ea0-a87d-4c09-912c-5dbff784805e",
       "workId": "song_254915eb-38f5-4005-a7ee-20bc228c24df",
-      "date": "2025-07-20",
-      "eventId": null,
+      "date": "2025-07-19",
+      "eventId": "evt_bb005229-ab36-4756-9f21-fd70d628bd42",
       "type": "singing",
       "creditedMembers": [
         "luzao"
@@ -1928,6 +1928,12 @@
           "locator": "BV15mgxzkEeq",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.7.20 一起看电影！2【2D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1LXudzoEsF",
+          "locator": "BV1LXudzoEsF",
+          "excerpt": "【直播回放】【2D】一起看电影！2 2025年07月19日19点场；按成员完整回放的直播场次日期归属；切片简介写次日，原文保留"
         }
       ]
     },
@@ -1935,7 +1941,7 @@
       "id": "perf_76059dff-c44b-40f6-b73a-c2003e5929f0",
       "workId": "song_da569b57-1b2a-44fe-a822-944600629b1e",
       "date": "2025-07-31",
-      "eventId": null,
+      "eventId": "evt_c97f87c0-4a63-49a0-bc49-2520a2ab89b0",
       "type": "singing",
       "creditedMembers": [
         "luzao"

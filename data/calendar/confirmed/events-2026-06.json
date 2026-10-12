@@ -148,7 +148,8 @@
       },
       "contentType": "mixed",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_9d757189-07a5-430a-b6fe-630fb840dcd9",
@@ -776,7 +777,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "看新三国"
     },
     {
       "id": "evt_a886d29e-32b5-47d0-8421-fef3221dd9d7",
@@ -968,7 +970,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "看新三国"
     },
     {
       "id": "evt_55e1860d-79df-409c-9f04-c14417523515",
@@ -1064,7 +1067,8 @@
       },
       "contentType": "mixed",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_87ac8b79-7b4c-4bfb-b5d7-03bb612f30b0",
@@ -1265,7 +1269,8 @@
       "title": "萌妹玩御姐2",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "luzao"
+        "luzao",
+        "youen"
       ],
       "titleHours": [
         18
@@ -1278,6 +1283,17 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1DKEq6BEY7"
           }
+        },
+        {
+          "bvid": "BV1AyEB6aEme",
+          "relation": "same-event",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AyEB6aEme",
+            "locator": "BV1AyEB6aEme",
+            "sourceField": "title",
+            "excerpt": "【EOE】柚恩&露早 2026.06.11 萌妹玩御姐2【4K丨直播录像】"
+          }
         }
       ],
       "preferredRecordingBvid": "BV1DKEq6BEY7",
@@ -1287,11 +1303,21 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1DKEq6BEY7"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AyEB6aEme",
+            "locator": "BV1AyEB6aEme",
+            "sourceField": "title",
+            "excerpt": "【EOE】柚恩&露早 2026.06.11 萌妹玩御姐2【4K丨直播录像】"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "御姐玩萌妹"
     },
     {
       "id": "evt_240a04d3-ad5a-4e10-aabd-936337806278",
@@ -1898,7 +1924,8 @@
       },
       "contentType": "celebration",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "看新三国"
     },
     {
       "id": "evt_c80d3cd3-fc13-4b7c-8c32-d5a5afb844e6",
@@ -1933,7 +1960,8 @@
       },
       "contentType": "mixed",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_7bd2bc25-7c1e-43c1-8819-71f07e6931a1",
@@ -2003,7 +2031,8 @@
       },
       "contentType": "talk",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_89cde47f-53a3-4a48-b2fa-5ae8fae177f7",
@@ -2248,7 +2277,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "看新三国"
     },
     {
       "id": "evt_da6c8410-777b-41fd-b3c0-bb7c981e1c4d",
@@ -2545,6 +2575,45 @@
       },
       "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
       "text": "https://live.bilibili.com/25512443\n直播日期：2026年6月10日\n3D【分享近期！】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.bili"
+    },
+    {
+      "id": "evt_894e51ea-e03b-467c-a7b4-047996d0fad5",
+      "date": "2026-06-03",
+      "kind": "livestream",
+      "title": "我不要戒断啊！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1Dt7X61EjE",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Dt7X61EjE",
+            "locator": "BV1Dt7X61EjE",
+            "excerpt": "【直播回放】【3D】我不要戒断啊！ 2026年06月03日19点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1Dt7X61EjE",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Dt7X61EjE",
+            "locator": "BV1Dt7X61EjE",
+            "excerpt": "【直播回放】【3D】我不要戒断啊！ 2026年06月03日19点场"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "titleHours": [
+        19
+      ]
     }
   ]
 }

@@ -1601,13 +1601,24 @@
             "file": "../evidence/round-02-recordings-2022-07.json",
             "locator": "BV1aB4y1C7z6"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV15t4y1V7vv",
+            "locator": "BV15t4y1V7vv",
+            "excerpt": "【柚恩不加糖】2022/07/29【3D】急↑得↓长←痘↑痘↓【录播】"
+          }
         ]
       },
       "kind": "livestream",
       "preferredRecordingBvid": "BV1aB4y1C7z6",
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "youen"
+      ]
     },
     {
       "id": "evt_b08d07bc-903e-45e6-9b0a-6d6db33594f4",

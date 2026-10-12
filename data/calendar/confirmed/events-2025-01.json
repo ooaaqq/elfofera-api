@@ -828,6 +828,9 @@
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/1/\n直播日期：2025年01月24日\n哔哩哔哩直播【冰火歌会2025新春季】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750440"
         }
+      ],
+      "recordingNamedMembers": [
+        "youen"
       ]
     },
     {
@@ -1209,6 +1212,78 @@
         ]
       },
       "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+    },
+    {
+      "id": "evt_67112a3d-1db0-46f8-935d-9c31b860c73a",
+      "date": "2025-01-08",
+      "kind": "livestream",
+      "title": "串子大检验",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1AgrvYEE2h",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AgrvYEE2h",
+            "locator": "BV1AgrvYEE2h",
+            "excerpt": "露早 2025.1.8 【串子大检验】【直播录像】【3D】"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1AgrvYEE2h",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AgrvYEE2h",
+            "locator": "BV1AgrvYEE2h",
+            "excerpt": "露早 2025.1.8 【串子大检验】【直播录像】【3D】"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
+    },
+    {
+      "id": "evt_d7866e7a-322a-415e-8d7a-bd6d9e0cbed2",
+      "date": "2025-01-08",
+      "kind": "livestream",
+      "title": "放松身心的一二三~",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1k9rYYgEJi",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1k9rYYgEJi",
+            "locator": "BV1k9rYYgEJi",
+            "excerpt": "【柚恩直播录播】【3D】2025.01.08 放松身心的一二三~"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1k9rYYgEJi",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1k9rYYgEJi",
+            "locator": "BV1k9rYYgEJi",
+            "excerpt": "【柚恩直播录播】【3D】2025.01.08 放松身心的一二三~"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     }
   ]
 }

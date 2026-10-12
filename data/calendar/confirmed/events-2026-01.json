@@ -69,7 +69,8 @@
       },
       "contentType": "game",
       "dimension": "unknown",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "UP大侦探"
     },
     {
       "id": "evt_05a45be9-4366-462d-adfa-33e1aad1bffe",
@@ -209,7 +210,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_5af15e5e-9759-4998-809f-bde742766e22",
@@ -279,7 +281,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_aa5f0cac-ba32-411e-b444-3f5d36adcc64",
@@ -419,7 +422,8 @@
       },
       "contentType": "talk",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹爱聊天"
     },
     {
       "id": "evt_b31154cf-76e0-4048-907f-7adeee388e97",
@@ -629,7 +633,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_b13df2f4-1287-4ad3-9858-67357115ee7c",
@@ -699,7 +704,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_9230babb-5362-46ab-8af0-4e7bbedebf55",
@@ -947,7 +953,8 @@
       },
       "contentType": "radio",
       "dimension": "1d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹爱聊天"
     },
     {
       "id": "evt_423812a5-6b51-4c7b-b6be-e921c99ff0ea",
@@ -982,7 +989,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_2fbd1910-e354-4c4b-9eff-9d47c349b1ea",
@@ -1061,7 +1069,8 @@
       "title": "御姐玩萌妹",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "youen"
+        "youen",
+        "luzao"
       ],
       "titleHours": [
         18
@@ -1074,6 +1083,17 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1Zb6uBRE8S"
           }
+        },
+        {
+          "bvid": "BV1qp65BNEiy",
+          "relation": "same-event",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1qp65BNEiy",
+            "locator": "BV1qp65BNEiy",
+            "sourceField": "title",
+            "excerpt": "【EOE】柚恩&露早 2026.01.27 御姐玩萌妹【4K丨直播录像】"
+          }
         }
       ],
       "preferredRecordingBvid": "BV1Zb6uBRE8S",
@@ -1083,11 +1103,21 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1Zb6uBRE8S"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1qp65BNEiy",
+            "locator": "BV1qp65BNEiy",
+            "sourceField": "title",
+            "excerpt": "【EOE】柚恩&露早 2026.01.27 御姐玩萌妹【4K丨直播录像】"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "御姐玩萌妹"
     },
     {
       "id": "evt_22c0f776-c78a-490d-b2b6-edb6eb3b50ac",
@@ -1118,11 +1148,20 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1Ghz9BuESJ"
           }
+        ],
+        "title": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Yhz9BuEqb",
+            "locator": "BV1Yhz9BuEqb",
+            "excerpt": "露早 2026.1.28 【萌妹爱聊天】【直播录像】【3D】"
+          }
         ]
       },
       "contentType": "talk",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹爱聊天"
     },
     {
       "id": "evt_fda2c18f-4110-46fa-aa71-b98b40535a23",
@@ -1192,7 +1231,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "UP大侦探"
     },
     {
       "id": "evt_59f61fd5-8762-44e9-a41a-b46e4da24c39",
@@ -1227,7 +1267,8 @@
       },
       "contentType": "game",
       "dimension": "unknown",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "UP大侦探"
     },
     {
       "id": "evt_db0cc754-a5e7-404e-a010-c8b8544eedd5",

@@ -178,7 +178,8 @@
       "title": "不心动挑战",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "luzao"
+        "luzao",
+        "youen"
       ],
       "titleHours": [
         18
@@ -199,6 +200,14 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1EERKY4Ec9"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV17ERKY4EwB",
+            "locator": "BV17ERKY4EwB",
+            "excerpt": "Honey 【露早&柚恩翻唱】"
           }
         ]
       },
@@ -274,7 +283,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "赛博朋克2077"
     },
     {
       "id": "evt_bbd0d3b4-f0c0-4829-a345-953287eb519d",
@@ -523,7 +533,8 @@
       "title": "今天说话要小心哦~",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "youen"
+        "youen",
+        "luzao"
       ],
       "titleHours": [
         18
@@ -544,6 +555,14 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV13PQNYTE52"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1KLQNYfEcp",
+            "locator": "BV1KLQNYfEcp",
+            "excerpt": "爱的双重魔力【露早&柚恩翻唱】"
           }
         ]
       },
@@ -619,7 +638,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "奇异人生"
     },
     {
       "id": "evt_00059280-4ad7-46eb-b9b0-f0d6c37855ba",
@@ -829,7 +849,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "奇异人生"
     },
     {
       "id": "evt_dfd82633-b8e6-441a-880c-f5996537471e",

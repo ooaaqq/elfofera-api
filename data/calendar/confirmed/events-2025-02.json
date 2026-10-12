@@ -174,7 +174,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "赛博朋克2077"
     },
     {
       "id": "evt_d003c968-32ed-4956-82ea-4201473d3c88",
@@ -570,7 +571,9 @@
           }
         }
       ],
-      "creditedMembers": [],
+      "creditedMembers": [
+        "luzao"
+      ],
       "evidence": {
         "date": [
           {
@@ -738,7 +741,9 @@
           }
         }
       ],
-      "creditedMembers": [],
+      "creditedMembers": [
+        "luzao"
+      ],
       "evidence": {
         "date": [
           {
@@ -1051,7 +1056,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "赛博朋克2077"
     },
     {
       "id": "evt_799f8b2a-bbac-4ea4-a51b-f33d11e8c049",
@@ -1184,7 +1190,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "奇异人生"
     },
     {
       "id": "evt_ff5d1d7e-3650-4044-bf75-d21e4dd24636",
@@ -1349,7 +1356,8 @@
       "title": "扯头花专项训练",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "youen"
+        "youen",
+        "luzao"
       ],
       "titleHours": [
         18
@@ -1370,6 +1378,14 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1vg9AYGE12"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1UW9AYaEHi",
+            "locator": "BV1UW9AYaEHi",
+            "excerpt": "雨爱 【露早&柚恩翻唱】"
           }
         ]
       },
@@ -1508,7 +1524,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "赛博朋克2077"
     },
     {
       "id": "evt_ce82b9bb-b446-4b4b-b92e-51908ec9288a",
@@ -1558,7 +1575,10 @@
       },
       "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
       "title": "帅吗？帅就对了！丨  《SEE THE V》&《History》",
-      "text": "原曲：EXO《History》\n翻跳：路翼 @路翼Astra  \n\n帅吗？帅就点点关注吧~"
+      "text": "原曲：EXO《History》\n翻跳：路翼 @路翼Astra  \n\n帅吗？帅就点点关注吧~",
+      "creditedMembers": [
+        "luzao"
+      ]
     }
   ]
 }

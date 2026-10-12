@@ -48,6 +48,11 @@ export const performanceSchema = z
     sourceUrls: z.array(z.string()),
   })
   .openapi("Performance");
+const guestSchema = z.object({
+  accountId: z.number().int().positive(),
+  name: z.string(),
+  url: z.url(),
+});
 const eventFields = {
   id: z.string(),
   date: z.string(),
@@ -57,7 +62,9 @@ const eventFields = {
   occurrence: z.string().nullable(),
   recordingNamedMembers: z.array(z.string()),
   plannedMembers: z.array(z.string()),
+  guests: z.array(guestSchema),
   contentType: z.string().nullable(),
+  series: z.string().nullable(),
   dimension: z.string().nullable(),
   isUnannounced: z.boolean().nullable(),
   sourceUrls: z.array(z.string()),
@@ -181,7 +188,9 @@ export function sourceUrls(data: unknown): string[] {
 const eventDataSchema = z.object({
   recordingNamedMembers: z.array(z.string()).default([]),
   plannedMembers: z.array(z.string()).default([]),
+  guests: z.array(guestSchema).default([]),
   contentType: z.string().optional(),
+  series: z.string().optional(),
   dimension: z.string().optional(),
   isUnannounced: z.boolean().optional(),
 });
@@ -196,7 +205,9 @@ export function eventView(row: typeof events.$inferSelect) {
     occurrence: row.occurrence,
     recordingNamedMembers: data.recordingNamedMembers,
     plannedMembers: data.plannedMembers,
+    guests: data.guests,
     contentType: data.contentType ?? null,
+    series: data.series ?? null,
     dimension: data.dimension ?? null,
     isUnannounced: data.isUnannounced ?? null,
     sourceUrls: sourceUrls(row.data),

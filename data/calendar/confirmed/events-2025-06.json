@@ -164,7 +164,8 @@
       "title": "事故回",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "luzao"
+        "luzao",
+        "youen"
       ],
       "titleHours": [
         18
@@ -209,6 +210,14 @@
             "locator": "BV1Xc7YzkEDP",
             "sourceField": "raw.desc",
             "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年06月03日\n柚恩&露早【那一天的XX，XX起来！】直播录像\n"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AZ7hzdEXK",
+            "locator": "BV1AZ7hzdEXK",
+            "excerpt": "说爱你【露早&柚恩翻唱】"
           }
         ]
       },
@@ -1359,7 +1368,8 @@
       "title": "辩论赛？毋庸置疑！",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "youen"
+        "youen",
+        "luzao"
       ],
       "titleHours": [
         18
@@ -1380,6 +1390,14 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1WpNozaEHc"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1QKNozVEyp",
+            "locator": "BV1QKNozVEyp",
+            "excerpt": "匆匆那年【露早柚恩翻唱】"
           }
         ]
       },
@@ -1751,7 +1769,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "赛博朋克2077"
     },
     {
       "id": "evt_0c0417e7-b46d-4b71-accf-be0882c2facb",

@@ -1278,6 +1278,13 @@
         {
           "bvid": "BV1cm4y1i7kU",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Xm4y1Y7m2",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            2
+          ]
         }
       ],
       "evidence": [
@@ -1292,6 +1299,18 @@
           "locator": "BV1cm4y1i7kU",
           "sourceField": "descriptionExcerpt",
           "excerpt": "直播日期：2023年06月16日\n柚恩直播【舞蹈时光机】 直播剪辑\n--------------------------------------------------------\n剪辑：subtitle \n时轴：无限\n封面：大盗魔理沙w\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bili"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch07.json",
+          "locator": "BV1Xm4y1Y7m2#P2",
+          "sourceField": "part",
+          "excerpt": "幻想童话『舞』"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch07.json",
+          "locator": "BV1Xm4y1Y7m2",
+          "sourceField": "title",
+          "excerpt": "【EOE/柚恩】2023.06.16【3D】舞蹈时光机『节目合集』"
         }
       ],
       "creditedMembers": [
@@ -2689,7 +2708,7 @@
       "id": "perf_9fac3848-6e63-4465-915d-8ebc839d3d91",
       "workId": "song_26ea3909-b50d-4e80-b0a1-53faf2c6a0a0",
       "date": "2023-06-16",
-      "eventId": null,
+      "eventId": "evt_8c4d9b50-4cb4-4aee-8aa6-f8c90653ee75",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -2709,39 +2728,6 @@
           "locator": "BV1Xm4y1Y7m2#P1",
           "sourceField": "part",
           "excerpt": "The fifth season（SSFWL）『舞』"
-        },
-        {
-          "file": "../evidence/round-08-video-details-batch07.json",
-          "locator": "BV1Xm4y1Y7m2",
-          "sourceField": "title",
-          "excerpt": "【EOE/柚恩】2023.06.16【3D】舞蹈时光机『节目合集』"
-        }
-      ]
-    },
-    {
-      "id": "perf_5fed7fff-815a-473a-a315-8b4b01bae18f",
-      "workId": "song_bacaefa4-4131-4d7f-a905-148563d8b08a",
-      "date": "2023-06-16",
-      "eventId": null,
-      "type": "dance",
-      "creditedMembers": [
-        "youen"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1Xm4y1Y7m2",
-          "role": "performance-excerpt",
-          "partNumbers": [
-            2
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-video-details-batch07.json",
-          "locator": "BV1Xm4y1Y7m2#P2",
-          "sourceField": "part",
-          "excerpt": "幻想童话『舞』"
         },
         {
           "file": "../evidence/round-08-video-details-batch07.json",

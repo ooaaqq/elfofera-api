@@ -609,7 +609,8 @@
       },
       "contentType": "talk",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹爱聊天"
     },
     {
       "id": "evt_cd7d1336-e873-4d28-aac7-9e98fc9273e2",
@@ -1195,7 +1196,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_b479b263-23ab-4f20-b7de-8192444fa521",
@@ -1265,7 +1267,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_151b42d2-f5a6-49e2-a430-22cae28083db",
@@ -1650,6 +1653,47 @@
       },
       "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
       "text": "https://live.bilibili.com/25512443\n直播日期：2026年2月10日\n3D【萌妹聊春节，越聊越新年】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://spac"
+    },
+    {
+      "id": "evt_546db4e7-2001-4668-9363-236a5862c18c",
+      "date": "2026-02-01",
+      "kind": "activity",
+      "title": "沪铁公安节目（线上版）",
+      "occurrence": "clip-attested",
+      "recordingNamedMembers": [
+        "youen",
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1DH6bBwECi",
+          "role": "performance-excerpt",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1DH6bBwECi",
+            "locator": "BV1DH6bBwECi",
+            "excerpt": "【柚恩翻跳】桃花笑（沪铁公安节目部分线上版）；简介明确26.02.01活动录播；P1柚恩、P2露早"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1DH6bBwECi",
+            "locator": "BV1DH6bBwECi",
+            "excerpt": "柚恩 活动 26.02.01 直播录播"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1DH6bBwECi",
+            "locator": "BV1DH6bBwECi",
+            "excerpt": "分P名称：P1柚恩、P2露早"
+          }
+        ]
+      }
     }
   ]
 }

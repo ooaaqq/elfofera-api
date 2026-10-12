@@ -298,6 +298,10 @@
           "partNumbers": [
             1
           ]
+        },
+        {
+          "bvid": "BV1jnajejEJr",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -316,6 +320,18 @@
         {
           "file": "../evidence/round-02-letting-go-july-october-content-comparison.json",
           "locator": "BV1vw4m1a7A5"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1jnajejEJr",
+          "sourceField": "title",
+          "excerpt": "蔡健雅『Letting Go』【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1jnajejEJr",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2024.7.10 您的专属客服已上线【3D】直播剪辑\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n米诺@米诺高分少女 ：https://space.bilibi"
         }
       ],
       "referenceArtist": "蔡健雅",
@@ -1037,7 +1053,7 @@
           "excerpt": "『独留人间照不透』——小时姑娘【柚恩翻唱】\n2024.07.13直播剪辑\n\n原唱：小时姑娘\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
         }
       ],
-      "eventId": "evt_29a4dd48-ebd8-433b-ae4d-3a1e54c16f2a"
+      "eventId": "evt_4d88e890-6e3c-4d2e-8e2b-ce08df044323"
     },
     {
       "id": "perf_dee0a479-7f99-4e17-9306-f6a5c199d2cb",
@@ -1094,13 +1110,13 @@
           "excerpt": "2024.07.13直播剪辑\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
         }
       ],
-      "eventId": "evt_29a4dd48-ebd8-433b-ae4d-3a1e54c16f2a"
+      "eventId": "evt_4d88e890-6e3c-4d2e-8e2b-ce08df044323"
     },
     {
       "id": "perf_cd3367bc-748d-46a5-880a-5bfca6409751",
       "workId": "song_66b25f87-1db2-4ffa-bdc0-1ab8691deb93",
       "date": "2024-07-13",
-      "eventId": null,
+      "eventId": "evt_4d88e890-6e3c-4d2e-8e2b-ce08df044323",
       "type": "singing",
       "creditedMembers": [
         "youen"
@@ -1139,6 +1155,12 @@
           "locator": "BV1tZ421T7mL",
           "sourceField": "descriptionExcerpt",
           "excerpt": "2024.07.13直播剪辑\n\n原唱：梨笑笑\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1QH4y1F73G",
+          "locator": "BV1QH4y1F73G",
+          "excerpt": "【直播回放】晕【3D】直播 2024年07月13日18点场；两条独立切片均明确7月13日；其中简介节目名与7月3日旧标题混用，不改日期"
         }
       ]
     },
@@ -3405,40 +3427,10 @@
       ]
     },
     {
-      "id": "perf_e6f4888f-29de-4f00-b5a5-e93958bad231",
-      "workId": "song_1d0d5399-b84c-4992-a1c2-ec63e6f1dc51",
-      "date": "2024-07-10",
-      "eventId": null,
-      "type": "singing",
-      "creditedMembers": [
-        "luzao"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1jnajejEJr",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1jnajejEJr",
-          "sourceField": "title",
-          "excerpt": "蔡健雅『Letting Go』【露早翻唱】"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1jnajejEJr",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2024.7.10 您的专属客服已上线【3D】直播剪辑\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n米诺@米诺高分少女 ：https://space.bilibi"
-        }
-      ]
-    },
-    {
       "id": "perf_ed6a3838-917b-4710-9670-26e0c207d82d",
       "workId": "song_e2b3f2b8-e3a9-429c-b372-076f8ec48ff7",
       "date": "2024-07-23",
-      "eventId": null,
+      "eventId": "evt_7ddcb1d5-5f66-45ab-a648-2ee274fd029a",
       "type": "singing",
       "creditedMembers": [
         "youen"
@@ -3468,7 +3460,7 @@
       "id": "perf_d6163e82-52ed-449d-9e95-99905045e15e",
       "workId": "song_9407d20b-0564-4af4-bf57-944b8784c29f",
       "date": "2024-07-24",
-      "eventId": null,
+      "eventId": "evt_8fa4139f-3fa2-4199-83e6-dbbb2522857a",
       "type": "dance",
       "creditedMembers": [
         "youen"

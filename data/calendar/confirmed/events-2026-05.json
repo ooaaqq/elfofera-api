@@ -34,7 +34,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "看新三国"
     },
     {
       "id": "evt_16849c73-b940-473e-8bee-2e57924887fa",
@@ -69,7 +70,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_5c5780ce-e6e8-4c85-8ce1-28b377a67b25",
@@ -174,7 +176,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹爱配音"
     },
     {
       "id": "evt_e69dc404-0941-47a5-808a-0db45ba0aae4",
@@ -314,7 +317,8 @@
       "title": "萌妹玩御姐",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "luzao"
+        "luzao",
+        "youen"
       ],
       "titleHours": [
         18
@@ -327,6 +331,17 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1TUdPBaEcp"
           }
+        },
+        {
+          "bvid": "BV17UdNBnExT",
+          "relation": "same-event",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV17UdNBnExT",
+            "locator": "BV17UdNBnExT",
+            "sourceField": "title",
+            "excerpt": "【EOE】柚恩&露早 2026.05.07 萌妹玩御姐【4K丨直播录像】"
+          }
         }
       ],
       "preferredRecordingBvid": "BV1TUdPBaEcp",
@@ -336,11 +351,21 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1TUdPBaEcp"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV17UdNBnExT",
+            "locator": "BV17UdNBnExT",
+            "sourceField": "title",
+            "excerpt": "【EOE】柚恩&露早 2026.05.07 萌妹玩御姐【4K丨直播录像】"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "御姐玩萌妹"
     },
     {
       "id": "evt_413126e4-9048-4e8a-95f5-89c8146f6ebb",
@@ -410,7 +435,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹爱配音"
     },
     {
       "id": "evt_c6734a17-a3c9-4fe2-9d38-18d9fceaa468",
@@ -480,7 +506,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "看新三国"
     },
     {
       "id": "evt_85c8d4d9-e889-44ca-a4d8-93385b7da635",
@@ -628,7 +655,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_f510bcb4-9526-4af4-a00a-a5827c816a37",
@@ -698,7 +726,8 @@
       },
       "contentType": "talk",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "看新三国"
     },
     {
       "id": "evt_3c7bfa37-45a9-4ce4-84ac-30b9cf099f64",
@@ -733,7 +762,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹爱配音"
     },
     {
       "id": "evt_67e8d5da-1516-46c6-998a-a5a4d4614eeb",
@@ -768,7 +798,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_db4196b3-7071-4873-ab11-25316ee06139",
@@ -908,7 +939,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "看新三国"
     },
     {
       "id": "evt_254e9915-aa4b-4c9e-9657-1c266495dcad",
@@ -1083,7 +1115,8 @@
       },
       "contentType": "mixed",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_8c8dca18-93a7-41ca-a8b4-360bf0b37dfc",
@@ -1118,16 +1151,18 @@
       },
       "contentType": "mixed",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_2dc5c67a-0d45-4ec5-9eea-6c5093f6e34c",
       "date": "2026-05-30",
-      "kind": "activity",
+      "kind": "livestream",
       "title": "柚恩生日会《绯色归途》",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "youen"
+        "youen",
+        "luzao"
       ],
       "titleHours": [
         19
@@ -1187,9 +1222,19 @@
             "file": "../evidence/history-01/dynamics-2026.json",
             "locator": "1208240163724984321"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1LBVL6zEZc",
+            "locator": "BV1LBVL6zEZc",
+            "excerpt": "【柚恩26生日会】【露早&柚恩翻唱跳】『Touch』"
+          }
         ]
       },
-      "note": "原回放明确3D生日会，周表列完整题名与计划19:30；回放原题保留在原始来源。舞台截图不证明歌曲、新衣首发或精确开播。"
+      "note": "原回放明确3D生日会，周表列完整题名与计划19:30；回放原题保留在原始来源。舞台截图不证明歌曲、新衣首发或精确开播。",
+      "contentType": "celebration",
+      "dimension": "3d"
     },
     {
       "id": "evt_11a0b32c-9a8d-46a3-a3b0-41850edd89d2",

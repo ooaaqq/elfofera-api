@@ -244,7 +244,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "赛博朋克2077"
     },
     {
       "id": "evt_5b1aa173-fbe5-4fc5-bc7a-e98197894482",
@@ -589,6 +590,14 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV11uptz8EWV"
+          }
+        ],
+        "title": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1vSp4zVEi9",
+            "locator": "BV1vSp4zVEi9",
+            "excerpt": "【露早】3D直播 2025.9.17 露早的胡言乱语【直播录像】"
           }
         ]
       },

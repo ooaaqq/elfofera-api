@@ -473,9 +473,6 @@
       "creditedMembers": [
         "luzao"
       ],
-      "creditedPerformers": [
-        "路翼"
-      ],
       "assets": [
         {
           "bvid": "BV1yaeHz6EUD",
@@ -729,7 +726,7 @@
       "id": "perf_08bd6f24-43d6-45f1-b68b-b43e6938096d",
       "workId": "song_59c0223c-7b26-4df1-a61e-39d997632a10",
       "date": "2025-08-28",
-      "eventId": null,
+      "eventId": "evt_3010cab8-49bb-4fe7-80d0-f9c7b05253a9",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -759,7 +756,7 @@
       "id": "perf_57565d50-a037-4f0f-afb0-749a146cce13",
       "workId": "song_3ecb1cfb-ff6d-422c-bf61-34a531f282db",
       "date": "2025-08-28",
-      "eventId": null,
+      "eventId": "evt_3010cab8-49bb-4fe7-80d0-f9c7b05253a9",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -789,7 +786,7 @@
       "id": "perf_cc419b91-b233-4aa7-bf4c-4de81d0bb1b0",
       "workId": "song_e702748c-83c2-4580-897c-de1d3fffdacd",
       "date": "2025-08-28",
-      "eventId": null,
+      "eventId": "evt_3010cab8-49bb-4fe7-80d0-f9c7b05253a9",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -819,7 +816,7 @@
       "id": "perf_9e4f968b-1239-4c34-91af-ff0d6fba6564",
       "workId": "song_1eae3bff-a225-4821-b6ff-2bd622ada951",
       "date": "2025-08-06",
-      "eventId": null,
+      "eventId": "evt_fba18399-6cf2-4b9a-bae7-887fd75c2644",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -849,7 +846,7 @@
       "id": "perf_f2c22b96-683e-45a2-ac9b-f05d08af627d",
       "workId": "song_a88d8fcc-24f8-47c8-a860-9f0a0370cba1",
       "date": "2025-08-14",
-      "eventId": null,
+      "eventId": "evt_f1034681-fb71-49a2-bc84-b36695d0b085",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -878,8 +875,8 @@
     {
       "id": "perf_d8a5b1ed-99b7-4a1a-82f5-213ed9ac8b3a",
       "workId": "song_81b5de4a-a06d-4f54-b81f-6bde62c03159",
-      "date": "2025-08-29",
-      "eventId": null,
+      "date": "2025-08-28",
+      "eventId": "evt_fb23880f-b113-4ac6-9621-c9adba91dabf",
       "type": "dance",
       "creditedMembers": [
         "luzao"
@@ -902,6 +899,12 @@
           "locator": "BV1achSz9Ejh",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.8.29 爱的方程式【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/2"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1qDhUzhE45",
+          "locator": "BV1qDhUzhE45",
+          "excerpt": "【直播回放】【3D】爱的方程式 2025年08月28日21点场；按节目完整回放的8月28日场次日期归属；切片凌晨投稿，简介写次日，原文保留"
         }
       ]
     }

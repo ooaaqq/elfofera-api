@@ -116,7 +116,8 @@
           "sourceField": "descriptionExcerpt",
           "excerpt": "柚恩 3D 25.01.08 直播切片\n原唱：BiBi\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/"
         }
-      ]
+      ],
+      "eventId": "evt_d7866e7a-322a-415e-8d7a-bd6d9e0cbed2"
     },
     {
       "id": "perf_c953cbe5-de6b-4cef-9fc1-864315648cef",
@@ -166,7 +167,8 @@
           "sourceField": "descriptionExcerpt",
           "excerpt": "柚恩 3D 25.01.08 直播切片\n原唱：小时姑娘\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/"
         }
-      ]
+      ],
+      "eventId": "evt_d7866e7a-322a-415e-8d7a-bd6d9e0cbed2"
     },
     {
       "id": "perf_94d39bef-fb26-48c2-ac65-711aad9dced4",
@@ -183,6 +185,10 @@
           "partNumbers": [
             1
           ]
+        },
+        {
+          "bvid": "BV1JeraYNEjs",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -199,8 +205,27 @@
           "locator": "BV18LraY7Ehi",
           "sourceField": "raw.desc",
           "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年01月08日\n露早【串子大检验】直播剪辑\n"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1JeraYNEjs",
+          "sourceField": "title",
+          "excerpt": "『Umbrella』【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1JeraYNEjs",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期： 2025.1.14 【串子大检验】【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.co"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1JeraYNEjs",
+          "locator": "BV1JeraYNEjs",
+          "excerpt": "投稿时间：2025-01-08T13:30:47.000Z；简介所写2025.1.14晚于投稿。独立同曲切片明确2025.01.08与串子大检验场次。"
         }
-      ]
+      ],
+      "eventId": "evt_67112a3d-1db0-46f8-935d-9c31b860c73a"
     },
     {
       "id": "perf_8d03ee3b-7b9e-49d3-bf95-ce34eda22fac",
@@ -217,6 +242,10 @@
           "partNumbers": [
             1
           ]
+        },
+        {
+          "bvid": "BV1JeraYNESL",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -233,8 +262,27 @@
           "locator": "BV1XDraYWEF8",
           "sourceField": "raw.desc",
           "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年01月08日\n露早【串子大检验】直播剪辑\n"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1JeraYNESL",
+          "sourceField": "title",
+          "excerpt": "『黏黏黏黏』【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1JeraYNESL",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期： 2025.1.14 【串子大检验】【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.co"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1JeraYNESL",
+          "locator": "BV1JeraYNESL",
+          "excerpt": "投稿时间：2025-01-08T13:28:02.000Z；简介所写2025.1.14晚于投稿。独立同曲切片明确2025.01.08与串子大检验场次。"
         }
-      ]
+      ],
+      "eventId": "evt_67112a3d-1db0-46f8-935d-9c31b860c73a"
     },
     {
       "id": "perf_a360f7b6-d2d1-4a37-a734-433b533eb736",
@@ -284,7 +332,8 @@
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025年1月8日\n3D【串子大检验】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.c"
         }
-      ]
+      ],
+      "eventId": "evt_67112a3d-1db0-46f8-935d-9c31b860c73a"
     },
     {
       "id": "perf_41aa4e6b-e230-49c8-bc24-77ab2d317a69",
@@ -2609,70 +2658,10 @@
       ]
     },
     {
-      "id": "perf_de62899d-e853-4d74-8c5f-7982b910613d",
-      "workId": "song_38cc8b0f-9a90-4530-a488-ad20d6f8e7f2",
-      "date": "2025-01-14",
-      "eventId": null,
-      "type": "singing",
-      "creditedMembers": [
-        "luzao"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1JeraYNEjs",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1JeraYNEjs",
-          "sourceField": "title",
-          "excerpt": "『Umbrella』【露早翻唱】"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1JeraYNEjs",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "https://live.bilibili.com/25512443\n直播日期： 2025.1.14 【串子大检验】【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.co"
-        }
-      ]
-    },
-    {
-      "id": "perf_52799bae-980a-43d9-a29b-cf23e71a90af",
-      "workId": "song_f6db4968-d329-42eb-aaf1-6d6466721a5a",
-      "date": "2025-01-14",
-      "eventId": null,
-      "type": "singing",
-      "creditedMembers": [
-        "luzao"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1JeraYNESL",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1JeraYNESL",
-          "sourceField": "title",
-          "excerpt": "『黏黏黏黏』【露早翻唱】"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1JeraYNESL",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "https://live.bilibili.com/25512443\n直播日期： 2025.1.14 【串子大检验】【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.co"
-        }
-      ]
-    },
-    {
       "id": "perf_28ac4e2b-3bab-4170-bc0e-b9c1109473ed",
       "workId": "song_865c6fec-6f20-4a23-8b42-45672be0ad81",
       "date": "2025-01-08",
-      "eventId": null,
+      "eventId": "evt_d7866e7a-322a-415e-8d7a-bd6d9e0cbed2",
       "type": "singing",
       "creditedMembers": [
         "youen"
@@ -2702,7 +2691,7 @@
       "id": "perf_94fa30e0-65cc-49be-b1a7-f68e4586df84",
       "workId": "song_14f923ed-b647-4b12-b06e-5427c2625bc0",
       "date": "2025-01-24",
-      "eventId": null,
+      "eventId": "evt_cfd6c6de-8764-4915-ab85-a08b6e683269",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -2725,36 +2714,6 @@
           "locator": "BV1PYfpYdEwQ",
           "sourceField": "descriptionExcerpt",
           "excerpt": "柚恩&红魔姬 3D 25.01.24 冰火舞台\n原唱：OWEN欧阳子文\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n红魔姬Mora\n直播间：https://live.bilibili.com/30864145\n个人主页：https://space.bilibili.com/3537119901387660/"
-        }
-      ]
-    },
-    {
-      "id": "perf_c5ce5a14-e3fd-46dc-beaf-c5aff475562e",
-      "workId": "song_978e2544-60a6-4d94-9103-8579c3a29c92",
-      "date": "2025-01-14",
-      "eventId": null,
-      "type": "singing",
-      "creditedMembers": [
-        "youen"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1eirsBFEdG",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch19.json",
-          "locator": "BV1eirsBFEdG",
-          "sourceField": "title",
-          "excerpt": "【柚恩翻唱】怀旧金曲『粉红色的回忆』"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch19.json",
-          "locator": "BV1eirsBFEdG",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "柚恩 3D 25.01.14 直播切片\n原唱：韩宝仪\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443"
         }
       ]
     }

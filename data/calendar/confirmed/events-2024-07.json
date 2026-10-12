@@ -820,7 +820,7 @@
       "id": "evt_4d88e890-6e3c-4d2e-8e2b-ce08df044323",
       "date": "2024-07-13",
       "kind": "livestream",
-      "title": "晕直播",
+      "title": "晕",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
         "youen"
@@ -884,55 +884,6 @@
       },
       "contentType": "unknown",
       "dimension": "unknown",
-      "isUnannounced": false
-    },
-    {
-      "id": "evt_29a4dd48-ebd8-433b-ae4d-3a1e54c16f2a",
-      "date": "2024-07-13",
-      "kind": "livestream",
-      "title": "晕",
-      "occurrence": "recording-attested",
-      "formatLabel": "3D",
-      "tags": [],
-      "recordings": [
-        {
-          "bvid": "BV1QH4y1F73G",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1QH4y1F73G"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1QH4y1F73G",
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1QH4y1F73G"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1QH4y1F73G"
-          }
-        ],
-        "occurrence": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1QH4y1F73G"
-          }
-        ],
-        "formatLabel": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1QH4y1F73G"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
       "isUnannounced": false
     },
     {

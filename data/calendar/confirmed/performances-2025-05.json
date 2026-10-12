@@ -415,6 +415,10 @@
         {
           "bvid": "BV1mr5KzSEYo",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Fd5KzgEQc",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -429,6 +433,18 @@
           "locator": "BV1mr5KzSEYo",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年05月08日\n柚恩&露早【重生之锦绣深宫传】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1Fd5KzgEQc",
+          "sourceField": "title",
+          "excerpt": "爱的供养【露早 柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1Fd5KzgEQc",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/86724\n直播日期：2025.5.8重生之锦绣深宫传【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/201"
         }
       ]
     },
@@ -767,6 +783,10 @@
         {
           "bvid": "BV1peE1zaE8S",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV16BE1zfE7T",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -781,6 +801,18 @@
           "locator": "BV1peE1zaE8S",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年05月15日\n露早&柚恩【如果有一天……】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV16BE1zfE7T",
+          "sourceField": "title",
+          "excerpt": "蠢货【露早 柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV16BE1zfE7T",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.5.15 如果有一天【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/2"
         }
       ]
     },
@@ -914,6 +946,10 @@
           "partNumbers": [
             1
           ]
+        },
+        {
+          "bvid": "BV1NHE8zxEGv",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -940,6 +976,18 @@
         {
           "file": "../evidence/round-02-may-letting-go-content-comparison.json",
           "locator": "target/reference"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1NHE8zxEGv",
+          "sourceField": "title",
+          "excerpt": "letting go【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1NHE8zxEGv",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.5.16 聊聊天吧【2D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/20"
         }
       ]
     },
@@ -1246,7 +1294,8 @@
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025年5月28日\n3D【GOGO未来记者会】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space."
         }
-      ]
+      ],
+      "eventId": "evt_66aba72e-6c91-4650-a1b2-36f5e3fc2591"
     },
     {
       "id": "perf_a73e6165-70db-4476-bad0-235b008da2e9",
@@ -2049,7 +2098,7 @@
       "id": "perf_6e41c514-8a36-4b7e-a918-e9373162bdc9",
       "workId": "song_b19a9d47-9233-48bd-8541-e41f77afddfd",
       "date": "2025-05-03",
-      "eventId": null,
+      "eventId": "evt_4d6c2cd6-5c01-4b73-9a3e-bb4edc65b7d1",
       "type": "singing",
       "creditedMembers": [
         "youen"
@@ -2079,7 +2128,7 @@
       "id": "perf_15bd162d-b4d2-4745-baea-5bc59bf6edd5",
       "workId": "song_2aabbebe-fb2c-44a4-955e-252f1f8727d1",
       "date": "2025-05-07",
-      "eventId": null,
+      "eventId": "evt_f67fbabd-6ef4-4b1f-b8c4-ef65abce4b16",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -2106,41 +2155,10 @@
       ]
     },
     {
-      "id": "perf_50aabd54-9973-4062-8464-cd7471c77b50",
-      "workId": "song_38f37b6b-0baa-4955-8a9c-010f96548973",
-      "date": "2025-05-08",
-      "eventId": null,
-      "type": "singing",
-      "creditedMembers": [
-        "youen",
-        "luzao"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1Fd5KzgEQc",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1Fd5KzgEQc",
-          "sourceField": "title",
-          "excerpt": "爱的供养【露早 柚恩翻唱】"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1Fd5KzgEQc",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "https://live.bilibili.com/86724\n直播日期：2025.5.8重生之锦绣深宫传【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/201"
-        }
-      ]
-    },
-    {
       "id": "perf_0f1eedc8-a06a-4113-b735-142b9bd979fb",
       "workId": "song_2bbea39f-b287-4486-b89a-1fdd18ae2dd5",
       "date": "2025-05-09",
-      "eventId": null,
+      "eventId": "evt_8ce1f045-56cb-4f3e-aa23-62f7ba4f0455",
       "type": "singing",
       "creditedMembers": [
         "luzao"
@@ -2170,7 +2188,7 @@
       "id": "perf_1ae36819-5a87-4c3d-8bca-92fc88e2bbe2",
       "workId": "song_2c0c09d0-62ce-47e1-bc8a-45479fb6a57d",
       "date": "2025-05-10",
-      "eventId": null,
+      "eventId": "evt_a6925f41-977a-46f4-b867-01959a2c5638",
       "type": "singing",
       "creditedMembers": [
         "youen"
@@ -2197,71 +2215,10 @@
       ]
     },
     {
-      "id": "perf_f2951418-316b-400a-9535-b44c8565440d",
-      "workId": "song_bd600340-5c26-4f65-806f-29cda1556b54",
-      "date": "2025-05-15",
-      "eventId": null,
-      "type": "singing",
-      "creditedMembers": [
-        "youen",
-        "luzao"
-      ],
-      "assets": [
-        {
-          "bvid": "BV16BE1zfE7T",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV16BE1zfE7T",
-          "sourceField": "title",
-          "excerpt": "蠢货【露早 柚恩翻唱】"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV16BE1zfE7T",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.5.15 如果有一天【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/2"
-        }
-      ]
-    },
-    {
-      "id": "perf_01a8f808-74af-4e28-a103-eb6a6c1bf9e4",
-      "workId": "song_1d0d5399-b84c-4992-a1c2-ec63e6f1dc51",
-      "date": "2025-05-16",
-      "eventId": null,
-      "type": "singing",
-      "creditedMembers": [
-        "luzao"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1NHE8zxEGv",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1NHE8zxEGv",
-          "sourceField": "title",
-          "excerpt": "letting go【露早翻唱】"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1NHE8zxEGv",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "https://live.bilibili.com/25512443\n直播日期：2025.5.16 聊聊天吧【2D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n官号﻿@EOE组合 ：https://space.bilibili.com/20"
-        }
-      ]
-    },
-    {
       "id": "perf_40eefe87-8a07-4fc0-8d4b-120b009bd2d6",
       "workId": "song_80318682-2810-4e41-be80-b9473ca33e27",
       "date": "2025-05-17",
-      "eventId": null,
+      "eventId": "evt_943ed463-cedb-4ca4-9a51-a6e80d14a346",
       "type": "singing",
       "creditedMembers": [
         "youen"
@@ -2291,7 +2248,7 @@
       "id": "perf_b9375731-a3bc-4aed-8ef2-363c2d8edf2d",
       "workId": "song_6262b788-f476-4d32-935b-de9307d4d19f",
       "date": "2025-05-22",
-      "eventId": null,
+      "eventId": "evt_e17847e3-d3d1-4bb3-9ce9-da16f465bd6e",
       "type": "dance",
       "creditedMembers": [
         "luzao"
@@ -2321,7 +2278,7 @@
       "id": "perf_82c7a34f-0a97-4378-a066-90445dede126",
       "workId": "song_f0b3a743-739d-487a-ba03-7315c533975e",
       "date": "2025-05-24",
-      "eventId": null,
+      "eventId": "evt_d423ebd8-bfc6-4ac2-973b-164a38115769",
       "type": "dance",
       "creditedMembers": [
         "youen",
@@ -2352,7 +2309,7 @@
       "id": "perf_d2d3bafa-77e4-458d-ba0b-e3016c19fbff",
       "workId": "song_5b512e4d-8c1f-418c-8a77-0e19d03cdba7",
       "date": "2025-05-02",
-      "eventId": null,
+      "eventId": "evt_383f830b-a8be-4535-a0e5-7714e442604d",
       "type": "singing",
       "creditedMembers": [
         "youen"
@@ -2382,7 +2339,7 @@
       "id": "perf_1dd5f3c6-7825-4352-9401-6d149d7f5b0a",
       "workId": "song_a5444045-19fd-40b3-ae8f-9497cc02ed97",
       "date": "2025-05-07",
-      "eventId": null,
+      "eventId": "evt_f67fbabd-6ef4-4b1f-b8c4-ef65abce4b16",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -2412,7 +2369,7 @@
       "id": "perf_8b474399-6010-4529-8650-214143694ea6",
       "workId": "song_6cd1b654-7f15-4b8b-a95d-5920f1670d56",
       "date": "2025-05-07",
-      "eventId": null,
+      "eventId": "evt_f67fbabd-6ef4-4b1f-b8c4-ef65abce4b16",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -2442,7 +2399,7 @@
       "id": "perf_8f94d436-2bb6-4aef-9d34-d334e5417b5a",
       "workId": "song_ffcdbaaa-3904-46b6-a353-c693bb12e7f8",
       "date": "2025-05-14",
-      "eventId": null,
+      "eventId": "evt_2b9f6f80-72fe-4b14-9bfd-b1f4b5af70ca",
       "type": "dance",
       "creditedMembers": [
         "youen"
@@ -2488,7 +2445,7 @@
       "id": "perf_b529ce67-f6e6-4fa7-b0ad-cfc6b7964d2b",
       "workId": "song_247358e0-e79c-4b1e-9fbb-a2d8c46c371c",
       "date": "2025-05-31",
-      "eventId": null,
+      "eventId": "evt_c2f296a2-699c-4917-825f-257465540e6c",
       "type": "singing-and-dance",
       "creditedMembers": [
         "youen"
@@ -2518,7 +2475,7 @@
       "id": "perf_65de245e-ff54-4e24-a858-2c08b744079b",
       "workId": "song_2e2cc015-a9b8-478a-bcd0-c8ef93ef6830",
       "date": "2025-05-31",
-      "eventId": null,
+      "eventId": "evt_c2f296a2-699c-4917-825f-257465540e6c",
       "type": "singing-and-dance",
       "creditedMembers": [
         "youen"
@@ -2548,7 +2505,7 @@
       "id": "perf_50f09254-d591-44a7-8d77-13fb3ce29d6a",
       "workId": "song_86564fc4-78b6-4ad9-80c5-c09e41d4289e",
       "date": "2025-05-31",
-      "eventId": null,
+      "eventId": "evt_c2f296a2-699c-4917-825f-257465540e6c",
       "type": "singing-and-dance",
       "creditedMembers": [
         "youen"
@@ -2578,7 +2535,7 @@
       "id": "perf_5befe022-cf8a-492b-bcc9-968d27a0de20",
       "workId": "song_010020b3-3ed3-4401-bce2-96e139452562",
       "date": "2025-05-31",
-      "eventId": null,
+      "eventId": "evt_c2f296a2-699c-4917-825f-257465540e6c",
       "type": "singing-and-dance",
       "creditedMembers": [
         "youen"

@@ -34,7 +34,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_9c7f66aa-b86e-46b1-a813-b4f21f4c26e1",
@@ -69,7 +70,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_d2590e2f-81e3-4e45-a78a-aa9eb9501048",
@@ -295,7 +297,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "生化危机9"
     },
     {
       "id": "evt_c7b8f848-f104-4fb6-9a09-c2eb53207514",
@@ -330,7 +333,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_ad1676e8-de21-4e89-8e0e-7ff8f615a59c",
@@ -365,7 +369,8 @@
       },
       "contentType": "game",
       "dimension": "unknown",
-      "isUnannounced": true
+      "isUnannounced": true,
+      "series": "生化危机9"
     },
     {
       "id": "evt_71c19b83-346d-48f0-a4f8-30e32d46435a",
@@ -400,7 +405,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_d57e0bbd-00fb-4477-8ebc-bab0e16a25c0",
@@ -549,7 +555,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "生化危机9"
     },
     {
       "id": "evt_42e37943-eb1d-4921-aa16-94c70df6443c",
@@ -584,7 +591,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "生化危机9"
     },
     {
       "id": "evt_e3cc8abd-de3b-4d92-bc53-e8665e5066a5",
@@ -694,11 +702,12 @@
     {
       "id": "evt_014c4fcc-a237-486e-b1de-9d0706837be0",
       "date": "2026-03-21",
-      "kind": "activity",
+      "kind": "livestream",
       "title": "露早生日会《Miracle Land》",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "luzao"
+        "luzao",
+        "youen"
       ],
       "titleHours": [
         19
@@ -762,9 +771,19 @@
             "file": "../evidence/history-01/dynamics-2026.json",
             "locator": "1182262200088133640"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV12WAAz5ETH",
+            "locator": "BV12WAAz5ETH",
+            "excerpt": "因为从有到无【露早柚恩翻跳】"
+          }
         ]
       },
-      "note": "成员原回放明确3D生日会，官方周表与预告给出完整名称Miracle Land；录播原题保留在原始来源。计划19:30与录播标题小时19分别保存，不据此推算实际开始时刻、节目曲目或新衣首发。"
+      "note": "成员原回放明确3D生日会，官方周表与预告给出完整名称Miracle Land；录播原题保留在原始来源。计划19:30与录播标题小时19分别保存，不据此推算实际开始时刻、节目曲目或新衣首发。",
+      "contentType": "celebration",
+      "dimension": "3d"
     },
     {
       "id": "evt_3f9afa6a-347f-409e-90b4-67b0c082878e",
@@ -1300,7 +1319,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_d5543309-0c82-4f7b-b851-193b8095b7e4",
@@ -1335,7 +1355,8 @@
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "看新三国"
     },
     {
       "id": "evt_a43ab564-715c-44fe-b5da-c3043ec03564",
@@ -1405,7 +1426,8 @@
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "series": "萌妹玩游戏"
     },
     {
       "id": "evt_863fc290-c93c-49a8-bd03-925c12f107c1",
@@ -1755,6 +1777,42 @@
       },
       "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
       "text": "https://live.bilibili.com/25512443\n直播日期：2026年月日\n3D【】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://space.bilibili.com"
+    },
+    {
+      "id": "evt_9040005c-5105-4a95-b07a-9ffd9ac76862",
+      "date": "2026-03-11",
+      "kind": "livestream",
+      "title": "妈妈？妈妈！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1arwFzGEQ2",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1arwFzGEQ2",
+            "locator": "BV1arwFzGEQ2",
+            "excerpt": "【柚恩直播录播】【3D】2026.03.11 妈妈？妈妈！"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1arwFzGEQ2",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1arwFzGEQ2",
+            "locator": "BV1arwFzGEQ2",
+            "excerpt": "【柚恩直播录播】【3D】2026.03.11 妈妈？妈妈！"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false
     }
   ]
 }
