@@ -26,7 +26,7 @@
       },
       "2025": {
         "events": 499,
-        "performances": 533,
+        "performances": 532,
         "recordings": 1215
       },
       "2026": {
@@ -37,9 +37,9 @@
     },
     "total": {
       "events": 3062,
-      "performances": 3631,
+      "performances": 3630,
       "recordings": 4519,
-      "confirmedWorks": 1960,
+      "confirmedWorks": 1959,
       "plans": 1532,
       "scheduleChanges": 143
     }
@@ -577,7 +577,7 @@
     },
     {
       "file": "confirmed/performances-2025-05.json",
-      "sha256": "cee732f642531474a1dd3250bb76acf35ba29906a6508f0c7e57a7d4990093e1"
+      "sha256": "600b70226b24e0d0f6e0d00971f24915c3fbadacea78f6699b94087f0f0085fb"
     },
     {
       "file": "confirmed/performances-2025-06.json",
@@ -825,10 +825,10 @@
     },
     {
       "file": "confirmed/songs.json",
-      "sha256": "0be3a42edd8b30a09116af75aef16257f12bfbf2c562b85c54c9d74226d3493e"
+      "sha256": "7f5bb3387c667ad7b4f7095bf0055ecf15c0ae2ea1a46574d225b2321febb9c8"
     }
   ],
-  "generatedAt": "2026-10-12T05:50:37.828Z",
+  "generatedAt": "2026-10-12T09:56:41.495549+00:00",
   "sourceCoverageMatrix": "../reviews/round-131-account-song-coverage-gate.json",
   "inputFiles": [
     {
