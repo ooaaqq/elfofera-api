@@ -494,6 +494,22 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1KvsFzdEeU"
           }
+        },
+        {
+          "bvid": "BV1sqsFzsE2U",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV17BsAzHEJp",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1pHsgzLEiE",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1sHWSzREWh",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1KvsFzdEeU",
@@ -502,6 +518,30 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1KvsFzdEeU"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1sqsFzsE2U",
+            "locator": "BV1sqsFzsE2U",
+            "excerpt": "露早 2025.10.19 【，，，】【直播录像】【电台】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV17BsAzHEJp",
+            "locator": "BV17BsAzHEJp",
+            "excerpt": "露早 2025.10.19 【。。。】【直播录像】【2D】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1pHsgzLEiE",
+            "locator": "BV1pHsgzLEiE",
+            "excerpt": "【EOE】露早 电台 2025.10.19 ，，，【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1sHWSzREWh",
+            "locator": "BV1sHWSzREWh",
+            "excerpt": "【EOE】露早2D 2025.10.19 。。。【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -1177,6 +1217,10 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV19z1gBvE1V"
           }
+        },
+        {
+          "bvid": "BV1Tx1jBzE3B",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV19z1gBvE1V",
@@ -1185,6 +1229,12 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV19z1gBvE1V"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Tx1jBzE3B",
+            "locator": "BV1Tx1jBzE3B",
+            "excerpt": "【EOE】露早2D 2025.10.31 萌妹玩游戏5【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -1248,6 +1298,218 @@
         "luzao"
       ],
       "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_7c3cbded-f057-5dd0-a184-5b5fd762ef92",
+      "date": "2025-10-11",
+      "kind": "livestream",
+      "title": "唱唱",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "singing",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1Rs4xzLEuT",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1Rs4xzLEuT",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Rs4xzLEuT",
+            "locator": "BV1Rs4xzLEuT",
+            "excerpt": "【柚恩直播录播】【2D】【D限】2025.10.11 唱唱；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
+    },
+    {
+      "id": "evt_15fe1672-7e5e-5fbb-bb7e-200ccef08d95",
+      "date": "2025-10-11",
+      "kind": "livestream",
+      "title": "轻轻松松",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1Qm4wzGEYi",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV1A54az7Evx",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV1Qm4wzGEYi",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Qm4wzGEYi",
+            "locator": "BV1Qm4wzGEYi",
+            "excerpt": "【柚恩直播录播】【2D】2025.10.11 轻轻松松；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1A54az7Evx",
+            "locator": "BV1A54az7Evx",
+            "excerpt": "【EOE】柚恩2D 2025.10.11 轻轻松松【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_3d3ea03c-82fd-511f-9cb0-4254cc6220f8",
+      "date": "2025-10-17",
+      "kind": "livestream",
+      "title": "进来看跳舞！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "dance",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV11mWnz5Ehw",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV11mWnz5Ehw",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV11mWnz5Ehw",
+            "locator": "BV11mWnz5Ehw",
+            "excerpt": "【柚恩直播录播】【3D】【D限】2025.10.17 进来看跳舞！；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
+    },
+    {
+      "id": "evt_1fe6abd7-283c-54f5-b14c-eff13481c56d",
+      "date": "2025-10-24",
+      "kind": "livestream",
+      "title": "看看",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1iJspzNEg8",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV1LcsZzNEV5",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV1iJspzNEg8",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1iJspzNEg8",
+            "locator": "BV1iJspzNEg8",
+            "excerpt": "【柚恩直播录播】【2D】2025.10.24 看看；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1LcsZzNEV5",
+            "locator": "BV1LcsZzNEV5",
+            "excerpt": "【EOE】柚恩2D 2025.10.24 看看【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_d12c96af-874e-5e0b-aca7-49849ce504a9",
+      "date": "2025-10-25",
+      "kind": "livestream",
+      "title": "棋牌美女",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1Y8sfzPEoY",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1Y8sfzPEoY",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Y8sfzPEoY",
+            "locator": "BV1Y8sfzPEoY",
+            "excerpt": "【柚恩直播录播】【2D】【D限】2025.10.25 棋牌美女；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
+    },
+    {
+      "id": "evt_0d941b43-b576-5331-a5a5-660a715700a9",
+      "date": "2025-10-31",
+      "kind": "livestream",
+      "title": "进来！看跳舞！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "dance",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1M51gBXEu5",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1M51gBXEu5",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1M51gBXEu5",
+            "locator": "BV1M51gBXEu5",
+            "excerpt": "【柚恩直播录播】【3D】【D限】2025.10.31 进来！看跳舞！；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
     }
   ]
 }

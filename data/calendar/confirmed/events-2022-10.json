@@ -2667,12 +2667,21 @@
             "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
             "locator": "BV1CG4y187dq"
           }
+        ],
+        "hostMember": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Me4y147h5",
+            "locator": "BV1Me4y147h5",
+            "excerpt": "成员官方账号自动回放，确认开播账号；不表示完整参与名单，也不用于推断逐曲演唱者。"
+          }
         ]
       },
       "performerLabel": "蛞蝓",
       "contentType": "game",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "hostMember": "minuo"
     },
     {
       "id": "evt_b36aacf8-9bca-4f9a-bd1c-55441dc29bba",
@@ -4814,6 +4823,47 @@
       },
       "note": "目录原文明确作品或原曲，补入投稿 publication；不从投稿日期推断演出日期。",
       "text": "翻跳：莞儿\n—————————\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\n露早@露早GOGO ：https://space.bilibili.com/1669777785\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147"
+    },
+    {
+      "id": "evt_9d1cf121-830f-41f4-a0cb-bb72705aa5b0",
+      "date": "2022-10-02",
+      "kind": "activity",
+      "title": "冰火歌会秋日双城之战",
+      "occurrence": "clip-attested",
+      "creditedGroup": "EOE",
+      "assets": [
+        {
+          "bvid": "BV1Qg411a7s4",
+          "role": "performance-excerpt",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Qg411a7s4",
+            "locator": "BV1Qg411a7s4",
+            "sourceField": "title + description",
+            "excerpt": "10.2 【冰火歌会秋日双城之战特辑】EOE动感翻跳《Pirate》 4K；直播日期：2022年10月2日\n直播标题：3D【冰火歌会秋日双城之战】\n直播源：https://live.bilibili.com/1\n————————————————————————————\n﻿@虞莫MOMO  ﻿ \n直播间：https://live.bilibili.com/25512485/\n个人主页：https://space.bilibili.com/1811071010/\n﻿@柚恩不加糖  ﻿ \n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/\n﻿@露早GOGO  ﻿   \n直播间：https://live.bilibili.com/25512443/\n个人主页：https://space.bilibili.com/1669777785/\n﻿@米诺高分少女  ﻿  \n直播间：https://live.bilibili.com/25512465/\n个人主页：https://space.bilibili.com/1778026586/\n﻿@莞儿睡不醒  ﻿  \n直播间：https://live.bilibili.com/25512476/\n个人主页：https://space.bilibili.com/1875044092/\n————————————————————————————\n【歌舞切片组】\n打杂：报叔"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Qg411a7s4",
+            "locator": "BV1Qg411a7s4",
+            "sourceField": "title + description",
+            "excerpt": "10.2 【冰火歌会秋日双城之战特辑】EOE动感翻跳《Pirate》 4K；直播日期：2022年10月2日\n直播标题：3D【冰火歌会秋日双城之战】\n直播源：https://live.bilibili.com/1\n————————————————————————————\n﻿@虞莫MOMO  ﻿ \n直播间：https://live.bilibili.com/25512485/\n个人主页：https://space.bilibili.com/1811071010/\n﻿@柚恩不加糖  ﻿ \n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/\n﻿@露早GOGO  ﻿   \n直播间：https://live.bilibili.com/25512443/\n个人主页：https://space.bilibili.com/1669777785/\n﻿@米诺高分少女  ﻿  \n直播间：https://live.bilibili.com/25512465/\n个人主页：https://space.bilibili.com/1778026586/\n﻿@莞儿睡不醒  ﻿  \n直播间：https://live.bilibili.com/25512476/\n个人主页：https://space.bilibili.com/1875044092/\n————————————————————————————\n【歌舞切片组】\n打杂：报叔"
+          }
+        ],
+        "title": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Qg411a7s4",
+            "locator": "BV1Qg411a7s4",
+            "sourceField": "title + description",
+            "excerpt": "10.2 【冰火歌会秋日双城之战特辑】EOE动感翻跳《Pirate》 4K；直播日期：2022年10月2日\n直播标题：3D【冰火歌会秋日双城之战】\n直播源：https://live.bilibili.com/1\n————————————————————————————\n﻿@虞莫MOMO  ﻿ \n直播间：https://live.bilibili.com/25512485/\n个人主页：https://space.bilibili.com/1811071010/\n﻿@柚恩不加糖  ﻿ \n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/\n﻿@露早GOGO  ﻿   \n直播间：https://live.bilibili.com/25512443/\n个人主页：https://space.bilibili.com/1669777785/\n﻿@米诺高分少女  ﻿  \n直播间：https://live.bilibili.com/25512465/\n个人主页：https://space.bilibili.com/1778026586/\n﻿@莞儿睡不醒  ﻿  \n直播间：https://live.bilibili.com/25512476/\n个人主页：https://space.bilibili.com/1875044092/\n————————————————————————————\n【歌舞切片组】\n打杂：报叔"
+          }
+        ]
+      }
     }
   ]
 }

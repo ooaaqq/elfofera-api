@@ -48,7 +48,11 @@ describe("Performance associations", () => {
       "抢救中，",
       "一起唱歌!",
     ]);
-    expect(restart[0].recordings).toHaveLength(1);
+    expect(restart[0].recordings).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ bvid: restart[0].preferredRecordingBvid }),
+      ]),
+    );
   });
 
   it("keeps separated sessions distinct even when their titles are similar", () => {
@@ -102,6 +106,33 @@ describe("Performance associations", () => {
         (p) => p.assets.find((a) => a.bvid === "BV1Pw4m1d7vC").partNumbers,
       ),
     ).toEqual([[2], [9]]);
+  });
+
+  it("keeps same-title compositions separate while correcting a misassigned clip", () => {
+    const performance = withVideo("BV1k1421R7GJ")[0];
+    const work = read("songs.json").works.find(
+      (item) => item.id === performance.workId,
+    );
+    expect(work.originalArtists).toEqual(["张韶涵"]);
+    expect(performance.assets.map((asset) => asset.bvid)).toContain(
+      "BV1eZ421n7Ji",
+    );
+    expect(
+      read("songs.json").works.some(
+        (item) =>
+          item.title === "最近好吗" && item.originalArtists.includes("金莎"),
+      ),
+    ).toBe(true);
+  });
+
+  it("counts the attested March 15 restart as one broadcast", () => {
+    const sessions = events.filter(
+      (event) => event.date === "2024-03-15" && event.kind === "livestream",
+    );
+    expect(sessions).toHaveLength(1);
+    expect(sessions[0].recordings.map((recording) => recording.bvid)).toEqual(
+      expect.arrayContaining(["BV122421A7QX", "BV14K421v7oA"]),
+    );
   });
 
   it("treats birthday shows with attested livestream recordings as livestream events", () => {

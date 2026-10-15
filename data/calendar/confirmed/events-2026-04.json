@@ -214,6 +214,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1CYSXB5EHB"
           }
+        },
+        {
+          "bvid": "BV1R4SQB8E9Z",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1CYSXB5EHB",
@@ -222,6 +226,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1CYSXB5EHB"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1R4SQB8E9Z",
+            "locator": "BV1R4SQB8E9Z",
+            "excerpt": "【EOE】柚恩2D 2026.04.05 先聊聊唱唱【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },

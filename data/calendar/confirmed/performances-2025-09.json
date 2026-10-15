@@ -171,6 +171,10 @@
         {
           "bvid": "BV1oqaAziE4C",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1LtaKz3ESm",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -185,6 +189,18 @@
           "locator": "BV1oqaAziE4C",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2025年09月02日\n柚恩【意义不明二选一】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504409"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1LtaKz3ESm",
+          "sourceField": "title",
+          "excerpt": "【柚恩翻跳】初音ミク『えれくとりっく・えんじぇぅ (电子天使)』"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1LtaKz3ESm",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.09.02 直播切片\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bil"
         }
       ]
     },
@@ -669,36 +685,6 @@
       ]
     },
     {
-      "id": "perf_eb523a4c-38ce-4a21-a863-92cd4eb8a99c",
-      "workId": "song_3fc8f499-db35-4962-be01-5e1a3679e51a",
-      "date": "2025-09-02",
-      "eventId": "evt_6357ea1a-6190-4a41-8567-ad50d1160898",
-      "type": "dance",
-      "creditedMembers": [
-        "youen"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1LtaKz3ESm",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch19.json",
-          "locator": "BV1LtaKz3ESm",
-          "sourceField": "title",
-          "excerpt": "【柚恩翻跳】初音ミク『えれくとりっく・えんじぇぅ (电子天使)』"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch19.json",
-          "locator": "BV1LtaKz3ESm",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "柚恩 3D 25.09.02 直播切片\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bil"
-        }
-      ]
-    },
-    {
       "id": "perf_edf29247-e04a-453e-8e35-e9f18f5ae589",
       "workId": "song_5dfde020-3d82-483c-88e2-9b87c3e21a49",
       "date": "2025-09-10",
@@ -1060,7 +1046,7 @@
     },
     {
       "id": "perf_a9185810-a4b4-4f69-89f9-fdd6d46a72b1",
-      "workId": "song_3fc8f499-db35-4962-be01-5e1a3679e51a",
+      "workId": "song_1e6c0ace-a9bb-4dec-8728-d00c83233d1e",
       "date": "2025-09-25",
       "eventId": "evt_7f7d0b3c-7e9b-49e4-8518-933343433aaa",
       "type": "dance",

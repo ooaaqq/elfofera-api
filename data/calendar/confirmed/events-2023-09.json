@@ -1082,6 +1082,20 @@
             "file": "../reviews/round-08-batch14-main-adoption.json",
             "locator": "BV1AN411p7J3"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1NV411P7n2",
+            "locator": "BV1NV411P7n2",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1FF411D72j",
+            "locator": "BV1FF411D72j",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
         ]
       },
       "recordings": [
@@ -1097,7 +1111,10 @@
       "preferredRecordingBvid": "BV1AN411p7J3",
       "contentType": "unknown",
       "dimension": "unknown",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "yumo"
+      ]
     },
     {
       "id": "evt_43ea562a-8e97-407c-882b-e6437267e1ee",
@@ -3205,6 +3222,14 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1QV411F77R"
           }
+        },
+        {
+          "bvid": "BV1Kp4y1c7YR",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1eV411w7kY",
+          "relation": "alternate-version"
         }
       ],
       "plannedMembers": [
@@ -3227,6 +3252,18 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1QV411F77R"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Kp4y1c7YR",
+            "locator": "BV1Kp4y1c7YR",
+            "excerpt": "【EOE】虞莫2D 2023.09.30 联动回~【4K丨直播录像】；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1eV411w7kY",
+            "locator": "BV1eV411w7kY",
+            "excerpt": "【EOE】柚恩2D 2023.09.30 加字游戏！【4K丨直播录像】；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
           }
         ]
       },

@@ -2681,6 +2681,14 @@
             "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
             "locator": "BV1dR4y1Y7q8"
           }
+        ],
+        "assets": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1xA411o7Fq",
+            "locator": "BV1xA411o7Fq",
+            "excerpt": "【冰火歌会】2023/1/15 冰火歌会2022年度盛典【直播录像】；简介标注直播剪辑/歌切合集；作为节选资料，不作为完整录播。"
+          }
         ]
       },
       "assets": [
@@ -2691,6 +2699,10 @@
             "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
             "locator": "BV1dR4y1Y7q8"
           }
+        },
+        {
+          "bvid": "BV1xA411o7Fq",
+          "role": "performance-excerpt"
         }
       ]
     },

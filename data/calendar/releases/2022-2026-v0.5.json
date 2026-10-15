@@ -6,42 +6,42 @@
     "through": "2026-10-18",
     "timeZone": "Asia/Shanghai"
   },
-  "sourceBoundary": "确认事件与发布信息覆盖至2026-10-12，官方周表计划覆盖至2026-10-18；计划与实际事件分别保存，不将预告当作已发生。确认数据不宣称全部历史内容零遗漏。",
+  "sourceBoundary": "确认事件与录播覆盖至2026-10-14，官方周表计划覆盖至2026-10-18；计划与实际事件分别保存，不将预告当作已发生。确认数据不宣称全部历史内容零遗漏。",
   "counts": {
     "byYear": {
       "2022": {
-        "events": 468,
-        "performances": 546,
+        "events": 469,
+        "performances": 555,
         "recordings": 324
       },
       "2023": {
         "events": 977,
-        "performances": 1305,
+        "performances": 1335,
         "recordings": 1025
       },
       "2024": {
-        "events": 747,
-        "performances": 906,
-        "recordings": 1224
+        "events": 764,
+        "performances": 924,
+        "recordings": 1225
       },
       "2025": {
-        "events": 499,
-        "performances": 532,
+        "events": 526,
+        "performances": 525,
         "recordings": 1215
       },
       "2026": {
-        "events": 371,
-        "performances": 341,
-        "recordings": 731
+        "events": 377,
+        "performances": 345,
+        "recordings": 734
       }
     },
     "total": {
-      "events": 3062,
-      "performances": 3630,
-      "recordings": 4519,
-      "confirmedWorks": 1959,
+      "events": 3113,
+      "performances": 3684,
+      "recordings": 4523,
+      "confirmedWorks": 1928,
       "plans": 1532,
-      "scheduleChanges": 143
+      "scheduleChanges": 144
     }
   },
   "completion": {
@@ -99,153 +99,61 @@
       "2026-09",
       "2026-10"
     ],
-    "rule": "每月已登记输入均有确认、排除、重复、边界或待核处置；待核项目不会阻塞其余明确记录发布。"
+    "rule": "既有月份保留已确认数据；新发现来源按证据逐条补缺，可见目录读取完毕不表示全部视频详情与分P已核销。未确定项目不阻塞其余明确记录发布。"
   },
   "knownGaps": [
     {
       "category": "song-content",
       "items": [
-        "部分整场歌回、KTV、舞蹈录播只有场次证据，没有逐曲清单；round-136/137/138 的原始目录线索已分类，不以精确 BV 缺失直接判定缺歌。",
-        "账号目录中仍有未被 confirmed 精确引用的歌舞标题线索，需按日期、成员、作品和场次证据增量筛查；原始线索见 round-136/137/138。"
+        "仅采用明确切片、具名分P和多来源曲目资料；部分歌回/舞蹈录播没有逐曲清单，不宣称完整枚举。"
       ]
     },
     {
-      "category": "work-identity",
+      "category": "original-artists",
       "items": [
-        "核心账号登记仍有8条来源未决；不代表全部缺歌或人工任务数量，详见round-91及账号覆盖v2。"
+        "81个已使用作品尚无明确原唱；包含传统曲、串烧、非标准作品及同名歧义，不影响其表演记录。"
       ]
     },
     {
-      "category": "recording-catalog",
+      "category": "recording-event-relation",
       "items": [
-        "36个事件录播引用未出现在录播目录索引，保留为事件资产引用"
+        "20组录播候选尚需区分标题变体、重开或独立场次，不等于20场漏播。"
       ]
     },
     {
-      "category": "manual-review",
+      "category": "member-attribution",
       "items": [
-        "只保留会改变日期、场次、成员、作品身份或可用性的实质歧义"
+        "38场缺实际/计划成员署名，其中36场已知开播账号；组合署名不展开为具体成员。"
       ]
     },
     {
-      "category": "event-date-relation",
+      "category": "source-boundary",
       "items": [
-        "6月6日成员回放与6月7日团播的版本关系未证；实际团播已独立确认",
-        "2026-02-10宝贝与2月9日同题名回放日期冲突"
-      ]
-    },
-    {
-      "category": "source-tail",
-      "items": [
-        "官方周表已收录至2026-10-18；尚未发生或尚无发生证据的预定场次保留为计划。"
-      ]
-    },
-    {
-      "category": "open-song-queue",
-      "items": [
-        "15 条已登记歌曲增量项，见 reviews/song-gap-queue.json；仅在新分P、曲目单、成员、日期或场次证据出现时更新。"
+        "官方周表计划至2026-10-18；资料只代表当前确认范围，未发生计划不算直播。其他实质歧义保留在本地复核表。"
       ]
     }
   ],
-  "reports": [
-    "../reviews/round-09-song-source-coverage.json",
-    "../reviews/round-36-2025-2026-closeout.json",
-    "../reviews/round-60-content-boundary-closeout.json",
-    "../reviews/round-61-2026-h1-song-closeout.json",
-    "../reviews/round-62-2026-h2-song-closeout.json",
-    "../reviews/round-63-source-boundary-closeout.json",
-    "../reviews/round-64-global-integrity-audit.json",
-    "../reviews/round-68-structural-and-event-link-adoption.json",
-    "../evidence/round-69-unresolved-public-details.json",
-    "../reviews/round-69-unresolved-public-details-adoption.json",
-    "../reviews/round-70-title-search.json",
-    "../reviews/round-71-publication-source-event-closeout.json",
-    "../reviews/round-74-june-event-link-correction.json",
-    "../reviews/round-76-june-group-event-adoption.json",
-    "../reviews/round-78-duplicate-performance-adoption.json",
-    "../reviews/round-85-youen-explicit-tracklist-adoption.json",
-    "../reviews/round-86-gogo-explicit-single-adoption.json",
-    "../reviews/round-87-performance-year-correction-adoption.json",
-    "../reviews/round-88-account-song-coverage-v2.json",
-    "../reviews/round-91-core-register-count-refresh.json",
-    "../reviews/round-97-march-piano-missing-song-adoption.json",
-    "../reviews/round-98-october-tail-adoption.json",
-    "../reviews/round-92-youen-directory-classification-correction.json",
-    "../reviews/round-99-gogo-directory-classification-correction.json",
-    "../reviews/round-96-october-tail-source-review.json",
-    "../reviews/round-101-youen-dated-directory-adoption.json",
-    "../reviews/round-111-explicit-song-gap-audit.json",
-    "../reviews/round-112-core-account-song-gap-audit.json",
-    "../reviews/round-113-explicit-song-gap-adoption.json",
-    "../reviews/round-114-account-song-coverage-refresh.json",
-    "../reviews/round-115-global-open-song-gap-register.json",
-    "../reviews/round-117-unrepresented-explicit-cue-audit.json",
-    "../reviews/round-118-account-song-asset-adoption.json",
-    "../reviews/round-119-source-recording-adoption.json",
-    "../reviews/round-120-weekly-recording-directory-adoption.json",
-    "../reviews/round-121-history-recording-directory-adoption.json",
-    "../reviews/round-122-account-song-coverage-refresh.json",
-    "../reviews/round-123-paper-hearts-2025-11-12-adoption.json",
-    "../reviews/round-124-legacy-candidate-closeout-2024-04.json",
-    "../reviews/round-125-global-performance-reference-audit.json",
-    "../reviews/round-126-recording-date-field-closeout.json",
-    "../reviews/round-127-performance-asset-traceability-audit.json",
-    "../reviews/round-128-open-song-register-integrity-check.json",
-    "../reviews/round-129-birthday-tracklist-local-crosscheck.json",
-    "../reviews/round-130-legacy-site-crosscheck.json",
-    "../reviews/round-131-account-song-coverage-gate.json",
-    "../reviews/round-132-workbook-candidate-current-reconciliation.json",
-    "../reviews/round-133-recording-source-gap-adoption.json",
-    "../reviews/round-134-dated-song-asset-reconciliation.json",
-    "../reviews/round-135-account-year-song-coverage-matrix.json",
-    "../reviews/round-139-open-register-scope-exclusion.json",
-    "../reviews/round-136-core-raw-year-coverage.json",
-    "../reviews/round-137-weekly-raw-year-coverage.json",
-    "../reviews/round-138-groups-raw-year-coverage.json",
-    "../reviews/round-140-raw-song-cue-reconciliation.json",
-    "../reviews/round-141-work-identity-adoption.json",
-    "../reviews/round-142-global-content-integrity-audit.json",
-    "../reviews/round-143-open-song-gap-action-classification.json",
-    "../reviews/round-144-waner-guoding-cross-source-check.json",
-    "../reviews/round-145-original-artist-workbook-candidates.json",
-    "../reviews/round-146-original-artist-workbook-adoption.json",
-    "../reviews/round-147-single-artist-cross-source-candidates.json",
-    "../reviews/round-148-single-artist-cross-source-adoption.json",
-    "../reviews/round-149-single-artist-legacy-candidates.json",
-    "../reviews/round-150-single-artist-legacy-adoption.json",
-    "../reviews/round-151-demo-gap-closeout.json",
-    "../reviews/round-152-legacy-original-artist-candidates.json",
-    "../reviews/round-153-legacy-original-artist-adoption.json",
-    "../reviews/song-gap-queue.json",
-    "../reviews/round-154-release-readiness-audit.json",
-    "../reviews/round-155-current-tail-audit.json",
-    "../reviews/round-156-missing-original-artist-breakdown.json",
-    "../reviews/round-157-fiesta-public-index-check.json",
-    "../reviews/round-155-current-tail-audit.json",
-    "../reviews/round-156-missing-original-artist-breakdown.json",
-    "../reviews/round-157-fiesta-public-index-check.json",
-    "../reviews/song-gap-queue.json"
-  ],
+  "reports": [],
   "files": [
     {
       "file": "confirmed/events-2022-07.json",
-      "sha256": "81917096d16bb036215730451bd6a46442ef3ddf771fdda8feaf094f924d7759"
+      "sha256": "05640ab32df8e33765d4fa40df9b5d83cfc11c345bf765a75754d1d745c938b6"
     },
     {
       "file": "confirmed/events-2022-08.json",
-      "sha256": "74c532635ff2e3893185e32384ec892821ac73ca35da7a29f05f166b32106545"
+      "sha256": "349613090e3d88741331fa152c16d1bde936c6deaac2262b0922bab3d58c41d4"
     },
     {
       "file": "confirmed/events-2022-09.json",
-      "sha256": "9390c25d80d224932f3e5d20e2c3257a1ba361276334ba4d834ba33a8897bd27"
+      "sha256": "f17c0300b92cbbb8ddd8e8a883d130afe797120dc194eb01815763a1985c95e4"
     },
     {
       "file": "confirmed/events-2022-10.json",
-      "sha256": "30d4df4e944c8477bef91a35c25c0cdade26d98b950cf59c123337f8b6e34192"
+      "sha256": "51e3044f998ce7347a041cacd14966f5d7280abf82c39d09bfe29e4f094b1564"
     },
     {
       "file": "confirmed/events-2022-11.json",
-      "sha256": "77233ba6c70709232996642ec734aefac2c9ce9b08bd0c41452adf7e39d2af20"
+      "sha256": "fe9627b6b483e1ca5a49d46e5933c4271bb351f495ef400122d040c3c519e72f"
     },
     {
       "file": "confirmed/events-2022-12.json",
@@ -253,7 +161,7 @@
     },
     {
       "file": "confirmed/events-2023-01.json",
-      "sha256": "7582aacc76484a79c8b2c2771351a14864ea3a0feb0f7b684179e45c5650b940"
+      "sha256": "21604a8fef47b8fd1aff961dcbdc916f88c4feeedeb6dbf36f13333345e5c001"
     },
     {
       "file": "confirmed/events-2023-02.json",
@@ -261,35 +169,35 @@
     },
     {
       "file": "confirmed/events-2023-03.json",
-      "sha256": "33be50a7716299fca110c2f85df9b035fab244df76bd34f07d8e83a192a08574"
+      "sha256": "74eb8fa454c6c648e53a9fcc04b20a8552a59b3685bddccd52aafa81ffc24f8f"
     },
     {
       "file": "confirmed/events-2023-04.json",
-      "sha256": "b3ca1194c76a3c939bac12c114f1085d80338d6bcd9165057c911f98d690e21d"
+      "sha256": "ba18533b09412b7b4ce914444b19633d9236e651c626bb67f53f46779cf7332d"
     },
     {
       "file": "confirmed/events-2023-05.json",
-      "sha256": "026541e679e079a04301c5e778b02043d80fe216798db626707abe054858fa03"
+      "sha256": "5e545fc3e6185886d86a9c430607b0edf530bf9e91f865e04ee9f8cade10721b"
     },
     {
       "file": "confirmed/events-2023-06.json",
-      "sha256": "0b025a8ccb5dd88534890bed055469b541a41d5d3bf5f1a50a6de0c0087bb703"
+      "sha256": "ee8d7b052a6b590eb89fab68a4b1b7d956686f11c02355cfefb34290957c9648"
     },
     {
       "file": "confirmed/events-2023-07.json",
-      "sha256": "bcd7b582bd742b8a0155fac9b2f044e25155fef2778320b0da1519982c9c66ed"
+      "sha256": "347d0adc881403bbd26bc9ad7e10c2550cf5343be0a7a94526de858e8daa5189"
     },
     {
       "file": "confirmed/events-2023-08.json",
-      "sha256": "7133511b67c778aa1c899e3b0b0ed8d8fc9b9e787f7ce8bf9b21aff2af4c5025"
+      "sha256": "ec2cc3e0a2ecc26528a28d020b04301282192d5aa47c01626e96b016d08fbea0"
     },
     {
       "file": "confirmed/events-2023-09.json",
-      "sha256": "35234e7e9714d8ec7f65cdf743d359a8cf9436cc8fa1ae914f96c8e86860fc9f"
+      "sha256": "368b9a4015af996481ba86ebc52a8ff88492f1a93b741dcb87542987e39cc005"
     },
     {
       "file": "confirmed/events-2023-10.json",
-      "sha256": "fb16a3d2b1c7f3456e026d478e801ac08eeee43664cff78c0f285341a6a7c151"
+      "sha256": "4dce8befc5d7d4b601c42ab9091f9ae0e6ff5bb1746c6b73cd37ceedbb25b75d"
     },
     {
       "file": "confirmed/events-2023-11.json",
@@ -297,107 +205,107 @@
     },
     {
       "file": "confirmed/events-2023-12.json",
-      "sha256": "cdc36bd549a4edd7679ab063c25aeba3a3a913ff63bbd36cc35b0557bc36aec8"
+      "sha256": "0ad5fc429fcc903b2784f6bd17e01b6aab3a4575c792712defcf54959a4c482c"
     },
     {
       "file": "confirmed/events-2024-01.json",
-      "sha256": "10b348b87f8cc6ca1325de530ef5bdeb7a08764eeb6cc06115db25b549deec3f"
+      "sha256": "49a115ae0e53fbc3cddbbda258a4b916608a7db44e9ba55369dd48330d46df90"
     },
     {
       "file": "confirmed/events-2024-02.json",
-      "sha256": "5fcce1335dcfae9384bdf7f5bdd2599f6cd924a71a496859f4e64c893b4d4e62"
+      "sha256": "a6a92f7b01dcd5da5df6c6e1b4f392dfd9e48be6e99b9606a26d100b70d8752b"
     },
     {
       "file": "confirmed/events-2024-03.json",
-      "sha256": "222423df6ddfe08eec875305f44c798f61aaaedeb01a7342d2fb795debb0ac34"
+      "sha256": "e4287c67836585f88d6becf2a91d5a299174ef74268c3a9515a997412bca5789"
     },
     {
       "file": "confirmed/events-2024-04.json",
-      "sha256": "c6bb69b5aeda3c42c0dbbd492f36f3a8087ebc08c4557855f82b9d993651d965"
+      "sha256": "08df4702e9867f002987ea731dfc632ce188826ddbc9064fee18ffd9fee7f58b"
     },
     {
       "file": "confirmed/events-2024-05.json",
-      "sha256": "e86c375f1f0d9567785727f3ef4c6c974b4bc77778dbebfea75674edf33b9337"
+      "sha256": "27e98e8160c9562a34749c382eda907382b58f569598ca2d488819f73c2adb95"
     },
     {
       "file": "confirmed/events-2024-06.json",
-      "sha256": "9558bc3e78ae2714731a662592a474cd08f1476dae8e41afc2e2cbf8ab409dc8"
+      "sha256": "cb506a897ac98950a43a12503b2445beb71f4c785d9784b077f1fccc9bf1fdd1"
     },
     {
       "file": "confirmed/events-2024-07.json",
-      "sha256": "527595c53b39c84d556b99d46184923af38e309215c53b734348451b6d58ee70"
+      "sha256": "6f52d3c9786647004ab9c340dadbe2925f478dbd91aaf66784786f7d52f71a06"
     },
     {
       "file": "confirmed/events-2024-08.json",
-      "sha256": "f3e64f432dcaeec32cac5e4f635c4a9273c7994719a92f5f38b332c99b2d5acb"
+      "sha256": "8733f29e5de99d3635ad7e617c8b7e7d906df0c11dd0667ba01c3a1fa327bbea"
     },
     {
       "file": "confirmed/events-2024-09.json",
-      "sha256": "3cd26470b13fdf10f42d856b59e64ee48f51d23992378ecdbc2e59399d9e6667"
+      "sha256": "d7280ce16522a2c9354e7b3abda45dd1af864f2acf2a50558b6ba48b9667afd0"
     },
     {
       "file": "confirmed/events-2024-10.json",
-      "sha256": "e35419c559136cfc0ca07aba316c9b2682e3db0b8124fac431281ab080008d89"
+      "sha256": "95b6186047d43ad7b47fd001755eca44d0878915380895cd64e6085e73b488d7"
     },
     {
       "file": "confirmed/events-2024-11.json",
-      "sha256": "a73b457157a084820e1907745a43e2cc7998d1c58055b0c6b340fb9e949661fb"
+      "sha256": "95d88f2526532eb09c43d0c6342f850d32f90bb04d7857c0158f0f82043a113f"
     },
     {
       "file": "confirmed/events-2024-12.json",
-      "sha256": "bfe0e7db8da9b7ee74226c26958c609db2ce871fd676f0525340de40507ee223"
+      "sha256": "122037dab9d6dbcbbbdec29b320ca56d5c39d493da48b353d54d21f9285dc18f"
     },
     {
       "file": "confirmed/events-2025-01.json",
-      "sha256": "244044ddb97573c49dc13af808e4fad519f136578d5a4129c20ff674c0048fd4"
+      "sha256": "089c88b7bd033851ddc92c5907221e227289b049cf00e02268b61c9371a2cf7c"
     },
     {
       "file": "confirmed/events-2025-02.json",
-      "sha256": "6e6aa76f9287febb9821e165ca6b725b6f8c7c8423e1c6dfcaf8c0c02336b31a"
+      "sha256": "f08e3e21a0b1b1fddaa7a20d5c125080f5bb114be5881dc8cc969e744e10fbae"
     },
     {
       "file": "confirmed/events-2025-03.json",
-      "sha256": "3f7e57732284b970858168c2b1acf90ea6cd851c04cdf9f16da45ef85a305a65"
+      "sha256": "c2948a6e9a9d485fa971d07d570e236b56e463cc206f1899d7f15ed2a473f361"
     },
     {
       "file": "confirmed/events-2025-04.json",
-      "sha256": "2199a50475e7d3176458f37ad57e20e8b47a91a584f8cb1fd2d350caa010a6fa"
+      "sha256": "36f4a5b32ec4283437f5f6593f0a0cdf755a1e4b66e53942720d7676d32d423b"
     },
     {
       "file": "confirmed/events-2025-05.json",
-      "sha256": "c23acf1e747f4057fffbd1707fd0452dc63bdfc4f88e04899ba0ebc89a5de939"
+      "sha256": "25662fb26359a18264f860c50bbee1a01e1a759f5fd8ea772ab00756d60861ef"
     },
     {
       "file": "confirmed/events-2025-06.json",
-      "sha256": "647a7efc395cfa47aad9bc162674d1af748372ec04e4e4fdd8756af5a2eee0bd"
+      "sha256": "1457dbe4215edc9210f16c298625b5e81d31adb3adebbef59bbc321040f51b48"
     },
     {
       "file": "confirmed/events-2025-07.json",
-      "sha256": "1c196a9494748cc24c7a7d0d877fbbc04ee7310257dc3db5b2d1b4fd7d22b71b"
+      "sha256": "a36cb03397b2f14ba83be8190e55b09c552466498f71dae92c8f02c94dbe4cf0"
     },
     {
       "file": "confirmed/events-2025-08.json",
-      "sha256": "b59800e12c329b422cd7d26596f474c8e52f85e66ec16ade0710d67031fc7b36"
+      "sha256": "60a4476a5ccb4a3dfe62cf881ec0a1e5e47ea2729d58f8d70993d2579cb57337"
     },
     {
       "file": "confirmed/events-2025-09.json",
-      "sha256": "bdcca0b04069ecd0796ae67dded3853d8bfc6c13c8afebbbc5529e407764d571"
+      "sha256": "a738b0851acdb69b1a5290815d3d40f47b1576f66c215614cb3eb367743153ed"
     },
     {
       "file": "confirmed/events-2025-10.json",
-      "sha256": "090852515f80e84df16f16daf67135e5386eccd8373d5f8c52981a25569bbc24"
+      "sha256": "17e8375924e0e9367d8f22a411e26cb6d72c8b97ee62da45c7c7799e6a126943"
     },
     {
       "file": "confirmed/events-2025-11.json",
-      "sha256": "15778a1f3b0391abaadc7af2e6127cf1cb3819121a161f1c298a6f4e35a5539b"
+      "sha256": "73bd47890c4e37273ec5408ee33318e6b15bdefee6a50cc262da6a5144be46dd"
     },
     {
       "file": "confirmed/events-2025-12.json",
-      "sha256": "c497af0e5299e6d042949e1781cd421ecf65cb1724d9754a5e35b4f31ee42bde"
+      "sha256": "e204bee859972e2fcdacdb3a32267f2c6156abfea622af4b3b46761f6d37d242"
     },
     {
       "file": "confirmed/events-2026-01.json",
-      "sha256": "950c414265b2c3c8bdbab487c5c2f31512e32f5b1740f3c1b00457c035e422e8"
+      "sha256": "a773c098cfc86b447fca9f098ad262392594029bbc9f06b77dc9aa7420a97ce8"
     },
     {
       "file": "confirmed/events-2026-02.json",
@@ -405,167 +313,167 @@
     },
     {
       "file": "confirmed/events-2026-03.json",
-      "sha256": "98f944d531c05974f579091ef39e6fe6a66e543c0696cc7f69ac03a2a31bb21f"
+      "sha256": "38521b9f2252b487916b6501d924f6dab7a5204d9a6b446eed0a8c6a5d5c81ee"
     },
     {
       "file": "confirmed/events-2026-04.json",
-      "sha256": "2b82cc779388b6208ad70fef4ce076d81b5a2784c0216996ac8dcd0d73188471"
+      "sha256": "5e92b1899f61a9880c087a9d309966d3c44659f17c2fd06de1479f220782cb55"
     },
     {
       "file": "confirmed/events-2026-05.json",
-      "sha256": "f16c7d7323eb58328bf2897f16accc21375e6da75fd5820b6e3f53c698d0ea9d"
+      "sha256": "c4e71aa72131a8be2500b4fe16644c19649d8bc0c2231655f37dd4a23cf2fe9f"
     },
     {
       "file": "confirmed/events-2026-06.json",
-      "sha256": "13cd9795fcd9e3c57150ca3eac2af238ced30f1820afd74343cd4d5d44c4defe"
+      "sha256": "d0af417eebfe4041faa5d9239f7ce7c653ecc3530b3312b036fabb7d1ac0689b"
     },
     {
       "file": "confirmed/events-2026-07.json",
-      "sha256": "75e6a98433ce441415fede9ebe7f03c11e0307f2c1c2fe85c1916db1783d1f89"
+      "sha256": "11aceb5e220a81c8f7c0b3351a961f7c86babd4666bffda629fef8825e461dfe"
     },
     {
       "file": "confirmed/events-2026-08.json",
-      "sha256": "4b63b02f1f84ad7ae4831401eb0ce007ee08de31efc57fb78443e501bdeb4e6d"
+      "sha256": "5179b2004f3c72fc11a3723e70df573bf9378634f79f95b305b1fc8ff64e0e5c"
     },
     {
       "file": "confirmed/events-2026-09.json",
-      "sha256": "53abe017ec386a2b66af75e083ec1e0422d9bd49a0cc4a65c7e1319bd8ba2143"
+      "sha256": "8c1562fbd99baa8f56209e1c9d027c3be35c927df4673644908274b0322a5f09"
     },
     {
       "file": "confirmed/events-2026-10.json",
-      "sha256": "1bdbb8eb1b445a3aab3737975cfd7eb670dca7d9cc50d53b9de9b37c8582ef0d"
+      "sha256": "311cbdc50aa9466104b434d683ce3c728f213326969f6531181125bc51105678"
     },
     {
       "file": "confirmed/events.json",
-      "sha256": "4596105b333386f350483c7115c10e9d0656fdae8029fb55780bbd11e022ddb6"
+      "sha256": "6bf6a26d3e78f450c46c90c5ea92278ed68f5b8aad94b295bc0f7660f312f3aa"
     },
     {
       "file": "confirmed/performances-2022-07.json",
-      "sha256": "d1d2da9c82ef33421c01339dd002f771fb54b89f185a0c411521affebe0ea439"
+      "sha256": "6db77fc2d43f4975398eb6a4432c3b78035f048881ea3e04f751ea0465aa930a"
     },
     {
       "file": "confirmed/performances-2022-08.json",
-      "sha256": "b744329ee81b61550a3ee74de06ea2e3f6406815fb9bd468d010d3365452fc14"
+      "sha256": "13373380be5458ae2fb995e68293b52f47664f9815d1a04462cd50d1a71ef0ea"
     },
     {
       "file": "confirmed/performances-2022-09.json",
-      "sha256": "c3ce9acfe0b71c9aa33d1b7824641b76194ccd686d7b81a4e5909c35e3875673"
+      "sha256": "a3062ace5270bcb6439ead408100075292d1eaccf86a79687eb6dfd542568a79"
     },
     {
       "file": "confirmed/performances-2022-10.json",
-      "sha256": "1cf06e48a9380ca19424c2a8bad56563e5197505000a4aedc34305caf8decfd4"
+      "sha256": "d8537ed1a03d2015a15eec58f5c2919706e1adb3ff10e9bf924af87191a3c2bd"
     },
     {
       "file": "confirmed/performances-2022-11.json",
-      "sha256": "2e0297b7a008753751ddee76bea82de5f39ab5ea5dae3e97b1392950966cbf46"
+      "sha256": "6f90eef265dc609fc8f9dda1df6537b71d47d95ffdbe0ea47cce221c95896819"
     },
     {
       "file": "confirmed/performances-2022-12.json",
-      "sha256": "af45c47c7e468edb1e59ae29a5b8760021527c82dee78f15997812ef14cdb003"
+      "sha256": "8175c6e5d36844b1b305559135673429e56e132af31d165884cd9b7bd6653f31"
     },
     {
       "file": "confirmed/performances-2023-01.json",
-      "sha256": "5cda9e7ed17de227f54dbc853674b3b925e530473f2e66eb7fcc963fb1f627f7"
+      "sha256": "4a973ba67fb7029f05e3dcdc9bc473fd9b186af2abd01e6891d335c3bfab8de1"
     },
     {
       "file": "confirmed/performances-2023-02.json",
-      "sha256": "933a012f9b5f4536ea20f48678be261d4fc43c5ddbe08888996632358b7d54f6"
+      "sha256": "0dbf9e632dc065bfbc6e1fb68e80a39c2fa99ebb3b03574a2b225305a7044397"
     },
     {
       "file": "confirmed/performances-2023-03.json",
-      "sha256": "661a94433d1dae0a3870002d856cce754f39b08b3c863c0c811f6a57f6d57cda"
+      "sha256": "933028377ea8f97da579b02d65f7e6d4c43ab515437652afc5695aedc36aa0c3"
     },
     {
       "file": "confirmed/performances-2023-04.json",
-      "sha256": "922641a938f3e3e14f42c110940817ad05287fee9478aaadc0a86fa8caf7dcf2"
+      "sha256": "22a9f58b9206c0402df1c9aac1c9d769b8d633976b7af139a9c0cb7a5d1da56f"
     },
     {
       "file": "confirmed/performances-2023-05.json",
-      "sha256": "95147fdbe031c4d54f21915f2efbdd52cdc4f6427d31faf4b416fd1ae2607213"
+      "sha256": "c10134c5105ac9ddcee292e6d1fc4fbb9c631822d1608ac85f89f7e9473a9afe"
     },
     {
       "file": "confirmed/performances-2023-06.json",
-      "sha256": "84369783bf4b0e5254dde9674b7b28811e386388fd10a44a3c756c93099fefd1"
+      "sha256": "f0fff66112c18b1bad1a3b878c2bd9d98f89da4dacfea523cf9f7de2fcee6b83"
     },
     {
       "file": "confirmed/performances-2023-07.json",
-      "sha256": "ccbcdc65135655370c416359da8787dc445984e54f70a6faa0c6795bbe44156f"
+      "sha256": "9c54253c904a04e0d2643ae3f1d295e65157edf31e6d1113cd6d47ad84c5cc0e"
     },
     {
       "file": "confirmed/performances-2023-08.json",
-      "sha256": "0c4ae0fd6b79bbaf7318c8e5b408012adff2f471a9f668fc0a3532250a1cdbda"
+      "sha256": "970efa9ccde84e6e12d94443335c761564c60febb79bb33811e8c0c4f57fbb68"
     },
     {
       "file": "confirmed/performances-2023-09.json",
-      "sha256": "10164dd77f8b82a2113e10a7de3afc1b4e5832b00bcc6e4b110a24c657a761f1"
+      "sha256": "dea183f1fe8566ccf0ac5665357bba64a8e1069ae2941fdf4763e3b5a5612504"
     },
     {
       "file": "confirmed/performances-2023-10.json",
-      "sha256": "201a28240cd2754814fc95c494ab4aaa86714636a8f6f615835e5196e8ba4a01"
+      "sha256": "910c18bc37c724b1b11e9756a4176486f2f32e3f2511cc93c2fdfb1875c3ba82"
     },
     {
       "file": "confirmed/performances-2023-11.json",
-      "sha256": "dc6fe6102b016a0075fa82128b5fce67df9502b809f616b65f4a17235cfdee99"
+      "sha256": "0c16488178f6b5e5cbeb1d225ea761877ed8907ccb2a1f077c43bb2ddbe89996"
     },
     {
       "file": "confirmed/performances-2023-12.json",
-      "sha256": "2acaa277c40e088993e9b7376ef66be475d329b8aa2019c799ea40529efa617c"
+      "sha256": "43142af4aa674755d18cd1a13f5b589ebdecfc8465b23bdc715bd545c03f1f0c"
     },
     {
       "file": "confirmed/performances-2024-01.json",
-      "sha256": "bdd96bcce02071f8c78b605328dda5c25441bb17b74d31b27d28f9002d14f23f"
+      "sha256": "a3fff47b3f9cc683d0f0c405878c44881c6ab730e84b532d3812d8e826c37f99"
     },
     {
       "file": "confirmed/performances-2024-02.json",
-      "sha256": "9cae469bb84f4e4ddd443f3cdf28dd51e2a63d27b30d8fe7bcb6052cc9d5c114"
+      "sha256": "fc5e7878715c135a1a043bdf2c9de5d1d3b9fded0473143ae80dd72d92ff9381"
     },
     {
       "file": "confirmed/performances-2024-03.json",
-      "sha256": "c6c64b72c1b8c4532c4903d3e0ea7d10e51d8ce6608a8869d73cdecc7dfad2a5"
+      "sha256": "19048e148f42f7d8c0706022be686b7bf9445e6ad825a32692769fda43726831"
     },
     {
       "file": "confirmed/performances-2024-04.json",
-      "sha256": "5eb7a0f01c8a59cc170d2e2a96ccb391f7855a981cd1e2215aad35f38e84b53c"
+      "sha256": "0731fa0ceafd124aa76ef056d7579315bdd2b2d13e518a7151827d321f5521c0"
     },
     {
       "file": "confirmed/performances-2024-05.json",
-      "sha256": "12bc98f1fd761cc7e1f936831f069bec2f96961dac54e0cc18b7ca6136694d62"
+      "sha256": "0941501048d627284de155e47c4bde0f3e24faa18876742a522b017cee4bbe5b"
     },
     {
       "file": "confirmed/performances-2024-06.json",
-      "sha256": "7d3cdab5e3a615105321586b7e5fd30899c7f4c47eb7139529e72372a8ee0d53"
+      "sha256": "9803c8a774537f5c4865bd37ad4df702a8896b0bcdcbd5fb51836b842fadd177"
     },
     {
       "file": "confirmed/performances-2024-07.json",
-      "sha256": "430662b5105efae80cc4219199c9dc0a63c539ba547179b241dfb868d76f4f1d"
+      "sha256": "b9f1fb881d53f022b4e43711ff477c73ed92a6ba993f6786ee708587cbedf072"
     },
     {
       "file": "confirmed/performances-2024-08.json",
-      "sha256": "ee3e5131587c9320b000225e182624521158c39b14a7ebfb813559a547521be9"
+      "sha256": "ebeb383aa67ba56250a5cc3289054ffb0db51f784ea0b3524e21d7027c9f6ffe"
     },
     {
       "file": "confirmed/performances-2024-09.json",
-      "sha256": "32814fb633b59e9e515625b9d32c15243198589b6c4a18b19d46aea7b1016f6a"
+      "sha256": "eb5b6782b393f20521a102a9bc2758b18544759fd144a7bfa7e19fca31c325ed"
     },
     {
       "file": "confirmed/performances-2024-10.json",
-      "sha256": "917a309447e2589660575eca65c56fc2f0442bc712a1b1bd24608174a7d75a56"
+      "sha256": "fab70d37253c33f01c09724c79042e7bad4e057b29ce1f4ec176466b36fab3c9"
     },
     {
       "file": "confirmed/performances-2024-11.json",
-      "sha256": "f960a185bed9bfa73de1503c386de58ab9815c73d5ca17e263c21f3255147abb"
+      "sha256": "e354d31868bb3928de5911da26a693b799017beba6d0004fdb1f92217b4cf858"
     },
     {
       "file": "confirmed/performances-2024-12.json",
-      "sha256": "de1b3940b4ddef4721655659fe1444fee12bf13a2b1ae5cbc36b36a689fb21ee"
+      "sha256": "c44793523abc4ca3e167f8dcea4ffa05025cc1b1ecdf22e1c33e3d8299f050d8"
     },
     {
       "file": "confirmed/performances-2025-01.json",
-      "sha256": "d0233e0464dfb2c00489a96ac934dcf362f79f939c401cc69a80e5d1263629bb"
+      "sha256": "866216c34ec42728f04fae7065e2e46d41bc6ebb3e0c7db6e561b9ae0f08fe99"
     },
     {
       "file": "confirmed/performances-2025-02.json",
-      "sha256": "99eee33cf2a530c635410d025c8312fe7b015d0664001df40cfbc0608f7426c2"
+      "sha256": "58098e87d9eebb3de58e369e58a6303cf98dfa4edcf1d2e2f5b2ad19cd33bcb3"
     },
     {
       "file": "confirmed/performances-2025-03.json",
@@ -577,23 +485,23 @@
     },
     {
       "file": "confirmed/performances-2025-05.json",
-      "sha256": "600b70226b24e0d0f6e0d00971f24915c3fbadacea78f6699b94087f0f0085fb"
+      "sha256": "1860124ff6e08275f2af543c62bbbb3bcaf356e745552c10e32d831e1273e4be"
     },
     {
       "file": "confirmed/performances-2025-06.json",
-      "sha256": "2947ff7a61c93e48d14e86c8d94bc37f8160d2ffcead12f6e35fe63751ddd80b"
+      "sha256": "504519f6c048657fd4dde4ea3e47e94069ba899af69ac8c5183dae07b2d9d892"
     },
     {
       "file": "confirmed/performances-2025-07.json",
-      "sha256": "c26841db329e2021d2de1f1afad2177e77b91b843deed8d5c3b48926b9253024"
+      "sha256": "ffdfc0f43561403d301ca90723f882caf7cb382c9b67e91115ae507bb827e34c"
     },
     {
       "file": "confirmed/performances-2025-08.json",
-      "sha256": "944efff039030f465724274c1a1bfd8f118f89ea9afae1edf87679af6a77ab82"
+      "sha256": "eecd503eb1b50528b9d692f047671f7e820560220562a56edc9ad48af826b6e0"
     },
     {
       "file": "confirmed/performances-2025-09.json",
-      "sha256": "37759a4e874ae84722a01b7b05fb3d7da6c015be8befca99ac8caea2c1328675"
+      "sha256": "680bb73fe34dd7208117bc8fb0e7e0fadad79bfb400113fd20c3df1d3271b4b2"
     },
     {
       "file": "confirmed/performances-2025-10.json",
@@ -601,19 +509,19 @@
     },
     {
       "file": "confirmed/performances-2025-11.json",
-      "sha256": "ec1b3ee46209164d63346437ac6b7d09b71ea47620d29574fee3591de226d93e"
+      "sha256": "13e7c3eebb40ed0594d700927d14f905bf0ba3dac434ffb8c8fd2db20a38a246"
     },
     {
       "file": "confirmed/performances-2025-12.json",
-      "sha256": "7369f8df2c522c7fcd225f9fb1233199b6b68e472f912813dedfe5b315f96cdc"
+      "sha256": "442bf4f108fdc48ecba1444f2c4b8d9f96fd3fcdc7778a537c63f0f3a35e653f"
     },
     {
       "file": "confirmed/performances-2026-01.json",
-      "sha256": "e280ca64a62c687f37befa8fee2ce5c01b8810213aaee657050f7a11d1682dd1"
+      "sha256": "d4b669fba668036284018b900c9fc004df16dc86cdc45315b73f464342318a7b"
     },
     {
       "file": "confirmed/performances-2026-02.json",
-      "sha256": "7270e1821ea57693c7cee0436acd3b234dd29c89b635c93343e4bd3946696257"
+      "sha256": "696f768bb721e84a79eb0350bfee99592732beaddaaa21ac9abfa89a4a37a885"
     },
     {
       "file": "confirmed/performances-2026-03.json",
@@ -629,7 +537,7 @@
     },
     {
       "file": "confirmed/performances-2026-06.json",
-      "sha256": "b26042e274f0a001e7d60bf3d368df0cbf6038425a46591bc87e4842af703df3"
+      "sha256": "fb40bafec91eb8eb72ff1c99352ba07e7d0ec87249be0a3e549c975fa1ab4064"
     },
     {
       "file": "confirmed/performances-2026-07.json",
@@ -645,7 +553,7 @@
     },
     {
       "file": "confirmed/performances-2026-10.json",
-      "sha256": "0fb1ec62b94528e6296533cf935e2c20f76292fb7e43e86cd68fb0b709cab6e2"
+      "sha256": "5b4dbc762f3dbbee1f294b6bba68e367586e2a3348f7f2ec5e00a003a18d2e8c"
     },
     {
       "file": "confirmed/plans.json",
@@ -661,23 +569,23 @@
     },
     {
       "file": "confirmed/recordings-2023.json",
-      "sha256": "061f12f09975b7eb2921ef5ba4d4c0521e8e5026da2a320896e2357fd443c599"
+      "sha256": "37d59f1dcbd94763199e3717e378d5f52317966284520acc6ad9b1ce840d70ee"
     },
     {
       "file": "confirmed/recordings-2024.json",
-      "sha256": "b76effa29855207ea9225e5d817a502eae61f9d64a9d12a4f2293bbf5b0fb4ab"
+      "sha256": "43e7a71be722e073d5c8d01f5135eff3e27005855859970ac09b2ecfa596d667"
     },
     {
       "file": "confirmed/recordings-2025.json",
-      "sha256": "66756701be10ee74b3131f4e7024152daf066994c7d9df0809c20a0956e20ccb"
+      "sha256": "8c277c19f2dab4afc0985f04eaa3005836c551bd6e41c1476709f863964534d4"
     },
     {
       "file": "confirmed/recordings-2026.json",
-      "sha256": "b3c5d79f4927762a7b8d7f6e4451b8e0c76b2923014d14f9f86a6333f82fb315"
+      "sha256": "e3246e6fdf86444e60e9202b12e5c633b39e4dfa946f814992f09f4facd92ee6"
     },
     {
       "file": "confirmed/recordings.json",
-      "sha256": "ddc0feca216e2a37c1b560ae709fd9ac075c4f52ce46f930fbc6e3d2b4ed74e8"
+      "sha256": "30e4ba6b7ba120a6e6ae62fe1f6eca338d2476f8162d436ca08d0666bfc484c0"
     },
     {
       "file": "confirmed/schedule-changes-2022-08.json",
@@ -821,43 +729,38 @@
     },
     {
       "file": "confirmed/schedule-changes-2026-10.json",
-      "sha256": "f848741357f6ebaa519dc2af56f7646e5ca968c7db5264d29b2cfa597e274a0a"
+      "sha256": "e6b5cee223ec772ddc075307bdd395076eadb034fb3c895613a398d95a703817"
     },
     {
       "file": "confirmed/songs.json",
-      "sha256": "7f5bb3387c667ad7b4f7095bf0055ecf15c0ae2ea1a46574d225b2321febb9c8"
+      "sha256": "3759d4dd2b5b5fbb5d53e90627bfe26e1071dfa69fdd1399a7c6e34f9fc7e54a"
     }
   ],
   "generatedAt": "2026-10-12T09:56:41.495549+00:00",
-  "sourceCoverageMatrix": "../reviews/round-131-account-song-coverage-gate.json",
   "inputFiles": [
     {
       "file": "confirmed/README.md",
-      "sha256": "2347e9e76d8527a051270bcc87243cea5fd5a7bd20549f6fcf4360bddfa704c7"
-    },
-    {
-      "file": "confirmed/date-corrections.md",
-      "sha256": "d44c3c100c3a35da8a3d87999e766b1b7a6a1bd0469b805a95e76d3da5cefa66"
+      "sha256": "6a8628678c615120f7b258769dee81f55e3c8b0dd27ecd0ee6de17588e7b9cfc"
     },
     {
       "file": "confirmed/events-2022-07.json",
-      "sha256": "81917096d16bb036215730451bd6a46442ef3ddf771fdda8feaf094f924d7759"
+      "sha256": "05640ab32df8e33765d4fa40df9b5d83cfc11c345bf765a75754d1d745c938b6"
     },
     {
       "file": "confirmed/events-2022-08.json",
-      "sha256": "74c532635ff2e3893185e32384ec892821ac73ca35da7a29f05f166b32106545"
+      "sha256": "349613090e3d88741331fa152c16d1bde936c6deaac2262b0922bab3d58c41d4"
     },
     {
       "file": "confirmed/events-2022-09.json",
-      "sha256": "9390c25d80d224932f3e5d20e2c3257a1ba361276334ba4d834ba33a8897bd27"
+      "sha256": "f17c0300b92cbbb8ddd8e8a883d130afe797120dc194eb01815763a1985c95e4"
     },
     {
       "file": "confirmed/events-2022-10.json",
-      "sha256": "30d4df4e944c8477bef91a35c25c0cdade26d98b950cf59c123337f8b6e34192"
+      "sha256": "51e3044f998ce7347a041cacd14966f5d7280abf82c39d09bfe29e4f094b1564"
     },
     {
       "file": "confirmed/events-2022-11.json",
-      "sha256": "77233ba6c70709232996642ec734aefac2c9ce9b08bd0c41452adf7e39d2af20"
+      "sha256": "fe9627b6b483e1ca5a49d46e5933c4271bb351f495ef400122d040c3c519e72f"
     },
     {
       "file": "confirmed/events-2022-12.json",
@@ -865,7 +768,7 @@
     },
     {
       "file": "confirmed/events-2023-01.json",
-      "sha256": "7582aacc76484a79c8b2c2771351a14864ea3a0feb0f7b684179e45c5650b940"
+      "sha256": "21604a8fef47b8fd1aff961dcbdc916f88c4feeedeb6dbf36f13333345e5c001"
     },
     {
       "file": "confirmed/events-2023-02.json",
@@ -873,35 +776,35 @@
     },
     {
       "file": "confirmed/events-2023-03.json",
-      "sha256": "33be50a7716299fca110c2f85df9b035fab244df76bd34f07d8e83a192a08574"
+      "sha256": "74eb8fa454c6c648e53a9fcc04b20a8552a59b3685bddccd52aafa81ffc24f8f"
     },
     {
       "file": "confirmed/events-2023-04.json",
-      "sha256": "b3ca1194c76a3c939bac12c114f1085d80338d6bcd9165057c911f98d690e21d"
+      "sha256": "ba18533b09412b7b4ce914444b19633d9236e651c626bb67f53f46779cf7332d"
     },
     {
       "file": "confirmed/events-2023-05.json",
-      "sha256": "026541e679e079a04301c5e778b02043d80fe216798db626707abe054858fa03"
+      "sha256": "5e545fc3e6185886d86a9c430607b0edf530bf9e91f865e04ee9f8cade10721b"
     },
     {
       "file": "confirmed/events-2023-06.json",
-      "sha256": "0b025a8ccb5dd88534890bed055469b541a41d5d3bf5f1a50a6de0c0087bb703"
+      "sha256": "ee8d7b052a6b590eb89fab68a4b1b7d956686f11c02355cfefb34290957c9648"
     },
     {
       "file": "confirmed/events-2023-07.json",
-      "sha256": "bcd7b582bd742b8a0155fac9b2f044e25155fef2778320b0da1519982c9c66ed"
+      "sha256": "347d0adc881403bbd26bc9ad7e10c2550cf5343be0a7a94526de858e8daa5189"
     },
     {
       "file": "confirmed/events-2023-08.json",
-      "sha256": "7133511b67c778aa1c899e3b0b0ed8d8fc9b9e787f7ce8bf9b21aff2af4c5025"
+      "sha256": "ec2cc3e0a2ecc26528a28d020b04301282192d5aa47c01626e96b016d08fbea0"
     },
     {
       "file": "confirmed/events-2023-09.json",
-      "sha256": "35234e7e9714d8ec7f65cdf743d359a8cf9436cc8fa1ae914f96c8e86860fc9f"
+      "sha256": "368b9a4015af996481ba86ebc52a8ff88492f1a93b741dcb87542987e39cc005"
     },
     {
       "file": "confirmed/events-2023-10.json",
-      "sha256": "fb16a3d2b1c7f3456e026d478e801ac08eeee43664cff78c0f285341a6a7c151"
+      "sha256": "4dce8befc5d7d4b601c42ab9091f9ae0e6ff5bb1746c6b73cd37ceedbb25b75d"
     },
     {
       "file": "confirmed/events-2023-11.json",
@@ -909,107 +812,107 @@
     },
     {
       "file": "confirmed/events-2023-12.json",
-      "sha256": "cdc36bd549a4edd7679ab063c25aeba3a3a913ff63bbd36cc35b0557bc36aec8"
+      "sha256": "0ad5fc429fcc903b2784f6bd17e01b6aab3a4575c792712defcf54959a4c482c"
     },
     {
       "file": "confirmed/events-2024-01.json",
-      "sha256": "10b348b87f8cc6ca1325de530ef5bdeb7a08764eeb6cc06115db25b549deec3f"
+      "sha256": "49a115ae0e53fbc3cddbbda258a4b916608a7db44e9ba55369dd48330d46df90"
     },
     {
       "file": "confirmed/events-2024-02.json",
-      "sha256": "5fcce1335dcfae9384bdf7f5bdd2599f6cd924a71a496859f4e64c893b4d4e62"
+      "sha256": "a6a92f7b01dcd5da5df6c6e1b4f392dfd9e48be6e99b9606a26d100b70d8752b"
     },
     {
       "file": "confirmed/events-2024-03.json",
-      "sha256": "222423df6ddfe08eec875305f44c798f61aaaedeb01a7342d2fb795debb0ac34"
+      "sha256": "e4287c67836585f88d6becf2a91d5a299174ef74268c3a9515a997412bca5789"
     },
     {
       "file": "confirmed/events-2024-04.json",
-      "sha256": "c6bb69b5aeda3c42c0dbbd492f36f3a8087ebc08c4557855f82b9d993651d965"
+      "sha256": "08df4702e9867f002987ea731dfc632ce188826ddbc9064fee18ffd9fee7f58b"
     },
     {
       "file": "confirmed/events-2024-05.json",
-      "sha256": "e86c375f1f0d9567785727f3ef4c6c974b4bc77778dbebfea75674edf33b9337"
+      "sha256": "27e98e8160c9562a34749c382eda907382b58f569598ca2d488819f73c2adb95"
     },
     {
       "file": "confirmed/events-2024-06.json",
-      "sha256": "9558bc3e78ae2714731a662592a474cd08f1476dae8e41afc2e2cbf8ab409dc8"
+      "sha256": "cb506a897ac98950a43a12503b2445beb71f4c785d9784b077f1fccc9bf1fdd1"
     },
     {
       "file": "confirmed/events-2024-07.json",
-      "sha256": "527595c53b39c84d556b99d46184923af38e309215c53b734348451b6d58ee70"
+      "sha256": "6f52d3c9786647004ab9c340dadbe2925f478dbd91aaf66784786f7d52f71a06"
     },
     {
       "file": "confirmed/events-2024-08.json",
-      "sha256": "f3e64f432dcaeec32cac5e4f635c4a9273c7994719a92f5f38b332c99b2d5acb"
+      "sha256": "8733f29e5de99d3635ad7e617c8b7e7d906df0c11dd0667ba01c3a1fa327bbea"
     },
     {
       "file": "confirmed/events-2024-09.json",
-      "sha256": "3cd26470b13fdf10f42d856b59e64ee48f51d23992378ecdbc2e59399d9e6667"
+      "sha256": "d7280ce16522a2c9354e7b3abda45dd1af864f2acf2a50558b6ba48b9667afd0"
     },
     {
       "file": "confirmed/events-2024-10.json",
-      "sha256": "e35419c559136cfc0ca07aba316c9b2682e3db0b8124fac431281ab080008d89"
+      "sha256": "95b6186047d43ad7b47fd001755eca44d0878915380895cd64e6085e73b488d7"
     },
     {
       "file": "confirmed/events-2024-11.json",
-      "sha256": "a73b457157a084820e1907745a43e2cc7998d1c58055b0c6b340fb9e949661fb"
+      "sha256": "95d88f2526532eb09c43d0c6342f850d32f90bb04d7857c0158f0f82043a113f"
     },
     {
       "file": "confirmed/events-2024-12.json",
-      "sha256": "bfe0e7db8da9b7ee74226c26958c609db2ce871fd676f0525340de40507ee223"
+      "sha256": "122037dab9d6dbcbbbdec29b320ca56d5c39d493da48b353d54d21f9285dc18f"
     },
     {
       "file": "confirmed/events-2025-01.json",
-      "sha256": "244044ddb97573c49dc13af808e4fad519f136578d5a4129c20ff674c0048fd4"
+      "sha256": "089c88b7bd033851ddc92c5907221e227289b049cf00e02268b61c9371a2cf7c"
     },
     {
       "file": "confirmed/events-2025-02.json",
-      "sha256": "6e6aa76f9287febb9821e165ca6b725b6f8c7c8423e1c6dfcaf8c0c02336b31a"
+      "sha256": "f08e3e21a0b1b1fddaa7a20d5c125080f5bb114be5881dc8cc969e744e10fbae"
     },
     {
       "file": "confirmed/events-2025-03.json",
-      "sha256": "3f7e57732284b970858168c2b1acf90ea6cd851c04cdf9f16da45ef85a305a65"
+      "sha256": "c2948a6e9a9d485fa971d07d570e236b56e463cc206f1899d7f15ed2a473f361"
     },
     {
       "file": "confirmed/events-2025-04.json",
-      "sha256": "2199a50475e7d3176458f37ad57e20e8b47a91a584f8cb1fd2d350caa010a6fa"
+      "sha256": "36f4a5b32ec4283437f5f6593f0a0cdf755a1e4b66e53942720d7676d32d423b"
     },
     {
       "file": "confirmed/events-2025-05.json",
-      "sha256": "c23acf1e747f4057fffbd1707fd0452dc63bdfc4f88e04899ba0ebc89a5de939"
+      "sha256": "25662fb26359a18264f860c50bbee1a01e1a759f5fd8ea772ab00756d60861ef"
     },
     {
       "file": "confirmed/events-2025-06.json",
-      "sha256": "647a7efc395cfa47aad9bc162674d1af748372ec04e4e4fdd8756af5a2eee0bd"
+      "sha256": "1457dbe4215edc9210f16c298625b5e81d31adb3adebbef59bbc321040f51b48"
     },
     {
       "file": "confirmed/events-2025-07.json",
-      "sha256": "1c196a9494748cc24c7a7d0d877fbbc04ee7310257dc3db5b2d1b4fd7d22b71b"
+      "sha256": "a36cb03397b2f14ba83be8190e55b09c552466498f71dae92c8f02c94dbe4cf0"
     },
     {
       "file": "confirmed/events-2025-08.json",
-      "sha256": "b59800e12c329b422cd7d26596f474c8e52f85e66ec16ade0710d67031fc7b36"
+      "sha256": "60a4476a5ccb4a3dfe62cf881ec0a1e5e47ea2729d58f8d70993d2579cb57337"
     },
     {
       "file": "confirmed/events-2025-09.json",
-      "sha256": "bdcca0b04069ecd0796ae67dded3853d8bfc6c13c8afebbbc5529e407764d571"
+      "sha256": "a738b0851acdb69b1a5290815d3d40f47b1576f66c215614cb3eb367743153ed"
     },
     {
       "file": "confirmed/events-2025-10.json",
-      "sha256": "090852515f80e84df16f16daf67135e5386eccd8373d5f8c52981a25569bbc24"
+      "sha256": "17e8375924e0e9367d8f22a411e26cb6d72c8b97ee62da45c7c7799e6a126943"
     },
     {
       "file": "confirmed/events-2025-11.json",
-      "sha256": "15778a1f3b0391abaadc7af2e6127cf1cb3819121a161f1c298a6f4e35a5539b"
+      "sha256": "73bd47890c4e37273ec5408ee33318e6b15bdefee6a50cc262da6a5144be46dd"
     },
     {
       "file": "confirmed/events-2025-12.json",
-      "sha256": "c497af0e5299e6d042949e1781cd421ecf65cb1724d9754a5e35b4f31ee42bde"
+      "sha256": "e204bee859972e2fcdacdb3a32267f2c6156abfea622af4b3b46761f6d37d242"
     },
     {
       "file": "confirmed/events-2026-01.json",
-      "sha256": "950c414265b2c3c8bdbab487c5c2f31512e32f5b1740f3c1b00457c035e422e8"
+      "sha256": "a773c098cfc86b447fca9f098ad262392594029bbc9f06b77dc9aa7420a97ce8"
     },
     {
       "file": "confirmed/events-2026-02.json",
@@ -1017,167 +920,167 @@
     },
     {
       "file": "confirmed/events-2026-03.json",
-      "sha256": "98f944d531c05974f579091ef39e6fe6a66e543c0696cc7f69ac03a2a31bb21f"
+      "sha256": "38521b9f2252b487916b6501d924f6dab7a5204d9a6b446eed0a8c6a5d5c81ee"
     },
     {
       "file": "confirmed/events-2026-04.json",
-      "sha256": "2b82cc779388b6208ad70fef4ce076d81b5a2784c0216996ac8dcd0d73188471"
+      "sha256": "5e92b1899f61a9880c087a9d309966d3c44659f17c2fd06de1479f220782cb55"
     },
     {
       "file": "confirmed/events-2026-05.json",
-      "sha256": "f16c7d7323eb58328bf2897f16accc21375e6da75fd5820b6e3f53c698d0ea9d"
+      "sha256": "c4e71aa72131a8be2500b4fe16644c19649d8bc0c2231655f37dd4a23cf2fe9f"
     },
     {
       "file": "confirmed/events-2026-06.json",
-      "sha256": "13cd9795fcd9e3c57150ca3eac2af238ced30f1820afd74343cd4d5d44c4defe"
+      "sha256": "d0af417eebfe4041faa5d9239f7ce7c653ecc3530b3312b036fabb7d1ac0689b"
     },
     {
       "file": "confirmed/events-2026-07.json",
-      "sha256": "75e6a98433ce441415fede9ebe7f03c11e0307f2c1c2fe85c1916db1783d1f89"
+      "sha256": "11aceb5e220a81c8f7c0b3351a961f7c86babd4666bffda629fef8825e461dfe"
     },
     {
       "file": "confirmed/events-2026-08.json",
-      "sha256": "4b63b02f1f84ad7ae4831401eb0ce007ee08de31efc57fb78443e501bdeb4e6d"
+      "sha256": "5179b2004f3c72fc11a3723e70df573bf9378634f79f95b305b1fc8ff64e0e5c"
     },
     {
       "file": "confirmed/events-2026-09.json",
-      "sha256": "53abe017ec386a2b66af75e083ec1e0422d9bd49a0cc4a65c7e1319bd8ba2143"
+      "sha256": "8c1562fbd99baa8f56209e1c9d027c3be35c927df4673644908274b0322a5f09"
     },
     {
       "file": "confirmed/events-2026-10.json",
-      "sha256": "1bdbb8eb1b445a3aab3737975cfd7eb670dca7d9cc50d53b9de9b37c8582ef0d"
+      "sha256": "311cbdc50aa9466104b434d683ce3c728f213326969f6531181125bc51105678"
     },
     {
       "file": "confirmed/events.json",
-      "sha256": "4596105b333386f350483c7115c10e9d0656fdae8029fb55780bbd11e022ddb6"
+      "sha256": "6bf6a26d3e78f450c46c90c5ea92278ed68f5b8aad94b295bc0f7660f312f3aa"
     },
     {
       "file": "confirmed/performances-2022-07.json",
-      "sha256": "d1d2da9c82ef33421c01339dd002f771fb54b89f185a0c411521affebe0ea439"
+      "sha256": "6db77fc2d43f4975398eb6a4432c3b78035f048881ea3e04f751ea0465aa930a"
     },
     {
       "file": "confirmed/performances-2022-08.json",
-      "sha256": "b744329ee81b61550a3ee74de06ea2e3f6406815fb9bd468d010d3365452fc14"
+      "sha256": "13373380be5458ae2fb995e68293b52f47664f9815d1a04462cd50d1a71ef0ea"
     },
     {
       "file": "confirmed/performances-2022-09.json",
-      "sha256": "c3ce9acfe0b71c9aa33d1b7824641b76194ccd686d7b81a4e5909c35e3875673"
+      "sha256": "a3062ace5270bcb6439ead408100075292d1eaccf86a79687eb6dfd542568a79"
     },
     {
       "file": "confirmed/performances-2022-10.json",
-      "sha256": "1cf06e48a9380ca19424c2a8bad56563e5197505000a4aedc34305caf8decfd4"
+      "sha256": "d8537ed1a03d2015a15eec58f5c2919706e1adb3ff10e9bf924af87191a3c2bd"
     },
     {
       "file": "confirmed/performances-2022-11.json",
-      "sha256": "2e0297b7a008753751ddee76bea82de5f39ab5ea5dae3e97b1392950966cbf46"
+      "sha256": "6f90eef265dc609fc8f9dda1df6537b71d47d95ffdbe0ea47cce221c95896819"
     },
     {
       "file": "confirmed/performances-2022-12.json",
-      "sha256": "af45c47c7e468edb1e59ae29a5b8760021527c82dee78f15997812ef14cdb003"
+      "sha256": "8175c6e5d36844b1b305559135673429e56e132af31d165884cd9b7bd6653f31"
     },
     {
       "file": "confirmed/performances-2023-01.json",
-      "sha256": "5cda9e7ed17de227f54dbc853674b3b925e530473f2e66eb7fcc963fb1f627f7"
+      "sha256": "4a973ba67fb7029f05e3dcdc9bc473fd9b186af2abd01e6891d335c3bfab8de1"
     },
     {
       "file": "confirmed/performances-2023-02.json",
-      "sha256": "933a012f9b5f4536ea20f48678be261d4fc43c5ddbe08888996632358b7d54f6"
+      "sha256": "0dbf9e632dc065bfbc6e1fb68e80a39c2fa99ebb3b03574a2b225305a7044397"
     },
     {
       "file": "confirmed/performances-2023-03.json",
-      "sha256": "661a94433d1dae0a3870002d856cce754f39b08b3c863c0c811f6a57f6d57cda"
+      "sha256": "933028377ea8f97da579b02d65f7e6d4c43ab515437652afc5695aedc36aa0c3"
     },
     {
       "file": "confirmed/performances-2023-04.json",
-      "sha256": "922641a938f3e3e14f42c110940817ad05287fee9478aaadc0a86fa8caf7dcf2"
+      "sha256": "22a9f58b9206c0402df1c9aac1c9d769b8d633976b7af139a9c0cb7a5d1da56f"
     },
     {
       "file": "confirmed/performances-2023-05.json",
-      "sha256": "95147fdbe031c4d54f21915f2efbdd52cdc4f6427d31faf4b416fd1ae2607213"
+      "sha256": "c10134c5105ac9ddcee292e6d1fc4fbb9c631822d1608ac85f89f7e9473a9afe"
     },
     {
       "file": "confirmed/performances-2023-06.json",
-      "sha256": "84369783bf4b0e5254dde9674b7b28811e386388fd10a44a3c756c93099fefd1"
+      "sha256": "f0fff66112c18b1bad1a3b878c2bd9d98f89da4dacfea523cf9f7de2fcee6b83"
     },
     {
       "file": "confirmed/performances-2023-07.json",
-      "sha256": "ccbcdc65135655370c416359da8787dc445984e54f70a6faa0c6795bbe44156f"
+      "sha256": "9c54253c904a04e0d2643ae3f1d295e65157edf31e6d1113cd6d47ad84c5cc0e"
     },
     {
       "file": "confirmed/performances-2023-08.json",
-      "sha256": "0c4ae0fd6b79bbaf7318c8e5b408012adff2f471a9f668fc0a3532250a1cdbda"
+      "sha256": "970efa9ccde84e6e12d94443335c761564c60febb79bb33811e8c0c4f57fbb68"
     },
     {
       "file": "confirmed/performances-2023-09.json",
-      "sha256": "10164dd77f8b82a2113e10a7de3afc1b4e5832b00bcc6e4b110a24c657a761f1"
+      "sha256": "dea183f1fe8566ccf0ac5665357bba64a8e1069ae2941fdf4763e3b5a5612504"
     },
     {
       "file": "confirmed/performances-2023-10.json",
-      "sha256": "201a28240cd2754814fc95c494ab4aaa86714636a8f6f615835e5196e8ba4a01"
+      "sha256": "910c18bc37c724b1b11e9756a4176486f2f32e3f2511cc93c2fdfb1875c3ba82"
     },
     {
       "file": "confirmed/performances-2023-11.json",
-      "sha256": "dc6fe6102b016a0075fa82128b5fce67df9502b809f616b65f4a17235cfdee99"
+      "sha256": "0c16488178f6b5e5cbeb1d225ea761877ed8907ccb2a1f077c43bb2ddbe89996"
     },
     {
       "file": "confirmed/performances-2023-12.json",
-      "sha256": "2acaa277c40e088993e9b7376ef66be475d329b8aa2019c799ea40529efa617c"
+      "sha256": "43142af4aa674755d18cd1a13f5b589ebdecfc8465b23bdc715bd545c03f1f0c"
     },
     {
       "file": "confirmed/performances-2024-01.json",
-      "sha256": "bdd96bcce02071f8c78b605328dda5c25441bb17b74d31b27d28f9002d14f23f"
+      "sha256": "a3fff47b3f9cc683d0f0c405878c44881c6ab730e84b532d3812d8e826c37f99"
     },
     {
       "file": "confirmed/performances-2024-02.json",
-      "sha256": "9cae469bb84f4e4ddd443f3cdf28dd51e2a63d27b30d8fe7bcb6052cc9d5c114"
+      "sha256": "fc5e7878715c135a1a043bdf2c9de5d1d3b9fded0473143ae80dd72d92ff9381"
     },
     {
       "file": "confirmed/performances-2024-03.json",
-      "sha256": "c6c64b72c1b8c4532c4903d3e0ea7d10e51d8ce6608a8869d73cdecc7dfad2a5"
+      "sha256": "19048e148f42f7d8c0706022be686b7bf9445e6ad825a32692769fda43726831"
     },
     {
       "file": "confirmed/performances-2024-04.json",
-      "sha256": "5eb7a0f01c8a59cc170d2e2a96ccb391f7855a981cd1e2215aad35f38e84b53c"
+      "sha256": "0731fa0ceafd124aa76ef056d7579315bdd2b2d13e518a7151827d321f5521c0"
     },
     {
       "file": "confirmed/performances-2024-05.json",
-      "sha256": "12bc98f1fd761cc7e1f936831f069bec2f96961dac54e0cc18b7ca6136694d62"
+      "sha256": "0941501048d627284de155e47c4bde0f3e24faa18876742a522b017cee4bbe5b"
     },
     {
       "file": "confirmed/performances-2024-06.json",
-      "sha256": "7d3cdab5e3a615105321586b7e5fd30899c7f4c47eb7139529e72372a8ee0d53"
+      "sha256": "9803c8a774537f5c4865bd37ad4df702a8896b0bcdcbd5fb51836b842fadd177"
     },
     {
       "file": "confirmed/performances-2024-07.json",
-      "sha256": "430662b5105efae80cc4219199c9dc0a63c539ba547179b241dfb868d76f4f1d"
+      "sha256": "b9f1fb881d53f022b4e43711ff477c73ed92a6ba993f6786ee708587cbedf072"
     },
     {
       "file": "confirmed/performances-2024-08.json",
-      "sha256": "ee3e5131587c9320b000225e182624521158c39b14a7ebfb813559a547521be9"
+      "sha256": "ebeb383aa67ba56250a5cc3289054ffb0db51f784ea0b3524e21d7027c9f6ffe"
     },
     {
       "file": "confirmed/performances-2024-09.json",
-      "sha256": "32814fb633b59e9e515625b9d32c15243198589b6c4a18b19d46aea7b1016f6a"
+      "sha256": "eb5b6782b393f20521a102a9bc2758b18544759fd144a7bfa7e19fca31c325ed"
     },
     {
       "file": "confirmed/performances-2024-10.json",
-      "sha256": "917a309447e2589660575eca65c56fc2f0442bc712a1b1bd24608174a7d75a56"
+      "sha256": "fab70d37253c33f01c09724c79042e7bad4e057b29ce1f4ec176466b36fab3c9"
     },
     {
       "file": "confirmed/performances-2024-11.json",
-      "sha256": "f960a185bed9bfa73de1503c386de58ab9815c73d5ca17e263c21f3255147abb"
+      "sha256": "e354d31868bb3928de5911da26a693b799017beba6d0004fdb1f92217b4cf858"
     },
     {
       "file": "confirmed/performances-2024-12.json",
-      "sha256": "de1b3940b4ddef4721655659fe1444fee12bf13a2b1ae5cbc36b36a689fb21ee"
+      "sha256": "c44793523abc4ca3e167f8dcea4ffa05025cc1b1ecdf22e1c33e3d8299f050d8"
     },
     {
       "file": "confirmed/performances-2025-01.json",
-      "sha256": "d0233e0464dfb2c00489a96ac934dcf362f79f939c401cc69a80e5d1263629bb"
+      "sha256": "866216c34ec42728f04fae7065e2e46d41bc6ebb3e0c7db6e561b9ae0f08fe99"
     },
     {
       "file": "confirmed/performances-2025-02.json",
-      "sha256": "99eee33cf2a530c635410d025c8312fe7b015d0664001df40cfbc0608f7426c2"
+      "sha256": "58098e87d9eebb3de58e369e58a6303cf98dfa4edcf1d2e2f5b2ad19cd33bcb3"
     },
     {
       "file": "confirmed/performances-2025-03.json",
@@ -1189,23 +1092,23 @@
     },
     {
       "file": "confirmed/performances-2025-05.json",
-      "sha256": "cee732f642531474a1dd3250bb76acf35ba29906a6508f0c7e57a7d4990093e1"
+      "sha256": "1860124ff6e08275f2af543c62bbbb3bcaf356e745552c10e32d831e1273e4be"
     },
     {
       "file": "confirmed/performances-2025-06.json",
-      "sha256": "2947ff7a61c93e48d14e86c8d94bc37f8160d2ffcead12f6e35fe63751ddd80b"
+      "sha256": "504519f6c048657fd4dde4ea3e47e94069ba899af69ac8c5183dae07b2d9d892"
     },
     {
       "file": "confirmed/performances-2025-07.json",
-      "sha256": "c26841db329e2021d2de1f1afad2177e77b91b843deed8d5c3b48926b9253024"
+      "sha256": "ffdfc0f43561403d301ca90723f882caf7cb382c9b67e91115ae507bb827e34c"
     },
     {
       "file": "confirmed/performances-2025-08.json",
-      "sha256": "944efff039030f465724274c1a1bfd8f118f89ea9afae1edf87679af6a77ab82"
+      "sha256": "eecd503eb1b50528b9d692f047671f7e820560220562a56edc9ad48af826b6e0"
     },
     {
       "file": "confirmed/performances-2025-09.json",
-      "sha256": "37759a4e874ae84722a01b7b05fb3d7da6c015be8befca99ac8caea2c1328675"
+      "sha256": "680bb73fe34dd7208117bc8fb0e7e0fadad79bfb400113fd20c3df1d3271b4b2"
     },
     {
       "file": "confirmed/performances-2025-10.json",
@@ -1213,19 +1116,19 @@
     },
     {
       "file": "confirmed/performances-2025-11.json",
-      "sha256": "ec1b3ee46209164d63346437ac6b7d09b71ea47620d29574fee3591de226d93e"
+      "sha256": "13e7c3eebb40ed0594d700927d14f905bf0ba3dac434ffb8c8fd2db20a38a246"
     },
     {
       "file": "confirmed/performances-2025-12.json",
-      "sha256": "7369f8df2c522c7fcd225f9fb1233199b6b68e472f912813dedfe5b315f96cdc"
+      "sha256": "442bf4f108fdc48ecba1444f2c4b8d9f96fd3fcdc7778a537c63f0f3a35e653f"
     },
     {
       "file": "confirmed/performances-2026-01.json",
-      "sha256": "e280ca64a62c687f37befa8fee2ce5c01b8810213aaee657050f7a11d1682dd1"
+      "sha256": "d4b669fba668036284018b900c9fc004df16dc86cdc45315b73f464342318a7b"
     },
     {
       "file": "confirmed/performances-2026-02.json",
-      "sha256": "7270e1821ea57693c7cee0436acd3b234dd29c89b635c93343e4bd3946696257"
+      "sha256": "696f768bb721e84a79eb0350bfee99592732beaddaaa21ac9abfa89a4a37a885"
     },
     {
       "file": "confirmed/performances-2026-03.json",
@@ -1241,7 +1144,7 @@
     },
     {
       "file": "confirmed/performances-2026-06.json",
-      "sha256": "b26042e274f0a001e7d60bf3d368df0cbf6038425a46591bc87e4842af703df3"
+      "sha256": "fb40bafec91eb8eb72ff1c99352ba07e7d0ec87249be0a3e549c975fa1ab4064"
     },
     {
       "file": "confirmed/performances-2026-07.json",
@@ -1257,7 +1160,7 @@
     },
     {
       "file": "confirmed/performances-2026-10.json",
-      "sha256": "0fb1ec62b94528e6296533cf935e2c20f76292fb7e43e86cd68fb0b709cab6e2"
+      "sha256": "5b4dbc762f3dbbee1f294b6bba68e367586e2a3348f7f2ec5e00a003a18d2e8c"
     },
     {
       "file": "confirmed/plans.json",
@@ -1273,23 +1176,23 @@
     },
     {
       "file": "confirmed/recordings-2023.json",
-      "sha256": "061f12f09975b7eb2921ef5ba4d4c0521e8e5026da2a320896e2357fd443c599"
+      "sha256": "37d59f1dcbd94763199e3717e378d5f52317966284520acc6ad9b1ce840d70ee"
     },
     {
       "file": "confirmed/recordings-2024.json",
-      "sha256": "b76effa29855207ea9225e5d817a502eae61f9d64a9d12a4f2293bbf5b0fb4ab"
+      "sha256": "43e7a71be722e073d5c8d01f5135eff3e27005855859970ac09b2ecfa596d667"
     },
     {
       "file": "confirmed/recordings-2025.json",
-      "sha256": "66756701be10ee74b3131f4e7024152daf066994c7d9df0809c20a0956e20ccb"
+      "sha256": "8c277c19f2dab4afc0985f04eaa3005836c551bd6e41c1476709f863964534d4"
     },
     {
       "file": "confirmed/recordings-2026.json",
-      "sha256": "b3c5d79f4927762a7b8d7f6e4451b8e0c76b2923014d14f9f86a6333f82fb315"
+      "sha256": "e3246e6fdf86444e60e9202b12e5c633b39e4dfa946f814992f09f4facd92ee6"
     },
     {
       "file": "confirmed/recordings.json",
-      "sha256": "ddc0feca216e2a37c1b560ae709fd9ac075c4f52ce46f930fbc6e3d2b4ed74e8"
+      "sha256": "30e4ba6b7ba120a6e6ae62fe1f6eca338d2476f8162d436ca08d0666bfc484c0"
     },
     {
       "file": "confirmed/schedule-changes-2022-08.json",
@@ -1433,8 +1336,8 @@
     },
     {
       "file": "confirmed/songs.json",
-      "sha256": "0be3a42edd8b30a09116af75aef16257f12bfbf2c562b85c54c9d74226d3493e"
+      "sha256": "3759d4dd2b5b5fbb5d53e90627bfe26e1071dfa69fdd1399a7c6e34f9fc7e54a"
     }
   ],
-  "updatedAt": "2026-10-12T04:10:39.138Z"
+  "updatedAt": "2026-10-15"
 }

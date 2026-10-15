@@ -572,7 +572,7 @@
       "publishedAt": "2022-11-03T04:00:00.000Z",
       "occurrence": "published",
       "relatedWorks": [
-        "song_a83315a2-807a-46ee-845d-e5bb08fecf0c"
+        "song_34784d3f-0974-4454-9da6-346421bb9ea0"
       ],
       "assets": [
         {
@@ -1877,13 +1877,40 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1sP4y127c5"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV11G411w7dR",
+            "locator": "BV11G411w7dR",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1qG411w7ZE",
+            "locator": "BV1qG411w7ZE",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Lv4y1S7ES",
+            "locator": "BV1Lv4y1S7ES",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
         ]
       },
       "participation": "group",
       "preferredRecordingBvid": "BV1sP4y127c5",
       "contentType": "special",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "luzao",
+        "minuo",
+        "waner",
+        "youen",
+        "yumo"
+      ]
     },
     {
       "id": "evt_899fcc7b-8d0f-4059-8458-f2c46b6dd711",

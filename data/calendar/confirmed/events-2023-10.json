@@ -786,47 +786,8 @@
             "file": "../evidence/history-01/dynamics-2023.json",
             "locator": "849652682739154999"
           }
-        ],
-        "recordings": [
-          {
-            "file": "../reviews/round-02-recordings-2023-10.json",
-            "locator": "evt_4641f473-0004-47f1-bbf6-e1a8c1288df3"
-          },
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1Z84y1m7zR"
-          },
-          {
-            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
-            "locator": "BV1xz4y1F71h"
-          }
-        ],
-        "preferredRecordingBvid": [
-          {
-            "file": "../reviews/round-02-recordings-2023-10.json",
-            "locator": "BV1Z84y1m7zR"
-          }
         ]
       },
-      "recordings": [
-        {
-          "bvid": "BV1Z84y1m7zR",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1Z84y1m7zR"
-          }
-        },
-        {
-          "bvid": "BV1xz4y1F71h",
-          "relation": "same-event",
-          "source": {
-            "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
-            "locator": "BV1xz4y1F71h"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1Z84y1m7zR",
       "contentType": "unknown",
       "dimension": "2d",
       "isUnannounced": false

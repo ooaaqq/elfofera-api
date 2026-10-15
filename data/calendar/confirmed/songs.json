@@ -15,13 +15,19 @@
     },
     {
       "id": "song_1bb6b968-460a-40f4-81ca-c25e0737bab4",
-      "title": "——椒椒JMJ",
+      "title": "野火",
       "evidence": [
         {
           "file": "../evidence/round-08-source-directory-batch18.json",
           "locator": "BV1WCk2YEE5t",
           "sourceField": "title",
           "excerpt": "【野火】——椒椒JMJ【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
+          "locator": "BV1GAkmYvET8",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《野火》【翻唱】"
         }
       ],
       "originalArtists": [
@@ -34,22 +40,39 @@
           "sourceField": "descriptionExcerpt",
           "excerpt": "原唱：椒椒JMJ",
           "matchMethod": "explicit-source"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "explicit-source-hit",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-20T12:39:06.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"04:33\" }, { \"bvid\": \"BV1WCk2YEE5t\", \"title\": \"【野火】——椒椒JMJ【柚恩翻唱】\", \"descriptionExcerpt\": \"柚恩 3D 2024.12.20 直播切片\\n原唱：椒椒JMJ\\n\\n柚恩不加糖\\n直播间：https://live.bilibili.com/25512501/\\n个人主页：https://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-20T12:32:13.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"04:02\" }, { \"bvid\": \"BV1bVkmYZEMH\", \"title\": \"【随风】——周深【柚恩翻唱】\", \"descriptionExcerpt\": \"柚恩 3D ",
+          "matchMethod": "explicit-source",
+          "rationale": "原始录播/切片描述直接标注原唱或作品演唱者。"
         }
       ]
     },
     {
       "id": "song_3d6d0029-3ea1-4e17-bc11-739128197c02",
-      "title": "——少司命/蔡明希",
+      "title": "浮沉",
       "evidence": [
         {
           "file": "../evidence/round-08-source-directory-batch18.json",
           "locator": "BV1H2k2YjEvJ",
           "sourceField": "title",
           "excerpt": "【浮沉】——少司命/蔡明希【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/round-02-december20-song-details.json",
+          "locator": "BV1VAkmYvEi1",
+          "sourceField": "raw.pages[0].part",
+          "excerpt": "【字幕版】2024.12.20 柚恩 浮沉",
+          "partNumber": 1,
+          "contentId": 27439531180
         }
       ],
       "originalArtists": [
-        "少司命/蔡明希"
+        "少司命",
+        "蔡明希"
       ],
       "originalArtistsEvidence": [
         {
@@ -58,18 +81,32 @@
           "sourceField": "descriptionExcerpt",
           "excerpt": "原唱：少司命/蔡明希",
           "matchMethod": "explicit-source"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "explicit-source-hit",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "//space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-21T03:46:22.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"319:46\" }, { \"bvid\": \"BV1H2k2YjEvJ\", \"title\": \"【浮沉】——少司命/蔡明希【柚恩翻唱】\", \"descriptionExcerpt\": \"柚恩 3D 24.12.20 直播切片\\n原唱：少司命/蔡明希\\n\\n柚恩不加糖\\n直播间：https://live.bilibili.com/25512501/\\n个人主页：https://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-20T12:39:06.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"04:33\" }, { \"bvid\": \"BV1WCk2YEE5t\", \"title\": \"【野火】——椒椒JMJ【柚恩翻唱】\", \"descriptionExcerpt\": \"柚",
+          "matchMethod": "explicit-source",
+          "rationale": "原始录播/切片描述直接标注原唱；保留来源定位。"
         }
       ]
     },
     {
       "id": "song_0145dd48-3748-4a7f-bf62-04f1dc03406b",
-      "title": "——周深",
+      "title": "随风",
       "evidence": [
         {
           "file": "../evidence/round-08-source-directory-batch18.json",
           "locator": "BV1bVkmYZEMH",
           "sourceField": "title",
           "excerpt": "【随风】——周深【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
+          "locator": "BV1GNkmYPEhA",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《随风》【翻唱】"
         }
       ],
       "originalArtists": [
@@ -82,30 +119,14 @@
           "sourceField": "descriptionExcerpt",
           "excerpt": "原唱：周深",
           "matchMethod": "explicit-source"
-        }
-      ]
-    },
-    {
-      "id": "song_2788f280-6467-4776-93a4-3c02ce2ff1e1",
-      "title": "郎的诱惑",
-      "evidence": [
+        },
         {
           "file": "../evidence/round-08-source-directory-batch18.json",
-          "locator": "BV1NfwZeiEKC",
-          "sourceField": "title",
-          "excerpt": "【柚恩】《 ''郎''的诱惑》翻唱"
-        }
-      ],
-      "originalArtists": [
-        "凤凰传奇"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch18.json",
-          "locator": "BV1NfwZeiEKC",
+          "locator": "explicit-source-hit",
           "sourceField": "descriptionExcerpt",
-          "excerpt": "柚恩 3D 25.02.17直播切片\n原唱：凤凰传奇\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/",
-          "matchMethod": "explicit-source"
+          "excerpt": "://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-20T12:32:13.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"04:02\" }, { \"bvid\": \"BV1bVkmYZEMH\", \"title\": \"【随风】——周深【柚恩翻唱】\", \"descriptionExcerpt\": \"柚恩 3D 24.12.20 直播切片\\n原唱：周深\\n\\n柚恩不加糖\\n直播间：https://live.bilibili.com/25512501/\\n个人主页：https://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-20T12:02:24.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"03:27\" }, { \"bvid\": \"BV1D5BwYREtB\", \"title\": \"【EOE】【柚恩不加糖】【2D】继续：底特律化身为人 2024年12月15日19点29分【直播录像】（lubo）\", ",
+          "matchMethod": "explicit-source",
+          "rationale": "原始录播/切片描述直接标注原唱；保留来源定位。"
         }
       ]
     },
@@ -481,9 +502,15 @@
       ]
     },
     {
-      "id": "song_77f1e3f3-1b74-448f-97f9-2bb0dc503d6c",
+      "id": "song_33395f13-a51a-4987-8f76-fdba24cdfec4",
       "title": "4U",
       "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+          "locator": "BV1me4y1C7Rs",
+          "sourceField": "title",
+          "excerpt": "万妮达『4U』“For you 哪怕全世界与我为敌”【露早翻唱】"
+        },
         {
           "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
           "locator": "BV16P41127WF",
@@ -495,30 +522,6 @@
           "locator": "BV17pynBPEQg",
           "sourceField": "title",
           "excerpt": "4u【露早翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "万妮达"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/song?id=1335841187",
-          "sourceField": "recording-credit + lyrics",
-          "excerpt": "歌切 AI 歌词与万妮达原录音多句吻合；另一个现场版明确注明原唱万妮达。",
-          "matchMethod": "independent-originality-review",
-          "rationale": "歌切 BV17pynBPEQg 与作品资料交叉核对；AI 字幕只提供作品线索，原唱依据原录音署名或明确原创说明。"
-        }
-      ]
-    },
-    {
-      "id": "song_33395f13-a51a-4987-8f76-fdba24cdfec4",
-      "title": "4U",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
-          "locator": "BV1me4y1C7Rs",
-          "sourceField": "title",
-          "excerpt": "万妮达『4U』“For you 哪怕全世界与我为敌”【露早翻唱】"
         }
       ],
       "referenceArtist": "万妮达",
@@ -545,6 +548,13 @@
           "excerpt": "万妮达『4U』“For you 哪怕全世界与我为敌”【露早翻唱】",
           "matchMethod": "independent-originality-review",
           "rationale": "原曲身份由演出标题“万妮达《4U》”及官方发行目录《4U》—万妮达 Vinida Weng / 专辑《SOLO独行者》相互支持。后续同名现场/合作曲不是此作品。"
+        },
+        {
+          "url": "https://music.163.com/song?id=1335841187",
+          "sourceField": "recording-credit + lyrics",
+          "excerpt": "歌切 AI 歌词与万妮达原录音多句吻合；另一个现场版明确注明原唱万妮达。",
+          "matchMethod": "independent-originality-review",
+          "rationale": "歌切 BV17pynBPEQg 与作品资料交叉核对；AI 字幕只提供作品线索，原唱依据原录音署名或明确原创说明。"
         }
       ]
     },
@@ -4134,6 +4144,13 @@
           "locator": "BV14642137ra",
           "sourceField": "title",
           "excerpt": "【EOE】合唱《别再问我什么是DISCO》"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV12B421z7zd",
+          "locator": "BV12B421z7zd",
+          "sourceField": "title + description",
+          "excerpt": "『别再问我什么是迪斯科』“每当迪斯科音乐一响起”【EOE翻唱】；直播日期：2024年2月6日\n直播标题：【3D】春节联欢晚会\n直播源: https://live.bilibili.com/25512443/"
         }
       ],
       "originalArtists": [
@@ -11054,37 +11071,6 @@
       ]
     },
     {
-      "id": "song_af47e895-3afc-4c52-9e27-726fc1d31c2a",
-      "title": "扉をあけて",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
-          "locator": "BV1A5411v7bG",
-          "sourceField": "title",
-          "excerpt": "『扉をあけて』【露早翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "ANZA"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=%E6%89%89%E3%82%92%E3%81%82%E3%81%91%E3%81%A6&type=1&limit=5",
-          "sourceField": "result.songs[].name + artists + album.name",
-          "excerpt": "扉をあけて — ANZA；《扉をあけて》",
-          "matchMethod": "independent-originality-review",
-          "rationale": "正式目录录音为ANZA演唱；切片直接以日文曲名标注翻唱。"
-        },
-        {
-          "url": "https://www.bilibili.com/video/BV1A5411v7bG",
-          "sourceField": "title",
-          "excerpt": "『扉をあけて』【露早翻唱】",
-          "matchMethod": "independent-originality-review",
-          "rationale": "正式目录录音为ANZA演唱；切片直接以日文曲名标注翻唱。"
-        }
-      ]
-    },
-    {
       "id": "song_254915eb-38f5-4005-a7ee-20bc228c24df",
       "title": "扉をあけて",
       "evidence": [
@@ -11099,6 +11085,12 @@
           "locator": "BV15mgxzkEeq",
           "sourceField": "title",
           "excerpt": "扉をあけて (打开心扉)【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
+          "locator": "BV1A5411v7bG",
+          "sourceField": "title",
+          "excerpt": "『扉をあけて』【露早翻唱】"
         }
       ],
       "originalArtists": [
@@ -11116,6 +11108,20 @@
           "sourceField": "title",
           "excerpt": "扉をあけて (打开心扉)丨广州萤火虫现场【露早翻唱】",
           "matchMethod": "independent-originality-review"
+        },
+        {
+          "url": "https://music.163.com/api/search/get?s=%E6%89%89%E3%82%92%E3%81%82%E3%81%91%E3%81%A6&type=1&limit=5",
+          "sourceField": "result.songs[].name + artists + album.name",
+          "excerpt": "扉をあけて — ANZA；《扉をあけて》",
+          "matchMethod": "independent-originality-review",
+          "rationale": "正式目录录音为ANZA演唱；切片直接以日文曲名标注翻唱。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1A5411v7bG",
+          "sourceField": "title",
+          "excerpt": "『扉をあけて』【露早翻唱】",
+          "matchMethod": "independent-originality-review",
+          "rationale": "正式目录录音为ANZA演唱；切片直接以日文曲名标注翻唱。"
         }
       ]
     },
@@ -11517,34 +11523,6 @@
           "excerpt": "【EOE虞莫】《佛系少女》【翻唱&即兴表演】",
           "matchMethod": "independent-originality-review",
           "rationale": "MusicBrainz精确题名记录和同名专辑指向冯提莫；网易结果明确区分了多条标注“翻自/原唱：冯提莫”的后续翻唱。"
-        }
-      ]
-    },
-    {
-      "id": "song_152a3a5c-ac34-4103-bc35-c340b579efea",
-      "title": "浮沉",
-      "evidence": [
-        {
-          "file": "../evidence/round-02-december20-song-details.json",
-          "locator": "BV1VAkmYvEi1",
-          "sourceField": "raw.pages[0].part",
-          "excerpt": "【字幕版】2024.12.20 柚恩 浮沉",
-          "partNumber": 1,
-          "contentId": 27439531180
-        }
-      ],
-      "originalArtists": [
-        "少司命",
-        "蔡明希"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch18.json",
-          "locator": "explicit-source-hit",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "//space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-21T03:46:22.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"319:46\" }, { \"bvid\": \"BV1H2k2YjEvJ\", \"title\": \"【浮沉】——少司命/蔡明希【柚恩翻唱】\", \"descriptionExcerpt\": \"柚恩 3D 24.12.20 直播切片\\n原唱：少司命/蔡明希\\n\\n柚恩不加糖\\n直播间：https://live.bilibili.com/25512501/\\n个人主页：https://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-20T12:39:06.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"04:33\" }, { \"bvid\": \"BV1WCk2YEE5t\", \"title\": \"【野火】——椒椒JMJ【柚恩翻唱】\", \"descriptionExcerpt\": \"柚",
-          "matchMethod": "explicit-source",
-          "rationale": "原始录播/切片描述直接标注原唱；保留来源定位。"
         }
       ]
     },
@@ -12260,32 +12238,7 @@
           "sourceField": "part",
           "partNumber": 3,
           "excerpt": "给我一首歌的时间"
-        }
-      ],
-      "referenceArtist": "周杰伦",
-      "referenceArtistEvidence": {
-        "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
-        "locator": "BV1rj411t7UK",
-        "sourceField": "title",
-        "excerpt": "周杰伦『给我一首歌的时间』“这最后的出口 在爱过了才有”【露早翻唱】"
-      },
-      "originalArtists": [
-        "周杰伦"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=%E7%BB%99%E6%88%91%E4%B8%80%E9%A6%96%E6%AD%8C%E7%9A%84%E6%97%B6%E9%97%B4&type=1&limit=5",
-          "sourceField": "result.songs[].name/artists/album",
-          "excerpt": "前五未返回周杰伦原版，包含其他版本；该搜索不作为正向原唱依据。",
-          "matchMethod": "independent-originality-review",
-          "rationale": "网易云题名结果未命中周杰伦原版，但多个切片标题明确署名周杰伦且歌词片段彼此吻合；同一曲目记录在多个演唱日期独立出现。"
-        }
-      ]
-    },
-    {
-      "id": "song_1eb55c3a-ee7e-41c1-8f5b-0a56e809813f",
-      "title": "给我一首歌的时间",
-      "evidence": [
+        },
         {
           "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
           "locator": "BV1WTAWeTEQc",
@@ -12317,10 +12270,24 @@
           "excerpt": "给我一首歌的时间【露早翻唱】"
         }
       ],
+      "referenceArtist": "周杰伦",
+      "referenceArtistEvidence": {
+        "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+        "locator": "BV1rj411t7UK",
+        "sourceField": "title",
+        "excerpt": "周杰伦『给我一首歌的时间』“这最后的出口 在爱过了才有”【露早翻唱】"
+      },
       "originalArtists": [
         "周杰伦"
       ],
       "originalArtistsEvidence": [
+        {
+          "url": "https://music.163.com/api/search/get?s=%E7%BB%99%E6%88%91%E4%B8%80%E9%A6%96%E6%AD%8C%E7%9A%84%E6%97%B6%E9%97%B4&type=1&limit=5",
+          "sourceField": "result.songs[].name/artists/album",
+          "excerpt": "前五未返回周杰伦原版，包含其他版本；该搜索不作为正向原唱依据。",
+          "matchMethod": "independent-originality-review",
+          "rationale": "网易云题名结果未命中周杰伦原版，但多个切片标题明确署名周杰伦且歌词片段彼此吻合；同一曲目记录在多个演唱日期独立出现。"
+        },
         {
           "url": "https://music.163.com/api/search/get?s=%E7%BB%99%E6%88%91%E4%B8%80%E9%A6%96%E6%AD%8C%E7%9A%84%E6%97%B6%E9%97%B4&type=1&limit=5",
           "sourceField": "result.songs[].name/artists/album",
@@ -15525,30 +15492,6 @@
       ]
     },
     {
-      "id": "song_37611f30-d3cf-41f1-b313-22e533aa3436",
-      "title": "火花(HWAA)",
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch18.json",
-          "locator": "sources[kind=video-directory,accountId=105260060,page=37].items[bvid=BV1C7421d7z5]",
-          "sourceField": "title + descriptionExcerpt",
-          "excerpt": "【柚恩生日演唱会】火花(HWAA)\n2025.05.25\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
-        }
-      ],
-      "originalArtists": [
-        "(G)I-DLE"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=%E7%81%AB%E8%8A%B1(HWAA)&type=1&limit=5",
-          "sourceField": "result.songs[0],result.songs[4].name,artists,album",
-          "excerpt": "화(火花) — i-dle — I burn; later covers are explicitly marked 翻自 (G)I-DLE",
-          "matchMethod": "independent-originality-review",
-          "rationale": "The Korean original 화(火花) is by the group then billed as (G)I-DLE. The current catalog uses i-dle following its name change; Chinese title HWAA is the same release."
-        }
-      ]
-    },
-    {
       "id": "song_9daf441b-eb8d-474c-86ad-41e3244917b7",
       "title": "吉祥三宝",
       "evidence": [
@@ -16428,31 +16371,6 @@
       ]
     },
     {
-      "id": "song_d8fe8940-2a03-4edc-b171-c062987282e3",
-      "title": "禁忌的边界线",
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch18.json",
-          "locator": "sources[kind=video-directory,accountId=105260060,page=37].items[bvid=BV1az421a7Zv]",
-          "sourceField": "title + descriptionExcerpt",
-          "excerpt": "【柚恩生日演唱会】禁忌的边界线\n2025.05.25直播剪辑\n\n原唱：Walküre\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
-        }
-      ],
-      "originalArtists": [
-        "Walküre"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "file": "../evidence/artist-verified-b/item-182.json",
-          "locator": "explicit-source-hit",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "{ \"index\": 182, \"workId\": \"song_d8fe8940-2a03-4edc-b171-c062987282e3\", \"title\": \"禁忌的边界线\", \"currentArtists\": [], \"reason\": \"missing\", \"evidence\": [ { \"file\": \"../evidence/round-08-source-directory-batch18.json\", \"locator\": \"sources[kind=video-directory,accountId=105260060,page=37].items[bvid=BV1az421a7Zv]\", \"sourceField\": \"title + descriptionExcerpt\", \"excerpt\": \"【柚恩生日演唱会】禁忌的边界线\\n2025.05.25直播剪辑\\n\\n原唱：Walküre\\n\\n柚恩不加糖\\n直播间：https://live.bilibili.com/25512501/\\n个人主页：https://space.bilibili.com/1795147802/\" } ], \"requests\": [ { \"",
-          "matchMethod": "explicit-source",
-          "rationale": "原始录播/切片描述直接标注原唱；保留来源定位。"
-        }
-      ]
-    },
-    {
       "id": "song_b06043e2-5337-4a83-96c0-12afdb4d7b9c",
       "title": "禁じられた2人（禁忌的2人）",
       "evidence": [
@@ -17012,6 +16930,20 @@
           "locator": "BV1Yz421B7oW",
           "sourceField": "title",
           "excerpt": "【EOE虞莫】《狙击》虞莫生日演唱会 奇迹夏天【原创单曲】"
+        }
+      ],
+      "originalArtists": [
+        "虞莫"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Yz421B7oW",
+          "locator": "BV1Yz421B7oW",
+          "sourceField": "title + description",
+          "excerpt": "【EOE虞莫】《狙击》虞莫生日演唱会 奇迹夏天【原创单曲】；https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑",
+          "matchMethod": "explicit-original-song-credit",
+          "rationale": "原创曲标题、明确成员署名及对应舞台资料确认；不将原创曲误作其他艺人的同名作品。"
         }
       ]
     },
@@ -18501,6 +18433,12 @@
           "locator": "BV1AfshzrEZA",
           "sourceField": "title",
           "excerpt": "【柚恩翻唱】郎的诱惑"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "BV1NfwZeiEKC",
+          "sourceField": "title",
+          "excerpt": "【柚恩】《 ''郎''的诱惑》翻唱"
         }
       ],
       "referenceArtist": "凤凰传奇",
@@ -18527,6 +18465,13 @@
           "excerpt": "凤凰传奇『郎的诱惑』“是郎给的诱惑我唱起了情歌”【柚恩翻唱】",
           "matchMethod": "independent-originality-review",
           "rationale": "正式目录由凤凰传奇演唱；切片标题和歌词线索均与该曲一致。"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "BV1NfwZeiEKC",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "柚恩 3D 25.02.17直播切片\n原唱：凤凰传奇\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/1669777785/",
+          "matchMethod": "explicit-source"
         }
       ]
     },
@@ -19346,6 +19291,12 @@
           "locator": "BV1bM411R7LY",
           "sourceField": "title",
           "excerpt": "五月天『恋爱ing』“有你 都心跳都不停”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
+          "locator": "BV1oN4y1H7kG",
+          "sourceField": "title",
+          "excerpt": "【EOE】合唱《恋爱ING》"
         }
       ],
       "referenceArtist": "五月天",
@@ -19370,24 +19321,7 @@
           "sourceField": "title",
           "excerpt": "五月天『恋爱ing』“有你 都心跳都不停”【米诺翻唱】",
           "matchMethod": "independent-originality-review"
-        }
-      ]
-    },
-    {
-      "id": "song_5ebe5f63-55e2-4849-b6f5-4e6d45a7ffac",
-      "title": "恋爱ing",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
-          "locator": "BV1oN4y1H7kG",
-          "sourceField": "title",
-          "excerpt": "【EOE】合唱《恋爱ING》"
-        }
-      ],
-      "originalArtists": [
-        "五月天"
-      ],
-      "originalArtistsEvidence": [
+        },
         {
           "url": "https://music.163.com/api/search/get?s=%E6%81%8B%E7%88%B1ing&type=1&limit=5",
           "sourceField": "result.songs[].name + artists + album.name",
@@ -20220,25 +20154,7 @@
           "locator": "BV1jg411t7p1",
           "sourceField": "title",
           "excerpt": "『绿光』“触电般不可思议像一个奇迹 划过我的生命里”【合唱翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "孙燕姿"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=%E7%BB%BF%E5%85%89&type=1&limit=5",
-          "sourceField": "result.songs[].name/artists/album",
-          "excerpt": "《绿光》—孙燕姿，专辑《My Story,Your Song 经典全记录》；另有后续演唱版本。",
-          "matchMethod": "independent-originality-review",
-          "rationale": "网易云有孙燕姿《绿光》正式发行，切片歌词“触电般不可思议像一个奇迹”对应该曲；同名宋雨琦版本属于后续翻唱。"
-        }
-      ]
-    },
-    {
-      "id": "song_383e6f9f-c437-4aaf-8e94-e54494782de7",
-      "title": "绿光",
-      "evidence": [
+        },
         {
           "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
           "locator": "BV1CgA5eVEpB",
@@ -20256,6 +20172,13 @@
         "孙燕姿"
       ],
       "originalArtistsEvidence": [
+        {
+          "url": "https://music.163.com/api/search/get?s=%E7%BB%BF%E5%85%89&type=1&limit=5",
+          "sourceField": "result.songs[].name/artists/album",
+          "excerpt": "《绿光》—孙燕姿，专辑《My Story,Your Song 经典全记录》；另有后续演唱版本。",
+          "matchMethod": "independent-originality-review",
+          "rationale": "网易云有孙燕姿《绿光》正式发行，切片歌词“触电般不可思议像一个奇迹”对应该曲；同名宋雨琦版本属于后续翻唱。"
+        },
         {
           "url": "https://music.163.com/api/search/get?s=%E7%BB%BF%E5%85%89&type=1&limit=5",
           "sourceField": "result.songs[].name/artists/album",
@@ -21466,57 +21389,6 @@
       ]
     },
     {
-      "id": "song_06d5af88-13ee-47ad-82b9-58ce1f768964",
-      "title": "梦起航",
-      "kind": "original-song",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
-          "locator": "BV1uH4y1Y7ee",
-          "sourceField": "title",
-          "excerpt": "【EOE拜年祭单品】原创歌曲『梦起航』“因为有你不再彷徨 把希望点亮”【EOE】"
-        }
-      ],
-      "kindEvidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
-          "locator": "BV1uH4y1Y7ee",
-          "sourceField": "title",
-          "excerpt": "【EOE拜年祭单品】原创歌曲『梦起航』“因为有你不再彷徨 把希望点亮”【EOE】"
-        }
-      ],
-      "composers": [
-        "双硫腙"
-      ],
-      "arrangers": [
-        "双硫腙"
-      ],
-      "lyricists": [
-        "关关 Gzao"
-      ],
-      "creditsEvidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
-          "locator": "BV1uH4y1Y7ee",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "作编曲：双硫腙\n作词：关关 Gzao\n演唱：想吃干锅鸡 汐汐汐汐汐-offical 只有米诺不在的街道 露早便秘害我饿死\n策划：哎呀米诺录播组\n@米诺高分少女  @柚恩不加糖  @露早GOGO  @虞莫MOMO  @莞儿睡不醒"
-        }
-      ],
-      "originalArtists": [
-        "EOE组合"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
-          "locator": "BV1uH4y1Y7ee",
-          "sourceField": "title",
-          "excerpt": "【EOE拜年祭单品】原创歌曲『梦起航』",
-          "matchMethod": "explicit-source",
-          "rationale": "投稿标题直接标明 EOE 原创歌曲。"
-        }
-      ]
-    },
-    {
       "id": "song_91f6ff71-bd2a-4bf7-b7d2-8b28942d3571",
       "title": "梦千年之恋",
       "evidence": [
@@ -21960,6 +21832,16 @@
           "excerpt": "视频标题明确原创；字幕中柚恩称“我第一次写的一首歌”，保留柚恩。",
           "matchMethod": "independent-originality-review",
           "rationale": "歌切 BV1ccmrY3Euc 与作品资料交叉核对；AI 字幕只提供作品线索，原唱依据原录音署名或明确原创说明。"
+        }
+      ],
+      "kind": "original-song",
+      "kindEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1ccmrY3Euc",
+          "locator": "BV1ccmrY3Euc",
+          "sourceField": "title + description",
+          "excerpt": "『蜜瓜瓜』——柚恩不加糖【原创】；2024.11.10直播剪辑\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
         }
       ]
     },
@@ -26136,6 +26018,12 @@
           "locator": "BV1kq9AYXEJS",
           "sourceField": "title",
           "excerpt": "【EOE柚恩&露早】《亲爱的，那不是爱情》【翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1s39PY8EvQ",
+          "sourceField": "title",
+          "excerpt": "亲爱的那不是爱情 【露早&柚恩翻唱】"
         }
       ],
       "originalArtists": [
@@ -26153,24 +26041,7 @@
           "sourceField": "title",
           "excerpt": "『亲爱的，那不是爱情』“就像来不及许愿的流星”【柚恩翻唱】",
           "matchMethod": "independent-originality-review"
-        }
-      ]
-    },
-    {
-      "id": "song_12ede7ba-9ff6-49a7-a88c-ddd1d5dc57e8",
-      "title": "亲爱的那不是爱情",
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1s39PY8EvQ",
-          "sourceField": "title",
-          "excerpt": "亲爱的那不是爱情 【露早&柚恩翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "张韶涵"
-      ],
-      "originalArtistsEvidence": [
+        },
         {
           "url": "https://music.163.com/api/search/get?s=%E4%BA%B2%E7%88%B1%E7%9A%84%E9%82%A3%E4%B8%8D%E6%98%AF%E7%88%B1%E6%83%85%20%E5%BC%A0%E9%9F%B6%E6%B6%B5&type=1&limit=3",
           "sourceField": "result.songs[].name + artists",
@@ -26185,6 +26056,9 @@
           "matchMethod": "independent-originality-review",
           "rationale": "网易云精确曲名结果署名张韶涵；演出视频标题明确标为翻唱，作品身份相符。"
         }
+      ],
+      "aliases": [
+        "亲爱的那不是爱情"
       ]
     },
     {
@@ -29987,7 +29861,22 @@
           "excerpt": "十 二 月 来 啦！\n续作。希望大家喜欢。以后还会继续创作！"
         }
       ],
-      "kind": "original-song"
+      "kind": "original-song",
+      "originalArtists": [
+        "露早"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1VRSrBhEG4",
+          "locator": "BV1VRSrBhEG4",
+          "sourceField": "title + description",
+          "excerpt": "十 二 月 来 啦！；续作。希望大家喜欢。以后还会继续创作！",
+          "matchMethod": "explicit-original-song-credit",
+          "rationale": "露早本人原创系列投稿；用户确认“×月来了”系列均为露早原创曲。"
+        }
+      ],
+      "series": "×月来啦"
     },
     {
       "id": "song_ff04ffd5-fa33-4dd3-94c3-28a7b5bb1358",
@@ -30031,7 +29920,22 @@
           "excerpt": "十 一  月  来  啦！\n著名创作歌手—炉灶狗狗 新作！\n【十一月来啦！】\n送给大家！希望大家喜欢！"
         }
       ],
-      "kind": "original-song"
+      "kind": "original-song",
+      "originalArtists": [
+        "露早"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1qf13BrEoJ",
+          "locator": "BV1qf13BrEoJ",
+          "sourceField": "title + description",
+          "excerpt": "十 一  月  来  啦！；著名创作歌手—炉灶狗狗 新作！\n【十一月来啦！】\n送给大家！希望大家喜欢！",
+          "matchMethod": "explicit-original-song-credit",
+          "rationale": "露早本人原创系列投稿；用户确认“×月来了”系列均为露早原创曲。"
+        }
+      ],
+      "series": "×月来啦"
     },
     {
       "id": "song_e9866a3c-c2b4-45e8-86d2-97a4eb2d30c7",
@@ -31308,31 +31212,6 @@
       ]
     },
     {
-      "id": "song_1914f0db-2886-4591-9556-d85ca3181408",
-      "title": "随风",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-          "locator": "BV1GNkmYPEhA",
-          "sourceField": "title",
-          "excerpt": "【EOE柚恩】《随风》【翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "周深"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch18.json",
-          "locator": "explicit-source-hit",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-20T12:32:13.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"04:02\" }, { \"bvid\": \"BV1bVkmYZEMH\", \"title\": \"【随风】——周深【柚恩翻唱】\", \"descriptionExcerpt\": \"柚恩 3D 24.12.20 直播切片\\n原唱：周深\\n\\n柚恩不加糖\\n直播间：https://live.bilibili.com/25512501/\\n个人主页：https://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-20T12:02:24.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"03:27\" }, { \"bvid\": \"BV1D5BwYREtB\", \"title\": \"【EOE】【柚恩不加糖】【2D】继续：底特律化身为人 2024年12月15日19点29分【直播录像】（lubo）\", ",
-          "matchMethod": "explicit-source",
-          "rationale": "原始录播/切片描述直接标注原唱；保留来源定位。"
-        }
-      ]
-    },
-    {
       "id": "song_25eea8d1-708d-4bcd-b7ad-cee3d19a90a8",
       "title": "砕月",
       "evidence": [
@@ -32026,13 +31905,20 @@
     },
     {
       "id": "song_05bc9da9-0d82-42b8-a68d-4b8aa9719e9d",
-      "title": "桃花笑（沪铁公安节目部分线上版）",
+      "title": "桃花笑",
       "evidence": [
         {
           "file": "../evidence/round-08-source-directory-batch19.json",
           "locator": "BV1DH6bBwECi",
           "sourceField": "title",
           "excerpt": "【柚恩翻跳】桃花笑（沪铁公安节目部分线上版）"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1GcpU6jENH",
+          "locator": "BV1GcpU6jENH",
+          "sourceField": "title + description",
+          "excerpt": "【柚恩翻唱】『桃花笑』；柚恩 3D 26.10.14 直播切片\n原唱：洛天依、言和、乐正绫\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051"
         }
       ],
       "originalArtists": [
@@ -32047,8 +31933,17 @@
           "excerpt": "桃花笑 — 言和、乐正绫、洛天依Official — 桃花笑; separate results identify covers",
           "matchMethod": "independent-originality-review",
           "rationale": "The original Vocaloid release credits 言和、乐正绫、洛天依Official; later human-vocal versions are explicitly labeled as covers."
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1GcpU6jENH",
+          "locator": "BV1GcpU6jENH",
+          "sourceField": "title + description",
+          "excerpt": "【柚恩翻唱】『桃花笑』；柚恩 3D 26.10.14 直播切片\n原唱：洛天依、言和、乐正绫\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051",
+          "matchMethod": "explicit-source-description"
         }
-      ]
+      ],
+      "kind": "cover"
     },
     {
       "id": "song_ba376853-77be-43b8-9c47-c78a37ea6b74",
@@ -33718,6 +33613,18 @@
           "locator": "BV1AM7PzLEbP",
           "sourceField": "title",
           "excerpt": "【EOE柚恩】《完全疯了》柚恩生日会 无束岛屿【翻唱&翻跳】"
+        }
+      ],
+      "originalArtists": [
+        "T-ara"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "url": "https://music.163.com/api/search/get?s=%E5%AE%8C%E5%85%A8%E7%96%AF%E4%BA%86%20T-ara&type=1&limit=5",
+          "sourceField": "result.songs[].name,artists",
+          "matchMethod": "reasonable-search-match",
+          "excerpt": "완전 미쳤네 (Korean Ver.) — T-ara; 完全疯了（Cover T-ara） — TUTian湉湉; 완전 미쳤네 (Chinese Ver.) — T-ara",
+          "rationale": "结合现有舞蹈切片题名/歌词片段与音乐平台作品、翻唱署名交叉匹配；非逐字标题搜索首条自动采用。"
         }
       ]
     },
@@ -37098,6 +37005,21 @@
           "sourceField": "title + descriptionExcerpt",
           "excerpt": "【柚恩生日会】原创曲《无束 Piano Ver.》“我曾困于徘徊，也曾溺于深海”\n柚恩 3D生日会 25.05.31 直播切片\n时轴：撕烂分镜本\n封面：000\n---------------------------------------------\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n\n露早GOGO\n直播间：https://live.bilibili.com/25512443\n个人主页：https://space.bilibili.com/16"
         }
+      ],
+      "kind": "original-song",
+      "originalArtists": [
+        "柚恩"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1ZT7TzkEzV",
+          "locator": "BV1ZT7TzkEzV",
+          "sourceField": "title + description",
+          "excerpt": "【柚恩生日会】原创曲《无束 Piano Ver.》“我曾困于徘徊，也曾溺于深海”；柚恩 3D生日会 25.05.31 直播切片\n时轴：撕烂分镜本\n封面：000",
+          "matchMethod": "explicit-original-song-credit",
+          "rationale": "原创曲标题、明确成员署名及对应舞台资料确认；不将原创曲误作其他艺人的同名作品。"
+        }
       ]
     },
     {
@@ -37660,36 +37582,6 @@
       ]
     },
     {
-      "id": "song_20a8f66e-c88d-436b-8ba0-ead4accb0f75",
-      "title": "下个，路口，见",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
-          "locator": "BV1De411f7RU",
-          "sourceField": "title",
-          "excerpt": "『下个，路口，见』“当半个地球外还有个你”【柚恩翻唱】"
-        },
-        {
-          "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-          "locator": "BV15QpteHEPU",
-          "sourceField": "title",
-          "excerpt": "【EOE柚恩】《下个，路口，见》【翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "李宇春"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=%E4%B8%8B%E4%B8%AA%EF%BC%8C%E8%B7%AF%E5%8F%A3%EF%BC%8C%E8%A7%81&type=1&limit=5",
-          "sourceField": "result.songs[].name/artists/album",
-          "excerpt": "《下个, 路口, 见》—李宇春，专辑《李宇春 同名专辑》。",
-          "matchMethod": "independent-originality-review",
-          "rationale": "网易云正式发行题名为《下个, 路口, 见》—李宇春；该ID对应添加逗号和空格的原题形式，歌词“当半个地球外还有个你”吻合。"
-        }
-      ]
-    },
-    {
       "id": "song_e416e325-8cee-4ac1-9365-8e89398af33a",
       "title": "下个路口见",
       "evidence": [
@@ -37710,6 +37602,18 @@
           "locator": "BV1Djgy6iEn6",
           "sourceField": "title",
           "excerpt": "【柚恩翻唱】『下个路口见』"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+          "locator": "BV1De411f7RU",
+          "sourceField": "title",
+          "excerpt": "『下个，路口，见』“当半个地球外还有个你”【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
+          "locator": "BV15QpteHEPU",
+          "sourceField": "title",
+          "excerpt": "【EOE柚恩】《下个，路口，见》【翻唱】"
         }
       ],
       "referenceArtist": "李宇春",
@@ -37728,7 +37632,17 @@
           "sourceField": "result.songs[].name/artists/album",
           "excerpt": "《下个, 路口, 见》—李宇春，另有明确Cover李宇春版本。",
           "matchMethod": "independent-originality-review"
+        },
+        {
+          "url": "https://music.163.com/api/search/get?s=%E4%B8%8B%E4%B8%AA%EF%BC%8C%E8%B7%AF%E5%8F%A3%EF%BC%8C%E8%A7%81&type=1&limit=5",
+          "sourceField": "result.songs[].name/artists/album",
+          "excerpt": "《下个, 路口, 见》—李宇春，专辑《李宇春 同名专辑》。",
+          "matchMethod": "independent-originality-review",
+          "rationale": "网易云正式发行题名为《下个, 路口, 见》—李宇春；该ID对应添加逗号和空格的原题形式，歌词“当半个地球外还有个你”吻合。"
         }
+      ],
+      "aliases": [
+        "下个，路口，见"
       ]
     },
     {
@@ -42003,31 +41917,6 @@
       ]
     },
     {
-      "id": "song_85eaa599-3782-4f07-9c08-c3411215479c",
-      "title": "野火",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-          "locator": "BV1GAkmYvET8",
-          "sourceField": "title",
-          "excerpt": "【EOE柚恩】《野火》【翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "椒椒JMJ"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch18.json",
-          "locator": "explicit-source-hit",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-20T12:39:06.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"04:33\" }, { \"bvid\": \"BV1WCk2YEE5t\", \"title\": \"【野火】——椒椒JMJ【柚恩翻唱】\", \"descriptionExcerpt\": \"柚恩 3D 2024.12.20 直播切片\\n原唱：椒椒JMJ\\n\\n柚恩不加糖\\n直播间：https://live.bilibili.com/25512501/\\n个人主页：https://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-12-20T12:32:13.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"04:02\" }, { \"bvid\": \"BV1bVkmYZEMH\", \"title\": \"【随风】——周深【柚恩翻唱】\", \"descriptionExcerpt\": \"柚恩 3D ",
-          "matchMethod": "explicit-source",
-          "rationale": "原始录播/切片描述直接标注原唱或作品演唱者。"
-        }
-      ]
-    },
-    {
       "id": "song_8e3479f1-5f6c-454d-bd92-64320ce24bf8",
       "title": "野狼disco",
       "evidence": [
@@ -43043,7 +42932,22 @@
           "excerpt": "一 月 来 啦 ！\n百变天后炉灶狗狗2026开年新作！【一月来啦】已上线，请多多支持吧！！"
         }
       ],
-      "kind": "original-song"
+      "kind": "original-song",
+      "originalArtists": [
+        "露早"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1c9igB9EXj",
+          "locator": "BV1c9igB9EXj",
+          "sourceField": "title + description",
+          "excerpt": "一 月 来 啦 ！；百变天后炉灶狗狗2026开年新作！【一月来啦】已上线，请多多支持吧！！",
+          "matchMethod": "explicit-original-song-credit",
+          "rationale": "露早本人原创系列投稿；用户确认“×月来了”系列均为露早原创曲。"
+        }
+      ],
+      "series": "×月来啦"
     },
     {
       "id": "song_da25bc9a-100e-4e86-b492-1e8259a4463a",
@@ -44308,6 +44212,21 @@
           "locator": "BV11x4renETp",
           "sourceField": "title + descriptionExcerpt",
           "excerpt": "2024.07.23；柚恩投稿/原创曲，直播间为柚恩"
+        }
+      ],
+      "kind": "original-song",
+      "originalArtists": [
+        "柚恩"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV11x4renETp",
+          "locator": "BV11x4renETp",
+          "sourceField": "title + description",
+          "excerpt": "《柚恩蜜之歌》——柚恩的倾情力作；2024.07.23\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/",
+          "matchMethod": "explicit-original-song-credit",
+          "rationale": "原创曲标题、明确成员署名及对应舞台资料确认；不将原创曲误作其他艺人的同名作品。"
         }
       ]
     },
@@ -48654,30 +48573,6 @@
       ]
     },
     {
-      "id": "song_81b5de4a-a06d-4f54-b81f-6bde62c03159",
-      "title": "Alcohol Free",
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1achSz9Ejh",
-          "sourceField": "title",
-          "excerpt": "Alcohol Free【露早翻跳】"
-        }
-      ],
-      "originalArtists": [
-        "TWICE"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=Alcohol%20Free%20TWICE&type=1&limit=3",
-          "sourceField": "result.songs[].name + artists",
-          "excerpt": "Alcohol-Free — TWICE",
-          "matchMethod": "independent-originality-review",
-          "rationale": "网易云检索到同名作品《Alcohol-Free》由 TWICE 演唱。"
-        }
-      ]
-    },
-    {
       "id": "song_6ec52d5f-d9b8-46af-9e64-30ec108d4bd2",
       "title": "Alcohol Free",
       "evidence": [
@@ -48692,6 +48587,12 @@
           "locator": "BV1oRhUzZETJ",
           "sourceField": "title",
           "excerpt": "【EOE露早】《Alcohol-Free》【翻跳】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1achSz9Ejh",
+          "sourceField": "title",
+          "excerpt": "Alcohol Free【露早翻跳】"
         }
       ],
       "referenceArtist": "TWICE",
@@ -48711,6 +48612,13 @@
           "excerpt": "Alcohol-Free — TWICE — Taste of Love",
           "matchMethod": "independent-originality-review",
           "rationale": "The exact single Alcohol-Free is credited to TWICE on Taste of Love; remix and live entries are separate."
+        },
+        {
+          "url": "https://music.163.com/api/search/get?s=Alcohol%20Free%20TWICE&type=1&limit=3",
+          "sourceField": "result.songs[].name + artists",
+          "excerpt": "Alcohol-Free — TWICE",
+          "matchMethod": "independent-originality-review",
+          "rationale": "网易云检索到同名作品《Alcohol-Free》由 TWICE 演唱。"
         }
       ]
     },
@@ -49054,6 +48962,12 @@
         {
           "file": "../evidence/history-01/videos-3461563583302074-2022-2.json",
           "locator": "BV1gd4y1S7NT"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV11g4y1s73G",
+          "sourceField": "title",
+          "excerpt": "回马枪！『BABE』”Tell me I'm your babe“【虞莫翻跳】"
         }
       ],
       "referenceArtist": "金泫雅",
@@ -49082,24 +48996,7 @@
           "excerpt": "实际前五条目录结果：베베 (BABE) — 泫雅；Babe — 马思唯 / 艾志恒Asen / 罗言；I'm Not Cool — 泫雅；Change — 泫雅 / 龙俊亨；Party, Feel, Love — 泫雅 / DAWN",
           "matchMethod": "independent-originality-review",
           "rationale": "目录曲名搜索命中同名作品“베베 (BABE)”，署名为泫雅；题名与当前原始曲目记录一致。"
-        }
-      ]
-    },
-    {
-      "id": "song_6df0bd2c-842d-4ba3-ad91-e0dfa3663fac",
-      "title": "BABE",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-          "locator": "BV11g4y1s73G",
-          "sourceField": "title",
-          "excerpt": "回马枪！『BABE』”Tell me I'm your babe“【虞莫翻跳】"
-        }
-      ],
-      "originalArtists": [
-        "金泫雅"
-      ],
-      "originalArtistsEvidence": [
+        },
         {
           "url": "https://music.163.com/api/search/get?s=BABE&type=1&limit=5",
           "sourceField": "result.songs[].name + artists[].name",
@@ -49114,6 +49011,9 @@
           "matchMethod": "independent-originality-review",
           "rationale": "目录曲名搜索命中同名作品“베베 (BABE)”，署名为泫雅；题名与当前原始曲目记录一致。"
         }
+      ],
+      "aliases": [
+        "BABE"
       ]
     },
     {
@@ -49559,6 +49459,12 @@
           "locator": "BV1uu4y1a7om",
           "sourceField": "title",
           "excerpt": "『BLACK DRESS』“告诉我是什么在吸引着你”【柚恩翻跳】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1JFi1BmEJg",
+          "sourceField": "title",
+          "excerpt": "【柚恩翻跳】CLC『BLACK DRESS（黑裙）』"
         }
       ],
       "referenceArtist": "CLC",
@@ -49568,37 +49474,6 @@
           "locator": "BV1iW4y1x7rm",
           "sourceField": "title",
           "excerpt": "CLC『BLACK DRESS』“你比钻石还闪耀”【柚恩翻跳】"
-        }
-      ],
-      "originalArtists": [
-        "CLC"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=BLACK%20DRESS&type=1&limit=5",
-          "sourceField": "result.songs[].name + artists[].name",
-          "excerpt": "实际前五条目录结果：BLACK DRESS — CLC；Black Dress (Anyma Remix) — 070 Shake / Anyma；Black Dress — 李川 / Chase.W王驰；Black Prada Dress — Ellie Goulding；HERTZ — Black Dresses",
-          "matchMethod": "independent-originality-review",
-          "rationale": "目录曲名搜索命中同名作品“BLACK DRESS”，署名为CLC；题名与当前原始曲目记录一致。"
-        },
-        {
-          "url": "https://music.163.com/api/search/get?s=BLACK%20DRESS%20CLC&type=1&limit=5",
-          "sourceField": "result.songs[].name + artists[].name",
-          "excerpt": "实际前五条目录结果：BLACK DRESS — CLC；선 — CLC；To the sky — CLC；Like that — CLC；일곱 번째 — CLC",
-          "matchMethod": "independent-originality-review",
-          "rationale": "目录曲名搜索命中同名作品“BLACK DRESS”，署名为CLC；题名与当前原始曲目记录一致。"
-        }
-      ]
-    },
-    {
-      "id": "song_8f645dbc-414e-4f96-8f46-d25e5c059880",
-      "title": "BLACK DRESS",
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch19.json",
-          "locator": "BV1JFi1BmEJg",
-          "sourceField": "title",
-          "excerpt": "【柚恩翻跳】CLC『BLACK DRESS（黑裙）』"
         }
       ],
       "originalArtists": [
@@ -50772,25 +50647,7 @@
           "sourceField": "pages",
           "partNumber": 2,
           "excerpt": "close to you"
-        }
-      ],
-      "originalArtists": [
-        "The Carpenters"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://www.bilibili.com/video/BV1Q84y1G7zw",
-          "sourceField": "recording credit",
-          "excerpt": "close to you — The Carpenters",
-          "matchMethod": "independent-originality-review",
-          "rationale": "切片歌词与Carpenters录音对应，Lynn Anderson缺乏对应依据。"
-        }
-      ]
-    },
-    {
-      "id": "song_82a438f3-ba34-471f-901a-03db54e0f68a",
-      "title": "Close To You",
-      "evidence": [
+        },
         {
           "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
           "locator": "BV1SJTtzZEVF",
@@ -50809,6 +50666,13 @@
       ],
       "originalArtistsEvidence": [
         {
+          "url": "https://www.bilibili.com/video/BV1Q84y1G7zw",
+          "sourceField": "recording credit",
+          "excerpt": "close to you — The Carpenters",
+          "matchMethod": "independent-originality-review",
+          "rationale": "切片歌词与Carpenters录音对应，Lynn Anderson缺乏对应依据。"
+        },
+        {
           "url": "https://music.163.com/api/search/get?s=Close%20To%20You&type=1&limit=5",
           "sourceField": "result.songs[].name + artists + album.name",
           "excerpt": "Close To You — 藤井風；专辑《HELP EVER HURT COVER》",
@@ -50822,6 +50686,9 @@
           "matchMethod": "independent-originality-review",
           "rationale": "正式录音目录及演出来源支持The Carpenters为《Close To You》对应录音的演唱者。"
         }
+      ],
+      "aliases": [
+        "Close To You"
       ]
     },
     {
@@ -51034,70 +50901,6 @@
       ]
     },
     {
-      "id": "song_e986779a-ac7e-470d-8d33-f219b1fc8390",
-      "title": "dance to this",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
-          "locator": "BV1nu4m1g7zp",
-          "sourceField": "title",
-          "excerpt": "『dance to this』【露早翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "Troye Sivan",
-        "Ariana Grande"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=dance%20to%20this&type=1&limit=5",
-          "sourceField": "result.songs[].name + artists + album.name",
-          "excerpt": "Dance To This — Troye Sivan、Ariana Grande；专辑《Bloom》",
-          "matchMethod": "independent-originality-review",
-          "rationale": "正式录音目录及演出来源支持Troye Sivan、Ariana Grande为《dance to this》对应录音的演唱者。"
-        },
-        {
-          "url": "https://www.bilibili.com/video/BV1nu4m1g7zp",
-          "sourceField": "title",
-          "excerpt": "『dance to this』【露早翻唱】",
-          "matchMethod": "independent-originality-review",
-          "rationale": "正式录音目录及演出来源支持Troye Sivan、Ariana Grande为《dance to this》对应录音的演唱者。"
-        }
-      ]
-    },
-    {
-      "id": "song_751c6745-db78-4ae0-ae59-7a28aaded07c",
-      "title": "Dance To This",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-          "locator": "BV1pA411z7s2",
-          "sourceField": "title",
-          "excerpt": "『Dance to this』“靠近一点 再靠近一点”【露早翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "Troye Sivan",
-        "Ariana Grande"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=Dance%20To%20This&type=1&limit=5",
-          "sourceField": "result.songs[].name + artists + album.name",
-          "excerpt": "Dance To This — Troye Sivan、Ariana Grande；专辑《Bloom》",
-          "matchMethod": "independent-originality-review",
-          "rationale": "正式录音目录及演出来源支持Troye Sivan、Ariana Grande为《Dance To This》对应录音的演唱者。"
-        },
-        {
-          "url": "https://www.bilibili.com/video/BV1pA411z7s2",
-          "sourceField": "title",
-          "excerpt": "『Dance to this』“靠近一点 再靠近一点”【露早翻唱】",
-          "matchMethod": "independent-originality-review",
-          "rationale": "正式录音目录及演出来源支持Troye Sivan、Ariana Grande为《Dance To This》对应录音的演唱者。"
-        }
-      ]
-    },
-    {
       "id": "song_9a0e1ff2-2eab-43ef-83db-fa05b8cf92c1",
       "title": "Dance To This",
       "evidence": [
@@ -51113,6 +50916,18 @@
           "locator": "BV1xbHcebEZx",
           "sourceField": "title",
           "excerpt": "【EOE露早】《Dance To This》【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
+          "locator": "BV1nu4m1g7zp",
+          "sourceField": "title",
+          "excerpt": "『dance to this』【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1pA411z7s2",
+          "sourceField": "title",
+          "excerpt": "『Dance to this』“靠近一点 再靠近一点”【露早翻唱】"
         }
       ],
       "referenceArtist": "Troye Sivan / Ariana Grande",
@@ -51141,7 +50956,31 @@
           "excerpt": "『Dance To This』Troye Sivan/Ariana Grande",
           "matchMethod": "independent-originality-review",
           "rationale": "正式录音目录及演出来源支持Troye Sivan、Ariana Grande为《Dance To This》对应录音的演唱者。"
+        },
+        {
+          "url": "https://music.163.com/api/search/get?s=dance%20to%20this&type=1&limit=5",
+          "sourceField": "result.songs[].name + artists + album.name",
+          "excerpt": "Dance To This — Troye Sivan、Ariana Grande；专辑《Bloom》",
+          "matchMethod": "independent-originality-review",
+          "rationale": "正式录音目录及演出来源支持Troye Sivan、Ariana Grande为《dance to this》对应录音的演唱者。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1nu4m1g7zp",
+          "sourceField": "title",
+          "excerpt": "『dance to this』【露早翻唱】",
+          "matchMethod": "independent-originality-review",
+          "rationale": "正式录音目录及演出来源支持Troye Sivan、Ariana Grande为《dance to this》对应录音的演唱者。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1pA411z7s2",
+          "sourceField": "title",
+          "excerpt": "『Dance to this』“靠近一点 再靠近一点”【露早翻唱】",
+          "matchMethod": "independent-originality-review",
+          "rationale": "正式录音目录及演出来源支持Troye Sivan、Ariana Grande为《Dance To This》对应录音的演唱者。"
         }
+      ],
+      "aliases": [
+        "dance to this"
       ]
     },
     {
@@ -51550,6 +51389,18 @@
           "locator": "BV1nG411z7mX",
           "sourceField": "title",
           "excerpt": "Rihanna『Diamonds』“像闪耀长空的钻漾年华”【米诺生日会|翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1A2wSekE2K",
+          "sourceField": "title",
+          "excerpt": "【EOE路翼】《Diamonds》露早3D生日会 无限【翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1UZAVeHEJe",
+          "sourceField": "title",
+          "excerpt": "Diamonds【路翼翻唱】"
         }
       ],
       "referenceArtist": "Rihanna",
@@ -51574,36 +51425,6 @@
           "url": "https://www.bilibili.com/video/BV1nG411z7mX",
           "sourceField": "title",
           "excerpt": "Rihanna『Diamonds』“像闪耀长空的钻漾年华”【米诺生日会|翻唱】",
-          "matchMethod": "independent-originality-review",
-          "rationale": "正式录音目录及演出来源支持Rihanna为《Diamonds》对应录音的演唱者。"
-        }
-      ]
-    },
-    {
-      "id": "song_181ef1a9-8bda-4870-af92-6e986f4b9a64",
-      "title": "Diamonds",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
-          "locator": "BV1A2wSekE2K",
-          "sourceField": "title",
-          "excerpt": "【EOE路翼】《Diamonds》露早3D生日会 无限【翻唱】"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1UZAVeHEJe",
-          "sourceField": "title",
-          "excerpt": "Diamonds【路翼翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "Rihanna"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=Diamonds&type=1&limit=5",
-          "sourceField": "result.songs[].name + artists + album.name",
-          "excerpt": "Diamonds — Rihanna；专辑《Diamonds》",
           "matchMethod": "independent-originality-review",
           "rationale": "正式录音目录及演出来源支持Rihanna为《Diamonds》对应录音的演唱者。"
         },
@@ -52667,44 +52488,6 @@
       ]
     },
     {
-      "id": "song_abe724f2-c410-413d-8264-4393db89a8a0",
-      "title": "FIESTA",
-      "evidence": [
-        {
-          "file": "../evidence/round-02-song-details-2022-12-and-fiesta.json",
-          "locator": "BV1Vv42117ua",
-          "sourceField": "title",
-          "excerpt": "【冰火歌会】就是现在，欢迎来到我们的《Fiesta》"
-        }
-      ],
-      "referenceArtist": "IZ*ONE",
-      "referenceArtistEvidence": {
-        "file": "../evidence/round-02-song-details-2022-12-and-fiesta.json",
-        "locator": "BV1Vv42117ua",
-        "sourceField": "description",
-        "excerpt": "原曲：IZ*ONE"
-      },
-      "originalArtists": [
-        "IZ*ONE"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=FIESTA&type=1&limit=5",
-          "sourceField": "result.songs[].name + artists + album.name",
-          "excerpt": "FIESTA — IZ*ONE；专辑《BLOOM*IZ》",
-          "matchMethod": "independent-originality-review",
-          "rationale": "正式录音目录及演出来源支持IZ*ONE为《FIESTA》对应录音的演唱者。"
-        },
-        {
-          "url": "https://www.bilibili.com/video/BV1Vv42117ua",
-          "sourceField": "title",
-          "excerpt": "【冰火歌会】就是现在，欢迎来到我们的《Fiesta》",
-          "matchMethod": "independent-originality-review",
-          "rationale": "正式录音目录及演出来源支持IZ*ONE为《FIESTA》对应录音的演唱者。"
-        }
-      ]
-    },
-    {
       "id": "song_a382043c-b9cc-4f57-b3fe-41c85ad178b5",
       "title": "FIESTA",
       "evidence": [
@@ -52755,6 +52538,12 @@
           "locator": "BV1vsCpYTEr2",
           "sourceField": "title",
           "excerpt": "【柚恩】所有瞬间都是如此耀眼《Fiesta》翻跳"
+        },
+        {
+          "file": "../evidence/round-02-song-details-2022-12-and-fiesta.json",
+          "locator": "BV1Vv42117ua",
+          "sourceField": "title",
+          "excerpt": "【冰火歌会】就是现在，欢迎来到我们的《Fiesta》"
         }
       ],
       "referenceArtist": "IZ*ONE",
@@ -52779,6 +52568,13 @@
           "url": "https://www.bilibili.com/video/BV1FD4y137eV",
           "sourceField": "title",
           "excerpt": "IZ*ONE『FIESTA』“这就是我的庆典”【柚恩翻跳】",
+          "matchMethod": "independent-originality-review",
+          "rationale": "正式录音目录及演出来源支持IZ*ONE为《FIESTA》对应录音的演唱者。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1Vv42117ua",
+          "sourceField": "title",
+          "excerpt": "【冰火歌会】就是现在，欢迎来到我们的《Fiesta》",
           "matchMethod": "independent-originality-review",
           "rationale": "正式录音目录及演出来源支持IZ*ONE为《FIESTA》对应录音的演唱者。"
         }
@@ -53245,34 +53041,6 @@
       ]
     },
     {
-      "id": "song_01954b06-2eb6-4539-a4c9-59350a45e37d",
-      "title": "God knows...",
-      "evidence": [
-        {
-          "file": "../evidence/round-16-member-official-directory-first-pages.json",
-          "locator": "sources[accountId=1875044092,page=1].items[bvid=BV16w4m1y7R4]",
-          "sourceField": "title",
-          "excerpt": "【God Knows】爷青回🎸虚拟乐队复刻一代神曲"
-        },
-        {
-          "file": "../evidence/round-16-member-official-directory-first-pages.json",
-          "locator": "sources[accountId=1875044092,page=1].items[bvid=BV16w4m1y7R4]",
-          "sourceField": "description"
-        }
-      ],
-      "originalArtists": [
-        "平野绫"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "file": "../evidence/round-16-member-official-directory-first-pages.json",
-          "locator": "sources[accountId=1875044092,page=1].items[bvid=BV16w4m1y7R4]",
-          "sourceField": "description",
-          "matchMethod": "explicit-source-description"
-        }
-      ]
-    },
-    {
       "id": "song_cb58b8ad-c0dc-461b-848b-613234cac98f",
       "title": "God knows...",
       "evidence": [
@@ -53287,6 +53055,17 @@
           "locator": "BV1mx4y1z74Z",
           "sourceField": "title",
           "excerpt": "【EOE莞儿】《God Knows...》莞儿生日演唱会 异想记【翻唱】"
+        },
+        {
+          "file": "../evidence/round-16-member-official-directory-first-pages.json",
+          "locator": "sources[accountId=1875044092,page=1].items[bvid=BV16w4m1y7R4]",
+          "sourceField": "title",
+          "excerpt": "【God Knows】爷青回🎸虚拟乐队复刻一代神曲"
+        },
+        {
+          "file": "../evidence/round-16-member-official-directory-first-pages.json",
+          "locator": "sources[accountId=1875044092,page=1].items[bvid=BV16w4m1y7R4]",
+          "sourceField": "description"
         }
       ],
       "originalArtists": [
@@ -53313,6 +53092,12 @@
           "excerpt": "『God knows...』【莞儿翻唱】",
           "matchMethod": "independent-originality-review",
           "rationale": "正式录音《God knows...》由平野绫演唱，收录于凉宫春日相关官方原声/发行；歌单表原唱字段三行一致。"
+        },
+        {
+          "file": "../evidence/round-16-member-official-directory-first-pages.json",
+          "locator": "sources[accountId=1875044092,page=1].items[bvid=BV16w4m1y7R4]",
+          "sourceField": "description",
+          "matchMethod": "explicit-source-description"
         }
       ]
     },
@@ -53428,6 +53213,12 @@
           "locator": "BV14z421a7K7",
           "sourceField": "title",
           "excerpt": "【EOE柚恩】《golden hour》柚恩生日演唱会 光影变奏曲【翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
+          "locator": "BV1poiweFEHj",
+          "sourceField": "title",
+          "excerpt": "【EOE米诺】《Golden Hour》【翻唱】"
         }
       ],
       "originalArtists": [
@@ -53441,24 +53232,7 @@
           "excerpt": ".bilibili.com/1795147802/\", \"publishedAt\": \"2024-05-25T14:05:55.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"04:19\" }, { \"bvid\": \"BV1Lr421w7ri\", \"title\": \"【柚恩生日演唱会】golden hour\", \"descriptionExcerpt\": \"2025.05.25直播剪辑\\n\\n原唱：JVKE\\n\\n柚恩不加糖\\n直播间：https://live.bilibili.com/25512501/\\n个人主页：https://space.bilibili.com/1795147802/\", \"publishedAt\": \"2024-05-25T14:05:25.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"05:03\" }, { \"bvid\": \"BV14w4m1S7h2\", \"title\": \"【柚恩生日演唱会】人世间\", \"descriptionExcerpt\": \"2025.05.25直播剪辑\\n\\n原",
           "matchMethod": "explicit-source",
           "rationale": "原始录播/切片描述直接标注原唱或作品演唱者。"
-        }
-      ]
-    },
-    {
-      "id": "song_629f328c-f74c-4742-bcb4-ff2fb2b04081",
-      "title": "golden hour",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-          "locator": "BV1poiweFEHj",
-          "sourceField": "title",
-          "excerpt": "【EOE米诺】《Golden Hour》【翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "JVKE"
-      ],
-      "originalArtistsEvidence": [
+        },
         {
           "url": "https://music.163.com/song?id=1958557540",
           "sourceField": "name, artists, album",
@@ -53609,6 +53383,12 @@
           "locator": "BV1aK411e7wE",
           "sourceField": "title",
           "excerpt": "『Groovy!』“眺望城市 电话和电脑都是通往未来的门”【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+          "locator": "BV1eK411X788",
+          "sourceField": "title",
+          "excerpt": "魔卡少女樱ED『Groovy！』“童年的回忆，开始了”【露早翻唱】【新衣特别晚会】"
         }
       ],
       "originalArtists": [
@@ -53635,24 +53415,7 @@
           "excerpt": "『Groovy!』“眺望城市 电话和电脑都是通往未来的门”【露早翻唱】",
           "matchMethod": "independent-originality-review",
           "rationale": "网易云正式发行《Groovy!》—広瀬香美，收录于《カードキャプターさくら ソングコレクション》及精选专辑；切片歌词符合魔卡少女樱ED。"
-        }
-      ]
-    },
-    {
-      "id": "song_62297d47-66f6-466a-97ab-99eedfa1ca4b",
-      "title": "Groovy!",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
-          "locator": "BV1eK411X788",
-          "sourceField": "title",
-          "excerpt": "魔卡少女樱ED『Groovy！』“童年的回忆，开始了”【露早翻唱】【新衣特别晚会】"
-        }
-      ],
-      "originalArtists": [
-        "広瀬香美"
-      ],
-      "originalArtistsEvidence": [
+        },
         {
           "url": "https://music.163.com/song?id=1847210397",
           "sourceField": "name, artists, album",
@@ -54276,7 +54039,21 @@
           "excerpt": "【原创曲舞台】这一枪的威力，你可承受得住？Hunter Games\nPlaying the hunter games"
         }
       ],
-      "kind": "original-song"
+      "kind": "original-song",
+      "originalArtists": [
+        "虞莫"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1UT42167Au",
+          "locator": "BV1UT42167Au",
+          "sourceField": "title + description",
+          "excerpt": "【原创曲舞台】这一枪的威力，你可承受得住？Hunter Games；Playing the hunter games",
+          "matchMethod": "explicit-original-song-credit",
+          "rationale": "原创曲标题、明确成员署名及对应舞台资料确认；不将原创曲误作其他艺人的同名作品。"
+        }
+      ]
     },
     {
       "id": "song_b761896e-c235-4f6c-95b6-54e4e1463009",
@@ -54353,6 +54130,12 @@
           "locator": "BV1JJ4m137cU",
           "sourceField": "title",
           "excerpt": "【EOE柚恩】《HWAA》（火花）柚恩生日演唱会 光影变奏曲【翻唱&翻跳】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "sources[kind=video-directory,accountId=105260060,page=37].items[bvid=BV1C7421d7z5]",
+          "sourceField": "title + descriptionExcerpt",
+          "excerpt": "【柚恩生日演唱会】火花(HWAA)\n2025.05.25\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
         }
       ],
       "originalArtists": [
@@ -54366,7 +54149,17 @@
           "excerpt": "12443\", \"publishedAt\": \"2026-04-02T14:23:15.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"03:43\" }, { \"bvid\": \"BV1JfXfBaEzo\", \"title\": \"【小才艺回】【柚恩翻跳】I-DLE 主打曲『 화(火花) HWAA』\", \"descriptionExcerpt\": \"柚恩 3D 26.04.02 直播切片\\n原唱：I-DLE\\n时轴：000\\n封面：芥舟粥\\n\\n柚恩不加糖\\n直播间：https://live.bilibili.com/25512501\\n个人主页：https://space.bilibili.com/1795147802/\\n音符：（ID：20220510UN）https://live.douyin.com/382367079051\\n\\n露早GOGO\\n直播间：https://live.bilibili.com/25512443\", \"publishedAt\": \"2026-04-02T13:50:00.000Z\", \"uploader\": { \"accountId\": 105260060, \"name\": \"柚恩周报\" }, \"durationLabel\": \"03:2",
           "matchMethod": "explicit-source",
           "rationale": "原始录播/切片描述直接标注原唱或作品演唱者。"
+        },
+        {
+          "url": "https://music.163.com/api/search/get?s=%E7%81%AB%E8%8A%B1(HWAA)&type=1&limit=5",
+          "sourceField": "result.songs[0],result.songs[4].name,artists,album",
+          "excerpt": "화(火花) — i-dle — I burn; later covers are explicitly marked 翻自 (G)I-DLE",
+          "matchMethod": "independent-originality-review",
+          "rationale": "The Korean original 화(火花) is by the group then billed as (G)I-DLE. The current catalog uses i-dle following its name change; Chinese title HWAA is the same release."
         }
+      ],
+      "aliases": [
+        "火花(HWAA)"
       ]
     },
     {
@@ -54694,6 +54487,12 @@
           "sourceField": "parts",
           "partNumber": 3,
           "excerpt": "『I Love You』高桥优"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
+          "locator": "BV1qd4y1Z7eh",
+          "sourceField": "title",
+          "excerpt": "『I LOVE YOU』【露早翻唱】"
         }
       ],
       "referenceArtist": "高桥优",
@@ -54714,7 +54513,18 @@
           "excerpt": "『I Love You』高桥优",
           "matchMethod": "independent-originality-review",
           "rationale": "分P 3 明确标注《I Love You》高桥优；网易云正式发行《I LOVE YOU》—高橋優，收录于《僕らの平成ロックンロール②》。"
+        },
+        {
+          "file": "../evidence/round-16-member-official-directory-batch01.json",
+          "locator": "explicit-source-hit",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "bili.com/1811071010\\n柚恩@柚恩不加糖 ：https:\", \"publishedAt\": \"2023-05-26T07:50:21.000Z\", \"durationLabel\": \"03:22\", \"directoryAccountId\": 1669777785, \"authorName\": \"露早GOGO\" }, { \"bvid\": \"BV1bk4y1s7pm\", \"title\": \"铃铃🔔你收到一个爱的视频来电！❤️《I LOVE YOU》\", \"descriptionExcerpt\": \"原唱：高桥优\\n翻唱：露早\\n----------------------\\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\\n露早@露早GOGO ：https://space.bilibili.com/1669777785\\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\\n柚恩@柚恩不加糖 ：https://space.\", \"publishedAt\": \"2023-05-24T09:00:00.000Z\", \"durationLabel\": \"05:12\", \"dire",
+          "matchMethod": "explicit-source",
+          "rationale": "原始录播/切片描述直接标注原唱或作品演唱者。"
         }
+      ],
+      "aliases": [
+        "I LOVE YOU"
       ]
     },
     {
@@ -54754,31 +54564,6 @@
           "excerpt": "『I Love You』2NE1",
           "matchMethod": "independent-originality-review",
           "rationale": "同一场次的第11分P明确标注《I Love You》2NE1；网易云正式发行《I Love You》—2NE1。"
-        }
-      ]
-    },
-    {
-      "id": "song_bf75e495-4bb6-4fa7-b90b-06464016f85a",
-      "title": "I LOVE YOU",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2023-2.json",
-          "locator": "BV1qd4y1Z7eh",
-          "sourceField": "title",
-          "excerpt": "『I LOVE YOU』【露早翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "高桥优"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "file": "../evidence/round-16-member-official-directory-batch01.json",
-          "locator": "explicit-source-hit",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "bili.com/1811071010\\n柚恩@柚恩不加糖 ：https:\", \"publishedAt\": \"2023-05-26T07:50:21.000Z\", \"durationLabel\": \"03:22\", \"directoryAccountId\": 1669777785, \"authorName\": \"露早GOGO\" }, { \"bvid\": \"BV1bk4y1s7pm\", \"title\": \"铃铃🔔你收到一个爱的视频来电！❤️《I LOVE YOU》\", \"descriptionExcerpt\": \"原唱：高桥优\\n翻唱：露早\\n----------------------\\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092\\n露早@露早GOGO ：https://space.bilibili.com/1669777785\\n米诺@米诺高分少女 ：https://space.bilibili.com/1778026586\\n虞莫@虞莫MOMO ：https://space.bilibili.com/1811071010\\n柚恩@柚恩不加糖 ：https://space.\", \"publishedAt\": \"2023-05-24T09:00:00.000Z\", \"durationLabel\": \"05:12\", \"dire",
-          "matchMethod": "explicit-source",
-          "rationale": "原始录播/切片描述直接标注原唱或作品演唱者。"
         }
       ]
     },
@@ -55263,25 +55048,7 @@
           "locator": "BV1iv421C7iS",
           "sourceField": "title",
           "excerpt": "『if i die young』【米诺翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "The Band Perry"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=if+i+die+young+The+Band+Perry&type=1&limit=5",
-          "sourceField": "result.songs[0].name,artists,album",
-          "excerpt": "If I Die Young — The Band Perry — The Band Perry",
-          "matchMethod": "independent-originality-review",
-          "rationale": "The exact recording is credited to The Band Perry; alternate radio, pop and acoustic versions retain the same vocal group."
-        }
-      ]
-    },
-    {
-      "id": "song_612c0ee5-6daa-4e72-aaf4-65fbb60d906d",
-      "title": "if i die young",
-      "evidence": [
+        },
         {
           "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
           "locator": "BV11i4y1W7eK",
@@ -55440,6 +55207,17 @@
           "sourceField": "parts",
           "partNumber": 4,
           "excerpt": "In To The Unknown《冰雪奇缘2》主题曲"
+        },
+        {
+          "file": "../evidence/round-16-member-official-directory-batch01.json",
+          "locator": "sources[accountId=1669777785,page=11].items[bvid=BV1K8411h7bQ]",
+          "sourceField": "title",
+          "excerpt": "【4K】C6!露早历史最高音【Into the Unknown-冰雪奇缘2 翻唱】"
+        },
+        {
+          "file": "../evidence/round-16-member-official-directory-batch01.json",
+          "locator": "sources[accountId=1669777785,page=11].items[bvid=BV1K8411h7bQ]",
+          "sourceField": "description"
         }
       ],
       "originalArtists": [
@@ -55453,6 +55231,12 @@
           "excerpt": "Into the Unknown (Soundtrack Version) — Idina Menzel、AURORA — Frozen 2 Original Motion Picture Soundtrack",
           "matchMethod": "independent-originality-review",
           "rationale": "The Frozen 2 soundtrack recording credits both Idina Menzel and AURORA; other same-title songs and covers are separate works."
+        },
+        {
+          "file": "../evidence/round-16-member-official-directory-batch01.json",
+          "locator": "sources[accountId=1669777785,page=11].items[bvid=BV1K8411h7bQ]",
+          "sourceField": "description",
+          "matchMethod": "explicit-source-description"
         }
       ]
     },
@@ -55503,34 +55287,6 @@
         {
           "file": "../evidence/round-16-member-official-directory-batch01.json",
           "locator": "sources[accountId=1669777785,page=7].items[bvid=BV1iu41157Bw]",
-          "sourceField": "description",
-          "matchMethod": "explicit-source-description"
-        }
-      ]
-    },
-    {
-      "id": "song_a83315a2-807a-46ee-845d-e5bb08fecf0c",
-      "title": "Into the Unknown",
-      "evidence": [
-        {
-          "file": "../evidence/round-16-member-official-directory-batch01.json",
-          "locator": "sources[accountId=1669777785,page=11].items[bvid=BV1K8411h7bQ]",
-          "sourceField": "title",
-          "excerpt": "【4K】C6!露早历史最高音【Into the Unknown-冰雪奇缘2 翻唱】"
-        },
-        {
-          "file": "../evidence/round-16-member-official-directory-batch01.json",
-          "locator": "sources[accountId=1669777785,page=11].items[bvid=BV1K8411h7bQ]",
-          "sourceField": "description"
-        }
-      ],
-      "originalArtists": [
-        "Idina Menzel/AURORA"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "file": "../evidence/round-16-member-official-directory-batch01.json",
-          "locator": "sources[accountId=1669777785,page=11].items[bvid=BV1K8411h7bQ]",
           "sourceField": "description",
           "matchMethod": "explicit-source-description"
         }
@@ -55594,25 +55350,7 @@
           "locator": "BV1Ym421K7Cm",
           "sourceField": "title",
           "excerpt": "【EOE露早】《just the two of us》【翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "Bill Withers"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=Just+the+Two+of+Us+Bill+Withers&type=1&limit=5",
-          "sourceField": "result.songs[0..2].name,artists,album",
-          "excerpt": "Just The Two Of Us — Bill Withers; the album version also credits Grover Washington Jr. as the instrumental bandleader",
-          "matchMethod": "independent-originality-review",
-          "rationale": "Bill Withers is the vocalist on the recording; later versions and cover/compilation entries are separate."
-        }
-      ]
-    },
-    {
-      "id": "song_c326a9a4-1c7e-4577-b92f-62cc639d2ba6",
-      "title": "Just the Two of Us",
-      "evidence": [
+        },
         {
           "file": "../evidence/history-01/videos-3546645526481422-2025-2.json",
           "locator": "BV1Qxr6YkE3e",
@@ -56846,6 +56584,12 @@
           "sourceField": "parts",
           "partNumber": 1,
           "excerpt": "Love Fool"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1ZM4y147Jv",
+          "sourceField": "title",
+          "excerpt": "『Lovefool』“假装你还爱我”【露早翻唱】"
         }
       ],
       "referenceArtist": "Olivia Ong",
@@ -56865,7 +56609,17 @@
           "excerpt": "Lovefool — The Cardigans — First Band On The Moon",
           "matchMethod": "independent-originality-review",
           "rationale": "The work is The Cardigans’ “Lovefool”; the item’s spaced title is a typographic variant of the official title."
+        },
+        {
+          "url": "https://music.163.com/api/search/get?s=Lovefool&type=1&limit=5",
+          "sourceField": "recording credit",
+          "excerpt": "Lovefool — The Cardigans",
+          "matchMethod": "independent-originality-review",
+          "rationale": "Lovefool原唱The Cardigans，Olivia Ong为翻唱。"
         }
+      ],
+      "aliases": [
+        "Lovefool"
       ]
     },
     {
@@ -56975,37 +56729,6 @@
       ]
     },
     {
-      "id": "song_95103748-d214-40ae-8ac8-f4e32d77fdbb",
-      "title": "love story",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
-          "locator": "BV1Td4y1B7Bx",
-          "sourceField": "title",
-          "excerpt": "【露早电台翻唱】ありがとう+love story+愛の天使+A Thousand Miles+你+亚特兰蒂斯少女+Almost Is Never Enough"
-        },
-        {
-          "file": "../evidence/round-02-song-identity-details-2022-11.json",
-          "locator": "BV1Td4y1B7Bx",
-          "sourceField": "parts",
-          "partNumber": 2,
-          "excerpt": "love story"
-        }
-      ],
-      "originalArtists": [
-        "Taylor Swift"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=love%20story&type=1&limit=5",
-          "sourceField": "result.songs[].name + artists[].name",
-          "excerpt": "实际前五条目录结果：Love Story — Taylor Swift；Love Story — T-Swizzle；Love story — echoingmoon；Love Story — 鲱鱼罐头；Love Story — Richard Clayderman",
-          "matchMethod": "independent-originality-review",
-          "rationale": "目录曲名查询命中“Love Story”，署名Taylor Swift；版本标记与原始署名线索相符。"
-        }
-      ]
-    },
-    {
       "id": "song_6fe4d173-35cd-4620-aca8-7fa33cd8c238",
       "title": "Love Story",
       "evidence": [
@@ -57050,6 +56773,19 @@
           "locator": "BV13t6VYYEyw",
           "sourceField": "title + descriptionExcerpt",
           "excerpt": "直播日期：2024年12月30日；3D【年终总结】直播翻唱"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2022-1.json",
+          "locator": "BV1Td4y1B7Bx",
+          "sourceField": "title",
+          "excerpt": "【露早电台翻唱】ありがとう+love story+愛の天使+A Thousand Miles+你+亚特兰蒂斯少女+Almost Is Never Enough"
+        },
+        {
+          "file": "../evidence/round-02-song-identity-details-2022-11.json",
+          "locator": "BV1Td4y1B7Bx",
+          "sourceField": "parts",
+          "partNumber": 2,
+          "excerpt": "love story"
         }
       ],
       "referenceArtist": "泰勒",
@@ -57069,7 +56805,17 @@
           "excerpt": "实际前五条目录结果：Love Story — Taylor Swift；Love Story — T-Swizzle；Love story — echoingmoon；Love Story — 鲱鱼罐头；Love Story — Richard Clayderman",
           "matchMethod": "independent-originality-review",
           "rationale": "目录曲名查询命中“Love Story”，署名Taylor Swift；版本标记与原始署名线索相符。"
+        },
+        {
+          "url": "https://music.163.com/api/search/get?s=love%20story&type=1&limit=5",
+          "sourceField": "result.songs[].name + artists[].name",
+          "excerpt": "实际前五条目录结果：Love Story — Taylor Swift；Love Story — T-Swizzle；Love story — echoingmoon；Love Story — 鲱鱼罐头；Love Story — Richard Clayderman",
+          "matchMethod": "independent-originality-review",
+          "rationale": "目录曲名查询命中“Love Story”，署名Taylor Swift；版本标记与原始署名线索相符。"
         }
+      ],
+      "aliases": [
+        "love story"
       ]
     },
     {
@@ -57159,6 +56905,12 @@
           "locator": "BV1mM411D7js",
           "sourceField": "title",
           "excerpt": "『love yourself』【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1BD4y1N7h8",
+          "sourceField": "title",
+          "excerpt": "Justin Bieber『Love Yourself』“I fell in love now I fear nothin' at all”【米诺翻唱】"
         }
       ],
       "originalArtists": [
@@ -57171,31 +56923,7 @@
           "excerpt": "实际前五条目录结果：Love Yourself — Justin Bieber；Love Yourself (Natio Remix) — Natio / Justin Bieber / Conor Maynard；Love Yourself — Genevieve Somers；Love Yourself (2023（阿志！its me）十八岁成人礼特别企划现场) — TOP登陆少年-朱志鑫 / TOP登陆少年-张极 / TOP登陆少年-苏新皓；Love Yourself — Genevieve Somers",
           "matchMethod": "independent-originality-review",
           "rationale": "目录曲名查询命中“Love Yourself”，署名Justin Bieber；版本标记与原始署名线索相符。"
-        }
-      ]
-    },
-    {
-      "id": "song_7d776db7-9441-465b-9d61-bb0b2d5459c2",
-      "title": "Love Yourself",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-          "locator": "BV1BD4y1N7h8",
-          "sourceField": "title",
-          "excerpt": "Justin Bieber『Love Yourself』“I fell in love now I fear nothin' at all”【米诺翻唱】"
-        }
-      ],
-      "referenceArtist": "Justin Bieber",
-      "referenceArtistEvidence": {
-        "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-        "locator": "BV1BD4y1N7h8",
-        "sourceField": "title",
-        "excerpt": "Justin Bieber『Love Yourself』“I fell in love now I fear nothin' at all”【米诺翻唱】"
-      },
-      "originalArtists": [
-        "Justin Bieber"
-      ],
-      "originalArtistsEvidence": [
+        },
         {
           "url": "https://music.163.com/api/search/get?s=Love%20Yourself&type=1&limit=5",
           "sourceField": "result.songs[].name + artists[].name",
@@ -57203,30 +56931,9 @@
           "matchMethod": "independent-originality-review",
           "rationale": "目录曲名查询命中“Love Yourself”，署名Justin Bieber；版本标记与原始署名线索相符。"
         }
-      ]
-    },
-    {
-      "id": "song_dc0d554b-ce88-4439-abe4-c302c57f6626",
-      "title": "Lovefool",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-          "locator": "BV1ZM4y147Jv",
-          "sourceField": "title",
-          "excerpt": "『Lovefool』“假装你还爱我”【露早翻唱】"
-        }
       ],
-      "originalArtists": [
-        "The Cardigans"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=Lovefool&type=1&limit=5",
-          "sourceField": "recording credit",
-          "excerpt": "Lovefool — The Cardigans",
-          "matchMethod": "independent-originality-review",
-          "rationale": "Lovefool原唱The Cardigans，Olivia Ong为翻唱。"
-        }
+      "aliases": [
+        "Love Yourself"
       ]
     },
     {
@@ -58373,30 +58080,6 @@
       ]
     },
     {
-      "id": "song_b306dce0-d540-4cef-919f-87e30e0dad8a",
-      "title": "mystery of love",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
-          "locator": "BV1WF4m1L7S7",
-          "sourceField": "title",
-          "excerpt": "『mystery of love』【米诺翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "Sufjan Stevens"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=mystery%20of%20love&type=1&limit=5",
-          "sourceField": "result.songs[].name + artists[].name",
-          "excerpt": "实际前五条目录结果：Mystery of Love — Sufjan Stevens；Mystery Of Love (Demo) — Sufjan Stevens；Mystery of love -长笛演奏版 — Chelsea范佳颖；Mystery of Love — ARIT杨程瀚；Mystery Of Love (Demo) — Sufjan Stevens",
-          "matchMethod": "independent-originality-review",
-          "rationale": "目录曲名查询命中“Mystery of Love”，署名Sufjan Stevens；版本标记与原始署名线索相符。"
-        }
-      ]
-    },
-    {
       "id": "song_fd87e6c7-1d1b-426b-8604-32db318ccb30",
       "title": "Mystery of Love",
       "evidence": [
@@ -58411,6 +58094,12 @@
           "locator": "BV1Zt42157ss",
           "sourceField": "title",
           "excerpt": "『Mystery of Love』（清唱）【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
+          "locator": "BV1WF4m1L7S7",
+          "sourceField": "title",
+          "excerpt": "『mystery of love』【米诺翻唱】"
         }
       ],
       "originalArtists": [
@@ -58423,7 +58112,17 @@
           "excerpt": "实际前五条目录结果：Mystery of Love — Sufjan Stevens；Mystery Of Love (Demo) — Sufjan Stevens；Mystery of love -长笛演奏版 — Chelsea范佳颖；Mystery of Love — ARIT杨程瀚；Mystery Of Love (Demo) — Sufjan Stevens",
           "matchMethod": "independent-originality-review",
           "rationale": "目录曲名查询命中“Mystery of Love”，署名Sufjan Stevens；版本标记与原始署名线索相符。"
+        },
+        {
+          "url": "https://music.163.com/api/search/get?s=mystery%20of%20love&type=1&limit=5",
+          "sourceField": "result.songs[].name + artists[].name",
+          "excerpt": "实际前五条目录结果：Mystery of Love — Sufjan Stevens；Mystery Of Love (Demo) — Sufjan Stevens；Mystery of love -长笛演奏版 — Chelsea范佳颖；Mystery of Love — ARIT杨程瀚；Mystery Of Love (Demo) — Sufjan Stevens",
+          "matchMethod": "independent-originality-review",
+          "rationale": "目录曲名查询命中“Mystery of Love”，署名Sufjan Stevens；版本标记与原始署名线索相符。"
         }
+      ],
+      "aliases": [
+        "mystery of love"
       ]
     },
     {
@@ -60650,6 +60349,12 @@
           "locator": "BV1AM411y7gu",
           "sourceField": "title",
           "excerpt": "『river』“一条大河波浪宽，你是如何坠入爱河”【米诺生日会丨翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1KL411r79d",
+          "sourceField": "title",
+          "excerpt": "渐入佳境！『River』“汪汪公主燃爆开场”【露早翻跳】"
         }
       ],
       "originalArtists": [
@@ -60667,24 +60372,7 @@
           "sourceField": "title",
           "excerpt": "『river』“一条大河波浪宽，你是如何坠入爱河”【米诺生日会丨翻唱】",
           "matchMethod": "independent-originality-review"
-        }
-      ]
-    },
-    {
-      "id": "song_9a0723b0-4d33-4e33-a573-7322ef6bb82f",
-      "title": "River",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-          "locator": "BV1KL411r79d",
-          "sourceField": "title",
-          "excerpt": "渐入佳境！『River』“汪汪公主燃爆开场”【露早翻跳】"
-        }
-      ],
-      "originalArtists": [
-        "Bishop Briggs"
-      ],
-      "originalArtistsEvidence": [
+        },
         {
           "url": "https://music.163.com/api/search/get?s=River&type=1&limit=5",
           "sourceField": "result.songs[].name + artists + album.name",
@@ -60697,6 +60385,9 @@
           "excerpt": "渐入佳境！『River』“汪汪公主燃爆开场”【露早翻跳】",
           "matchMethod": "independent-originality-review"
         }
+      ],
+      "aliases": [
+        "River"
       ]
     },
     {
@@ -61487,9 +61178,15 @@
       ]
     },
     {
-      "id": "song_cf4d5699-24ca-4989-aad6-a91d6a8b27e4",
-      "title": "SHOONG",
+      "id": "song_87a13513-f05d-470e-8a1d-93f967866787",
+      "title": "Shoong!",
       "evidence": [
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1rSwSe6ESs",
+          "sourceField": "title",
+          "excerpt": "【EOE露早&路翼】《Shoong!》露早3D生日会 无限【翻跳】"
+        },
         {
           "file": "../evidence/round-16-member-official-directory-batch01.json",
           "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1wVA5eGEWK]",
@@ -61500,29 +61197,6 @@
           "file": "../evidence/round-16-member-official-directory-batch01.json",
           "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1wVA5eGEWK]",
           "sourceField": "description"
-        }
-      ],
-      "originalArtists": [
-        "TAEYANG & LISA"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "file": "../evidence/round-16-member-official-directory-batch01.json",
-          "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1wVA5eGEWK]",
-          "sourceField": "description",
-          "matchMethod": "explicit-source-description"
-        }
-      ]
-    },
-    {
-      "id": "song_87a13513-f05d-470e-8a1d-93f967866787",
-      "title": "Shoong!",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
-          "locator": "BV1rSwSe6ESs",
-          "sourceField": "title",
-          "excerpt": "【EOE露早&路翼】《Shoong!》露早3D生日会 无限【翻跳】"
         }
       ],
       "originalArtists": [
@@ -61550,7 +61224,16 @@
           "excerpt": "【EOE露早&路翼】《Shoong!》露早3D生日会 无限【翻跳】",
           "matchMethod": "independent-originality-review",
           "rationale": "正式发行《슝! (feat. LISA of BLACKPINK)》署TAEYANG与LISA，收录于《Down to Earth》；旧记录误列G-DRAGON，需更正为实际feat.演唱者。"
+        },
+        {
+          "file": "../evidence/round-16-member-official-directory-batch01.json",
+          "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1wVA5eGEWK]",
+          "sourceField": "description",
+          "matchMethod": "explicit-source-description"
         }
+      ],
+      "aliases": [
+        "SHOONG"
       ]
     },
     {
@@ -61742,6 +61425,12 @@
           "locator": "BV11V411V7kD",
           "sourceField": "title",
           "excerpt": "丁世光『simon』“Simon，怎么停下来”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
+          "locator": "BV1mM4y18752",
+          "sourceField": "title",
+          "excerpt": "『Simon』“最高的山峰 最温暖的手”【米诺翻唱】"
         }
       ],
       "referenceArtist": "丁世光",
@@ -61768,24 +61457,7 @@
           "excerpt": "丁世光『simon』“Simon，怎么停下来”【米诺翻唱】",
           "matchMethod": "independent-originality-review",
           "rationale": "网易云正式发行《Simon》—丁世光，收录于《神经志》；切片标题直接标注演唱者和曲名。"
-        }
-      ]
-    },
-    {
-      "id": "song_a8cfc1d3-0bba-42d2-8e56-22ca406fda75",
-      "title": "Simon",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-          "locator": "BV1mM4y18752",
-          "sourceField": "title",
-          "excerpt": "『Simon』“最高的山峰 最温暖的手”【米诺翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "丁世光"
-      ],
-      "originalArtistsEvidence": [
+        },
         {
           "url": "https://music.163.com/song?id=524152312",
           "sourceField": "name, artists, album",
@@ -61800,6 +61472,9 @@
           "matchMethod": "independent-originality-review",
           "rationale": "网易云正式发行《Simon》—丁世光，收录于《神经志》；此条独立作品与前一首Simon workId不同但歌手相同。"
         }
+      ],
+      "aliases": [
+        "Simon"
       ]
     },
     {
@@ -63782,6 +63457,12 @@
           "locator": "BV1BqVhzvERh",
           "sourceField": "title",
           "excerpt": "【柚恩】【OH MY GIRL】《The Fifth Season》（第五个季节）翻跳"
+        },
+        {
+          "file": "../evidence/round-08-video-details-batch07.json",
+          "locator": "BV1Xm4y1Y7m2#P1",
+          "sourceField": "part",
+          "excerpt": "The fifth season（SSFWL）『舞』"
         }
       ],
       "originalArtists": [
@@ -63794,24 +63475,7 @@
           "excerpt": "다섯 번째 계절 (SSFWL) — OH MY GIRL — THE FIFTH SEASON",
           "matchMethod": "independent-originality-review",
           "rationale": "Catalog search identifies Korean title 다섯 번째 계절 (SSFWL) on OH MY GIRL album THE FIFTH SEASON."
-        }
-      ]
-    },
-    {
-      "id": "song_26ea3909-b50d-4e80-b0a1-53faf2c6a0a0",
-      "title": "The Fifth Season (SSFWL)",
-      "evidence": [
-        {
-          "file": "../evidence/round-08-video-details-batch07.json",
-          "locator": "BV1Xm4y1Y7m2#P1",
-          "sourceField": "part",
-          "excerpt": "The fifth season（SSFWL）『舞』"
-        }
-      ],
-      "originalArtists": [
-        "OH MY GIRL"
-      ],
-      "originalArtistsEvidence": [
+        },
         {
           "url": "https://music.163.com/api/search/get?s=The+Fifth+Season+SSFWL+OH+MY+GIRL&type=1&limit=5",
           "sourceField": "result.songs[1].name,artists,album; exact title and subtitle",
@@ -65213,6 +64877,23 @@
           "locator": "BV1V1haeHEX1",
           "sourceField": "title",
           "excerpt": "【喵喵版】Billie Eilish『What was I made for』【露早翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
+          "locator": "BV1LN4y1W7CB",
+          "sourceField": "title",
+          "excerpt": "『What Was I Made For』【米诺生日会|翻唱】"
+        },
+        {
+          "file": "../evidence/round-16-member-official-directory-batch03.json",
+          "locator": "sources[accountId=1778026586,page=2].items[bvid=BV19g4y1U7bE]",
+          "sourceField": "title",
+          "excerpt": "我，为何而生？走心翻唱『What Was I Made For』芭比电影片尾曲"
+        },
+        {
+          "file": "../evidence/round-16-member-official-directory-batch03.json",
+          "locator": "sources[accountId=1778026586,page=2].items[bvid=BV19g4y1U7bE]",
+          "sourceField": "description"
         }
       ],
       "originalArtists": [
@@ -65232,24 +64913,7 @@
           "excerpt": "实际前五条目录结果：What Was I Made For? (From The Motion Picture \"Barbie\") — Billie Eilish；What Was I Made For? [From The Motion Picture \"Barbie\"] — Billie Eilish；What Was I Made For (Piano Version) — Sarah Watson；What Was I Made For? — Rachel Hardy；idontwannabeyouanymore — Billie Eilish",
           "matchMethod": "independent-originality-review",
           "rationale": "目录曲名检索命中“What Was I Made For? (From The Motion Picture \"Barbie\")”，署名Billie Eilish；题名身份和艺人角色与原始曲目线索一致。"
-        }
-      ]
-    },
-    {
-      "id": "song_53ad3b1e-059b-4537-87b9-3c880946255d",
-      "title": "What Was I Made For",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2023-1.json",
-          "locator": "BV1LN4y1W7CB",
-          "sourceField": "title",
-          "excerpt": "『What Was I Made For』【米诺生日会|翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "Billie Eilish"
-      ],
-      "originalArtistsEvidence": [
+        },
         {
           "url": "https://music.163.com/api/search/get?s=What%20Was%20I%20Made%20For&type=1&limit=5",
           "sourceField": "result.songs[].name + artists[].name",
@@ -65263,35 +64927,17 @@
           "excerpt": "实际前五条目录结果：What Was I Made For? (From The Motion Picture \"Barbie\") — Billie Eilish；What Was I Made For? [From The Motion Picture \"Barbie\"] — Billie Eilish；What Was I Made For (Piano Version) — Sarah Watson；What Was I Made For? — Rachel Hardy；idontwannabeyouanymore — Billie Eilish",
           "matchMethod": "independent-originality-review",
           "rationale": "目录曲名检索命中“What Was I Made For? (From The Motion Picture \"Barbie\")”，署名Billie Eilish；题名身份和艺人角色与原始曲目线索一致。"
-        }
-      ]
-    },
-    {
-      "id": "song_e260b61a-734b-4adb-a6a4-21bd97af6b09",
-      "title": "What Was I Made For?",
-      "evidence": [
-        {
-          "file": "../evidence/round-16-member-official-directory-batch03.json",
-          "locator": "sources[accountId=1778026586,page=2].items[bvid=BV19g4y1U7bE]",
-          "sourceField": "title",
-          "excerpt": "我，为何而生？走心翻唱『What Was I Made For』芭比电影片尾曲"
         },
-        {
-          "file": "../evidence/round-16-member-official-directory-batch03.json",
-          "locator": "sources[accountId=1778026586,page=2].items[bvid=BV19g4y1U7bE]",
-          "sourceField": "description"
-        }
-      ],
-      "originalArtists": [
-        "Billie Eilish"
-      ],
-      "originalArtistsEvidence": [
         {
           "file": "../evidence/round-16-member-official-directory-batch03.json",
           "locator": "sources[accountId=1778026586,page=2].items[bvid=BV19g4y1U7bE]",
           "sourceField": "description",
           "matchMethod": "explicit-source-description"
         }
+      ],
+      "aliases": [
+        "What Was I Made For",
+        "What Was I Made For?"
       ]
     },
     {
@@ -65717,9 +65363,6 @@
     {
       "id": "song_1b139a46-6345-43fd-b568-21c2761f395d",
       "title": "World of the happiness!",
-      "originalArtists": [
-        "柚恩"
-      ],
       "evidence": [
         {
           "file": "../evidence/round-16-member-official-directory-batch02.json",
@@ -65734,13 +65377,14 @@
           "excerpt": ""
         }
       ],
-      "originalArtistsEvidence": [
+      "kind": "original-song",
+      "kindEvidence": [
         {
-          "file": "../evidence/round-16-member-official-directory-batch02.json",
-          "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1maPPzQE3C]",
-          "sourceField": "description",
-          "excerpt": "",
-          "matchMethod": "explicit-source-description"
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1maPPzQE3C",
+          "locator": "BV1maPPzQE3C",
+          "sourceField": "title + description",
+          "excerpt": "【原创MV】愿世界充满快乐《World of the happiness!》【拼好团】"
         }
       ]
     },
@@ -66514,6 +66158,12 @@
           "locator": "BV1vM4m1r7QQ",
           "sourceField": "title",
           "excerpt": "【EOE柚恩】《いけないボーダーライン》（禁忌的边界线）柚恩生日演唱会 光影变奏曲【翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "sources[kind=video-directory,accountId=105260060,page=37].items[bvid=BV1az421a7Zv]",
+          "sourceField": "title + descriptionExcerpt",
+          "excerpt": "【柚恩生日演唱会】禁忌的边界线\n2025.05.25直播剪辑\n\n原唱：Walküre\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
         }
       ],
       "originalArtists": [
@@ -66526,7 +66176,18 @@
           "excerpt": "实际前五条目录结果：いけないボーダーライン — ワルキューレ；いけないボーダーライン～album version～ — ワルキューレ；いけないボーダーライン (Instrumental) — 小森田実；いけないボーダーライン — May'n / 中島愛；いけないボーダーライン — ワルキューレ",
           "matchMethod": "independent-originality-review",
           "rationale": "目录曲名检索命中“いけないボーダーライン”，署名ワルキューレ；题名身份和艺人角色与原始曲目线索一致。"
+        },
+        {
+          "file": "../evidence/artist-verified-b/item-182.json",
+          "locator": "explicit-source-hit",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "{ \"index\": 182, \"workId\": \"song_d8fe8940-2a03-4edc-b171-c062987282e3\", \"title\": \"禁忌的边界线\", \"currentArtists\": [], \"reason\": \"missing\", \"evidence\": [ { \"file\": \"../evidence/round-08-source-directory-batch18.json\", \"locator\": \"sources[kind=video-directory,accountId=105260060,page=37].items[bvid=BV1az421a7Zv]\", \"sourceField\": \"title + descriptionExcerpt\", \"excerpt\": \"【柚恩生日演唱会】禁忌的边界线\\n2025.05.25直播剪辑\\n\\n原唱：Walküre\\n\\n柚恩不加糖\\n直播间：https://live.bilibili.com/25512501/\\n个人主页：https://space.bilibili.com/1795147802/\" } ], \"requests\": [ { \"",
+          "matchMethod": "explicit-source",
+          "rationale": "原始录播/切片描述直接标注原唱；保留来源定位。"
         }
+      ],
+      "aliases": [
+        "禁忌的边界线"
       ]
     },
     {
@@ -66727,6 +66388,18 @@
           "locator": "clarification_5",
           "sourceField": "answer",
           "excerpt": "这个是这场活动的主题是柚恩扮演机器人，但是也可以记录"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1LtaKz3ESm",
+          "sourceField": "title",
+          "excerpt": "【柚恩翻跳】初音ミク『えれくとりっく・えんじぇぅ (电子天使)』"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch19.json",
+          "locator": "BV1VCnbzuEvn",
+          "sourceField": "title",
+          "excerpt": "【柚恩翻跳】初音ミク『えれくとりっく・えんじぇぅ (电子天使) 』"
         }
       ],
       "originalArtists": [
@@ -66746,30 +66419,7 @@
           "excerpt": "实际前五条目录结果：えれくとりっく・えんじぇぅ — 初音ミク / ヤスオP；えれくとりっく・えんじぇぅ — ヤスオP / 初音ミク；えれくとりっく.えんじぇぅ — ヤスオP / 初音ミク；えれくとりっくえんじぇぅ(Electric Angel) — 初音ミク；えれくとりっくえんじぇぅ/初音ミク — 初音ミク",
           "matchMethod": "independent-originality-review",
           "rationale": "本家声库初音未来；ヤスオP为制作人。"
-        }
-      ]
-    },
-    {
-      "id": "song_3fc8f499-db35-4962-be01-5e1a3679e51a",
-      "title": "えれくとりっく・えんじぇぅ",
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch19.json",
-          "locator": "BV1LtaKz3ESm",
-          "sourceField": "title",
-          "excerpt": "【柚恩翻跳】初音ミク『えれくとりっく・えんじぇぅ (电子天使)』"
         },
-        {
-          "file": "../evidence/round-08-source-directory-batch19.json",
-          "locator": "BV1VCnbzuEvn",
-          "sourceField": "title",
-          "excerpt": "【柚恩翻跳】初音ミク『えれくとりっく・えんじぇぅ (电子天使) 』"
-        }
-      ],
-      "originalArtists": [
-        "初音未来"
-      ],
-      "originalArtistsEvidence": [
         {
           "url": "https://music.163.com/api/search/get?s=%E3%81%88%E3%82%8C%E3%81%8F%E3%81%A8%E3%82%8A%E3%81%A3%E3%81%8F%E3%83%BB%E3%81%88%E3%82%93%E3%81%98%E3%81%87%E3%81%85&type=1&limit=5",
           "sourceField": "result.songs[].name + artists[].name",
@@ -67987,6 +67637,12 @@
           "locator": "BV1c54y1c7NY",
           "sourceField": "title",
           "excerpt": "日剧东京爱情故事主题曲『ラブ・ストーリーは突然に』“那一天 突如其来的爱情”【米诺翻唱】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
+          "locator": "BV15t421t7w4",
+          "sourceField": "title",
+          "excerpt": "『ラブ·ストーリーは突然に』【米诺翻唱】"
         }
       ],
       "originalArtists": [
@@ -68003,29 +67659,6 @@
           "url": "https://www.bilibili.com/video/BV1c54y1c7NY",
           "sourceField": "title",
           "excerpt": "日剧东京爱情故事主题曲『ラブ・ストーリーは突然に』“那一天 突如其来的爱情”【米诺翻唱】",
-          "matchMethod": "independent-originality-review"
-        }
-      ]
-    },
-    {
-      "id": "song_3dafd78d-e8d8-4b33-b7d6-da30e8c90d20",
-      "title": "ラブ・ストーリーは突然に",
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3461563583302074-2024-1.json",
-          "locator": "BV15t421t7w4",
-          "sourceField": "title",
-          "excerpt": "『ラブ·ストーリーは突然に』【米诺翻唱】"
-        }
-      ],
-      "originalArtists": [
-        "小田和正"
-      ],
-      "originalArtistsEvidence": [
-        {
-          "url": "https://music.163.com/api/search/get?s=%E3%83%A9%E3%83%96%E3%83%BB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%E3%81%AF%E7%AA%81%E7%84%B6%E3%81%AB&type=1&limit=5",
-          "sourceField": "result.songs[].name + artists + album.name",
-          "excerpt": "ラブ・ストーリーは突然に — 小田和正；专辑《あの日 あの時》",
           "matchMethod": "independent-originality-review"
         },
         {
@@ -68197,6 +67830,227 @@
           "sourceField": "result.songs[].name + artists + album.name",
           "excerpt": "相思 — 毛阿敏；专辑《腔.调》",
           "matchMethod": "independent-originality-review"
+        }
+      ]
+    },
+    {
+      "id": "song_3262104d-435c-4d01-bc5e-b14599865b08",
+      "title": "簪花人间",
+      "kind": "cover",
+      "originalArtists": [
+        "三无MarBlue",
+        "Hanser"
+      ],
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1yvpm6PErG",
+          "locator": "BV1yvpm6PErG",
+          "sourceField": "title + description",
+          "excerpt": "【柚恩翻唱】『簪花人间』；柚恩 3D 26.10.14 直播切片\n原唱：三无MarBlue Hanser\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051"
+        }
+      ],
+      "originalArtistsEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1yvpm6PErG",
+          "locator": "BV1yvpm6PErG",
+          "sourceField": "title + description",
+          "excerpt": "【柚恩翻唱】『簪花人间』；柚恩 3D 26.10.14 直播切片\n原唱：三无MarBlue Hanser\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051",
+          "matchMethod": "explicit-source-description"
+        }
+      ]
+    },
+    {
+      "id": "song_de25c755-24f9-42e1-8d1c-8c5243a7147b",
+      "title": "妖风缭乱",
+      "kind": "cover",
+      "originalArtists": [
+        "Momoko"
+      ],
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Hrpm6FEWA",
+          "locator": "BV1Hrpm6FEWA",
+          "sourceField": "title + description",
+          "excerpt": "【柚恩翻跳】『妖风缭乱』；柚恩 3D 26.10.14 直播切片\n原唱：Momoko\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051"
+        }
+      ],
+      "originalArtistsEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Hrpm6FEWA",
+          "locator": "BV1Hrpm6FEWA",
+          "sourceField": "title + description",
+          "excerpt": "【柚恩翻跳】『妖风缭乱』；柚恩 3D 26.10.14 直播切片\n原唱：Momoko\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051",
+          "matchMethod": "explicit-source-description"
+        }
+      ]
+    },
+    {
+      "id": "song_99705ff2-d35f-4ccf-97fc-48afce348ae9",
+      "title": "圆缺",
+      "kind": "cover",
+      "originalArtists": [
+        "陈在野"
+      ],
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1afpm6mEvD",
+          "locator": "BV1afpm6mEvD",
+          "sourceField": "title + description",
+          "excerpt": "【柚恩翻唱】『圆缺』；柚恩 3D 26.10.14 直播切片\n原唱：陈在野\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051"
+        }
+      ],
+      "originalArtistsEvidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1afpm6mEvD",
+          "locator": "BV1afpm6mEvD",
+          "sourceField": "title + description",
+          "excerpt": "【柚恩翻唱】『圆缺』；柚恩 3D 26.10.14 直播切片\n原唱：陈在野\n时轴：000\n封面：芥舟粥\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501\n个人主页：https://space.bilibili.com/1795147802/\n音符：（ID：20220510UN）https://live.douyin.com/382367079051",
+          "matchMethod": "explicit-source-description"
+        }
+      ]
+    },
+    {
+      "id": "song_6a8f39d9-5cfb-4139-a34d-5e8cada467e2",
+      "title": "铃儿响叮当",
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Gg4y1y7gn",
+          "locator": "BV1Gg4y1y7gn",
+          "sourceField": "title + description",
+          "excerpt": "『铃儿响叮当』“叮叮当  叮叮当  铃儿响叮当”【EOE合唱】；直播日期：2023年12月24日\n直播标题：【3D】圣诞快乐！\n直播源: https://live.bilibili.com/25512465/"
+        }
+      ]
+    },
+    {
+      "id": "song_87bc9e43-4e53-4b6b-892b-b1256c682e20",
+      "title": "江南style",
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV18C4y177ak",
+          "locator": "BV18C4y177ak",
+          "sourceField": "title + description",
+          "excerpt": "『江南style』“哥是江南风格”【虞莫翻唱】；直播日期：2023年11月7日\n直播标题：【3D】喝个奶茶真不容易\n直播源: https://live.bilibili.com/25512485/"
+        }
+      ],
+      "originalArtists": [
+        "PSY"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "url": "https://music.163.com/api/search/get?s=%E6%B1%9F%E5%8D%97style+PSY&type=1&limit=5",
+          "sourceField": "result.songs[].name + artists",
+          "excerpt": "[{'title': 'Gangnam Style (강남스타일)', 'artists': ['PSY']}, {'title': 'Gangnam Style', 'artists': ['PSY']}]",
+          "matchMethod": "title-and-source-context",
+          "rationale": "正式发行目录与切片曲名、歌词或演出语境相符；保留合理题名匹配。"
+        }
+      ]
+    },
+    {
+      "id": "song_736a012c-4978-4358-bb3b-09cb58a117d6",
+      "title": "Come back home",
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1dr4y1Z7fQ",
+          "locator": "BV1dr4y1Z7fQ",
+          "sourceField": "title + description",
+          "excerpt": "『Come back home』“回到我身边”【虞莫翻跳】；直播日期：2023年9月23日\n直播标题：【3D】舞林大赛\n直播源: https://live.bilibili.com/25512485/"
+        }
+      ]
+    },
+    {
+      "id": "song_23c99ca7-c207-4e2a-bb3f-49fa93bb1a75",
+      "title": "逆战",
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1zm4y1T7vZ",
+          "locator": "BV1zm4y1T7vZ",
+          "sourceField": "title + description",
+          "excerpt": "『逆战』“在这个风起云涌的战场上”【EOE合唱】；直播日期：2023年8月30日\n直播标题：【3D】逃离EOE学院\n直播源: https://live.bilibili.com/25512485/"
+        }
+      ],
+      "originalArtists": [
+        "张杰"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "url": "https://music.163.com/api/search/get?s=%E9%80%86%E6%88%98+%E5%BC%A0%E6%9D%B0&type=1&limit=5",
+          "sourceField": "result.songs[].name + artists",
+          "excerpt": "[{'title': '逆战', 'artists': ['张杰']}, {'title': '逆战', 'artists': ['张杰']}]",
+          "matchMethod": "title-and-source-context",
+          "rationale": "正式发行目录与切片曲名、歌词或演出语境相符；保留合理题名匹配。"
+        }
+      ]
+    },
+    {
+      "id": "song_e6d153eb-7e61-4454-bf15-391bf2ffb36b",
+      "title": "FANTASTIC BABY",
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1t8411m7xk",
+          "locator": "BV1t8411m7xk",
+          "sourceField": "title + description",
+          "excerpt": "『FANTASTIC BABY』再现茄步2.0【团播合唱】；直播日期：2023年7月24日\n直播标题：【3D】E家人聚餐\n直播源: https://live.bilibili.com/25512485/"
+        }
+      ],
+      "originalArtists": [
+        "BIGBANG"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "url": "https://music.163.com/api/search/get?s=FANTASTIC+BABY+BIGBANG&type=1&limit=5",
+          "sourceField": "result.songs[].name + artists",
+          "excerpt": "[{'title': 'FANTASTIC BABY', 'artists': ['BIGBANG']}, {'title': 'FANTASTIC BABY(BIGBANG JAPAN DOME TOUR 2014~2015 \"X\")', 'artists': ['BIGBANG']}]",
+          "matchMethod": "title-and-source-context",
+          "rationale": "正式发行目录与切片曲名、歌词或演出语境相符；保留合理题名匹配。"
+        }
+      ]
+    },
+    {
+      "id": "song_ddfeee06-0469-474f-a94e-30cc3a08b8a2",
+      "title": "社会摇",
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Su411F79Y",
+          "locator": "BV1Su411F79Y",
+          "sourceField": "title + description",
+          "excerpt": "『社会摇』土味双星【虞莫露早翻跳】；直播日期：2023年11月19日\n直播标题：【3D】卡拉永远OK\n直播源: https://live.bilibili.com/25512443/"
+        }
+      ],
+      "originalArtists": [
+        "萧全"
+      ],
+      "originalArtistsEvidence": [
+        {
+          "url": "https://music.163.com/api/search/get?s=%E7%A4%BE%E4%BC%9A%E6%91%87%20%E8%90%A7%E5%85%A8&type=1&limit=5",
+          "sourceField": "result.songs[].name,artists",
+          "matchMethod": "reasonable-search-match",
+          "excerpt": "社会摇 (DJ candy Extended Mix) — 萧全; 社会摇 (十周年Hardcore重制版) — 萧全; 社会摇 (DJ JingZai Remix) — 萧全",
+          "rationale": "结合现有舞蹈切片题名/歌词片段与音乐平台作品、翻唱署名交叉匹配；非逐字标题搜索首条自动采用。"
+        }
+      ]
+    },
+    {
+      "id": "song_886834e2-b295-4c8c-a02e-7a4e1d488e0e",
+      "title": "断了的弦",
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1ww411s7to",
+          "locator": "BV1ww411s7to",
+          "sourceField": "title + description",
+          "excerpt": "『断了的弦』“断了的弦再弹一遍”【虞莫卡祖笛】；直播日期：2023年11月1日\n直播标题：【3D】我的十二宗“最”\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     }

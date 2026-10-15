@@ -74,7 +74,7 @@
       "publishedAt": "2023-03-01T09:53:11.000Z",
       "occurrence": "published",
       "relatedWorks": [
-        "song_abe724f2-c410-413d-8264-4393db89a8a0"
+        "song_a382043c-b9cc-4f57-b3fe-41c85ad178b5"
       ],
       "assets": [
         {
@@ -3559,35 +3559,8 @@
             "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
             "locator": "BV1sV4y1X74g"
           }
-        ],
-        "recordings": [
-          {
-            "file": "../reviews/round-02-recordings-2023-03.json",
-            "locator": "evt_892c0c9f-26c5-483b-a6cd-1197fa6248dd"
-          },
-          {
-            "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-            "locator": "BV1sV4y1X74g"
-          }
-        ],
-        "preferredRecordingBvid": [
-          {
-            "file": "../reviews/round-02-recordings-2023-03.json",
-            "locator": "BV1sV4y1X74g"
-          }
         ]
       },
-      "recordings": [
-        {
-          "bvid": "BV1sV4y1X74g",
-          "relation": "performance-excerpt",
-          "source": {
-            "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-            "locator": "BV1sV4y1X74g"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1sV4y1X74g",
       "contentType": "singing",
       "dimension": "unknown",
       "isUnannounced": false

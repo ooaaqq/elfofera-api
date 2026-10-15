@@ -126,6 +126,10 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1L51nBYE9K"
           }
+        },
+        {
+          "bvid": "BV11R1kByEf1",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1L51nBYE9K",
@@ -134,6 +138,12 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1L51nBYE9K"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV11R1kByEf1",
+            "locator": "BV11R1kByEf1",
+            "excerpt": "露早 2025.11.4 【萌妹玩游戏6】【直播录像】【2D】；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
           }
         ]
       },
@@ -549,6 +559,14 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1irC3BKEai"
           }
+        },
+        {
+          "bvid": "BV12nC3BSEmB",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1HZC2BGEqU",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1irC3BKEai",
@@ -557,6 +575,18 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1irC3BKEai"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV12nC3BSEmB",
+            "locator": "BV12nC3BSEmB",
+            "excerpt": "【柚恩直播录播】【2D】2025.11.14 煮面/我会魔法；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1HZC2BGEqU",
+            "locator": "BV1HZC2BGEqU",
+            "excerpt": "【EOE】柚恩2D 2025.11.14 煮面【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -962,6 +992,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1vQUxBWEfo"
           }
+        },
+        {
+          "bvid": "BV1kUUuBHEbX",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1vQUxBWEfo",
@@ -970,6 +1004,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1vQUxBWEfo"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1kUUuBHEbX",
+            "locator": "BV1kUUuBHEbX",
+            "excerpt": "【EOE】柚恩2D 2025.11.22 来咯来咯【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -1901,6 +1941,10 @@
             "locator": "BV17PSuBLEUC",
             "excerpt": "【直播回放】【2D】中午玩玩 2025年11月27日12点场"
           }
+        },
+        {
+          "bvid": "BV1khSEBmE2Z",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV17PSuBLEUC",
@@ -1917,6 +1961,12 @@
             "url": "https://www.bilibili.com/video/BV1wCUzBTEFJ",
             "locator": "BV1wCUzBTEFJ",
             "excerpt": "【直播回放】【2D】中午玩玩 2025年11月27日12点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1khSEBmE2Z",
+            "locator": "BV1khSEBmE2Z",
+            "excerpt": "【EOE】露早 电台 2025.11.27 马上【直播录像】；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
           }
         ],
         "schedule": [
@@ -1933,6 +1983,72 @@
         "luzao"
       ],
       "plannedTime": "12:00"
+    },
+    {
+      "id": "evt_e42bb671-2ebd-5746-85cf-032aebca32a7",
+      "date": "2025-11-04",
+      "kind": "livestream",
+      "title": "美女打牌",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV18x1rB1EnE",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV18x1rB1EnE",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV18x1rB1EnE",
+            "locator": "BV18x1rB1EnE",
+            "excerpt": "【柚恩直播录播】【2D】【D限】2025.11.04 美女打牌；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
+    },
+    {
+      "id": "evt_4841dcab-a364-5c19-ac28-9a08652cd980",
+      "date": "2025-11-21",
+      "kind": "livestream",
+      "title": "进来，看跳舞！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "dance",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1FgUEBuEVN",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1FgUEBuEVN",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1FgUEBuEVN",
+            "locator": "BV1FgUEBuEVN",
+            "excerpt": "【柚恩直播录播】【3D】【D限】2025.11.21 进来，看跳舞！；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
     }
   ]
 }

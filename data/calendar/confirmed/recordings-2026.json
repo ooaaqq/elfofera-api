@@ -7243,7 +7243,7 @@
       "bvid": "BV1CjL56QE93",
       "title": "【柚恩直播录播】【2D】2026.05.17 先聊天，再继续新三",
       "titleSession": {
-        "date": "2026-05-17",
+        "date": "2026-05-16",
         "hour": null
       },
       "formatLabel": null,
@@ -7255,6 +7255,12 @@
       "source": {
         "record": null,
         "evidence": "../evidence/round-08-source-directory-batch19.json"
+      },
+      "dateEvidence": {
+        "kind": "bilibili-video",
+        "url": "https://www.bilibili.com/video/BV1CjL56QE93",
+        "locator": "BV1CjL56QE93",
+        "excerpt": "【柚恩直播录播】【2D】2026.05.17 先聊天，再继续新三；采用同题官方回放的开播日；跨零点日期或投稿日不增加场次。"
       }
     },
     {
@@ -11416,7 +11422,7 @@
       "bvid": "BV1AvM16xEo2",
       "title": "【柚恩直播录播】【3D】2026.8.6 老歌回返场",
       "titleSession": {
-        "date": "2026-08-06",
+        "date": "2026-08-05",
         "hour": null
       },
       "formatLabel": null,
@@ -11428,6 +11434,12 @@
       "source": {
         "record": null,
         "evidence": "../evidence/round-08-source-directory-batch19.json"
+      },
+      "dateEvidence": {
+        "kind": "bilibili-video",
+        "url": "https://www.bilibili.com/video/BV1AvM16xEo2",
+        "locator": "BV1AvM16xEo2",
+        "excerpt": "【柚恩直播录播】【3D】2026.8.6 老歌回返场；采用同题官方回放的开播日；跨零点日期或投稿日不增加场次。"
       }
     },
     {
@@ -11582,7 +11594,7 @@
       "bvid": "BV1czu663EXj",
       "title": "【柚恩直播录播】【2D】2026.8.12 新三，喔~",
       "titleSession": {
-        "date": "2026-08-12",
+        "date": "2026-08-11",
         "hour": null
       },
       "formatLabel": null,
@@ -11594,6 +11606,12 @@
       "source": {
         "record": null,
         "evidence": "../evidence/round-08-source-directory-batch19.json"
+      },
+      "dateEvidence": {
+        "kind": "bilibili-video",
+        "url": "https://www.bilibili.com/video/BV1czu663EXj",
+        "locator": "BV1czu663EXj",
+        "excerpt": "【柚恩直播录播】【2D】2026.8.12 新三，喔~；官方同题开播日期、简介/分P录制时间和跨零点投稿上下文交叉校正，保留原标题。"
       }
     },
     {
@@ -13846,6 +13864,102 @@
         "url": "https://www.bilibili.com/video/BV1URpn6vESG",
         "locator": "BV1URpn6vESG",
         "excerpt": "【直播回放】【3D】新人首播 2026年10月11日19点场"
+      }
+    },
+    {
+      "bvid": "BV1TQpz6nEbH",
+      "title": "【直播回放】【2D】萌妹铸剑大师48 2026年10月13日20点场",
+      "titleSession": {
+        "date": "2026-10-13",
+        "hour": 20
+      },
+      "formatLabel": "2D",
+      "publishedAt": "2026-10-13T15:50:35.000Z",
+      "uploader": {
+        "accountId": 1669777785,
+        "name": "露早GOGO"
+      },
+      "durationSeconds": 12258,
+      "parts": [
+        {
+          "page": 1,
+          "cid": 42715907820,
+          "title": "0-【2D】萌妹铸剑大师48",
+          "durationSeconds": 7218
+        },
+        {
+          "page": 2,
+          "cid": 42715908015,
+          "title": "1-【2D】萌妹铸剑大师48",
+          "durationSeconds": 5040
+        }
+      ],
+      "source": {
+        "kind": "bilibili-video",
+        "url": "https://www.bilibili.com/video/BV1TQpz6nEbH",
+        "locator": "BV1TQpz6nEbH",
+        "sourceField": "title",
+        "excerpt": "【直播回放】【2D】萌妹铸剑大师48 2026年10月13日20点场"
+      }
+    },
+    {
+      "bvid": "BV1GGp16GEfG",
+      "title": "【直播回放】【3D】生日购物大挑战！ 2026年10月14日18点场",
+      "titleSession": {
+        "date": "2026-10-14",
+        "hour": 18
+      },
+      "formatLabel": "3D",
+      "publishedAt": "2026-10-14T13:24:23.000Z",
+      "uploader": {
+        "accountId": 1669777785,
+        "name": "露早GOGO"
+      },
+      "durationSeconds": 6274,
+      "parts": [
+        {
+          "page": 1,
+          "cid": 42740221471,
+          "title": "【直播回放】【3D】生日购物大挑战！ 2026年10月14日18点场",
+          "durationSeconds": 6274
+        }
+      ],
+      "source": {
+        "kind": "bilibili-video",
+        "url": "https://www.bilibili.com/video/BV1GGp16GEfG",
+        "locator": "BV1GGp16GEfG",
+        "sourceField": "title",
+        "excerpt": "【直播回放】【3D】生日购物大挑战！ 2026年10月14日18点场"
+      }
+    },
+    {
+      "bvid": "BV1txpm6gErC",
+      "title": "【直播回放】【3D】正式确诊为... 2026年10月14日20点场",
+      "titleSession": {
+        "date": "2026-10-14",
+        "hour": 20
+      },
+      "formatLabel": "3D",
+      "publishedAt": "2026-10-14T15:18:43.000Z",
+      "uploader": {
+        "accountId": 1795147802,
+        "name": "柚恩不加糖"
+      },
+      "durationSeconds": 6901,
+      "parts": [
+        {
+          "page": 1,
+          "cid": 42743105626,
+          "title": "【直播回放】【3D】正式确诊为... 2026年10月14日20点场",
+          "durationSeconds": 6901
+        }
+      ],
+      "source": {
+        "kind": "bilibili-video",
+        "url": "https://www.bilibili.com/video/BV1txpm6gErC",
+        "locator": "BV1txpm6gErC",
+        "sourceField": "title",
+        "excerpt": "【直播回放】【3D】正式确诊为... 2026年10月14日20点场"
       }
     }
   ]

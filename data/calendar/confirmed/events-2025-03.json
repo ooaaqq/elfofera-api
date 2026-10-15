@@ -235,6 +235,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1Rt91YfEnZ"
           }
+        },
+        {
+          "bvid": "BV17x91YwEET",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1Rt91YfEnZ",
@@ -243,6 +247,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1Rt91YfEnZ"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV17x91YwEET",
+            "locator": "BV17x91YwEET",
+            "excerpt": "【柚恩直播录播】【电台】2025.03.07 【突】哇咔咔-；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -590,6 +600,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1ciQ3YzE3f"
           }
+        },
+        {
+          "bvid": "BV13jQ3YpEq5",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1ciQ3YzE3f",
@@ -598,6 +612,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1ciQ3YzE3f"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV13jQ3YpEq5",
+            "locator": "BV13jQ3YpEq5",
+            "excerpt": "【柚恩直播录播】【2D】2025.03.14 白色情人节~；同日同题且成员明确对应；同名的其他成员场次不混合。"
           }
         ]
       },
@@ -836,6 +856,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1FsXCYcEpp"
           }
+        },
+        {
+          "bvid": "BV1yZXnYuEgu",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1FsXCYcEpp",
@@ -844,6 +868,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1FsXCYcEpp"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1yZXnYuEgu",
+            "locator": "BV1yZXnYuEgu",
+            "excerpt": "【EOE】柚恩2D 2025.03.21 来都来了【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -1245,6 +1275,18 @@
             "locator": "BV16oQgYKEpr",
             "excerpt": "【直播回放】【电台】白色情人节！ 2025年03月14日16点场"
           }
+        },
+        {
+          "bvid": "BV1cDQ6YXEc6",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1NNQkYwERW",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1PbQ3Y5ERr",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV16oQgYKEpr",
@@ -1261,6 +1303,24 @@
             "url": "https://www.bilibili.com/video/BV1PbQ3Y5ERr",
             "locator": "BV1PbQ3Y5ERr",
             "excerpt": "【直播回放】【电台】白色情人节！ 2025年03月14日16点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1cDQ6YXEc6",
+            "locator": "BV1cDQ6YXEc6",
+            "excerpt": "露早 2025.3.14 【白色情人节！】【直播录像】【突击电台】；同日同题且成员明确对应；同名的其他成员场次不混合。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1NNQkYwERW",
+            "locator": "BV1NNQkYwERW",
+            "excerpt": "【EOE】露早 电台 2025.03.14 白色情人节！【直播录像】；同日同题且成员明确对应；同名的其他成员场次不混合。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1PbQ3Y5ERr",
+            "locator": "BV1PbQ3Y5ERr",
+            "excerpt": "【直播回放】【电台】白色情人节！ 2025年03月14日16点场；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
           }
         ]
       },
@@ -1322,6 +1382,86 @@
         "luzao"
       ],
       "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_34f29782-240f-51f2-b45f-82cf023f918e",
+      "date": "2025-03-23",
+      "kind": "livestream",
+      "title": "wakaka",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1QyoBY1EZa",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV1hbozY1EdK",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV1QyoBY1EZa",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1QyoBY1EZa",
+            "locator": "BV1QyoBY1EZa",
+            "excerpt": "露早 2025.3.23 【wakaka】【直播录像】【2D】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1hbozY1EdK",
+            "locator": "BV1hbozY1EdK",
+            "excerpt": "【EOE】露早2D 2025.03.23 wakaka【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_2b3cd4b5-a30b-532b-9d2e-1ec273283ee5",
+      "date": "2025-03-30",
+      "kind": "livestream",
+      "title": "你要唱歌吗",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "singing",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1UQZkYnEbD",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV1fUZEYNELP",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV1UQZkYnEbD",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1UQZkYnEbD",
+            "locator": "BV1UQZkYnEbD",
+            "excerpt": "【柚恩直播录播】【2D】2025.03.30 你要唱歌吗；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fUZEYNELP",
+            "locator": "BV1fUZEYNELP",
+            "excerpt": "【EOE】柚恩2D 2025.03.30 你要唱歌吗【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+          }
+        ]
+      }
     }
   ]
 }

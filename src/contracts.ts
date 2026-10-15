@@ -45,6 +45,7 @@ export const performanceSchema = z
     workId: z.string(),
     type: z.string(),
     creditedMembers: z.array(z.string()),
+    creditedGroup: z.string().nullable(),
     sourceUrls: z.array(z.string()),
   })
   .openapi("Performance");
@@ -68,6 +69,7 @@ const eventFields = {
   occurrence: z.string().nullable(),
   recordingNamedMembers: z.array(z.string()),
   plannedMembers: z.array(z.string()),
+  hostMember: z.string().nullable(),
   guests: z.array(guestSchema),
   stages: z.array(stageSchema),
   contentType: z.string().nullable(),
@@ -195,6 +197,7 @@ export function sourceUrls(data: unknown): string[] {
 const eventDataSchema = z.object({
   recordingNamedMembers: z.array(z.string()).default([]),
   plannedMembers: z.array(z.string()).default([]),
+  hostMember: z.string().optional(),
   guests: z.array(guestSchema).default([]),
   stages: z.array(stageSchema).default([]),
   contentType: z.string().optional(),
@@ -213,6 +216,7 @@ export function eventView(row: typeof events.$inferSelect) {
     occurrence: row.occurrence,
     recordingNamedMembers: data.recordingNamedMembers,
     plannedMembers: data.plannedMembers,
+    hostMember: data.hostMember ?? null,
     guests: data.guests,
     stages: data.stages,
     contentType: data.contentType ?? null,
@@ -233,7 +237,10 @@ export function workView(row: typeof works.$inferSelect) {
 }
 export function performanceView(row: typeof performances.$inferSelect) {
   const data = z
-    .object({ creditedMembers: z.array(z.string()).default([]) })
+    .object({
+      creditedMembers: z.array(z.string()).default([]),
+      creditedGroup: z.string().optional(),
+    })
     .parse(row.data);
   return {
     id: row.id,
@@ -242,6 +249,7 @@ export function performanceView(row: typeof performances.$inferSelect) {
     workId: row.workId,
     type: row.type,
     creditedMembers: data.creditedMembers,
+    creditedGroup: data.creditedGroup ?? null,
     sourceUrls: sourceUrls(row.data),
   };
 }

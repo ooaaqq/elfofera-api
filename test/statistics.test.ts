@@ -12,6 +12,7 @@ const item = (
   workId: "song_test",
   type: "singing",
   creditedMembers,
+  creditedGroup: null,
   sourceUrls,
 });
 describe("performance record counting", () => {
@@ -37,5 +38,13 @@ describe("performance record counting", () => {
     );
     expect(stats.byMember[0]?.sourceUrls).toHaveLength(3);
     expect(stats.byMember[0]?.count).toBe(5);
+  });
+  it("counts group-only credit without assigning it to each member", () => {
+    const stats = performanceStatistics([
+      { ...item("group", []), creditedGroup: "EOE" },
+    ]);
+    expect(stats.total).toBe(1);
+    expect(stats.uncredited).toBe(1);
+    expect(stats.byMember.every((entry) => entry.count === 0)).toBe(true);
   });
 });

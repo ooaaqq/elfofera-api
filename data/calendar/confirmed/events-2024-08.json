@@ -302,17 +302,6 @@
       "occurrence": "recording-attested",
       "formatLabel": "2D",
       "tags": [],
-      "recordings": [
-        {
-          "bvid": "BV14av9e5E4u",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/round-02-august-waner-song-details.json",
-            "locator": "BV14av9e5E4u"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV14av9e5E4u",
       "evidence": {
         "date": [
           {
@@ -337,11 +326,28 @@
             "file": "../evidence/round-02-august-waner-song-details.json",
             "locator": "BV14av9e5E4u"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV14av9e5E4u",
+            "locator": "BV14av9e5E4u",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
         ]
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "assets": [
+        {
+          "bvid": "BV14av9e5E4u",
+          "role": "performance-excerpt"
+        }
+      ]
     },
     {
       "id": "evt_95a159a5-0adf-4139-b0ae-9015aba5afae",
@@ -617,6 +623,10 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV16i42167dW"
           }
+        },
+        {
+          "bvid": "BV1ZUYEeZES8",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV16i42167dW",
@@ -625,6 +635,12 @@
           {
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV16i42167dW"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ZUYEeZES8",
+            "locator": "BV1ZUYEeZES8",
+            "excerpt": "【EOE】莞儿L2D 2024.08.10 甜甜的莞【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -722,6 +738,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV18U411U7CU"
           }
+        },
+        {
+          "bvid": "BV1G1YHetE17",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV18U411U7CU",
@@ -730,6 +750,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV18U411U7CU"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1G1YHetE17",
+            "locator": "BV1G1YHetE17",
+            "excerpt": "【EOE】柚恩 电台 2024.08.10 听海【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -1408,6 +1434,10 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1mFWHedETK"
           }
+        },
+        {
+          "bvid": "BV15kW8eFECV",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1mFWHedETK",
@@ -1416,6 +1446,12 @@
           {
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1mFWHedETK"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV15kW8eFECV",
+            "locator": "BV15kW8eFECV",
+            "excerpt": "【EOE】莞儿L2D 2024.08.20 来咯【直播录像】；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
           }
         ]
       },
@@ -2116,6 +2152,14 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "items[11]"
           }
+        },
+        {
+          "bvid": "BV1iKnfeiEuu",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1crHcenELF",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1ZznoeNECo",
@@ -2124,6 +2168,18 @@
           {
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "items[11]"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1iKnfeiEuu",
+            "locator": "BV1iKnfeiEuu",
+            "excerpt": "【EOE】莞儿L2D 2024.08.31 来咯【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1crHcenELF",
+            "locator": "BV1crHcenELF",
+            "excerpt": "【EOE】莞儿L2D 2024.08.31 来咯【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -2610,6 +2666,46 @@
         ]
       },
       "note": "原始条目明确曲名与舞蹈形式；只登记投稿事件，不把投稿日期当作实际演出日期。"
+    },
+    {
+      "id": "evt_3235eee2-e51f-56b6-97cd-a139aff878f5",
+      "date": "2024-08-10",
+      "kind": "livestream",
+      "title": "今天是什么日子",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1W7Y7ecEnG",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV1gSYHeRE6q",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV1W7Y7ecEnG",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1W7Y7ecEnG",
+            "locator": "BV1W7Y7ecEnG",
+            "excerpt": "露早 2024.8.10 【今天是什么日子】【直播录像】【电台】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1gSYHeRE6q",
+            "locator": "BV1gSYHeRE6q",
+            "excerpt": "【EOE】露早 电台 2024.08.10 今天是什么日子【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+          }
+        ]
+      }
     }
   ]
 }

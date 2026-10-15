@@ -29,7 +29,7 @@ GET /v1/timeline?from=2026-10-09&through=2026-10-09&member=luzao&include=events,
 `dimension` 表示主要录播形态，完整切换过程参照阶段记录。
 
 `member` 支持 `luzao`（露早）、`youen`（柚恩）、`yumo`（虞莫）、`waner`（莞儿）和
-`minuo`（米诺）。事件按录播明确提及的成员或计划成员筛选；两类成员在返回值中
+`minuo`（米诺）。事件按录播明确提及的成员、开播成员 `hostMember` 或计划成员筛选；这些身份在返回值中
 分别保留。表演只按明确的 `creditedMembers` 筛选，不从整场参与者或上传者推断
 演唱身份。计划仅保留匹配的场次，录播仅保留有匹配事件关联的记录。成员筛选可能
 排除身份尚不明确的资料。
@@ -69,7 +69,7 @@ GET /v1/works/song_xxx/history?from=2022-07-24&through=2023-12-31&member=youen
 
 计数单位 `countingUnit: performance-record`：一条独立表演记录计一次，多个来源
 不增加次数；合唱分别计入明确署名的成员，因此成员次数之和可能大于总数。
-无成员署名的记录计入 `uncredited`，不推断演唱者。各成员的 `sourceUrls` 最多
+没有个人成员署名的记录计入 `uncredited`，不推断演唱者。只有组合署名的表演返回 `creditedGroup`，仍计入 `uncredited`，不自动展开为五人。没有组合署名时该字段为 `null`。`hostMember` 仅表示开播账号，不表示完整参与名单。各成员的 `sourceUrls` 最多
 提供三个去重的来源示例，完整来源通过历史接口查看。统计只覆盖已确认资料。
 
 ## 回答规则

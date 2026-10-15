@@ -2366,13 +2366,27 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1LM411V7e5"
           }
+        ],
+        "assets": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1hc411H7Mn",
+            "locator": "BV1hc411H7Mn",
+            "excerpt": "2023.04.18柚恩电台歌切合集【柚恩电台翻唱】；简介标注直播剪辑/歌切合集；作为节选资料，不作为完整录播。"
+          }
         ]
       },
       "preferredRecordingBvid": "BV1LM411V7e5",
       "formatLabel": "电台",
       "contentType": "radio",
       "dimension": "1d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "assets": [
+        {
+          "bvid": "BV1hc411H7Mn",
+          "role": "performance-excerpt"
+        }
+      ]
     },
     {
       "id": "evt_0d4b4f18-f1a5-4e3f-b26d-323b0b8ddb71",
@@ -3416,35 +3430,8 @@
             "sourceField": "descriptionExcerpt",
             "excerpt": "https://live.bilibili.com/23225527\n直播日期：2023年4月23日\n星律动【谁是情歌王】颁奖礼！直播剪辑\n--------------------------------------------------------\n剪辑：鹿千鸽\n时轴：鹿千鸽\n封面：模板\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早"
           }
-        ],
-        "recordings": [
-          {
-            "file": "../reviews/round-02-recordings-2023-04.json",
-            "locator": "evt_a325a94f-ef83-4c89-9707-fdaafceae7f6"
-          },
-          {
-            "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-            "locator": "BV1qo4y1b79H"
-          }
-        ],
-        "preferredRecordingBvid": [
-          {
-            "file": "../reviews/round-02-recordings-2023-04.json",
-            "locator": "BV1qo4y1b79H"
-          }
         ]
       },
-      "recordings": [
-        {
-          "bvid": "BV1qo4y1b79H",
-          "relation": "performance-excerpt",
-          "source": {
-            "file": "../evidence/history-01/videos-3461563583302074-2023-3.json",
-            "locator": "BV1qo4y1b79H"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1qo4y1b79H",
       "contentType": "singing",
       "dimension": "unknown",
       "isUnannounced": false
@@ -4512,7 +4499,7 @@
       "publishedAt": "2023-04-30T07:48:08.000Z",
       "occurrence": "published",
       "relatedWorks": [
-        "song_a8cfc1d3-0bba-42d2-8e56-22ca406fda75"
+        "song_8d9f58b7-b77d-4802-bd1e-fe156d107082"
       ],
       "assets": [
         {

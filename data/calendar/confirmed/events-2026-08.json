@@ -127,6 +127,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1bFMy68EYz"
           }
+        },
+        {
+          "bvid": "BV1AvM16xEo2",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1bFMy68EYz",
@@ -135,6 +139,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1bFMy68EYz"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1AvM16xEo2",
+            "locator": "BV1AvM16xEo2",
+            "excerpt": "【柚恩直播录播】【3D】2026.8.6 老歌回返场；同题跨零点录播，与官方开播日期关联；保留原标题。"
           }
         ]
       },
@@ -385,6 +395,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1cvuB6KEc3"
           }
+        },
+        {
+          "bvid": "BV1czu663EXj",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1cvuB6KEc3",
@@ -393,6 +407,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1cvuB6KEc3"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1czu663EXj",
+            "locator": "BV1czu663EXj",
+            "excerpt": "【柚恩直播录播】【2D】2026.8.12 新三，喔~；采用官方开播日，避免跨日投稿或标题日期笔误新增场次。"
           }
         ]
       },
@@ -1090,6 +1110,36 @@
       "creditedMembers": [
         "youen"
       ]
+    },
+    {
+      "id": "evt_ea93383b-0c77-5433-bcc9-5e8cbe62422c",
+      "date": "2026-08-17",
+      "kind": "livestream",
+      "title": "天哪！新三国",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1WPbi67EQ9",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1WPbi67EQ9",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1WPbi67EQ9",
+            "locator": "BV1WPbi67EQ9",
+            "excerpt": "【柚恩直播录播】【2D】2026.8.17 天哪！新三国；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      }
     }
   ]
 }

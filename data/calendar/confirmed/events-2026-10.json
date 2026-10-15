@@ -776,9 +776,21 @@
             "locator": "BV1Lnph6zEVr",
             "excerpt": "每次听毛阿敏老师唱的“不‘屑’一顾”都好听得我想在地上打滚……\n非常好听的歌曲，唱给我信任的，交心的，交流的，心与心的，我爱的蜜宝，希望蜜宝喜欢\n\n原曲：《相思》- 毛阿敏\n翻唱：柚恩"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Lnph6zEVr",
+            "locator": "BV1Lnph6zEVr",
+            "sourceField": "recordingNamedMembers",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          }
         ]
       },
-      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。",
+      "recordingNamedMembers": [
+        "youen"
+      ]
     },
     {
       "id": "evt_1a3d51ec-fa5c-4752-8068-188fd9280e22",
@@ -907,6 +919,246 @@
           }
         ]
       }
+    },
+    {
+      "id": "evt_a1089b77-9ef9-4fa5-ab48-20b8ddc663cb",
+      "date": "2026-10-13",
+      "kind": "livestream",
+      "title": "萌妹铸剑大师48",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1TQpz6nEbH",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1TQpz6nEbH",
+            "locator": "BV1TQpz6nEbH",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】萌妹铸剑大师48 2026年10月13日20点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1TQpz6nEbH",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1TQpz6nEbH",
+            "locator": "BV1TQpz6nEbH",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】萌妹铸剑大师48 2026年10月13日20点场"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1TQpz6nEbH",
+            "locator": "BV1TQpz6nEbH",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】萌妹铸剑大师48 2026年10月13日20点场"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258164285900587029",
+            "dynamicId": "1258164285900587029",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+          },
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258650340899684376",
+            "dynamicId": "1258650340899684376",
+            "excerpt": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]"
+          }
+        ]
+      },
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30",
+      "series": "萌妹玩游戏"
+    },
+    {
+      "id": "evt_abcc947f-f342-4e5a-884d-0d54478a9070",
+      "date": "2026-10-13",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "露早2D直播因网络抢修延期至20:00通知",
+      "text": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]",
+      "publishedAt": "2026-10-13T11:26:09.000Z",
+      "occurrence": "announced",
+      "relatedEventId": "evt_a1089b77-9ef9-4fa5-ab48-20b8ddc663cb",
+      "announcedActivity": {
+        "date": "2026-10-13",
+        "originalPlannedTime": "19:30",
+        "plannedTime": "20:00",
+        "members": [
+          "luzao"
+        ],
+        "formatLabel": "2D"
+      },
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258650340899684376",
+            "dynamicId": "1258650340899684376",
+            "excerpt": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]"
+          }
+        ],
+        "text": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258650340899684376",
+            "dynamicId": "1258650340899684376",
+            "excerpt": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_21c8c61c-629b-4d0c-a2ab-70199d60a55b",
+      "date": "2026-10-14",
+      "kind": "livestream",
+      "title": "生日购物大挑战！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1GGp16GEfG",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1GGp16GEfG",
+            "locator": "BV1GGp16GEfG",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【3D】生日购物大挑战！ 2026年10月14日18点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1GGp16GEfG",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1GGp16GEfG",
+            "locator": "BV1GGp16GEfG",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【3D】生日购物大挑战！ 2026年10月14日18点场"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1GGp16GEfG",
+            "locator": "BV1GGp16GEfG",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【3D】生日购物大挑战！ 2026年10月14日18点场"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258164285900587029",
+            "dynamicId": "1258164285900587029",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+          },
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258941548274384905",
+            "dynamicId": "1258941548274384905",
+            "excerpt": "直播预约：【3D】生日购物大挑战！！！；10-14 19:00 直播"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:00"
+    },
+    {
+      "id": "evt_b1073630-c067-4c1a-a8fb-f958cd8af4de",
+      "date": "2026-10-14",
+      "kind": "livestream",
+      "title": "正式确诊为...",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        20
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1txpm6gErC",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1txpm6gErC",
+            "locator": "BV1txpm6gErC",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【3D】正式确诊为... 2026年10月14日20点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1txpm6gErC",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1txpm6gErC",
+            "locator": "BV1txpm6gErC",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【3D】正式确诊为... 2026年10月14日20点场"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1txpm6gErC",
+            "locator": "BV1txpm6gErC",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【3D】正式确诊为... 2026年10月14日20点场"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258164285900587029",
+            "dynamicId": "1258164285900587029",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "20:50"
     }
   ]
 }

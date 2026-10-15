@@ -671,7 +671,7 @@
     {
       "id": "perf_eea3cbbb-eae8-4242-8423-33e128b9d72a",
       "workId": "song_bafb956c-a14e-4309-ac76-e6eced290f8e",
-      "date": "2026-02-10",
+      "date": "2026-02-09",
       "eventId": "evt_4d9827e1-5319-49c0-bb5c-e70d618db18f",
       "type": "singing",
       "creditedMembers": [
@@ -695,6 +695,13 @@
           "locator": "BV1nTF1zLEzB",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443\n直播日期：2026年2月10日\n3D【萌妹聊春节，越聊越新年】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://spac"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1nTF1zLEzB",
+          "locator": "BV1nTF1zLEzB",
+          "sourceField": "description + pubdate + matched recording title",
+          "excerpt": "切片在2026-02-10 00:08投稿，简介日期采用投稿日；同标题官方回放BV1F8cuzmERa为2026-02-09 20点场、时长7138秒，无跨午夜证据；表演日期按2月9日场次记录。"
         }
       ]
     },

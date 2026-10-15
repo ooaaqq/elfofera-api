@@ -1183,6 +1183,10 @@
         {
           "bvid": "BV1NSU5Y2E6D",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1pSmSYzEVy",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1197,6 +1201,18 @@
           "locator": "BV1NSU5Y2E6D",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2024年11月14日\n露早【美食荒漠觅食指南】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750440"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1pSmSYzEVy",
+          "sourceField": "title",
+          "excerpt": "『给我一首歌的时间』【露早翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch15.json",
+          "locator": "BV1pSmSYzEVy",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443\n直播日期： 2024.11.14 【美食荒漠觅食指南】【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n虞莫@虞莫MOMO ：https://space.bilibil"
         }
       ]
     },
@@ -2684,36 +2700,6 @@
         {
           "file": "../confirmed/events-2024-11.json",
           "locator": "evt_14e45a3d-a792-4bd0-8d35-731225242305"
-        }
-      ]
-    },
-    {
-      "id": "perf_d0e12cd7-ddcf-4485-8bb5-453849afe644",
-      "workId": "song_1eb55c3a-ee7e-41c1-8f5b-0a56e809813f",
-      "date": "2024-11-14",
-      "eventId": "evt_11a3c33c-b105-4b3d-ba5c-b959ae5e37d9",
-      "type": "singing",
-      "creditedMembers": [
-        "luzao"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1pSmSYzEVy",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1pSmSYzEVy",
-          "sourceField": "title",
-          "excerpt": "『给我一首歌的时间』【露早翻唱】"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch15.json",
-          "locator": "BV1pSmSYzEVy",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "https://live.bilibili.com/25512443\n直播日期： 2024.11.14 【美食荒漠觅食指南】【3D】\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n柚恩@柚恩不加糖 ：https://space.bilibili.com/1795147802/\n虞莫@虞莫MOMO ：https://space.bilibil"
         }
       ]
     },

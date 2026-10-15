@@ -56,6 +56,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1LB45etEYw"
           }
+        },
+        {
+          "bvid": "BV15zxQebEBB",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1LB45etEYw",
@@ -64,6 +68,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1LB45etEYw"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV15zxQebEBB",
+            "locator": "BV15zxQebEBB",
+            "excerpt": "【EOE】柚恩L2D 2024.10.02 沙威玛！通关！【直播录像】；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
           }
         ]
       },
@@ -161,6 +171,10 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1Vb1UY7Eob"
           }
+        },
+        {
+          "bvid": "BV1G81UY2Eym",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1Vb1UY7Eob",
@@ -169,6 +183,12 @@
           {
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1Vb1UY7Eob"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1G81UY2Eym",
+            "locator": "BV1G81UY2Eym",
+            "excerpt": "【EOE】虞莫 电台 2024.10.04 吃了吗哈哈哈哈【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -653,6 +673,10 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1462aYfEhM"
           }
+        },
+        {
+          "bvid": "BV1kB2qYvE5U",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1462aYfEhM",
@@ -661,6 +685,12 @@
           {
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1462aYfEhM"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1kB2qYvE5U",
+            "locator": "BV1kB2qYvE5U",
+            "excerpt": "【EOE】虞莫 电台 2024.10.12 超绝松弛感小女孩【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -1749,6 +1779,10 @@
             "locator": "BV1pFx8e1EYW",
             "excerpt": "【直播回放】早上好，逐日中！！！！ 2024年10月01日06点场"
           }
+        },
+        {
+          "bvid": "BV1H3xee9EV8",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1pFx8e1EYW",
@@ -1771,6 +1805,12 @@
             "url": "https://www.bilibili.com/video/BV1WFx8e1EtE",
             "locator": "BV1WFx8e1EtE",
             "excerpt": "【直播回放】早上好，逐日中！！！！ 2024年10月01日07点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1H3xee9EV8",
+            "locator": "BV1H3xee9EV8",
+            "excerpt": "【EOE】莞儿 电台 2024.10.01 早上好！【直播录像】；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
           }
         ],
         "schedule": [
@@ -1787,6 +1827,46 @@
         "waner"
       ],
       "plannedTime": "05:00"
+    },
+    {
+      "id": "evt_ed6f7803-cbf6-51bc-95d7-87b2f528b8c8",
+      "date": "2024-10-24",
+      "kind": "livestream",
+      "title": "你好",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1ngy6YeEZJ",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV13eykYdEte",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV1ngy6YeEZJ",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ngy6YeEZJ",
+            "locator": "BV1ngy6YeEZJ",
+            "excerpt": "露早 2024.10.24 【你好】【直播录像】【电台】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV13eykYdEte",
+            "locator": "BV13eykYdEte",
+            "excerpt": "【EOE】露早 电台 2024.10.24 你好【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+          }
+        ]
+      }
     }
   ]
 }

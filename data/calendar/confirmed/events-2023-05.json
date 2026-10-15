@@ -2268,6 +2268,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1hs4y1q76q"
           }
+        },
+        {
+          "bvid": "BV1ua4y1g7kf",
+          "relation": "alternate-version"
         }
       ],
       "evidence": {
@@ -2301,6 +2305,14 @@
             "locator": "BV1xL41167MK",
             "sourceField": "title + description",
             "excerpt": "5月20日19:30 柚恩生日演唱会；原始条目明确该宣传视频对应柚恩生日演唱会。"
+          }
+        ],
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ua4y1g7kf",
+            "locator": "BV1ua4y1g7kf",
+            "excerpt": "【EOE】柚恩生日演唱会 2023.05.20 觅光 ALL FOR U【4K丨直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -3324,6 +3336,10 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1Yh4y1o7LP"
           }
+        },
+        {
+          "bvid": "BV1BP411Q7bv",
+          "relation": "alternate-version"
         }
       ],
       "evidence": {
@@ -3337,6 +3353,14 @@
           {
             "file": "plans.json",
             "locator": "2023-05-26"
+          }
+        ],
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1BP411Q7bv",
+            "locator": "BV1BP411Q7bv",
+            "excerpt": "【EOE】虞莫L2D 2023.05.27 说来就来【2D丨直播录像】；修正录播标题日期笔误后，与实际日期同名场次对应。"
           }
         ]
       },

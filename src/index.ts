@@ -408,6 +408,7 @@ export function createApp(database: Database) {
         (item) =>
           !member ||
           item.recordingNamedMembers.includes(member) ||
+          item.hostMember === member ||
           item.plannedMembers.includes(member),
       );
     const eventMap = new Map<string, z.infer<typeof timelineEventSchema>>();

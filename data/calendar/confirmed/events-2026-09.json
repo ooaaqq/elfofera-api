@@ -776,6 +776,14 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1XDaZ6KE1s"
           }
+        },
+        {
+          "bvid": "BV1iNYF61E9F",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1W3Yc68EvZ",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1XDaZ6KE1s",
@@ -784,6 +792,18 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1XDaZ6KE1s"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1iNYF61E9F",
+            "locator": "BV1iNYF61E9F",
+            "excerpt": "露早 2026.9.30 【44萌妹爱钓鱼】【直播录像】【2D】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1W3Yc68EvZ",
+            "locator": "BV1W3Yc68EvZ",
+            "excerpt": "【EOE】露早2D 2026.09.30 44萌妹爱钓鱼【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },

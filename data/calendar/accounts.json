@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-15",
   "evidence": "evidence/accounts-01.json",
   "accounts": [
     {
@@ -134,8 +134,18 @@
       "url": "https://space.bilibili.com/3461563583302074",
       "coverageObserved": {
         "basis": "visible-directory-boundary-audit",
-        "years": [2022, 2023, 2024],
-        "members": ["waner", "luzao", "youen", "yumo", "minuo"],
+        "years": [
+          2022,
+          2023,
+          2024
+        ],
+        "members": [
+          "waner",
+          "luzao",
+          "youen",
+          "yumo",
+          "minuo"
+        ],
         "evidence": "reviews/round-63-source-boundary-closeout.json",
         "directoryTraversal": "completed",
         "notes": "当前可见快照目录已读到末页；歌曲与逐P核销另记，不能据目录完整宣称全部歌曲已收录。",
@@ -179,7 +189,13 @@
         "sessionThrough": "2022-08-05",
         "visibleUploads": 11,
         "directoryTraversal": "completed",
-        "members": ["waner", "luzao", "youen", "yumo", "minuo"],
+        "members": [
+          "waner",
+          "luzao",
+          "youen",
+          "yumo",
+          "minuo"
+        ],
         "evidence": "evidence/source-discovery-02.json",
         "notes": "早期补充来源，不据最后投稿日期判断停止活动日期。"
       },
@@ -201,7 +217,10 @@
       },
       "coverageObserved": {
         "basis": "search-and-sample",
-        "years": [2022, 2023],
+        "years": [
+          2022,
+          2023
+        ],
         "directoryTraversal": "unavailable",
         "evidence": "evidence/expansion-2022-07-08.json",
         "notes": "多个相关回放样本；账号资料接口-404，未遍历目录，不确认总覆盖。"
@@ -215,15 +234,21 @@
       "identityEvidence": {
         "kind": "account-profile-and-video",
         "file": "evidence/fan-sources-2026.json",
-        "bvids": ["BV1QLHE6hEfV"]
+        "bvids": [
+          "BV1QLHE6hEfV"
+        ]
       },
       "coverageObserved": {
         "basis": "visible-directory-boundary-audit",
-        "observedSessionDates": ["2026-10-04"],
+        "observedSessionDates": [
+          "2026-10-04"
+        ],
         "directoryTraversal": "completed",
         "evidence": "reviews/round-63-source-boundary-closeout.json",
         "notes": "当前可见快照目录已读到末页；歌曲与逐P核销另记，不能据目录完整宣称全部歌曲已收录。",
-        "sampleMembers": ["luzao"],
+        "sampleMembers": [
+          "luzao"
+        ],
         "visibleUploads": 1086,
         "pagesRead": "1-37"
       },
@@ -236,15 +261,22 @@
       "identityEvidence": {
         "kind": "account-profile-and-video",
         "file": "evidence/fan-sources-2026.json",
-        "bvids": ["BV1CTaV6oEXU"]
+        "bvids": [
+          "BV1CTaV6oEXU"
+        ]
       },
       "coverageObserved": {
         "basis": "visible-directory-boundary-audit",
-        "observedSessionDates": ["2026-09-28"],
+        "observedSessionDates": [
+          "2026-09-28"
+        ],
         "directoryTraversal": "completed",
         "evidence": "reviews/round-63-source-boundary-closeout.json",
         "notes": "当前可见快照目录已读到末页；歌曲与逐P核销另记，不能据目录完整宣称全部歌曲已收录。",
-        "sampleMembers": ["youen", "luzao"],
+        "sampleMembers": [
+          "youen",
+          "luzao"
+        ],
         "visibleUploads": 1731,
         "pagesRead": "1-58"
       },
@@ -276,6 +308,31 @@
         "notes": "6条可见目录已读到末页；以回放场次佐证为主，无明确逐曲清单。"
       },
       "url": "https://space.bilibili.com/3546820517038418"
+    },
+    {
+      "accountId": 1623370968,
+      "name": "美人虞周报",
+      "role": "recording-source",
+      "url": "https://space.bilibili.com/1623370968",
+      "identityEvidence": {
+        "kind": "account-profile-and-video",
+        "url": "https://space.bilibili.com/1623370968",
+        "bvids": [
+          "BV1WsUuYtEzt",
+          "BV1Wz421i7cz"
+        ]
+      },
+      "coverageObserved": {
+        "basis": "visible-directory",
+        "visibleUploads": 604,
+        "directoryTraversal": "completed",
+        "pagesRead": "1-13",
+        "sampleMembers": [
+          "yumo"
+        ],
+        "notes": "2026-10-15读取604条可见投稿并分类；478条读取详情。明确歌曲与具名合集分P已对照现有记录补录或合并；仍有6条日期/形式问题与7条未命名片段等可选补充线索。完整录播不用于推导整场歌单，目录完成不表示全部历史内容完整。",
+        "detailsRead": 478
+      }
     }
   ],
   "discoveryCandidates": [

@@ -488,11 +488,27 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1Ga4y1B7qA"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/881449953442922496",
+            "dynamicId": "881449953442922496",
+            "excerpt": "2024-01-04周表计划：waner, luzao, youen, yumo, minuo 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "dance",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner",
+        "luzao",
+        "youen",
+        "yumo",
+        "minuo"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_193e922e-0054-4267-bd7b-a34bd45c56b5",
@@ -635,11 +651,40 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1qi4y1z7Aw"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1GQ4y1E7BT",
+            "locator": "BV1GQ4y1E7BT",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV17c41187rp",
+            "locator": "BV17c41187rp",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/881449953442922496",
+            "dynamicId": "881449953442922496",
+            "excerpt": "2024-01-05周表计划：yumo 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_dcf110c6-9c45-42c2-b10e-55de3c7aeda2",
@@ -684,11 +729,23 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1Ne411i7dM"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/881449953442922496",
+            "dynamicId": "881449953442922496",
+            "excerpt": "2024-01-05周表计划：waner 21:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "21:30"
     },
     {
       "id": "evt_3aa123e2-6f52-44eb-9c80-89313f2d6134",
@@ -782,11 +839,23 @@
             "file": "../evidence/history-01/series-1778026586.json",
             "locator": "BV1ya4y1277w"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/881449953442922496",
+            "dynamicId": "881449953442922496",
+            "excerpt": "2024-01-06周表计划：minuo 21:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "minuo"
+      ],
+      "plannedTime": "21:30"
     },
     {
       "id": "evt_6c8751b2-cd35-41cd-b5fe-4842e54e32a7",
@@ -1007,11 +1076,23 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1LG411B7DY"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/881449953442922496",
+            "dynamicId": "881449953442922496",
+            "excerpt": "2024-01-07周表计划：waner 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "celebration",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_df8e6e22-0de5-42aa-97db-9564a0cd2fe2",
@@ -1056,11 +1137,23 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1dQ4y1L7R5"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/881449953442922496",
+            "dynamicId": "881449953442922496",
+            "excerpt": "2024-01-07周表计划：yumo 21:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "21:30"
     },
     {
       "id": "evt_4ec667bf-2fa4-4500-bb80-1a401296ba90",
@@ -1105,11 +1198,23 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1hC4y1Y7Kt"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/884041622575120408",
+            "dynamicId": "884041622575120408",
+            "excerpt": "2024-01-08周表计划：waner 20:00；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "20:00"
     },
     {
       "id": "evt_5e942f33-e2c3-4422-97ef-cf54e703eacc",
@@ -1261,11 +1366,23 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1VW4y1A7Jp"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/884041622575120408",
+            "dynamicId": "884041622575120408",
+            "excerpt": "2024-01-09周表计划：waner 20:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "20:30"
     },
     {
       "id": "evt_1d937413-d48c-40ef-ba81-9b96376c7052",
@@ -1283,6 +1400,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV18k4y197Ng"
           }
+        },
+        {
+          "bvid": "BV1Zk4y1D7Pg",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV18k4y197Ng",
@@ -1310,11 +1431,31 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV18k4y197Ng"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/884041622575120408",
+            "dynamicId": "884041622575120408",
+            "excerpt": "2024-01-10周表计划：youen 21:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
+        ],
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Zk4y1D7Pg",
+            "locator": "BV1Zk4y1D7Pg",
+            "excerpt": "【EOE】柚恩L2D 2024.01.10 白京想你姐【2D丨直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "21:30"
     },
     {
       "id": "evt_8271a748-b6b8-4631-b39b-1be47f951bed",
@@ -1359,11 +1500,52 @@
             "file": "../evidence/history-01/series-1778026586.json",
             "locator": "BV1At4y1o7X7"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1aa4y1m7XL",
+            "locator": "BV1aa4y1m7XL",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ze411e7Lt",
+            "locator": "BV1ze411e7Lt",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1r64y1K7br",
+            "locator": "BV1r64y1K7br",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1zN4y1v777",
+            "locator": "BV1zN4y1v777",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/884041622575120408",
+            "dynamicId": "884041622575120408",
+            "excerpt": "2024-01-10周表计划：minuo 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "plannedMembers": [
+        "minuo"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_ad13d619-fc51-48ad-b956-03338d985588",
@@ -1374,7 +1556,7 @@
       "publishedAt": "2024-01-10T04:00:00.000Z",
       "occurrence": "published",
       "relatedWorks": [
-        "song_e260b61a-734b-4adb-a6a4-21bd97af6b09"
+        "song_fd2613cb-2af2-47de-9dc8-0fc05bed9fb7"
       ],
       "assets": [
         {
@@ -1557,11 +1739,34 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1XN4y1v7Uj"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Vk4y1Q7h2",
+            "locator": "BV1Vk4y1Q7h2",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/884041622575120408",
+            "dynamicId": "884041622575120408",
+            "excerpt": "2024-01-12周表计划：yumo 19:00；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "19:00"
     },
     {
       "id": "evt_8c635da3-9435-4182-8a01-91f336900d22",
@@ -1606,11 +1811,88 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1cV411R7Tn"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1rC4y1Y71P",
+            "locator": "BV1rC4y1Y71P",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1vk4y1Q76A",
+            "locator": "BV1vk4y1Q76A",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Mt4y1R78a",
+            "locator": "BV1Mt4y1R78a",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1xi4y1B7jq",
+            "locator": "BV1xi4y1B7jq",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1za4y117eR",
+            "locator": "BV1za4y117eR",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1e94y1T7P7",
+            "locator": "BV1e94y1T7P7",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1RN4y1v7Ph",
+            "locator": "BV1RN4y1v7Ph",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV13e411v7jD",
+            "locator": "BV13e411v7jD",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1gg4y1S7SX",
+            "locator": "BV1gg4y1S7SX",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Ga4y117QS",
+            "locator": "BV1Ga4y117QS",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/884041622575120408",
+            "dynamicId": "884041622575120408",
+            "excerpt": "2024-01-12周表计划：luzao 20:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "20:30"
     },
     {
       "id": "evt_de6211cd-12f0-4935-b701-45a36e8e1541",
@@ -1704,11 +1986,20 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1ZC4y1Y7ro"
           }
+        ],
+        "hostMember": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ZC4y1Y7ro",
+            "locator": "BV1ZC4y1Y7ro",
+            "excerpt": "成员官方账号自动回放，确认开播账号；不表示完整参与名单，也不用于推断逐曲演唱者。"
+          }
         ]
       },
       "contentType": "radio",
       "dimension": "1d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "hostMember": "yumo"
     },
     {
       "id": "evt_aadcf19d-4f07-46a2-9705-b34ccadefd27",
@@ -1726,6 +2017,10 @@
             "file": "../evidence/history-01/series-1778026586.json",
             "locator": "BV1mW4y1A7bn"
           }
+        },
+        {
+          "bvid": "BV1Te411H7tr",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1mW4y1A7bn",
@@ -1753,11 +2048,56 @@
             "file": "../evidence/history-01/series-1778026586.json",
             "locator": "BV1mW4y1A7bn"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Vk4y1Q73f",
+            "locator": "BV1Vk4y1Q73f",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1U94y1T7Xr",
+            "locator": "BV1U94y1T7Xr",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1x5411i753",
+            "locator": "BV1x5411i753",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/884041622575120408",
+            "dynamicId": "884041622575120408",
+            "excerpt": "2024-01-13周表计划：minuo, yumo 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
+        ],
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Te411H7tr",
+            "locator": "BV1Te411H7tr",
+            "excerpt": "【EOE】米诺虞莫 2024.01.13 龙争虎斗【4K丨直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "unknown",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "minuo",
+        "yumo"
+      ],
+      "plannedMembers": [
+        "minuo",
+        "yumo"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_38704425-9685-4d08-b52a-4641a17278fe",
@@ -1802,11 +2142,27 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1hk4y1S7X4"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/884041622575120408",
+            "dynamicId": "884041622575120408",
+            "excerpt": "2024-01-14周表计划：waner, luzao, youen, yumo, minuo 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner",
+        "luzao",
+        "youen",
+        "yumo",
+        "minuo"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_30612c82-ad78-45d1-a7fd-836056f91248",
@@ -1851,11 +2207,46 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1hN4y1p7hy"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1KW4y1P7wL",
+            "locator": "BV1KW4y1P7wL",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV12k4y1S73p",
+            "locator": "BV12k4y1S73p",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Cw411J7PJ",
+            "locator": "BV1Cw411J7PJ",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/886644115059507205",
+            "dynamicId": "886644115059507205",
+            "excerpt": "2024-01-15周表计划：waner 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "waner"
+      ],
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_bf820669-e78a-43ba-96e2-2d660142d155",
@@ -1900,11 +2291,23 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1UW4y1c7x9"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/886644115059507205",
+            "dynamicId": "886644115059507205",
+            "excerpt": "2024-01-15周表计划：luzao 21:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": true
+      "isUnannounced": true,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "21:30"
     },
     {
       "id": "evt_2d00a82d-f70f-4847-968b-e1ef4f62b3cb",
@@ -1949,11 +2352,23 @@
             "file": "../evidence/history-01/series-1778026586.json",
             "locator": "BV1yc411s7kT"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/886644115059507205",
+            "dynamicId": "886644115059507205",
+            "excerpt": "2024-01-17周表计划：minuo 21:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "unknown",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "minuo"
+      ],
+      "plannedTime": "21:30"
     },
     {
       "id": "evt_7618d3a9-44ac-48f5-9c3f-5fec23c16972",
@@ -2056,11 +2471,23 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV145411v7fP"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/886644115059507205",
+            "dynamicId": "886644115059507205",
+            "excerpt": "2024-01-18周表计划：yumo 20:00；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "celebration",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "20:00"
     },
     {
       "id": "evt_666a6662-d395-4791-8516-025deae87042",
@@ -2105,11 +2532,40 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1MT4y1b7bu"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Ei4y1q7SY",
+            "locator": "BV1Ei4y1q7SY",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV15a4y1y7aV",
+            "locator": "BV15a4y1y7aV",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/886644115059507205",
+            "dynamicId": "886644115059507205",
+            "excerpt": "2024-01-19周表计划：youen 20:00；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "20:00"
     },
     {
       "id": "evt_b3fe04d9-c930-4f74-aad9-d8c9c131f52d",
@@ -2154,11 +2610,20 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1sa4y1y7kL"
           }
+        ],
+        "hostMember": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1sa4y1y7kL",
+            "locator": "BV1sa4y1y7kL",
+            "excerpt": "成员官方账号自动回放，确认开播账号；不表示完整参与名单，也不用于推断逐曲演唱者。"
+          }
         ]
       },
       "contentType": "game",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "hostMember": "yumo"
     },
     {
       "id": "evt_46d76686-7736-4492-b5b2-1237785df83a",
@@ -2203,11 +2668,46 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1Ke41127Aq"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1VC4y1r7YD",
+            "locator": "BV1VC4y1r7YD",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1mC4y1C7ks",
+            "locator": "BV1mC4y1C7ks",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Se411a79i",
+            "locator": "BV1Se411a79i",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/886644115059507205",
+            "dynamicId": "886644115059507205",
+            "excerpt": "2024-01-20周表计划：yumo 21:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "lesson",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "21:30"
     },
     {
       "id": "evt_890210bc-80ba-485b-92f0-5c626a939af0",
@@ -2252,11 +2752,112 @@
             "file": "../evidence/history-01/series-1778026586.json",
             "locator": "BV1Ne4112716"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV14W4y1F73D",
+            "locator": "BV14W4y1F73D",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV13K4y1B7Mt",
+            "locator": "BV13K4y1B7Mt",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1CW4y1w7M2",
+            "locator": "BV1CW4y1w7M2",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Z5411C7t9",
+            "locator": "BV1Z5411C7t9",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Tw411E7fo",
+            "locator": "BV1Tw411E7fo",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV13K411a7eP",
+            "locator": "BV13K411a7eP",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1PN4y1H7os",
+            "locator": "BV1PN4y1H7os",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Mg4y127VX",
+            "locator": "BV1Mg4y127VX",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Hi4y1W7UN",
+            "locator": "BV1Hi4y1W7UN",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1P64y1P7Zp",
+            "locator": "BV1P64y1P7Zp",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Nw411E7Ce",
+            "locator": "BV1Nw411E7Ce",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1A5411y7Ax",
+            "locator": "BV1A5411y7Ax",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV11i4y1W7eK",
+            "locator": "BV11i4y1W7eK",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV11V411D7Vi",
+            "locator": "BV11V411D7Vi",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/886644115059507205",
+            "dynamicId": "886644115059507205",
+            "excerpt": "2024-01-20周表计划：minuo 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "singing",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "minuo"
+      ],
+      "plannedMembers": [
+        "minuo"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_f38831bc-3dc9-4ea4-b533-26ec45585e42",
@@ -2301,11 +2902,27 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1qC4y1C7m2"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/886644115059507205",
+            "dynamicId": "886644115059507205",
+            "excerpt": "2024-01-21周表计划：waner, luzao, youen, yumo, minuo 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner",
+        "luzao",
+        "youen",
+        "yumo",
+        "minuo"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_f87db756-01d9-487d-aa12-ecd3c852e4ef",
@@ -2456,11 +3073,20 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1nQ4y1c79K"
           }
+        ],
+        "hostMember": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1nQ4y1c79K",
+            "locator": "BV1nQ4y1c79K",
+            "excerpt": "成员官方账号自动回放，确认开播账号；不表示完整参与名单，也不用于推断逐曲演唱者。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "hostMember": "waner"
     },
     {
       "id": "evt_6a8f5de8-a91a-4d83-9ae6-8e29189dfbd7",
@@ -2478,6 +3104,10 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1dK411a7am"
           }
+        },
+        {
+          "bvid": "BV1kg4y127Hp",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1dK411a7am",
@@ -2505,11 +3135,31 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1dK411a7am"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/889239134335401990",
+            "dynamicId": "889239134335401990",
+            "excerpt": "2024-01-23周表计划：waner 21:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
+        ],
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1kg4y127Hp",
+            "locator": "BV1kg4y127Hp",
+            "excerpt": "【EOE】莞儿L2D 2024.01.23 幻兽帕鲁初体验！【2D丨直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          }
         ]
       },
       "contentType": "game",
       "dimension": "unknown",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner"
+      ],
+      "plannedTime": "21:30"
     },
     {
       "id": "evt_d65de81a-272f-40fb-9cda-3411b68c56fe",
@@ -2554,11 +3204,34 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1hb4y1A7gz"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1PZ4y1n7wH",
+            "locator": "BV1PZ4y1n7wH",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/889239134335401990",
+            "dynamicId": "889239134335401990",
+            "excerpt": "2024-01-23周表计划：yumo 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_1b66c52a-12ba-45c7-89d9-4468842ca095",
@@ -2613,6 +3286,43 @@
             "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
             "locator": "890101366204137475"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fa4y1k7vg",
+            "locator": "BV1fa4y1k7vg",
+            "sourceField": "recordingNamedMembers",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ib4y1N783",
+            "locator": "BV1ib4y1N783",
+            "sourceField": "recordingNamedMembers",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Ze411n78k",
+            "locator": "BV1Ze411n78k",
+            "sourceField": "recordingNamedMembers",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1e5411y7oy",
+            "locator": "BV1e5411y7oy",
+            "sourceField": "recordingNamedMembers",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV11W4y1F7DX",
+            "locator": "BV11W4y1F7DX",
+            "sourceField": "recordingNamedMembers",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          }
         ]
       },
       "plannedMembers": [
@@ -2621,7 +3331,10 @@
       "plannedTime": "20:00",
       "contentType": "singing",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "luzao"
+      ]
     },
     {
       "id": "evt_787c48a0-b842-41ee-8bfb-10581bbd96cb",
@@ -2696,11 +3409,59 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1rK4y1i7BL"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1BZ4y1n7cP",
+            "locator": "BV1BZ4y1n7cP",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV11V411Q7wM",
+            "locator": "BV11V411Q7wM",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV16Z4y1n7YL",
+            "locator": "BV16Z4y1n7YL",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Ne411e7NQ",
+            "locator": "BV1Ne411e7NQ",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/889239134335401990",
+            "dynamicId": "889239134335401990",
+            "excerpt": "2024-01-25周表计划：waner, luzao, youen, yumo, minuo 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "minuo",
+        "waner",
+        "youen",
+        "yumo"
+      ],
+      "plannedMembers": [
+        "waner",
+        "luzao",
+        "youen",
+        "yumo",
+        "minuo"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_8179990f-bc0f-4048-965d-431f123c1b5e",
@@ -2745,11 +3506,23 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1Wk4y1S7Mp"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/889239134335401990",
+            "dynamicId": "889239134335401990",
+            "excerpt": "2024-01-26周表计划：yumo 21:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "21:30"
     },
     {
       "id": "evt_b4475c49-1037-49a5-8ece-e774582430fe",
@@ -2852,11 +3625,94 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1ui4y1p7PE"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1WW4y1c7xT",
+            "locator": "BV1WW4y1c7xT",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV11Z4y1n7Jx",
+            "locator": "BV11Z4y1n7Jx",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1DK41187j8",
+            "locator": "BV1DK41187j8",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV16e411h7Rc",
+            "locator": "BV16e411h7Rc",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1QK41187zP",
+            "locator": "BV1QK41187zP",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1xV411S7ce",
+            "locator": "BV1xV411S7ce",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Zw411j7kn",
+            "locator": "BV1Zw411j7kn",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1qN4y1J7kE",
+            "locator": "BV1qN4y1J7kE",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Ab4y1P7nr",
+            "locator": "BV1Ab4y1P7nr",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Tw41177Kz",
+            "locator": "BV1Tw41177Kz",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Pg4y1e7fM",
+            "locator": "BV1Pg4y1e7fM",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/889239134335401990",
+            "dynamicId": "889239134335401990",
+            "excerpt": "2024-01-27周表计划：youen 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_6362629d-f0eb-478f-8cde-6334f42fb939",
@@ -2931,11 +3787,20 @@
             "file": "../evidence/history-01/series-1778026586.json",
             "locator": "BV16Z4y1n731"
           }
+        ],
+        "hostMember": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV16Z4y1n731",
+            "locator": "BV16Z4y1n731",
+            "excerpt": "成员官方账号自动回放，确认开播账号；不表示完整参与名单，也不用于推断逐曲演唱者。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "unknown",
-      "isUnannounced": true
+      "isUnannounced": true,
+      "hostMember": "minuo"
     },
     {
       "id": "evt_d1abc04c-9bc0-46dd-bdfe-45d2ec6aa00a",
@@ -3145,11 +4010,22 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1im41197Ac"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1LA4m1j7Sw",
+            "locator": "BV1LA4m1j7Sw",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "youen"
+      ]
     },
     {
       "id": "evt_356939cb-dbe6-4922-9899-9c4aa4e2a850",
@@ -3167,6 +4043,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1WF4m1u7UK"
           }
+        },
+        {
+          "bvid": "BV1GT4y1t7J4",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1WF4m1u7UK",
@@ -3194,11 +4074,42 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1WF4m1u7UK"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1f5411k7D2",
+            "locator": "BV1f5411k7D2",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/891840355484303362",
+            "dynamicId": "891840355484303362",
+            "excerpt": "2024-01-29周表计划：youen 19:00；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
+        ],
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1GT4y1t7J4",
+            "locator": "BV1GT4y1t7J4",
+            "excerpt": "【EOE】柚恩 2024.01.29 兔年最后一场3D单播【4K丨直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "19:00"
     },
     {
       "id": "evt_7251c3cb-c66d-40cc-90d6-4e9407ea986e",
@@ -3243,11 +4154,34 @@
             "file": "../evidence/history-01/series-1811071010.json",
             "locator": "BV1iT4m1S7Ne"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1sg4y1e7zb",
+            "locator": "BV1sg4y1e7zb",
+            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/891840355484303362",
+            "dynamicId": "891840355484303362",
+            "excerpt": "2024-01-29周表计划：yumo 20:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "yumo"
+      ],
+      "plannedMembers": [
+        "yumo"
+      ],
+      "plannedTime": "20:30"
     },
     {
       "id": "evt_d8155a94-1cc7-45ba-8443-4c463895d304",
@@ -3343,11 +4277,27 @@
             "file": "../evidence/history-01/series-1778026586.json",
             "locator": "BV1CU421o7Zo"
           }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/891840355484303362",
+            "dynamicId": "891840355484303362",
+            "excerpt": "2024-01-30周表计划：waner, luzao, youen, yumo, minuo 19:30；与回放所属账号及标题时段对应，非实际参与名单。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "plannedMembers": [
+        "waner",
+        "luzao",
+        "youen",
+        "yumo",
+        "minuo"
+      ],
+      "plannedTime": "19:30"
     },
     {
       "id": "evt_e94cd8a9-58ee-421c-9ab2-39ac1b2b4ecd",
@@ -3443,11 +4393,20 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1qA4m1V7Co"
           }
+        ],
+        "hostMember": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1qA4m1V7Co",
+            "locator": "BV1qA4m1V7Co",
+            "excerpt": "成员官方账号自动回放，确认开播账号；不表示完整参与名单，也不用于推断逐曲演唱者。"
+          }
         ]
       },
       "contentType": "unknown",
       "dimension": "2d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "hostMember": "luzao"
     },
     {
       "id": "evt_635f4c24-dfd2-4ccc-b917-71cc5b315b4f",

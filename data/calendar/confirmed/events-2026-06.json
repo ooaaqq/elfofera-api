@@ -2018,6 +2018,10 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1Cz7T66EHY"
           }
+        },
+        {
+          "bvid": "BV1zy7N6bEiH",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1Cz7T66EHY",
@@ -2026,6 +2030,12 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1Cz7T66EHY"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1zy7N6bEiH",
+            "locator": "BV1zy7N6bEiH",
+            "excerpt": "【露早】2026.6.22 萌妹聊天玩游戏38【直播录像】【2D】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -2054,6 +2064,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1dAjS6GEjK"
           }
+        },
+        {
+          "bvid": "BV1A4jS6dERW",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1dAjS6GEjK",
@@ -2062,6 +2076,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1dAjS6GEjK"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1A4jS6dERW",
+            "locator": "BV1A4jS6dERW",
+            "excerpt": "【EOE】柚恩&露早 2026.06.23 微醺夏夜烦恼【4K丨直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -2614,6 +2634,37 @@
       "titleHours": [
         19
       ]
+    },
+    {
+      "id": "evt_04674348-59e1-54a6-bb95-83dfa1c5172e",
+      "date": "2026-06-05",
+      "kind": "livestream",
+      "title": "萌妹聊天玩游戏35",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1wA7r6PECg",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1wA7r6PECg",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1wA7r6PECg",
+            "locator": "BV1wA7r6PECg",
+            "excerpt": "【露早】2D 2026.6.5 萌妹聊天玩游戏３５【直播录像】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "series": "萌妹玩游戏"
     }
   ]
 }

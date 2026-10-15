@@ -1138,6 +1138,10 @@
         {
           "bvid": "BV1cs421M7JU",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1S1421r7yX",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1152,6 +1156,13 @@
           "locator": "BV1cs421M7JU",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2024年06月22日\n团播【关系好绝对能做到吧？】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1S1421r7yX",
+          "locator": "BV1S1421r7yX",
+          "sourceField": "title + description",
+          "excerpt": "『遇见』\"遇见622\"【EOE翻唱】；直播日期：2024年6月22日\n直播标题：【3D】关系好绝对能做到吧？\n直播源: https://live.bilibili.com/25512443/"
         }
       ]
     },
@@ -1165,6 +1176,10 @@
       "assets": [
         {
           "bvid": "BV1BT421a7sh",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1yr421F7Nt",
           "role": "performance-excerpt"
         }
       ],
@@ -1180,6 +1195,13 @@
           "locator": "BV1BT421a7sh",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2024年06月22日\n团播【关系好绝对能做到吧？】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1yr421F7Nt",
+          "locator": "BV1yr421F7Nt",
+          "sourceField": "title + description",
+          "excerpt": "『一个像夏天一个像秋天』\"朋友比情人还死心塌地\"【EOE翻唱】；直播日期：2024年6月22日\n直播标题：【3D】关系好绝对能做到吧？\n直播源: https://live.bilibili.com/25512443/"
         }
       ]
     },
@@ -1421,6 +1443,13 @@
         {
           "bvid": "BV1Cz421B7Wp",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV13m42157ED",
+          "partNumbers": [
+            3
+          ],
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1435,6 +1464,15 @@
           "locator": "BV1Cz421B7Wp",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年06月29日\n虞莫【我画我的你猜你的】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750440"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV13m42157ED?p=3",
+          "locator": "BV13m42157ED:P3",
+          "sourceField": "description + pages[].part",
+          "partNumber": 3,
+          "contentId": 1599945388,
+          "excerpt": "戏精虞莫【虞莫翻唱合集】；直播日期：2024年6月29日\n直播标题：【3D】我画我的你猜你的\n直播源: https://live.bilibili.com/25512485/；P3 佛系少女"
         }
       ]
     },
@@ -1451,6 +1489,13 @@
         {
           "bvid": "BV12f421B7L4",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV13m42157ED",
+          "partNumbers": [
+            1
+          ],
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1465,6 +1510,15 @@
           "locator": "BV12f421B7L4",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年06月29日\n虞莫【我画我的你猜你的】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750440"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV13m42157ED?p=1",
+          "locator": "BV13m42157ED:P1",
+          "sourceField": "description + pages[].part",
+          "partNumber": 1,
+          "contentId": 1599939735,
+          "excerpt": "戏精虞莫【虞莫翻唱合集】；直播日期：2024年6月29日\n直播标题：【3D】我画我的你猜你的\n直播源: https://live.bilibili.com/25512485/；P1 二缺一"
         }
       ]
     },
@@ -1481,6 +1535,13 @@
         {
           "bvid": "BV1vJ4m1u72W",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV13m42157ED",
+          "partNumbers": [
+            2
+          ],
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1495,6 +1556,15 @@
           "locator": "BV1vJ4m1u72W",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年06月29日\n虞莫【我画我的你猜你的】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750440"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV13m42157ED?p=2",
+          "locator": "BV13m42157ED:P2",
+          "sourceField": "description + pages[].part",
+          "partNumber": 2,
+          "contentId": 1599944066,
+          "excerpt": "戏精虞莫【虞莫翻唱合集】；直播日期：2024年6月29日\n直播标题：【3D】我画我的你猜你的\n直播源: https://live.bilibili.com/25512485/；P2 星月神话"
         }
       ]
     },
@@ -1509,6 +1579,13 @@
         {
           "bvid": "BV1iJ4m1u7Tm",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV19i421a7VL",
+          "partNumbers": [
+            8
+          ],
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1517,8 +1594,25 @@
           "locator": "sources[4].items[6]",
           "sourceField": "title and descriptionExcerpt",
           "excerpt": "和你在一起"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV19i421a7VL?p=8",
+          "locator": "BV19i421a7VL:P8",
+          "sourceField": "description + pages[].part",
+          "partNumber": 8,
+          "contentId": 1598817735,
+          "excerpt": "EOE重庆永川演唱会【合集】；2024年6月27日重庆永川站；P8 和你在一起。对应既有同场同曲表演，保留既有形式与署名。"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1iJ4m1u7Tm",
+          "locator": "BV1iJ4m1u7Tm",
+          "sourceField": "title + named compilation parts",
+          "excerpt": "【EOE重庆线下演唱会·安可】『和你在一起』——EOE（网络卡顿版）；采用明确成员署名或五人演出说明；只有组合署名时保留creditedGroup=EOE，不展开五名成员。"
         }
-      ]
+      ],
+      "creditedGroup": "EOE"
     },
     {
       "id": "perf_1a68a891-1f43-44aa-9b9b-b60211ec76dc",

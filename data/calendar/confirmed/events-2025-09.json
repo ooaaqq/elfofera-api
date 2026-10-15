@@ -231,6 +231,14 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1VjH1zREKD"
           }
+        },
+        {
+          "bvid": "BV1G7HCzjE8L",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1xzHSzxEZg",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1VjH1zREKD",
@@ -239,6 +247,18 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1VjH1zREKD"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1G7HCzjE8L",
+            "locator": "BV1G7HCzjE8L",
+            "excerpt": "【柚恩直播录播】【2D】2025.09.09 呜呜呜；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1xzHSzxEZg",
+            "locator": "BV1xzHSzxEZg",
+            "excerpt": "【EOE】柚恩2D 2025.09.09 呜呜呜【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -302,6 +322,10 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1E7HQzEEeq"
           }
+        },
+        {
+          "bvid": "BV1iYHdz9Eb2",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1E7HQzEEeq",
@@ -310,6 +334,12 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1E7HQzEEeq"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1iYHdz9Eb2",
+            "locator": "BV1iYHdz9Eb2",
+            "excerpt": "【EOE】露早 2025.09.010 答对有糖吃！【4K丨直播录像】；修正录播标题日期笔误后，与实际日期同名场次对应。"
           }
         ]
       },
@@ -582,6 +612,14 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV11uptz8EWV"
           }
+        },
+        {
+          "bvid": "BV1vSp4zVEi9",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1USWLzqEoD",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV11uptz8EWV",
@@ -590,6 +628,18 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV11uptz8EWV"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1vSp4zVEi9",
+            "locator": "BV1vSp4zVEi9",
+            "excerpt": "【露早】3D直播 2025.9.17 露早的胡言乱语【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1USWLzqEoD",
+            "locator": "BV1USWLzqEoD",
+            "excerpt": "【EOE】露早 2025.09.17 露早的胡言乱语【4K丨直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ],
         "title": [
@@ -1301,6 +1351,72 @@
         "luzao"
       ],
       "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_515f03e5-fce4-5f37-b01c-27de12b5ab0c",
+      "date": "2025-09-05",
+      "kind": "livestream",
+      "title": "进来！看跳舞！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "dance",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1Z8aYzXESd",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1Z8aYzXESd",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Z8aYzXESd",
+            "locator": "BV1Z8aYzXESd",
+            "excerpt": "【柚恩直播录播】【3D】【D限】2025.09.05 进来！看跳舞！；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
+    },
+    {
+      "id": "evt_080a24f5-f976-5e32-b002-1459ae1ea275",
+      "date": "2025-09-28",
+      "kind": "livestream",
+      "title": "温柔钢琴午安电台",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1Jen9zHENX",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1Jen9zHENX",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Jen9zHENX",
+            "locator": "BV1Jen9zHENX",
+            "excerpt": "【柚恩直播录播】【电台】【D限】2025.09.28 温柔钢琴午安电台；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
     }
   ]
 }

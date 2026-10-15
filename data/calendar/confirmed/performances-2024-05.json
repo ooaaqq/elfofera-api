@@ -451,6 +451,10 @@
         {
           "bvid": "BV1Dm421u7m7",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1NC41177kR",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -465,6 +469,13 @@
           "locator": "BV1Dm421u7m7",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月10日\n虞莫【读心术】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n露"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1NC41177kR",
+          "locator": "BV1NC41177kR",
+          "sourceField": "title + description",
+          "excerpt": "『妥协』“所有时间都是先给了你优先权”【虞莫翻唱】；直播日期：2024年5月10日\n直播标题：【3D】读心术\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -481,6 +492,17 @@
         {
           "bvid": "BV17M4m1y7hh",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1eD421G73J",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Ps421w7Kp",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            2
+          ]
         }
       ],
       "evidence": [
@@ -495,6 +517,22 @@
           "locator": "BV17M4m1y7hh",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月15日\n虞莫【让我来完成你的愿望吧】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1eD421G73J",
+          "locator": "BV1eD421G73J",
+          "sourceField": "title + description",
+          "excerpt": "『命运』“最初的一心一意 深信不疑”【虞莫翻唱】；直播日期：2024年5月15日\n直播标题：【3D】让我来完成你的愿望吧\n直播源: https://live.bilibili.com/25512485/"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Ps421w7Kp?p=2",
+          "locator": "BV1Ps421w7Kp:P2",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "v圈边拉边唱天花板『妥协』【合集】；直播日期：2024年5月15日\n直播标题：【3D】让我来完成你的愿望吧\n直播源: https://live.bilibili.com/25512485/；P2 命运",
+          "partNumber": 2,
+          "contentId": 1546501427
         }
       ]
     },
@@ -511,6 +549,13 @@
         {
           "bvid": "BV1mt421M76n",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Ps421w7Kp",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            3
+          ]
         }
       ],
       "evidence": [
@@ -525,6 +570,15 @@
           "locator": "BV1mt421M76n",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月15日\n虞莫【让我来完成你的愿望吧】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Ps421w7Kp?p=3",
+          "locator": "BV1Ps421w7Kp:P3",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "v圈边拉边唱天花板『妥协』【合集】；直播日期：2024年5月15日\n直播标题：【3D】让我来完成你的愿望吧\n直播源: https://live.bilibili.com/25512485/；P3 带我走",
+          "partNumber": 3,
+          "contentId": 1546502795
         }
       ]
     },
@@ -541,6 +595,20 @@
         {
           "bvid": "BV1bM4m1C7HF",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Ps421w7Kp",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
+        },
+        {
+          "bvid": "BV1Ps421w7Kp",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
         }
       ],
       "evidence": [
@@ -555,6 +623,22 @@
           "locator": "BV1bM4m1C7HF",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月15日\n虞莫【让我来完成你的愿望吧】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Ps421w7Kp",
+          "locator": "BV1Ps421w7Kp",
+          "sourceField": "title + description",
+          "excerpt": "v圈边拉边唱天花板『妥协』【合集】；直播日期：2024年5月15日\n直播标题：【3D】让我来完成你的愿望吧\n直播源: https://live.bilibili.com/25512485/"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Ps421w7Kp?p=1",
+          "locator": "BV1Ps421w7Kp:P1",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "v圈边拉边唱天花板『妥协』【合集】；直播日期：2024年5月15日\n直播标题：【3D】让我来完成你的愿望吧\n直播源: https://live.bilibili.com/25512485/；P1 妥协",
+          "partNumber": 1,
+          "contentId": 1546499400
         }
       ]
     },
@@ -889,6 +973,10 @@
         {
           "bvid": "BV1RT421U73Z",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ez421Y7hJ",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -903,6 +991,13 @@
           "locator": "BV1RT421U73Z",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月18日\n团播【博弈】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n露早"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1ez421Y7hJ",
+          "locator": "BV1ez421Y7hJ",
+          "sourceField": "title + description",
+          "excerpt": "『靠近』“我多么想下一刻 下一秒 有你回答”【EOE翻唱】；直播日期：2024年5月18日\n直播标题：【3D】博弈\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -1155,6 +1250,10 @@
         {
           "bvid": "BV1fi421D7mD",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV117421f7B1",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1169,6 +1268,13 @@
           "locator": "BV1fi421D7mD",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2024年05月20日\n柚恩&露早&虞莫【心动520】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV117421f7B1",
+          "locator": "BV117421f7B1",
+          "sourceField": "title + description",
+          "excerpt": "『爱的双重魔力』“悄悄地在心底”【EOE翻唱】；直播日期：2024年5月20日\n直播标题：【3D】快穿之心动520\n直播源: https://live.bilibili.com/25512443/"
         }
       ]
     },
@@ -1187,6 +1293,10 @@
         {
           "bvid": "BV19x4y1W7nG",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ks421w7Ar",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1201,6 +1311,13 @@
           "locator": "BV19x4y1W7nG",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2024年05月20日\n柚恩&露早&虞莫【心动520】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1ks421w7Ar",
+          "locator": "BV1ks421w7Ar",
+          "sourceField": "title + description",
+          "excerpt": "『爱你』“多一点让我心甘情愿爱你”【EOE翻唱】；直播日期：2024年5月20日\n直播标题：【3D】快穿之心动520\n直播源: https://live.bilibili.com/25512443/"
         }
       ]
     },
@@ -1788,6 +1905,13 @@
         {
           "bvid": "BV1Py411Y7nw",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Sw4m1D7Ru",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            4
+          ]
         }
       ],
       "evidence": [
@@ -1802,6 +1926,15 @@
           "locator": "BV1Py411Y7nw",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月24日\n虞莫【KTV回】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Sw4m1D7Ru?p=4",
+          "locator": "BV1Sw4m1D7Ru:P4",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "呼啦圈跳绳花式唱跳【杂耍合集】；直播日期：2024年5月24日\n直播标题：【3D】KTV回\n直播源: https://live.bilibili.com/25512485/；P4 笼 圈圈~",
+          "partNumber": 4,
+          "contentId": 1557531644
         }
       ]
     },
@@ -1818,6 +1951,13 @@
         {
           "bvid": "BV1ys42137Xe",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Sw4m1D7Ru",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            3
+          ]
         }
       ],
       "evidence": [
@@ -1832,6 +1972,15 @@
           "locator": "BV1ys42137Xe",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月24日\n虞莫【KTV回】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Sw4m1D7Ru?p=3",
+          "locator": "BV1Sw4m1D7Ru:P3",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "呼啦圈跳绳花式唱跳【杂耍合集】；直播日期：2024年5月24日\n直播标题：【3D】KTV回\n直播源: https://live.bilibili.com/25512485/；P3 仰望 说唱茄子",
+          "partNumber": 3,
+          "contentId": 1557525546
         }
       ]
     },
@@ -1848,6 +1997,13 @@
         {
           "bvid": "BV1qf421d7xD",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Sw4m1D7Ru",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            2
+          ]
         }
       ],
       "evidence": [
@@ -1862,6 +2018,15 @@
           "locator": "BV1qf421d7xD",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月24日\n虞莫【KTV回】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Sw4m1D7Ru?p=2",
+          "locator": "BV1Sw4m1D7Ru:P2",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "呼啦圈跳绳花式唱跳【杂耍合集】；直播日期：2024年5月24日\n直播标题：【3D】KTV回\n直播源: https://live.bilibili.com/25512485/；P2 飞鸟和蝉 请到了腾格尔老师",
+          "partNumber": 2,
+          "contentId": 1557521308
         }
       ]
     },
@@ -1878,6 +2043,13 @@
         {
           "bvid": "BV1zz421a7sr",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Sw4m1D7Ru",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            7
+          ]
         }
       ],
       "evidence": [
@@ -1892,6 +2064,15 @@
           "locator": "BV1zz421a7sr",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月24日\n虞莫【KTV回】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Sw4m1D7Ru?p=7",
+          "locator": "BV1Sw4m1D7Ru:P7",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "呼啦圈跳绳花式唱跳【杂耍合集】；直播日期：2024年5月24日\n直播标题：【3D】KTV回\n直播源: https://live.bilibili.com/25512485/；P7 一样的月光 小拉不算拉",
+          "partNumber": 7,
+          "contentId": 1557571138
         }
       ]
     },
@@ -1908,6 +2089,13 @@
         {
           "bvid": "BV1tm421N7RL",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Sw4m1D7Ru",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            6
+          ]
         }
       ],
       "evidence": [
@@ -1922,6 +2110,15 @@
           "locator": "BV1tm421N7RL",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月24日\n虞莫【KTV回】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Sw4m1D7Ru?p=6",
+          "locator": "BV1Sw4m1D7Ru:P6",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "呼啦圈跳绳花式唱跳【杂耍合集】；直播日期：2024年5月24日\n直播标题：【3D】KTV回\n直播源: https://live.bilibili.com/25512485/；P6 同花顺 遗憾退场",
+          "partNumber": 6,
+          "contentId": 1557560186
         }
       ]
     },
@@ -1938,6 +2135,13 @@
         {
           "bvid": "BV1ci421D7bS",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Sw4m1D7Ru",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            1
+          ]
         }
       ],
       "evidence": [
@@ -1952,6 +2156,15 @@
           "locator": "BV1ci421D7bS",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年05月24日\n虞莫【KTV回】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Sw4m1D7Ru?p=1",
+          "locator": "BV1Sw4m1D7Ru:P1",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "呼啦圈跳绳花式唱跳【杂耍合集】；直播日期：2024年5月24日\n直播标题：【3D】KTV回\n直播源: https://live.bilibili.com/25512485/；P1 人质 呼啦圈转起来",
+          "partNumber": 1,
+          "contentId": 1557483314
         }
       ]
     },
@@ -2175,6 +2388,10 @@
         {
           "bvid": "BV1vM4m1r7QQ",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1az421a7Zv",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2189,6 +2406,19 @@
           "locator": "BV1vM4m1r7QQ",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2024年05月25日\n柚恩【生日演唱会】光影变奏曲 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "sources[kind=video-directory,accountId=105260060,page=37].items[bvid=BV1az421a7Zv]",
+          "sourceField": "title + descriptionExcerpt",
+          "excerpt": "【柚恩生日演唱会】禁忌的边界线\n2025.05.25直播剪辑\n\n原唱：Walküre\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1az421a7Zv",
+          "locator": "BV1az421a7Zv",
+          "sourceField": "title + description + pubdate",
+          "excerpt": "【柚恩生日演唱会】禁忌的边界线；投稿于2024-05-25，简介的2025.05.25明显晚于投稿一年；同曲切片及官方回放BV11T421i7oU共同确认2024-05-25光影变奏曲，合并误归属2025年的重复表演。"
         }
       ]
     },
@@ -2265,6 +2495,10 @@
         {
           "bvid": "BV1dz421a7pv",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1PU411o7v6",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2279,6 +2513,19 @@
           "locator": "BV1dz421a7pv",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2024年05月25日\n柚恩【生日演唱会】光影变奏曲 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "sources[kind=video-directory,accountId=105260060,page=37].items[bvid=BV1PU411o7v6]",
+          "sourceField": "title + descriptionExcerpt",
+          "excerpt": "【柚恩生日演唱会】螢塚{芭蕾舞}\n2025.05.25\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1PU411o7v6",
+          "locator": "BV1PU411o7v6",
+          "sourceField": "title + description + pubdate",
+          "excerpt": "【柚恩生日演唱会】螢塚{芭蕾舞}；投稿于2024-05-25，简介的2025.05.25明显晚于投稿一年；同曲切片及官方回放BV11T421i7oU共同确认2024-05-25光影变奏曲，合并误归属2025年的重复表演。"
         }
       ]
     },
@@ -2454,6 +2701,10 @@
         {
           "bvid": "BV1jm421T7dS",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Jw4m1S7ud",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2468,6 +2719,13 @@
           "locator": "BV1jm421T7dS",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2024年05月25日\n柚恩【生日演唱会】光影变奏曲 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Jw4m1S7ud",
+          "locator": "BV1Jw4m1S7ud",
+          "sourceField": "title + description",
+          "excerpt": "『Swan Song』“Shining like a diamond sing it”【柚恩生日会】；直播日期：2024年5月25日\n直播标题：【柚恩生日演唱会】光影变奏曲\n直播源: https://live.bilibili.com/25512501/"
         }
       ]
     },
@@ -2567,6 +2825,10 @@
         {
           "bvid": "BV1JJ4m137cU",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1C7421d7z5",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2581,6 +2843,19 @@
           "locator": "BV1JJ4m137cU",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2024年05月25日\n柚恩【生日演唱会】光影变奏曲 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "sources[kind=video-directory,accountId=105260060,page=37].items[bvid=BV1C7421d7z5]",
+          "sourceField": "title + descriptionExcerpt",
+          "excerpt": "【柚恩生日演唱会】火花(HWAA)\n2025.05.25\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1C7421d7z5",
+          "locator": "BV1C7421d7z5",
+          "sourceField": "title + description + pubdate",
+          "excerpt": "【柚恩生日演唱会】火花(HWAA)；投稿于2024-05-25，简介的2025.05.25明显晚于投稿一年；同曲切片及官方回放BV11T421i7oU共同确认2024-05-25光影变奏曲，合并误归属2025年的重复表演。"
         }
       ]
     },
@@ -2883,6 +3158,10 @@
         {
           "bvid": "BV1yw4m1i75e",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV17S411K72P",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2897,6 +3176,13 @@
           "locator": "BV1yw4m1i75e",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2024年05月31日\n团播【六一晚会之童心大冒险】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV17S411K72P",
+          "locator": "BV17S411K72P",
+          "sourceField": "title + description",
+          "excerpt": "『巴啦啦小魔仙』六一儿童节快乐~【EOE翻唱】；直播日期：2024年5月31日\n直播标题：【3D】博弈\n直播源: https://live.bilibili.com/25512501/"
         }
       ]
     },
@@ -2923,6 +3209,61 @@
           "locator": "sources[kind=video-directory,accountId=105260060,page=38].items[bvid=BV1ar42137tM]",
           "sourceField": "title + descriptionExcerpt",
           "excerpt": "【冰火歌会】《猫步轻悄》——EOE\n冰火歌会2024.05.02；柚恩、露早、莞儿账号列于简介"
+        }
+      ]
+    },
+    {
+      "id": "perf_56e3c4d3-4902-4cc8-a8d4-1c4881df2f85",
+      "workId": "song_8277207d-503d-4356-aeed-3454cc8a6d36",
+      "date": "2024-05-30",
+      "eventId": "evt_e96b22c9-1035-483e-86e4-523178f866a8",
+      "type": "dance",
+      "creditedMembers": [
+        "yumo"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1xn4y1o7f5",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1xn4y1o7f5",
+          "locator": "BV1xn4y1o7f5",
+          "sourceField": "title + description",
+          "excerpt": "『Supernova』- aespa【虞莫翻跳】；直播日期：2024年5月30日\n直播标题：【3D】今夜有…胆小慎入！\n直播源: https://live.bilibili.com/25512485/"
+        }
+      ]
+    },
+    {
+      "id": "perf_9b5b28fc-8877-4685-91b1-6734701bee66",
+      "workId": "song_80318682-2810-4e41-be80-b9473ca33e27",
+      "date": "2024-05-24",
+      "eventId": "evt_fb16456c-8da7-4651-a6ac-b1e2709ee836",
+      "type": "singing",
+      "creditedMembers": [
+        "yumo"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1Sw4m1D7Ru",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            5
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Sw4m1D7Ru?p=5",
+          "locator": "BV1Sw4m1D7Ru:P5",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "呼啦圈跳绳花式唱跳【杂耍合集】；直播日期：2024年5月24日\n直播标题：【3D】KTV回\n直播源: https://live.bilibili.com/25512485/；P5 天下 简简单单升个调",
+          "partNumber": 5,
+          "contentId": 1557556713
         }
       ]
     }

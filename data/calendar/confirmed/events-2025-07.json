@@ -267,6 +267,10 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1g8GWzPExT"
           }
+        },
+        {
+          "bvid": "BV1Z9GWz2EVB",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1g8GWzPExT",
@@ -275,6 +279,12 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1g8GWzPExT"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Z9GWz2EVB",
+            "locator": "BV1Z9GWz2EVB",
+            "excerpt": "露早 2025.7.9 【我突！！】【直播录像】【突击电台】；同题跨零点录播，与官方开播日期关联；保留原标题。"
           }
         ]
       },
@@ -1103,6 +1113,14 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1C18GzNE8X"
           }
+        },
+        {
+          "bvid": "BV19J8gz5EiF",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1sc8GzKELD",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1C18GzNE8X",
@@ -1111,6 +1129,18 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1C18GzNE8X"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV19J8gz5EiF",
+            "locator": "BV19J8gz5EiF",
+            "excerpt": "露早 2025.7.27 【好害怕！！】【直播录像】【2D】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1sc8GzKELD",
+            "locator": "BV1sc8GzKELD",
+            "excerpt": "【EOE】露早2D 2025.07.27 好害怕！！【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -1617,6 +1647,131 @@
         "luzao"
       ],
       "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_bf5974d4-7dd2-5024-83d1-e1ed7b8e839d",
+      "date": "2025-07-10",
+      "kind": "livestream",
+      "title": "抖音我来啦！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1RCGVzCEbh",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1RCGVzCEbh",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1RCGVzCEbh",
+            "locator": "BV1RCGVzCEbh",
+            "excerpt": "【柚恩直播录播】【3D】【D限】2025.07.10 【柚恩首播】抖音我来啦！；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
+    },
+    {
+      "id": "evt_7b3a7d66-c667-5388-b4df-12a6c87cbeb6",
+      "date": "2025-07-19",
+      "kind": "activity",
+      "title": "广州萤火虫漫展",
+      "occurrence": "source-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1sYudz6EJy",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": {
+        "occurrence": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1sYudz6EJy",
+            "locator": "BV1sYudz6EJy",
+            "excerpt": "投稿标题“广州萤火虫现场”、简介“直播日期：2025年7月19日 广州萤火虫漫展 直播录像”；按明确线下演出身份保存，不归入同日晚间看电影直播。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_029fb215-9346-51ad-91f5-8340bc84e92d",
+      "date": "2025-07-20",
+      "kind": "livestream",
+      "title": "我是桌球高手！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1VNgYzsErr",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1VNgYzsErr",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1VNgYzsErr",
+            "locator": "BV1VNgYzsErr",
+            "excerpt": "【柚恩直播录播】【2D】2025.07.20 【D限】我是桌球高手！；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
+    },
+    {
+      "id": "evt_5f922b64-c74c-582d-990f-f989bd07116f",
+      "date": "2025-07-25",
+      "kind": "livestream",
+      "title": "进来！看跳舞！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "dance",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1GRbXztE4j",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1GRbXztE4j",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1GRbXztE4j",
+            "locator": "BV1GRbXztE4j",
+            "excerpt": "【柚恩直播录播】【3D】【D限】2025.07.25 进来！看跳舞！；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
     }
   ]
 }

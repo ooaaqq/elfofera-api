@@ -172,6 +172,10 @@
         {
           "bvid": "BV1z9HDesEdc",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1NsHQeNEnk",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -186,6 +190,13 @@
           "locator": "BV1z9HDesEdc",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年09月06日\n虞莫【开学第一课】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1NsHQeNEnk",
+          "locator": "BV1NsHQeNEnk",
+          "sourceField": "title + description",
+          "excerpt": "『恶作剧』“我想我会开始想念你 可是我刚刚才遇见了你”【虞莫翻唱】；直播日期：2024年9月6日\n直播标题：【3D】开学第一课\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -202,6 +213,10 @@
         {
           "bvid": "BV1ZoHDepEmb",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1eAHQeEEUa",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -216,6 +231,13 @@
           "locator": "BV1ZoHDepEmb",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年09月06日\n虞莫【开学第一课】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1eAHQeEEUa",
+          "locator": "BV1eAHQeEEUa",
+          "sourceField": "title + description",
+          "excerpt": "『我们的纪念』“就让我留在轮回的边缘  等一道光线”【虞莫翻唱】；直播日期：2024年9月6日\n直播标题：【3D】开学第一课\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -787,7 +809,7 @@
     },
     {
       "id": "perf_686bbff4-d145-4026-8afc-516a9f9354fa",
-      "workId": "song_20a8f66e-c88d-436b-8ba0-ead4accb0f75",
+      "workId": "song_e416e325-8cee-4ac1-9365-8e89398af33a",
       "date": "2024-09-07",
       "eventId": "evt_8c8a8cd3-42dc-44a7-8996-650fd295fca3",
       "type": "singing",
@@ -797,6 +819,10 @@
       "assets": [
         {
           "bvid": "BV15QpteHEPU",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1KUpbeVEb9",
           "role": "performance-excerpt"
         }
       ],
@@ -812,6 +838,18 @@
           "locator": "BV15QpteHEPU",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2024年09月07日\n柚恩【网感很重】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "BV1KUpbeVEb9",
+          "sourceField": "title",
+          "excerpt": "『下个路口见』——李宇春【柚恩翻唱】"
+        },
+        {
+          "file": "../evidence/round-08-source-directory-batch18.json",
+          "locator": "BV1KUpbeVEb9",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "2024.09.07直播剪辑\n\n原唱：李宇春\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
         }
       ]
     },
@@ -1046,6 +1084,13 @@
           "partNumbers": [
             1
           ]
+        },
+        {
+          "bvid": "BV1c946eVEDs",
+          "partNumbers": [
+            1
+          ],
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1068,6 +1113,15 @@
           "partNumber": 1,
           "contentId": 25828197497,
           "excerpt": "你是我的风景"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1c946eVEDs?p=1",
+          "locator": "BV1c946eVEDs:P1",
+          "sourceField": "description + pages[].part",
+          "partNumber": 1,
+          "contentId": 25829443799,
+          "excerpt": "【2D】晚上好【虞莫翻唱合集】；直播日期：2024年9月11日\n直播标题：【2D】晚上好\n直播源: https://live.bilibili.com/25512485/；P1 你是我的风景"
         }
       ]
     },
@@ -1087,6 +1141,13 @@
           "partNumbers": [
             2
           ]
+        },
+        {
+          "bvid": "BV1c946eVEDs",
+          "partNumbers": [
+            2
+          ],
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1109,6 +1170,15 @@
           "partNumber": 2,
           "contentId": 25828197801,
           "excerpt": "年轮说"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1c946eVEDs?p=2",
+          "locator": "BV1c946eVEDs:P2",
+          "sourceField": "description + pages[].part",
+          "partNumber": 2,
+          "contentId": 25829443701,
+          "excerpt": "【2D】晚上好【虞莫翻唱合集】；直播日期：2024年9月11日\n直播标题：【2D】晚上好\n直播源: https://live.bilibili.com/25512485/；P2 年轮说"
         }
       ]
     },
@@ -1128,6 +1198,13 @@
           "partNumbers": [
             3
           ]
+        },
+        {
+          "bvid": "BV1c946eVEDs",
+          "partNumbers": [
+            3
+          ],
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1150,6 +1227,15 @@
           "partNumber": 3,
           "contentId": 25828197878,
           "excerpt": "天若有情"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1c946eVEDs?p=3",
+          "locator": "BV1c946eVEDs:P3",
+          "sourceField": "description + pages[].part",
+          "partNumber": 3,
+          "contentId": 25829444925,
+          "excerpt": "【2D】晚上好【虞莫翻唱合集】；直播日期：2024年9月11日\n直播标题：【2D】晚上好\n直播源: https://live.bilibili.com/25512485/；P3 天若有情"
         }
       ]
     },
@@ -1169,6 +1255,13 @@
           "partNumbers": [
             4
           ]
+        },
+        {
+          "bvid": "BV1c946eVEDs",
+          "partNumbers": [
+            4
+          ],
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1191,6 +1284,15 @@
           "partNumber": 4,
           "contentId": 25828197178,
           "excerpt": "带我走"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1c946eVEDs?p=4",
+          "locator": "BV1c946eVEDs:P4",
+          "sourceField": "description + pages[].part",
+          "partNumber": 4,
+          "contentId": 25829640395,
+          "excerpt": "【2D】晚上好【虞莫翻唱合集】；直播日期：2024年9月11日\n直播标题：【2D】晚上好\n直播源: https://live.bilibili.com/25512485/；P4 带我走"
         }
       ]
     },
@@ -1525,6 +1627,10 @@
         {
           "bvid": "BV12k4QeJEiF",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1cG4SeAE33",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -1539,6 +1645,13 @@
           "locator": "BV12k4QeJEiF",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年09月15日\n虞莫【我们适合一起旅行吗】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1cG4SeAE33",
+          "locator": "BV1cG4SeAE33",
+          "sourceField": "title + description",
+          "excerpt": "『爱丫爱丫』“等待  是我为你付出的代价”【虞莫翻唱】；直播日期：2024年9月15日\n直播标题：【3D】我们适合一起旅行吗\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -4546,36 +4659,6 @@
       ]
     },
     {
-      "id": "perf_debc4d19-3217-4590-b5b9-de467f8937a5",
-      "workId": "song_e416e325-8cee-4ac1-9365-8e89398af33a",
-      "date": "2024-09-07",
-      "eventId": "evt_8c8a8cd3-42dc-44a7-8996-650fd295fca3",
-      "type": "singing",
-      "creditedMembers": [
-        "youen"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1KUpbeVEb9",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/round-08-source-directory-batch18.json",
-          "locator": "BV1KUpbeVEb9",
-          "sourceField": "title",
-          "excerpt": "『下个路口见』——李宇春【柚恩翻唱】"
-        },
-        {
-          "file": "../evidence/round-08-source-directory-batch18.json",
-          "locator": "BV1KUpbeVEb9",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "2024.09.07直播剪辑\n\n原唱：李宇春\n\n柚恩不加糖\n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/"
-        }
-      ]
-    },
-    {
       "id": "perf_b77234a3-99e1-44bb-9f79-1b8119436c7b",
       "workId": "song_934bc494-a69d-4dba-9769-d4b13ff6ab0c",
       "date": "2024-09-06",
@@ -4587,6 +4670,10 @@
       "assets": [
         {
           "bvid": "BV1vcHQeSEfM",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1ssHQePEkM",
           "role": "performance-excerpt"
         }
       ],
@@ -4602,6 +4689,13 @@
           "locator": "BV1vcHQeSEfM",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年09月06日\n虞莫【开学第一课】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1ssHQePEkM",
+          "locator": "BV1ssHQePEkM",
+          "sourceField": "title + description",
+          "excerpt": "『你』“一点点想哭泣 一点点想着你”【虞莫翻唱】；直播日期：2024年9月6日\n直播标题：【3D】开学第一课\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     }

@@ -441,6 +441,10 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1zqtZznEkw"
           }
+        },
+        {
+          "bvid": "BV1fRtRz3EY8",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1zqtZznEkw",
@@ -449,6 +453,12 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1zqtZznEkw"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fRtRz3EY8",
+            "locator": "BV1fRtRz3EY8",
+            "excerpt": "露早 2025.8.12 【谁是薯片之王？】【直播录像】【2D】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -652,6 +662,14 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1PXYxzUEvF"
           }
+        },
+        {
+          "bvid": "BV1wzY4z7Eqk",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV131YtzwEwf",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1PXYxzUEvF",
@@ -660,6 +678,18 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1PXYxzUEvF"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1wzY4z7Eqk",
+            "locator": "BV1wzY4z7Eqk",
+            "excerpt": "露早 2025.8.18 【你们好吗！】【直播录像】【2D】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV131YtzwEwf",
+            "locator": "BV131YtzwEwf",
+            "excerpt": "【EOE】露早2D 2025.08.18 你们好吗！【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -898,6 +928,14 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV17geWzYEMw"
           }
+        },
+        {
+          "bvid": "BV1SCenzVECT",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1HNexzyEfW",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV17geWzYEMw",
@@ -906,6 +944,18 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV17geWzYEMw"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1SCenzVECT",
+            "locator": "BV1SCenzVECT",
+            "excerpt": "【柚恩直播录播】【2D】2025.08.24 一起看会冰火！；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1HNexzyEfW",
+            "locator": "BV1HNexzyEfW",
+            "excerpt": "【EOE】柚恩2D 2025.08.24 一起看会冰火！【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -944,7 +994,25 @@
           "locator": "BV1yaeHz6EUD",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/1/\n直播日期：2025年08月24日\n哔哩哔哩直播【冰火歌会2025夏梦季】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750440"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV14DenzBENN",
+          "locator": "BV14DenzBENN",
+          "sourceField": "recordingNamedMembers",
+          "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1yaeHz6EUD",
+          "locator": "BV1yaeHz6EUD",
+          "sourceField": "recordingNamedMembers",
+          "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
         }
+      ],
+      "recordingNamedMembers": [
+        "luzao",
+        "youen"
       ]
     },
     {
@@ -1102,6 +1170,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1RVvTzJEA3"
           }
+        },
+        {
+          "bvid": "BV1R7vTzmE4d",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1RVvTzJEA3",
@@ -1110,6 +1182,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1RVvTzJEA3"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1R7vTzmE4d",
+            "locator": "BV1R7vTzmE4d",
+            "excerpt": "【柚恩直播录播】【突击】【电台】2025.08.25 困；修正录播标题日期笔误后，与实际日期同名场次对应。"
           }
         ]
       },
@@ -1207,6 +1285,14 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1MAhoziEjB"
           }
+        },
+        {
+          "bvid": "BV1mChRz8Ep2",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1UGh6zsEKe",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1MAhoziEjB",
@@ -1215,6 +1301,18 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1MAhoziEjB"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1mChRz8Ep2",
+            "locator": "BV1mChRz8Ep2",
+            "excerpt": "【柚恩直播录播】【2D】2025.08.29 七夕快乐-；同日同题且成员明确对应；同名的其他成员场次不混合。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1UGh6zsEKe",
+            "locator": "BV1UGh6zsEKe",
+            "excerpt": "【EOE】柚恩2D 2025.08.29 七夕快乐【直播录像】；同日同题且成员明确对应；同名的其他成员场次不混合。"
           }
         ]
       },
@@ -1439,6 +1537,18 @@
             "locator": "BV1MshZz3Eku",
             "excerpt": "【直播回放】【电台】七夕快乐！ 2025年08月29日21点场"
           }
+        },
+        {
+          "bvid": "BV112hRztEgQ",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1pThrzmEBd",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1bnhdzNEYU",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1MshZz3Eku",
@@ -1455,6 +1565,24 @@
             "url": "https://www.bilibili.com/video/BV1bnhdzNEYU",
             "locator": "BV1bnhdzNEYU",
             "excerpt": "【直播回放】【电台】七夕快乐！ 2025年08月29日20点场"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV112hRztEgQ",
+            "locator": "BV112hRztEgQ",
+            "excerpt": "露早 2025.8.29 【七夕快乐！】【直播录像】【电台】；同日同题且成员明确对应；同名的其他成员场次不混合。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1pThrzmEBd",
+            "locator": "BV1pThrzmEBd",
+            "excerpt": "【EOE】露早 电台 2025.08.29 七夕快乐！【直播录像】；同日同题且成员明确对应；同名的其他成员场次不混合。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1bnhdzNEYU",
+            "locator": "BV1bnhdzNEYU",
+            "excerpt": "【直播回放】【电台】七夕快乐！ 2025年08月29日20点场；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
           }
         ],
         "schedule": [
@@ -1471,6 +1599,146 @@
         "luzao"
       ],
       "plannedTime": "21:00"
+    },
+    {
+      "id": "evt_4c7e851d-8ed1-5700-9515-f6fd8453d71c",
+      "date": "2025-08-02",
+      "kind": "livestream",
+      "title": "下午茶时间~",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1b7hhzcEV3",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1b7hhzcEV3",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1b7hhzcEV3",
+            "locator": "BV1b7hhzcEV3",
+            "excerpt": "【柚恩直播录播】【2D】【D限】2025.08.02 下午茶时间~；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
+    },
+    {
+      "id": "evt_5bfcc7fe-05f4-5a87-81b0-743bb8e1b831",
+      "date": "2025-08-08",
+      "kind": "livestream",
+      "title": "进来！看跳舞！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "dance",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1BqtHzyEh4",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1BqtHzyEh4",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1BqtHzyEh4",
+            "locator": "BV1BqtHzyEh4",
+            "excerpt": "【柚恩直播录播】【3D】【D限】2025.08.08 进来！看跳舞！；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
+    },
+    {
+      "id": "evt_e16173e9-9cd2-5ab0-aae9-e0053454c623",
+      "date": "2025-08-17",
+      "kind": "livestream",
+      "title": "新人直播，请多多关注吧",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1xJYrz4EGm",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1xJYrz4EGm",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1xJYrz4EGm",
+            "locator": "BV1xJYrz4EGm",
+            "excerpt": "【柚恩直播录播】【2D】【D限】2025.08.17 新人直播，请多多关注吧；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ],
+        "dimension": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1xJYrz4EGm",
+            "locator": "BV1xJYrz4EGm",
+            "excerpt": "【柚恩直播录播】【2D】【D限】2025.08.17 新人直播，请多多关注吧；标题写2D、简介写3D；形式暂保留unknown，不影响已明确的日期和成员。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
+    },
+    {
+      "id": "evt_9d2ffa08-83f7-5814-945e-c888782b4e30",
+      "date": "2025-08-19",
+      "kind": "livestream",
+      "title": "进来！看跳舞！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "dance",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1pxePzDETK",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1pxePzDETK",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1pxePzDETK",
+            "locator": "BV1pxePzDETK",
+            "excerpt": "【柚恩直播录播】【3D】【D限】2025.08.19 进来！看跳舞！；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      },
+      "tags": [
+        "D限"
+      ]
     }
   ]
 }

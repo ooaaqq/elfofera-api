@@ -3475,6 +3475,20 @@
         {
           "file": "../evidence/round-08-user-manual-review.json",
           "locator": "answers[bvid=BV1aV4y1t71B]"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1GV411L7qJ",
+          "locator": "BV1GV411L7qJ",
+          "sourceField": "recordingNamedMembers",
+          "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1aV4y1t71B",
+          "locator": "BV1aV4y1t71B",
+          "sourceField": "recordingNamedMembers",
+          "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
         }
       ],
       "assets": [
@@ -3508,6 +3522,13 @@
           "form": "dance",
           "note": "五人演出"
         }
+      ],
+      "recordingNamedMembers": [
+        "luzao",
+        "minuo",
+        "waner",
+        "youen",
+        "yumo"
       ]
     },
     {

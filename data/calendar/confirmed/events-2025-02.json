@@ -340,6 +340,14 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1dVK7eUE1Q"
           }
+        },
+        {
+          "bvid": "BV1uSKjeKEoq",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV1oSKPe2Eci",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1dVK7eUE1Q",
@@ -348,6 +356,18 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1dVK7eUE1Q"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1uSKjeKEoq",
+            "locator": "BV1uSKjeKEoq",
+            "excerpt": "【柚恩直播录播】【2D】2025.02.12 元宵快乐；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1oSKPe2Eci",
+            "locator": "BV1oSKPe2Eci",
+            "excerpt": "【EOE】柚恩2D 2025.02.12 元宵快乐【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -515,6 +535,10 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1ngwSeTEam"
           }
+        },
+        {
+          "bvid": "BV15MALeeESV",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1ngwSeTEam",
@@ -523,6 +547,12 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1ngwSeTEam"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV15MALeeESV",
+            "locator": "BV15MALeeESV",
+            "excerpt": "露早 2025.2.16 【无限】【直播录像】【3D生日会】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ],
         "officialReminder": {
@@ -559,7 +589,7 @@
       "publishedAt": "2025-02-16T15:32:47.000Z",
       "occurrence": "published",
       "relatedWorks": [
-        "song_cf4d5699-24ca-4989-aad6-a91d6a8b27e4"
+        "song_87a13513-f05d-470e-8a1d-93f967866787"
       ],
       "assets": [
         {
@@ -1248,6 +1278,10 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1T7P7eFEAE"
           }
+        },
+        {
+          "bvid": "BV1L6P7e5EM2",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1T7P7eFEAE",
@@ -1256,6 +1290,12 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1T7P7eFEAE"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1L6P7e5EM2",
+            "locator": "BV1L6P7e5EM2",
+            "excerpt": "露早 2025.2.26 【露早XP大揭秘】【直播录像】【3D】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -1634,6 +1674,46 @@
         "luzao"
       ],
       "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_60a396a6-8db7-5f1f-850e-f0d3ea0faf0e",
+      "date": "2025-02-23",
+      "kind": "livestream",
+      "title": "奇异人生",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1GsA9eTEtb",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV1vrARe5ETK",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV1GsA9eTEtb",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1GsA9eTEtb",
+            "locator": "BV1GsA9eTEtb",
+            "excerpt": "【柚恩直播录播】【2D】2025.02.23 奇异人生；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1vrARe5ETK",
+            "locator": "BV1vrARe5ETK",
+            "excerpt": "【EOE】柚恩2D 2025.02.23 奇异人生【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+          }
+        ]
+      }
     }
   ]
 }

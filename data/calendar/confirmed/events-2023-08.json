@@ -523,8 +523,22 @@
             "file": "../evidence/icefire-2023-video.json",
             "locator": "BV1Fu4y127pP"
           }
+        ],
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1zX4y1L7MB",
+            "locator": "BV1zX4y1L7MB",
+            "excerpt": "【冰火歌会】 2023/08/05 冰火夏日夜【4K丨直播录像】；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
+          }
         ]
-      }
+      },
+      "recordings": [
+        {
+          "bvid": "BV1zX4y1L7MB",
+          "relation": "alternate-version"
+        }
+      ]
     },
     {
       "id": "evt_600e1a06-dd30-4f66-8eb5-467ed8e7d80e",
@@ -1734,6 +1748,14 @@
             "file": "../evidence/history-01/series-1778026586.json",
             "locator": "BV1Hu4y1q78e"
           }
+        },
+        {
+          "bvid": "BV1mF411y7p3",
+          "relation": "alternate-version",
+          "partNumbers": [
+            2,
+            4
+          ]
         }
       ],
       "plannedMembers": [
@@ -1745,6 +1767,14 @@
           {
             "file": "../source/august-2023/829501121376550969.png",
             "locator": "829501121376550969"
+          }
+        ],
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1mF411y7p3",
+            "locator": "BV1mF411y7p3",
+            "excerpt": "【EOE】米诺L2D 2023.08.14 我直播预约呢？【2D丨直播录像】；下半场P2/P4时长12617秒，对应23点回放12610秒。"
           }
         ]
       },
@@ -1774,6 +1804,14 @@
             "file": "../evidence/history-01/series-1778026586.json",
             "locator": "BV1f8411X7Go"
           }
+        },
+        {
+          "bvid": "BV1mF411y7p3",
+          "relation": "alternate-version",
+          "partNumbers": [
+            1,
+            3
+          ]
         }
       ],
       "plannedMembers": [
@@ -1785,6 +1823,14 @@
           {
             "file": "../source/august-2023/829501121376550969.png",
             "locator": "829501121376550969"
+          }
+        ],
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1mF411y7p3",
+            "locator": "BV1mF411y7p3",
+            "excerpt": "【EOE】米诺L2D 2023.08.14 我直播预约呢？【2D丨直播录像】；上半场P1/P3时长约7433秒，对应19点回放7439秒。"
           }
         ]
       },

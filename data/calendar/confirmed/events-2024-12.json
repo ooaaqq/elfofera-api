@@ -560,6 +560,10 @@
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1PWkSYfEho"
           }
+        },
+        {
+          "bvid": "BV1mHkbYzEB6",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1PWkSYfEho",
@@ -568,6 +572,12 @@
           {
             "file": "../evidence/history-01/series-1669777785.json",
             "locator": "BV1PWkSYfEho"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1mHkbYzEB6",
+            "locator": "BV1mHkbYzEB6",
+            "excerpt": "【EOE】露早&柚恩 2024.12.20 养生局，速来【4K丨直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -720,6 +730,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV14QkoYXELf"
           }
+        },
+        {
+          "bvid": "BV1STkoYXEXx",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV14QkoYXELf",
@@ -728,6 +742,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV14QkoYXELf"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1STkoYXEXx",
+            "locator": "BV1STkoYXEXx",
+            "excerpt": "【柚恩直播录播】【电台】2024.12.24 【突】平安夜！；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -755,6 +775,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV16eCvYUEaJ"
           }
+        },
+        {
+          "bvid": "BV14qCnYnELm",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV16eCvYUEaJ",
@@ -763,6 +787,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV16eCvYUEaJ"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV14qCnYnELm",
+            "locator": "BV14qCnYnELm",
+            "excerpt": "【EOE】柚恩2D 2024.12.25 圣诞快乐【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -1566,6 +1596,156 @@
       "dimension": "unknown",
       "isUnannounced": false,
       "endDate": "2025-01-01"
+    },
+    {
+      "id": "evt_59410150-e35c-5a7f-ba04-9fc93d567a49",
+      "date": "2024-12-01",
+      "kind": "livestream",
+      "title": "我要当VUP",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1216PYFEPm",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1216PYFEPm",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1216PYFEPm",
+            "locator": "BV1216PYFEPm",
+            "excerpt": "【EOE】柚恩2D 2024.12.01 我要当VUP【直播录像】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_df845efb-df85-5e0d-b7d3-5c690593889f",
+      "date": "2024-12-06",
+      "kind": "livestream",
+      "title": "无限暖暖！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1piiqY6EF2",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV1QHqVYdETs",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV1piiqY6EF2",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1piiqY6EF2",
+            "locator": "BV1piiqY6EF2",
+            "excerpt": "露早 2024.12.6 【无限暖暖！！】【直播录像】【2D】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1QHqVYdETs",
+            "locator": "BV1QHqVYdETs",
+            "excerpt": "【EOE】露早2D 2024.12.06 无线暖暖！！【直播录像】；同日同成员游戏名“无限暖暖”的标题笔误，不增加场次。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_48529d74-0a4f-5a9a-a370-7a1c533bc641",
+      "date": "2024-12-12",
+      "kind": "livestream",
+      "title": "泥嚎",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV14NqYYuECs",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV1YoqeYpEDM",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV14NqYYuECs",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV14NqYYuECs",
+            "locator": "BV14NqYYuECs",
+            "excerpt": "露早 2024.12.12 【泥嚎】【直播录像】【电台】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1YoqeYpEDM",
+            "locator": "BV1YoqeYpEDM",
+            "excerpt": "【EOE】露早 电台 2024.12.12 泥嚎【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_9f81e41f-c6bb-51b8-8bb7-4b1250871b83",
+      "date": "2024-12-14",
+      "kind": "livestream",
+      "title": "泥嚎",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1ybBLYXE5W",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV12VBEYhEeY",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV1ybBLYXE5W",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ybBLYXE5W",
+            "locator": "BV1ybBLYXE5W",
+            "excerpt": "露早 2024.12.14 【泥嚎】【直播录像】【电台】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV12VBEYhEeY",
+            "locator": "BV12VBEYhEeY",
+            "excerpt": "【EOE】露早 电台 2024.12.14 泥嚎【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+          }
+        ]
+      }
     }
   ]
 }

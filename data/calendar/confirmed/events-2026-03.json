@@ -1342,6 +1342,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1R4XLBvEBq"
           }
+        },
+        {
+          "bvid": "BV1aKXyBrEjA",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1R4XLBvEBq",
@@ -1350,6 +1354,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1R4XLBvEBq"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1aKXyBrEjA",
+            "locator": "BV1aKXyBrEjA",
+            "excerpt": "【EOE】柚恩2D 2026.03.28 今天的声音南亭的钥匙【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },

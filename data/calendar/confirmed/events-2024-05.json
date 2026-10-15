@@ -196,7 +196,26 @@
           "locator": "BV1S1421X7tT",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/1/\n直播日期：2024年05月02日\n哔哩哔哩直播【冰火歌会2024远航季】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750440"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1S1421X7tT",
+          "locator": "BV1S1421X7tT",
+          "sourceField": "recordingNamedMembers",
+          "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1ar42137tM",
+          "locator": "BV1ar42137tM",
+          "sourceField": "recordingNamedMembers",
+          "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
         }
+      ],
+      "recordingNamedMembers": [
+        "luzao",
+        "waner",
+        "youen"
       ]
     },
     {
@@ -1518,7 +1537,24 @@
           "locator": "BV1BZ421s71z",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512465/\n直播日期：2024年05月19日\n米诺【虚拟远航演唱会】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504409"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Nb421z7Ch",
+          "locator": "BV1Nb421z7Ch",
+          "sourceField": "recordingNamedMembers",
+          "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1BZ421s71z",
+          "locator": "BV1BZ421s71z",
+          "sourceField": "recordingNamedMembers",
+          "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
         }
+      ],
+      "recordingNamedMembers": [
+        "minuo"
       ]
     },
     {
@@ -2394,6 +2430,10 @@
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1if421d7Qt"
           }
+        },
+        {
+          "bvid": "BV14J4m1w7DD",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1if421d7Qt",
@@ -2402,6 +2442,12 @@
           {
             "file": "../evidence/history-01/series-1875044092.json",
             "locator": "BV1if421d7Qt"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV14J4m1w7DD",
+            "locator": "BV14J4m1w7DD",
+            "excerpt": "【EOE】莞儿 电台 2024.05.29 聊几分钟【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -3420,7 +3466,7 @@
       "publishedAt": "2024-05-25T14:05:25.000Z",
       "occurrence": "published",
       "relatedWorks": [
-        "song_629f328c-f74c-4742-bcb4-ff2fb2b04081"
+        "song_6ac378b0-7883-4ee3-ac23-eee27314ae8d"
       ],
       "assets": [
         {
@@ -3815,6 +3861,36 @@
         "waner"
       ],
       "plannedTime": "21:00"
+    },
+    {
+      "id": "evt_7fedd19d-0e47-59c1-b6fa-c8f01eb48083",
+      "date": "2024-05-26",
+      "kind": "livestream",
+      "title": "嘿嘿",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1CT421i7xs",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1CT421i7xs",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1CT421i7xs",
+            "locator": "BV1CT421i7xs",
+            "excerpt": "【EOE】柚恩L2D 2024.05.26 嘿嘿【直播录像】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      }
     }
   ]
 }

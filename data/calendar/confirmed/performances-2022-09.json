@@ -391,8 +391,16 @@
           "locator": "BV1rY4y1T7Fz",
           "sourceField": "descriptionExcerpt",
           "excerpt": "直播日期：2022年9月3日\nEOE组合团播【荒岛求生】 直播剪辑\n--------------------------------------------------------\n剪辑：贰拾玖\n时轴：贰拾玖\n封面：梁心\n--------------------------------------------------------\n莞儿@莞儿睡不醒 ：https://space.bilibili.com/1875044092/\n露早@露早GOGO ：https://space.bilibili.com/"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1rY4y1T7Fz",
+          "locator": "BV1rY4y1T7Fz",
+          "sourceField": "title + named compilation parts",
+          "excerpt": "V圈最快完整翻跳『Pink Venom』BLACKPINK回归先行曲；采用明确成员署名或五人演出说明；只有组合署名时保留creditedGroup=EOE，不展开五名成员。"
         }
-      ]
+      ],
+      "creditedGroup": "EOE"
     },
     {
       "id": "perf_ca3e6eb3-a5d6-4ccc-946d-6096d5cdf2a7",
@@ -942,6 +950,10 @@
         {
           "bvid": "BV1jG41137Sb",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV17Y4y1K7kE",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -962,6 +974,13 @@
           "locator": "sources[accountId=1669777785,page=12].items[bvid=BV1jG41137Sb]",
           "sourceField": "title and descriptionExcerpt",
           "excerpt": "2022·EOE中秋晚会闭场曲目；翻唱：EOE；原唱：邓丽君；词作者：苏轼。与同场《但愿人长久》切片 BV1nY4y1K7b8 交叉关联。"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV17Y4y1K7kE",
+          "locator": "BV17Y4y1K7kE",
+          "sourceField": "title + description",
+          "excerpt": "9.10 EOE团播【中秋特辑】 温情合唱《明月几时有》 4K；直播日期：2022年9月10日\n直播标题：3D【2022·EOE·中秋晚会】\n直播源：https://live.bilibili.com/25512501/\n————————————————————————————\n﻿﻿﻿﻿﻿﻿@虞莫MOMO  ﻿ ﻿ ﻿ ﻿﻿ ﻿ \n直播间：https://live.bilibili.com/25512485/\n个人主页：https://space.bilibili.com/1811071010/\n﻿﻿﻿﻿﻿﻿@柚恩不加糖  ﻿ ﻿ ﻿ ﻿ ﻿ ﻿ \n直播间：https://live.bilibili.com/25512501/ \n个人主页：https://space.bilibili.com/1795147802/\n﻿﻿﻿﻿﻿﻿@露早GOGO  ﻿ ﻿ ﻿ ﻿﻿ \n直播间：https://live.bilibili.com/25512443/\n个人主页：https://space.bilibili.com/1669777785/\n﻿﻿﻿﻿﻿﻿@米诺高分少女  ﻿ ﻿ ﻿ ﻿ ﻿﻿ \n直播间：https://live.bilibili.com/25512465/\n个人主页：https://space.bilibili.com/1778026586/\n﻿﻿﻿﻿﻿﻿@莞儿睡不醒  ﻿ ﻿ ﻿ ﻿ ﻿ \n直播间：https://live.bilibili.com/25512476/\n个人主页：https://space.bilibili.com/1875044092/ \n————————————————————————————\n【歌舞切片组】﻿﻿﻿ ﻿ ﻿ \n打杂：报叔"
         }
       ],
       "creditedGroup": "EOE"
@@ -3147,6 +3166,31 @@
       ],
       "creditedMembers": [
         "youen"
+      ]
+    },
+    {
+      "id": "perf_cd186174-05e2-41a6-a237-793ebdbd5466",
+      "workId": "song_09ee6b89-cccc-47f5-94ca-f11594113870",
+      "date": "2022-09-29",
+      "eventId": "evt_2bbf9934-e80a-4b59-8fd8-3fc867d74470",
+      "type": "singing",
+      "creditedMembers": [
+        "yumo"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1LG4y1W7Q3",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1LG4y1W7Q3",
+          "locator": "BV1LG4y1W7Q3",
+          "sourceField": "title + description",
+          "excerpt": "9.29 虞莫MOMO单播 古风翻唱《云与海》 4K；直播日期：2022年9月29日\n直播标题：3D【青春修炼手册】\n直播源：https://live.bilibili.com/25512485/\n————————————————————————————\n﻿﻿﻿﻿﻿﻿@虞莫MOMO  ﻿ ﻿ ﻿  ﻿ ﻿ \n直播间：https://live.bilibili.com/25512485/\n个人主页：https://space.bilibili.com/1811071010/ \n————————————————————————————\n【歌舞切片组】\n封面制作：@梁心design  \n打杂：报叔"
+        }
       ]
     }
   ]

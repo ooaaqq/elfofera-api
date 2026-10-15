@@ -693,36 +693,6 @@
       ]
     },
     {
-      "id": "perf_8ffed5eb-488e-4f49-8fac-b554c453778f",
-      "workId": "song_6ec52d5f-d9b8-46af-9e64-30ec108d4bd2",
-      "date": "2025-08-28",
-      "eventId": "evt_fb23880f-b113-4ac6-9621-c9adba91dabf",
-      "type": "dance",
-      "creditedMembers": [
-        "luzao"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1oRhUzZETJ",
-          "role": "performance-excerpt"
-        }
-      ],
-      "evidence": [
-        {
-          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
-          "locator": "BV1oRhUzZETJ",
-          "sourceField": "title",
-          "excerpt": "【EOE露早】《Alcohol-Free》【翻跳】"
-        },
-        {
-          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
-          "locator": "BV1oRhUzZETJ",
-          "sourceField": "descriptionExcerpt",
-          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年08月28日\n露早【爱的方程式】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
-        }
-      ]
-    },
-    {
       "id": "perf_08bd6f24-43d6-45f1-b68b-b43e6938096d",
       "workId": "song_59c0223c-7b26-4df1-a61e-39d997632a10",
       "date": "2025-08-28",
@@ -874,7 +844,7 @@
     },
     {
       "id": "perf_d8a5b1ed-99b7-4a1a-82f5-213ed9ac8b3a",
-      "workId": "song_81b5de4a-a06d-4f54-b81f-6bde62c03159",
+      "workId": "song_6ec52d5f-d9b8-46af-9e64-30ec108d4bd2",
       "date": "2025-08-28",
       "eventId": "evt_fb23880f-b113-4ac6-9621-c9adba91dabf",
       "type": "dance",
@@ -884,6 +854,10 @@
       "assets": [
         {
           "bvid": "BV1achSz9Ejh",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1oRhUzZETJ",
           "role": "performance-excerpt"
         }
       ],
@@ -905,6 +879,18 @@
           "url": "https://www.bilibili.com/video/BV1qDhUzhE45",
           "locator": "BV1qDhUzhE45",
           "excerpt": "【直播回放】【3D】爱的方程式 2025年08月28日21点场；按节目完整回放的8月28日场次日期归属；切片凌晨投稿，简介写次日，原文保留"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1oRhUzZETJ",
+          "sourceField": "title",
+          "excerpt": "【EOE露早】《Alcohol-Free》【翻跳】"
+        },
+        {
+          "file": "../evidence/history-01/videos-3546645526481422-2025-1.json",
+          "locator": "BV1oRhUzZETJ",
+          "sourceField": "descriptionExcerpt",
+          "excerpt": "https://live.bilibili.com/25512443/\n直播日期：2025年08月28日\n露早【爱的方程式】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/"
         }
       ]
     }

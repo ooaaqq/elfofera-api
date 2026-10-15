@@ -19,6 +19,10 @@
         {
           "bvid": "BV1Bi421Y7yU",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1fT421r7VJ",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -33,6 +37,13 @@
           "locator": "BV1Bi421Y7yU",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月02日\n虞莫【今天是美妆博主】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504409"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1fT421r7VJ",
+          "locator": "BV1fT421r7VJ",
+          "sourceField": "title + description",
+          "excerpt": "『知否知否』“应是绿肥红瘦”【虞莫翻唱】；直播日期：2024年7月2日\n直播标题：【3D】今天是美妆博主\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -1521,6 +1532,13 @@
         {
           "bvid": "BV1i2421Z7Tp",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1pU411S7FD",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            3
+          ]
         }
       ],
       "evidence": [
@@ -1535,6 +1553,15 @@
           "locator": "BV1i2421Z7Tp",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月18日\n虞莫 L2D【当只小猫玩玩~】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1pU411S7FD?p=3",
+          "locator": "BV1pU411S7FD:P3",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "性感小茄猫~喵~【翻唱合集】；直播日期：2024年7月18日\n直播标题：【2D】当只小猫玩玩~~\n直播源: https://live.bilibili.com/25512485/；P3 雨爱",
+          "partNumber": 3,
+          "contentId": 1619682014
         }
       ]
     },
@@ -1551,6 +1578,13 @@
         {
           "bvid": "BV1i2421Z7Tp",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1pU411S7FD",
+          "role": "performance-excerpt",
+          "partNumbers": [
+            2
+          ]
         }
       ],
       "evidence": [
@@ -1565,6 +1599,15 @@
           "locator": "BV1i2421Z7Tp",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月18日\n虞莫 L2D【当只小猫玩玩~】直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/18750"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1pU411S7FD?p=2",
+          "locator": "BV1pU411S7FD:P2",
+          "sourceField": "title + description + pages[].part",
+          "excerpt": "性感小茄猫~喵~【翻唱合集】；直播日期：2024年7月18日\n直播标题：【2D】当只小猫玩玩~~\n直播源: https://live.bilibili.com/25512485/；P2 不被祝福的幸福",
+          "partNumber": 2,
+          "contentId": 1619681628
         }
       ]
     },
@@ -2591,6 +2634,10 @@
         {
           "bvid": "BV1NW42197uc",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1tT42167aQ",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2605,6 +2652,13 @@
           "locator": "BV1NW42197uc",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1tT42167aQ",
+          "locator": "BV1tT42167aQ",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】Q&A；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -2651,6 +2705,10 @@
         {
           "bvid": "BV1Hm42137iC",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV15r421M7Pr",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2665,6 +2723,13 @@
           "locator": "BV1Hm42137iC",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV15r421M7Pr",
+          "locator": "BV15r421M7Pr",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】One More Last Time；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -2681,6 +2746,10 @@
         {
           "bvid": "BV1L142187Bi",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1pE4m1d7nH",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2695,6 +2764,13 @@
           "locator": "BV1L142187Bi",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1pE4m1d7nH",
+          "locator": "BV1pE4m1d7nH",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】战狼演唱『Never Let Go』；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -2711,6 +2787,10 @@
         {
           "bvid": "BV1sx4y1s7m8",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Mm42137ZG",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2725,6 +2805,13 @@
           "locator": "BV1sx4y1s7m8",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Mm42137ZG",
+          "locator": "BV1Mm42137ZG",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】Hotpink；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -2741,6 +2828,10 @@
         {
           "bvid": "BV1xE421w7Eq",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1nE4m1d71K",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2755,6 +2846,13 @@
           "locator": "BV1xE421w7Eq",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1nE4m1d71K",
+          "locator": "BV1nE4m1d71K",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】我的秘密；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -2831,6 +2929,10 @@
         {
           "bvid": "BV1FS42197ko",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Yz421B7dw",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2845,6 +2947,13 @@
           "locator": "BV1FS42197ko",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Yz421B7dw",
+          "locator": "BV1Yz421B7dw",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】ABCD；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -2861,6 +2970,10 @@
         {
           "bvid": "BV1tw4m1k7qt",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV11i421671y",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2875,6 +2988,13 @@
           "locator": "BV1tw4m1k7qt",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV11i421671y",
+          "locator": "BV11i421671y",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】行走的鱼；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -2888,6 +3008,10 @@
       "assets": [
         {
           "bvid": "BV1RW421X7gA",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1XE4m1R7Vi",
           "role": "performance-excerpt"
         }
       ],
@@ -2903,6 +3027,13 @@
           "locator": "BV1RW421X7gA",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512465/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1XE4m1R7Vi",
+          "locator": "BV1XE4m1R7Vi",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】向云端；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -2919,6 +3050,10 @@
         {
           "bvid": "BV1Mi421a78B",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV191421474J",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2933,6 +3068,13 @@
           "locator": "BV1Mi421a78B",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV191421474J",
+          "locator": "BV191421474J",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】Midas Touch；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -2949,6 +3091,10 @@
         {
           "bvid": "BV1Yz421i7mi",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1GU411S7oY",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2963,6 +3109,13 @@
           "locator": "BV1Yz421i7mi",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1GU411S7oY",
+          "locator": "BV1GU411S7oY",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】SMILEY；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -2979,6 +3132,10 @@
         {
           "bvid": "BV1F4421S7Yc",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV16M4m1y7Qb",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -2993,6 +3150,13 @@
           "locator": "BV1F4421S7Yc",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512465/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV16M4m1y7Qb",
+          "locator": "BV16M4m1y7Qb",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】如果可以；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -3009,6 +3173,10 @@
         {
           "bvid": "BV1om421g7eF",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV15E4m1d7ca",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -3023,6 +3191,13 @@
           "locator": "BV1om421g7eF",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512465/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV15E4m1d7ca",
+          "locator": "BV15E4m1d7ca",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】Rooftop；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -3036,6 +3211,10 @@
       "assets": [
         {
           "bvid": "BV1pn4y1f7it",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV19E4m1R73U",
           "role": "performance-excerpt"
         }
       ],
@@ -3051,6 +3230,13 @@
           "locator": "BV1pn4y1f7it",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV19E4m1R73U",
+          "locator": "BV19E4m1R73U",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】Girls Never Die；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -3059,13 +3245,17 @@
       "workId": "song_252d8ac1-14c6-4f8f-8287-e95165b3b57d",
       "date": "2024-07-28",
       "eventId": "evt_d5b36a98-036b-47d4-9cc7-6cbf2cfa046b",
-      "type": "singing",
+      "type": "singing-and-dance",
       "creditedMembers": [
         "yumo"
       ],
       "assets": [
         {
           "bvid": "BV12i42167Qj",
+          "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1hr421K7SQ",
           "role": "performance-excerpt"
         }
       ],
@@ -3081,6 +3271,13 @@
           "locator": "BV12i42167Qj",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1hr421K7SQ",
+          "locator": "BV1hr421K7SQ",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】唱跳！帅气又妩媚的『Mr.Mr』；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -3127,6 +3324,10 @@
         {
           "bvid": "BV1rz421i7wB",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1oE421w7wF",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -3141,6 +3342,13 @@
           "locator": "BV1rz421i7wB",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512465/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1oE421w7wF",
+          "locator": "BV1oE421w7wF",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】心灵之蛋（守护甜心）；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },
@@ -3157,6 +3365,10 @@
         {
           "bvid": "BV1fw4m1k79v",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1Ex4y147Ry",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -3171,6 +3383,13 @@
           "locator": "BV1fw4m1k79v",
           "sourceField": "descriptionExcerpt",
           "excerpt": "https://live.bilibili.com/25512485/\n直播日期：2024年07月28日\n虞莫【生日演唱会】奇迹夏天 直播剪辑\n--------------------------------------------------------\n剪辑：剪辑工具人\n时轴：时轴工具人\n封面：封面工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Ex4y147Ry",
+          "locator": "BV1Ex4y147Ry",
+          "sourceField": "title + description",
+          "excerpt": "【虞莫生日会】“亲爱的 你知道我有多爱你”『Wonderful u』；直播日期：2024年7月28日\n直播标题：【生日演唱会】奇迹夏天\n直播源: https://live.bilibili.com/25512485/"
         }
       ]
     },

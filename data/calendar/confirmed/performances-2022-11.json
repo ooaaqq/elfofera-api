@@ -715,6 +715,10 @@
         {
           "bvid": "BV11G411w7dR",
           "role": "performance-excerpt"
+        },
+        {
+          "bvid": "BV1qG411w7ZE",
+          "role": "performance-excerpt"
         }
       ],
       "evidence": [
@@ -729,9 +733,20 @@
           "locator": "BV11G411w7dR",
           "sourceField": "descriptionExcerpt",
           "excerpt": "直播日期：2022年11月10日\nEOE组合团播【看看首播的___时刻】 直播剪辑\n--------------------------------------------------------\n剪辑：柚恩有点甜\n时轴：白酒酿子\n封面：大盗魔理沙\n--------------------------------------------------------\n莞儿@莞儿睡不醒   ：https://space.bilibili.com/1875044092/\n露早@露早GOGO   ：https://s"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1qG411w7ZE",
+          "locator": "BV1qG411w7ZE",
+          "sourceField": "title + description",
+          "excerpt": "11.10 EOE团播 虞莫/柚恩/莞儿 动感翻唱《Super Star》 4K；直播日期：2022年11月10日\n直播标题：3D【看看首播的__时刻】\n直播源：https://live.bilibili.com/25512501/\n————————————————————————————\n@虞莫MOMO  \n直播间：https://live.bilibili.com/25512485/\n个人主页：https://space.bilibili.com/1811071010/\n@柚恩不加糖  \n直播间：https://live.bilibili.com/25512501/\n个人主页：https://space.bilibili.com/1795147802/\n@露早GOGO  \n直播间：https://live.bilibili.com/25512443/\n个人主页：https://space.bilibili.com/1669777785/\n@米诺高分少女  \n直播间：https://live.bilibili.com/25512465/\n个人主页：https://space.bilibili.com/1778026586/\n@莞儿睡不醒  \n直播间：https://live.bilibili.com/25512476/\n个人主页：https://space.bilibili.com/1875044092/\n————————————————————————————\n【歌舞切片组】\n封面制作： @梁心design  \n打杂：报叔"
         }
       ],
-      "creditedGroup": "EOE"
+      "creditedMembers": [
+        "youen",
+        "yumo",
+        "waner"
+      ]
     },
     {
       "id": "perf_485c85ad-4326-422c-95da-fe83f8fd02ab",
@@ -1869,7 +1884,17 @@
           "locator": "BV1W44y1X7z6/parts/1",
           "sourceField": "title",
           "excerpt": "小缘查房莞儿直播间虚空合唱《不得不爱》"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1W44y1X7z6",
+          "locator": "BV1W44y1X7z6",
+          "sourceField": "title + named compilation parts",
+          "excerpt": "小缘查房莞儿直播间虚空合唱《不得不爱》；采用明确成员署名或五人演出说明；只有组合署名时保留creditedGroup=EOE，不展开五名成员。"
         }
+      ],
+      "creditedMembers": [
+        "waner"
       ]
     },
     {
@@ -3223,6 +3248,31 @@
       ],
       "creditedMembers": [
         "youen"
+      ]
+    },
+    {
+      "id": "perf_1d2902b6-0f6b-4c97-96c7-34a36f3b7100",
+      "workId": "song_1d31a4e7-4dcc-413e-b444-0360963bd8bc",
+      "date": "2022-11-20",
+      "eventId": "evt_641525b8-8ec5-459c-8997-f3cd1db60433",
+      "type": "singing",
+      "creditedMembers": [
+        "yumo"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1UM411C7H3",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1UM411C7H3",
+          "locator": "BV1UM411C7H3",
+          "sourceField": "title + description",
+          "excerpt": "11.20 虞莫MOMO电台回 温情翻唱《黄昏晓》；直播日期：2022年11月20日\n直播标题：电台【看看大家的二创】\n直播源：https://live.bilibili.com/25512485/\n————————————————————————————\n﻿@虞莫MOMO  \n直播间：https://live.bilibili.com/25512485/\n个人主页：https://space.bilibili.com/1811071010/\n————————————————————————————\n【歌舞切片组】\n打杂：报叔"
+        }
       ]
     }
   ]

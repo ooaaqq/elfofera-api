@@ -536,7 +536,8 @@
       "title": "菜",
       "occurrence": "recording-attested",
       "recordingNamedMembers": [
-        "youen"
+        "youen",
+        "luzao"
       ],
       "titleHours": [
         19
@@ -549,6 +550,14 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1wgcoe4EZC"
           }
+        },
+        {
+          "bvid": "BV1Y3cZeyEqt",
+          "relation": "alternate-version"
+        },
+        {
+          "bvid": "BV13HwwesEin",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1wgcoe4EZC",
@@ -557,6 +566,26 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1wgcoe4EZC"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Y3cZeyEqt",
+            "locator": "BV1Y3cZeyEqt",
+            "excerpt": "露早&柚恩 2025.1.17 【速！!】【直播录像】【2D】；分P录制时间19:29、时长9272秒，与本场官方回放9282秒对应；露早和柚恩双人署名，不新建第二场。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV13HwwesEin",
+            "locator": "BV13HwwesEin",
+            "excerpt": "【EOE】露早2D 2025.01.17 速！!【直播录像】；分P录制时间19:29、时长9272秒，与本场官方回放9282秒对应；露早和柚恩双人署名，不新建第二场。"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Y3cZeyEqt",
+            "locator": "BV1Y3cZeyEqt",
+            "excerpt": "露早&柚恩 2025.1.17 【速！!】【直播录像】【2D】；录播明确署名露早&柚恩。"
           }
         ]
       },
@@ -584,6 +613,10 @@
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1ujwTeAEe7"
           }
+        },
+        {
+          "bvid": "BV15MwTeBEGj",
+          "relation": "alternate-version"
         }
       ],
       "preferredRecordingBvid": "BV1ujwTeAEe7",
@@ -592,6 +625,12 @@
           {
             "file": "../evidence/history-01/series-1795147802.json",
             "locator": "BV1ujwTeAEe7"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV15MwTeBEGj",
+            "locator": "BV15MwTeBEGj",
+            "excerpt": "【柚恩直播录播】【电台】2025.01.18 【突】晚安电台；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
           }
         ]
       },
@@ -1340,6 +1379,106 @@
         "luzao"
       ],
       "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_c7869e32-13d2-56e9-8984-a7f06de3593f",
+      "date": "2025-01-03",
+      "kind": "livestream",
+      "title": "我再也离不开少女乐队了",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1KBr7YKENi",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1KBr7YKENi",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1KBr7YKENi",
+            "locator": "BV1KBr7YKENi",
+            "excerpt": "【柚恩直播录播】【2D】2025.01.03 我再也离不开少女乐队了；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_c79b0a02-04f4-5d63-920e-6c2e34d16e6e",
+      "date": "2025-01-07",
+      "kind": "livestream",
+      "title": "学习剪辑技巧和组乐队的知识",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "recordings": [
+        {
+          "bvid": "BV1fWrqYjE3s",
+          "relation": "primary-evidence"
+        }
+      ],
+      "preferredRecordingBvid": "BV1fWrqYjE3s",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fWrqYjE3s",
+            "locator": "BV1fWrqYjE3s",
+            "excerpt": "【EOE】柚恩2D 2025.01.07 学习剪辑技巧和组乐队的知识【直播录像】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_1a05803e-ff25-549a-b4a4-a81390e81b92",
+      "date": "2025-01-28",
+      "kind": "livestream",
+      "title": "除夕快乐！！",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": true,
+      "recordings": [
+        {
+          "bvid": "BV1cbFsecEpo",
+          "relation": "primary-evidence"
+        },
+        {
+          "bvid": "BV11tFMedEqz",
+          "relation": "alternate-version"
+        }
+      ],
+      "preferredRecordingBvid": "BV1cbFsecEpo",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1cbFsecEpo",
+            "locator": "BV1cbFsecEpo",
+            "excerpt": "露早 2025.1.28 【除夕快乐！！】【直播录像】【突击电台】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV11tFMedEqz",
+            "locator": "BV11tFMedEqz",
+            "excerpt": "【EOE】露早 电台 2025.01.28 除夕快乐！！【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+          }
+        ]
+      }
     }
   ]
 }

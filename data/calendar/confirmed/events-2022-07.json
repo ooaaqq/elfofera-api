@@ -660,6 +660,15 @@
             "file": "../evidence/round-02-recordings-2022-07.json",
             "locator": "BV1WB4y1k7dM"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1PB4y1b7dK",
+            "locator": "BV1PB4y1b7dK",
+            "sourceField": "title + description",
+            "excerpt": "【补档】7.24 EOE首次团播 虞莫MOMO翻唱《不值得》4K；直播日期：2022年7月24日\n直播标题：3D【EOE组合首播】；切片署名证明这些成员实际出现，不表示完整参与名单。"
+          }
         ]
       },
       "kind": "livestream",
@@ -685,7 +694,10 @@
       "preferredRecordingBvid": "BV1WB4y1k7dM",
       "contentType": "special",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "yumo"
+      ]
     },
     {
       "id": "evt_eac8f549-9441-42e3-82f1-64602168ea8f",
@@ -1411,6 +1423,14 @@
             "file": "../evidence/round-02-recordings-2022-07.json",
             "locator": "BV1RY4y1A7zo"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1nY4y1P7bB",
+            "locator": "BV1nY4y1P7bB",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          }
         ]
       },
       "titleAlternatives": [
@@ -1427,7 +1447,10 @@
       "preferredRecordingBvid": "BV1RY4y1A7zo",
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "waner"
+      ]
     },
     {
       "id": "evt_8c185c58-3635-456c-aebb-b17c97407a29",
@@ -1511,13 +1534,25 @@
             "file": "../evidence/round-02-recordings-2022-07.json",
             "locator": "BV1pe4y1X77E"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1rU4y1v7xb",
+            "locator": "BV1rU4y1v7xb",
+            "sourceField": "title + description",
+            "excerpt": "【补档】7.28 虞莫MOMO首次单播 翻唱《梦的光点》；直播日期：2022年7月28日\n直播标题：3D【HEY BOY】；切片署名证明这些成员实际出现，不表示完整参与名单。"
+          }
         ]
       },
       "kind": "livestream",
       "preferredRecordingBvid": "BV1pe4y1X77E",
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "yumo"
+      ]
     },
     {
       "id": "evt_9cf74abf-1139-4ee5-ac24-b08b868a8cf0",
@@ -1702,13 +1737,48 @@
             "file": "../evidence/round-02-recordings-2022-07.json",
             "locator": "BV1Ka411S7NW"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1sr4y1j7Pi",
+            "locator": "BV1sr4y1j7Pi",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1VY4y1P7VC",
+            "locator": "BV1VY4y1P7VC",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1vd4y1K711",
+            "locator": "BV1vd4y1K711",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1bB4y1b7pv",
+            "locator": "BV1bB4y1b7pv",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1oB4y1t7DE",
+            "locator": "BV1oB4y1t7DE",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          }
         ]
       },
       "kind": "livestream",
       "preferredRecordingBvid": "BV1Ka411S7NW",
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "luzao"
+      ]
     },
     {
       "id": "evt_aa35a492-b326-40a4-801e-ea0b7832a047",
@@ -1792,13 +1862,42 @@
             "file": "../evidence/round-02-recordings-2022-07.json",
             "locator": "BV1za411T7Ly"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1ut4y1V7oM",
+            "locator": "BV1ut4y1V7oM",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1JU4y1v79V",
+            "locator": "BV1JU4y1v79V",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1994y1D7X7",
+            "locator": "BV1994y1D7X7",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1qd4y1K7xh",
+            "locator": "BV1qd4y1K7xh",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          }
         ]
       },
       "kind": "livestream",
       "preferredRecordingBvid": "BV1za411T7Ly",
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "minuo"
+      ]
     },
     {
       "id": "evt_5a82a8df-e3cc-4d50-89e2-93fd91f4d001",
@@ -2080,13 +2179,52 @@
             "file": "../evidence/round-02-recordings-2022-07.json",
             "locator": "BV1Wa411N7PT"
           }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1YU4y1Y7e9",
+            "locator": "BV1YU4y1Y7e9",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV19G4y1e7Ra",
+            "locator": "BV19G4y1e7Ra",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Sa411N7hb",
+            "locator": "BV1Sa411N7hb",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1EY4y1w7dz",
+            "locator": "BV1EY4y1w7dz",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          },
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1CG411h78X",
+            "locator": "BV1CG411h78X",
+            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+          }
         ]
       },
       "kind": "livestream",
       "preferredRecordingBvid": "BV1Wa411N7PT",
       "contentType": "unknown",
       "dimension": "3d",
-      "isUnannounced": false
+      "isUnannounced": false,
+      "recordingNamedMembers": [
+        "luzao",
+        "minuo",
+        "waner",
+        "youen",
+        "yumo"
+      ]
     },
     {
       "id": "evt_fe033a29-936e-4b89-b380-af77075d2b77",
