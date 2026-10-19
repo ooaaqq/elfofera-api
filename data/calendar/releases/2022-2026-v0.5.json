@@ -3,10 +3,10 @@
   "status": "ready-for-publish-with-accepted-source-gaps",
   "scope": {
     "from": "2022-07-19",
-    "through": "2026-10-18",
+    "through": "2026-10-25",
     "timeZone": "Asia/Shanghai"
   },
-  "sourceBoundary": "确认事件与录播覆盖至2026-10-14，官方周表计划覆盖至2026-10-18；计划与实际事件分别保存，不将预告当作已发生。确认数据不宣称全部历史内容零遗漏。",
+  "sourceBoundary": "确认事件与录播覆盖至2026-10-18，10月19日已发布的官方周表计划按图片覆盖至2026-10-25；计划与实际事件分别保存，不将预告当作已发生。确认数据不宣称全部历史内容零遗漏。",
   "counts": {
     "byYear": {
       "2022": {
@@ -30,18 +30,18 @@
         "recordings": 1215
       },
       "2026": {
-        "events": 377,
-        "performances": 345,
-        "recordings": 734
+        "events": 388,
+        "performances": 346,
+        "recordings": 738
       }
     },
     "total": {
-      "events": 3113,
-      "performances": 3684,
-      "recordings": 4523,
-      "confirmedWorks": 1928,
-      "plans": 1532,
-      "scheduleChanges": 144
+      "events": 3124,
+      "performances": 3685,
+      "recordings": 4527,
+      "confirmedWorks": 1929,
+      "plans": 1539,
+      "scheduleChanges": 145
     }
   },
   "completion": {
@@ -129,7 +129,7 @@
     {
       "category": "source-boundary",
       "items": [
-        "官方周表计划至2026-10-18；资料只代表当前确认范围，未发生计划不算直播。其他实质歧义保留在本地复核表。"
+        "官方周表图片计划至2026-10-25；10月19日预定场次尚未取得实际发生证据，保留为计划。资料只代表当前确认范围，其他实质歧义保留在本地复核表。"
       ]
     }
   ],
@@ -341,7 +341,7 @@
     },
     {
       "file": "confirmed/events-2026-10.json",
-      "sha256": "311cbdc50aa9466104b434d683ce3c728f213326969f6531181125bc51105678"
+      "sha256": "d2409dad9b517da23eb6e41ad2fe9674712140a1f63e6307ae1d38a8fe9ef6e4"
     },
     {
       "file": "confirmed/events.json",
@@ -553,11 +553,11 @@
     },
     {
       "file": "confirmed/performances-2026-10.json",
-      "sha256": "5b4dbc762f3dbbee1f294b6bba68e367586e2a3348f7f2ec5e00a003a18d2e8c"
+      "sha256": "b29e5d91f035b9591ee85bf37adaef3436b3c5dc2476c632e0e80449fb54d313"
     },
     {
       "file": "confirmed/plans.json",
-      "sha256": "0cad7fa92dc55dd8faeaa1788f727aae97e4b35efe09157d7b3a222ef2b8533c"
+      "sha256": "849ce0c42feacd9f3d966d2286c17f98fb0560bb106330ad084089f105578821"
     },
     {
       "file": "confirmed/recording-versions-2022-07.json",
@@ -581,7 +581,7 @@
     },
     {
       "file": "confirmed/recordings-2026.json",
-      "sha256": "e3246e6fdf86444e60e9202b12e5c633b39e4dfa946f814992f09f4facd92ee6"
+      "sha256": "927cdfde0731a00d6f81b79c448d7bbdb73313cff7516f1019b6f3c7bdbdd828"
     },
     {
       "file": "confirmed/recordings.json",
@@ -729,14 +729,14 @@
     },
     {
       "file": "confirmed/schedule-changes-2026-10.json",
-      "sha256": "e6b5cee223ec772ddc075307bdd395076eadb034fb3c895613a398d95a703817"
+      "sha256": "53333168f75a292a315d0f4356523e0da8092ad5ed9673b41e537c994aa5d3ef"
     },
     {
       "file": "confirmed/songs.json",
-      "sha256": "3759d4dd2b5b5fbb5d53e90627bfe26e1071dfa69fdd1399a7c6e34f9fc7e54a"
+      "sha256": "e47a721eaa7836ec6779d875e41042f965ce3cae84d9d67bea9a24ac99f61828"
     }
   ],
-  "generatedAt": "2026-10-12T09:56:41.495549+00:00",
+  "generatedAt": "2026-10-19T04:11:00.486Z",
   "inputFiles": [
     {
       "file": "confirmed/README.md",
@@ -948,7 +948,7 @@
     },
     {
       "file": "confirmed/events-2026-10.json",
-      "sha256": "311cbdc50aa9466104b434d683ce3c728f213326969f6531181125bc51105678"
+      "sha256": "d2409dad9b517da23eb6e41ad2fe9674712140a1f63e6307ae1d38a8fe9ef6e4"
     },
     {
       "file": "confirmed/events.json",
@@ -1160,11 +1160,11 @@
     },
     {
       "file": "confirmed/performances-2026-10.json",
-      "sha256": "5b4dbc762f3dbbee1f294b6bba68e367586e2a3348f7f2ec5e00a003a18d2e8c"
+      "sha256": "b29e5d91f035b9591ee85bf37adaef3436b3c5dc2476c632e0e80449fb54d313"
     },
     {
       "file": "confirmed/plans.json",
-      "sha256": "0cad7fa92dc55dd8faeaa1788f727aae97e4b35efe09157d7b3a222ef2b8533c"
+      "sha256": "849ce0c42feacd9f3d966d2286c17f98fb0560bb106330ad084089f105578821"
     },
     {
       "file": "confirmed/recording-versions-2022-07.json",
@@ -1188,7 +1188,7 @@
     },
     {
       "file": "confirmed/recordings-2026.json",
-      "sha256": "e3246e6fdf86444e60e9202b12e5c633b39e4dfa946f814992f09f4facd92ee6"
+      "sha256": "927cdfde0731a00d6f81b79c448d7bbdb73313cff7516f1019b6f3c7bdbdd828"
     },
     {
       "file": "confirmed/recordings.json",
@@ -1336,8 +1336,8 @@
     },
     {
       "file": "confirmed/songs.json",
-      "sha256": "3759d4dd2b5b5fbb5d53e90627bfe26e1071dfa69fdd1399a7c6e34f9fc7e54a"
+      "sha256": "e47a721eaa7836ec6779d875e41042f965ce3cae84d9d67bea9a24ac99f61828"
     }
   ],
-  "updatedAt": "2026-10-15"
+  "updatedAt": "2026-10-19"
 }

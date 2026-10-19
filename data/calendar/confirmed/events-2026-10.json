@@ -851,6 +851,49 @@
       "isUnannounced": false
     },
     {
+      "id": "evt_6ad688fe-d9bd-4e58-aa55-7b16a42e0117",
+      "date": "2026-10-11",
+      "kind": "publication",
+      "subtype": "program-video",
+      "title": "I feel like Nicole~",
+      "publishedAt": "2026-10-11T04:04:46.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV1Prp76UEi8",
+          "role": "publication-link",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Prp76UEi8",
+            "locator": "BV1Prp76UEi8",
+            "sourceField": "title",
+            "excerpt": "I feel like Nicole~"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Prp76UEi8",
+            "locator": "BV1Prp76UEi8",
+            "sourceField": "pubdate",
+            "excerpt": "2026-10-11T04:04:46.000Z"
+          }
+        ],
+        "title": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1Prp76UEi8",
+            "locator": "BV1Prp76UEi8",
+            "sourceField": "title",
+            "excerpt": "I feel like Nicole~"
+          }
+        ]
+      },
+      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+    },
+    {
       "id": "evt_85a4b770-16fd-4d73-bef1-b6a977de65c6",
       "date": "2026-10-12",
       "kind": "announcement",
@@ -1159,6 +1202,546 @@
         "youen"
       ],
       "plannedTime": "20:50"
+    },
+    {
+      "id": "evt_30ed5239-0ab5-4e5a-a70d-87ba7160a8a4",
+      "date": "2026-10-15",
+      "kind": "livestream",
+      "title": "敏感or钝感？",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "titleHours": [
+        18
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1LPJm6yEgW",
+          "relation": "primary-evidence",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1LPJm6yEgW",
+            "locator": "BV1LPJm6yEgW",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【3D】敏感or钝感？ 2026年10月15日18点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1LPJm6yEgW",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1LPJm6yEgW",
+            "locator": "BV1LPJm6yEgW",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【3D】敏感or钝感？ 2026年10月15日18点场"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1NyJ26tEWq",
+            "locator": "BV1NyJ26tEWq",
+            "sourceField": "title + description",
+            "excerpt": "【露早＆柚恩】2026.10.15 敏感or钝感？【直播录像】【3D】；直播日期：2026.10.15"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258164285900587029",
+            "dynamicId": "1258164285900587029",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao",
+        "youen"
+      ],
+      "plannedTime": "19:00"
+    },
+    {
+      "id": "evt_4c4f25e9-4d53-4841-983b-4f9db7e8ca6e",
+      "date": "2026-10-16",
+      "kind": "livestream",
+      "title": "新三：百分之百清冷美人",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1yhJ46vEPx",
+          "relation": "primary-evidence",
+          "partNumbers": [
+            1,
+            2
+          ],
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1yhJ46vEPx",
+            "locator": "BV1yhJ46vEPx",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】新三：百分之百清冷美人 2026年10月16日19点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1yhJ46vEPx",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1yhJ46vEPx",
+            "locator": "BV1yhJ46vEPx",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】新三：百分之百清冷美人 2026年10月16日19点场"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1yhJ46vEPx",
+            "locator": "BV1yhJ46vEPx",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】新三：百分之百清冷美人 2026年10月16日19点场"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258164285900587029",
+            "dynamicId": "1258164285900587029",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "19:30",
+      "series": "看新三国"
+    },
+    {
+      "id": "evt_e68416f4-a2f1-465c-a0a3-ccd6cffb3775",
+      "date": "2026-10-16",
+      "kind": "publication",
+      "subtype": "program-video",
+      "title": "我是主人 这家伙是…",
+      "publishedAt": "2026-10-16T11:13:56.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV1mmJt6kEut",
+          "role": "publication-link",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1mmJt6kEut",
+            "locator": "BV1mmJt6kEut",
+            "sourceField": "title",
+            "excerpt": "我是主人 这家伙是…"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1mmJt6kEut",
+            "locator": "BV1mmJt6kEut",
+            "sourceField": "pubdate",
+            "excerpt": "2026-10-16T11:13:56.000Z"
+          }
+        ],
+        "title": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1mmJt6kEut",
+            "locator": "BV1mmJt6kEut",
+            "sourceField": "title",
+            "excerpt": "我是主人 这家伙是…"
+          }
+        ]
+      },
+      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+    },
+    {
+      "id": "evt_9fea49ec-5485-4f73-9a96-29f957fd89f1",
+      "date": "2026-10-16",
+      "kind": "publication",
+      "subtype": "program-video",
+      "title": "谁说这软脚虾不好的，可太好了👋",
+      "text": "不会真的只有我开出软脚虾吧（ * O д O * ）",
+      "publishedAt": "2026-10-16T11:16:11.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV14mJt6CEsH",
+          "role": "publication-link",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV14mJt6CEsH",
+            "locator": "BV14mJt6CEsH",
+            "sourceField": "title",
+            "excerpt": "谁说这软脚虾不好的，可太好了👋"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV14mJt6CEsH",
+            "locator": "BV14mJt6CEsH",
+            "sourceField": "pubdate",
+            "excerpt": "2026-10-16T11:16:11.000Z"
+          }
+        ],
+        "title": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV14mJt6CEsH",
+            "locator": "BV14mJt6CEsH",
+            "sourceField": "title",
+            "excerpt": "谁说这软脚虾不好的，可太好了👋"
+          }
+        ]
+      },
+      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+    },
+    {
+      "id": "evt_d1b9b6d1-213a-460d-af47-d35918539f98",
+      "date": "2026-10-17",
+      "kind": "livestream",
+      "title": "铸天下第一剑",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1QLJB6LE4z",
+          "relation": "primary-evidence",
+          "partNumbers": [
+            1,
+            2
+          ],
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1QLJB6LE4z",
+            "locator": "BV1QLJB6LE4z",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】铸天下第一剑 2026年10月17日19点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1QLJB6LE4z",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1QLJB6LE4z",
+            "locator": "BV1QLJB6LE4z",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】铸天下第一剑 2026年10月17日19点场"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1QLJB6LE4z",
+            "locator": "BV1QLJB6LE4z",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】铸天下第一剑 2026年10月17日19点场"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258164285900587029",
+            "dynamicId": "1258164285900587029",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+          }
+        ]
+      },
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "youen"
+      ],
+      "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_4cfb4f58-8773-4e46-b262-64f0a57016bb",
+      "date": "2026-10-17",
+      "kind": "publication",
+      "subtype": "program-video",
+      "title": "这下对了^ ^",
+      "publishedAt": "2026-10-17T10:53:45.000Z",
+      "occurrence": "published",
+      "assets": [
+        {
+          "bvid": "BV1fBJi6DEkE",
+          "role": "publication-link",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fBJi6DEkE",
+            "locator": "BV1fBJi6DEkE",
+            "sourceField": "title",
+            "excerpt": "这下对了^ ^"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fBJi6DEkE",
+            "locator": "BV1fBJi6DEkE",
+            "sourceField": "pubdate",
+            "excerpt": "2026-10-17T10:53:45.000Z"
+          }
+        ],
+        "title": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fBJi6DEkE",
+            "locator": "BV1fBJi6DEkE",
+            "sourceField": "title",
+            "excerpt": "这下对了^ ^"
+          }
+        ]
+      },
+      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+    },
+    {
+      "id": "evt_0af4d36d-03f8-4301-91c5-f88c31afae68",
+      "date": "2026-10-18",
+      "kind": "livestream",
+      "title": "萌妹过生日（5岁）",
+      "occurrence": "recording-attested",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "titleHours": [
+        19
+      ],
+      "recordings": [
+        {
+          "bvid": "BV1GonG6LE2d",
+          "relation": "primary-evidence",
+          "partNumbers": [
+            1,
+            2,
+            3
+          ],
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1GonG6LE2d",
+            "locator": "BV1GonG6LE2d",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】萌妹过生日（5岁） 2026年10月18日19点场"
+          }
+        }
+      ],
+      "preferredRecordingBvid": "BV1GonG6LE2d",
+      "evidence": {
+        "recordings": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1GonG6LE2d",
+            "locator": "BV1GonG6LE2d",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】萌妹过生日（5岁） 2026年10月18日19点场"
+          }
+        ],
+        "recordingNamedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1GonG6LE2d",
+            "locator": "BV1GonG6LE2d",
+            "sourceField": "title",
+            "excerpt": "【直播回放】【2D】萌妹过生日（5岁） 2026年10月18日19点场"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1258164285900587029",
+            "dynamicId": "1258164285900587029",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+          },
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1260457542856736773",
+            "dynamicId": "1260457542856736773",
+            "excerpt": "直播预约：【2D】萌妹过生日（5岁）；10-18 19:30 直播"
+          }
+        ]
+      },
+      "contentType": "celebration",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedMembers": [
+        "luzao"
+      ],
+      "plannedTime": "19:30"
+    },
+    {
+      "id": "evt_99588694-ee24-4d36-9b35-80b75b9bfe33",
+      "date": "2026-10-18",
+      "kind": "publication",
+      "subtype": "cover-video",
+      "title": "顶级清冷美人音『茶汤』翻唱",
+      "text": "翻唱了最近很有人气的一首经典歌曲，希望蜜宝喜欢\n\n原曲：《茶汤》-郁可唯\n翻唱：柚恩",
+      "publishedAt": "2026-10-18T03:30:00.000Z",
+      "occurrence": "published",
+      "creditedMembers": [
+        "youen"
+      ],
+      "relatedWorks": [
+        "song_0245ad3d-d98e-429a-a15b-f841af9dd4d8"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1fJJq6XE3v",
+          "role": "publication-link",
+          "source": {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
+            "locator": "BV1fJJq6XE3v",
+            "sourceField": "title",
+            "excerpt": "顶级清冷美人音『茶汤』翻唱"
+          }
+        }
+      ],
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
+            "locator": "BV1fJJq6XE3v",
+            "sourceField": "pubdate",
+            "excerpt": "2026-10-18T03:30:00.000Z"
+          }
+        ],
+        "title": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
+            "locator": "BV1fJJq6XE3v",
+            "sourceField": "title",
+            "excerpt": "顶级清冷美人音『茶汤』翻唱"
+          }
+        ],
+        "relatedWorks": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
+            "locator": "BV1fJJq6XE3v",
+            "sourceField": "title + description",
+            "excerpt": "顶级清冷美人音『茶汤』翻唱；原曲：《茶汤》-郁可唯；翻唱：柚恩"
+          }
+        ],
+        "creditedMembers": [
+          {
+            "kind": "bilibili-video",
+            "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
+            "locator": "BV1fJJq6XE3v",
+            "sourceField": "title + description",
+            "excerpt": "顶级清冷美人音『茶汤』翻唱；原曲：《茶汤》-郁可唯；翻唱：柚恩"
+          }
+        ]
+      },
+      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+    },
+    {
+      "id": "evt_17447669-9f91-4317-ac33-811fe3f77c6d",
+      "date": "2026-10-18",
+      "kind": "announcement",
+      "subtype": "schedule-change",
+      "title": "露早2D生日直播因堵车延后通知",
+      "text": "延后一小会！！路上塞车！！！感谢大家！！！！[露早GOGO收藏集_拜托了]",
+      "publishedAt": "2026-10-18T11:00:18.000Z",
+      "occurrence": "announced",
+      "relatedEventId": "evt_0af4d36d-03f8-4301-91c5-f88c31afae68",
+      "announcedActivity": {
+        "date": "2026-10-18",
+        "originalPlannedTime": "19:30",
+        "members": [
+          "luzao"
+        ],
+        "formatLabel": "2D"
+      },
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1260499105291960356",
+            "dynamicId": "1260499105291960356",
+            "excerpt": "延后一小会！！路上塞车！！！感谢大家！！！！[露早GOGO收藏集_拜托了]"
+          }
+        ],
+        "text": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1260499105291960356",
+            "dynamicId": "1260499105291960356",
+            "excerpt": "延后一小会！！路上塞车！！！感谢大家！！！！[露早GOGO收藏集_拜托了]"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_72177f2e-9447-4b99-a55a-a3d557bc8215",
+      "date": "2026-10-19",
+      "kind": "announcement",
+      "subtype": "weekly-schedule",
+      "title": "EOE本周日程（10月19日—25日）",
+      "text": "按日程图片：10.19（周一）露早2D19:30；10.20（周二）柚恩2D20:00；10.21（周三）露早3D19:00、柚恩3D20:50；10.22（周四）柚恩3D19:00；10.23（周五）休息；10.24（周六）柚恩2D19:30；10.25（周日）露早2D19:30。",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "occurrence": "announced",
+      "evidence": {
+        "date": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1260761882094993416",
+            "dynamicId": "1260761882094993416",
+            "excerpt": "按日程图片：10.19（周一）露早2D19:30；10.20（周二）柚恩2D20:00；10.21（周三）露早3D19:00、柚恩3D20:50；10.22（周四）柚恩3D19:00；10.23（周五）休息；10.24（周六）柚恩2D19:30；10.25（周日）露早2D19:30。",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/c9ba992201c80f1dc01d660cd01f41662018113152.jpg"
+          }
+        ],
+        "schedule": [
+          {
+            "kind": "bilibili-dynamic",
+            "url": "https://t.bilibili.com/1260761882094993416",
+            "dynamicId": "1260761882094993416",
+            "excerpt": "按日程图片：10.19（周一）露早2D19:30；10.20（周二）柚恩2D20:00；10.21（周三）露早3D19:00、柚恩3D20:50；10.22（周四）柚恩3D19:00；10.23（周五）休息；10.24（周六）柚恩2D19:30；10.25（周日）露早2D19:30。",
+            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/c9ba992201c80f1dc01d660cd01f41662018113152.jpg"
+          }
+        ]
+      },
+      "note": "日程按官方图片读取；动态正文的日期、星期对应有误，不用于生成计划。未将预告记为实际直播。"
     }
   ]
 }

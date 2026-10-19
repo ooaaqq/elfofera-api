@@ -6,7 +6,7 @@
       "src/**",
       "test/**",
       "scripts/**",
-      "frontend/**/*.js",
+      "frontend/**/*.{js,jsx}",
       "*.{js,jsx,ts,tsx,json,jsonc}",
       "!node_modules",
       "!.local",

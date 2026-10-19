@@ -279,6 +279,46 @@
         }
       ],
       "note": "原周表时间保留；公告时间与回放标题小时不等同于精确实际开播时刻。"
+    },
+    {
+      "date": "2026-10-18",
+      "action": "delay",
+      "title": "露早2D生日直播因堵车延后通知",
+      "members": [
+        "luzao"
+      ],
+      "originalPlan": {
+        "date": "2026-10-18",
+        "restDay": false,
+        "events": [
+          {
+            "members": [
+              "luzao"
+            ],
+            "plannedTime": "19:30",
+            "formatLabel": "2D",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "dynamicId": "1258164285900587029",
+          "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        }
+      },
+      "announcementEventId": "evt_17447669-9f91-4317-ac33-811fe3f77c6d",
+      "relatedEventId": "evt_0af4d36d-03f8-4301-91c5-f88c31afae68",
+      "evidence": [
+        {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1260499105291960356",
+          "dynamicId": "1260499105291960356",
+          "excerpt": "延后一小会！！路上塞车！！！感谢大家！！！！[露早GOGO收藏集_拜托了]"
+        }
+      ],
+      "note": "公告仅说明延后一小会，未公布延后分钟数或新时间；保留原计划19:30，不推断精确实际开播时刻。"
     }
   ]
 }

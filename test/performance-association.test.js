@@ -171,7 +171,7 @@ describe("Performance associations", () => {
     ).toBe(true);
   });
 
-  it("preserves an unspecified format for a joint weekly plan without inventing a livestream", () => {
+  it("preserves the joint plan separately from the subsequently confirmed 3D recording", () => {
     const day = read("plans.json").days.find(
       (day) => day.date === "2026-10-15",
     );
@@ -183,11 +183,49 @@ describe("Performance associations", () => {
       participation: "collaboration",
       hostMember: "luzao",
     });
-    expect(
-      events.some(
-        (event) => event.date === "2026-10-15" && event.kind === "livestream",
-      ),
-    ).toBe(false);
+    const actual = events.filter(
+      (event) => event.date === "2026-10-15" && event.kind === "livestream",
+    );
+    expect(actual).toHaveLength(1);
+    expect(actual[0]).toMatchObject({
+      occurrence: "recording-attested",
+      dimension: "3d",
+      plannedTime: "19:00",
+      titleHours: [18],
+      recordingNamedMembers: ["luzao", "youen"],
+      preferredRecordingBvid: "BV1LPJm6yEgW",
+    });
+  });
+
+  it("uses the latest schedule image and requires separate evidence for actual broadcasts", () => {
+    const days = read("plans.json").days.filter(
+      (day) => day.date >= "2026-10-19" && day.date <= "2026-10-25",
+    );
+    expect(days).toHaveLength(7);
+    expect(days[0].source.imageUrl).toContain(
+      "c9ba992201c80f1dc01d660cd01f41662018113152.jpg",
+    );
+    expect(days[1].events[0]).toMatchObject({
+      members: ["youen"],
+      plannedTime: "20:00",
+      formatLabel: "2D",
+    });
+    expect(days[3].events[0]).toMatchObject({
+      members: ["youen"],
+      plannedTime: "19:00",
+      formatLabel: "3D",
+    });
+    expect(days[4]).toMatchObject({ restDay: true, events: [] });
+    for (const event of events.filter(
+      (event) =>
+        event.date >= "2026-10-19" &&
+        event.date <= "2026-10-25" &&
+        event.kind === "livestream",
+    )) {
+      expect(event.occurrence).toBe("recording-attested");
+      expect(event.preferredRecordingBvid).toBeTruthy();
+      expect(event.evidence.recordings.length).toBeGreaterThan(0);
+    }
   });
 
   it("uses the revised weekly image while retaining the original weekend plans", () => {
