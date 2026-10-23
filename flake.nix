@@ -1,5 +1,5 @@
 {
-  description = "Elfofera API development environment";
+  description = "Elfofera API build outputs";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
@@ -10,15 +10,6 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in
     {
-      devShells.${system}.default = pkgs.mkShellNoCC {
-        packages = with pkgs; [
-          nodejs_26
-          pnpm
-          postgresql
-          git
-          curl
-        ];
-      };
       formatter.${system} = pkgs.nixfmt-tree;
     };
 }

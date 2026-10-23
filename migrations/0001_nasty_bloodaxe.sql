@@ -1,1 +1,0 @@
-ALTER TABLE "recordings" ALTER COLUMN "uploader_account_id" SET DATA TYPE bigint;

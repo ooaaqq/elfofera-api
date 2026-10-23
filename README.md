@@ -4,9 +4,9 @@ EOE 时间线、作品和录播资料的只读查询 API。仓库只维护当前
 
 ## 当前范围
 
-- `data/calendar/confirmed/`：数据库导入使用的确认数据。
+- `data/calendar/confirmed/`：构建使用的确认资料。
 - `data/calendar/releases/`：发布快照。
-- `src/`：Hono API、数据库连接、schema 和导入脚本。
+- `src/`：资料模型、关联索引、查询、Hono 接口和构建入口。
 - `docs/`：当前业务规则与修订流程。
 
 数据覆盖事件、计划、表演、作品和录播。它是当前确认子集，不宣称历史零遗漏。歌曲主要来自明确切片、合集分 P 和多来源曲目资料；录播每场保留一个主要可用版本。
@@ -14,33 +14,30 @@ EOE 时间线、作品和录播资料的只读查询 API。仓库只维护当前
 ## 开发环境
 
 ```sh
-nix develop
+nix develop /path/to/infra
+cd /path/to/elfofera-api
 pnpm install --frozen-lockfile
 pnpm check
 ```
 
 `pnpm check` 运行 Biome、TypeScript、测试和构建。Biome 只检查源码、测试和根目录配置，不格式化历史资料 JSON。
 
-## 本地数据库
+## 资料构建与运行
 
-复制 `.env.example` 为 `.env.local`，使用独立的本地 PostgreSQL socket：
-
-```sh
-mkdir -p .local/pgsocket
-initdb -D .local/postgres --auth-local=peer --auth-host=reject
-pg_ctl -D .local/postgres -l "$PWD/.local/postgres.log" \
-  -o "-k $PWD/.local/pgsocket -c listen_addresses=''" start
-createdb elfofera
-pnpm db:migrate
-pnpm db:import:confirmed
-```
-
-`.local/`、`.env.local`、登录状态和研究资料备份均被 Git 忽略。应用默认监听 `127.0.0.1:3000`：
+`pnpm build` 读取整个确认目录，通过 Zod 校验资料与关联，生成 `dist/archive.json`
+和 `generated/tools.json`。范围来自资料本身，不另设导入日期边界。API 启动时加载并校验
+只读快照、建立内存索引后才监听；无数据库服务、运行时导入或状态迁移。
 
 ```sh
-pnpm dev
+pnpm build
+pnpm start
 curl --fail http://127.0.0.1:3000/health
 ```
+
+`.local/`、登录状态和研究备份均被 Git 忽略。应用监听 `127.0.0.1:3000`。
+`src/records.ts` 定义确认资料，`data.ts` 负责读取和关联校验，`queries.ts` 维护查询，
+`views.ts` 负责公开字段投影，`contracts.ts` 和 `routes.ts` 定义响应与 HTTP 输入。
+前端静态数据从同一索引生成；页面只负责展示与交互。
 
 ## API
 
@@ -53,18 +50,15 @@ curl --fail http://127.0.0.1:3000/health
 AI 查询接口的参数、返回结构和示例见 [AI 查询接口](docs/ai-api.md)。
 
 公开服务为 `https://elfofera.com`。生产版本、依赖打包、HTTPS 和 AstrBot 查询插件由
-`ooaaqq/nixos-server-fleet` 管理；启动执行结构迁移，确认资料由应用命令显式导入。
+`ooaaqq/nixos-server-fleet` 管理。确认资料、API 和前端作为同一个版本发布，
+更新固定源码版本即可发布新资料。
 
-当前导入命令覆盖确认目录中的 2022-07 至 2026-10 数据；范围由导入脚本的日期边界控制。
+`src/tools.ts` 从 HTTP 请求的同一份 Zod 定义导出四个 AstrBot 工具契约，
+可选 HTTP 参数转换为显式 nullable 工具参数；`generated/tools.json` 是构建生成文件，
+测试核对其与定义一致。插件只维护工具注册和 HTTP 传输，不重复维护字段规则。
 
-更新数据库结构和当前确认数据：
-
-```sh
-pnpm db:migrate
-pnpm db:import:confirmed
-```
-
-更新最新资料时，先按 [最新数据更新规则](docs/design.md#最新数据更新) 检查组合及五位成员的动态、投稿和回放目录，再按实际缺口补查主要录播号与周报。采集不是自动任务；确认后更新数据、导入开发数据库并重新生成前端数据。
+更新资料时按 [最新数据更新规则](docs/design.md#最新数据更新) 核对动态、投稿与回放，
+然后运行 `pnpm check` 和 `pnpm frontend:build`，验证实际日期与关联。
 
 ## 前端
 

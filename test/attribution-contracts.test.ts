@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { eventView, performanceView } from "../src/contracts.js";
+import { eventView, performanceView } from "../src/views.js";
 
 describe("attribution contracts", () => {
   it("keeps group credit without inventing individual performers", () => {
@@ -9,7 +9,8 @@ describe("attribution contracts", () => {
       eventId: "event",
       workId: "work",
       type: "singing",
-      data: { creditedGroup: "EOE" },
+      creditedGroup: "EOE",
+      assets: [],
     });
     expect(performance.creditedGroup).toBe("EOE");
     expect(performance.creditedMembers).toEqual([]);
@@ -19,11 +20,10 @@ describe("attribution contracts", () => {
     const event = eventView({
       id: "event",
       date: "2024-02-13",
-      endDate: null,
       title: "夜间来电",
       kind: "livestream",
       occurrence: "recording-attested",
-      data: { hostMember: "youen" },
+      hostMember: "youen",
     });
     expect(event.hostMember).toBe("youen");
     expect(event.recordingNamedMembers).toEqual([]);

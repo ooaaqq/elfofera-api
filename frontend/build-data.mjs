@@ -1,3 +1,4 @@
+import { readConfirmed, indexDataset } from "../dist/data.js";
 import { videoParts } from "./video.js";
 import { buildScheduleChanges } from "./schedule-changes.js";
 import fs from "node:fs";
@@ -5,17 +6,10 @@ import path from "node:path";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname);
 const confirmed = path.join(root, "data/calendar/confirmed");
-const events = [];
-const scheduleChanges = [];
-const performances = [];
-const works = new Map();
-for (const file of fs.readdirSync(confirmed)) {
-  if (/^events-\d{4}-\d{2}\.json$/.test(file)) events.push(...JSON.parse(fs.readFileSync(path.join(confirmed, file), "utf8")).events);
-  if (/^schedule-changes-\d{4}-\d{2}\.json$/.test(file)) scheduleChanges.push(...JSON.parse(fs.readFileSync(path.join(confirmed, file), "utf8")).changes);
-  if (/^performances-\d{4}-\d{2}\.json$/.test(file)) performances.push(...JSON.parse(fs.readFileSync(path.join(confirmed, file), "utf8")).performances);
-}
-for (const work of JSON.parse(fs.readFileSync(path.join(confirmed, "songs.json"), "utf8")).works) works.set(work.id, work);
-const eventById = new Map(events.map((event) => [event.id, event]));
+const archive = indexDataset(readConfirmed(confirmed));
+const { events, performances, changes: scheduleChanges } = archive.data;
+const works = archive.works;
+const eventById = archive.events;
 const histories = new Map();
 const publications = new Map();
 for (const event of events) {
@@ -35,14 +29,11 @@ for (const event of events) {
   }
 }
 const tracks = new Map();
-const workPerformanceCounts = new Map();
+
 for (const performance of performances) {
   if (!performance.eventId || !performance.workId) throw new Error(`Unlinked performance ${performance.id}`);
   const work = works.get(performance.workId);
-  if (!work) throw new Error(`Missing work for performance ${performance.id}`);
   const event = eventById.get(performance.eventId);
-  if (!event) throw new Error(`Missing event for performance ${performance.id}`);
-  if (["cancelled", "scheduled", "announced"].includes(event.occurrence)) throw new Error(`Non-actual event for performance ${performance.id}`);
   const recording = event.recordings?.find(recording => recording.bvid === event.preferredRecordingBvid) ?? event.recordings?.[0];
   const asset = performance.assets?.[0];
   if (!histories.has(work.id)) histories.set(work.id, []);
@@ -58,7 +49,7 @@ for (const performance of performances) {
     videoParts: videoParts(asset ?? recording),
   });
   if (!tracks.has(performance.eventId)) tracks.set(performance.eventId, []);
-  workPerformanceCounts.set(work.id, (workPerformanceCounts.get(work.id) ?? 0) + 1);
+
   tracks.get(performance.eventId).push({ id: performance.id, workId: work.id, members: performance.creditedMembers ?? [], title: work.title, artists: work.originalArtists ?? [], type: performance.type, bvid: asset?.bvid ?? null, videoParts: videoParts(asset) });
 }
 const output = events.filter((event) => {
@@ -108,7 +99,7 @@ fs.writeFileSync(
       artists: work.originalArtists ?? [],
       kind: work.kind ?? "unknown",
       series: work.series ?? null,
-      performanceCount: workPerformanceCounts.get(work.id) ?? 0,
+      performanceCount: archive.performancesByWork.get(work.id)?.length ?? 0,
       publicationCount: publications.get(work.id)?.length ?? 0,
     })),
   }),

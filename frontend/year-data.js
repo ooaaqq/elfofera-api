@@ -1,7 +1,7 @@
 import { z } from "zod";
 
-const member = z.enum(["luzao", "yumo", "waner", "youen", "minuo"]);
-const date = z.iso.date();
+import { dateSchema as date, memberSchema as member } from "../src/records.ts";
+
 const manifestSchema = z.object({
   years: z.array(z.string().regex(/^\d{4}$/)).min(1),
   livestreams: z.array(

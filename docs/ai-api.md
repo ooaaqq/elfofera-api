@@ -77,21 +77,19 @@ GET /v1/works/song_xxx/history?from=2022-07-24&through=2023-12-31&member=youen
 - `completeness: known-records` 表示已确认的子集；空结果不能证明从未直播或演唱。
 - 计划、取消、改期和实际事件分别返回，不能把计划当作发生证据。
 - 成员没有明确署名时保留未知，不从录播上传者或整场参与者推断歌曲演唱者。
-- 回答可引用 `sourceUrls` 和录播 `url`。接口不返回本机 evidence 路径、研究摘录或数据库 raw data。
+- 回答可引用 `sourceUrls` 和录播 `url`（`eventIds` 保留合集关联的所有场次）。接口不返回本机 evidence 路径、研究摘录或完整来源原记录。
 - 请求失败明确报告查询未完成；400 修正参数，404 核对作品 ID，不能把失败当成空结果。
 
-AstrBot 插件复用这些接口，工具描述维护模型调用与回答规则。插件实现和服务器部署
-由 infra fleet 管理，业务筛选与数据含义只在本项目维护。
+AstrBot 插件消费本项目 `generated/tools.json`。工具字段、路由和限制由 Zod 请求定义生成，
+模型调用与回答规则由 `src/tools.ts` 维护。fleet 只提供注册和 HTTP 传输。
+HTTP 可选参数在工具中显式填 `null`；`null` 不发送为查询参数。
 
 ## 数据维护与检查
 
-独立开发数据库执行迁移和确认资料导入：
-
 ```sh
-pnpm db:migrate
-pnpm db:import:confirmed
-pnpm test:integration
+pnpm check
+pnpm frontend:build
 ```
 
-检查日期聚合、成员筛选、来源链接、歌名归一化和历史分页。全量导入在事务中替换
-查询资料，生产导入由 fleet 的应用命令显式执行，部署不自动覆盖数据。
+检查整个确认目录的结构、引用、日期聚合、署名筛选、来源、搜索和历史分页。
+资料和前端随同一版本发布，不再单独导入。服务只在资料快照加载成功后监听。

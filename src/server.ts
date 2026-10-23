@@ -1,9 +1,12 @@
+import { readFileSync } from "node:fs";
 import { serve } from "@hono/node-server";
-import { createDatabase } from "./db/client.js";
+import { indexDataset } from "./data.js";
 import { createApp } from "./index.js";
 
-const { database, pool } = createDatabase();
-const app = createApp(database);
+const archive = indexDataset(
+  JSON.parse(readFileSync(new URL("./archive.json", import.meta.url), "utf8")),
+);
+const app = createApp(archive);
 const server = serve(
   { fetch: app.fetch, hostname: "127.0.0.1", port: 3000 },
   () => console.log("Elfofera API: http://127.0.0.1:3000"),
@@ -24,16 +27,9 @@ function shutdown() {
     process.exit(1);
   }, 10_000);
   deadline.unref();
-  server.close(async (error) => {
-    try {
-      await pool.end();
-      if (error) process.exitCode = 1;
-    } catch {
-      console.error("Database shutdown failed");
-      process.exitCode = 1;
-    } finally {
-      clearTimeout(deadline);
-    }
+  server.close((error) => {
+    if (error) process.exitCode = 1;
+    clearTimeout(deadline);
   });
 }
 

@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { eventView } from "../src/contracts.js";
+import { eventView } from "../src/views.js";
 
 const readEvents = (month) =>
   JSON.parse(
@@ -59,15 +59,7 @@ describe("Event series", () => {
     const events = readEvents("2026-01");
     for (const title of ["萌妹玩游戏15", "新年第一天，户外"]) {
       const event = events.find((e) => e.title === title);
-      const view = eventView({
-        id: event.id,
-        date: event.date,
-        endDate: null,
-        title: event.title,
-        kind: event.kind,
-        occurrence: event.occurrence,
-        data: event,
-      });
+      const view = eventView(event);
       expect(view.series).toBe(title === "萌妹玩游戏15" ? "萌妹玩游戏" : null);
     }
   });

@@ -6,39 +6,39 @@
     "through": "2026-10-25",
     "timeZone": "Asia/Shanghai"
   },
-  "sourceBoundary": "确认事件与录播覆盖至2026-10-18，10月19日已发布的官方周表计划按图片覆盖至2026-10-25；计划与实际事件分别保存，不将预告当作已发生。确认数据不宣称全部历史内容零遗漏。",
+  "sourceBoundary": "本轮核对六个核心账号最新动态与投稿、三个官方回放系列和四个主要补充账号。已确认实际事件及明确切片补至2026-10-22；10月19日官方周表当前图片核对不变，计划覆盖至10月25日。检查至2026-10-23，不宣称历史零遗漏。",
   "counts": {
     "byYear": {
       "2022": {
-        "events": 469,
+        "recordings": 324,
         "performances": 555,
-        "recordings": 324
+        "events": 469
       },
       "2023": {
-        "events": 977,
+        "recordings": 1025,
         "performances": 1335,
-        "recordings": 1025
+        "events": 977
       },
       "2024": {
-        "events": 764,
+        "recordings": 1225,
         "performances": 924,
-        "recordings": 1225
+        "events": 764
       },
       "2025": {
-        "events": 526,
+        "recordings": 1215,
         "performances": 525,
-        "recordings": 1215
+        "events": 526
       },
       "2026": {
-        "events": 388,
-        "performances": 346,
-        "recordings": 738
+        "recordings": 743,
+        "performances": 350,
+        "events": 394
       }
     },
     "total": {
-      "events": 3124,
-      "performances": 3685,
-      "recordings": 4527,
+      "events": 3130,
+      "performances": 3689,
+      "recordings": 4532,
       "confirmedWorks": 1929,
       "plans": 1539,
       "scheduleChanges": 145
@@ -129,7 +129,7 @@
     {
       "category": "source-boundary",
       "items": [
-        "官方周表图片计划至2026-10-25；10月19日预定场次尚未取得实际发生证据，保留为计划。资料只代表当前确认范围，其他实质歧义保留在本地复核表。"
+        "官方周表图片计划至2026-10-25；10月19日至22日预定场次均已取得成员回放。10月24日及25日仍仅为计划，未提前记为实际直播。"
       ]
     }
   ],
@@ -341,7 +341,7 @@
     },
     {
       "file": "confirmed/events-2026-10.json",
-      "sha256": "d2409dad9b517da23eb6e41ad2fe9674712140a1f63e6307ae1d38a8fe9ef6e4"
+      "sha256": "2aaec789a25fba33554faf2b663e6a8a7b6a8688bb7fb77177a491270597bf40"
     },
     {
       "file": "confirmed/events.json",
@@ -553,7 +553,7 @@
     },
     {
       "file": "confirmed/performances-2026-10.json",
-      "sha256": "b29e5d91f035b9591ee85bf37adaef3436b3c5dc2476c632e0e80449fb54d313"
+      "sha256": "b6cbe2bdb84c481de8773f64b5b6a648cf65d404f0b87b7a080cd7591c9eb313"
     },
     {
       "file": "confirmed/plans.json",
@@ -581,7 +581,7 @@
     },
     {
       "file": "confirmed/recordings-2026.json",
-      "sha256": "927cdfde0731a00d6f81b79c448d7bbdb73313cff7516f1019b6f3c7bdbdd828"
+      "sha256": "0c1c8f766ffe88ce82281da8209b72ef50448aa98b2d9d274c32d3a5b8301a93"
     },
     {
       "file": "confirmed/recordings.json",

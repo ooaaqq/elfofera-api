@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { performanceStatistics } from "../src/contracts.js";
+import { performanceStatistics } from "../src/views.js";
 
 const item = (
   id: string,

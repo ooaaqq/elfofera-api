@@ -14,7 +14,7 @@
 
 ## 数据边界
 
-- `data/calendar/confirmed/` 是应用和数据库导入的唯一资料输入。
+- `data/calendar/confirmed/` 是应用构建的唯一资料输入。
 - 当前数据保留必要的来源 URL、BV 号、日期和定位摘要；原始 evidence 不在仓库。
 - 同名不同作品保留独立 ID；计划、取消、改期和实际事件分别保存并关联。
 - 录播按 BV 记录，每场保留一个主要可用版本即可。
@@ -37,7 +37,7 @@ pnpm build
 
 ## 文件职责
 
-- `src/`：应用、数据库和导入代码。
+- `src/`：资料校验、索引、查询、接口和构建代码。
 - `data/calendar/confirmed/`：当前确认数据。
 - `data/calendar/releases/`：发布快照。
 - `docs/`：当前业务规则和操作说明。

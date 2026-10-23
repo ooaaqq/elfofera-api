@@ -1,13 +1,11 @@
-import { randomUUID } from "node:crypto";
-import { sql } from "drizzle-orm";
-import { afterAll, describe, expect, it } from "vitest";
+import { describe, expect, it } from "vitest";
 import { z } from "zod";
 import { timelineSchema as responseSchema } from "../src/contracts.js";
-import { createDatabase } from "../src/db/client.js";
+import { indexDataset, readConfirmed } from "../src/data.js";
 import { createApp } from "../src/index.js";
 
-const { database, pool } = createDatabase();
-const app = createApp(database);
+const archive = indexDataset(readConfirmed("data/calendar/confirmed"));
+const app = createApp(archive);
 const timelineSchema = z.object({
   days: z.array(
     z.object({
@@ -42,11 +40,7 @@ const historySchema = z.object({
   offset: z.number(),
   hasMore: z.boolean(),
 });
-afterAll(async () => {
-  await pool.end();
-});
-
-describe("imported PostgreSQL queries", () => {
+describe("confirmed archive queries", () => {
   it("validates compact response contracts across every imported month", async () => {
     for (
       let timestamp = Date.UTC(2022, 6, 1);
@@ -107,41 +101,19 @@ describe("imported PostgreSQL queries", () => {
       "/v1/timeline?from=2022-07-24&through=2022-07-24&include=performances",
     );
     const body = timelineSchema.parse(await response.json());
-    const counts = await database.execute(
-      sql`SELECT count(*)::int AS count FROM performances WHERE date = '2022-07-24'`,
-    );
     expect(body.days[0]?.events).toEqual([]);
     expect(body.days[0]?.performances).toHaveLength(
-      Number(counts.rows[0]?.count),
+      archive.data.performances.filter((p) => p.date === "2022-07-24").length,
     );
   });
 
-  it("preserves performances without an event association", async () => {
-    const fixtureId = `perf_test_${randomUUID()}`;
-    try {
-      const rows = await database.execute(sql`
-        INSERT INTO performances (id, date, event_id, work_id, type, data)
-        SELECT ${fixtureId}, date, NULL, work_id, type,
-          (data - 'eventId') || jsonb_build_object('id', ${fixtureId}::text)
-        FROM performances ORDER BY id LIMIT 1
-        RETURNING date
-      `);
-      const source = z.object({ date: z.string() }).parse(rows.rows[0]);
-      const response = await app.request(
-        `/v1/timeline?from=${source.date}&through=${source.date}&include=events,performances`,
-      );
-      expect(response.status).toBe(200);
-      const body = responseSchema.parse(await response.json());
-      expect(body.days[0]?.performances).toContainEqual(
-        expect.objectContaining({ id: fixtureId, eventId: null }),
-      );
-    } finally {
-      await database.execute(
-        sql`DELETE FROM performances WHERE id = ${fixtureId}`,
-      );
-    }
+  it("rejects unlinked performances before serving any requests", () => {
+    const data = structuredClone(archive.data);
+    const performance = data.performances[0];
+    if (!performance) throw new Error("Missing performance fixture");
+    performance.eventId = "missing";
+    expect(() => indexDataset(data)).toThrow("Unlinked performance");
   });
-
   it("normalizes song title spacing, case and full width input", async () => {
     const paths = ["Lemon", "Ｌｅｍｏｎ", "L e m o n"];
     const results = await Promise.all(
@@ -171,20 +143,20 @@ describe("imported PostgreSQL queries", () => {
     if (!work) throw new Error("No work history returned");
     const historyResponse = await app.request(`/v1/works/${work.id}/history`);
     const history = historySchema.parse(await historyResponse.json());
-    const counts = await database.execute(
-      sql`SELECT count(*)::int AS count FROM performances WHERE work_id = ${work.id}`,
+    expect(history.total).toBe(
+      archive.performancesByWork.get(work.id)?.length ?? 0,
     );
-    expect(history.total).toBe(Number(counts.rows[0]?.count));
     expect(history.items.length).toBe(Math.min(history.total, history.limit));
     expect(history.work.id).toBe(work.id);
     expect(history.hasMore).toBe(history.total > history.limit);
   });
 
   it("pages history deterministically without missing or repeating records", async () => {
-    const rows = await database.execute(
-      sql`SELECT work_id FROM performances GROUP BY work_id HAVING count(*) > 2 LIMIT 1`,
+    const selected = [...archive.performancesByWork].find(
+      ([, items]) => items.length > 2,
     );
-    const workId = z.string().parse(rows.rows[0]?.work_id);
+    if (!selected) throw new Error("Missing paginated history fixture");
+    const workId = selected[0];
     const first = historySchema.parse(
       await (await app.request(`/v1/works/${workId}/history?limit=1`)).json(),
     );
@@ -199,12 +171,14 @@ describe("imported PostgreSQL queries", () => {
   });
 
   it("filters credited members and dates without inferring performers from recording uploaders", async () => {
-    const rows = await database.execute(
-      sql`SELECT work_id, date, data->'creditedMembers'->>0 AS member FROM performances WHERE jsonb_array_length(data->'creditedMembers') > 0 LIMIT 1`,
-    );
-    const source = z
-      .object({ work_id: z.string(), date: z.string(), member: z.string() })
-      .parse(rows.rows[0]);
+    const p = archive.data.performances.find((p) => p.creditedMembers?.length);
+    const member = p?.creditedMembers?.[0];
+    if (!p || !member) throw new Error("Missing credited performance fixture");
+    const source = {
+      work_id: p.workId,
+      date: p.date,
+      member,
+    };
     const response = await app.request(
       `/v1/works/${source.work_id}/history?member=${source.member}&from=${source.date}&through=${source.date}`,
     );
