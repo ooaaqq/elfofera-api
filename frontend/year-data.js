@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { dateSchema as date, memberSchema as member } from "../src/records.ts";
+import { dateSchema as date, memberSchema as member } from "./records.js";
 
 const manifestSchema = z.object({
   years: z.array(z.string().regex(/^\d{4}$/)).min(1),

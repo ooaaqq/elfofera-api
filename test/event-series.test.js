@@ -1,6 +1,5 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { eventView } from "../src/views.js";
 
 const readEvents = (month) =>
   JSON.parse(
@@ -53,15 +52,6 @@ describe("Event series", () => {
     );
     expect(events.map((e) => e.date)).toEqual(["2026-01-18", "2026-01-24"]);
     expect(events.every((e) => e.series === "萌妹玩游戏")).toBe(true);
-  });
-
-  it("returns the series in the event contract without inferring it from a similar title", () => {
-    const events = readEvents("2026-01");
-    for (const title of ["萌妹玩游戏15", "新年第一天，户外"]) {
-      const event = events.find((e) => e.title === title);
-      const view = eventView(event);
-      expect(view.series).toBe(title === "萌妹玩游戏15" ? "萌妹玩游戏" : null);
-    }
   });
 
   it("keeps a numbered chat episode distinct from the standalone chat series", () => {

@@ -1,10 +1,5 @@
-export const members = {
-  luzao: "露早",
-  yumo: "虞莫",
-  waner: "莞儿",
-  youen: "柚恩",
-  minuo: "米诺",
-};
+import confirmedMembers from "../dist/members.json" with { type: "json" };
+export const members = confirmedMembers;
 export const memberOptions = [
   { id: "all", label: "全部成员" },
   ...Object.entries(members).map(([id, label]) => ({ id, label })),

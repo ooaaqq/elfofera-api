@@ -27,17 +27,14 @@
 修改前检查工作树并保留无关改动。数据变更后运行：
 
 ```sh
-pnpm lint
-pnpm typecheck
-pnpm test
-pnpm build
+pnpm check
 ```
 
 文档变更核对链接、命令和路径。发布数据的原始查证在本机备份中完成，仓库只提交最终确认结果和必要来源摘要。
 
 ## 文件职责
 
-- `src/`：资料校验、索引、查询、接口和构建代码。
+- `rust/`：资料校验、索引、查询、接口、契约和构建代码。
 - `data/calendar/confirmed/`：当前确认数据。
 - `data/calendar/releases/`：发布快照。
 - `docs/`：当前业务规则和操作说明。

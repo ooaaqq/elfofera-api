@@ -42,7 +42,7 @@
 
 ## API 使用说明
 
-`#api` 提供独立的 API 使用说明，不依赖档案清单或年份请求。页面展示公开入口、OpenAPI JSON、健康检查、时间线、歌曲搜索、表演历史、次数统计、成员代码、分页与错误语义。参数与响应以当前 `src/index.ts`、`src/contracts.ts` 和 [查询接口](ai-api.md) 为准，接口调整时同步更新 `frontend/api-view.jsx`。
+`#api` 提供独立的 API 使用说明，不依赖档案清单或年份请求。页面展示公开入口、OpenAPI JSON、健康检查、时间线、歌曲搜索、表演历史、次数统计、成员代码、分页与错误语义。参数与响应以当前 `rust/http.rs`、`rust/contract.rs` 和 [查询接口](ai-api.md) 为准，接口调整时同步更新 `frontend/api-view.jsx`。
 
 使用官方 CodeSnippet 提供可复制的 curl 与 Node.js 示例，代码自动换行并完整展开。参数使用原生表格，页面随文档统一滚动。切换到说明页保留档案和歌曲的 URL 状态，返回后恢复原筛选与选择。
 

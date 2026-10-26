@@ -6,7 +6,7 @@ EOE 时间线、作品和录播资料的只读查询 API。仓库只维护当前
 
 - `data/calendar/confirmed/`：构建使用的确认资料。
 - `data/calendar/releases/`：发布快照。
-- `src/`：资料模型、关联索引、查询、Hono 接口和构建入口。
+- `rust/`：资料模型、关联索引、查询、Axum 接口和构建入口。
 - `docs/`：当前业务规则与修订流程。
 
 数据覆盖事件、计划、表演、作品和录播。它是当前确认子集，不宣称历史零遗漏。歌曲主要来自明确切片、合集分 P 和多来源曲目资料；录播每场保留一个主要可用版本。
@@ -20,12 +20,12 @@ pnpm install --frozen-lockfile
 pnpm check
 ```
 
-`pnpm check` 运行 Biome、TypeScript、测试和构建。Biome 只检查源码、测试和根目录配置，不格式化历史资料 JSON。
+`pnpm check` 运行 Rust 格式、严格 Clippy、行为测试，以及前端 Biome、TypeScript、测试和构建。Biome 只检查源码、测试和根目录配置，不格式化历史资料 JSON。
 
 ## 资料构建与运行
 
-`pnpm build` 读取整个确认目录，通过 Zod 校验资料与关联，生成 `dist/archive.json`
-和 `generated/tools.json`。范围来自资料本身，不另设导入日期边界。API 启动时加载并校验
+`pnpm build` 读取整个确认目录，通过 Rust 类型与 JSON Schema 校验资料及关联，一次生成 `dist/archive.json`、`dist/openapi.json`
+和 `dist/tools.json`。范围来自资料本身，不另设导入日期边界。API 启动时加载并校验
 只读快照、建立内存索引后才监听；无数据库服务、运行时导入或状态迁移。
 
 ```sh
@@ -35,9 +35,9 @@ curl --fail http://127.0.0.1:3000/health
 ```
 
 `.local/`、登录状态和研究备份均被 Git 忽略。应用监听 `127.0.0.1:3000`。
-`src/records.ts` 定义确认资料，`data.ts` 负责读取和关联校验，`queries.ts` 维护查询，
-`views.ts` 负责公开字段投影，`contracts.ts` 和 `routes.ts` 定义响应与 HTTP 输入。
-前端静态数据从同一索引生成；页面只负责展示与交互。
+`rust/model.rs` 定义确认资料，`data.rs` 读取与校验关联并预先建立索引、搜索文本和中文排序；
+`queries.rs` 查询，`views.rs` 投影公开字段。`contract.rs` 的 Rust 输入类型同时用于请求校验、OpenAPI 和工具契约。
+前端构建只读取这份已校验快照，不再重复导入和验证原始资料。生产后端是独立 Rust 可执行程序与只读快照，不携带 Node 或前端依赖。
 
 ## API
 
@@ -53,9 +53,9 @@ AI 查询接口的参数、返回结构和示例见 [AI 查询接口](docs/ai-ap
 `ooaaqq/nixos-server-fleet` 管理。确认资料、API 和前端作为同一个版本发布，
 更新固定源码版本即可发布新资料。
 
-`src/tools.ts` 从 HTTP 请求的同一份 Zod 定义导出四个 AstrBot 工具契约，
-可选 HTTP 参数转换为显式 nullable 工具参数；`generated/tools.json` 是构建生成文件，
-测试核对其与定义一致。插件只维护工具注册和 HTTP 传输，不重复维护字段规则。
+`rust/contract.rs` 导出四个 AstrBot 工具契约，可选 HTTP 参数转换为显式 nullable 工具参数。
+`dist/tools.json` 是构建产物，不提交 Git；fleet 插件直接消费同一次构建的产物，避免手工副本。
+插件只维护工具注册和 HTTP 传输，不重复维护字段规则。
 
 更新资料时按 [最新数据更新规则](docs/design.md#最新数据更新) 核对动态、投稿与回放，
 然后运行 `pnpm check` 和 `pnpm frontend:build`，验证实际日期与关联。

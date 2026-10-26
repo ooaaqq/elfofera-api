@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { memberSchema } from "./records.js";
 
 const historySchema = z.array(
   z.object({
@@ -7,7 +8,7 @@ const historySchema = z.array(
     date: z.iso.date(),
     title: z.string(),
     kind: z.string(),
-    members: z.array(z.enum(["luzao", "yumo", "waner", "youen", "minuo"])),
+    members: z.array(memberSchema),
     type: z.string(),
     bvid: z.string().nullable(),
     videoParts: z.array(z.number().int().positive()),
@@ -20,7 +21,7 @@ const detailsSchema = z.object({
       id: z.string(),
       date: z.iso.date(),
       title: z.string(),
-      members: z.array(z.enum(["luzao", "yumo", "waner", "youen", "minuo"])),
+      members: z.array(memberSchema),
       bvid: z.string().nullable(),
       videoParts: z.array(z.number().int().positive()),
     }),

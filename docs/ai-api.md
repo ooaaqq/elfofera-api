@@ -80,8 +80,8 @@ GET /v1/works/song_xxx/history?from=2022-07-24&through=2023-12-31&member=youen
 - 回答可引用 `sourceUrls` 和录播 `url`（`eventIds` 保留合集关联的所有场次）。接口不返回本机 evidence 路径、研究摘录或完整来源原记录。
 - 请求失败明确报告查询未完成；400 修正参数，404 核对作品 ID，不能把失败当成空结果。
 
-AstrBot 插件消费本项目 `generated/tools.json`。工具字段、路由和限制由 Zod 请求定义生成，
-模型调用与回答规则由 `src/tools.ts` 维护。fleet 只提供注册和 HTTP 传输。
+AstrBot 插件消费本项目 `dist/tools.json`。工具字段、路由和限制由 Rust 请求类型和 JSON Schema生成，
+模型调用与回答规则由 `rust/contract.rs` 维护。fleet 只提供注册和 HTTP 传输。
 HTTP 可选参数在工具中显式填 `null`；`null` 不发送为查询参数。
 
 ## 数据维护与检查

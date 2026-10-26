@@ -1,8 +1,9 @@
 import { useMemo, useSyncExternalStore } from "react";
 import { z } from "zod";
+import { memberSchema } from "./records.js";
 
 const optionalDate = z.union([z.literal(""), z.iso.date()]).default("");
-const member = z.enum(["all", "luzao", "yumo", "waner", "youen", "minuo"]);
+const member = z.union([z.literal("all"), memberSchema]);
 const locationSchema = z.object({
   view: z.enum(["archive", "songs", "api"]).default("archive"),
   year: z.union([z.literal(""), z.string().regex(/^\d{4}$/)]).default(""),

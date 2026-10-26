@@ -1,6 +1,5 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { eventView } from "../src/views.js";
 
 const root = new URL("../data/calendar/confirmed/", import.meta.url);
 const read = (name) => JSON.parse(readFileSync(new URL(name, root), "utf8"));
@@ -27,9 +26,6 @@ describe("Performance associations", () => {
       "BV1oUGB6TEM5",
       "BV1AqG66WE1P",
     ]);
-    const view = eventView(change);
-    expect(view.stages).toEqual(change.stages);
-    expect(view.dimension).toBe("1d");
     const restart = events.filter(
       (event) =>
         event.date === "2025-06-06" &&

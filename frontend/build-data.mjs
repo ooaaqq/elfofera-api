@@ -1,12 +1,17 @@
-import { readConfirmed, indexDataset } from "../dist/data.js";
 import { videoParts } from "./video.js";
 import { buildScheduleChanges } from "./schedule-changes.js";
 import fs from "node:fs";
 import path from "node:path";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname);
-const confirmed = path.join(root, "data/calendar/confirmed");
-const archive = indexDataset(readConfirmed(confirmed));
+const snapshot = process.env.ELFOFERA_SNAPSHOT ?? path.join(root, "dist/archive.json");
+const data = JSON.parse(fs.readFileSync(snapshot, "utf8"));
+const archive = {
+  data,
+  works: new Map(data.works.map(work => [work.id, work])),
+  events: new Map(data.events.map(event => [event.id, event])),
+  performancesByWork: Map.groupBy(data.performances, performance => performance.workId),
+};
 const { events, performances, changes: scheduleChanges } = archive.data;
 const works = archive.works;
 const eventById = archive.events;
