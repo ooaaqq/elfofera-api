@@ -20,7 +20,9 @@ pnpm install --frozen-lockfile
 pnpm check
 ```
 
-`pnpm check` 运行 Rust 格式、严格 Clippy、行为测试，以及前端 Biome、TypeScript、测试和构建。Biome 只检查源码、测试和根目录配置，不格式化历史资料 JSON。
+`scripts/check.sh` 从 infra 根开发环境调用 fleet 的固定生产工具链，检查当前 checkout；发布检查统一由 fleet 工作流执行。
+
+`pnpm check` 用于开发时快速检查，运行 Rust 格式、严格 Clippy、行为测试，以及前端 Biome、TypeScript、测试和构建。Biome 只检查源码、测试和根目录配置，不格式化历史资料 JSON。
 
 ## 资料构建与运行
 
