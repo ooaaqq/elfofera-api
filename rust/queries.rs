@@ -119,21 +119,21 @@ impl Archive {
             let Some(date) = q.from.checked_add_days(Days::new(offset as u64)) else {
                 break;
             };
-            let mut events = self
-                .data
+            let empty = crate::data::DayIndex::default();
+            let index = self.by_date.get(&date).unwrap_or(&empty);
+            let events = index
                 .events
                 .iter()
-                .filter(|e| e.date == date && matches_member(e, q.member))
+                .map(|i| &self.data.events[*i])
+                .filter(|e| matches_member(e, q.member))
                 .collect::<Vec<_>>();
-            events.sort_by_key(|e| &e.id);
             let event_ids = events.iter().map(|e| e.id.as_str()).collect::<Vec<_>>();
             let performances = if want("performances") {
-                self.data
+                index
                     .performances
                     .iter()
-                    .filter(|p| {
-                        p.date == date && q.member.is_none_or(|m| p.credited_members.contains(&m))
-                    })
+                    .map(|i| &self.data.performances[*i])
+                    .filter(|p| q.member.is_none_or(|m| p.credited_members.contains(&m)))
                     .map(|p| TimelinePerformance {
                         performance: PerformanceView::from(p),
                         work: WorkView::from(&self.data.works[self.works[&p.work_id]]),
@@ -143,10 +143,10 @@ impl Archive {
                 vec![]
             };
             let plans = if want("plans") {
-                self.data
+                index
                     .plans
                     .iter()
-                    .filter(|p| p.date == date)
+                    .map(|i| &self.data.plans[*i])
                     .map(|p| {
                         let events = p
                             .events
@@ -173,10 +173,10 @@ impl Archive {
                 vec![]
             };
             let recordings = if want("recordings") {
-                self.data
+                index
                     .recordings
                     .iter()
-                    .filter(|r| r.title_session.date == date)
+                    .map(|i| &self.data.recordings[*i])
                     .filter_map(|r| {
                         let linked = self
                             .by_recording
@@ -204,18 +204,10 @@ impl Archive {
                 vec![]
             };
             let changes = if want("changes") {
-                self.data
+                index
                     .changes
                     .iter()
-                    .enumerate()
-                    .filter(|(_, c)| {
-                        [
-                            c.date,
-                            c.from.as_ref().and_then(|s| s.date),
-                            c.to.as_ref().and_then(|s| s.date),
-                        ]
-                        .contains(&Some(date))
-                    })
+                    .map(|i| (*i, &self.data.changes[*i]))
                     .filter_map(|(index, c)| {
                         let mut members = c.members.clone();
                         for name in c.member.iter().chain(

@@ -21,6 +21,10 @@ enum Command {
         #[arg(long, default_value = "dist")]
         output: PathBuf,
     },
+    Contract {
+        #[arg(long)]
+        output: PathBuf,
+    },
     Serve {
         #[arg(long)]
         snapshot: PathBuf,
@@ -35,10 +39,9 @@ async fn shutdown() -> Result<()> {
 async fn main() -> Result<()> {
     tracing_subscriber::fmt::init();
     match Args::parse().command {
-        Command::Build { source, output } => {
-            let archive = Archive::read(&source)?;
-            let contract = Contract::new()?;
+        Command::Contract { output } => {
             std::fs::create_dir_all(&output)?;
+            let contract = Contract::new()?;
             let members = elfofera_api::model::MEMBERS
                 .into_iter()
                 .map(|m| {
@@ -52,13 +55,20 @@ async fn main() -> Result<()> {
                 })
                 .collect::<Result<serde_json::Map<String, serde_json::Value>>>()?;
             for (name, value) in [
-                ("archive.json", archive.snapshot),
                 ("members.json", serde_json::Value::Object(members)),
                 ("tools.json", contract.tools),
                 ("openapi.json", contract.openapi),
             ] {
                 std::fs::write(output.join(name), serde_json::to_vec(&value)?)?;
             }
+        }
+        Command::Build { source, output } => {
+            let archive = Archive::read(&source)?;
+            std::fs::create_dir_all(&output)?;
+            std::fs::write(
+                output.join("archive.json"),
+                serde_json::to_vec(&archive.snapshot)?,
+            )?;
             tracing::info!(
                 events = archive.data.events.len(),
                 works = archive.data.works.len(),
@@ -67,7 +77,9 @@ async fn main() -> Result<()> {
             );
         }
         Command::Serve { snapshot } => {
-            let archive = Archive::from_value(serde_json::from_slice(&std::fs::read(snapshot)?)?)?;
+            let mut archive =
+                Archive::from_value(serde_json::from_slice(&std::fs::read(snapshot)?)?)?;
+            archive.snapshot = serde_json::Value::Null;
             let app = router(App {
                 archive,
                 contract: Contract::new()?,

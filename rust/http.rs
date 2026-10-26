@@ -9,7 +9,7 @@ use axum::{
     response::{IntoResponse, Response},
     routing::get,
 };
-use serde_json::{Value, json};
+use serde_json::json;
 use std::sync::Arc;
 
 pub struct App {
@@ -17,6 +17,7 @@ pub struct App {
     pub contract: Contract,
 }
 pub fn router(app: App) -> Router {
+    let openapi = axum::body::Bytes::from(app.contract.openapi.to_string());
     let mut router = Router::new()
         .route(
             "/health",
@@ -31,7 +32,15 @@ pub fn router(app: App) -> Router {
         )
         .route(
             "/openapi.json",
-            get(|State(app): State<Arc<App>>| async move { Json(app.contract.openapi.clone()) }),
+            get(move || {
+                let openapi = openapi.clone();
+                async move {
+                    (
+                        [(axum::http::header::CONTENT_TYPE, "application/json")],
+                        openapi,
+                    )
+                }
+            }),
         );
     for (index, definition) in app.contract.definitions.iter().enumerate() {
         router = router.route(
@@ -59,7 +68,7 @@ pub fn router(app: App) -> Router {
 fn respond(app: &App, index: usize, id: Option<String>, query: Option<String>) -> Response {
     match result(app, index, id, query) {
         Ok(Some(value)) => {
-            let mut response = Json(value).into_response();
+            let mut response = value;
             response.headers_mut().insert(
                 CACHE_CONTROL,
                 HeaderValue::from_static("public, max-age=60"),
@@ -97,7 +106,7 @@ fn result(
     index: usize,
     id: Option<String>,
     query: Option<String>,
-) -> anyhow::Result<Option<Value>> {
+) -> anyhow::Result<Option<Response>> {
     if let Some(id) = &id {
         app.contract
             .work_path
@@ -105,8 +114,8 @@ fn result(
             .map_err(|e| anyhow::anyhow!(e.to_string()))?;
     }
     let value = match app.contract.definitions[index].parse(query.as_deref())? {
-        Input::Search(q) => Some(serde_json::to_value(app.archive.search_works(q))?),
-        Input::Timeline(q) => Some(serde_json::to_value(app.archive.timeline(q))?),
+        Input::Search(q) => Some(Json(app.archive.search_works(q)).into_response()),
+        Input::Timeline(q) => Some(Json(app.archive.timeline(q)).into_response()),
         Input::History(q) => app
             .archive
             .history(
@@ -114,8 +123,7 @@ fn result(
                     .ok_or_else(|| anyhow::anyhow!("missing workId"))?,
                 q,
             )
-            .map(serde_json::to_value)
-            .transpose()?,
+            .map(|value| Json(value).into_response()),
         Input::Statistics(q) => app
             .archive
             .statistics(
@@ -123,8 +131,7 @@ fn result(
                     .ok_or_else(|| anyhow::anyhow!("missing workId"))?,
                 q,
             )
-            .map(serde_json::to_value)
-            .transpose()?,
+            .map(|value| Json(value).into_response()),
     };
     Ok(value)
 }

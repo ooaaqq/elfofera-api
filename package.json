@@ -9,7 +9,7 @@
   "packageManager": "pnpm@12.10.1",
   "scripts": {
     "dev": "cargo run --locked -- serve --snapshot dist/archive.json",
-    "build": "cargo run --locked -- build",
+    "build": "cargo run --locked -- build && cargo run --locked -- contract --output dist",
     "start": "cargo run --locked --release -- serve --snapshot dist/archive.json",
     "lint": "biome check --error-on-warnings .",
     "format": "biome check --write --error-on-warnings .",

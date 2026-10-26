@@ -8,7 +8,16 @@ use std::{
 use unicode_categories::UnicodeCategories;
 use unicode_normalization::UnicodeNormalization;
 
+#[derive(Default)]
+pub struct DayIndex {
+    pub events: Vec<usize>,
+    pub performances: Vec<usize>,
+    pub plans: Vec<usize>,
+    pub recordings: Vec<usize>,
+    pub changes: Vec<usize>,
+}
 pub struct Archive {
+    pub by_date: HashMap<chrono::NaiveDate, DayIndex>,
     pub snapshot: Value,
     pub data: Dataset,
     pub events: HashMap<String, usize>,
@@ -133,7 +142,41 @@ impl Archive {
                 )
             })
             .collect();
+        let mut by_date: HashMap<chrono::NaiveDate, DayIndex> = HashMap::new();
+        for (i, row) in data.events.iter().enumerate() {
+            by_date.entry(row.date).or_default().events.push(i);
+        }
+        for (i, row) in data.performances.iter().enumerate() {
+            by_date.entry(row.date).or_default().performances.push(i);
+        }
+        for (i, row) in data.plans.iter().enumerate() {
+            by_date.entry(row.date).or_default().plans.push(i);
+        }
+        for (i, row) in data.recordings.iter().enumerate() {
+            by_date
+                .entry(row.title_session.date)
+                .or_default()
+                .recordings
+                .push(i);
+        }
+        for (i, row) in data.changes.iter().enumerate() {
+            let dates = [
+                row.date,
+                row.from.as_ref().and_then(|r| r.date),
+                row.to.as_ref().and_then(|r| r.date),
+            ]
+            .into_iter()
+            .flatten()
+            .collect::<HashSet<_>>();
+            for date in dates {
+                by_date.entry(date).or_default().changes.push(i);
+            }
+        }
+        for day in by_date.values_mut() {
+            day.events.sort_by_key(|i| &data.events[*i].id);
+        }
         Ok(Self {
+            by_date,
             snapshot: serde_json::to_value(&data)?,
             data,
             events,

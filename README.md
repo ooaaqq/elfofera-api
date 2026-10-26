@@ -24,7 +24,7 @@ pnpm check
 
 ## 资料构建与运行
 
-`pnpm build` 读取整个确认目录，通过 Rust 类型与 JSON Schema 校验资料及关联，一次生成 `dist/archive.json`、`dist/openapi.json`
+`pnpm build` 读取整个确认目录，通过 Rust 类型与 JSON Schema 校验资料及关联，生成 `dist/archive.json`、`dist/openapi.json`
 和 `dist/tools.json`。范围来自资料本身，不另设导入日期边界。API 启动时加载并校验
 只读快照、建立内存索引后才监听；无数据库服务、运行时导入或状态迁移。
 
@@ -35,7 +35,7 @@ curl --fail http://127.0.0.1:3000/health
 ```
 
 `.local/`、登录状态和研究备份均被 Git 忽略。应用监听 `127.0.0.1:3000`。
-`rust/model.rs` 定义确认资料，`data.rs` 读取与校验关联并预先建立索引、搜索文本和中文排序；
+`rust/model.rs` 定义确认资料，`data.rs` 读取与校验关联并预先建立日期与关联索引、搜索文本和中文排序；
 `queries.rs` 查询，`views.rs` 投影公开字段。`contract.rs` 的 Rust 输入类型同时用于请求校验、OpenAPI 和工具契约。
 前端构建只读取这份已校验快照，不再重复导入和验证原始资料。生产后端是独立 Rust 可执行程序与只读快照，不携带 Node 或前端依赖。
 
@@ -54,6 +54,8 @@ AI 查询接口的参数、返回结构和示例见 [AI 查询接口](docs/ai-ap
 更新固定源码版本即可发布新资料。
 
 `rust/contract.rs` 导出四个 AstrBot 工具契约，可选 HTTP 参数转换为显式 nullable 工具参数。
+`elfofera-api contract --output <目录>` 独立生成契约、OpenAPI 和成员映射，不读取确认资料。`pnpm build` 同时生成资料快照与契约。
+
 `dist/tools.json` 是构建产物，不提交 Git；fleet 插件直接消费同一次构建的产物，避免手工副本。
 插件只维护工具注册和 HTTP 传输，不重复维护字段规则。
 
