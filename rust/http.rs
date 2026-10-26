@@ -17,13 +17,44 @@ pub struct App {
     pub contract: Contract,
 }
 pub fn router(app: App) -> Router {
-    Router::new().route("/health",get(||async {([(CACHE_CONTROL,"no-store")],Json(Health {service:Availability::Available}))}))
-        .route("/openapi.json",get(|State(app):State<Arc<App>>|async move {Json(app.contract.openapi.clone())}))
-        .route("/v1/works",get(|State(app):State<Arc<App>>,RawQuery(query):RawQuery|async move {respond(&app,1,None,query)}))
-        .route("/v1/timeline",get(|State(app):State<Arc<App>>,RawQuery(query):RawQuery|async move {respond(&app,0,None,query)}))
-        .route("/v1/works/{workId}/history",get(|State(app):State<Arc<App>>,Path(id):Path<String>,RawQuery(query):RawQuery|async move {respond(&app,2,Some(id),query)}))
-        .route("/v1/works/{workId}/statistics",get(|State(app):State<Arc<App>>,Path(id):Path<String>,RawQuery(query):RawQuery|async move {respond(&app,3,Some(id),query)}))
-        .fallback(||async {(StatusCode::NOT_FOUND,Json(ErrorBody {error:"not_found".to_owned()}))}).with_state(Arc::new(app))
+    let mut router = Router::new()
+        .route(
+            "/health",
+            get(|| async {
+                (
+                    [(CACHE_CONTROL, "no-store")],
+                    Json(Health {
+                        service: Availability::Available,
+                    }),
+                )
+            }),
+        )
+        .route(
+            "/openapi.json",
+            get(|State(app): State<Arc<App>>| async move { Json(app.contract.openapi.clone()) }),
+        );
+    for (index, definition) in app.contract.definitions.iter().enumerate() {
+        router = router.route(
+            definition.path,
+            get(
+                move |State(app): State<Arc<App>>,
+                      Path(path): Path<std::collections::HashMap<String, String>>,
+                      RawQuery(query): RawQuery| async move {
+                    respond(&app, index, path.get("workId").cloned(), query)
+                },
+            ),
+        );
+    }
+    router
+        .fallback(|| async {
+            (
+                StatusCode::NOT_FOUND,
+                Json(ErrorBody {
+                    error: "not_found".to_owned(),
+                }),
+            )
+        })
+        .with_state(Arc::new(app))
 }
 fn respond(app: &App, index: usize, id: Option<String>, query: Option<String>) -> Response {
     match result(app, index, id, query) {
