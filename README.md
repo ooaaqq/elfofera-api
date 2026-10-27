@@ -20,7 +20,7 @@ pnpm install --frozen-lockfile
 pnpm check
 ```
 
-`scripts/check.sh` 从 infra 根开发环境调用 fleet 的固定生产工具链，检查当前 checkout；发布检查统一由 fleet 工作流执行。
+`scripts/check.sh` 在本仓库安装锁定的前端依赖并执行 `pnpm check`；检查与发布独立于 fleet。
 
 `pnpm check` 用于开发时快速检查，运行 Rust 格式、严格 Clippy、行为测试，以及前端 Biome、TypeScript、测试和构建。Biome 只检查源码、测试和根目录配置，不格式化历史资料 JSON。
 
@@ -51,14 +51,13 @@ curl --fail http://127.0.0.1:3000/health
 
 AI 查询接口的参数、返回结构和示例见 [AI 查询接口](docs/ai-api.md)。
 
-公开服务为 `https://elfofera.com`。生产版本、依赖打包、HTTPS 和 AstrBot 查询插件由
-`ooaaqq/nixos-server-fleet` 管理。确认资料、API 和前端作为同一个版本发布，
-更新固定源码版本即可发布新资料。
+公开服务为 `https://elfofera.com`。应用仓库构建并发布 API、确认资料、前端和契约的同一版本；
+`ooaaqq/nixos-server-fleet` 只锁定 release、配置 HTTPS 和 AstrBot 查询插件。
 
 `rust/contract.rs` 导出四个 AstrBot 工具契约，可选 HTTP 参数转换为显式 nullable 工具参数。
 `elfofera-api contract --output <目录>` 独立生成契约、OpenAPI 和成员映射，不读取确认资料。`pnpm build` 同时生成资料快照与契约。
 
-`dist/tools.json` 是构建产物，不提交 Git；fleet 插件直接消费同一次构建的产物，避免手工副本。
+`dist/tools.json` 是构建产物，不提交 Git；fleet 插件直接消费同一个 release 的产物，避免手工副本。
 插件只维护工具注册和 HTTP 传输，不重复维护字段规则。
 
 更新资料时按 [最新数据更新规则](docs/design.md#最新数据更新) 核对动态、投稿与回放，
@@ -81,3 +80,12 @@ pnpm frontend:preview
 完整整理资料位于本机 `.local/calendar-backup-*/`，包括原始来源、evidence、候选和审查过程。它们用于查证和修订，不提交 Git。仓库中的当前数据保留必要的来源 URL、BV 号、日期和定位摘要，足以支持 API 使用和后续定向修订。
 
 更多规则见 [设计说明](docs/design.md)、[EOE LIVE INDEX 设计规范](docs/live-index.md)、[数据说明](data/calendar/README.md) 和 [确认资料说明](data/calendar/confirmed/README.md)。
+
+## 发布
+
+保持 Cargo.toml、Cargo.lock 和 package.json 的版本一致，提交后推送 `vX.Y.Z` tag。
+GitHub Actions 使用稳定 Rust 和 Node 26，运行全部检查后生成
+`elfofera-api-X.Y.Z-x86_64-linux.tar.gz` 和 SHA-256，再创建 GitHub Release。
+包内包含 `bin/elfofera-api`、`share/elfofera-api/archive.json`、`frontend/` 和 `contract/`；
+前端和契约均位于 `share/elfofera-api/` 下。包面向 Ubuntu 24.04 glibc，消费方适配加载器。
+发布 tag 和资产不覆盖，修正时递增版本。生产只消费已发布资产，不从源码构建。
