@@ -1,0 +1,32 @@
+@use '@carbon/react/scss/type';
+@use '@carbon/react/scss/spacing';
+@use '@carbon/react/scss/motion';
+
+.session-panel, .work-summary h2 { scroll-margin-top: 1rem; }
+.session-panel, .detail-content { animation: content-enter motion.$duration-fast-02 motion.motion(entrance, productive); }
+.session-summary, .work-summary { padding: spacing.$spacing-06 spacing.$spacing-05; }
+.session-summary { display: grid; gap: spacing.$spacing-06; }
+.session-heading, .session-recordings, .work-summary { display: grid; justify-items: start; gap: spacing.$spacing-03; }
+.eyebrow, .history-count, .record-members, .work-total {
+  color: var(--cds-text-secondary);
+  @include type.type-style('label-01');
+}
+.session-summary h3 { overflow-wrap: anywhere; @include type.type-style('heading-03'); }
+.session-members, .work-summary p { @include type.type-style('body-01'); }
+.session-tags { display: flex; flex-wrap: wrap; gap: spacing.$spacing-02; margin-top: spacing.$spacing-02; }
+.session-tags .cds--tag { margin: 0; }
+.secondary-text { color: var(--cds-text-secondary); @include type.type-style('body-01'); }
+.track-row { display: flex; align-items: start; gap: spacing.$spacing-05; padding-block: spacing.$spacing-03; }
+.track-index { color: var(--cds-text-secondary); flex-shrink: 0; @include type.type-style('label-01'); }
+.track-copy { display: grid; justify-items: start; gap: spacing.$spacing-02; min-width: 0; }
+.track-copy .cds--link { display: inline-flex; align-items: start; gap: spacing.$spacing-03; overflow-wrap: anywhere; }
+.track-copy svg { flex-shrink: 0; }
+.track-copy p { color: var(--cds-text-secondary); @include type.type-style('label-01'); }
+.video-parts { display: flex; flex-wrap: wrap; gap: spacing.$spacing-04; }
+.video-parts .cds--link { display: inline-flex; align-items: center; gap: spacing.$spacing-02; }
+.empty-state { display: grid; align-content: start; justify-items: start; gap: spacing.$spacing-05; padding: spacing.$spacing-07 spacing.$spacing-05; min-height: 16rem; }
+.empty-state h2, .empty-state h3 { @include type.type-style('heading-02'); }
+.schedule-changes { padding: spacing.$spacing-05; border-top: 1px solid var(--cds-border-subtle-01); }
+.schedule-changes h3 { margin-bottom: spacing.$spacing-05; @include type.type-style('heading-01'); }
+.change-list { list-style: none; @include type.type-style('body-01'); }
+.change-list li + li { margin-top: spacing.$spacing-04; }

@@ -13,33 +13,35 @@ EOE 时间线、作品和录播资料的只读查询 API。仓库只维护当前
 
 ## 开发环境
 
+JavaScript 工具链统一使用 Bun 1.4.2（版本记录在 `.bun-version`），依赖锁为 `bun.lock`。Bun 负责依赖安装、脚本运行和原生测试；Vite、TypeScript 与 Biome 也通过 Bun 启动。Rust 负责 API 与资料构建。
+
 ```sh
 nix develop /path/to/infra
 cd /path/to/elfofera-api
-pnpm install --frozen-lockfile
-pnpm check
+bun install --frozen-lockfile
+bun run check
 ```
 
-`scripts/check.sh` 在本仓库安装锁定的前端依赖并执行 `pnpm check`；检查与发布独立于 fleet。
+`scripts/check.sh` 在本仓库安装锁定的前端依赖并执行 `bun run check`；检查与发布独立于 fleet。
 
-`pnpm check` 用于开发时快速检查，运行 Rust 格式、严格 Clippy、行为测试，以及前端 Biome、TypeScript、测试和构建。Biome 只检查源码、测试和根目录配置，不格式化历史资料 JSON。
+`bun run check` 运行 Rust 格式、严格 Clippy、行为测试，以及前端 Biome、TypeScript、Bun 测试和构建。Biome 只检查源码、测试和根目录配置，不格式化历史资料 JSON。依赖无需安装脚本，`trustedDependencies` 保持为空。
 
 ## 资料构建与运行
 
-`pnpm build` 读取整个确认目录，通过 Rust 类型与 JSON Schema 校验资料及关联，生成 `dist/archive.json`、`dist/openapi.json`
+`bun run build` 读取整个确认目录，通过 Rust 类型与 JSON Schema 校验资料及关联，生成 `dist/archive.json`、`dist/openapi.json`
 和 `dist/tools.json`。范围来自资料本身，不另设导入日期边界。API 启动时加载并校验
 只读快照、建立内存索引后才监听；无数据库服务、运行时导入或状态迁移。
 
 ```sh
-pnpm build
-pnpm start
+bun run build
+bun run start
 curl --fail http://127.0.0.1:3000/health
 ```
 
 `.local/`、登录状态和研究备份均被 Git 忽略。应用监听 `127.0.0.1:3000`。
 `rust/model.rs` 定义确认资料，`data.rs` 读取与校验关联并预先建立日期与关联索引、搜索文本和中文排序；
 `queries.rs` 查询，`views.rs` 投影公开字段。`contract.rs` 的 Rust 输入类型同时用于请求校验、OpenAPI 和工具契约。
-前端构建只读取这份已校验快照，不再重复导入和验证原始资料。生产后端是独立 Rust 可执行程序与只读快照，不携带 Node 或前端依赖。
+前端构建只读取这份已校验快照，不再重复导入和验证原始资料。生产后端是独立 Rust 可执行程序与只读快照，不携带 Bun 或前端依赖。
 
 ## API
 
@@ -55,25 +57,25 @@ AI 查询接口的参数、返回结构和示例见 [AI 查询接口](docs/ai-ap
 `ooaaqq/nixos-server-fleet` 只锁定 release、配置 HTTPS 和 AstrBot 查询插件。
 
 `rust/contract.rs` 导出四个 AstrBot 工具契约，可选 HTTP 参数转换为显式 nullable 工具参数。
-`elfofera-api contract --output <目录>` 独立生成契约、OpenAPI 和成员映射，不读取确认资料。`pnpm build` 同时生成资料快照与契约。
+`elfofera-api contract --output <目录>` 独立生成契约、OpenAPI 和成员映射，不读取确认资料。`bun run build` 同时生成资料快照与契约。
 
 `dist/tools.json` 是构建产物，不提交 Git；fleet 插件直接消费同一个 release 的产物，避免手工副本。
 插件只维护工具注册和 HTTP 传输，不重复维护字段规则。
 
 更新资料时按 [最新数据更新规则](docs/design.md#最新数据更新) 核对动态、投稿与回放，
-然后运行 `pnpm check` 和 `pnpm frontend:build`，验证实际日期与关联。
+然后运行 `bun run check` 和 `bun run frontend:build`，验证实际日期与关联。
 
 ## 前端
 
 ```sh
-pnpm frontend:dev
-pnpm frontend:build
-pnpm frontend:preview
+bun run frontend:dev
+bun run frontend:build
+bun run frontend:preview
 ```
 
-前端使用官方 Carbon React 组件、Gray 10 主题、UI Shell SideNav 与 IBM Plex 字体。侧栏提供直播档案、歌曲档案和 API 使用说明；确认数据生成按年份拆分的静态 JSON，并在清单中提供全局直播摘要和作品索引。直播档案支持年月与成员筛选、跨年份标题搜索、月历/按日列表、场次与日程变更、录播和完整表演清单；歌曲档案支持歌曲/原唱搜索分页、全部年份的完整演出记录、年份/成员筛选及跨年份场次跳转。浅色外壳提供响应式布局与移动端详情返回，URL 保存筛选和选择，支持刷新与浏览器前进后退。开发服务默认监听 `127.0.0.1:4173`。页面规范见 [EOE LIVE INDEX 设计规范](docs/live-index.md)。
+前端使用官方 Carbon React 组件、UI Shell SideNav、IBM Plex 字体和 productive motion token，深浅主题跟随系统。侧栏提供直播档案、歌曲档案、API 使用说明和致谢；确认数据生成按年份拆分的静态 JSON，并在清单中提供全局直播摘要和作品索引。直播档案支持年月与成员筛选、跨年份标题搜索、月历/按日列表、场次与日程变更、录播和完整表演清单；歌曲档案支持歌曲/原唱搜索分页、全部年份的完整演出记录、年份/成员筛选及跨年份场次跳转。统一外壳、页面标题和响应式布局，移动端详情返回恢复焦点与滚动位置；URL 保存筛选和选择，支持刷新与浏览器前进后退。开发服务默认监听 `127.0.0.1:4173`。页面规范见 [EOE LIVE INDEX 设计规范](docs/live-index.md)。
 
-生成数据位于 `frontend/public/data/`，不提交 Git；Vite 构建时自动复制到 `frontend/dist/data/`。完整前端发布产物为 `frontend/dist/`。生产构建预览监听 `127.0.0.1:4174`，需先运行 `pnpm frontend:build`。
+生成数据位于 `frontend/public/data/`，不提交 Git；Vite 构建时自动复制到 `frontend/dist/data/`。完整前端发布产物为 `frontend/dist/`。生产构建预览监听 `127.0.0.1:4174`，需先运行 `bun run frontend:build`。
 
 ## 数据备份
 
@@ -84,7 +86,7 @@ pnpm frontend:preview
 ## 发布
 
 保持 Cargo.toml、Cargo.lock 和 package.json 的版本一致，提交后推送 `vX.Y.Z` tag。
-GitHub Actions 使用稳定 Rust 和 Node 26，运行全部检查后生成
+GitHub Actions 使用稳定 Rust 和 Bun 1.4.2，运行全部检查后生成
 `elfofera-api-X.Y.Z-x86_64-linux.tar.gz` 和 SHA-256，再创建 GitHub Release。
 包内包含 `bin/elfofera-api`、`share/elfofera-api/archive.json`、`frontend/` 和 `contract/`；
 前端和契约均位于 `share/elfofera-api/` 下。包面向 Ubuntu 24.04 glibc，消费方适配加载器。

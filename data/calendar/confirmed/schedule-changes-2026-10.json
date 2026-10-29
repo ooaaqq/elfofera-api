@@ -319,6 +319,67 @@
         }
       ],
       "note": "公告仅说明延后一小会，未公布延后分钟数或新时间；保留原计划19:30，不推断精确实际开播时刻。"
+    },
+    {
+      "date": "2026-10-27",
+      "action": "time-change",
+      "title": "柚恩2D直播提前至18:30",
+      "members": [
+        "youen"
+      ],
+      "originalPlan": {
+        "date": "2026-10-27",
+        "restDay": false,
+        "events": [
+          {
+            "members": [
+              "youen"
+            ],
+            "plannedTime": "19:30",
+            "formatLabel": "2D",
+            "participation": "individual"
+          }
+        ],
+        "source": {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1263359478328197173",
+          "dynamicId": "1263359478328197173",
+          "excerpt": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。",
+          "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/7ff3e1c3f490d0adf5e977b31d5e162a2018113152.jpg"
+        }
+      },
+      "from": {
+        "date": "2026-10-27",
+        "plannedTime": "19:30",
+        "members": [
+          "youen"
+        ]
+      },
+      "to": {
+        "date": "2026-10-27",
+        "plannedTime": "18:30",
+        "members": [
+          "youen"
+        ]
+      },
+      "announcementEventId": "evt_887803ae-02ca-598b-b19a-b1c4fd4acc96",
+      "relatedEventId": "evt_d6462166-886c-5d30-8785-9ab0e5c9168d",
+      "evidence": [
+        {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1263822061370867717",
+          "dynamicId": "1263822061370867717",
+          "excerpt": "柚恩说明身体略微不适，提前一个小时开始；预约明确10-27 18:30，标题“新三完结倒计时”。"
+        },
+        {
+          "kind": "bilibili-dynamic",
+          "url": "https://t.bilibili.com/1263359478328197173",
+          "dynamicId": "1263359478328197173",
+          "excerpt": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。",
+          "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/7ff3e1c3f490d0adf5e977b31d5e162a2018113152.jpg"
+        }
+      ],
+      "note": "以成员当日文字与预约共同确认提前一小时；官方回放标题18点只保留为录播小时。"
     }
   ]
 }

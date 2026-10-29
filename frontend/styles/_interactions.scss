@@ -1,0 +1,23 @@
+@use '@carbon/react/scss/motion';
+
+.calendar-event, .calendar-change, .archive-result, .work-result, .performance-result {
+  transition:
+    background-color motion.$duration-fast-02 motion.motion(standard, productive),
+    color motion.$duration-fast-02 motion.motion(standard, productive),
+    box-shadow motion.$duration-fast-02 motion.motion(standard, productive);
+  -webkit-tap-highlight-color: transparent;
+}
+.calendar-event:active, .archive-result:active, .work-result:active {
+  background: var(--cds-layer-active-01);
+}
+.documentation-accounts .cds--link {
+  transition: color motion.$duration-fast-02 motion.motion(standard, productive), background-color motion.$duration-fast-02 motion.motion(standard, productive);
+}
+.documentation-accounts .cds--link:hover { background: var(--cds-layer-hover-01); }
+.documentation-accounts svg {
+  transition: transform motion.$duration-fast-02 motion.motion(standard, productive);
+}
+.documentation-accounts .cds--link:hover svg { transform: translate(2px, -2px); }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

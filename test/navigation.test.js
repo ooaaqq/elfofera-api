@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "bun:test";
 import {
   defaultLocation,
   formatLocation,
@@ -26,7 +26,23 @@ describe("archive URL state", () => {
     expect(parseLocation(formatLocation(state)).data).toEqual(state);
   });
 
-  it.each(["songs", "api"])(
+  it("round-trips documentation sections without losing archive filters", () => {
+    const state = {
+      ...defaultLocation,
+      view: "api",
+      section: "api-history",
+      year: "2022",
+      month: 7,
+      member: "luzao",
+      songQuery: "Lemon",
+    };
+    expect(parseLocation(formatLocation(state)).data).toEqual(state);
+    expect(parseLocation("#thanks?section=thanks-community").data.section).toBe(
+      "thanks-community",
+    );
+  });
+
+  it.each(["songs", "api", "thanks"])(
     "preserves archive and song positions when opening %s",
     (view) => {
       const state = {
@@ -51,6 +67,7 @@ describe("archive URL state", () => {
 
   it.each([
     "#other",
+    "#api?section=unknown",
     "#archive?month=13",
     "#archive?archivePage=0",
     "#archive?member=invalid",

@@ -5,7 +5,9 @@ import { ApiView } from "./api-view.jsx";
 import { AppShell } from "./app-shell.jsx";
 import { ArchiveView } from "./archive-view.jsx";
 import { defaultLocation, useLocationState } from "./navigation.js";
+import { PageHeader } from "./page-header.jsx";
 import { SongsView } from "./songs-view.jsx";
+import { ThanksView } from "./thanks-view.jsx";
 import { RequestError } from "./ui.jsx";
 import { createYearLoader, loadManifest } from "./year-data.js";
 import "./style.scss";
@@ -14,6 +16,7 @@ const viewTitles = {
   archive: "直播档案",
   songs: "歌曲档案",
   api: "API 使用说明",
+  thanks: "致谢",
 };
 
 function App() {
@@ -30,6 +33,7 @@ function App() {
   const loadYear = useRef(createYearLoader(fetch));
   const manifest = manifestState.data;
   const apiView = route.view === "api";
+  const dataView = route.view === "archive" || route.view === "songs";
   const searching = Boolean(route.query.trim());
   const year = route.year || manifest?.years.at(-1) || "";
   const monthRef = useRef(route.month);
@@ -40,7 +44,7 @@ function App() {
 
   // biome-ignore lint/correctness/useExhaustiveDependencies: Load on entering a data view or explicit retry; keep an already loaded manifest.
   useEffect(() => {
-    if (apiView || manifest) return;
+    if (!dataView || manifest) return;
     const controller = new AbortController();
     setManifest({ data: null, error: null });
     loadManifest(controller.signal)
@@ -52,7 +56,7 @@ function App() {
           setManifest({ data: null, error: error.message });
       });
     return () => controller.abort();
-  }, [manifestAttempt, apiView]);
+  }, [manifestAttempt, dataView]);
 
   // biome-ignore lint/correctness/useExhaustiveDependencies: Month is resolved only when loading a year, while yearAttempt is an explicit retry.
   useEffect(() => {
@@ -98,6 +102,26 @@ function App() {
   }, [manifest, route.view, year, yearAttempt, invalid, searching]);
 
   useEffect(() => {
+    if (
+      route.view !== "archive" ||
+      invalid ||
+      searching ||
+      route.month ||
+      yearState.year !== year ||
+      yearState.loading ||
+      yearState.error
+    )
+      return;
+    navigateRef.current(
+      {
+        year,
+        month: Number(yearState.events.at(-1)?.date.slice(5, 7) || 1),
+      },
+      { replace: true },
+    );
+  }, [route.view, route.month, invalid, searching, year, yearState]);
+
+  useEffect(() => {
     document.title = `${viewTitles[route.view]} · EOE`;
     if (previousView.current !== route.view) {
       document.getElementById("main-content")?.focus({ preventScroll: true });
@@ -110,25 +134,31 @@ function App() {
   let content;
   if (invalid) {
     content = (
-      <section className="page-state">
-        <h1>无法打开此档案位置</h1>
-        <p>链接中的筛选或页码无效。</p>
-        <Button
-          size="md"
-          onClick={() => navigate(defaultLocation, { replace: true })}
-        >
-          返回直播档案
-        </Button>
-      </section>
+      <>
+        <PageHeader
+          title="无法打开此档案位置"
+          intro="链接中的筛选或页码无效。"
+        />
+        <section className="page-state invalid-location">
+          <Button
+            size="md"
+            onClick={() => navigate(defaultLocation, { replace: true })}
+          >
+            返回直播档案
+          </Button>
+        </section>
+      </>
     );
   } else if (apiView) {
-    content = <ApiView />;
+    content = <ApiView route={route} navigate={navigate} />;
+  } else if (route.view === "thanks") {
+    content = <ThanksView route={route} navigate={navigate} />;
   } else {
     content = (
       <>
         {manifestState.error && (
           <section className="page-state">
-            <h1>档案暂时无法加载</h1>
+            <h2>档案暂时无法加载</h2>
             <RequestError
               title="档案清单加载失败"
               message={manifestState.error}
@@ -138,7 +168,6 @@ function App() {
         )}
         {!manifest && !manifestState.error && (
           <section className="page-state" aria-busy="true">
-            <h1>{viewTitles[route.view]}</h1>
             <SkeletonPlaceholder />
             <p role="status">正在加载档案清单…</p>
           </section>
@@ -176,7 +205,11 @@ function App() {
     );
   }
   return (
-    <AppShell view={route.view} onChangeView={(view) => navigate({ view })}>
+    <AppShell
+      view={route.view}
+      invalid={invalid}
+      onChangeView={(view) => navigate({ view, section: "" })}
+    >
       {content}
     </AppShell>
   );

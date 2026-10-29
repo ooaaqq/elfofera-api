@@ -501,6 +501,112 @@
         }
       ],
       "note": "切片明确标注26.10.21及原唱，按同日成员回放关联；未将投稿时间当作演出日期。"
+    },
+    {
+      "id": "perf_4f120f8d-d230-53a4-ab06-94c1b47555f4",
+      "workId": "song_b5b9d79f-9b2d-40e0-9c56-f7bd698d46b6",
+      "date": "2026-10-28",
+      "eventId": "evt_34ba8d21-48ec-5f15-a7d2-e5fee856023f",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1ETsX61E6u",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1ETsX61E6u",
+          "locator": "BV1ETsX61E6u",
+          "sourceField": "title + description",
+          "excerpt": "切片标题明确曲名与露早翻唱；简介称10月29日“好好休息一天！”，但官方与周报完整录播均为10月28日。"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Ayx764EiN",
+          "locator": "BV1Ayx764EiN",
+          "sourceField": "title",
+          "excerpt": "【直播回放】【3D】好好休息一天！ 2026年10月28日18点场"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1F9x76nEA9",
+          "locator": "BV1F9x76nEA9",
+          "sourceField": "title",
+          "excerpt": "【露早】2026.10.28 好好休息一天！【直播录像】【3D】"
+        }
+      ],
+      "note": "明确切片与既有作品关联，不由整场录播推导歌单。简介日期误写10月29日，节目名与两处完整录播一致，按10月28日关联，不另建29日同名场次；未据简介常驻账号链接推断其他演唱者。"
+    },
+    {
+      "id": "perf_b917e8d4-d0b8-56f4-8c3b-bb4d7ca39114",
+      "workId": "song_7ea94aa5-d3df-4809-afac-08c87b1426e8",
+      "date": "2026-10-28",
+      "eventId": "evt_34ba8d21-48ec-5f15-a7d2-e5fee856023f",
+      "type": "singing",
+      "creditedMembers": [
+        "luzao"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1ETsX61EyX",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1ETsX61EyX",
+          "locator": "BV1ETsX61EyX",
+          "sourceField": "title + description",
+          "excerpt": "切片标题明确曲名与露早翻唱；简介称10月29日“好好休息一天！”，但官方与周报完整录播均为10月28日。"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1Ayx764EiN",
+          "locator": "BV1Ayx764EiN",
+          "sourceField": "title",
+          "excerpt": "【直播回放】【3D】好好休息一天！ 2026年10月28日18点场"
+        },
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1F9x76nEA9",
+          "locator": "BV1F9x76nEA9",
+          "sourceField": "title",
+          "excerpt": "【露早】2026.10.28 好好休息一天！【直播录像】【3D】"
+        }
+      ],
+      "note": "明确切片与既有作品关联，不由整场录播推导歌单。简介日期误写10月29日，节目名与两处完整录播一致，按10月28日关联，不另建29日同名场次；未据简介常驻账号链接推断其他演唱者。"
+    },
+    {
+      "id": "perf_e8bb352f-c2e8-534c-973c-2adfb7aa50a0",
+      "workId": "song_28128390-b23b-42b3-b0c0-9c93326e6287",
+      "date": "2026-10-28",
+      "eventId": "evt_22c037e8-6008-5454-9e51-555da9657863",
+      "type": "dance",
+      "creditedMembers": [
+        "youen"
+      ],
+      "assets": [
+        {
+          "bvid": "BV1UasX6tEbV",
+          "role": "performance-excerpt"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "bilibili-video",
+          "url": "https://www.bilibili.com/video/BV1UasX6tEbV",
+          "locator": "BV1UasX6tEbV",
+          "sourceField": "title + description",
+          "excerpt": "切片标题明确柚恩翻跳BEcause，简介标注26.10.28，原唱DREAMCATCHER。"
+        }
+      ],
+      "note": "明确切片与既有作品关联，不由整场录播推导歌单。"
     }
   ]
 }

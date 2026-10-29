@@ -1,5 +1,7 @@
-import { describe, expect, it, vi } from "vitest";
+import { afterEach, describe, expect, it, mock, spyOn } from "bun:test";
 import { createYearLoader, loadManifest } from "../frontend/year-data.js";
+
+afterEach(() => mock.restore());
 
 const response = (year) =>
   new Response(
@@ -28,8 +30,7 @@ describe("year data loading", () => {
     const slow = new Promise((resolve) => {
       finish = resolve;
     });
-    const fetchData = vi
-      .fn()
+    const fetchData = mock()
       .mockReturnValueOnce(slow)
       .mockResolvedValue(response("2026"));
     const load = createYearLoader(fetchData);
@@ -43,8 +44,7 @@ describe("year data loading", () => {
   });
 
   it("exposes HTTP failures without automatic retry and permits explicit reload", async () => {
-    const fetchData = vi
-      .fn()
+    const fetchData = mock()
       .mockResolvedValueOnce(new Response("", { status: 503 }))
       .mockResolvedValueOnce(response("2024"));
     const load = createYearLoader(fetchData);
@@ -54,8 +54,7 @@ describe("year data loading", () => {
   });
 
   it("rejects malformed event data without caching it", async () => {
-    const fetchData = vi
-      .fn()
+    const fetchData = mock()
       .mockResolvedValueOnce(new Response(JSON.stringify([{ id: "broken" }])))
       .mockResolvedValueOnce(response("2024"));
     const load = createYearLoader(fetchData);
@@ -65,7 +64,7 @@ describe("year data loading", () => {
 
   it("rejects invalid JSON instead of caching it", async () => {
     const load = createYearLoader(
-      vi.fn().mockResolvedValue(new Response("invalid")),
+      mock().mockResolvedValue(new Response("invalid")),
     );
     await expect(load("2024")).rejects.toThrow();
   });
@@ -73,25 +72,22 @@ describe("year data loading", () => {
 
 describe("archive manifest loading", () => {
   it("retains the description of an unconfirmed postponed date", async () => {
-    vi.stubGlobal(
-      "fetch",
-      vi.fn().mockResolvedValue(
-        new Response(
-          JSON.stringify({
-            years: ["2026"],
-            works: [],
-            livestreams: [],
-            changes: [
-              {
-                id: "postponed",
-                description: "露早 · 延期：2026-10-18 → 日期待定",
-                date: "2026-10-18",
-                action: "reschedule",
-                members: [],
-              },
-            ],
-          }),
-        ),
+    spyOn(globalThis, "fetch").mockResolvedValue(
+      new Response(
+        JSON.stringify({
+          years: ["2026"],
+          works: [],
+          livestreams: [],
+          changes: [
+            {
+              id: "postponed",
+              description: "露早 · 延期：2026-10-18 → 日期待定",
+              date: "2026-10-18",
+              action: "reschedule",
+              members: [],
+            },
+          ],
+        }),
       ),
     );
     const manifest = await loadManifest(new AbortController().signal);
@@ -99,17 +95,14 @@ describe("archive manifest loading", () => {
   });
 
   it("rejects an empty year index", async () => {
-    vi.stubGlobal(
-      "fetch",
-      vi.fn().mockResolvedValue(
-        new Response(
-          JSON.stringify({
-            years: [],
-            works: [],
-            livestreams: [],
-            changes: [],
-          }),
-        ),
+    spyOn(globalThis, "fetch").mockResolvedValue(
+      new Response(
+        JSON.stringify({
+          years: [],
+          works: [],
+          livestreams: [],
+          changes: [],
+        }),
       ),
     );
     await expect(loadManifest(new AbortController().signal)).rejects.toThrow(
@@ -118,10 +111,10 @@ describe("archive manifest loading", () => {
   });
 
   it("exposes an HTTP error without retrying", async () => {
-    const fetchData = vi
-      .fn()
-      .mockResolvedValue(new Response("", { status: 503 }));
-    vi.stubGlobal("fetch", fetchData);
+    const fetchData = mock().mockResolvedValue(
+      new Response("", { status: 503 }),
+    );
+    spyOn(globalThis, "fetch").mockImplementation(fetchData);
     await expect(loadManifest(new AbortController().signal)).rejects.toThrow(
       "503",
     );

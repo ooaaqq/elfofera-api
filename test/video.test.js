@@ -1,4 +1,4 @@
-import { expect, it } from "vitest";
+import { expect, it } from "bun:test";
 import { videoParts, videoUrl } from "../frontend/video.js";
 
 it("opens the exact collection part and rejects invalid part references", () => {

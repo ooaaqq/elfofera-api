@@ -1,5 +1,5 @@
+import { describe, expect, it } from "bun:test";
 import { readdirSync, readFileSync } from "node:fs";
-import { describe, expect, it } from "vitest";
 
 const root = new URL("../data/calendar/confirmed/", import.meta.url);
 const read = (name) => JSON.parse(readFileSync(new URL(name, root), "utf8"));
@@ -14,6 +14,33 @@ const withVideo = (bvid) =>
   performances.filter((p) => p.assets.some((asset) => asset.bvid === bvid));
 
 describe("Performance associations", () => {
+  it("keeps the latest joint stream and contradictory clip dates tied to recording evidence", () => {
+    const joint = events.filter(
+      (event) => event.date === "2026-10-29" && event.kind === "livestream",
+    );
+    expect(joint).toHaveLength(1);
+    expect(joint[0].recordingNamedMembers.toSorted()).toEqual([
+      "luzao",
+      "youen",
+    ]);
+    expect(joint[0].preferredRecordingBvid).toBe("BV1opsf6ZEJx");
+    for (const bvid of ["BV1ETsX61E6u", "BV1ETsX61EyX"]) {
+      const matches = withVideo(bvid);
+      expect(matches).toHaveLength(1);
+      expect(matches[0].date).toBe("2026-10-28");
+      expect(eventById.get(matches[0].eventId).preferredRecordingBvid).toBe(
+        "BV1Ayx764EiN",
+      );
+    }
+    const plan = read("plans.json").days.find(
+      (day) => day.date === "2026-11-01",
+    );
+    expect(plan.events[0]).toMatchObject({
+      members: ["youen"],
+      plannedTime: "19:30",
+      formatLabel: "电台",
+    });
+  });
   it("preserves continuous format changes as stages of one event", () => {
     const change = events.find(
       (event) =>

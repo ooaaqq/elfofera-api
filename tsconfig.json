@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["ESNext"],
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "Preserve",
+    "moduleResolution": "Bundler",
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "strict": true,
@@ -15,7 +15,7 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "types": ["node"]
+    "types": ["bun"]
   },
-  "include": ["vitest.config.ts", "vite.config.ts"]
+  "include": ["vite.config.ts"]
 }

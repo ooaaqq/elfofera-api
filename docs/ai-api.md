@@ -1,7 +1,7 @@
 # 查询接口
 
 公开入口为 `https://elfofera.com`，只提供查询。`GET /openapi.json` 描述参数与响应
-schema，`GET /health` 检查应用和数据库连接。日期统一使用真实的 `YYYY-MM-DD`，
+schema，`GET /health` 检查已加载的资料服务是否可用。日期统一使用真实的 `YYYY-MM-DD`，
 按 Asia/Shanghai 解释。
 
 ## 时间线
@@ -87,8 +87,8 @@ HTTP 可选参数在工具中显式填 `null`；`null` 不发送为查询参数�
 ## 数据维护与检查
 
 ```sh
-pnpm check
-pnpm frontend:build
+bun run check
+bun run frontend:build
 ```
 
 检查整个确认目录的结构、引用、日期聚合、署名筛选、来源、搜索和历史分页。

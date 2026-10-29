@@ -1,4 +1,4 @@
-import { expect, it } from "vitest";
+import { expect, it } from "bun:test";
 import { mostPerformedArtists } from "../frontend/song-statistics.js";
 
 it("counts performances of works under their credited original artists, deduplicating each work's credits", () => {

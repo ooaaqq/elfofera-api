@@ -21,6 +21,7 @@ import {
   SearchResult,
   VideoPartLinks,
 } from "./ui.jsx";
+import { useResponsiveLayout } from "./use-responsive-layout.js";
 import { videoUrl } from "./video.js";
 import { loadWorkHistory } from "./work-history.js";
 
@@ -313,11 +314,8 @@ export function SongsView({ works, route, navigate, onOpenEvent }) {
   const visibleWorks = normalized
     ? matches.slice((page - 1) * route.pageSize, page * route.pageSize)
     : matches.slice(0, 6);
-  const [compact, setCompact] = useState(() => {
-    const width = window.innerWidth;
-    return width - (width >= 1056 ? 256 : 0) - 32 <= 720;
-  });
   const rootRef = useRef(null);
+  const { compact } = useResponsiveLayout(rootRef);
   const detailRef = useRef(null);
   const resultRef = useRef(null);
   const triggerRef = useRef(null);
@@ -325,13 +323,6 @@ export function SongsView({ works, route, navigate, onOpenEvent }) {
   const scrollRef = useRef(0);
   const previousDetail = useRef(false);
   const detailVisible = compact && Boolean(selected);
-  useEffect(() => {
-    const observer = new ResizeObserver(([entry]) =>
-      setCompact(entry.contentRect.width <= 720),
-    );
-    observer.observe(rootRef.current);
-    return () => observer.disconnect();
-  }, []);
   useEffect(() => {
     if (detailVisible) {
       detailRef.current?.focus({ preventScroll: true });
@@ -371,7 +362,6 @@ export function SongsView({ works, route, navigate, onOpenEvent }) {
   }
   return (
     <div className="song-page" ref={rootRef}>
-      <h1 className="visually-hidden">歌曲档案</h1>
       <Layer
         as="section"
         level={1}
@@ -488,7 +478,7 @@ export function SongsView({ works, route, navigate, onOpenEvent }) {
           />
         )}
         {selected && (
-          <>
+          <div className="detail-content" key={selected.id}>
             {detailVisible && (
               <Button
                 kind="ghost"
@@ -527,7 +517,7 @@ export function SongsView({ works, route, navigate, onOpenEvent }) {
               navigate={navigate}
               onOpenEvent={onOpenEvent}
             />
-          </>
+          </div>
         )}
       </section>
     </div>

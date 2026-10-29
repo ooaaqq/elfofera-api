@@ -1,6 +1,6 @@
+import { beforeAll, expect, it } from "bun:test";
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
-import { beforeAll, expect, it } from "vitest";
 
 beforeAll(() => {
   execFileSync(process.execPath, ["frontend/build-data.mjs"]);

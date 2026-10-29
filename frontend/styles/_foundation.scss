@@ -1,0 +1,48 @@
+@use '@carbon/react/scss/type';
+@use '@carbon/react/scss/spacing';
+@use '@carbon/react/scss/motion';
+
+@use '@carbon/react/scss/theme';
+@use '@carbon/react/scss/themes';
+:root {
+  @include theme.theme(themes.$g10);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    @include theme.theme(themes.$g100);
+    color-scheme: dark;
+  }
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-SemiBold.woff2') format('woff2');
+}
+html { scrollbar-gutter: stable; scroll-padding-top: 4rem; }
+body {
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  background: var(--cds-background);
+  color: var(--cds-text-primary);
+  font-family: 'IBM Plex Sans', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+[hidden] { display: none !important; }

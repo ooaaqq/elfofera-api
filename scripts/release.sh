@@ -8,7 +8,7 @@ actual="$(python3 -c 'import tomllib; d=tomllib.load(open("Cargo.toml","rb")); p
   echo "Cargo version $actual differs from release $version" >&2
   exit 1
 }
-node --input-type=module -e 'import fs from "node:fs"; if(JSON.parse(fs.readFileSync("package.json")).version !== process.argv[1]) process.exit(1)' "$version"
+bun -e 'import fs from "node:fs"; if(JSON.parse(fs.readFileSync("package.json")).version !== process.argv[1]) process.exit(1)' "$version"
 cargo build --locked --release --workspace
 stage="$(mktemp -d)"
 trap 'rm -rf "$stage"' EXIT
@@ -17,7 +17,7 @@ install -m755 target/release/elfofera-api "$stage/bin/"
 "$stage/bin/elfofera-api" --version | grep -Fx "elfofera-api $version"
 target/release/elfofera-api build --source data/calendar/confirmed --output dist
 target/release/elfofera-api contract --output dist
-pnpm frontend:build
+bun run frontend:build
 mkdir -p "$stage/share/elfofera-api/contract"
 cp dist/archive.json "$stage/share/elfofera-api/"
 cp dist/tools.json dist/openapi.json dist/members.json "$stage/share/elfofera-api/contract/"

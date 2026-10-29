@@ -118,8 +118,8 @@ const descriptions = {
   "tentative-absence": absenceText,
   "lineup-change": lineupText,
   "schedule-announcement": announcementText,
-  "time-change": ({ change, who }) =>
-    `${who} · 时间调整：${change.fromTime ?? change.fromPlannedTime ?? change.previousPlannedTime ?? "原时刻未公布"} → ${change.toTime ?? change.toPlannedTime ?? change.plannedTime}`,
+  "time-change": ({ change, who, from, to }) =>
+    `${who} · 时间调整：${from?.plannedTime ?? change.fromTime ?? change.fromPlannedTime ?? change.previousPlannedTime ?? "原时刻未公布"} → ${to?.plannedTime ?? change.toTime ?? change.toPlannedTime ?? change.plannedTime}`,
   "format-change": ({ change, subject }) =>
     `${subject} · 形态调整：${change.fromFormat ?? change.fromFormatLabel ?? "原形态未标注"} → ${change.toFormat ?? change.toFormatLabel ?? change.toFormatLabels?.join(" / ")}${change.throughDate ? `（${change.fromDate} 至 ${change.throughDate}）` : ""}`,
   "schedule-revision": ({ change }) =>

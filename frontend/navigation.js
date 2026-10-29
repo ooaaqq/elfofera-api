@@ -5,7 +5,23 @@ import { memberSchema } from "./records.js";
 const optionalDate = z.union([z.literal(""), z.iso.date()]).default("");
 const member = z.union([z.literal("all"), memberSchema]);
 const locationSchema = z.object({
-  view: z.enum(["archive", "songs", "api"]).default("archive"),
+  view: z.enum(["archive", "songs", "api", "thanks"]).default("archive"),
+  section: z
+    .enum([
+      "",
+      "api-start",
+      "api-timeline",
+      "api-works",
+      "api-history",
+      "api-statistics",
+      "api-bun",
+      "api-records",
+      "api-errors",
+      "thanks-official",
+      "thanks-community",
+      "thanks-tools",
+    ])
+    .default(""),
   year: z.union([z.literal(""), z.string().regex(/^\d{4}$/)]).default(""),
   month: z.coerce.number().int().min(0).max(12).default(0),
   member: member.default("all"),

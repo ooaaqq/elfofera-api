@@ -3,10 +3,10 @@
   "status": "ready-for-publish-with-accepted-source-gaps",
   "scope": {
     "from": "2022-07-19",
-    "through": "2026-10-25",
+    "through": "2026-11-01",
     "timeZone": "Asia/Shanghai"
   },
-  "sourceBoundary": "本轮核对六个核心账号最新动态与投稿、三个官方回放系列和四个主要补充账号。已确认实际事件及明确切片补至2026-10-22；10月19日官方周表当前图片核对不变，计划覆盖至10月25日。检查至2026-10-23，不宣称历史零遗漏。",
+  "sourceBoundary": "本轮核对六个核心账号动态与投稿、三个官方回放系列和四个主要补充账号；实际直播确认至2026-10-29，明确切片补至10月28日。本周周表原图及当日提前公告分别保留，计划至11月1日。检查至2026-10-29，不宣称历史零遗漏。",
   "counts": {
     "byYear": {
       "2022": {
@@ -30,18 +30,18 @@
         "events": 526
       },
       "2026": {
-        "recordings": 743,
-        "performances": 350,
-        "events": 394
+        "recordings": 751,
+        "performances": 353,
+        "events": 405
       }
     },
     "total": {
-      "events": 3130,
-      "performances": 3689,
-      "recordings": 4532,
+      "events": 3141,
+      "performances": 3692,
+      "recordings": 4540,
       "confirmedWorks": 1929,
-      "plans": 1539,
-      "scheduleChanges": 145
+      "plans": 1546,
+      "scheduleChanges": 146
     }
   },
   "completion": {
@@ -129,7 +129,7 @@
     {
       "category": "source-boundary",
       "items": [
-        "官方周表图片计划至2026-10-25；10月19日至22日预定场次均已取得成员回放。10月24日及25日仍仅为计划，未提前记为实际直播。"
+        "官方周表计划至2026-11-01；10月29日双播已取得官方及具名补充录播证据。10月30日休息、31日训练，11月1日电台仍保留计划，不提前记为实际直播。"
       ]
     }
   ],
@@ -341,7 +341,7 @@
     },
     {
       "file": "confirmed/events-2026-10.json",
-      "sha256": "2aaec789a25fba33554faf2b663e6a8a7b6a8688bb7fb77177a491270597bf40"
+      "sha256": "7121cf1eaf03cac53ac30806a6aae5942e03189262f5ca652e16a6d70091e1d8"
     },
     {
       "file": "confirmed/events.json",
@@ -553,11 +553,11 @@
     },
     {
       "file": "confirmed/performances-2026-10.json",
-      "sha256": "b6cbe2bdb84c481de8773f64b5b6a648cf65d404f0b87b7a080cd7591c9eb313"
+      "sha256": "2cc17cdb17f0da1c9ff772707080e912fae1742132597fc07d257391e3427654"
     },
     {
       "file": "confirmed/plans.json",
-      "sha256": "849ce0c42feacd9f3d966d2286c17f98fb0560bb106330ad084089f105578821"
+      "sha256": "b8f3cb685aa1f1d87b1e7fa2c8574e4bc3f86c07508a33f59473635045831704"
     },
     {
       "file": "confirmed/recording-versions-2022-07.json",
@@ -581,7 +581,7 @@
     },
     {
       "file": "confirmed/recordings-2026.json",
-      "sha256": "0c1c8f766ffe88ce82281da8209b72ef50448aa98b2d9d274c32d3a5b8301a93"
+      "sha256": "b033d84c5a94564f3c24265ad85a45f6fc4dac832005fb82a5998d41ba51f434"
     },
     {
       "file": "confirmed/recordings.json",
@@ -729,7 +729,7 @@
     },
     {
       "file": "confirmed/schedule-changes-2026-10.json",
-      "sha256": "53333168f75a292a315d0f4356523e0da8092ad5ed9673b41e537c994aa5d3ef"
+      "sha256": "4a3e54fd3def41278cf8a052fcd6a0c56b4620df66d845854f75cf37b1910de9"
     },
     {
       "file": "confirmed/songs.json",

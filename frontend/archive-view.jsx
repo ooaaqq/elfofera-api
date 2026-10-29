@@ -8,11 +8,12 @@ import {
   SelectItem,
   SkeletonPlaceholder,
 } from "@carbon/react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { ArchiveSearch } from "./archive-search.jsx";
 import { memberNames, memberOptions } from "./members.js";
 import { SessionDetail } from "./session-detail.jsx";
 import { pad, RequestError } from "./ui.jsx";
+import { useResponsiveLayout } from "./use-responsive-layout.js";
 
 const months = Array.from({ length: 12 }, (_, index) => index + 1);
 const weekdays = ["一", "二", "三", "四", "五", "六", "日"];
@@ -266,11 +267,12 @@ function ArchiveFilters({
         kind="ghost"
         size="md"
         renderIcon={Reset}
+        hasIconOnly
+        iconDescription="重置筛选"
+        tooltipAlignment="end"
         disabled={route.member === "all" && !route.query}
         onClick={() => reset({ member: "all", query: "", archivePage: 1 })}
-      >
-        重置筛选
-      </Button>
+      />
     </Layer>
   );
 }
@@ -360,23 +362,7 @@ export function ArchiveView({
   const detailRef = useRef(null);
   const triggerRef = useRef(null);
   const scrollRef = useRef(0);
-  const [compact, setCompact] = useState(false);
-  const [mobile, setMobile] = useState(
-    () => window.matchMedia("(max-width: 671px)").matches,
-  );
-  useEffect(() => {
-    const media = window.matchMedia("(max-width: 671px)");
-    const update = () => setMobile(media.matches);
-    media.addEventListener("change", update);
-    const observer = new ResizeObserver(([entry]) =>
-      setCompact(entry.contentRect.width < 1024),
-    );
-    observer.observe(rootRef.current);
-    return () => {
-      media.removeEventListener("change", update);
-      observer.disconnect();
-    };
-  }, []);
+  const { compact, mobile } = useResponsiveLayout(rootRef);
   const detailVisible =
     compact && Boolean(route.date) && !searching && !loading && !error;
   const previousDetailVisible = useRef(false);
@@ -435,11 +421,11 @@ export function ArchiveView({
           navigate={navigate}
           searching={searching}
         />
-        <h1 id="calendar-title" className="visually-hidden">
+        <h2 id="calendar-title" className="visually-hidden">
           {searching
             ? "直播搜索结果"
             : `${route.year} 年 ${pad(route.month)} 月直播档案`}
-        </h1>
+        </h2>
         {searching ? (
           <ArchiveSearch
             livestreams={manifest.livestreams}
@@ -483,7 +469,6 @@ export function ArchiveView({
           searching || (compact && !detailVisible) || loading || Boolean(error)
         }
       >
-        {detailVisible && <h1 className="visually-hidden">直播场次详情</h1>}
         {detailVisible && (
           <Button
             kind="ghost"
@@ -496,6 +481,7 @@ export function ArchiveView({
           </Button>
         )}
         <SessionDetail
+          key={event?.id || selectedDate || "empty"}
           event={event}
           date={selectedDate}
           changes={changes.filter((change) => change.date === selectedDate)}

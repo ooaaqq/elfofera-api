@@ -1,0 +1,68 @@
+@use '@carbon/react/scss/type';
+@use '@carbon/react/scss/spacing';
+@use '@carbon/react/scss/motion';
+
+.return-button { margin-bottom: spacing.$spacing-05; }
+.song-search-panel { padding: spacing.$spacing-06; }
+.search-hint { padding-block: spacing.$spacing-05; color: var(--cds-text-secondary); @include type.type-style('label-01'); }
+.work-results { list-style: none; }
+.work-result {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: spacing.$spacing-02;
+  width: 100%;
+  padding: spacing.$spacing-05;
+  border: 0;
+  border-block-end: 1px solid var(--cds-border-subtle-01);
+  background: transparent;
+  color: var(--cds-text-primary);
+  text-align: start;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+  @include type.type-style('body-compact-01');
+}
+.result-copy { display: grid; gap: spacing.$spacing-02; min-width: 0; }
+.result-arrow { flex-shrink: 0; margin-top: 0.125rem; color: var(--cds-icon-secondary); transition: transform motion.$duration-fast-02 motion.motion(standard, productive), color motion.$duration-fast-02 motion.motion(standard, productive); }
+.work-result:hover .result-arrow { transform: translateX(2px); color: var(--cds-icon-primary); }
+.work-result:hover { background: var(--cds-layer-hover-01); }
+.work-result[aria-pressed='true'] { background: var(--cds-layer-selected-01); box-shadow: inset 3px 0 var(--cds-border-interactive); }
+.work-result small { color: var(--cds-text-secondary); @include type.type-style('label-01'); }
+.search-empty { display: grid; justify-items: start; gap: spacing.$spacing-04; padding-block: spacing.$spacing-05; @include type.type-style('body-01'); }
+.search-empty h2 { @include type.type-style('heading-02'); }
+.work-summary { border-bottom: 1px solid var(--cds-border-subtle-01); }
+.work-summary h2 { overflow-wrap: anywhere; @include type.type-style('heading-03'); }
+.work-summary .work-total { @include type.type-style('label-01'); }
+.song-overview-summary { display: grid; gap: spacing.$spacing-06; padding: spacing.$spacing-06 spacing.$spacing-05; }
+.song-overview-summary h2 { @include type.type-style('heading-03'); }
+.song-overview-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: spacing.$spacing-05; }
+.song-overview-metrics > div { display: flex; flex-direction: column; gap: spacing.$spacing-03; min-width: 0; }
+.song-overview-metrics dt { color: var(--cds-text-secondary); @include type.type-style('label-01'); }
+.song-overview-metrics dd { margin-block-start: auto; font-variant-numeric: tabular-nums; @include type.type-style('heading-04'); }
+.song-search-panel > .work-results { margin-top: spacing.$spacing-05; }
+.artist-results { padding-inline: spacing.$spacing-05; }
+@container data-workspace (max-width: 30rem) {
+  .song-overview-metrics dd { @include type.type-style('heading-03'); }
+}
+.history-filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: spacing.$spacing-05; padding: spacing.$spacing-05; }
+.history-count { padding: 0 spacing.$spacing-05 spacing.$spacing-05; }
+.history-loading { padding: spacing.$spacing-05; }
+.performance-record, .publication-record { display: grid; justify-items: start; gap: spacing.$spacing-03; padding-block: spacing.$spacing-03; }
+.performance-result {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--cds-link-primary);
+  text-align: start;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+  @include type.type-style('body-compact-01');
+}
+.performance-title { @include type.type-style('body-compact-01'); }
+.performance-result:hover { text-decoration: underline; }
+.performance-record .cds--link, .publication-record .cds--link { display: inline-flex; align-items: center; gap: spacing.$spacing-03; }
+.list-empty { display: grid; justify-items: start; gap: spacing.$spacing-05; @include type.type-style('body-01'); }
+.request-error { display: grid; justify-items: start; gap: spacing.$spacing-05; padding: spacing.$spacing-05; }
+.request-error .cds--inline-notification { min-width: 0; max-width: 100%; }
+.page-state > .request-error { padding: 0; }
+.song-search-panel > .cds--pagination { margin-top: spacing.$spacing-05; }

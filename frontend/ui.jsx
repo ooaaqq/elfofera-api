@@ -1,4 +1,4 @@
-import { Launch } from "@carbon/icons-react";
+import { ArrowRight, Launch } from "@carbon/icons-react";
 import { Button, InlineNotification, Link, Pagination } from "@carbon/react";
 import { videoUrl } from "./video.js";
 
@@ -12,8 +12,11 @@ export function SearchResult({ title, detail, selected, workId, onClick }) {
         data-work-id={workId}
         onClick={onClick}
       >
-        <span>{title}</span>
-        <small>{detail}</small>
+        <span className="result-copy">
+          <span>{title}</span>
+          <small>{detail}</small>
+        </span>
+        <ArrowRight className="result-arrow" size={16} aria-hidden="true" />
       </button>
     </li>
   );

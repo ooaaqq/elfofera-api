@@ -4,23 +4,23 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": "26.x"
+    "bun": "1.4.2"
   },
-  "packageManager": "pnpm@12.10.1",
+  "packageManager": "bun@1.4.2",
   "scripts": {
     "dev": "cargo run --locked -- serve --snapshot dist/archive.json",
     "build": "cargo run --locked -- build && cargo run --locked -- contract --output dist",
     "start": "cargo run --locked --release -- serve --snapshot dist/archive.json",
-    "lint": "biome check --error-on-warnings .",
-    "format": "biome check --write --error-on-warnings .",
-    "typecheck": "tsc --noEmit",
-    "test": "vitest run",
-    "check": "cargo fmt --check && cargo clippy --locked --all-targets -- -D warnings && cargo test --locked && pnpm lint && pnpm typecheck && pnpm build && pnpm test && pnpm frontend:build",
-    "deps:outdated": "pnpm outdated",
-    "frontend:data": "node frontend/build-data.mjs",
-    "frontend:dev": "pnpm build && pnpm frontend:data && vite frontend --host 127.0.0.1 --port 4173",
-    "frontend:build": "pnpm frontend:data && vite build frontend",
-    "frontend:preview": "vite preview frontend --host 127.0.0.1 --port 4174 --strictPort"
+    "lint": "bun --bun biome check --error-on-warnings .",
+    "format": "bun --bun biome check --write --error-on-warnings .",
+    "typecheck": "bun --bun tsc --noEmit",
+    "test": "bun test",
+    "check": "cargo fmt --check && cargo clippy --locked --all-targets -- -D warnings && cargo test --locked && bun run lint && bun run typecheck && bun run build && bun run test && bun run frontend:build",
+    "deps:outdated": "bun outdated",
+    "frontend:data": "bun frontend/build-data.mjs",
+    "frontend:dev": "bun run build && bun run frontend:data && bun --bun vite frontend --host 127.0.0.1 --port 4173",
+    "frontend:build": "bun run frontend:data && bun --bun vite build frontend",
+    "frontend:preview": "bun --bun vite preview frontend --host 127.0.0.1 --port 4174 --strictPort"
   },
   "dependencies": {
     "@carbon/icons-react": "11.91.0",
@@ -32,10 +32,10 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.6.3",
-    "@types/node": "26.6.5",
+    "@types/bun": "1.4.2",
     "sass": "1.106.1",
     "typescript": "7.0.2",
-    "vite": "8.3.5",
-    "vitest": "5.0.5"
-  }
+    "vite": "8.3.5"
+  },
+  "trustedDependencies": []
 }

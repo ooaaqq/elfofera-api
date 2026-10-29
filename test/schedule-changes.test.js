@@ -1,9 +1,19 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "bun:test";
 import { buildScheduleChanges } from "../frontend/schedule-changes.js";
 
 const build = (change, events = []) => buildScheduleChanges([change], events);
 
 describe("schedule presentation", () => {
+  it("renders a time adjustment from explicit before and after slots", () => {
+    const [change] = build({
+      action: "time-change",
+      members: ["youen"],
+      from: { date: "2026-10-27", plannedTime: "19:30" },
+      to: { date: "2026-10-27", plannedTime: "18:30" },
+    });
+    expect(change.date).toBe("2026-10-27");
+    expect(change.description).toBe("柚恩 · 时间调整：19:30 → 18:30");
+  });
   it("retains both dates and times for a reschedule using explicit date fields", () => {
     const changes = build({
       action: "reschedule",
