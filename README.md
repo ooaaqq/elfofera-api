@@ -13,7 +13,7 @@ EOE 时间线、作品和录播资料的只读查询 API。仓库只维护当前
 
 ## 开发环境
 
-JavaScript 工具链统一使用 Bun 1.4.2（版本记录在 `.bun-version`），依赖锁为 `bun.lock`。Bun 负责依赖安装、脚本运行和原生测试；Vite、TypeScript 与 Biome 也通过 Bun 启动。Rust 负责 API 与资料构建。
+JavaScript 工具链统一使用 `.bun-version` 指定的 Bun，依赖锁为 `bun.lock`。Bun 负责依赖安装、脚本运行和原生测试；Vite、TypeScript 与 Biome 也通过 Bun 启动。Rust 负责 API 与资料构建。
 
 ```sh
 nix develop /path/to/infra
@@ -63,31 +63,50 @@ AI 查询接口的参数、返回结构和示例见 [AI 查询接口](docs/ai-ap
 插件只维护工具注册和 HTTP 传输，不重复维护字段规则。
 
 更新资料时按 [最新数据更新规则](docs/design.md#最新数据更新) 核对动态、投稿与回放，
-然后运行 `bun run check` 和 `bun run frontend:build`，验证实际日期与关联。
+然后运行 `bun run check`，验证实际日期与关联。
 
 ## 前端
 
 ```sh
+# 首次开发或资料变更时生成数据
+bun run build && bun run frontend:data
+# 页面开发直接启动，不再重复生成资料
 bun run frontend:dev
 bun run frontend:build
 bun run frontend:preview
 ```
 
-前端使用官方 Carbon React 组件、UI Shell SideNav、IBM Plex 字体和 productive motion token，深浅主题跟随系统。侧栏提供直播档案、歌曲档案、API 使用说明和致谢；确认数据生成按年份拆分的静态 JSON，并在清单中提供全局直播摘要和作品索引。直播档案支持年月与成员筛选、跨年份标题搜索、月历/按日列表、场次与日程变更、录播和完整表演清单；歌曲档案支持歌曲/原唱搜索分页、全部年份的完整演出记录、年份/成员筛选及跨年份场次跳转。统一外壳、页面标题和响应式布局，移动端详情返回恢复焦点与滚动位置；URL 保存筛选和选择，支持刷新与浏览器前进后退。开发服务默认监听 `127.0.0.1:4173`。页面规范见 [EOE LIVE INDEX 设计规范](docs/live-index.md)。
+前端使用 React Spectrum 2（S2）组件和官方 token；路由使用原生 History API，只维护当前路径。当前界面提供直播档案、歌曲档案、API 使用说明和服务状态四个只读入口，搜索只作用于当前发布快照。开发服务默认监听 `127.0.0.1:4173`。页面规范见 [前端设计与约束](docs/frontend-design.md)。
 
 生成数据位于 `frontend/public/data/`，不提交 Git；Vite 构建时自动复制到 `frontend/dist/data/`。完整前端发布产物为 `frontend/dist/`。生产构建预览监听 `127.0.0.1:4174`，需先运行 `bun run frontend:build`。
+
+### 服务状态预览
+
+`/status` 展示所有已接入的公开服务状态，使用 Spectrum 2 的 Provider 和组件样式。页面每 30 秒读取同域
+`/status-api/endpoints/statuses`，展示当前状态和最近检查历史。超过 3 分钟的探测数据或状态接口请求失败均标记为未知。
+
+本地通过 Vite 代理接入 Gatus，监控地址只供开发服务器使用，不进入浏览器构建：
+
+```sh
+STATUS_BACKEND_URL=http://your-monitor:3001 bun run frontend:dev
+```
+
+Vite 提供页面热更新。Gatus 探测与存储、生产同域只读接口转发由 infra 管理，应用不运行自己的探测任务。
+infra 的 Caddy 配置将该只读 GET 接口转发到同机 Gatus；随下次 infra 部署生效。
 
 ## 数据备份
 
 完整整理资料位于本机 `.local/calendar-backup-*/`，包括原始来源、evidence、候选和审查过程。它们用于查证和修订，不提交 Git。仓库中的当前数据保留必要的来源 URL、BV 号、日期和定位摘要，足以支持 API 使用和后续定向修订。
 
-更多规则见 [设计说明](docs/design.md)、[EOE LIVE INDEX 设计规范](docs/live-index.md)、[数据说明](data/calendar/README.md) 和 [确认资料说明](data/calendar/confirmed/README.md)。
+更多规则见 [设计说明](docs/design.md)、[前端设计与约束](docs/frontend-design.md)、[数据说明](data/calendar/README.md) 和 [确认资料说明](data/calendar/confirmed/README.md)。
 
 ## 发布
 
 保持 Cargo.toml、Cargo.lock 和 package.json 的版本一致，提交后推送 `vX.Y.Z` tag。
-GitHub Actions 使用稳定 Rust 和 Bun 1.4.2，运行全部检查后生成
+GitHub Actions 使用稳定 Rust 和 `.bun-version` 指定的 Bun，运行全部检查后复用资料、契约和前端产物，生成
 `elfofera-api-X.Y.Z-x86_64-linux.tar.gz` 和 SHA-256，再创建 GitHub Release。
 包内包含 `bin/elfofera-api`、`share/elfofera-api/archive.json`、`frontend/` 和 `contract/`；
 前端和契约均位于 `share/elfofera-api/` 下。包面向 Ubuntu 24.04 glibc，消费方适配加载器。
 发布 tag 和资产不覆盖，修正时递增版本。生产只消费已发布资产，不从源码构建。
+
+依赖更新由 `renovate.json` 配置：Bun 依赖与锁文件、Bun 运行时、Cargo 和 Actions；Spectrum 2 只接受显式版本更新，升级前核对官方迁移文档。仓库需在 Renovate 的安装范围内，配置文件本身不会启动机器人。

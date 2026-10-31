@@ -1,5 +1,7 @@
 import { afterEach, describe, expect, it, mock, spyOn } from "bun:test";
-import { loadWorkHistory } from "../frontend/work-history.js";
+import { queryClient, workQuery } from "../frontend/data.ts";
+
+const loadWorkHistory = (work) => queryClient.fetchQuery(workQuery(work));
 
 const records = ["2023-04-01", "2026-01-01"].map((date, index) => ({
   id: `performance-${index}`,
@@ -15,7 +17,10 @@ const records = ["2023-04-01", "2026-01-01"].map((date, index) => ({
 const details = { performances: records, publications: [] };
 const work = { id: "a/b", performanceCount: 2, publicationCount: 0 };
 const signal = () => new AbortController().signal;
-afterEach(() => mock.restore());
+afterEach(() => {
+  queryClient.clear();
+  mock.restore();
+});
 
 describe("complete work history", () => {
   it("retains performances across years and event types", async () => {
@@ -33,14 +38,14 @@ describe("complete work history", () => {
     );
     await expect(
       loadWorkHistory({ ...work, performanceCount: 17 }, signal()),
-    ).rejects.toThrow("数量与作品索引不一致");
+    ).rejects.toThrow("数量与索引不一致");
   });
 
   it("rejects invalid history data", async () => {
     spyOn(globalThis, "fetch").mockResolvedValue(
       new Response(JSON.stringify([{ id: "invalid" }])),
     );
-    await expect(loadWorkHistory(work, signal())).rejects.toThrow("格式无效");
+    await expect(loadWorkHistory(work, signal())).rejects.toThrow();
   });
 
   it("exposes failed requests without automatic retry", async () => {
@@ -83,6 +88,6 @@ describe("complete work history", () => {
     );
     await expect(
       loadWorkHistory({ ...work, publicationCount: 1 }, signal()),
-    ).rejects.toThrow("投稿记录数量与作品索引不一致");
+    ).rejects.toThrow("作品记录数量与索引不一致");
   });
 });

@@ -1,4 +1,9 @@
-export function searchLivestreams(livestreams, query, member) {
+import type { Livestream } from "./data-contract";
+export function searchLivestreams(
+  livestreams: Livestream[],
+  query: string,
+  member: string,
+) {
   const normalized = query.trim().toLocaleLowerCase();
   if (!normalized) return [];
   return livestreams

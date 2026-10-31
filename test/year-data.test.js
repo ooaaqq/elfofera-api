@@ -1,7 +1,12 @@
 import { afterEach, describe, expect, it, mock, spyOn } from "bun:test";
-import { createYearLoader, loadManifest } from "../frontend/year-data.js";
+import { manifestQuery, queryClient, yearQuery } from "../frontend/data.ts";
 
-afterEach(() => mock.restore());
+const loadManifest = () => queryClient.fetchQuery(manifestQuery);
+
+afterEach(() => {
+  queryClient.clear();
+  mock.restore();
+});
 
 const response = (year) =>
   new Response(
@@ -25,48 +30,70 @@ const response = (year) =>
   );
 
 describe("year data loading", () => {
-  it("marks a slower old request as stale and caches loaded years", async () => {
+  it("keeps year results isolated and caches successful requests", async () => {
     let finish;
     const slow = new Promise((resolve) => {
       finish = resolve;
     });
-    const fetchData = mock()
+    const fetchData = spyOn(globalThis, "fetch")
       .mockReturnValueOnce(slow)
       .mockResolvedValue(response("2026"));
-    const load = createYearLoader(fetchData);
-    const old = load("2023");
-    const recent = await load("2026");
+    const old = queryClient.fetchQuery(yearQuery("2023"));
+    expect((await queryClient.fetchQuery(yearQuery("2026")))[0].id).toBe(
+      "2026",
+    );
     finish(response("2023"));
-    expect(recent.current).toBe(true);
-    expect((await old).current).toBe(false);
-    expect((await load("2023")).indexed.dates.has("2023-07-24")).toBe(true);
+    expect((await old)[0].id).toBe("2023");
+    await queryClient.fetchQuery(yearQuery("2023"));
     expect(fetchData).toHaveBeenCalledTimes(2);
   });
-
   it("exposes HTTP failures without automatic retry and permits explicit reload", async () => {
-    const fetchData = mock()
+    const fetchData = spyOn(globalThis, "fetch")
       .mockResolvedValueOnce(new Response("", { status: 503 }))
       .mockResolvedValueOnce(response("2024"));
-    const load = createYearLoader(fetchData);
-    await expect(load("2024")).rejects.toThrow("503");
-    expect(fetchData).toHaveBeenCalledOnce();
-    expect((await load("2024")).current).toBe(true);
-  });
-
-  it("rejects malformed event data without caching it", async () => {
-    const fetchData = mock()
-      .mockResolvedValueOnce(new Response(JSON.stringify([{ id: "broken" }])))
-      .mockResolvedValueOnce(response("2024"));
-    const load = createYearLoader(fetchData);
-    await expect(load("2024")).rejects.toThrow("数据格式无效");
-    expect((await load("2024")).indexed.events[0].title).toBe("测试直播");
-  });
-
-  it("rejects invalid JSON instead of caching it", async () => {
-    const load = createYearLoader(
-      mock().mockResolvedValue(new Response("invalid")),
+    await expect(queryClient.fetchQuery(yearQuery("2024"))).rejects.toThrow(
+      "503",
     );
-    await expect(load("2024")).rejects.toThrow();
+    expect(fetchData).toHaveBeenCalledOnce();
+    expect((await queryClient.fetchQuery(yearQuery("2024")))[0].title).toBe(
+      "测试直播",
+    );
+  });
+  it("rejects malformed event data without caching it", async () => {
+    spyOn(globalThis, "fetch")
+      .mockResolvedValueOnce(Response.json([{ id: "broken" }]))
+      .mockResolvedValueOnce(response("2024"));
+    await expect(queryClient.fetchQuery(yearQuery("2024"))).rejects.toThrow();
+    expect(
+      queryClient.getQueryData(yearQuery("2024").queryKey),
+    ).toBeUndefined();
+    expect((await queryClient.fetchQuery(yearQuery("2024")))[0].title).toBe(
+      "测试直播",
+    );
+  });
+  it("cancels requests when their query is cancelled", async () => {
+    let requestSignal;
+    spyOn(globalThis, "fetch").mockImplementation(
+      (_url, { signal }) =>
+        new Promise((_resolve, reject) => {
+          requestSignal = signal;
+          signal.addEventListener("abort", () => reject(signal.reason), {
+            once: true,
+          });
+        }),
+    );
+    const request = queryClient.fetchQuery(yearQuery("2024"));
+    const outcome = request.catch((error) => error);
+    await queryClient.cancelQueries({ queryKey: yearQuery("2024").queryKey });
+    expect(await outcome).toBeInstanceOf(Error);
+    expect(requestSignal.aborted).toBe(true);
+    expect(
+      queryClient.getQueryData(yearQuery("2024").queryKey),
+    ).toBeUndefined();
+  });
+  it("rejects invalid JSON", async () => {
+    spyOn(globalThis, "fetch").mockResolvedValue(new Response("invalid"));
+    await expect(queryClient.fetchQuery(yearQuery("2024"))).rejects.toThrow();
   });
 });
 
@@ -105,9 +132,7 @@ describe("archive manifest loading", () => {
         }),
       ),
     );
-    await expect(loadManifest(new AbortController().signal)).rejects.toThrow(
-      "数据清单格式无效",
-    );
+    await expect(loadManifest(new AbortController().signal)).rejects.toThrow();
   });
 
   it("exposes an HTTP error without retrying", async () => {

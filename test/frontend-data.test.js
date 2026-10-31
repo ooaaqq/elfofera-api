@@ -1,10 +1,5 @@
-import { beforeAll, expect, it } from "bun:test";
-import { execFileSync } from "node:child_process";
+import { expect, it } from "bun:test";
 import fs from "node:fs";
-
-beforeAll(() => {
-  execFileSync(process.execPath, ["frontend/build-data.mjs"]);
-});
 
 it("shows confirmed cancellations only as schedule changes, retaining members and time", () => {
   const directory = "data/calendar/confirmed";

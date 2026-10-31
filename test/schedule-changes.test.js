@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import { buildScheduleChanges } from "../frontend/schedule-changes.js";
+import { buildScheduleChanges } from "../scripts/schedule-changes.js";
 
 const build = (change, events = []) => buildScheduleChanges([change], events);
 

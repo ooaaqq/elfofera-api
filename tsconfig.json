@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "module": "Preserve",
     "moduleResolution": "Bundler",
     "verbatimModuleSyntax": true,
@@ -15,7 +15,9 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "types": ["bun"]
+    "types": ["bun", "react", "react-dom", "vite/client"],
+    "jsx": "react-jsx",
+    "resolveJsonModule": true
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts", "frontend/**/*.ts", "frontend/**/*.tsx"]
 }

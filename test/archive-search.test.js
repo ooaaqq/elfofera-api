@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import { searchLivestreams } from "../frontend/archive-search.js";
+import { searchLivestreams } from "../frontend/archive-search.ts";
 
 const events = [
   { id: "early", date: "2022-09-01", title: "歌回 Hello", members: ["luzao"] },

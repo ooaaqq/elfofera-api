@@ -110,7 +110,7 @@ EOE 团曲及成员原创曲使用 `kind: "original-song"`，原唱采用明确�
 
 ## 前端展示基线
 
-直播档案前端遵循 [EOE LIVE INDEX 设计规范](live-index.md)。前端只消费确认数据，不读取本地 evidence。
+直播档案前端遵循 [前端设计与约束](frontend-design.md)。前端只消费确认数据，不读取本地 evidence。
 
 ## 运行与发布边界
 

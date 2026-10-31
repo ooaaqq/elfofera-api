@@ -1,5 +1,5 @@
 import { expect, it } from "bun:test";
-import { mostPerformedArtists } from "../frontend/song-statistics.js";
+import { mostPerformedArtists } from "../frontend/song-statistics.ts";
 
 it("counts performances of works under their credited original artists, deduplicating each work's credits", () => {
   const works = [

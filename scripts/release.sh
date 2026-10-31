@@ -15,9 +15,7 @@ trap 'rm -rf "$stage"' EXIT
 mkdir -p "$stage/bin" dist
 install -m755 target/release/elfofera-api "$stage/bin/"
 "$stage/bin/elfofera-api" --version | grep -Fx "elfofera-api $version"
-target/release/elfofera-api build --source data/calendar/confirmed --output dist
-target/release/elfofera-api contract --output dist
-bun run frontend:build
+# Reuse the data, contracts and frontend produced by bun run check.
 mkdir -p "$stage/share/elfofera-api/contract"
 cp dist/archive.json "$stage/share/elfofera-api/"
 cp dist/tools.json dist/openapi.json dist/members.json "$stage/share/elfofera-api/contract/"

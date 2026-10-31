@@ -1,5 +1,5 @@
 import { expect, it } from "bun:test";
-import { videoParts, videoUrl } from "../frontend/video.js";
+import { videoParts, videoUrl } from "../frontend/video.ts";
 
 it("opens the exact collection part and rejects invalid part references", () => {
   expect(videoUrl("BV12W4y1q7JL", 3)).toBe(

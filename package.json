@@ -15,27 +15,27 @@
     "format": "bun --bun biome check --write --error-on-warnings .",
     "typecheck": "bun --bun tsc --noEmit",
     "test": "bun test",
-    "check": "cargo fmt --check && cargo clippy --locked --all-targets -- -D warnings && cargo test --locked && bun run lint && bun run typecheck && bun run build && bun run test && bun run frontend:build",
+    "check": "cargo fmt --check && cargo clippy --locked --all-targets -- -D warnings && cargo test --locked && bun run lint && bun run typecheck && bun run build && bun run frontend:build && bun run test",
     "deps:outdated": "bun outdated",
-    "frontend:data": "bun frontend/build-data.mjs",
-    "frontend:dev": "bun run build && bun run frontend:data && bun --bun vite frontend --host 127.0.0.1 --port 4173",
-    "frontend:build": "bun run frontend:data && bun --bun vite build frontend",
-    "frontend:preview": "bun --bun vite preview frontend --host 127.0.0.1 --port 4174 --strictPort"
+    "frontend:data": "bun scripts/build-frontend.mjs",
+    "frontend:dev": "bun --bun vite frontend --config vite.config.ts --host 127.0.0.1 --port 4173 --strictPort",
+    "frontend:build": "bun run frontend:data && bun --bun vite build frontend --config vite.config.ts",
+    "frontend:preview": "bun --bun vite preview frontend --config vite.config.ts --host 127.0.0.1 --port 4174 --strictPort"
   },
   "dependencies": {
-    "@carbon/icons-react": "11.91.0",
-    "@carbon/react": "1.119.0",
-    "@ibm/plex-sans": "1.1.0",
+    "@react-spectrum/s2": "1.8.2",
+    "@tanstack/react-query": "5.105.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "zod": "4.6.7"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.3",
-    "@types/bun": "1.4.2",
-    "sass": "1.106.1",
+    "@biomejs/biome": "2.6.4",
+    "@types/bun": "1.4.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
     "typescript": "7.0.2",
-    "vite": "8.3.5"
+    "vite": "6.4.1"
   },
   "trustedDependencies": []
 }

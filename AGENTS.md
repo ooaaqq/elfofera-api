@@ -39,3 +39,9 @@ bun run check
 - `data/calendar/releases/`：发布快照。
 - `docs/`：当前业务规则和操作说明。
 - `.local/`：被 Git 忽略的本地数据库、凭据和研究资料备份。
+
+## 前端约束
+
+- 前端唯一设计系统是 Spectrum 2；实现前读取 `docs/frontend-design.md` 和官方 `react-spectrum-s2` skill。
+- Carbon MCP、Carbon 组件、普通 CSS/SCSS 和自建视觉组件均已废弃；不要恢复。
+- 页面是只读 API 观察界面，保留纯数据逻辑，删除旧页面实现后从 S2 组件重新组合。

@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { memberNames } from "./members.js";
+import { memberNames } from "../frontend/members.ts";
 
 const dateSchema = z.iso.date();
 const unique = (values) => [...new Set(values)];

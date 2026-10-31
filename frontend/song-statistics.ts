@@ -1,4 +1,5 @@
-export function mostPerformedArtists(works) {
+import type { Work } from "./data-contract";
+export function mostPerformedArtists(works: Work[]) {
   const artists = new Map();
   for (const work of works) {
     if (work.performanceCount === 0) continue;

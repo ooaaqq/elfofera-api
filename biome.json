@@ -1,11 +1,11 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.6.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.6.4/schema.json",
   "files": {
     "maxSize": 2097152,
     "includes": [
       "test/**",
       "scripts/**",
-      "frontend/**/*.{js,jsx}",
+      "frontend/**/*.{ts,tsx}",
       "*.{js,jsx,ts,tsx,json,jsonc}",
       "!node_modules",
       "!.local",
@@ -13,12 +13,14 @@
       "!dist",
       "!**/dist",
       "!coverage",
-      "!frontend/data.js",
       "!.git",
       "!migrations/meta"
     ]
   },
-  "formatter": { "indentStyle": "space", "indentWidth": 2 },
+  "formatter": {
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
   "linter": {
     "enabled": true,
     "rules": {
@@ -41,5 +43,9 @@
       }
     }
   },
-  "javascript": { "formatter": { "quoteStyle": "double" } }
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double"
+    }
+  }
 }
