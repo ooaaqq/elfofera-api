@@ -50,7 +50,6 @@
       "announcementEventIds": [
         "evt_da42183b-b4f9-4039-af9c-94a0f9e0df84"
       ],
-      "relatedPlanDates": [],
       "notes": [
         "原19:00 3D计划保留，取消公告未给补播安排，不建立实际发生事件。"
       ],
@@ -59,7 +58,9 @@
           "url": "https://t.bilibili.com/1245176304797483017"
         }
       ],
-      "announcedOn": "2026-09-09"
+      "announcedOn": "2026-09-09",
+      "planIds": [],
+      "planEntryIds": []
     }
   ]
 }

@@ -41,9 +41,6 @@
       "announcementEventIds": [
         "evt_95f1382a-a7d3-4b4f-a00c-10ad3c74bfaa"
       ],
-      "relatedPlanDates": [
-        "2024-11-09"
-      ],
       "notes": [
         "3D由公告声明，原图未标形式；plans保留原图null，变更独立记录为2D。"
       ],
@@ -52,7 +49,11 @@
           "url": "https://t.bilibili.com/997723501332791361"
         }
       ],
-      "announcedOn": "2024-11-09"
+      "announcedOn": "2024-11-09",
+      "planIds": [
+        "plan_2024-11-09"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_a21c58af-a9f5-4d7d-96b3-bbc8d3e4a368",
@@ -85,16 +86,17 @@
       "announcementEventIds": [
         "evt_4317f9bf-8b79-4476-a7fe-80a3c34d6ece"
       ],
-      "relatedPlanDates": [
-        "2024-11-19"
-      ],
       "notes": [],
       "sources": [
         {
           "url": "https://t.bilibili.com/1001489208427151367"
         }
       ],
-      "announcedOn": "2024-11-19"
+      "announcedOn": "2024-11-19",
+      "planIds": [
+        "plan_2024-11-19"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_423d7cf9-9f19-45df-af7c-f35a4a879974",
@@ -128,16 +130,17 @@
       "announcementEventIds": [
         "evt_238dd24d-c7c7-49bd-a5af-3655eb39ba5a"
       ],
-      "relatedPlanDates": [
-        "2024-11-21"
-      ],
       "notes": [],
       "sources": [
         {
           "url": "https://t.bilibili.com/1001804510548459520"
         }
       ],
-      "announcedOn": "2024-11-20"
+      "announcedOn": "2024-11-20",
+      "planIds": [
+        "plan_2024-11-21"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_3d3fa952-7669-4f2f-8bd4-71df966c0201",
@@ -167,7 +170,6 @@
       "announcementEventIds": [
         "evt_238dd24d-c7c7-49bd-a5af-3655eb39ba5a"
       ],
-      "relatedPlanDates": [],
       "notes": [
         "公告称进入休眠并停止接下来所有活动安排；未声明永久退出或恢复日期，不推断未来实际参与情况。"
       ],
@@ -176,7 +178,9 @@
           "url": "https://t.bilibili.com/1001804510548459520"
         }
       ],
-      "announcedOn": "2024-11-20"
+      "announcedOn": "2024-11-20",
+      "planIds": [],
+      "planEntryIds": []
     },
     {
       "id": "chg_1fc7a7d8-cb28-46c9-b070-5de7dd243ee8",
@@ -219,10 +223,6 @@
       "announcementEventIds": [
         "evt_d6e3f794-9606-4720-8b9f-e0620e7c3df4"
       ],
-      "relatedPlanDates": [
-        "2024-11-25",
-        "2024-11-24"
-      ],
       "notes": [
         "原周日计划与后周表周一19:30安排分别保留，公告关联两日；11/22的3D照常，未建立额外变更。"
       ],
@@ -231,7 +231,12 @@
           "url": "https://t.bilibili.com/1002526743661117477"
         }
       ],
-      "announcedOn": "2024-11-22"
+      "announcedOn": "2024-11-22",
+      "planIds": [
+        "plan_2024-11-25",
+        "plan_2024-11-24"
+      ],
+      "planEntryIds": []
     }
   ]
 }

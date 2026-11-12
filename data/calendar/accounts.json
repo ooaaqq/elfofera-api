@@ -1,6 +1,5 @@
 {
   "asOf": "2026-10-15",
-  "evidence": "evidence/accounts-01.json",
   "accounts": [
     {
       "accountId": 1669777785,
@@ -10,10 +9,6 @@
       "activity": {
         "state": "active",
         "basis": "user"
-      },
-      "identityEvidence": {
-        "kind": "video-metadata",
-        "file": "evidence/review-02.json"
       },
       "url": "https://space.bilibili.com/1669777785"
     },
@@ -26,10 +21,6 @@
         "state": "active",
         "basis": "user"
       },
-      "identityEvidence": {
-        "kind": "video-metadata",
-        "file": "evidence/review-02.json"
-      },
       "url": "https://space.bilibili.com/1795147802"
     },
     {
@@ -40,10 +31,6 @@
       "activity": {
         "state": "inactive",
         "basis": "user"
-      },
-      "identityEvidence": {
-        "kind": "video-metadata",
-        "file": "evidence/sample-01.json"
       },
       "url": "https://space.bilibili.com/1811071010"
     },
@@ -56,10 +43,6 @@
         "state": "inactive",
         "basis": "user"
       },
-      "identityEvidence": {
-        "kind": "video-metadata",
-        "file": "evidence/sample-01.json"
-      },
       "url": "https://space.bilibili.com/1875044092"
     },
     {
@@ -71,10 +54,6 @@
         "state": "inactive",
         "basis": "user"
       },
-      "identityEvidence": {
-        "kind": "public-index",
-        "url": "https://www.bilibili.com/video/BV1HG4y1i7LY/"
-      },
       "url": "https://space.bilibili.com/1778026586"
     },
     {
@@ -83,17 +62,11 @@
       "role": "group",
       "schedulePublishing": {
         "state": "verified",
-        "evidence": "evidence/history-01.json",
         "dynamicId": "1255566689698840625"
       },
       "recordingPublishing": {
         "state": "verified",
-        "evidence": "evidence/history-01.json",
         "seriesId": 3116138
-      },
-      "identityEvidence": {
-        "kind": "official-dynamic",
-        "file": "evidence/history-01.json"
       },
       "url": "https://space.bilibili.com/2018113152"
     },
@@ -105,17 +78,12 @@
         "state": "active",
         "basis": "user"
       },
-      "identityEvidence": {
-        "kind": "account-profile",
-        "file": "evidence/history-01.json"
-      },
       "url": "https://space.bilibili.com/3546645526481422",
       "coverageObserved": {
         "basis": "visible-directory-boundary-audit",
         "visibleUploads": 1727,
         "pagesRead": "1-35",
         "directoryTraversal": "completed",
-        "evidence": "reviews/round-63-source-boundary-closeout.json",
         "notes": "当前可见快照目录已读到末页；歌曲与逐P核销另记，不能据目录完整宣称全部歌曲已收录。"
       }
     },
@@ -126,10 +94,6 @@
       "activity": {
         "state": "active",
         "basis": "user"
-      },
-      "identityEvidence": {
-        "kind": "account-profile",
-        "file": "evidence/history-01.json"
       },
       "url": "https://space.bilibili.com/3461563583302074",
       "coverageObserved": {
@@ -146,7 +110,6 @@
           "yumo",
           "minuo"
         ],
-        "evidence": "reviews/round-63-source-boundary-closeout.json",
         "directoryTraversal": "completed",
         "notes": "当前可见快照目录已读到末页；歌曲与逐P核销另记，不能据目录完整宣称全部歌曲已收录。",
         "visibleUploads": 3025,
@@ -157,32 +120,18 @@
       "accountId": 1498556115,
       "name": "账号已注销",
       "role": "recording-source",
-      "identityEvidence": {
-        "kind": "video-metadata",
-        "file": "evidence/july-2022.json",
-        "bvid": "BV1HG4y1i7LY"
-      },
       "url": "https://space.bilibili.com/1498556115"
     },
     {
       "accountId": 193161571,
       "name": "丸不灭",
       "role": "recording-source",
-      "identityEvidence": {
-        "kind": "video-metadata",
-        "file": "evidence/july-2022.json",
-        "bvid": "BV1ZF411P7V9"
-      },
       "url": "https://space.bilibili.com/193161571"
     },
     {
       "accountId": 2038114939,
       "name": "EOE_录播站",
       "role": "recording-group",
-      "identityEvidence": {
-        "kind": "account-profile",
-        "file": "evidence/source-discovery-02.json"
-      },
       "coverageObserved": {
         "basis": "visible-directory",
         "sessionFrom": "2022-07-24",
@@ -196,7 +145,6 @@
           "yumo",
           "minuo"
         ],
-        "evidence": "evidence/source-discovery-02.json",
         "notes": "早期补充来源，不据最后投稿日期判断停止活动日期。"
       },
       "url": "https://space.bilibili.com/2038114939"
@@ -205,11 +153,6 @@
       "accountId": 2036745631,
       "name": "账号已注销",
       "role": "recording-source",
-      "identityEvidence": {
-        "kind": "video-metadata",
-        "file": "evidence/supplement-recordings-2022-07-08.json",
-        "bvid": "BV1XG411c7Lw"
-      },
       "historicalNameCandidate": {
         "name": "靈轩",
         "basis": "public-index-title-match",
@@ -222,7 +165,6 @@
           2023
         ],
         "directoryTraversal": "unavailable",
-        "evidence": "evidence/expansion-2022-07-08.json",
         "notes": "多个相关回放样本；账号资料接口-404，未遍历目录，不确认总覆盖。"
       },
       "url": "https://space.bilibili.com/2036745631"
@@ -231,20 +173,12 @@
       "accountId": 3493074548296022,
       "name": "GOGO队周报",
       "role": "recording-source",
-      "identityEvidence": {
-        "kind": "account-profile-and-video",
-        "file": "evidence/fan-sources-2026.json",
-        "bvids": [
-          "BV1QLHE6hEfV"
-        ]
-      },
       "coverageObserved": {
         "basis": "visible-directory-boundary-audit",
         "observedSessionDates": [
           "2026-10-04"
         ],
         "directoryTraversal": "completed",
-        "evidence": "reviews/round-63-source-boundary-closeout.json",
         "notes": "当前可见快照目录已读到末页；歌曲与逐P核销另记，不能据目录完整宣称全部歌曲已收录。",
         "sampleMembers": [
           "luzao"
@@ -258,20 +192,12 @@
       "accountId": 105260060,
       "name": "柚恩周报",
       "role": "recording-source",
-      "identityEvidence": {
-        "kind": "account-profile-and-video",
-        "file": "evidence/fan-sources-2026.json",
-        "bvids": [
-          "BV1CTaV6oEXU"
-        ]
-      },
       "coverageObserved": {
         "basis": "visible-directory-boundary-audit",
         "observedSessionDates": [
           "2026-09-28"
         ],
         "directoryTraversal": "completed",
-        "evidence": "reviews/round-63-source-boundary-closeout.json",
         "notes": "当前可见快照目录已读到末页；歌曲与逐P核销另记，不能据目录完整宣称全部歌曲已收录。",
         "sampleMembers": [
           "youen",
@@ -286,8 +212,7 @@
           "date": "2023-06-28",
           "title": "《柚恩蜜给柚恩的一封信》",
           "durationLabel": "01:32:05",
-          "context": "官方生日二创获奖名单列出的粉丝作品；不是直播回放。",
-          "evidence": "evidence/june-2023-articles.json"
+          "context": "官方生日二创获奖名单列出的粉丝作品；不是直播回放。"
         }
       ]
     },
@@ -295,16 +220,10 @@
       "accountId": 3546820517038418,
       "name": "露早周报",
       "role": "recording-source",
-      "identityEvidence": {
-        "kind": "account-profile",
-        "file": "evidence/round-08-source-directory-batch02.json",
-        "locator": "sources[kind=profile,accountId=3546820517038418]"
-      },
       "coverageObserved": {
         "basis": "visible-directory",
         "visibleUploads": 6,
         "directoryTraversal": "completed",
-        "evidence": "reviews/round-15-early-account-boundary-audit.json",
         "notes": "6条可见目录已读到末页；以回放场次佐证为主，无明确逐曲清单。"
       },
       "url": "https://space.bilibili.com/3546820517038418"
@@ -314,14 +233,6 @@
       "name": "美人虞周报",
       "role": "recording-source",
       "url": "https://space.bilibili.com/1623370968",
-      "identityEvidence": {
-        "kind": "account-profile-and-video",
-        "url": "https://space.bilibili.com/1623370968",
-        "bvids": [
-          "BV1WsUuYtEzt",
-          "BV1Wz421i7cz"
-        ]
-      },
       "coverageObserved": {
         "basis": "visible-directory",
         "visibleUploads": 604,

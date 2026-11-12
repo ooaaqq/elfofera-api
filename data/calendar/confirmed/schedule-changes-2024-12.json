@@ -41,9 +41,6 @@
       "announcementEventIds": [
         "evt_75dd8ba1-0277-464a-acff-e4a33597a0c3"
       ],
-      "relatedPlanDates": [
-        "2024-12-06"
-      ],
       "notes": [
         "plans只保留原图形式；公告声明的原形式与后续调整在此独立记录，不把公告回填原图。"
       ],
@@ -52,7 +49,11 @@
           "url": "https://t.bilibili.com/1007351765758115846"
         }
       ],
-      "announcedOn": "2024-12-05"
+      "announcedOn": "2024-12-05",
+      "planIds": [
+        "plan_2024-12-06"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_18d43395-40f7-4088-875e-302c1447e0af",
@@ -95,9 +96,6 @@
       "announcementEventIds": [
         "evt_75dd8ba1-0277-464a-acff-e4a33597a0c3"
       ],
-      "relatedPlanDates": [
-        "2024-12-08"
-      ],
       "notes": [
         "plans只保留原图形式；公告声明的原形式与后续调整在此独立记录，不把公告回填原图。"
       ],
@@ -106,7 +104,11 @@
           "url": "https://t.bilibili.com/1007351765758115846"
         }
       ],
-      "announcedOn": "2024-12-05"
+      "announcedOn": "2024-12-05",
+      "planIds": [
+        "plan_2024-12-08"
+      ],
+      "planEntryIds": []
     }
   ]
 }

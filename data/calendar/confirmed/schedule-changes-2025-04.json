@@ -41,10 +41,6 @@
       "announcementEventIds": [
         "evt_6974b935-8777-4301-9ba0-61e2f92d1c7f"
       ],
-      "relatedPlanDates": [
-        "2025-04-14",
-        "2025-04-09"
-      ],
       "notes": [
         "公告明确同一时间20:40；后续4/14原图为19:00。两种声明分别保留，不猜实际开播时刻，目标计划仍按原图19:00。"
       ],
@@ -53,7 +49,12 @@
           "url": "https://t.bilibili.com/1053812840759033858"
         }
       ],
-      "announcedOn": "2025-04-09"
+      "announcedOn": "2025-04-09",
+      "planIds": [
+        "plan_2025-04-14",
+        "plan_2025-04-09"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_ade1a423-c343-4b50-85aa-b3e5dccc44cf",
@@ -96,7 +97,6 @@
       "announcementEventIds": [
         "evt_6974b935-8777-4301-9ba0-61e2f92d1c7f"
       ],
-      "relatedPlanDates": [],
       "notes": [
         "原3D计划另改至4/14，当日20:40明确另作电台安排；两项分开保留，不把原计划删除。"
       ],
@@ -105,7 +105,9 @@
           "url": "https://t.bilibili.com/1053812840759033858"
         }
       ],
-      "announcedOn": "2025-04-09"
+      "announcedOn": "2025-04-09",
+      "planIds": [],
+      "planEntryIds": []
     },
     {
       "id": "chg_0e30964a-9f1c-4e6c-b307-f0922c19213a",
@@ -145,7 +147,6 @@
       "announcementEventIds": [
         "evt_6974b935-8777-4301-9ba0-61e2f92d1c7f"
       ],
-      "relatedPlanDates": [],
       "notes": [
         "仅期间形式安排，不据此推每天均开播或额外创建每日计划；已读周表具体电台排期分别采用。"
       ],
@@ -154,7 +155,9 @@
           "url": "https://t.bilibili.com/1053812840759033858"
         }
       ],
-      "announcedOn": "2025-04-09"
+      "announcedOn": "2025-04-09",
+      "planIds": [],
+      "planEntryIds": []
     }
   ]
 }

@@ -41,10 +41,6 @@
       "announcementEventIds": [
         "evt_58750c0e-691b-4f23-8f1d-d7242a1ab5ac"
       ],
-      "relatedPlanDates": [
-        "2025-03-07",
-        "2025-03-02"
-      ],
       "notes": [
         "完整正文AT明确露早，原图与后续周表分别支持新旧排期；目标时刻取后续周表，不把公告未给时刻视为同一时间承诺。"
       ],
@@ -53,7 +49,12 @@
           "url": "https://t.bilibili.com/1039262687743180805"
         }
       ],
-      "announcedOn": "2025-03-01"
+      "announcedOn": "2025-03-01",
+      "planIds": [
+        "plan_2025-03-07",
+        "plan_2025-03-02"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_e2d84087-d8cf-45f6-88c4-280cfae65e44",
@@ -96,10 +97,6 @@
       "announcementEventIds": [
         "evt_bbd0d3b4-f0c0-4829-a345-953287eb519d"
       ],
-      "relatedPlanDates": [
-        "2025-03-10",
-        "2025-03-08"
-      ],
       "notes": [
         "完整正文AT明确露早，原图与后续周表分别支持新旧排期；目标时刻取后续周表，不把公告未给时刻视为同一时间承诺。"
       ],
@@ -108,7 +105,12 @@
           "url": "https://t.bilibili.com/1041908724747206664"
         }
       ],
-      "announcedOn": "2025-03-08"
+      "announcedOn": "2025-03-08",
+      "planIds": [
+        "plan_2025-03-10",
+        "plan_2025-03-08"
+      ],
+      "planEntryIds": []
     }
   ]
 }

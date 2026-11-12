@@ -215,14 +215,14 @@ async fn search_normalizes_unicode_and_history_paginates_with_matching_statistic
 }
 #[test]
 fn source_boundary_rejects_corruption_before_serving() -> Result<()> {
-    let source = confirmed()?.snapshot;
+    let source = serde_json::to_value(confirmed()?.data)?;
     let mut duplicate = source.clone();
     let event = duplicate["events"][0].clone();
     duplicate["events"]
         .as_array_mut()
         .context("events")?
         .push(event);
-    assert!(Archive::from_value(duplicate).is_err());
+    assert!(from_value(duplicate).is_err());
     for (field, value) in [
         ("workId", "missing"),
         ("eventId", "missing"),
@@ -230,11 +230,11 @@ fn source_boundary_rejects_corruption_before_serving() -> Result<()> {
     ] {
         let mut broken = source.clone();
         broken["performances"][0][field] = json!(value);
-        assert!(Archive::from_value(broken).is_err(), "{field}");
+        assert!(from_value(broken).is_err(), "{field}");
     }
     let mut wrong = source.clone();
     wrong["events"][0]["recordingNamedMembers"] = json!(["unknown"]);
-    assert!(Archive::from_value(wrong).is_err());
+    assert!(from_value(wrong).is_err());
     let mut non_actual = source.clone();
     let event_id = non_actual["performances"][0]["eventId"].clone();
     let event = non_actual["events"]
@@ -243,15 +243,15 @@ fn source_boundary_rejects_corruption_before_serving() -> Result<()> {
         .iter_mut()
         .find(|e| e["id"] == event_id)
         .context("linked event")?;
-    event["occurrence"] = json!("cancelled");
-    assert!(Archive::from_value(non_actual).is_err());
+    event["basis"] = json!("announcement");
+    assert!(from_value(non_actual).is_err());
     Ok(())
 }
 #[tokio::test]
 async fn duet_is_one_performance_and_group_credit_never_invents_members() -> Result<()> {
-    let archive = Archive::from_value(
-        json!({"events":[{"id":"event","date":"2026-10-26","title":"Show","kind":"livestream","occurrence":"source-attested","hostMember":"youen"}],"works":[{"id":"work","title":"Song"}],"performances":[
-        {"id":"duet","date":"2026-10-26","eventId":"event","workId":"work","type":"singing","creditedMembers":["luzao","luzao","youen"],"assets":[]},
+    let archive = from_value(
+        json!({"events":[{"id":"event","date":"2026-10-26","title":"Show","kind":"livestream","basis":"source","hostMember":"youen","contentType":"unknown","dimension":"unknown","isUnannounced":false}],"works":[{"id":"work","title":"Song"}],"performances":[
+        {"id":"duet","date":"2026-10-26","eventId":"event","workId":"work","type":"singing","creditedMembers":["luzao","youen"],"assets":[]},
         {"id":"group","date":"2026-10-26","eventId":"event","workId":"work","type":"singing","creditedGroup":"EOE","assets":[]}],"recordings":[],"plans":[],"changes":[]}),
     )?;
     let view = EventView::from(&archive.data.events[0]);
@@ -311,4 +311,8 @@ fn tools_and_http_share_one_schema_and_allow_explicit_null_optionals() -> Result
     }
     assert_eq!(normalize("Ｌｅｍｏｎ !!"), "lemon");
     Ok(())
+}
+
+fn from_value(value: serde_json::Value) -> anyhow::Result<Archive> {
+    Archive::new(serde_json::from_value(value)?)
 }

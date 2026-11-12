@@ -2,10 +2,14 @@ use anyhow::{Context, Result};
 use clap::{Parser, Subcommand};
 use elfofera_api::{
     contract::Contract,
-    data::Archive,
+    data::{Archive, read_json},
     http::{App, router},
 };
-use std::{future::IntoFuture, path::PathBuf, time::Duration};
+use std::{
+    future::IntoFuture,
+    path::{Path, PathBuf},
+    time::Duration,
+};
 
 #[derive(Parser)]
 #[command(version)]
@@ -41,34 +45,14 @@ async fn main() -> Result<()> {
     match Args::parse().command {
         Command::Contract { output } => {
             std::fs::create_dir_all(&output)?;
-            let contract = Contract::new()?;
-            let members = elfofera_api::model::MEMBERS
-                .into_iter()
-                .map(|m| {
-                    Ok((
-                        serde_json::to_value(m)?
-                            .as_str()
-                            .context("member code")?
-                            .to_owned(),
-                        serde_json::json!(m.label()),
-                    ))
-                })
-                .collect::<Result<serde_json::Map<String, serde_json::Value>>>()?;
-            for (name, value) in [
-                ("members.json", serde_json::Value::Object(members)),
-                ("tools.json", contract.tools),
-                ("openapi.json", contract.openapi),
-            ] {
-                std::fs::write(output.join(name), serde_json::to_vec(&value)?)?;
-            }
+            write_contract(&output, Contract::new()?)?;
         }
         Command::Build { source, output } => {
             let archive = Archive::read(&source)?;
             std::fs::create_dir_all(&output)?;
-            std::fs::write(
-                output.join("archive.json"),
-                serde_json::to_vec(&archive.snapshot)?,
-            )?;
+            let contract = Contract::new()?;
+            write_json(&output.join("archive.json"), &archive.data)?;
+            write_contract(&output, contract)?;
             tracing::info!(
                 events = archive.data.events.len(),
                 works = archive.data.works.len(),
@@ -77,9 +61,7 @@ async fn main() -> Result<()> {
             );
         }
         Command::Serve { snapshot } => {
-            let mut archive =
-                Archive::from_value(serde_json::from_slice(&std::fs::read(snapshot)?)?)?;
-            archive.snapshot = serde_json::Value::Null;
+            let archive = Archive::new(read_json(&snapshot)?)?;
             let app = router(App {
                 archive,
                 contract: Contract::new()?,
@@ -101,5 +83,26 @@ async fn main() -> Result<()> {
             }
         }
     }
+    Ok(())
+}
+
+fn write_json(path: &Path, value: &impl serde::Serialize) -> Result<()> {
+    let directory = path.parent().context("output directory")?;
+    let mut temporary = tempfile::NamedTempFile::new_in(directory)?;
+    serde_json::to_writer(temporary.as_file_mut(), value)?;
+    temporary.as_file().sync_all()?;
+    temporary
+        .persist(path)
+        .with_context(|| format!("replace {}", path.display()))?;
+    Ok(())
+}
+fn write_contract(output: &Path, contract: Contract) -> Result<()> {
+    let members = elfofera_api::model::MEMBERS
+        .into_iter()
+        .map(|member| (member, member.label()))
+        .collect::<std::collections::BTreeMap<_, _>>();
+    write_json(&output.join("members.json"), &members)?;
+    write_json(&output.join("tools.json"), &contract.tools)?;
+    write_json(&output.join("openapi.json"), &contract.openapi)?;
     Ok(())
 }

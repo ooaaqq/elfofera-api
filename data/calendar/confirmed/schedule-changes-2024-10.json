@@ -53,9 +53,6 @@
       "announcementEventIds": [
         "evt_811e06cc-6f69-4aaf-81cf-db9d0a238ce0"
       ],
-      "relatedPlanDates": [
-        "2024-10-17"
-      ],
       "notes": [
         "原周五安排由公告明确声明，现存10/14周表已列调整后安排；原计划保留在变更中，未把移期当取消。"
       ],
@@ -64,7 +61,11 @@
           "url": "https://t.bilibili.com/988126336812843011"
         }
       ],
-      "announcedOn": "2024-10-14"
+      "announcedOn": "2024-10-14",
+      "planIds": [
+        "plan_2024-10-17"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_90d82faf-7ee4-4846-8fe1-08826c23e899",
@@ -95,9 +96,6 @@
       "announcementEventIds": [
         "evt_811e06cc-6f69-4aaf-81cf-db9d0a238ce0"
       ],
-      "relatedPlanDates": [
-        "2024-10-18"
-      ],
       "notes": [
         "公告未给原时刻，保留null，不用提前一词猜测原时刻。"
       ],
@@ -106,7 +104,11 @@
           "url": "https://t.bilibili.com/988126336812843011"
         }
       ],
-      "announcedOn": "2024-10-14"
+      "announcedOn": "2024-10-14",
+      "planIds": [
+        "plan_2024-10-18"
+      ],
+      "planEntryIds": []
     }
   ]
 }

@@ -30,7 +30,7 @@
 修改前检查工作树并保留无关改动。数据变更后运行：
 
 ```sh
-bun run check
+./scripts/check.sh
 ```
 
 检查优先覆盖实际 Rust 校验、索引、查询和 HTTP 行为，资料断言不替代行为测试。构建产物、契约与调用方一起验证。
@@ -41,6 +41,6 @@ bun run check
 
 - `rust/`：资料校验、索引、查询、接口、契约和构建代码。
 - `data/calendar/confirmed/`：当前确认数据。
-- `data/calendar/releases/`：发布快照。
+- `dist/`：构建生成的类型化快照、契约和发布包，不提交 Git。
 - `docs/`：当前业务规则和操作说明。
 - `.local/`：被 Git 忽略的本地数据库、凭据和研究资料备份。

@@ -38,9 +38,6 @@
       ],
       "eventIds": [],
       "announcementEventIds": [],
-      "relatedPlanDates": [
-        "2025-02-19"
-      ],
       "notes": [
         "2/20发布的修订周表与2/17原图存在时间差异，只记录计划版本，不倒推2/19实际开播时刻。 原图计划恢复至plans，修订值在此独立保留。"
       ],
@@ -48,7 +45,11 @@
         {
           "url": "https://t.bilibili.com/1035941297163075593"
         }
-      ]
+      ],
+      "planIds": [
+        "plan_2025-02-19"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_f857026c-f19b-4f8e-8edf-7e9861af3bbe",
@@ -113,9 +114,6 @@
       ],
       "eventIds": [],
       "announcementEventIds": [],
-      "relatedPlanDates": [
-        "2025-02-20"
-      ],
       "notes": [
         "原图与修订图分别保留联动房间；图片不单独证明实际出席。 原图计划恢复至plans，修订值在此独立保留。"
       ],
@@ -123,7 +121,11 @@
         {
           "url": "https://t.bilibili.com/1035941297163075593"
         }
-      ]
+      ],
+      "planIds": [
+        "plan_2025-02-20"
+      ],
+      "planEntryIds": []
     }
   ]
 }

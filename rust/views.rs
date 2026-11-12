@@ -2,53 +2,9 @@ use crate::model::*;
 use chrono::NaiveDate;
 use schemars::JsonSchema;
 use serde::Serialize;
-use serde_json::Value;
 
-pub fn source_urls<T: Serialize>(row: &T) -> anyhow::Result<Vec<String>> {
-    fn visit(value: &Value, urls: &mut Vec<String>) {
-        match value {
-            Value::Array(values) => {
-                for v in values {
-                    visit(v, urls)
-                }
-            }
-            Value::Object(fields) => {
-                for (key, child) in fields {
-                    let url = child.as_str().and_then(|s| {
-                        if matches!(key.as_str(), "bvid" | "locator" | "preferredRecordingBvid")
-                            && s.starts_with("BV")
-                            && s[2..]
-                                .chars()
-                                .all(|c| c.is_ascii_alphanumeric() || c == '_')
-                        {
-                            Some(format!("https://www.bilibili.com/video/{s}"))
-                        } else if matches!(key.as_str(), "dynamicId" | "announcementId")
-                            && !s.is_empty()
-                            && s.bytes().all(|b| b.is_ascii_digit())
-                        {
-                            Some(format!("https://t.bilibili.com/{s}"))
-                        } else if key == "url"
-                            && (s.starts_with("https://") || s.starts_with("http://"))
-                        {
-                            Some(s.to_owned())
-                        } else {
-                            None
-                        }
-                    });
-                    if let Some(url) = url
-                        && !urls.contains(&url)
-                    {
-                        urls.push(url)
-                    }
-                    visit(child, urls);
-                }
-            }
-            _ => {}
-        }
-    }
-    let mut urls = Vec::new();
-    visit(&serde_json::to_value(row)?, &mut urls);
-    Ok(urls)
+pub fn source_urls(sources: &[Source]) -> Vec<String> {
+    sources.iter().map(|source| source.url.clone()).collect()
 }
 #[derive(Debug, Clone, Serialize, JsonSchema)]
 #[serde(rename_all = "camelCase")]
@@ -64,7 +20,7 @@ impl From<&Work> for WorkView {
             id: w.id.clone(),
             title: w.title.clone(),
             original_artists: w.original_artists.clone(),
-            source_urls: w.source_urls.clone(),
+            source_urls: source_urls(&w.sources),
         }
     }
 }
@@ -75,16 +31,17 @@ pub struct EventView {
     pub date: NaiveDate,
     pub end_date: Option<NaiveDate>,
     pub title: String,
-    pub kind: String,
-    pub occurrence: String,
+    pub kind: EventKind,
+    pub basis: EvidenceBasis,
     pub recording_named_members: Vec<Member>,
     pub planned_members: Vec<Member>,
     pub host_member: Option<Member>,
     pub guests: Vec<Guest>,
     pub stages: Vec<Stage>,
-    pub content_type: Option<String>,
+    pub title_hours: Vec<u8>,
+    pub content_type: Option<ContentType>,
     pub series: Option<String>,
-    pub dimension: Option<String>,
+    pub dimension: Option<Dimension>,
     pub is_unannounced: Option<bool>,
     pub source_urls: Vec<String>,
 }
@@ -95,18 +52,19 @@ impl From<&Event> for EventView {
             date: e.date,
             end_date: e.end_date,
             title: e.title.clone(),
-            kind: e.kind.clone(),
-            occurrence: e.occurrence.clone(),
+            kind: e.kind,
+            basis: e.basis,
             recording_named_members: e.recording_named_members.clone(),
             planned_members: e.planned_members.clone(),
             host_member: e.host_member,
             guests: e.guests.clone(),
             stages: e.stages.clone(),
-            content_type: e.content_type.clone(),
+            title_hours: e.title_hours.clone(),
+            content_type: e.content_type,
             series: e.series.clone(),
-            dimension: e.dimension.clone(),
+            dimension: e.dimension,
             is_unannounced: e.is_unannounced,
-            source_urls: e.source_urls.clone(),
+            source_urls: source_urls(&e.sources),
         }
     }
 }
@@ -118,7 +76,7 @@ pub struct PerformanceView {
     pub event_id: String,
     pub work_id: String,
     #[serde(rename = "type")]
-    pub kind: String,
+    pub kind: PerformanceKind,
     pub credited_members: Vec<Member>,
     pub credited_group: Option<String>,
     pub source_urls: Vec<String>,
@@ -130,17 +88,17 @@ impl From<&Performance> for PerformanceView {
             date: p.date,
             event_id: p.event_id.clone(),
             work_id: p.work_id.clone(),
-            kind: p.kind.clone(),
+            kind: p.kind,
             credited_members: p.credited_members.clone(),
             credited_group: p.credited_group.clone(),
-            source_urls: p.source_urls.clone(),
+            source_urls: source_urls(&p.sources),
         }
     }
 }
 #[derive(Debug, Serialize, JsonSchema)]
 #[serde(rename_all = "camelCase")]
 pub struct RecordingView {
-    pub bvid: String,
+    pub bvid: Bvid,
     pub date: NaiveDate,
     pub event_ids: Vec<String>,
     pub title: String,
@@ -153,10 +111,11 @@ pub struct PlanView {
     pub id: String,
     pub date: NaiveDate,
     pub rest_day: Option<bool>,
-    pub events: Vec<PlanEvent>,
+    pub entries: Vec<PlanEntry>,
     pub non_stream_activities: Vec<String>,
     pub source_urls: Vec<String>,
 }
+
 #[derive(Debug, Serialize, JsonSchema)]
 #[serde(rename_all = "camelCase")]
 pub struct ChangeView {

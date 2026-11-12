@@ -11,13 +11,13 @@ fn change(id: &str, impact: Value) -> Value {
     json!({
         "id": id, "action":"absence", "impact":impact, "members":["youen"],
         "before":[], "after":[], "eventIds":[], "announcementEventIds":[],
-        "relatedPlanDates":[], "notes":[], "sources":[]
+        "planIds":[], "planEntryIds":[], "notes":[], "sources":[]
     })
 }
 fn fixture(changes: Vec<Value>) -> Result<Archive> {
     let mut data = serde_json::to_value(Dataset::default())?;
     data["changes"] = json!(changes);
-    Archive::from_value(data)
+    from_value(data)
 }
 fn query(archive: &Archive, from: &str, through: &str, member: Option<Member>) -> Result<Value> {
     Ok(serde_json::to_value(archive.timeline(TimelineQuery {
@@ -77,7 +77,7 @@ fn rejects_ambiguous_dates_unknown_members_and_legacy_fields() -> Result<()> {
         ("eventIds", json!(["missing"])),
         ("announcementEventIds", json!(["missing"])),
         ("replacesChangeIds", json!(["missing"])),
-        ("relatedPlanDates", json!(["2024-01-01"])),
+        ("planIds", json!(["missing"])),
         ("action", json!("cancel")),
     ] {
         let mut c = change("bad", json!({"kind":"dates","dates":["2024-01-01"]}));
@@ -148,4 +148,8 @@ fn every_confirmed_change_is_reachable_with_its_identity_and_links() -> Result<(
         "contract must validate a property named title"
     );
     Ok(())
+}
+
+fn from_value(value: serde_json::Value) -> anyhow::Result<Archive> {
+    Archive::new(serde_json::from_value(value)?)
 }

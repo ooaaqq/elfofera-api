@@ -31,9 +31,6 @@
       "announcementEventIds": [
         "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b"
       ],
-      "relatedPlanDates": [
-        "2023-05-26"
-      ],
       "notes": [
         "公告发布后本周个人直播取消；不倒推已发生场次取消。"
       ],
@@ -42,7 +39,11 @@
           "url": "https://t.bilibili.com/799558353400365171"
         }
       ],
-      "announcedOn": "2023-05-25"
+      "announcedOn": "2023-05-25",
+      "planIds": [
+        "plan_2023-05-26"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_cb9b0b4b-3d83-44cc-888a-3902aeb5091b",
@@ -81,9 +82,6 @@
       "announcementEventIds": [
         "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b"
       ],
-      "relatedPlanDates": [
-        "2023-05-28"
-      ],
       "notes": [
         "暂定缺席本周团播，不等同实际出席结论。"
       ],
@@ -92,7 +90,11 @@
           "url": "https://t.bilibili.com/799558353400365171"
         }
       ],
-      "announcedOn": "2023-05-25"
+      "announcedOn": "2023-05-25",
+      "planIds": [
+        "plan_2023-05-28"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_71eea312-4a8f-4b9c-9a0e-57fcbcd25cea",
@@ -134,16 +136,17 @@
       "announcementEventIds": [
         "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b"
       ],
-      "relatedPlanDates": [
-        "2023-05-26"
-      ],
       "notes": [],
       "sources": [
         {
           "url": "https://t.bilibili.com/799558353400365171"
         }
       ],
-      "announcedOn": "2023-05-25"
+      "announcedOn": "2023-05-25",
+      "planIds": [
+        "plan_2023-05-26"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_7e06be56-e876-4be7-a56e-5c33f8781700",
@@ -174,7 +177,6 @@
       "announcementEventIds": [
         "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b"
       ],
-      "relatedPlanDates": [],
       "notes": [
         "2023年6月初",
         "新日期未公布；不把6月3日周表双播自动等同延期才艺回。"
@@ -184,7 +186,9 @@
           "url": "https://t.bilibili.com/799558353400365171"
         }
       ],
-      "announcedOn": "2023-05-25"
+      "announcedOn": "2023-05-25",
+      "planIds": [],
+      "planEntryIds": []
     }
   ]
 }

@@ -41,9 +41,6 @@
       "announcementEventIds": [
         "evt_95a159a5-0adf-4139-b0ae-9015aba5afae"
       ],
-      "relatedPlanDates": [
-        "2024-08-04"
-      ],
       "notes": [
         "3D为完整公告明确声明的原形式；原周表未标形式，originalFormatLabel保留null，不回填原图。"
       ],
@@ -52,7 +49,11 @@
           "url": "https://t.bilibili.com/961695700795523091"
         }
       ],
-      "announcedOn": "2024-08-04"
+      "announcedOn": "2024-08-04",
+      "planIds": [
+        "plan_2024-08-04"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_c53c5893-9e0d-4812-801a-1d93777c345d",
@@ -95,9 +96,6 @@
       "announcementEventIds": [
         "evt_dfb6417a-32e4-4da0-bf3b-1282a2fdf872"
       ],
-      "relatedPlanDates": [
-        "2024-08-17"
-      ],
       "notes": [
         "3D为完整公告明确声明的原形式；原周表未标形式，originalFormatLabel保留null，不回填原图。"
       ],
@@ -106,7 +104,11 @@
           "url": "https://t.bilibili.com/966586349961347081"
         }
       ],
-      "announcedOn": "2024-08-17"
+      "announcedOn": "2024-08-17",
+      "planIds": [
+        "plan_2024-08-17"
+      ],
+      "planEntryIds": []
     },
     {
       "id": "chg_aa039491-8d8e-4cba-b556-ca6d7b098568",
@@ -140,16 +142,17 @@
       "announcementEventIds": [
         "evt_effc6750-5997-47df-8510-ef5e4eb3d749"
       ],
-      "relatedPlanDates": [
-        "2024-08-25"
-      ],
       "notes": [],
       "sources": [
         {
           "url": "https://t.bilibili.com/969533174302375975"
         }
       ],
-      "announcedOn": "2024-08-25"
+      "announcedOn": "2024-08-25",
+      "planIds": [
+        "plan_2024-08-25"
+      ],
+      "planEntryIds": []
     }
   ]
 }

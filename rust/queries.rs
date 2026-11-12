@@ -81,9 +81,9 @@ impl Archive {
                     .collect::<Vec<_>>();
                 let mut urls = Vec::new();
                 for p in &credited {
-                    for url in &p.source_urls {
-                        if !urls.contains(url) && urls.len() < 3 {
-                            urls.push(url.clone());
+                    for url in source_urls(&p.sources) {
+                        if !urls.contains(&url) && urls.len() < 3 {
+                            urls.push(url);
                         }
                     }
                 }
@@ -148,26 +148,27 @@ impl Archive {
                     .iter()
                     .map(|i| &self.data.plans[*i])
                     .map(|p| {
-                        let events = p
-                            .events
+                        let entries = p
+                            .entries
                             .iter()
                             .filter(|e| {
                                 q.member.is_none_or(|m| {
-                                    e.members.iter().any(|name| member_string(m) == *name)
+                                    e.arrangement.members.contains(&m)
+                                        || e.arrangement.host_member == Some(m)
                                 })
                             })
                             .cloned()
                             .collect();
                         PlanView {
-                            id: format!("plan_{}", p.date),
+                            id: p.id.clone(),
                             date: p.date,
                             rest_day: p.rest_day,
-                            events,
+                            entries,
                             non_stream_activities: p.non_stream_activities.clone(),
-                            source_urls: p.source_urls.clone(),
+                            source_urls: source_urls(&p.sources),
                         }
                     })
-                    .filter(|p| q.member.is_none() || !p.events.is_empty())
+                    .filter(|p| q.member.is_none() || !p.entries.is_empty())
                     .collect()
             } else {
                 vec![]
@@ -272,14 +273,4 @@ fn matches_member(e: &Event, member: Option<Member>) -> bool {
             || e.planned_members.contains(&m)
             || e.host_member == Some(m)
     })
-}
-fn member_string(m: Member) -> String {
-    match m {
-        Member::Luzao => "luzao",
-        Member::Youen => "youen",
-        Member::Yumo => "yumo",
-        Member::Waner => "waner",
-        Member::Minuo => "minuo",
-    }
-    .to_owned()
 }

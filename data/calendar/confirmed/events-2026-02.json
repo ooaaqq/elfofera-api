@@ -1,1699 +1,1870 @@
 {
-  "timeZone": "Asia/Shanghai",
   "events": [
     {
       "id": "evt_19792531-0715-4af1-9a92-b6ba9b849710",
       "date": "2026-02-03",
-      "kind": "livestream",
       "title": "我在瞳瞳新家",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV16DfDB4EEH",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV16DfDB4EEH"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV16DfDB4EEH",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV16DfDB4EEH"
-          }
-        ]
-      },
-      "contentType": "radio",
-      "dimension": "1d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV16DfDB4EEH"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_9dcc53a7-f01e-4b6a-a130-49457c6195e3",
       "date": "2026-02-04",
-      "kind": "livestream",
       "title": "人类初体验报告",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1wAFFzHE42",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1wAFFzHE42"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1wAFFzHE42",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1wAFFzHE42"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1wAFFzHE42"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_35027f88-160c-4422-8fbd-5c6deb2bad94",
       "date": "2026-02-05",
-      "kind": "livestream",
       "title": "新春菜王杯斗地主大赛",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "celebration",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV15cFvzzEcL",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV15cFvzzEcL"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV15cFvzzEcL",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV15cFvzzEcL"
-          }
-        ]
-      },
-      "contentType": "celebration",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV15cFvzzEcL"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_aa3a5afa-9024-42b1-80cc-baa663943300",
       "date": "2026-02-05",
-      "kind": "livestream",
       "title": "萌妹勇闯新春菜王杯！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "celebration",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1asFezPE7K",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1asFezPE7K"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1asFezPE7K",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1asFezPE7K"
-          }
-        ]
-      },
-      "contentType": "celebration",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1asFezPE7K"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_a374979d-916c-4e99-b182-18f73e1ad1cb",
       "date": "2026-02-06",
-      "kind": "livestream",
       "title": "来啦",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        21
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1HRF7zzEyK",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1HRF7zzEyK"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1HRF7zzEyK",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1HRF7zzEyK"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1HRF7zzEyK"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        21
+      ]
     },
     {
       "id": "evt_f14681b2-66e8-43e8-8d64-5f39c448717a",
       "date": "2026-02-06",
-      "kind": "announcement",
-      "subtype": "schedule-change",
       "title": "新春菜王杯斗地主决赛周六计划变更通知",
-      "text": "各位EOES注意啦！周六计划有变[墨镜]，【新春菜王杯·斗地主大赛】决赛见！",
+      "kind": "announcement",
       "publishedAt": "2026-02-06T05:12:53.000Z",
-      "occurrence": "announced",
-      "relatedEventIds": [
-        "evt_cb15b4e9-faaf-4e21-b6f5-19da56630c95",
-        "evt_90f60040-ccd1-4ded-8e18-bed415b55b79"
+      "text": "各位EOES注意啦！周六计划有变[墨镜]，【新春菜王杯·斗地主大赛】决赛见！",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [
+        {
+          "kind": "related",
+          "target": {
+            "kind": "event",
+            "id": "evt_cb15b4e9-faaf-4e21-b6f5-19da56630c95"
+          }
+        },
+        {
+          "kind": "related",
+          "target": {
+            "kind": "event",
+            "id": "evt_90f60040-ccd1-4ded-8e18-bed415b55b79"
+          }
+        }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/history-01/dynamics-2026.json",
-            "locator": "1166153942365634568"
-          }
-        ],
-        "text": [
-          {
-            "file": "../evidence/history-01/dynamics-2026.json",
-            "locator": "1166153942365634568"
-          }
-        ],
-        "relatedEventIds": [
-          {
-            "file": "../evidence/history-01/dynamics-2026.json",
-            "locator": "1166153942365634568"
-          },
-          {
-            "file": "plans.json",
-            "locator": "2026-02-07"
-          }
-        ]
-      },
-      "note": "公告只说明周六计划有变及决赛见，未说明改动字段或最终时刻；原周表两项19:00安排保留，录播标题18点不作为精确实际开播时间。"
+      "assets": [],
+      "recordings": [],
+      "sources": [],
+      "notes": [
+        "公告只说明周六计划有变及决赛见，未说明改动字段或最终时刻；原周表两项19:00安排保留，录播标题18点不作为精确实际开播时间。",
+        "内容标注：schedule-change"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_cb15b4e9-faaf-4e21-b6f5-19da56630c95",
       "date": "2026-02-07",
-      "kind": "activity",
       "title": "【2D】新春菜王杯斗地主大赛 决赛",
-      "occurrence": "recording-attested",
+      "kind": "activity",
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1rVF4zbEsf",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1rVF4zbEsf"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1rVF4zbEsf",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1rVF4zbEsf"
-          }
-        ],
-        "kind": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1rVF4zbEsf"
-          },
-          {
-            "file": "../evidence/history-01/dynamics-2026.json",
-            "locator": "1166153942365634568"
-          }
-        ]
-      },
-      "note": "新春菜王杯斗地主决赛的成员视角直播，两个成员场次分别保留，不合并成整场赛事；标题小时与原计划时刻分别记录。"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1rVF4zbEsf"
+        }
+      ],
+      "notes": [
+        "新春菜王杯斗地主决赛的成员视角直播，两个成员场次分别保留，不合并成整场赛事；标题小时与原计划时刻分别记录。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_90f60040-ccd1-4ded-8e18-bed415b55b79",
       "date": "2026-02-07",
-      "kind": "activity",
       "title": "【2D】萌妹勇闯新春菜王杯决赛！",
-      "occurrence": "recording-attested",
+      "kind": "activity",
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1PKF4zPEDC",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1PKF4zPEDC"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1PKF4zPEDC",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1PKF4zPEDC"
-          }
-        ],
-        "kind": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1PKF4zPEDC"
-          },
-          {
-            "file": "../evidence/history-01/dynamics-2026.json",
-            "locator": "1166153942365634568"
-          }
-        ]
-      },
-      "note": "新春菜王杯斗地主决赛的成员视角直播，两个成员场次分别保留，不合并成整场赛事；标题小时与原计划时刻分别记录。"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1PKF4zPEDC"
+        }
+      ],
+      "notes": [
+        "新春菜王杯斗地主决赛的成员视角直播，两个成员场次分别保留，不合并成整场赛事；标题小时与原计划时刻分别记录。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_5a96d70d-a416-44b9-b799-bb56851e9e3a",
       "date": "2026-02-08",
-      "kind": "livestream",
       "title": "2026B站虚拟春晚冰火盛典！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1w3cczZE9N",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1w3cczZE9N"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1w3cczZE9N",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1w3cczZE9N"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1w3cczZE9N"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_0d05ae0a-6e17-44b0-bf41-5b8bafa99364",
       "date": "2026-02-08",
-      "kind": "livestream",
       "title": "萌妹看冰火！！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1mrcczTEr7",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1mrcczTEr7"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1mrcczTEr7",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1mrcczTEr7"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1mrcczTEr7"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_3aa8cb44-82f1-4de3-b9bb-73a26bcd06b6",
       "date": "2026-02-08",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "【冰火盛典】是女神也是暴击！💥全网最还原的《Whiplash》！| 选择你想要的鞭子吧",
+      "kind": "publication",
       "publishedAt": "2026-02-08T13:43:42.000Z",
-      "occurrence": "published",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_9d385aea-f51b-4a56-a3d5-b5f3502ba483"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1JzcFzSEKW",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch01.json",
-            "locator": "sources[accountId=1669777785,page=2].items[bvid=BV1JzcFzSEKW]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch01.json",
-            "locator": "sources[accountId=1669777785,page=2].items[bvid=BV1JzcFzSEKW]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-08T13:43:42.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch01.json",
-            "locator": "sources[accountId=1669777785,page=2].items[bvid=BV1JzcFzSEKW]",
-            "sourceField": "title",
-            "excerpt": "【冰火盛典】是女神也是暴击！💥全网最还原的《Whiplash》！| 选择你想要的鞭子吧"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch01.json",
-            "locator": "sources[accountId=1669777785,page=2].items[bvid=BV1JzcFzSEKW]",
-            "sourceField": "description"
-          }
-        ]
-      },
-      "note": "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1JzcFzSEKW"
+        }
+      ],
+      "notes": [
+        "成员投稿简介明确原曲与翻唱；本记录只表示作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_bc0a16b7-91ca-4494-9854-8537f1a26973",
       "date": "2026-02-08",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "【冰火盛典】九万字",
-      "text": "",
+      "kind": "publication",
       "publishedAt": "2026-02-08T12:30:00.000Z",
-      "occurrence": "published",
+      "text": "",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_aa958ea6-ce44-4960-a64d-14b2f49e0678"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1NTcczhEuY",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1NTcczhEuY]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1NTcczhEuY]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-08T12:30:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1NTcczhEuY]",
-            "sourceField": "title",
-            "excerpt": "【冰火盛典】九万字"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1NTcczhEuY]",
-            "sourceField": "description",
-            "excerpt": ""
-          }
-        ]
-      },
-      "note": "投稿简介明确原曲及演唱/翻跳者；记录为作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1NTcczhEuY"
+        }
+      ],
+      "notes": [
+        "投稿简介明确原曲及演唱/翻跳者；记录为作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_4d9827e1-5319-49c0-bb5c-e70d618db18f",
       "date": "2026-02-09",
-      "kind": "livestream",
       "title": "萌妹聊春节，越聊越新年",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "celebration",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1F8cuzmERa",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1F8cuzmERa"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1F8cuzmERa",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1F8cuzmERa"
-          }
-        ]
-      },
-      "contentType": "celebration",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1F8cuzmERa"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_4a3950dd-b75f-4fa7-910b-0589bbe93551",
       "date": "2026-02-09",
-      "kind": "livestream",
       "title": "跳舞！爽！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "dance",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1a8cgziEkj",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1a8cgziEkj"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1a8cgziEkj",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1a8cgziEkj"
-          }
-        ]
-      },
-      "contentType": "dance",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1a8cgziEkj"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_0e7e79e5-9586-4079-a422-24a9cca27006",
       "date": "2026-02-10",
-      "kind": "livestream",
       "title": "小春晚·八骏迎春",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1kaFDzYECU",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1kaFDzYECU"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1kaFDzYECU",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1kaFDzYECU"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1kaFDzYECU"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_6ba1cc22-47a9-45d0-bda3-9ae18939c7c4",
       "date": "2026-02-11",
-      "kind": "livestream",
       "title": "萌妹爱聊天",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "talk",
+      "dimension": "2d",
+      "series": "萌妹爱聊天",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1StcbzSEaj",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1StcbzSEaj"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1StcbzSEaj",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1StcbzSEaj"
-          }
-        ]
-      },
-      "contentType": "talk",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "萌妹爱聊天"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1StcbzSEaj"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_cd7d1336-e873-4d28-aac7-9e98fc9273e2",
       "date": "2026-02-11",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "唱成这样，能当歌势吗？",
-      "text": "新的一年也要努力当歌势！\n\n原曲：不问天 - @说说Crystal  \n翻唱：柚恩\n镜头：@白醋wv",
+      "kind": "publication",
       "publishedAt": "2026-02-11T09:10:00.000Z",
-      "occurrence": "published",
+      "text": "新的一年也要努力当歌势！\n\n原曲：不问天 - @说说Crystal  \n翻唱：柚恩\n镜头：@白醋wv",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_3b7432ee-d9d3-4c83-a92a-eeac2982a73a"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1RXFXzoEZx",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1RXFXzoEZx]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1RXFXzoEZx]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-11T09:10:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1RXFXzoEZx]",
-            "sourceField": "title",
-            "excerpt": "唱成这样，能当歌势吗？"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1RXFXzoEZx]",
-            "sourceField": "description",
-            "excerpt": "新的一年也要努力当歌势！\n\n原曲：不问天 - @说说Crystal  \n翻唱：柚恩\n镜头：@白醋wv"
-          }
-        ]
-      },
-      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1RXFXzoEZx"
+        }
+      ],
+      "notes": [
+        "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_8a119e03-e3d2-4c45-a89c-1699db33c24d",
       "date": "2026-02-12",
-      "kind": "livestream",
       "title": "第三部",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        21
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV14gcqzNEKp",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV14gcqzNEKp"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV14gcqzNEKp",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV14gcqzNEKp"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV14gcqzNEKp"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        21
+      ]
     },
     {
       "id": "evt_d2689b54-d737-4406-9e49-6985ca4bc112",
       "date": "2026-02-13",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "天籁粉丝合唱『少年中国说』",
-      "text": "并非服从性测试，柚恩蜜就是歌势。\n\n原曲：少年中国说 - 张杰\n翻唱：柚恩、柚恩蜜\n镜头：@白醋wv",
+      "kind": "publication",
       "publishedAt": "2026-02-13T09:10:00.000Z",
-      "occurrence": "published",
+      "text": "并非服从性测试，柚恩蜜就是歌势。\n\n原曲：少年中国说 - 张杰\n翻唱：柚恩、柚恩蜜\n镜头：@白醋wv",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_bdb42131-1a03-4d3c-9354-08cbd8d68b8c"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1vQFXztEgt",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1vQFXztEgt]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1vQFXztEgt]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-13T09:10:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1vQFXztEgt]",
-            "sourceField": "title",
-            "excerpt": "天籁粉丝合唱『少年中国说』"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1vQFXztEgt]",
-            "sourceField": "description",
-            "excerpt": "并非服从性测试，柚恩蜜就是歌势。\n\n原曲：少年中国说 - 张杰\n翻唱：柚恩、柚恩蜜\n镜头：@白醋wv"
-          }
-        ]
-      },
-      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1vQFXztEgt"
+        }
+      ],
+      "notes": [
+        "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_0c48a6a5-6413-4ac7-ab80-c753042300fb",
       "date": "2026-02-14",
-      "kind": "livestream",
       "title": "情人节小唱",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "celebration",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1rcZJBiExp",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1rcZJBiExp"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1rcZJBiExp",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1rcZJBiExp"
-          }
-        ]
-      },
-      "contentType": "celebration",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1rcZJBiExp"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_69599705-a116-4261-9923-1e47f2539ff4",
       "date": "2026-02-14",
-      "kind": "livestream",
       "title": "今天是什么日子！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1ViZEB9ERQ",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1ViZEB9ERQ"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1ViZEB9ERQ",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1ViZEB9ERQ"
-          }
-        ]
-      },
-      "contentType": "radio",
-      "dimension": "1d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ViZEB9ERQ"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_47088644-0944-4a31-9ab8-ed31370c5cbe",
       "date": "2026-02-16",
-      "kind": "announcement",
-      "subtype": "video-publication",
       "title": "EOE2026新春贺岁视频发布通知",
-      "text": "【2026新春贺岁】策马迎新，福满新春！",
+      "kind": "announcement",
       "publishedAt": "2026-02-16T10:05:01.000Z",
-      "occurrence": "announced",
+      "text": "【2026新春贺岁】策马迎新，福满新春！",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1fuZMBhErG",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/history-01/dynamics-2026.json",
-            "locator": "1169940076323405880"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/history-01/dynamics-2026.json",
-            "locator": "1169940076323405880"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/history-01/dynamics-2026.json",
-            "locator": "1169940076323405880"
-          }
-        ]
-      },
-      "note": "记录组合官方分享该视频的动态时间；尚未取得视频原发布时刻与内容详情，不据标题认定参与成员、歌曲或具体表演。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1fuZMBhErG"
+        }
+      ],
+      "notes": [
+        "记录组合官方分享该视频的动态时间；尚未取得视频原发布时刻与内容详情，不据标题认定参与成员、歌曲或具体表演。",
+        "内容标注：video-publication"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_640d21a7-262f-4bac-94f0-721f8352104d",
       "date": "2026-02-16",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "有这首歌才是年",
-      "text": "剧透今年春晚的最后一个节目啦，我厉害不？\n\n原曲：难忘今宵 - 李谷一\n翻唱：柚恩、UU0510、伊丽莎柚、柚子茶、柚艺柚、安格瑞柚、冷柚、查柚\n镜头：@白醋wv",
+      "kind": "publication",
       "publishedAt": "2026-02-16T16:00:00.000Z",
-      "occurrence": "published",
+      "text": "剧透今年春晚的最后一个节目啦，我厉害不？\n\n原曲：难忘今宵 - 李谷一\n翻唱：柚恩、UU0510、伊丽莎柚、柚子茶、柚艺柚、安格瑞柚、冷柚、查柚\n镜头：@白醋wv",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_68e0fe9b-c7bc-48d5-8915-f431fddb07c5"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1YdFXzREQF",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1YdFXzREQF]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1YdFXzREQF]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-16T16:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1YdFXzREQF]",
-            "sourceField": "title",
-            "excerpt": "有这首歌才是年"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1YdFXzREQF]",
-            "sourceField": "description",
-            "excerpt": "剧透今年春晚的最后一个节目啦，我厉害不？\n\n原曲：难忘今宵 - 李谷一\n翻唱：柚恩、UU0510、伊丽莎柚、柚子茶、柚艺柚、安格瑞柚、冷柚、查柚\n镜头：@白醋wv"
-          }
-        ]
-      },
-      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1YdFXzREQF"
+        }
+      ],
+      "notes": [
+        "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_216e92e5-cabb-4af9-8ccc-b63d0791e5bf",
       "date": "2026-02-16",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "已解冻！恭  喜  发  财！",
-      "text": "除夕快乐！年味儿袭来！\n\n原曲：恭喜发财 - 刘德华\n翻唱：柚恩\n镜头：@白醋wv",
+      "kind": "publication",
       "publishedAt": "2026-02-16T09:10:00.000Z",
-      "occurrence": "published",
+      "text": "除夕快乐！年味儿袭来！\n\n原曲：恭喜发财 - 刘德华\n翻唱：柚恩\n镜头：@白醋wv",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_f6a1a68f-feab-40a4-98aa-b8c2bdb5a026"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1QfFXzXESv",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1QfFXzXESv]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1QfFXzXESv]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-16T09:10:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1QfFXzXESv]",
-            "sourceField": "title",
-            "excerpt": "已解冻！恭  喜  发  财！"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1QfFXzXESv]",
-            "sourceField": "description",
-            "excerpt": "除夕快乐！年味儿袭来！\n\n原曲：恭喜发财 - 刘德华\n翻唱：柚恩\n镜头：@白醋wv"
-          }
-        ]
-      },
-      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1QfFXzXESv"
+        }
+      ],
+      "notes": [
+        "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_6e0babd1-9feb-4278-b9ae-3466ff908f80",
       "date": "2026-02-17",
-      "kind": "livestream",
       "title": "大年初一！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        21
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1DaZ2BFEkN",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1DaZ2BFEkN"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1DaZ2BFEkN",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1DaZ2BFEkN"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1DaZ2BFEkN"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        21
+      ]
     },
     {
       "id": "evt_b3d88dbf-4e3a-4243-bf5c-0a4f1d33bdc6",
       "date": "2026-02-18",
-      "kind": "livestream",
       "title": "新年好！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV18PZXBCEPT",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV18PZXBCEPT"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV18PZXBCEPT",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV18PZXBCEPT"
-          }
-        ]
-      },
-      "contentType": "radio",
-      "dimension": "1d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV18PZXBCEPT"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_8654eb1e-3f68-4280-bc14-2d4d58954d54",
       "date": "2026-02-18",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "这个前奏也太带劲了！",
-      "text": "拜新年呀，拜个幸福年！柚恩蜜幸福到永远！\n\n原曲：拜新年 - 凤凰传奇\n翻唱：伊丽莎柚、柚艺柚\n镜头：@白醋wv",
+      "kind": "publication",
       "publishedAt": "2026-02-18T09:10:00.000Z",
-      "occurrence": "published",
+      "text": "拜新年呀，拜个幸福年！柚恩蜜幸福到永远！\n\n原曲：拜新年 - 凤凰传奇\n翻唱：伊丽莎柚、柚艺柚\n镜头：@白醋wv",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_66ee6264-7f4f-4f50-a8af-d5d42d55866d"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV18PF9zJEjJ",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV18PF9zJEjJ]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV18PF9zJEjJ]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-18T09:10:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV18PF9zJEjJ]",
-            "sourceField": "title",
-            "excerpt": "这个前奏也太带劲了！"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV18PF9zJEjJ]",
-            "sourceField": "description",
-            "excerpt": "拜新年呀，拜个幸福年！柚恩蜜幸福到永远！\n\n原曲：拜新年 - 凤凰传奇\n翻唱：伊丽莎柚、柚艺柚\n镜头：@白醋wv"
-          }
-        ]
-      },
-      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV18PF9zJEjJ"
+        }
+      ],
+      "notes": [
+        "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_e20d52b2-6a1e-4a9e-936c-5c8dc271feaa",
       "date": "2026-02-19",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "将相思“寄明月”",
-      "text": "这首歌真的太带劲了，百跳不厌\n\n原曲：寄明月 - SING女团\n翻唱&翻跳：安格瑞柚\n镜头：@白醋wv",
+      "kind": "publication",
       "publishedAt": "2026-02-19T09:10:00.000Z",
-      "occurrence": "published",
+      "text": "这首歌真的太带劲了，百跳不厌\n\n原曲：寄明月 - SING女团\n翻唱&翻跳：安格瑞柚\n镜头：@白醋wv",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_6262b788-f476-4d32-935b-de9307d4d19f"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1bNF9zUEtC",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1bNF9zUEtC]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1bNF9zUEtC]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-19T09:10:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1bNF9zUEtC]",
-            "sourceField": "title",
-            "excerpt": "将相思“寄明月”"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1bNF9zUEtC]",
-            "sourceField": "description",
-            "excerpt": "这首歌真的太带劲了，百跳不厌\n\n原曲：寄明月 - SING女团\n翻唱&翻跳：安格瑞柚\n镜头：@白醋wv"
-          }
-        ]
-      },
-      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1bNF9zUEtC"
+        }
+      ],
+      "notes": [
+        "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_95e91383-c6f4-4073-b714-033638ab916b",
       "date": "2026-02-21",
-      "kind": "livestream",
       "title": "御姐棋牌",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV14KfpB9EKV",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV14KfpB9EKV"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV14KfpB9EKV",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV14KfpB9EKV"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV14KfpB9EKV"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_6c4bb7d5-b120-4cc5-83a6-3569b2ebe146",
       "date": "2026-02-23",
-      "kind": "livestream",
       "title": "萌妹玩游戏19开动物园",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "2d",
+      "series": "萌妹玩游戏",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1f8fBBpEMT",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1f8fBBpEMT"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1f8fBBpEMT",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1f8fBBpEMT"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "萌妹玩游戏"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1f8fBBpEMT"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_b479b263-23ab-4f20-b7de-8192444fa521",
       "date": "2026-02-24",
-      "kind": "livestream",
       "title": "心诚则灵",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1RVf2BKEhb",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1RVf2BKEhb"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1RVf2BKEhb",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1RVf2BKEhb"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1RVf2BKEhb"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_d198e7d4-9b7e-48f7-bf85-ff12fa6afeea",
       "date": "2026-02-25",
-      "kind": "livestream",
       "title": "萌妹玩游戏20飞毛腿",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "2d",
+      "series": "萌妹玩游戏",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1Vsf8BREEU",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1Vsf8BREEU"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1Vsf8BREEU",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1Vsf8BREEU"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "萌妹玩游戏"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Vsf8BREEU"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_151b42d2-f5a6-49e2-a430-22cae28083db",
       "date": "2026-02-26",
-      "kind": "livestream",
       "title": "动物游戏",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1EeAyzUEXX",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1EeAyzUEXX"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1EeAyzUEXX",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1EeAyzUEXX"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1EeAyzUEXX"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_f930d557-5cde-43ea-9f21-8144791b42f9",
       "date": "2026-02-27",
-      "kind": "livestream",
       "title": "过年体验卡续费中",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1nrADzMESc",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1nrADzMESc"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1nrADzMESc",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1nrADzMESc"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1nrADzMESc"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_95d4a1aa-72f0-4948-8b23-f3946ed14ea1",
       "date": "2026-02-27",
-      "kind": "livestream",
       "title": "新年新计划！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1t4ADzmEru",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1t4ADzmEru"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1t4ADzmEru",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1t4ADzmEru"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1t4ADzmEru"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_3f1a50f8-370c-41e5-803e-112daf17762f",
       "date": "2026-02-27",
-      "kind": "announcement",
-      "subtype": "chorus-arrangement",
       "title": "露早生日会《想你的365天》合唱歌词图发布",
-      "text": "原图标注《想你的365天》原唱CoCo李玟，露早生日会-合唱歌词，3:09~4:57。",
+      "kind": "announcement",
       "publishedAt": "2026-02-27T08:10:32.000Z",
-      "occurrence": "announced",
-      "relatedEventId": "evt_014c4fcc-a237-486e-b1de-9d0706837be0",
-      "workId": "song_0754c739-759d-44a8-aa7e-dc5ed2203978",
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/history-01/dynamics-2026.json",
-            "locator": "1173992511147868184"
+      "text": "原图标注《想你的365天》原唱CoCo李玟，露早生日会-合唱歌词，3:09~4:57。",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [
+        "song_0754c739-759d-44a8-aa7e-dc5ed2203978"
+      ],
+      "relations": [
+        {
+          "kind": "related",
+          "target": {
+            "kind": "event",
+            "id": "evt_014c4fcc-a237-486e-b1de-9d0706837be0"
           }
-        ],
-        "title": [
-          {
-            "file": "../source/february-2026/1173992511147868184.jpg",
-            "locator": "想你的365天；原唱CoCo李玟；露早生日会-合唱歌词；3:09~4:57"
-          }
-        ],
-        "text": [
-          {
-            "file": "../source/february-2026/1173992511147868184.jpg",
-            "locator": "想你的365天；原唱CoCo李玟；露早生日会-合唱歌词；3:09~4:57"
-          }
-        ],
-        "relatedEventId": [
-          {
-            "file": "../source/february-2026/1173992511147868184.jpg",
-            "locator": "想你的365天；原唱CoCo李玟；露早生日会-合唱歌词；3:09~4:57"
-          },
-          {
-            "file": "events-2026-03.json",
-            "locator": "evt_014c4fcc-a237-486e-b1de-9d0706837be0"
-          }
-        ]
-      },
-      "note": "当前同年露早生日会记录为3/21 Miracle，据活动主体关联为安排；图片未印演出日期。时间段保留为原图标注，不作为整场录播剪辑位置，不证明实际演唱。"
+        }
+      ],
+      "assets": [],
+      "recordings": [],
+      "sources": [],
+      "notes": [
+        "当前同年露早生日会记录为3/21 Miracle，据活动主体关联为安排；图片未印演出日期。时间段保留为原图标注，不作为整场录播剪辑位置，不证明实际演唱。",
+        "内容标注：chorus-arrangement"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_332793eb-9013-4604-8b51-36c6250857b7",
       "date": "2026-02-28",
-      "kind": "livestream",
       "title": "新的一年，新的开始！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1LJAaz6EcD",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1LJAaz6EcD"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1LJAaz6EcD",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1LJAaz6EcD"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1LJAaz6EcD"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_35247ff0-954c-4284-a1e9-0ce7888a7cc9",
       "date": "2026-02-28",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "【柚恩x青诺】你一定爱我不完美的心丨『行走的鱼』手书/翻唱",
-      "text": "鸽了许久的合唱！一直以来都很喜欢的一首歌，终于发出来了ㅠㅠ\n邀请到了柚恩老师一起唱超开心!!!!!!\n混音出来的时候我们都觉得声音还蛮适配的，这首歌真的太好听了也是真的好难唱!!!!\n✧——✦——✧——✦——✧\n柚恩：https://space.bilibili.com/1795147802\n青诺：https://space.bilibili.com/3546569940929461\n曲绘·PV：五敛子",
+      "kind": "publication",
       "publishedAt": "2026-02-28T14:23:08.000Z",
-      "occurrence": "published",
+      "text": "鸽了许久的合唱！一直以来都很喜欢的一首歌，终于发出来了ㅠㅠ\n邀请到了柚恩老师一起唱超开心!!!!!!\n混音出来的时候我们都觉得声音还蛮适配的，这首歌真的太好听了也是真的好难唱!!!!\n✧——✦——✧——✦——✧\n柚恩：https://space.bilibili.com/1795147802\n青诺：https://space.bilibili.com/3546569940929461\n曲绘·PV：五敛子",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_30bb7fce-300a-4f2a-8665-3115fa61368e"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1HuAaz7Ewz",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HuAaz7Ewz]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HuAaz7Ewz]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-28T14:23:08.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HuAaz7Ewz]",
-            "sourceField": "title",
-            "excerpt": "【柚恩x青诺】你一定爱我不完美的心丨『行走的鱼』手书/翻唱"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1HuAaz7Ewz]",
-            "sourceField": "description",
-            "excerpt": "鸽了许久的合唱！一直以来都很喜欢的一首歌，终于发出来了ㅠㅠ\n邀请到了柚恩老师一起唱超开心!!!!!!\n混音出来的时候我们都觉得声音还蛮适配的，这首歌真的太好听了也是真的好难唱!!!!\n✧——✦——✧——✦——✧\n柚恩：https://space.bilibili.com/1795147802\n青诺：https://space.bilibili.com/3546569940929461\n曲绘·PV：五敛子"
-          }
-        ]
-      },
-      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1HuAaz7Ewz"
+        }
+      ],
+      "notes": [
+        "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_de1a64da-a70d-49f5-b9c8-fad943ca1b6a",
       "date": "2026-02-15",
+      "title": "绝美双人合唱，不容错过",
       "kind": "publication",
-      "subtype": "cover-video",
       "publishedAt": "2026-02-15T09:10:00.000Z",
-      "occurrence": "published",
+      "text": "愿长歌有相和，好梦无纷扰，愿万山载雪，有明月相照。\n这首歌也太美了，超级超级喜欢！！\n\n原唱：万山载雪 - @椒椒JMJ  @漆柚柚柚  \n翻唱：柚恩、UU0510\n镜头：@白醋wv",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_62e31df3-1d20-466a-9aff-f53be947a8b7"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1tTF9z7EUj",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1tTF9z7EUj]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1tTF9z7EUj]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-15T09:10:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1tTF9z7EUj]",
-            "sourceField": "title",
-            "excerpt": "绝美双人合唱，不容错过"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1tTF9z7EUj]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "绝美双人合唱，不容错过\n愿长歌有相和，好梦无纷扰，愿万山载雪，有明月相照。\n这首歌也太美了，超级超级喜欢！！\n\n原唱：万山载雪 - @椒椒JMJ  @漆柚柚柚  \n翻唱：柚恩、UU0510\n镜头：@白醋wv"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "title": "绝美双人合唱，不容错过",
-      "text": "愿长歌有相和，好梦无纷扰，愿万山载雪，有明月相照。\n这首歌也太美了，超级超级喜欢！！\n\n原唱：万山载雪 - @椒椒JMJ  @漆柚柚柚  \n翻唱：柚恩、UU0510\n镜头：@白醋wv"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1tTF9z7EUj"
+        }
+      ],
+      "notes": [
+        "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_46ac1d02-4647-4e24-ae1b-f2d00ed081ff",
       "date": "2026-02-10",
+      "title": "V圈唯一的马",
       "kind": "publication",
-      "subtype": "cover-video",
       "publishedAt": "2026-02-10T13:38:13.000Z",
-      "occurrence": "published",
+      "text": "标题狂吗？我觉得还好。\n小年快乐！！\n\n原曲：下等马 - ChiliChill\n翻唱：柚恩\n镜头：@白醋wv",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_4177ddeb-65b2-447a-b2d0-9147a9c6f379"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1PhFDzNEq8",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1PhFDzNEq8]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1PhFDzNEq8]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-10T13:38:13.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1PhFDzNEq8]",
-            "sourceField": "title",
-            "excerpt": "V圈唯一的马"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=2].items[bvid=BV1PhFDzNEq8]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "V圈唯一的马\n标题狂吗？我觉得还好。\n小年快乐！！\n\n原曲：下等马 - ChiliChill\n翻唱：柚恩\n镜头：@白醋wv"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "title": "V圈唯一的马",
-      "text": "标题狂吗？我觉得还好。\n小年快乐！！\n\n原曲：下等马 - ChiliChill\n翻唱：柚恩\n镜头：@白醋wv"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1PhFDzNEq8"
+        }
+      ],
+      "notes": [
+        "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_9bb3026f-6210-425a-91b5-be0271742f99",
       "date": "2026-02-09",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "宝贝【露早翻唱】",
+      "kind": "publication",
       "publishedAt": "2026-02-09T16:08:03.000Z",
-      "occurrence": "published",
+      "text": "https://live.bilibili.com/25512443\n直播日期：2026年2月10日\n3D【萌妹聊春节，越聊越新年】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://spac",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_bafb956c-a14e-4309-ac76-e6eced290f8e"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1nTF1zLEzB",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1nTF1zLEzB]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1nTF1zLEzB]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-02-09T16:08:03.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1nTF1zLEzB]",
-            "sourceField": "title",
-            "excerpt": "宝贝【露早翻唱】"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-08-source-directory-batch16.json",
-            "locator": "sources[accountId=3493074548296022].items[bvid=BV1nTF1zLEzB]",
-            "sourceField": "title",
-            "excerpt": "宝贝【露早翻唱】；精确匹配曲目：宝贝"
-          }
-        ]
-      },
-      "note": "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
-      "text": "https://live.bilibili.com/25512443\n直播日期：2026年2月10日\n3D【萌妹聊春节，越聊越新年】直播录像\n--------------------------------------------------------\n露早@露早GOGO ：https://space.bilibili.com/1669777785/\n路翼@路翼Astra：https://space.bilibili.com/3546850382580019\n柚恩@柚恩不加糖 ：https://spac"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1nTF1zLEzB"
+        }
+      ],
+      "notes": [
+        "GOGO队周报目录标题明确曲名/舞蹈及录播切片来源；只确认投稿发布与作品关联，不以投稿日期推断实际演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_546db4e7-2001-4668-9363-236a5862c18c",
       "date": "2026-02-01",
-      "kind": "activity",
       "title": "沪铁公安节目（线上版）",
-      "occurrence": "clip-attested",
+      "kind": "activity",
       "recordingNamedMembers": [
         "youen",
         "luzao"
       ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1DH6bBwECi",
+          "partNumbers": [],
           "role": "performance-excerpt",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1DH6bBwECi",
-            "locator": "BV1DH6bBwECi",
-            "excerpt": "【柚恩翻跳】桃花笑（沪铁公安节目部分线上版）；简介明确26.02.01活动录播；P1柚恩、P2露早"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1DH6bBwECi",
-            "locator": "BV1DH6bBwECi",
-            "excerpt": "柚恩 活动 26.02.01 直播录播"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1DH6bBwECi",
-            "locator": "BV1DH6bBwECi",
-            "excerpt": "分P名称：P1柚恩、P2露早"
-          }
-        ]
-      }
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1DH6bBwECi",
+          "summary": "【柚恩翻跳】桃花笑（沪铁公安节目部分线上版）；简介明确26.02.01活动录播；P1柚恩、P2露早；柚恩 活动 26.02.01 直播录播；分P名称：P1柚恩、P2露早"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "clip",
+      "titleHours": []
     }
   ]
 }

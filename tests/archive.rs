@@ -44,7 +44,7 @@ fn rejects_input_directories_and_reports_json_filename() -> Result<()> {
 #[test]
 fn confirmed_archive_survives_snapshot_reload() -> Result<()> {
     let archive = Archive::read(Path::new("data/calendar/confirmed"))?;
-    let reloaded = Archive::from_value(archive.snapshot.clone())?;
+    let reloaded = from_value(serde_json::to_value(&archive.data)?)?;
     let query = || SearchQuery {
         q: Some("月".into()),
         artist: None,
@@ -57,4 +57,8 @@ fn confirmed_archive_survives_snapshot_reload() -> Result<()> {
     );
     assert!(!archive.data.events.is_empty());
     Ok(())
+}
+
+fn from_value(value: serde_json::Value) -> anyhow::Result<Archive> {
+    Archive::new(serde_json::from_value(value)?)
 }

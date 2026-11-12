@@ -41,10 +41,6 @@
       "announcementEventIds": [
         "evt_1c3b3138-1528-4ac1-8dda-80edef37c801"
       ],
-      "relatedPlanDates": [
-        "2025-01-13",
-        "2025-01-12"
-      ],
       "notes": [
         "完整公告AT明确露早，两周原图独立支持新旧排期；原计划保留，公告不单独证明实际出席。"
       ],
@@ -53,7 +49,12 @@
           "url": "https://t.bilibili.com/1021510426074021905"
         }
       ],
-      "announcedOn": "2025-01-12"
+      "announcedOn": "2025-01-12",
+      "planIds": [
+        "plan_2025-01-13",
+        "plan_2025-01-12"
+      ],
+      "planEntryIds": []
     }
   ]
 }

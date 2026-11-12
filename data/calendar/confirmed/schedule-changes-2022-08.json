@@ -55,7 +55,6 @@
         "evt_da3c7d9c-c05d-4ac5-b381-556e26452015"
       ],
       "announcementEventIds": [],
-      "relatedPlanDates": [],
       "notes": [
         "官方8/10单播改到8/12，原周表成员及后续成员回放支持柚恩同场关联；18:00计划不覆盖标题17点场声明。"
       ],
@@ -66,7 +65,9 @@
         {
           "url": "https://www.bilibili.com/video/BV1cY4y1c75W"
         }
-      ]
+      ],
+      "planIds": [],
+      "planEntryIds": []
     },
     {
       "id": "chg_235d6dad-c9e3-48fc-bd85-f2f00d94a9a3",
@@ -108,13 +109,14 @@
       "after": [],
       "eventIds": [],
       "announcementEventIds": [],
-      "relatedPlanDates": [],
       "notes": [],
       "sources": [
         {
           "url": "https://t.bilibili.com/693817040001040385"
         }
-      ]
+      ],
+      "planIds": [],
+      "planEntryIds": []
     },
     {
       "id": "chg_5628f4a2-20eb-4542-b41c-dd3afda6a55b",
@@ -156,13 +158,14 @@
       "after": [],
       "eventIds": [],
       "announcementEventIds": [],
-      "relatedPlanDates": [],
       "notes": [],
       "sources": [
         {
           "url": "https://t.bilibili.com/698609583658106913"
         }
-      ]
+      ],
+      "planIds": [],
+      "planEntryIds": []
     },
     {
       "id": "chg_e53f5d94-bc22-4615-aa71-5db38931ec15",
@@ -206,16 +209,17 @@
         }
       ],
       "after": [],
-      "eventIds": [
-        "evt_90b4afed-5b48-4af5-aaed-7562a6a9b118"
-      ],
+      "eventIds": [],
       "announcementEventIds": [],
-      "relatedPlanDates": [],
       "notes": [],
       "sources": [
         {
           "url": "https://t.bilibili.com/700144415996379172"
         }
+      ],
+      "planIds": [],
+      "planEntryIds": [
+        "plan_entry_aa32d5a3-428d-49ff-a17e-be1119e975d1"
       ]
     },
     {
@@ -319,7 +323,6 @@
         "evt_dc0d1b76-7f07-4158-b211-d989b08005ac"
       ],
       "announcementEventIds": [],
-      "relatedPlanDates": [],
       "notes": [
         "原团播20:30仅作原计划定位；公告未给变更后下半场时刻。"
       ],
@@ -327,7 +330,9 @@
         {
           "url": "https://t.bilibili.com/700506949895061619"
         }
-      ]
+      ],
+      "planIds": [],
+      "planEntryIds": []
     }
   ]
 }

@@ -1,170 +1,161 @@
 {
-  "timeZone": "Asia/Shanghai",
   "events": [
     {
       "id": "evt_1c065320-3b33-4018-92d8-4ece8b882dac",
       "date": "2026-10-02",
-      "kind": "livestream",
       "title": "早德赛续集45",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "series": "萌妹玩游戏",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        12
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1Yham6uEx5",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1Yham6uEx5"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1Yham6uEx5",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1Yham6uEx5"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "萌妹玩游戏"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Yham6uEx5"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        12
+      ]
     },
     {
       "id": "evt_5f4be159-1e60-4c10-98e2-19b5d1fbf50b",
       "date": "2026-10-03",
-      "kind": "livestream",
       "title": "御姐继续看新三",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "series": "看新三国",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1yCHi6NEzA",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1yCHi6NEzA"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1yCHi6NEzA",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1yCHi6NEzA"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "看新三国"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1yCHi6NEzA"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_da318d81-3098-455f-bc3b-b24e81bcd80d",
       "date": "2026-10-04",
-      "kind": "livestream",
       "title": "专业裁缝玩针影裁梦",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedTime": "12:00",
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        11
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1rZH663EYX",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1rZH663EYX"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1rZH663EYX",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1rZH663EYX"
-          }
-        ],
-        "schedule": [
-          {
-            "file": "../source/date-eoe-ink/master.json",
-            "locator": "2026-10-04"
-          }
-        ]
-      },
       "plannedMembers": [
         "youen"
       ],
-      "plannedTime": "12:00",
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1rZH663EYX",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1rZH663EYX",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1rZH663EYX"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        11
+      ]
     },
     {
       "id": "evt_4aa8a15e-5d47-4651-ae13-b1ba71620d32",
       "date": "2026-10-04",
-      "kind": "livestream",
       "title": "萌妹玩御姐！！46",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "2d",
+      "series": "萌妹玩游戏",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1U1HJ6fEgo",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1U1HJ6fEgo"
-          }
-        },
-        {
-          "bvid": "BV1QLHE6hEfV",
-          "relation": "same-event",
-          "source": {
-            "file": "../evidence/fan-sources-2026.json",
-            "locator": "BV1QLHE6hEfV"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1U1HJ6fEgo",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1U1HJ6fEgo"
-          },
-          {
-            "file": "../evidence/fan-sources-2026.json",
-            "locator": "BV1QLHE6hEfV"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "萌妹玩游戏",
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
       "guests": [
         {
           "accountId": 1203217682,
@@ -176,2611 +167,2353 @@
           "name": "沐霂是MUMU呀",
           "url": "https://space.bilibili.com/1878154667"
         }
+      ],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1U1HJ6fEgo",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        },
+        {
+          "kind": "video",
+          "bvid": "BV1QLHE6hEfV",
+          "partNumbers": [],
+          "role": "same-event",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1U1HJ6fEgo",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1U1HJ6fEgo"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1QLHE6hEfV"
+        },
+        {
+          "url": "https://space.bilibili.com/1203217682"
+        },
+        {
+          "url": "https://space.bilibili.com/1878154667"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
       ]
     },
     {
       "id": "evt_90a9ae54-caa8-467d-a02e-ff25eb0a6b46",
       "date": "2026-10-04",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "弹一首『琵琶曲』 世人争相思意",
-      "text": "歌势复健day1\n\n原曲：《琵琶曲》 - 郑浩/冰洁\n翻唱：柚恩",
+      "kind": "publication",
       "publishedAt": "2026-10-04T03:30:00.000Z",
-      "occurrence": "published",
+      "text": "歌势复健day1\n\n原曲：《琵琶曲》 - 郑浩/冰洁\n翻唱：柚恩",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [
+        "youen"
+      ],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_c897480e-71c3-461f-adb9-ebf2e11fc862"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV19sHi67EF3",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-18-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV19sHi67EF3]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-18-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV19sHi67EF3]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-10-04T03:30:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-18-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV19sHi67EF3]",
-            "sourceField": "title",
-            "excerpt": "弹一首『琵琶曲』 世人争相思意"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-18-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV19sHi67EF3]",
-            "sourceField": "description",
-            "excerpt": "歌势复健day1\n\n原曲：《琵琶曲》 - 郑浩/冰洁\n翻唱：柚恩"
-          }
-        ],
-        "creditedMembers": [
-          {
-            "file": "../evidence/round-18-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV19sHi67EF3]",
-            "sourceField": "description",
-            "excerpt": "歌势复健day1\n\n原曲：《琵琶曲》 - 郑浩/冰洁\n翻唱：柚恩"
-          }
-        ]
-      },
-      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
-      "creditedMembers": [
-        "youen"
-      ]
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV19sHi67EF3"
+        }
+      ],
+      "notes": [
+        "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_f4b567d7-8837-483b-b44a-345f401825b2",
       "date": "2026-10-05",
-      "kind": "livestream",
       "title": "踩缝纫机，艰难但坚持",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": true,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        12
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1o7Hs6WED9",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1o7Hs6WED9"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1o7Hs6WED9",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1o7Hs6WED9"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": true
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1o7Hs6WED9"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        12
+      ]
     },
     {
       "id": "evt_2fded5ca-cdf3-40a0-99c2-7e62d9b656a8",
       "date": "2026-10-06",
-      "kind": "livestream",
       "title": "和小纸",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": true,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        21
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV12bpP6EEr4",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV12bpP6EEr4"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV12bpP6EEr4",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV12bpP6EEr4"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": true
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV12bpP6EEr4"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        21
+      ]
     },
     {
       "id": "evt_235916de-3c6e-4237-a8d4-c61ce85c5d11",
       "date": "2026-10-07",
-      "kind": "livestream",
       "title": "赤新三时间",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "series": "看新三国",
+      "isUnannounced": false,
+      "plannedTime": "19:30",
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1CcH16REMC",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1CcH16REMC"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1CcH16REMC",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1CcH16REMC"
-          }
-        ],
-        "schedule": [
-          {
-            "file": "../source/date-eoe-ink/master.json",
-            "locator": "2026-10-07"
-          }
-        ]
-      },
       "plannedMembers": [
         "youen"
       ],
-      "plannedTime": "19:30",
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "看新三国"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1CcH16REMC",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1CcH16REMC",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1CcH16REMC"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_f86bc923-bd64-450d-beda-046dc525f1b6",
       "date": "2026-10-08",
-      "kind": "livestream",
       "title": "萌妹徒步中47",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "series": "萌妹玩游戏",
+      "isUnannounced": false,
+      "plannedTime": "19:30",
       "recordingNamedMembers": [
         "luzao"
       ],
-      "recordings": [
-        {
-          "bvid": "BV1AEH96jEhL",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch03.json",
-            "locator": "sources[kind=video-directory,accountId=3493074548296022,page=1].items[bvid=BV1AEH96jEhL]"
-          }
-        },
-        {
-          "bvid": "BV1tsHX6pEZY",
-          "relation": "same-event",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1tsHX6pEZY",
-            "locator": "BV1tsHX6pEZY",
-            "excerpt": "【直播回放】【2D】萌妹徒步中47 2026年10月08日19点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1tsHX6pEZY",
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-08-source-directory-batch03.json",
-            "locator": "sources[kind=video-directory,accountId=3493074548296022,page=1].items[bvid=BV1AEH96jEhL]"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-08-source-directory-batch03.json",
-            "locator": "sources[kind=video-directory,accountId=3493074548296022,page=1].items[bvid=BV1AEH96jEhL]"
-          }
-        ],
-        "recordings": [
-          {
-            "file": "../evidence/round-08-source-directory-batch03.json",
-            "locator": "sources[kind=video-directory,accountId=3493074548296022,page=1].items[bvid=BV1AEH96jEhL]"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1tsHX6pEZY",
-            "locator": "BV1tsHX6pEZY",
-            "excerpt": "【直播回放】【2D】萌妹徒步中47 2026年10月08日19点场"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1255566689698840625",
-            "dynamicId": "1255566689698840625",
-            "excerpt": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/2453180a7f4d6807cd82dcc13da7758c2018113152.jpg"
-          },
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1256683593767321617",
-            "dynamicId": "1256683593767321617",
-            "excerpt": "直播预约：【2D】萌妹徒步中47；10-08 19:30 直播"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
       "plannedMembers": [
         "luzao"
       ],
-      "plannedTime": "19:30",
-      "series": "萌妹玩游戏"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1AEH96jEhL",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        },
+        {
+          "kind": "video",
+          "bvid": "BV1tsHX6pEZY",
+          "partNumbers": [],
+          "role": "same-event",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1tsHX6pEZY",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1AEH96jEhL"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1tsHX6pEZY",
+          "summary": "【直播回放】【2D】萌妹徒步中47 2026年10月08日19点场"
+        },
+        {
+          "url": "https://t.bilibili.com/1255566689698840625",
+          "summary": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/2453180a7f4d6807cd82dcc13da7758c2018113152.jpg",
+          "summary": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00"
+        },
+        {
+          "url": "https://t.bilibili.com/1256683593767321617",
+          "summary": "直播预约：【2D】萌妹徒步中47；10-08 19:30 直播"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": []
     },
     {
       "id": "evt_d0ec8648-ca93-4357-9a14-4e85f18a5d75",
       "date": "2026-10-08",
-      "kind": "announcement",
-      "subtype": "schedule-change",
       "title": "露早2D直播因网络调试延期至20:00通知",
-      "text": "紧急网络调试！！！大约半个小时！8点见大家！不好意思！！[露早GOGO收藏集_谢谢]",
+      "kind": "announcement",
       "publishedAt": "2026-10-08T11:24:46.000Z",
-      "occurrence": "announced",
-      "relatedEventId": "evt_f86bc923-bd64-450d-beda-046dc525f1b6",
-      "announcedActivity": {
-        "date": "2026-10-08",
-        "originalPlannedTime": "19:30",
-        "plannedTime": "20:00",
-        "members": [
-          "luzao"
-        ],
-        "formatLabel": "2D"
-      },
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1256794558528749607",
-            "dynamicId": "1256794558528749607",
-            "excerpt": "紧急网络调试！！！大约半个小时！8点见大家！不好意思！！[露早GOGO收藏集_谢谢]"
+      "text": "紧急网络调试！！！大约半个小时！8点见大家！不好意思！！[露早GOGO收藏集_谢谢]",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [
+        {
+          "kind": "related",
+          "target": {
+            "kind": "event",
+            "id": "evt_f86bc923-bd64-450d-beda-046dc525f1b6"
           }
-        ],
-        "text": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1256794558528749607",
-            "dynamicId": "1256794558528749607",
-            "excerpt": "紧急网络调试！！！大约半个小时！8点见大家！不好意思！！[露早GOGO收藏集_谢谢]"
-          }
-        ]
-      }
+        }
+      ],
+      "assets": [],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1256794558528749607",
+          "summary": "紧急网络调试！！！大约半个小时！8点见大家！不好意思！！[露早GOGO收藏集_谢谢]"
+        }
+      ],
+      "notes": [
+        "公布活动：date：2026-10-08；originalPlannedTime：19:30；plannedTime：20:00；members：luzao；formatLabel：2D",
+        "内容标注：schedule-change"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_1756b744-5f31-46e4-a4df-c1ac0cca76fb",
       "date": "2026-10-09",
-      "kind": "livestream",
       "title": "御姐教妹妹开车",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "youen"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1Bapt6eETd",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch02.json",
-            "locator": "sources[kind=video-directory,accountId=105260060,page=1].items[bvid=BV1Bapt6eETd]"
-          }
-        },
-        {
-          "bvid": "BV1x9pt6JE1B",
-          "relation": "same-event",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1x9pt6JE1B",
-            "locator": "BV1x9pt6JE1B",
-            "excerpt": "【直播回放】【2D】御姐教妹妹开车 2026年10月09日19点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1x9pt6JE1B",
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-08-source-directory-batch02.json",
-            "locator": "sources[kind=video-directory,accountId=105260060,page=1].items[bvid=BV1Bapt6eETd]"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-08-source-directory-batch02.json",
-            "locator": "sources[kind=video-directory,accountId=105260060,page=1].items[bvid=BV1Bapt6eETd]"
-          }
-        ],
-        "recordings": [
-          {
-            "file": "../evidence/round-08-source-directory-batch02.json",
-            "locator": "sources[kind=video-directory,accountId=105260060,page=1].items[bvid=BV1Bapt6eETd]"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1x9pt6JE1B",
-            "locator": "BV1x9pt6JE1B",
-            "excerpt": "【直播回放】【2D】御姐教妹妹开车 2026年10月09日19点场"
-          }
-        ]
-      },
+      "kind": "livestream",
       "contentType": "lesson",
       "dimension": "2d",
       "isUnannounced": false,
+      "plannedTime": "19:30",
+      "recordingNamedMembers": [
+        "youen"
+      ],
       "plannedMembers": [
         "youen"
       ],
-      "plannedTime": "19:30"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1Bapt6eETd",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        },
+        {
+          "kind": "video",
+          "bvid": "BV1x9pt6JE1B",
+          "partNumbers": [],
+          "role": "same-event",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1x9pt6JE1B",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Bapt6eETd"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1x9pt6JE1B",
+          "summary": "【直播回放】【2D】御姐教妹妹开车 2026年10月09日19点场"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": []
     },
     {
       "id": "evt_e8b761a0-7530-4941-90ab-1e044e33ae61",
       "date": "2026-10-09",
-      "kind": "publication",
-      "subtype": "program-video",
       "title": "【GOGO To Work!】EP.1 萌妹便利店兼职中！一口吃垮整家店？？！",
-      "text": "【GOGO To Work!】EP.1 之 萌妹便利店兼职中！\n参演：露早\n策划：露早\n导播：洋洋\n服装道具：白醋\n\nGOGO To Work!和露早一起超真实过家家酒！",
+      "kind": "publication",
       "publishedAt": "2026-10-09T04:48:50.000Z",
-      "occurrence": "published",
+      "text": "【GOGO To Work!】EP.1 之 萌妹便利店兼职中！\n参演：露早\n策划：露早\n导播：洋洋\n服装道具：白醋\n\nGOGO To Work!和露早一起超真实过家家酒！",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
       "creditedMembers": [
         "luzao"
       ],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1M4ps63E5Y",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1M4ps63E5Y",
-            "locator": "BV1M4ps63E5Y",
-            "excerpt": "【GOGO To Work!】EP.1 萌妹便利店兼职中！一口吃垮整家店？？！"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1M4ps63E5Y",
-            "locator": "BV1M4ps63E5Y",
-            "excerpt": "【GOGO To Work!】EP.1 萌妹便利店兼职中！一口吃垮整家店？？！"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1M4ps63E5Y",
-            "locator": "BV1M4ps63E5Y",
-            "excerpt": "【GOGO To Work!】EP.1 萌妹便利店兼职中！一口吃垮整家店？？！"
-          }
-        ],
-        "text": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1M4ps63E5Y",
-            "locator": "BV1M4ps63E5Y",
-            "excerpt": "【GOGO To Work!】EP.1 之 萌妹便利店兼职中！\n参演：露早\n策划：露早\n导播：洋洋\n服装道具：白醋\n\nGOGO To Work!和露早一起超真实过家家酒！"
-          }
-        ]
-      },
-      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1M4ps63E5Y",
+          "summary": "【GOGO To Work!】EP.1 萌妹便利店兼职中！一口吃垮整家店？？！；【GOGO To Work!】EP.1 之 萌妹便利店兼职中！\n参演：露早\n策划：露早\n导播：洋洋\n服装道具：白醋\n\nGOGO To Work!和露早一起超真实过家家酒！"
+        }
+      ],
+      "notes": [
+        "投稿日期表示作品发布；未据此推断直播演唱日期或场次。",
+        "内容标注：program-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_66709be9-9ee4-4690-961f-6df5888f6135",
       "date": "2026-10-10",
-      "kind": "livestream",
       "title": "早尔代夫欢迎你！",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "luzao"
-      ],
-      "titleHours": [
-        18
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1jBpu6mES2",
-          "relation": "primary-evidence",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1jBpu6mES2",
-            "locator": "BV1jBpu6mES2",
-            "excerpt": "【直播回放】【3D】早尔代夫欢迎你！ 2026年10月10日18点场"
-          }
-        }
-      ],
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1jBpu6mES2",
-            "locator": "BV1jBpu6mES2",
-            "excerpt": "【直播回放】【3D】早尔代夫欢迎你！ 2026年10月10日18点场"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1255566689698840625",
-            "dynamicId": "1255566689698840625",
-            "excerpt": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/2453180a7f4d6807cd82dcc13da7758c2018113152.jpg"
-          },
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1257422143459688515",
-            "dynamicId": "1257422143459688515",
-            "excerpt": "直播预约：【3D】早尔代夫欢迎您！；10-10 19:00 直播"
-          }
-        ]
-      },
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "3d",
       "isUnannounced": false,
-      "preferredRecordingBvid": "BV1jBpu6mES2",
+      "plannedTime": "19:00",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
       "plannedMembers": [
         "luzao"
       ],
-      "plannedTime": "19:00"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1jBpu6mES2",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1jBpu6mES2",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1jBpu6mES2",
+          "summary": "【直播回放】【3D】早尔代夫欢迎你！ 2026年10月10日18点场"
+        },
+        {
+          "url": "https://t.bilibili.com/1255566689698840625",
+          "summary": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/2453180a7f4d6807cd82dcc13da7758c2018113152.jpg",
+          "summary": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00"
+        },
+        {
+          "url": "https://t.bilibili.com/1257422143459688515",
+          "summary": "直播预约：【3D】早尔代夫欢迎您！；10-10 19:00 直播"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_c99ec60c-72b9-4072-827a-078a069d66b2",
       "date": "2026-10-10",
-      "kind": "livestream",
       "title": "重新出道模拟器",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "youen"
-      ],
-      "titleHours": [
-        20
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1uzpG6yEk6",
-          "relation": "primary-evidence",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1uzpG6yEk6",
-            "locator": "BV1uzpG6yEk6",
-            "excerpt": "【直播回放】【3D】重新出道模拟器 2026年10月10日20点场"
-          }
-        }
-      ],
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1uzpG6yEk6",
-            "locator": "BV1uzpG6yEk6",
-            "excerpt": "【直播回放】【3D】重新出道模拟器 2026年10月10日20点场"
-          }
-        ]
-      },
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "3d",
       "isUnannounced": false,
-      "preferredRecordingBvid": "BV1uzpG6yEk6",
+      "plannedTime": "20:50",
+      "recordingNamedMembers": [
+        "youen"
+      ],
       "plannedMembers": [
         "youen"
       ],
-      "plannedTime": "20:50"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1uzpG6yEk6",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1uzpG6yEk6",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1uzpG6yEk6",
+          "summary": "【直播回放】【3D】重新出道模拟器 2026年10月10日20点场"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_2613a703-5095-4ed9-bc1d-1c09384a280d",
       "date": "2026-10-11",
-      "kind": "announcement",
-      "subtype": "schedule-change",
       "title": "露早3D直播因设备调试延后约10分钟通知",
-      "text": "GOGO队们，正在驯服设备中，我们稍微晚10分钟见面，大家耐心等待一下呀",
+      "kind": "announcement",
       "publishedAt": "2026-10-11T11:01:09.000Z",
-      "occurrence": "announced",
-      "announcedActivity": {
-        "date": "2026-10-11",
-        "originalPlannedTime": "19:00",
-        "delayMinutes": 10,
-        "members": [
-          "luzao"
-        ],
-        "formatLabel": "3D"
-      },
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1257901728116768768",
-            "dynamicId": "1257901728116768768",
-            "excerpt": "GOGO队们，正在驯服设备中，我们稍微晚10分钟见面，大家耐心等待一下呀"
+      "text": "GOGO队们，正在驯服设备中，我们稍微晚10分钟见面，大家耐心等待一下呀",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [
+        {
+          "kind": "related",
+          "target": {
+            "kind": "event",
+            "id": "evt_1a3d51ec-fa5c-4752-8068-188fd9280e22"
           }
-        ],
-        "text": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1257901728116768768",
-            "dynamicId": "1257901728116768768",
-            "excerpt": "GOGO队们，正在驯服设备中，我们稍微晚10分钟见面，大家耐心等待一下呀"
-          }
-        ]
-      },
-      "relatedEventId": "evt_1a3d51ec-fa5c-4752-8068-188fd9280e22"
+        }
+      ],
+      "assets": [],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1257901728116768768",
+          "summary": "GOGO队们，正在驯服设备中，我们稍微晚10分钟见面，大家耐心等待一下呀"
+        }
+      ],
+      "notes": [
+        "公布活动：date：2026-10-11；originalPlannedTime：19:00；delayMinutes：10；members：luzao；formatLabel：3D",
+        "内容标注：schedule-change"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_52598347-3e84-4a9d-824c-8ca3d080c704",
       "date": "2026-10-11",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "最肯忘却古人诗 最不屑一顾是『相思』",
-      "text": "每次听毛阿敏老师唱的“不‘屑’一顾”都好听得我想在地上打滚……\n非常好听的歌曲，唱给我信任的，交心的，交流的，心与心的，我爱的蜜宝，希望蜜宝喜欢\n\n原曲：《相思》- 毛阿敏\n翻唱：柚恩",
+      "kind": "publication",
       "publishedAt": "2026-10-11T03:30:00.000Z",
-      "occurrence": "published",
+      "text": "每次听毛阿敏老师唱的“不‘屑’一顾”都好听得我想在地上打滚……\n非常好听的歌曲，唱给我信任的，交心的，交流的，心与心的，我爱的蜜宝，希望蜜宝喜欢\n\n原曲：《相思》- 毛阿敏\n翻唱：柚恩",
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "plannedMembers": [],
       "creditedMembers": [
         "youen"
       ],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1Lnph6zEVr",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Lnph6zEVr",
-            "locator": "BV1Lnph6zEVr",
-            "excerpt": "最肯忘却古人诗 最不屑一顾是『相思』"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Lnph6zEVr",
-            "locator": "BV1Lnph6zEVr",
-            "excerpt": "最肯忘却古人诗 最不屑一顾是『相思』"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Lnph6zEVr",
-            "locator": "BV1Lnph6zEVr",
-            "excerpt": "最肯忘却古人诗 最不屑一顾是『相思』"
-          }
-        ],
-        "text": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Lnph6zEVr",
-            "locator": "BV1Lnph6zEVr",
-            "excerpt": "每次听毛阿敏老师唱的“不‘屑’一顾”都好听得我想在地上打滚……\n非常好听的歌曲，唱给我信任的，交心的，交流的，心与心的，我爱的蜜宝，希望蜜宝喜欢\n\n原曲：《相思》- 毛阿敏\n翻唱：柚恩"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Lnph6zEVr",
-            "locator": "BV1Lnph6zEVr",
-            "sourceField": "recordingNamedMembers",
-            "excerpt": "已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
-          }
-        ]
-      },
-      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。",
-      "recordingNamedMembers": [
-        "youen"
-      ]
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Lnph6zEVr",
+          "summary": "最肯忘却古人诗 最不屑一顾是『相思』；每次听毛阿敏老师唱的“不‘屑’一顾”都好听得我想在地上打滚……\n非常好听的歌曲，唱给我信任的，交心的，交流的，心与心的，我爱的蜜宝，希望蜜宝喜欢\n\n原曲：《相思》- 毛阿敏\n翻唱：柚恩；已关联本场且明确署名的表演切片证明实际出现；这是部分名单，不代表完整参与者。"
+        }
+      ],
+      "notes": [
+        "投稿日期表示作品发布；未据此推断直播演唱日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_1a3d51ec-fa5c-4752-8068-188fd9280e22",
       "date": "2026-10-11",
-      "kind": "livestream",
       "title": "新人首播",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "special",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "plannedTime": "19:00",
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1URpn6vESG",
-          "relation": "primary-evidence",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1URpn6vESG",
-            "locator": "BV1URpn6vESG",
-            "excerpt": "【直播回放】【3D】新人首播 2026年10月11日19点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1URpn6vESG",
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1URpn6vESG",
-            "locator": "BV1URpn6vESG",
-            "excerpt": "【直播回放】【3D】新人首播 2026年10月11日19点场"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1255566689698840625",
-            "dynamicId": "1255566689698840625",
-            "excerpt": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/2453180a7f4d6807cd82dcc13da7758c2018113152.jpg"
-          },
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1257857717560672280",
-            "dynamicId": "1257857717560672280",
-            "excerpt": "直播预约：【3D】新人首播。；今天 19:00 直播"
-          }
-        ]
-      },
       "plannedMembers": [
         "luzao"
       ],
-      "plannedTime": "19:00",
-      "contentType": "special",
-      "dimension": "3d",
-      "isUnannounced": false
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1URpn6vESG",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1URpn6vESG",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1URpn6vESG",
+          "summary": "【直播回放】【3D】新人首播 2026年10月11日19点场"
+        },
+        {
+          "url": "https://t.bilibili.com/1255566689698840625",
+          "summary": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/2453180a7f4d6807cd82dcc13da7758c2018113152.jpg",
+          "summary": "10.5、10.6休息；10.7柚恩2D 19:30；10.8露早2D 19:30；10.9柚恩2D 19:30；10.10露早3D 19:00、柚恩3D 20:50；10.11露早3D 19:00"
+        },
+        {
+          "url": "https://t.bilibili.com/1257857717560672280",
+          "summary": "直播预约：【3D】新人首播。；今天 19:00 直播"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_6ad688fe-d9bd-4e58-aa55-7b16a42e0117",
       "date": "2026-10-11",
-      "kind": "publication",
-      "subtype": "program-video",
       "title": "I feel like Nicole~",
+      "kind": "publication",
       "publishedAt": "2026-10-11T04:04:46.000Z",
-      "occurrence": "published",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1Prp76UEi8",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Prp76UEi8",
-            "locator": "BV1Prp76UEi8",
-            "sourceField": "title",
-            "excerpt": "I feel like Nicole~"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Prp76UEi8",
-            "locator": "BV1Prp76UEi8",
-            "sourceField": "pubdate",
-            "excerpt": "2026-10-11T04:04:46.000Z"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Prp76UEi8",
-            "locator": "BV1Prp76UEi8",
-            "sourceField": "title",
-            "excerpt": "I feel like Nicole~"
-          }
-        ]
-      },
-      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Prp76UEi8",
+          "summary": "I feel like Nicole~；2026-10-11T04:04:46.000Z"
+        }
+      ],
+      "notes": [
+        "投稿日期表示作品发布；未据此推断直播演唱日期或场次。",
+        "内容标注：program-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_85a4b770-16fd-4d73-bef1-b6a977de65c6",
       "date": "2026-10-12",
-      "kind": "announcement",
-      "subtype": "weekly-schedule",
       "title": "EOE本周日程（10月12日—18日）",
-      "text": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17露早2D19:30；10.18柚恩2D19:30。",
+      "kind": "announcement",
       "publishedAt": "2026-10-12T04:00:00.000Z",
-      "occurrence": "announced",
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
-          }
-        ]
-      }
+      "text": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17露早2D19:30；10.18柚恩2D19:30。",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        }
+      ],
+      "notes": [
+        "内容标注：weekly-schedule"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_a4240a96-240e-4096-ab8b-adf3a2f7370c",
       "date": "2026-10-12",
-      "kind": "announcement",
-      "subtype": "schedule-change",
       "title": "官方周表更新：10月17日柚恩、18日露早，均19:30",
+      "kind": "announcement",
       "text": "官方替换同一条周表动态的图片，将周六、周日的露早与柚恩安排互换；其他安排不变，未说明调整原因或精确修改时刻。",
-      "occurrence": "announced",
-      "relatedEventId": "evt_85a4b770-16fd-4d73-bef1-b6a977de65c6",
-      "announcedActivity": {
-        "members": [
-          "luzao",
-          "youen"
-        ],
-        "dates": [
-          "2026-10-17",
-          "2026-10-18"
-        ]
-      },
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [
+        {
+          "kind": "related",
+          "target": {
+            "kind": "event",
+            "id": "evt_85a4b770-16fd-4d73-bef1-b6a977de65c6"
           }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
-          }
-        ]
-      }
+        }
+      ],
+      "assets": [],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        }
+      ],
+      "notes": [
+        "公布活动：members：luzao；youen；dates：2026-10-17；2026-10-18",
+        "内容标注：schedule-change"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_a1089b77-9ef9-4fa5-ab48-20b8ddc663cb",
       "date": "2026-10-13",
-      "kind": "livestream",
       "title": "萌妹铸剑大师48",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "2d",
+      "series": "萌妹玩游戏",
+      "isUnannounced": false,
+      "plannedTime": "19:30",
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        20
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1TQpz6nEbH",
-          "relation": "primary-evidence",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1TQpz6nEbH",
-            "locator": "BV1TQpz6nEbH",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹铸剑大师48 2026年10月13日20点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1TQpz6nEbH",
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1TQpz6nEbH",
-            "locator": "BV1TQpz6nEbH",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹铸剑大师48 2026年10月13日20点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1TQpz6nEbH",
-            "locator": "BV1TQpz6nEbH",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹铸剑大师48 2026年10月13日20点场"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
-          },
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258650340899684376",
-            "dynamicId": "1258650340899684376",
-            "excerpt": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "2d",
-      "isUnannounced": false,
       "plannedMembers": [
         "luzao"
       ],
-      "plannedTime": "19:30",
-      "series": "萌妹玩游戏"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1TQpz6nEbH",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1TQpz6nEbH",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1TQpz6nEbH",
+          "summary": "【直播回放】【2D】萌妹铸剑大师48 2026年10月13日20点场"
+        },
+        {
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://t.bilibili.com/1258650340899684376",
+          "summary": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_abcc947f-f342-4e5a-884d-0d54478a9070",
       "date": "2026-10-13",
-      "kind": "announcement",
-      "subtype": "schedule-change",
       "title": "露早2D直播因网络抢修延期至20:00通知",
-      "text": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]",
+      "kind": "announcement",
       "publishedAt": "2026-10-13T11:26:09.000Z",
-      "occurrence": "announced",
-      "relatedEventId": "evt_a1089b77-9ef9-4fa5-ab48-20b8ddc663cb",
-      "announcedActivity": {
-        "date": "2026-10-13",
-        "originalPlannedTime": "19:30",
-        "plannedTime": "20:00",
-        "members": [
-          "luzao"
-        ],
-        "formatLabel": "2D"
-      },
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258650340899684376",
-            "dynamicId": "1258650340899684376",
-            "excerpt": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]"
+      "text": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [
+        {
+          "kind": "related",
+          "target": {
+            "kind": "event",
+            "id": "evt_a1089b77-9ef9-4fa5-ab48-20b8ddc663cb"
           }
-        ],
-        "text": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258650340899684376",
-            "dynamicId": "1258650340899684376",
-            "excerpt": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]"
-          }
-        ]
-      }
+        }
+      ],
+      "assets": [],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1258650340899684376",
+          "summary": "实在抱歉！！又在紧急抢修网络中，大约需要半小时，8:00点见大家！！！[委屈][委屈][委屈][委屈][委屈][委屈]"
+        }
+      ],
+      "notes": [
+        "公布活动：date：2026-10-13；originalPlannedTime：19:30；plannedTime：20:00；members：luzao；formatLabel：2D",
+        "内容标注：schedule-change"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_21c8c61c-629b-4d0c-a2ab-70199d60a55b",
       "date": "2026-10-14",
-      "kind": "livestream",
       "title": "生日购物大挑战！",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "luzao"
-      ],
-      "titleHours": [
-        18
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1GGp16GEfG",
-          "relation": "primary-evidence",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GGp16GEfG",
-            "locator": "BV1GGp16GEfG",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】生日购物大挑战！ 2026年10月14日18点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1GGp16GEfG",
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GGp16GEfG",
-            "locator": "BV1GGp16GEfG",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】生日购物大挑战！ 2026年10月14日18点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GGp16GEfG",
-            "locator": "BV1GGp16GEfG",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】生日购物大挑战！ 2026年10月14日18点场"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
-          },
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258941548274384905",
-            "dynamicId": "1258941548274384905",
-            "excerpt": "直播预约：【3D】生日购物大挑战！！！；10-14 19:00 直播"
-          }
-        ]
-      },
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "3d",
       "isUnannounced": false,
+      "plannedTime": "19:00",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
       "plannedMembers": [
         "luzao"
       ],
-      "plannedTime": "19:00"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1GGp16GEfG",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1GGp16GEfG",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1GGp16GEfG",
+          "summary": "【直播回放】【3D】生日购物大挑战！ 2026年10月14日18点场"
+        },
+        {
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://t.bilibili.com/1258941548274384905",
+          "summary": "直播预约：【3D】生日购物大挑战！！！；10-14 19:00 直播"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_b1073630-c067-4c1a-a8fb-f958cd8af4de",
       "date": "2026-10-14",
-      "kind": "livestream",
       "title": "正式确诊为...",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "youen"
-      ],
-      "titleHours": [
-        20
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1txpm6gErC",
-          "relation": "primary-evidence",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1txpm6gErC",
-            "locator": "BV1txpm6gErC",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】正式确诊为... 2026年10月14日20点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1txpm6gErC",
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1txpm6gErC",
-            "locator": "BV1txpm6gErC",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】正式确诊为... 2026年10月14日20点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1txpm6gErC",
-            "locator": "BV1txpm6gErC",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】正式确诊为... 2026年10月14日20点场"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
-          }
-        ]
-      },
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "3d",
       "isUnannounced": false,
+      "plannedTime": "20:50",
+      "recordingNamedMembers": [
+        "youen"
+      ],
       "plannedMembers": [
         "youen"
       ],
-      "plannedTime": "20:50"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1txpm6gErC",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1txpm6gErC",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1txpm6gErC",
+          "summary": "【直播回放】【3D】正式确诊为... 2026年10月14日20点场"
+        },
+        {
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_30ed5239-0ab5-4e5a-a70d-87ba7160a8a4",
       "date": "2026-10-15",
-      "kind": "livestream",
       "title": "敏感or钝感？",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
+      "plannedTime": "19:00",
       "recordingNamedMembers": [
         "luzao",
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1LPJm6yEgW",
-          "relation": "primary-evidence",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1LPJm6yEgW",
-            "locator": "BV1LPJm6yEgW",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】敏感or钝感？ 2026年10月15日18点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1LPJm6yEgW",
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1LPJm6yEgW",
-            "locator": "BV1LPJm6yEgW",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】敏感or钝感？ 2026年10月15日18点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1NyJ26tEWq",
-            "locator": "BV1NyJ26tEWq",
-            "sourceField": "title + description",
-            "excerpt": "【露早＆柚恩】2026.10.15 敏感or钝感？【直播录像】【3D】；直播日期：2026.10.15"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false,
       "plannedMembers": [
         "luzao",
         "youen"
       ],
-      "plannedTime": "19:00"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1LPJm6yEgW",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1LPJm6yEgW",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1LPJm6yEgW",
+          "summary": "【直播回放】【3D】敏感or钝感？ 2026年10月15日18点场"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1NyJ26tEWq",
+          "summary": "【露早＆柚恩】2026.10.15 敏感or钝感？【直播录像】【3D】；直播日期：2026.10.15"
+        },
+        {
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_4c4f25e9-4d53-4841-983b-4f9db7e8ca6e",
       "date": "2026-10-16",
-      "kind": "livestream",
       "title": "新三：百分之百清冷美人",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "series": "看新三国",
+      "isUnannounced": false,
+      "plannedTime": "19:30",
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
+      "plannedMembers": [
+        "youen"
       ],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1yhJ46vEPx",
-          "relation": "primary-evidence",
           "partNumbers": [
             1,
             2
           ],
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1yhJ46vEPx",
-            "locator": "BV1yhJ46vEPx",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】新三：百分之百清冷美人 2026年10月16日19点场"
-          }
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1yhJ46vEPx",
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1yhJ46vEPx",
-            "locator": "BV1yhJ46vEPx",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】新三：百分之百清冷美人 2026年10月16日19点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1yhJ46vEPx",
-            "locator": "BV1yhJ46vEPx",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】新三：百分之百清冷美人 2026年10月16日19点场"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "plannedMembers": [
-        "youen"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1yhJ46vEPx",
+          "summary": "【直播回放】【2D】新三：百分之百清冷美人 2026年10月16日19点场"
+        },
+        {
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        }
       ],
-      "plannedTime": "19:30",
-      "series": "看新三国"
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_e68416f4-a2f1-465c-a0a3-ccd6cffb3775",
       "date": "2026-10-16",
-      "kind": "publication",
-      "subtype": "program-video",
       "title": "我是主人 这家伙是…",
+      "kind": "publication",
       "publishedAt": "2026-10-16T11:13:56.000Z",
-      "occurrence": "published",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1mmJt6kEut",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1mmJt6kEut",
-            "locator": "BV1mmJt6kEut",
-            "sourceField": "title",
-            "excerpt": "我是主人 这家伙是…"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1mmJt6kEut",
-            "locator": "BV1mmJt6kEut",
-            "sourceField": "pubdate",
-            "excerpt": "2026-10-16T11:13:56.000Z"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1mmJt6kEut",
-            "locator": "BV1mmJt6kEut",
-            "sourceField": "title",
-            "excerpt": "我是主人 这家伙是…"
-          }
-        ]
-      },
-      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1mmJt6kEut",
+          "summary": "我是主人 这家伙是…；2026-10-16T11:13:56.000Z"
+        }
+      ],
+      "notes": [
+        "投稿日期表示作品发布；未据此推断直播演唱日期或场次。",
+        "内容标注：program-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_9fea49ec-5485-4f73-9a96-29f957fd89f1",
       "date": "2026-10-16",
-      "kind": "publication",
-      "subtype": "program-video",
       "title": "谁说这软脚虾不好的，可太好了👋",
-      "text": "不会真的只有我开出软脚虾吧（ * O д O * ）",
+      "kind": "publication",
       "publishedAt": "2026-10-16T11:16:11.000Z",
-      "occurrence": "published",
+      "text": "不会真的只有我开出软脚虾吧（ * O д O * ）",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV14mJt6CEsH",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV14mJt6CEsH",
-            "locator": "BV14mJt6CEsH",
-            "sourceField": "title",
-            "excerpt": "谁说这软脚虾不好的，可太好了👋"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV14mJt6CEsH",
-            "locator": "BV14mJt6CEsH",
-            "sourceField": "pubdate",
-            "excerpt": "2026-10-16T11:16:11.000Z"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV14mJt6CEsH",
-            "locator": "BV14mJt6CEsH",
-            "sourceField": "title",
-            "excerpt": "谁说这软脚虾不好的，可太好了👋"
-          }
-        ]
-      },
-      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV14mJt6CEsH",
+          "summary": "谁说这软脚虾不好的，可太好了👋；2026-10-16T11:16:11.000Z"
+        }
+      ],
+      "notes": [
+        "投稿日期表示作品发布；未据此推断直播演唱日期或场次。",
+        "内容标注：program-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_d1b9b6d1-213a-460d-af47-d35918539f98",
       "date": "2026-10-17",
-      "kind": "livestream",
       "title": "铸天下第一剑",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedTime": "19:30",
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
+      "plannedMembers": [
+        "youen"
       ],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1QLJB6LE4z",
-          "relation": "primary-evidence",
           "partNumbers": [
             1,
             2
           ],
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1QLJB6LE4z",
-            "locator": "BV1QLJB6LE4z",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】铸天下第一剑 2026年10月17日19点场"
-          }
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1QLJB6LE4z",
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1QLJB6LE4z",
-            "locator": "BV1QLJB6LE4z",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】铸天下第一剑 2026年10月17日19点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1QLJB6LE4z",
-            "locator": "BV1QLJB6LE4z",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】铸天下第一剑 2026年10月17日19点场"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "plannedMembers": [
-        "youen"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1QLJB6LE4z",
+          "summary": "【直播回放】【2D】铸天下第一剑 2026年10月17日19点场"
+        },
+        {
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        }
       ],
-      "plannedTime": "19:30"
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_4cfb4f58-8773-4e46-b262-64f0a57016bb",
       "date": "2026-10-17",
-      "kind": "publication",
-      "subtype": "program-video",
       "title": "这下对了^ ^",
+      "kind": "publication",
       "publishedAt": "2026-10-17T10:53:45.000Z",
-      "occurrence": "published",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1fBJi6DEkE",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1fBJi6DEkE",
-            "locator": "BV1fBJi6DEkE",
-            "sourceField": "title",
-            "excerpt": "这下对了^ ^"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1fBJi6DEkE",
-            "locator": "BV1fBJi6DEkE",
-            "sourceField": "pubdate",
-            "excerpt": "2026-10-17T10:53:45.000Z"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1fBJi6DEkE",
-            "locator": "BV1fBJi6DEkE",
-            "sourceField": "title",
-            "excerpt": "这下对了^ ^"
-          }
-        ]
-      },
-      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1fBJi6DEkE",
+          "summary": "这下对了^ ^；2026-10-17T10:53:45.000Z"
+        }
+      ],
+      "notes": [
+        "投稿日期表示作品发布；未据此推断直播演唱日期或场次。",
+        "内容标注：program-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_0af4d36d-03f8-4301-91c5-f88c31afae68",
       "date": "2026-10-18",
-      "kind": "livestream",
       "title": "萌妹过生日（5岁）",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "celebration",
+      "dimension": "2d",
+      "isUnannounced": false,
+      "plannedTime": "19:30",
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
+      "plannedMembers": [
+        "luzao"
       ],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1GonG6LE2d",
-          "relation": "primary-evidence",
           "partNumbers": [
             1,
             2,
             3
           ],
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GonG6LE2d",
-            "locator": "BV1GonG6LE2d",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹过生日（5岁） 2026年10月18日19点场"
-          }
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1GonG6LE2d",
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GonG6LE2d",
-            "locator": "BV1GonG6LE2d",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹过生日（5岁） 2026年10月18日19点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GonG6LE2d",
-            "locator": "BV1GonG6LE2d",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹过生日（5岁） 2026年10月18日19点场"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1258164285900587029",
-            "dynamicId": "1258164285900587029",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
-            "excerpt": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
-          },
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1260457542856736773",
-            "dynamicId": "1260457542856736773",
-            "excerpt": "直播预约：【2D】萌妹过生日（5岁）；10-18 19:30 直播"
-          }
-        ]
-      },
-      "contentType": "celebration",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "plannedMembers": [
-        "luzao"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1GonG6LE2d",
+          "summary": "【直播回放】【2D】萌妹过生日（5岁） 2026年10月18日19点场"
+        },
+        {
+          "url": "https://t.bilibili.com/1258164285900587029",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/b8a867e80cc8185a934f89c78b402b3f2018113152.png",
+          "summary": "10.12休息；10.13露早2D19:30；10.14露早3D19:00、柚恩3D20:50；10.15露早&柚恩19:00（露早直播间，未标注形态）；10.16柚恩2D19:30；10.17柚恩2D19:30；10.18露早2D19:30。"
+        },
+        {
+          "url": "https://t.bilibili.com/1260457542856736773",
+          "summary": "直播预约：【2D】萌妹过生日（5岁）；10-18 19:30 直播"
+        }
       ],
-      "plannedTime": "19:30"
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_99588694-ee24-4d36-9b35-80b75b9bfe33",
       "date": "2026-10-18",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "顶级清冷美人音『茶汤』翻唱",
-      "text": "翻唱了最近很有人气的一首经典歌曲，希望蜜宝喜欢\n\n原曲：《茶汤》-郁可唯\n翻唱：柚恩",
+      "kind": "publication",
       "publishedAt": "2026-10-18T03:30:00.000Z",
-      "occurrence": "published",
+      "text": "翻唱了最近很有人气的一首经典歌曲，希望蜜宝喜欢\n\n原曲：《茶汤》-郁可唯\n翻唱：柚恩",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
       "creditedMembers": [
         "youen"
       ],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_0245ad3d-d98e-429a-a15b-f841af9dd4d8"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1fJJq6XE3v",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
-            "locator": "BV1fJJq6XE3v",
-            "sourceField": "title",
-            "excerpt": "顶级清冷美人音『茶汤』翻唱"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
-            "locator": "BV1fJJq6XE3v",
-            "sourceField": "pubdate",
-            "excerpt": "2026-10-18T03:30:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
-            "locator": "BV1fJJq6XE3v",
-            "sourceField": "title",
-            "excerpt": "顶级清冷美人音『茶汤』翻唱"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
-            "locator": "BV1fJJq6XE3v",
-            "sourceField": "title + description",
-            "excerpt": "顶级清冷美人音『茶汤』翻唱；原曲：《茶汤》-郁可唯；翻唱：柚恩"
-          }
-        ],
-        "creditedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
-            "locator": "BV1fJJq6XE3v",
-            "sourceField": "title + description",
-            "excerpt": "顶级清冷美人音『茶汤』翻唱；原曲：《茶汤》-郁可唯；翻唱：柚恩"
-          }
-        ]
-      },
-      "note": "投稿日期表示作品发布；未据此推断直播演唱日期或场次。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1fJJq6XE3v",
+          "summary": "顶级清冷美人音『茶汤』翻唱；2026-10-18T03:30:00.000Z；顶级清冷美人音『茶汤』翻唱；原曲：《茶汤》-郁可唯；翻唱：柚恩"
+        }
+      ],
+      "notes": [
+        "投稿日期表示作品发布；未据此推断直播演唱日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_17447669-9f91-4317-ac33-811fe3f77c6d",
       "date": "2026-10-18",
-      "kind": "announcement",
-      "subtype": "schedule-change",
       "title": "露早2D生日直播因堵车延后通知",
-      "text": "延后一小会！！路上塞车！！！感谢大家！！！！[露早GOGO收藏集_拜托了]",
+      "kind": "announcement",
       "publishedAt": "2026-10-18T11:00:18.000Z",
-      "occurrence": "announced",
-      "relatedEventId": "evt_0af4d36d-03f8-4301-91c5-f88c31afae68",
-      "announcedActivity": {
-        "date": "2026-10-18",
-        "originalPlannedTime": "19:30",
-        "members": [
-          "luzao"
-        ],
-        "formatLabel": "2D"
-      },
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1260499105291960356",
-            "dynamicId": "1260499105291960356",
-            "excerpt": "延后一小会！！路上塞车！！！感谢大家！！！！[露早GOGO收藏集_拜托了]"
+      "text": "延后一小会！！路上塞车！！！感谢大家！！！！[露早GOGO收藏集_拜托了]",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [
+        {
+          "kind": "related",
+          "target": {
+            "kind": "event",
+            "id": "evt_0af4d36d-03f8-4301-91c5-f88c31afae68"
           }
-        ],
-        "text": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1260499105291960356",
-            "dynamicId": "1260499105291960356",
-            "excerpt": "延后一小会！！路上塞车！！！感谢大家！！！！[露早GOGO收藏集_拜托了]"
-          }
-        ]
-      }
+        }
+      ],
+      "assets": [],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1260499105291960356",
+          "summary": "延后一小会！！路上塞车！！！感谢大家！！！！[露早GOGO收藏集_拜托了]"
+        }
+      ],
+      "notes": [
+        "公布活动：date：2026-10-18；originalPlannedTime：19:30；members：luzao；formatLabel：2D",
+        "内容标注：schedule-change"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_72177f2e-9447-4b99-a55a-a3d557bc8215",
       "date": "2026-10-19",
-      "kind": "announcement",
-      "subtype": "weekly-schedule",
       "title": "EOE本周日程（10月19日—25日）",
-      "text": "按日程图片：10.19（周一）露早2D19:30；10.20（周二）柚恩2D20:00；10.21（周三）露早3D19:00、柚恩3D20:50；10.22（周四）柚恩3D19:00；10.23（周五）休息；10.24（周六）柚恩2D19:30；10.25（周日）露早2D19:30。",
+      "kind": "announcement",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "occurrence": "announced",
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1260761882094993416",
-            "dynamicId": "1260761882094993416",
-            "excerpt": "按日程图片：10.19（周一）露早2D19:30；10.20（周二）柚恩2D20:00；10.21（周三）露早3D19:00、柚恩3D20:50；10.22（周四）柚恩3D19:00；10.23（周五）休息；10.24（周六）柚恩2D19:30；10.25（周日）露早2D19:30。",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/c9ba992201c80f1dc01d660cd01f41662018113152.jpg"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1260761882094993416",
-            "dynamicId": "1260761882094993416",
-            "excerpt": "按日程图片：10.19（周一）露早2D19:30；10.20（周二）柚恩2D20:00；10.21（周三）露早3D19:00、柚恩3D20:50；10.22（周四）柚恩3D19:00；10.23（周五）休息；10.24（周六）柚恩2D19:30；10.25（周日）露早2D19:30。",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/c9ba992201c80f1dc01d660cd01f41662018113152.jpg"
-          }
-        ]
-      },
-      "note": "日程按官方图片读取；动态正文的日期、星期对应有误，不用于生成计划。未将预告记为实际直播。"
+      "text": "按日程图片：10.19（周一）露早2D19:30；10.20（周二）柚恩2D20:00；10.21（周三）露早3D19:00、柚恩3D20:50；10.22（周四）柚恩3D19:00；10.23（周五）休息；10.24（周六）柚恩2D19:30；10.25（周日）露早2D19:30。",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1260761882094993416",
+          "summary": "按日程图片：10.19（周一）露早2D19:30；10.20（周二）柚恩2D20:00；10.21（周三）露早3D19:00、柚恩3D20:50；10.22（周四）柚恩3D19:00；10.23（周五）休息；10.24（周六）柚恩2D19:30；10.25（周日）露早2D19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/c9ba992201c80f1dc01d660cd01f41662018113152.jpg",
+          "summary": "按日程图片：10.19（周一）露早2D19:30；10.20（周二）柚恩2D20:00；10.21（周三）露早3D19:00、柚恩3D20:50；10.22（周四）柚恩3D19:00；10.23（周五）休息；10.24（周六）柚恩2D19:30；10.25（周日）露早2D19:30。"
+        }
+      ],
+      "notes": [
+        "日程按官方图片读取；动态正文的日期、星期对应有误，不用于生成计划。未将预告记为实际直播。",
+        "内容标注：weekly-schedule"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_b506dfba-3466-5fe3-8fa3-675de574ac14",
       "date": "2026-10-19",
-      "kind": "livestream",
       "title": "GOGO园区团建！49",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "luzao"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV13DJo6PExp",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV13DJo6PExp",
-            "locator": "BV13DJo6PExp",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】GOGO园区团建！49 2026年10月19日19点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV13DJo6PExp",
-      "titleHours": [
-        19
-      ],
+      "kind": "livestream",
       "contentType": "game",
       "dimension": "2d",
       "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV13DJo6PExp",
-            "locator": "BV13DJo6PExp",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】GOGO园区团建！49 2026年10月19日19点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV13DJo6PExp",
-            "locator": "BV13DJo6PExp",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】GOGO园区团建！49 2026年10月19日19点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV13DJo6PExp",
-            "locator": "BV13DJo6PExp",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】GOGO园区团建！49 2026年10月19日19点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV13DJo6PExp",
-            "locator": "BV13DJo6PExp",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】GOGO园区团建！49 2026年10月19日19点场"
-          }
-        ]
-      },
-      "note": "同日预约标题为“一起创造GGW!49”，保留官方回放现题；未因标题变化另建场次。"
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV13DJo6PExp",
+          "partNumbers": [],
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV13DJo6PExp",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV13DJo6PExp",
+          "summary": "【直播回放】【2D】GOGO园区团建！49 2026年10月19日19点场"
+        }
+      ],
+      "notes": [
+        "同日预约标题为“一起创造GGW!49”，保留官方回放现题；未因标题变化另建场次。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_5e789275-99db-525e-a939-57e27fde26c5",
       "date": "2026-10-20",
-      "kind": "livestream",
       "title": "和音音玩",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "youen"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1GwnK6ZE29",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GwnK6ZE29",
-            "locator": "BV1GwnK6ZE29",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】和音音玩 2026年10月20日20点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1GwnK6ZE29",
-      "titleHours": [
-        20
-      ],
+      "kind": "livestream",
       "contentType": "game",
       "dimension": "2d",
       "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GwnK6ZE29",
-            "locator": "BV1GwnK6ZE29",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】和音音玩 2026年10月20日20点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GwnK6ZE29",
-            "locator": "BV1GwnK6ZE29",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】和音音玩 2026年10月20日20点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GwnK6ZE29",
-            "locator": "BV1GwnK6ZE29",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】和音音玩 2026年10月20日20点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1GwnK6ZE29",
-            "locator": "BV1GwnK6ZE29",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】和音音玩 2026年10月20日20点场"
-          }
-        ]
-      },
-      "note": "次日成员动态明确为合作解密游戏；未把简介中的常驻账号链接当作实际参与名单。"
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1GwnK6ZE29",
+          "partNumbers": [],
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1GwnK6ZE29",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1GwnK6ZE29",
+          "summary": "【直播回放】【2D】和音音玩 2026年10月20日20点场"
+        }
+      ],
+      "notes": [
+        "次日成员动态明确为合作解密游戏；未把简介中的常驻账号链接当作实际参与名单。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_be992bf3-5c75-5e15-8c09-b362988f5a2d",
       "date": "2026-10-21",
-      "kind": "livestream",
       "title": "皇家公主的一天",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "luzao"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1wpnB6eEF3",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1wpnB6eEF3",
-            "locator": "BV1wpnB6eEF3",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】皇家公主的一天 2026年10月21日19点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1wpnB6eEF3",
-      "titleHours": [
-        19
-      ],
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "3d",
       "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1wpnB6eEF3",
-            "locator": "BV1wpnB6eEF3",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】皇家公主的一天 2026年10月21日19点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1wpnB6eEF3",
-            "locator": "BV1wpnB6eEF3",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】皇家公主的一天 2026年10月21日19点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1wpnB6eEF3",
-            "locator": "BV1wpnB6eEF3",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】皇家公主的一天 2026年10月21日19点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1wpnB6eEF3",
-            "locator": "BV1wpnB6eEF3",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】皇家公主的一天 2026年10月21日19点场"
-          }
-        ]
-      },
-      "note": "补充切片简介误写10月22日；官方回放及两家主要录播标题均为10月21日，按10月21日关联。"
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1wpnB6eEF3",
+          "partNumbers": [],
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1wpnB6eEF3",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1wpnB6eEF3",
+          "summary": "【直播回放】【3D】皇家公主的一天 2026年10月21日19点场"
+        }
+      ],
+      "notes": [
+        "补充切片简介误写10月22日；官方回放及两家主要录播标题均为10月21日，按10月21日关联。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_4184d75a-4871-5d23-bebc-181655839d78",
       "date": "2026-10-21",
-      "kind": "livestream",
       "title": "柚的N种人生",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "youen"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1jnnr6YEhe",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1jnnr6YEhe",
-            "locator": "BV1jnnr6YEhe",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】柚的N种人生 2026年10月21日20点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1jnnr6YEhe",
-      "titleHours": [
-        20
-      ],
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "3d",
       "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1jnnr6YEhe",
-            "locator": "BV1jnnr6YEhe",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】柚的N种人生 2026年10月21日20点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1jnnr6YEhe",
-            "locator": "BV1jnnr6YEhe",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】柚的N种人生 2026年10月21日20点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1jnnr6YEhe",
-            "locator": "BV1jnnr6YEhe",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】柚的N种人生 2026年10月21日20点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1jnnr6YEhe",
-            "locator": "BV1jnnr6YEhe",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】柚的N种人生 2026年10月21日20点场"
-          }
-        ]
-      },
-      "note": "只依据明确切片补充表演，不据两首歌曲推断整场节目分类。"
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1jnnr6YEhe",
+          "partNumbers": [],
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1jnnr6YEhe",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1jnnr6YEhe",
+          "summary": "【直播回放】【3D】柚的N种人生 2026年10月21日20点场"
+        }
+      ],
+      "notes": [
+        "只依据明确切片补充表演，不据两首歌曲推断整场节目分类。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_4740563b-e7ed-5c35-8812-3859ee213098",
       "date": "2026-10-22",
-      "kind": "livestream",
       "title": "Music Bar",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "youen"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1xTnp6bEeJ",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1xTnp6bEeJ",
-            "locator": "BV1xTnp6bEeJ",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】Music Bar 2026年10月22日18点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1xTnp6bEeJ",
-      "titleHours": [
-        18
-      ],
+      "kind": "livestream",
       "contentType": "singing",
       "dimension": "3d",
       "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1xTnp6bEeJ",
-            "locator": "BV1xTnp6bEeJ",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】Music Bar 2026年10月22日18点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1xTnp6bEeJ",
-            "locator": "BV1xTnp6bEeJ",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】Music Bar 2026年10月22日18点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1xTnp6bEeJ",
-            "locator": "BV1xTnp6bEeJ",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】Music Bar 2026年10月22日18点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1xTnp6bEeJ",
-            "locator": "BV1xTnp6bEeJ",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】Music Bar 2026年10月22日18点场"
-          }
-        ]
-      },
-      "note": "录播标题小时单独保存，不据此推断实际开播时刻。"
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1xTnp6bEeJ",
+          "partNumbers": [],
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1xTnp6bEeJ",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1xTnp6bEeJ",
+          "summary": "【直播回放】【3D】Music Bar 2026年10月22日18点场"
+        }
+      ],
+      "notes": [
+        "录播标题小时单独保存，不据此推断实际开播时刻。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_a6033a4e-0ec0-5893-bac9-a8ba9f0e426b",
       "date": "2026-10-22",
-      "kind": "publication",
-      "subtype": "video",
       "title": "【GOGO To Work!】EP.2 萌妹体验当空姐！这架飞机真的能坐吗？！",
-      "text": "【GOGO To Work!】EP.2之 萌妹体验当空姐！\n参演：露早，Karmen,路翼\n策划：露早\n导播：洋洋\n服装道具：白醋\n\nGOGO To Work!和露早一起超真实过家家酒！",
+      "kind": "publication",
       "publishedAt": "2026-10-22T08:37:34.000Z",
-      "occurrence": "published",
+      "text": "【GOGO To Work!】EP.2之 萌妹体验当空姐！\n参演：露早，Karmen,路翼\n策划：露早\n导播：洋洋\n服装道具：白醋\n\nGOGO To Work!和露早一起超真实过家家酒！",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
       "creditedMembers": [
         "luzao"
       ],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1sZnm6hE7W",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1sZnm6hE7W",
-            "locator": "BV1sZnm6hE7W",
-            "sourceField": "title + description",
-            "excerpt": "【GOGO To Work!】EP.2 萌妹体验当空姐！这架飞机真的能坐吗？！；【GOGO To Work!】EP.2之 萌妹体验当空姐！\n参演：露早，Karmen,路翼\n策划：露早\n导播：洋洋\n服装道具：白醋\n\nGOGO To Work!和露早一起超真实过家家酒！"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1sZnm6hE7W",
-            "locator": "BV1sZnm6hE7W",
-            "sourceField": "pubdate",
-            "excerpt": "2026-10-22T08:37:34.000Z"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1sZnm6hE7W",
-            "locator": "BV1sZnm6hE7W",
-            "sourceField": "title",
-            "excerpt": "【GOGO To Work!】EP.2 萌妹体验当空姐！这架飞机真的能坐吗？！"
-          }
-        ],
-        "creditedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1sZnm6hE7W",
-            "locator": "BV1sZnm6hE7W",
-            "sourceField": "title + description",
-            "excerpt": "【GOGO To Work!】EP.2 萌妹体验当空姐！这架飞机真的能坐吗？！；【GOGO To Work!】EP.2之 萌妹体验当空姐！\n参演：露早，Karmen,路翼\n策划：露早\n导播：洋洋\n服装道具：白醋\n\nGOGO To Work!和露早一起超真实过家家酒！"
-          }
-        ]
-      },
-      "note": "Karmen、路翼为露早角色，成员统一为luzao；未据投稿日期推断直播。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1sZnm6hE7W",
+          "summary": "【GOGO To Work!】EP.2 萌妹体验当空姐！这架飞机真的能坐吗？！；【GOGO To Work!】EP.2之 萌妹体验当空姐！\n参演：露早，Karmen,路翼\n策划：露早\n导播：洋洋\n服装道具：白醋\n\nGOGO To Work!和露早一起超真实过家家酒！；2026-10-22T08:37:34.000Z；【GOGO To Work!】EP.2 萌妹体验当空姐！这架飞机真的能坐吗？！"
+        }
+      ],
+      "notes": [
+        "Karmen、路翼为露早角色，成员统一为luzao；未据投稿日期推断直播。",
+        "内容标注：video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_d2ae76bd-7cc3-5710-9110-7b7244e023ab",
       "date": "2026-10-24",
-      "kind": "livestream",
       "title": "看新三，万万有此事啊！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "series": "看新三国",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1o4HM6GExF",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1o4HM6GExF",
-            "locator": "BV1o4HM6GExF",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】看新三，万万有此事啊！ 2026年10月24日19点场"
-          }
+          "partNumbers": [],
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1o4HM6GExF",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1o4HM6GExF",
+          "summary": "【直播回放】【2D】看新三，万万有此事啊！ 2026年10月24日19点场"
+        }
+      ],
+      "notes": [
+        "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
       "titleHours": [
         19
-      ],
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1o4HM6GExF",
-            "locator": "BV1o4HM6GExF",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】看新三，万万有此事啊！ 2026年10月24日19点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1o4HM6GExF",
-            "locator": "BV1o4HM6GExF",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】看新三，万万有此事啊！ 2026年10月24日19点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1o4HM6GExF",
-            "locator": "BV1o4HM6GExF",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】看新三，万万有此事啊！ 2026年10月24日19点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1o4HM6GExF",
-            "locator": "BV1o4HM6GExF",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】看新三，万万有此事啊！ 2026年10月24日19点场"
-          }
-        ]
-      },
-      "note": "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。",
-      "series": "看新三国"
+      ]
     },
     {
       "id": "evt_2dd30d3b-318d-5529-9d78-3da1d52355df",
       "date": "2026-10-25",
-      "kind": "livestream",
       "title": "萌妹园区搭建中50",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "luzao"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1DNnS6yEou",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1DNnS6yEou",
-            "locator": "BV1DNnS6yEou",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹园区搭建中50 2026年10月25日19点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1DNnS6yEou",
-      "titleHours": [
-        19
-      ],
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "2d",
       "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1DNnS6yEou",
-            "locator": "BV1DNnS6yEou",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹园区搭建中50 2026年10月25日19点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1DNnS6yEou",
-            "locator": "BV1DNnS6yEou",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹园区搭建中50 2026年10月25日19点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1DNnS6yEou",
-            "locator": "BV1DNnS6yEou",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹园区搭建中50 2026年10月25日19点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1DNnS6yEou",
-            "locator": "BV1DNnS6yEou",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】萌妹园区搭建中50 2026年10月25日19点场"
-          }
-        ]
-      },
-      "note": "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。预约和补充录播称“萌妹园区二期生50”，保留官方回放现题，不另建场次。"
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1DNnS6yEou",
+          "partNumbers": [],
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1DNnS6yEou",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1DNnS6yEou",
+          "summary": "【直播回放】【2D】萌妹园区搭建中50 2026年10月25日19点场"
+        }
+      ],
+      "notes": [
+        "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。预约和补充录播称“萌妹园区二期生50”，保留官方回放现题，不另建场次。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_0fd995b9-9d1e-5951-8051-c3e3d337a548",
       "date": "2026-10-26",
-      "kind": "livestream",
       "title": "GOGO娱乐开业大吉51",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "luzao"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV17xno65EkN",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV17xno65EkN",
-            "locator": "BV17xno65EkN",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】GOGO娱乐开业大吉51 2026年10月26日19点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV17xno65EkN",
-      "titleHours": [
-        19
-      ],
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "2d",
       "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV17xno65EkN",
-            "locator": "BV17xno65EkN",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】GOGO娱乐开业大吉51 2026年10月26日19点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV17xno65EkN",
-            "locator": "BV17xno65EkN",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】GOGO娱乐开业大吉51 2026年10月26日19点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV17xno65EkN",
-            "locator": "BV17xno65EkN",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】GOGO娱乐开业大吉51 2026年10月26日19点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV17xno65EkN",
-            "locator": "BV17xno65EkN",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】GOGO娱乐开业大吉51 2026年10月26日19点场"
-          }
-        ]
-      },
-      "note": "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。"
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV17xno65EkN",
+          "partNumbers": [],
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV17xno65EkN",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV17xno65EkN",
+          "summary": "【直播回放】【2D】GOGO娱乐开业大吉51 2026年10月26日19点场"
+        }
+      ],
+      "notes": [
+        "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_12800b6f-ca6f-5fb7-9156-0e96a9b4d74b",
       "date": "2026-10-27",
-      "kind": "livestream",
       "title": "MC职业赛52",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "luzao"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1UdxT6ME87",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1UdxT6ME87",
-            "locator": "BV1UdxT6ME87",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】MC职业赛52 2026年10月27日11点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1UdxT6ME87",
-      "titleHours": [
-        11
-      ],
+      "kind": "livestream",
       "contentType": "game",
       "dimension": "2d",
       "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1UdxT6ME87",
-            "locator": "BV1UdxT6ME87",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】MC职业赛52 2026年10月27日11点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1UdxT6ME87",
-            "locator": "BV1UdxT6ME87",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】MC职业赛52 2026年10月27日11点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1UdxT6ME87",
-            "locator": "BV1UdxT6ME87",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】MC职业赛52 2026年10月27日11点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1UdxT6ME87",
-            "locator": "BV1UdxT6ME87",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】MC职业赛52 2026年10月27日11点场"
-          }
-        ]
-      },
-      "note": "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。"
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1UdxT6ME87",
+          "partNumbers": [],
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1UdxT6ME87",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1UdxT6ME87",
+          "summary": "【直播回放】【2D】MC职业赛52 2026年10月27日11点场"
+        }
+      ],
+      "notes": [
+        "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        11
+      ]
     },
     {
       "id": "evt_d6462166-886c-5d30-8785-9ab0e5c9168d",
       "date": "2026-10-27",
-      "kind": "livestream",
       "title": "新三完结倒计时",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "series": "看新三国",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV14pxu6zEz4",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV14pxu6zEz4",
-            "locator": "BV14pxu6zEz4",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】新三完结倒计时 2026年10月27日18点场"
-          }
+          "partNumbers": [],
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV14pxu6zEz4",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV14pxu6zEz4",
+          "summary": "【直播回放】【2D】新三完结倒计时 2026年10月27日18点场"
+        }
+      ],
+      "notes": [
+        "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
       "titleHours": [
         18
-      ],
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV14pxu6zEz4",
-            "locator": "BV14pxu6zEz4",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】新三完结倒计时 2026年10月27日18点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV14pxu6zEz4",
-            "locator": "BV14pxu6zEz4",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】新三完结倒计时 2026年10月27日18点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV14pxu6zEz4",
-            "locator": "BV14pxu6zEz4",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】新三完结倒计时 2026年10月27日18点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV14pxu6zEz4",
-            "locator": "BV14pxu6zEz4",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【2D】新三完结倒计时 2026年10月27日18点场"
-          }
-        ]
-      },
-      "note": "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。",
-      "series": "看新三国"
+      ]
     },
     {
       "id": "evt_34ba8d21-48ec-5f15-a7d2-e5fee856023f",
       "date": "2026-10-28",
-      "kind": "livestream",
       "title": "好好休息一天！",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "luzao"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1Ayx764EiN",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Ayx764EiN",
-            "locator": "BV1Ayx764EiN",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】好好休息一天！ 2026年10月28日18点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1Ayx764EiN",
-      "titleHours": [
-        18
-      ],
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "3d",
       "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Ayx764EiN",
-            "locator": "BV1Ayx764EiN",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】好好休息一天！ 2026年10月28日18点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Ayx764EiN",
-            "locator": "BV1Ayx764EiN",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】好好休息一天！ 2026年10月28日18点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Ayx764EiN",
-            "locator": "BV1Ayx764EiN",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】好好休息一天！ 2026年10月28日18点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Ayx764EiN",
-            "locator": "BV1Ayx764EiN",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】好好休息一天！ 2026年10月28日18点场"
-          }
-        ]
-      },
-      "note": "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。"
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1Ayx764EiN",
+          "partNumbers": [],
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1Ayx764EiN",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Ayx764EiN",
+          "summary": "【直播回放】【3D】好好休息一天！ 2026年10月28日18点场"
+        }
+      ],
+      "notes": [
+        "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_22c037e8-6008-5454-9e51-555da9657863",
       "date": "2026-10-28",
-      "kind": "livestream",
       "title": "你只是怕了",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "youen"
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1gTs96vE9S",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1gTs96vE9S",
-            "locator": "BV1gTs96vE9S",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】你只是怕了 2026年10月28日20点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1gTs96vE9S",
-      "titleHours": [
-        20
-      ],
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "3d",
       "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1gTs96vE9S",
-            "locator": "BV1gTs96vE9S",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】你只是怕了 2026年10月28日20点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1gTs96vE9S",
-            "locator": "BV1gTs96vE9S",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】你只是怕了 2026年10月28日20点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1gTs96vE9S",
-            "locator": "BV1gTs96vE9S",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】你只是怕了 2026年10月28日20点场"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1gTs96vE9S",
-            "locator": "BV1gTs96vE9S",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】你只是怕了 2026年10月28日20点场"
-          }
-        ]
-      },
-      "note": "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。"
+      "recordingNamedMembers": [
+        "youen"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1gTs96vE9S",
+          "partNumbers": [],
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1gTs96vE9S",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1gTs96vE9S",
+          "summary": "【直播回放】【3D】你只是怕了 2026年10月28日20点场"
+        }
+      ],
+      "notes": [
+        "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_3bbe7f5e-5255-5539-aa35-67572e2c6813",
       "date": "2026-10-29",
-      "kind": "livestream",
       "title": "老实双播很枯燥吧",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen",
         "luzao"
       ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1opsf6ZEJx",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1opsf6ZEJx",
-            "locator": "BV1opsf6ZEJx",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】老实双播很枯燥吧 2026年10月29日18点场"
-          }
+          "partNumbers": [],
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1opsf6ZEJx",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1opsf6ZEJx",
+          "summary": "【直播回放】【3D】老实双播很枯燥吧 2026年10月29日18点场"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1Buxw6NEie",
+          "summary": "补充录播标题及简介明确为柚恩、露早双人3D直播，日期2026-10-29。"
+        }
+      ],
+      "notes": [
+        "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。双播参与名单由具名补充录播及官方周表共同核对，不把上传账号或简介常驻链接当作参与名单。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
       "titleHours": [
         18
-      ],
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false,
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1opsf6ZEJx",
-            "locator": "BV1opsf6ZEJx",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】老实双播很枯燥吧 2026年10月29日18点场"
-          }
-        ],
-        "title": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1opsf6ZEJx",
-            "locator": "BV1opsf6ZEJx",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】老实双播很枯燥吧 2026年10月29日18点场"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1opsf6ZEJx",
-            "locator": "BV1opsf6ZEJx",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】老实双播很枯燥吧 2026年10月29日18点场"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1Buxw6NEie",
-            "locator": "BV1Buxw6NEie",
-            "sourceField": "title + description",
-            "excerpt": "补充录播标题及简介明确为柚恩、露早双人3D直播，日期2026-10-29。"
-          }
-        ],
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1opsf6ZEJx",
-            "locator": "BV1opsf6ZEJx",
-            "sourceField": "title",
-            "excerpt": "【直播回放】【3D】老实双播很枯燥吧 2026年10月29日18点场"
-          }
-        ]
-      },
-      "note": "录播标题小时与计划时间分别保留，不据标题小时推断精确实际开播时刻。双播参与名单由具名补充录播及官方周表共同核对，不把上传账号或简介常驻链接当作参与名单。"
+      ]
     },
     {
       "id": "evt_7be37dac-8ca0-5f1d-baa1-464cb4271916",
       "date": "2026-10-26",
-      "kind": "announcement",
-      "subtype": "weekly-schedule",
       "title": "EOE本周日程（10月26日—11月1日）",
-      "text": "10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。",
+      "kind": "announcement",
       "publishedAt": "2026-10-26T04:00:00.000Z",
-      "occurrence": "announced",
-      "evidence": {
-        "date": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1263359478328197173",
-            "dynamicId": "1263359478328197173",
-            "excerpt": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/7ff3e1c3f490d0adf5e977b31d5e162a2018113152.jpg"
-          }
-        ],
-        "schedule": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1263359478328197173",
-            "dynamicId": "1263359478328197173",
-            "excerpt": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/7ff3e1c3f490d0adf5e977b31d5e162a2018113152.jpg"
-          }
-        ]
-      }
+      "text": "10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1263359478328197173",
+          "summary": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/7ff3e1c3f490d0adf5e977b31d5e162a2018113152.jpg",
+          "summary": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。"
+        }
+      ],
+      "notes": [
+        "内容标注：weekly-schedule"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_887803ae-02ca-598b-b19a-b1c4fd4acc96",
       "date": "2026-10-27",
-      "kind": "announcement",
       "title": "柚恩2D直播提前至18:30通知",
-      "text": "因身体略微不适需早些休息，10月27日直播由周表19:30提前至18:30。",
+      "kind": "announcement",
       "publishedAt": "2026-10-27T09:55:04.000Z",
-      "occurrence": "announced",
+      "text": "因身体略微不适需早些休息，10月27日直播由周表19:30提前至18:30。",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
       "creditedMembers": [
         "youen"
       ],
-      "evidence": {
-        "announcement": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1263822061370867717",
-            "dynamicId": "1263822061370867717",
-            "excerpt": "柚恩说明身体略微不适，提前一个小时开始；预约明确10-27 18:30，标题“新三完结倒计时”。"
-          },
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1263359478328197173",
-            "dynamicId": "1263359478328197173",
-            "excerpt": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/7ff3e1c3f490d0adf5e977b31d5e162a2018113152.jpg"
-          }
-        ]
-      }
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1263822061370867717",
+          "summary": "柚恩说明身体略微不适，提前一个小时开始；预约明确10-27 18:30，标题“新三完结倒计时”。"
+        },
+        {
+          "url": "https://t.bilibili.com/1263359478328197173",
+          "summary": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/7ff3e1c3f490d0adf5e977b31d5e162a2018113152.jpg",
+          "summary": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_9d1eb0b1-6854-5ad3-9fb0-018f4b293bf4",
       "date": "2026-10-26",
-      "kind": "announcement",
       "title": "露早纠正10月26日直播预告时间",
-      "text": "10月26日晚19:30，10月27日中午12:00；纠正此前记错时间的预告，与官方周表一致。",
+      "kind": "announcement",
       "publishedAt": "2026-10-25T23:27:15.000Z",
-      "occurrence": "announced",
+      "text": "10月26日晚19:30，10月27日中午12:00；纠正此前记错时间的预告，与官方周表一致。",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
       "creditedMembers": [
         "luzao"
       ],
-      "evidence": {
-        "announcement": [
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1263289189068177408",
-            "dynamicId": "1263289189068177408",
-            "excerpt": "露早纠正先前预告记错时间：今天10月26日为晚上19:30，10月27日才是中午12点。"
-          },
-          {
-            "kind": "bilibili-dynamic",
-            "url": "https://t.bilibili.com/1263359478328197173",
-            "dynamicId": "1263359478328197173",
-            "excerpt": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。",
-            "imageUrl": "https://i0.hdslb.com/bfs/new_dyn/7ff3e1c3f490d0adf5e977b31d5e162a2018113152.jpg"
-          }
-        ]
-      },
-      "note": "纠正口头预告，不另造与官方周表相反的改期或实际场次。"
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1263289189068177408",
+          "summary": "露早纠正先前预告记错时间：今天10月26日为晚上19:30，10月27日才是中午12点。"
+        },
+        {
+          "url": "https://t.bilibili.com/1263359478328197173",
+          "summary": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/7ff3e1c3f490d0adf5e977b31d5e162a2018113152.jpg",
+          "summary": "按当前周表原图：10.26露早2D19:30；10.27露早2D12:00、柚恩2D19:30；10.28露早3D19:00、柚恩3D20:50；10.29柚恩&露早双人3D19:00（柚恩直播间）；10.30休息；10.31训练时间；11.01柚恩电台19:30。"
+        }
+      ],
+      "notes": [
+        "纠正口头预告，不另造与官方周表相反的改期或实际场次。"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     }
   ]
 }

@@ -1,1341 +1,1605 @@
 {
-  "timeZone": "Asia/Shanghai",
   "events": [
     {
       "id": "evt_fee5dbc0-caa6-4986-83a2-8c8f210c2597",
       "date": "2026-07-01",
-      "kind": "livestream",
       "title": "我”相信“的那些事",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1bFTB6GEeS",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1bFTB6GEeS"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1bFTB6GEeS",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1bFTB6GEeS"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1bFTB6GEeS"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_ea5bdd16-a110-41ac-b30f-e42ff4594477",
       "date": "2026-07-01",
-      "kind": "livestream",
       "title": "哎呀嘛真香",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1pSTi6cEfX",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1pSTi6cEfX"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1pSTi6cEfX",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1pSTi6cEfX"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1pSTi6cEfX"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_51d3458b-1f28-4e49-a858-bd1f98f29054",
       "date": "2026-07-01",
-      "kind": "publication",
-      "subtype": "music-video",
       "title": "虚拟群星大联合！共唱《一话一世界》！谁不说咱家乡好！一起迈向未来！",
-      "text": "这一次我们再度联合！歌唱自己所热爱的地方和生活！\n原曲：BV1Vs411H7JH\n改编版本：BV1Ls411u7vz\n参演嘉宾：联合投稿全员！\n歌词改编/策划/制作：哎咿多工作室",
+      "kind": "publication",
       "publishedAt": "2026-07-01T10:00:00.000Z",
-      "occurrence": "published",
+      "text": "这一次我们再度联合！歌唱自己所热爱的地方和生活！\n原曲：BV1Vs411H7JH\n改编版本：BV1Ls411u7vz\n参演嘉宾：联合投稿全员！\n歌词改编/策划/制作：哎咿多工作室",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_9d281de5-f7b6-4835-aa32-9459cbd9bcec"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1pTTi6fExK",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1pTTi6fExK]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1pTTi6fExK]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-07-01T10:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1pTTi6fExK]",
-            "sourceField": "title",
-            "excerpt": "虚拟群星大联合！共唱《一话一世界》！谁不说咱家乡好！一起迈向未来！"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1pTTi6fExK]",
-            "sourceField": "title",
-            "excerpt": "虚拟群星大联合！共唱《一话一世界》！谁不说咱家乡好！一起迈向未来！"
-          }
-        ]
-      },
-      "note": "确认视频发布与曲目；未明确的演出日期及逐曲成员留空，不从联合投稿目录推导成员或建立直播表演。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1pTTi6fExK"
+        }
+      ],
+      "notes": [
+        "确认视频发布与曲目；未明确的演出日期及逐曲成员留空，不从联合投稿目录推导成员或建立直播表演。",
+        "内容标注：music-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_08d4c501-2692-4df8-9b8b-d938efe69b8f",
       "date": "2026-07-02",
-      "kind": "livestream",
       "title": "芣想讓沵①個亽孤獨",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1xbTE6DEfn",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1xbTE6DEfn"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1xbTE6DEfn",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1xbTE6DEfn"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1xbTE6DEfn"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_eb7938cb-1764-4517-974c-8467681f3044",
       "date": "2026-07-03",
-      "kind": "livestream",
       "title": "御姐来了，",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1LUTt6fESy",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1LUTt6fESy"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV13VTZ6NECa",
-          "relation": "alternate-version"
+          "partNumbers": [],
+          "role": "alternate-version",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1LUTt6fESy",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1LUTt6fESy"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV13VTZ6NECa",
-            "locator": "BV13VTZ6NECa",
-            "excerpt": "【EOE】露早2D 2026.07.03 萌妹来了，【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1LUTt6fESy"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV13VTZ6NECa",
+          "summary": "【EOE】露早2D 2026.07.03 萌妹来了，【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_6bf8e33b-d24c-4dc8-beda-4ecad85d0325",
       "date": "2026-07-04",
-      "kind": "livestream",
       "title": "列位诸公，今天吃新三",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "series": "看新三国",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV13nMP69E11",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV13nMP69E11"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV13nMP69E11",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV13nMP69E11"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "看新三国"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV13nMP69E11"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_55f0a38e-ecf3-4008-81c7-5588f4e6ae40",
       "date": "2026-07-05",
-      "kind": "livestream",
       "title": "来了，",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1APT16XEEe",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1APT16XEEe"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1APT16XEEe",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1APT16XEEe"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1APT16XEEe"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_010e0d20-964d-493f-8b25-626a488363e5",
       "date": "2026-07-06",
-      "kind": "livestream",
       "title": "萌妹玩游戏39",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "2d",
+      "series": "萌妹玩游戏",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1LoTR6MESv",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1LoTR6MESv"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1LoTR6MESv",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1LoTR6MESv"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "萌妹玩游戏"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1LoTR6MESv"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_74559b85-53e0-4bf5-bbf9-ad4c6db21f9f",
       "date": "2026-07-08",
-      "kind": "livestream",
       "title": "兔子狗饲养指南",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1EPMV64Ev1",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1EPMV64Ev1"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1EPMV64Ev1",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1EPMV64Ev1"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1EPMV64Ev1"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_9fb0e8f7-5058-4cfb-9cae-de8e9bcdb88d",
       "date": "2026-07-08",
-      "kind": "livestream",
       "title": "久违的军训",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1aRM36CE4S",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1aRM36CE4S"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1aRM36CE4S",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1aRM36CE4S"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1aRM36CE4S"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_8c3d90fd-041a-473e-bfac-ee177dcac7c3",
       "date": "2026-07-09",
-      "kind": "livestream",
       "title": "解压大分享",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1VUMn6zEHs",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1VUMn6zEHs"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1VUMn6zEHs",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1VUMn6zEHs"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1VUMn6zEHs"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_0caa3788-d520-4032-8ccb-b5ea20b2e876",
       "date": "2026-07-09",
-      "kind": "announcement",
-      "subtype": "promotional-images",
       "title": "露早与柚恩《冰火歌会·夏日启航》角色图发布",
+      "kind": "announcement",
       "publishedAt": "2026-07-09T03:17:43.000Z",
-      "occurrence": "announced",
       "text": "两图分别署名露早GOGO、柚恩不加糖，标注冰火歌会·夏日启航及2026。",
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-02-july-2026-dynamic-details.json",
-            "locator": "1222900295850262584"
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [
+        {
+          "kind": "related",
+          "target": {
+            "kind": "event",
+            "id": "evt_c929172f-96d5-46dc-b699-dd48d8fe77c2"
           }
-        ],
-        "text": [
-          {
-            "file": "../source/july-2026/1222900295850262584-1.png",
-            "locator": "露早GOGO；冰火歌会·夏日启航；2026"
-          },
-          {
-            "file": "../source/july-2026/1222900295850262584-2.png",
-            "locator": "柚恩不加糖；冰火歌会·夏日启航；2026"
-          }
-        ],
-        "relatedEventId": [
-          {
-            "file": "../source/august-2026/1234904939893882920.png",
-            "locator": "2026年8/23 19:00；冰火歌会；演出嘉宾柚恩不加糖"
-          },
-          {
-            "file": "../source/august-2026/1234905459560808450.png",
-            "locator": "2026年8/23 19:00；冰火歌会；演出嘉宾露早GOGO"
-          },
-          {
-            "file": "events-2026-08.json",
-            "locator": "evt_c929172f-96d5-46dc-b699-dd48d8fe77c2"
-          }
-        ]
-      },
-      "note": "7/9图未给日期；8/10官方嘉宾海报使用同角色图并明确8/23，关联后续海报公告，不据角色图认定实际表演或衣装首发。",
-      "relatedEventId": "evt_c929172f-96d5-46dc-b699-dd48d8fe77c2"
+        }
+      ],
+      "assets": [],
+      "recordings": [],
+      "sources": [],
+      "notes": [
+        "7/9图未给日期；8/10官方嘉宾海报使用同角色图并明确8/23，关联后续海报公告，不据角色图认定实际表演或衣装首发。",
+        "内容标注：promotional-images"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_55ead9cf-b294-4638-9697-80b357d53def",
       "date": "2026-07-10",
-      "kind": "livestream",
       "title": "聊天品新三",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "talk",
+      "dimension": "2d",
+      "series": "看新三国",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1RpNH6vEeK",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1RpNH6vEeK"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1RpNH6vEeK",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1RpNH6vEeK"
-          }
-        ]
-      },
-      "contentType": "talk",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "看新三国"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1RpNH6vEeK"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_d1b91b09-871a-4806-9bc8-9f388f962fc5",
       "date": "2026-07-11",
-      "kind": "livestream",
       "title": "萌妹玩游戏40",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "2d",
+      "series": "萌妹玩游戏",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV12NNA6NESj",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV12NNA6NESj"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV12NNA6NESj",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV12NNA6NESj"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "萌妹玩游戏"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV12NNA6NESj"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_86c8c39c-40a2-46f9-b63e-072e0df700bd",
       "date": "2026-07-11",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "头好痒，要长斜刘海了",
-      "text": "有、痛の晚安曲，請聆聽⋯⋯\n\n原曲：《玫瑰花的葬礼》-许嵩",
+      "kind": "publication",
       "publishedAt": "2026-07-11T15:35:27.000Z",
-      "occurrence": "published",
+      "text": "有、痛の晚安曲，請聆聽⋯⋯\n\n原曲：《玫瑰花的葬礼》-许嵩",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_bef0da27-cadd-4a13-b91c-1cfe0c93aa55"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1NMNA6AEc4",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-18-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1NMNA6AEc4]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-18-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1NMNA6AEc4]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-07-11T15:35:27.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-18-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1NMNA6AEc4]",
-            "sourceField": "title",
-            "excerpt": "头好痒，要长斜刘海了"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-18-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1NMNA6AEc4]",
-            "sourceField": "description",
-            "excerpt": "有、痛の晚安曲，請聆聽⋯⋯\n\n原曲：《玫瑰花的葬礼》-许嵩"
-          }
-        ]
-      },
-      "note": "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1NMNA6AEc4"
+        }
+      ],
+      "notes": [
+        "依据完整投稿详情确认发布与作品；未推断演出日期、场次或未明确署名的成员。简介中的嘉宾与表演分工保留原文。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_6511836b-ca60-4b96-80cc-0cf7024fdb7a",
       "date": "2026-07-12",
-      "kind": "livestream",
       "title": "3D麦轻语聊天室",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "talk",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV15wN36uEQ7",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV15wN36uEQ7"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV15wN36uEQ7",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV15wN36uEQ7"
-          }
-        ]
-      },
-      "contentType": "talk",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV15wN36uEQ7"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_98a4f357-1e11-4ef5-a2e7-13307aa74aa7",
       "date": "2026-07-14",
-      "kind": "livestream",
       "title": "再三聋",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1KRN861Etn",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1KRN861Etn"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1KRN861Etn",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1KRN861Etn"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1KRN861Etn"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_3b29eced-8bdc-43a7-8df4-e3f88a5a962e",
       "date": "2026-07-15",
-      "kind": "livestream",
       "title": "我做过的笨蛋事",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1PLNz6PEJH",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1PLNz6PEJH"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1PLNz6PEJH",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1PLNz6PEJH"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1PLNz6PEJH"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_a6170878-ecff-4e0d-a011-01dfc74c267f",
       "date": "2026-07-15",
-      "kind": "livestream",
       "title": "祝你永不断电",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1bPNz6rEoF",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1bPNz6rEoF"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1bPNz6rEoF",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1bPNz6rEoF"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1bPNz6rEoF"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_c9bef74e-583c-48a7-bf03-f6093fa3fd8f",
       "date": "2026-07-16",
-      "kind": "livestream",
       "title": "“奇怪但舒服”的搭配",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1rPK56tEJF",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1rPK56tEJF"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1rPK56tEJF",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1rPK56tEJF"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1rPK56tEJF"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_7bea509b-d882-469e-a880-bfa5ba6596d2",
       "date": "2026-07-17",
-      "kind": "livestream",
       "title": "女生玩游戏41",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "2d",
+      "series": "萌妹玩游戏",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1wbNR66EFy",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1wbNR66EFy"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1hZNo6tExx",
-          "relation": "alternate-version"
+          "partNumbers": [],
+          "role": "alternate-version",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1wbNR66EFy",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1wbNR66EFy"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1hZNo6tExx",
-            "locator": "BV1hZNo6tExx",
-            "excerpt": "【EOE】露早2D 2026.07.17 萌妹玩游戏41【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "萌妹玩游戏"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1wbNR66EFy"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1hZNo6tExx",
+          "summary": "【EOE】露早2D 2026.07.17 萌妹玩游戏41【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_75724267-de77-46dc-a830-687979e131e3",
       "date": "2026-07-18",
-      "kind": "livestream",
       "title": "晚上好电台",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1z9KN6AELF",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1z9KN6AELF"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1z9KN6AELF",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1z9KN6AELF"
-          }
-        ]
-      },
-      "contentType": "radio",
-      "dimension": "1d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1z9KN6AELF"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_5432fae9-e527-45d6-a4dd-5357572be907",
       "date": "2026-07-21",
-      "kind": "livestream",
       "title": "柚看新三",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "series": "看新三国",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV166KY61EYA",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV166KY61EYA"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV166KY61EYA",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV166KY61EYA"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "看新三国"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV166KY61EYA"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_3d85ad3a-f490-4fdb-b87b-8054c677c288",
       "date": "2026-07-22",
-      "kind": "livestream",
       "title": "华语经典KTV",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "singing",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1aQgy6kEyn",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1aQgy6kEyn"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1Lgg26EEeo",
-          "relation": "same-event-alternate-version",
-          "source": {
-            "file": "../evidence/round-02-july-2026-ktv-details.json",
-            "locator": "BV1Lgg26EEeo"
-          }
+          "partNumbers": [],
+          "role": "same-event-alternate-version",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1aQgy6kEyn",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1aQgy6kEyn"
-          },
-          {
-            "file": "../evidence/round-02-july-2026-ktv-details.json",
-            "locator": "BV1Lgg26EEeo"
-          }
-        ]
-      },
-      "contentType": "singing",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1aQgy6kEyn"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1Lgg26EEeo"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_935bcc7e-3add-4d56-9927-a8a1313219f1",
       "date": "2026-07-22",
-      "kind": "livestream",
       "title": "便利店兼职中",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1Vygk6zEvv",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1Vygk6zEvv"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1Vygk6zEvv",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1Vygk6zEvv"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Vygk6zEvv"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_b7b4c36a-7563-40c1-a1e9-9c9393d7989c",
       "date": "2026-07-23",
-      "kind": "livestream",
       "title": "演技的神……吗？",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV17tg46NEdV",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV17tg46NEdV"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV17tg46NEdV",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV17tg46NEdV"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV17tg46NEdV"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_64c48292-3cfe-40a0-b6e0-c52c90c31c2a",
       "date": "2026-07-24",
-      "kind": "livestream",
       "title": "四周年，看看清冷美人来时路",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "celebration",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1jpge6QE2d",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1jpge6QE2d"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1jpge6QE2d",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1jpge6QE2d"
-          }
-        ]
-      },
-      "contentType": "celebration",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1jpge6QE2d"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_98d7b7fe-d82e-40d8-8443-8776518cb374",
       "date": "2026-07-26",
-      "kind": "livestream",
       "title": "继续棉花糖",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1WkgX6DEYZ",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1WkgX6DEYZ"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1WkgX6DEYZ",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1WkgX6DEYZ"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1WkgX6DEYZ"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_9e6a23b5-baa1-4c9d-9c08-47bd07762af5",
       "date": "2026-07-27",
-      "kind": "livestream",
       "title": "上午好",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": true,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        10
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1WGgf6vEbH",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1WGgf6vEbH"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1WGgf6vEbH",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1WGgf6vEbH"
-          }
-        ]
-      },
-      "contentType": "radio",
-      "dimension": "1d",
-      "isUnannounced": true
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1WGgf6vEbH"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        10
+      ]
     },
     {
       "id": "evt_01a61794-772f-4cd5-8ffa-fa04d087d9a5",
       "date": "2026-07-28",
-      "kind": "announcement",
-      "subtype": "activity-pause",
       "title": "露早暂停直播与状态调整通知",
-      "text": "亲爱的GOGO队们，大家好，临时插播一条消息。\n  经过与@露早GOGO 充分的沟通以及对当前状态的判断，我们决定接下来露早将休息一段时间，暂停这段时间的直播进行个人状态的调整。此决定经过了各方面考虑，最主要也是希望通过集中的休息与调整，帮助她找回更好的直播状态。\n  深知此消息对于喜爱露早的GOGO队们来说会有担心与不安，但请大家放心！露早会在调整好状态后重新与大家见面，和大家的约定依然有效，部分策划活动将在休假结束后与大家见面！请大家稍作等待，让我们的汪汪殿下稍作休息，满血复活～\n  希望大家不要对此次休假做出过度解析与误解，关于@露早GOGO 的回归日程将通过官方动态通知～我们静候重逢吧！",
+      "kind": "announcement",
       "publishedAt": "2026-07-28T09:20:26.000Z",
-      "occurrence": "announced",
-      "announcedActivity": {
-        "members": [
-          "luzao"
-        ],
-        "status": "livestream-paused",
-        "returnSchedule": "to-be-announced"
-      },
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-02-july-2026-dynamic-details.json",
-            "locator": "1230044385567047701"
-          }
-        ],
-        "text": [
-          {
-            "file": "../evidence/round-02-july-2026-dynamic-details.json",
-            "locator": "1230044385567047701"
-          }
-        ]
-      },
-      "note": "公告称休息调整个人状态、部分策划活动休假后再见，回归日程通过官方动态通知。未给具体恢复日期，不推测疾病、离职或其他原因，也不将此前周表改成取消。"
+      "text": "亲爱的GOGO队们，大家好，临时插播一条消息。\n  经过与@露早GOGO 充分的沟通以及对当前状态的判断，我们决定接下来露早将休息一段时间，暂停这段时间的直播进行个人状态的调整。此决定经过了各方面考虑，最主要也是希望通过集中的休息与调整，帮助她找回更好的直播状态。\n  深知此消息对于喜爱露早的GOGO队们来说会有担心与不安，但请大家放心！露早会在调整好状态后重新与大家见面，和大家的约定依然有效，部分策划活动将在休假结束后与大家见面！请大家稍作等待，让我们的汪汪殿下稍作休息，满血复活～\n  希望大家不要对此次休假做出过度解析与误解，关于@露早GOGO 的回归日程将通过官方动态通知～我们静候重逢吧！",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [],
+      "sources": [],
+      "notes": [
+        "公告称休息调整个人状态、部分策划活动休假后再见，回归日程通过官方动态通知。未给具体恢复日期，不推测疾病、离职或其他原因，也不将此前周表改成取消。",
+        "公布活动：members：luzao；status：livestream-paused；returnSchedule：to-be-announced",
+        "内容标注：activity-pause"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_839e7247-c4d8-4167-a8d1-2cd97f9406da",
       "date": "2026-07-29",
-      "kind": "livestream",
       "title": "柚恩蜜生日party",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "celebration",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1v5316SEgm",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1v5316SEgm"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1v5316SEgm",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1v5316SEgm"
-          }
-        ]
-      },
-      "contentType": "celebration",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1v5316SEgm"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_fe99b74d-5e3f-482e-b928-88cf6751a705",
       "date": "2026-07-29",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "与你们乘风这一程，纪念每一次成长",
-      "text": "原曲：《乘风》- 乘风破浪的姐姐第三季\n表演：柚柚宇宙全员",
+      "kind": "publication",
       "publishedAt": "2026-07-29T13:33:15.000Z",
-      "occurrence": "published",
+      "text": "原曲：《乘风》- 乘风破浪的姐姐第三季\n表演：柚柚宇宙全员",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_5e6b0f17-287b-4f30-bb78-0c4eff2f405d"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1BM3169EJG",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1BM3169EJG]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1BM3169EJG]",
-            "sourceField": "publishedAt",
-            "excerpt": "2026-07-29T13:33:15.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1BM3169EJG]",
-            "sourceField": "title",
-            "excerpt": "与你们乘风这一程，纪念每一次成长"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1795147802,page=1].items[bvid=BV1BM3169EJG]",
-            "sourceField": "description",
-            "excerpt": "原曲：《乘风》- 乘风破浪的姐姐第三季\n表演：柚柚宇宙全员"
-          }
-        ]
-      },
-      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1BM3169EJG"
+        }
+      ],
+      "notes": [
+        "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_87de68fd-ac49-4832-bced-376588c8795d",
       "date": "2026-07-30",
-      "kind": "livestream",
       "title": "少女还债中",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1PU3b6pEGG",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1PU3b6pEGG"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1PU3b6pEGG",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1PU3b6pEGG"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1PU3b6pEGG"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_50b9a046-1138-490f-95ec-b8d2df0d438f",
       "date": "2026-07-31",
-      "kind": "livestream",
       "title": "少女观赏新三中",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "series": "看新三国",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV19dGK6GEtH",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV19dGK6GEtH"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV19dGK6GEtH",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV19dGK6GEtH"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false,
-      "series": "看新三国"
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV19dGK6GEtH"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_6e298819-09d7-4658-91be-a5533aa0c9ec",
       "date": "2026-07-19",
-      "kind": "livestream",
       "title": "棉花糖！",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "luzao"
-      ],
-      "titleHours": [
-        19
-      ],
-      "recordings": [
-        {
-          "bvid": "BV1JnKC6gEmi",
-          "relation": "primary-evidence",
-          "source": {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1JnKC6gEmi",
-            "locator": "BV1JnKC6gEmi",
-            "excerpt": "【直播回放】【2D】棉花糖！ 2026年07月19日19点场"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1JnKC6gEmi",
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1JnKC6gEmi",
-            "locator": "BV1JnKC6gEmi",
-            "excerpt": "【直播回放】【2D】棉花糖！ 2026年07月19日19点场"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1cgKz6aE2P",
-            "locator": "BV1cgKz6aE2P",
-            "excerpt": "【直播回放】【2D】棉花糖！ 2026年07月19日19点场"
-          }
-        ],
-        "schedule": [
-          {
-            "dynamicId": "1224395535001059331",
-            "image": "../source/july-2026/1224395535001059331.png"
-          }
-        ]
-      },
+      "kind": "livestream",
       "contentType": "unknown",
       "dimension": "2d",
       "isUnannounced": false,
+      "plannedTime": "19:30",
+      "recordingNamedMembers": [
+        "luzao"
+      ],
       "plannedMembers": [
         "luzao"
       ],
-      "plannedTime": "19:30"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1JnKC6gEmi",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1JnKC6gEmi",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1JnKC6gEmi",
+          "summary": "【直播回放】【2D】棉花糖！ 2026年07月19日19点场"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1cgKz6aE2P",
+          "summary": "【直播回放】【2D】棉花糖！ 2026年07月19日19点场"
+        },
+        {
+          "url": "https://t.bilibili.com/1224395535001059331"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     }
   ]
 }

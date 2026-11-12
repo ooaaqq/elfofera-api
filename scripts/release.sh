@@ -3,22 +3,17 @@ set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 version="${1:?Usage: scripts/release.sh <version>}"
 [[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
-actual="$(python3 -c 'import tomllib; d=tomllib.load(open("Cargo.toml","rb")); print(d["package"]["version"])')"
-[[ "$actual" == "$version" ]] || {
-  echo "Cargo version $actual differs from release $version" >&2
-  exit 1
-}
-bun -e 'import fs from "node:fs"; if(JSON.parse(fs.readFileSync("package.json")).version !== process.argv[1]) process.exit(1)' "$version"
-cargo build --locked --release --workspace
+cargo build --locked --release --target x86_64-unknown-linux-gnu --target-dir target
 stage="$(mktemp -d)"
 trap 'rm -rf "$stage"' EXIT
 mkdir -p "$stage/bin" dist
-install -m755 target/release/elfofera-api "$stage/bin/"
+install -m755 target/x86_64-unknown-linux-gnu/release/elfofera-api "$stage/bin/"
 "$stage/bin/elfofera-api" --version | grep -Fx "elfofera-api $version"
-# Reuse the data and contracts produced by bun run check.
-mkdir -p "$stage/share/elfofera-api/contract"
-cp dist/archive.json "$stage/share/elfofera-api/"
-cp dist/tools.json dist/openapi.json dist/members.json "$stage/share/elfofera-api/contract/"
+# Generate the archive and contracts with the exact binary shipped in this package.
+content="$stage/share/elfofera-api"
+mkdir -p "$content/contract"
+"$stage/bin/elfofera-api" build --output "$content"
+mv "$content/tools.json" "$content/openapi.json" "$content/members.json" "$content/contract/"
 printf '%s\n' "$version" >"$stage/VERSION"
 archive="elfofera-api-$version-x86_64-linux.tar.gz"
 tar -C "$stage" -czf "dist/$archive" .

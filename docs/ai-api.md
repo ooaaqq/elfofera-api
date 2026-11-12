@@ -19,6 +19,8 @@ GET /v1/timeline?from=2026-10-09&through=2026-10-09&member=luzao&include=events,
 范围内空日期也会返回。事件附带已关联表演；未关联事件或没有请求事件时，表演放在
 当天的顶层 `performances`。录播保留 BV、直接观看链接和可靠关联的事件 ID。
 
+事件的 `basis` 表示采用的发生依据（录播、投稿、官方文字、切片或已确认报道），不再混入计划和取消状态。仅有预告或已取消的安排在计划及变更中返回。
+
 事件的 `series` 返回已确认的节目系列名称，例如 `"萌妹玩游戏"`；没有系列关联时为 `null`。系列不替代单场标题或 `contentType`，同一系列可以包含游戏、杂谈和混合内容。
 
 事件的 `guests` 返回已确认的外部嘉宾账号列表，每项含 `accountId`、`name`、`url`；没有已登记嘉宾时返回空数组。嘉宾与 EOE 成员分开记录，不依据联动参与者名单推断逐曲表演者。
@@ -31,14 +33,14 @@ GET /v1/timeline?from=2026-10-09&through=2026-10-09&member=luzao&include=events,
 变更的 `id` 是持久身份，跨日展示或资料排序变化不会改变。`impact` 明确区分
 `dates`（指定日期集合）、`range`（包含两端的影响范围）、`ongoing`（结束未知，仅在起始日展示）
 和 `undated`（影响日期未定，在 `announcedOn` 展示）。不会把未知结束日期展开到未来。
-变更返回 `before`、`after` 的已确认安排、`eventIds`、`announcementEventIds`、`relatedPlanDates`、
+变更返回 `before`、`after` 的已确认安排、`eventIds`、`announcementEventIds`、`planIds`、`planEntryIds`、
 `replacesChangeIds`、`notes` 和结构化 `sources`（`url` 及可选 `summary`）。公告与被影响事件分别关联；
 部分安排未知时保留空值，不以实际事件回填公告当时尚未公布的信息。
 
 `member` 支持 `luzao`（露早）、`youen`（柚恩）、`yumo`（虞莫）、`waner`（莞儿）和
 `minuo`（米诺）。事件按录播明确提及的成员、开播成员 `hostMember` 或计划成员筛选；这些身份在返回值中
 分别保留。表演只按明确的 `creditedMembers` 筛选，不从整场参与者或上传者推断
-演唱身份。计划仅保留匹配的场次，录播仅保留有匹配事件关联的记录。成员筛选可能
+演唱身份。计划的 `entries` 保留持久场次 ID、`kind` 和结构化 `arrangement`；成员筛选仅保留匹配的场次，录播仅保留有匹配事件关联的记录。成员筛选可能
 排除身份尚不明确的资料。
 
 ## 歌曲搜索
@@ -94,7 +96,7 @@ HTTP 可选参数在工具中显式填 `null`；`null` 不发送为查询参数�
 ## 数据维护与检查
 
 ```sh
-bun run check
+./scripts/check.sh
 ```
 
 检查整个确认目录的结构、引用、日期聚合、署名筛选、来源、搜索和历史分页。

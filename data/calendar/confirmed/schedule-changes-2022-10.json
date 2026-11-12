@@ -40,7 +40,6 @@
       ],
       "eventIds": [],
       "announcementEventIds": [],
-      "relatedPlanDates": [],
       "notes": [
         "前周跨月安排只有国庆祝语，假期表后明确休息；保留两版。"
       ],
@@ -51,7 +50,9 @@
         {
           "url": "https://t.bilibili.com/711725915628896276"
         }
-      ]
+      ],
+      "planIds": [],
+      "planEntryIds": []
     },
     {
       "id": "chg_144f4877-3017-4f6e-aa86-91883c6f61d4",
@@ -117,7 +118,6 @@
       ],
       "eventIds": [],
       "announcementEventIds": [],
-      "relatedPlanDates": [],
       "notes": [
         "原图无时刻及成员，保留活动名称，不补造团播或19:00",
         "前周跨月表列19:00冰火秋日游，后发假期表只给活动名；保留原时刻来源，未据缺字推取消或改时。"
@@ -129,7 +129,9 @@
         {
           "url": "https://t.bilibili.com/711725915628896276"
         }
-      ]
+      ],
+      "planIds": [],
+      "planEntryIds": []
     },
     {
       "id": "chg_926d0d96-dd61-4f04-b22a-4a65e27b4098",
@@ -168,18 +170,19 @@
         }
       ],
       "after": [],
-      "eventIds": [
-        "evt_fbdb635a-e174-4ae7-bd4a-41a93633346d"
-      ],
+      "eventIds": [],
       "announcementEventIds": [
         "evt_c51589de-af47-4e57-a397-7e7ef186a461"
       ],
-      "relatedPlanDates": [],
       "notes": [
         "原虞莫19:00计划保存，后续公告取消；不以同日柚恩直播替代或合并。"
       ],
       "sources": [],
-      "announcedOn": "2022-10-05"
+      "announcedOn": "2022-10-05",
+      "planIds": [],
+      "planEntryIds": [
+        "plan_entry_ef213ea0-780b-4f98-afb1-ec48bc00a065"
+      ]
     },
     {
       "id": "chg_f224170f-04dc-4b28-89f1-1f835d49feeb",
@@ -255,7 +258,6 @@
       "announcementEventIds": [
         "evt_40651f02-87b6-4300-94f5-5a677eafc289"
       ],
-      "relatedPlanDates": [],
       "notes": [
         "原露早19:00、莞儿20:30计划保留；10/5公告将莞儿调19:00、露早调20:30电台，不覆盖原图。"
       ],
@@ -267,7 +269,9 @@
           "url": "https://t.bilibili.com/713508524625231924"
         }
       ],
-      "announcedOn": "2022-10-05"
+      "announcedOn": "2022-10-05",
+      "planIds": [],
+      "planEntryIds": []
     }
   ]
 }

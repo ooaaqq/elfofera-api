@@ -82,16 +82,6 @@ fn respond(app: &App, index: usize, id: Option<String>, query: Option<String>) -
             }),
         )
             .into_response(),
-        Err(error) if error.downcast_ref::<serde_json::Error>().is_some() => {
-            tracing::error!(%error,"response serialization failed");
-            (
-                StatusCode::INTERNAL_SERVER_ERROR,
-                Json(ErrorBody {
-                    error: "internal_server_error".to_owned(),
-                }),
-            )
-                .into_response()
-        }
         Err(error) => (
             StatusCode::BAD_REQUEST,
             Json(ErrorBody {

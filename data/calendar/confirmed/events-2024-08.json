@@ -1,2711 +1,3066 @@
 {
-  "timeZone": "Asia/Shanghai",
   "events": [
     {
       "id": "evt_c7c7f5a0-2fc5-4134-b5b9-558bc2b81a4c",
       "date": "2024-08-01",
-      "kind": "livestream",
       "title": "雄鹰般的女人开播了",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "yumo"
       ],
-      "titleHours": [
-        15
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1fy411e7w3",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1fy411e7w3"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1fy411e7w3",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1fy411e7w3"
-          }
-        ]
-      },
-      "contentType": "radio",
-      "dimension": "1d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1fy411e7w3"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        15
+      ]
     },
     {
       "id": "evt_525251e5-06f7-418b-86df-236e6e559766",
       "date": "2024-08-01",
-      "kind": "announcement",
-      "subtype": "schedule-change",
       "title": "8月2日露早、柚恩与虞莫直播取消",
-      "text": "亲爱的EOES们，很抱歉通知，由于身体原因，原定周五@露早GOGO ，@柚恩不加糖 ，@虞莫MOMO 的直播取消，等身体康复再给大家带来精彩直播内容！期望大家的谅解，谢谢大家的等待！",
+      "kind": "announcement",
       "publishedAt": "2024-08-01T04:10:27.000Z",
-      "occurrence": "announced",
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-02-july-schedule-notice-details.json",
-            "locator": "960556666831503378"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-02-july-schedule-notice-details.json",
-            "locator": "960556666831503378"
-          }
-        ],
-        "text": [
-          {
-            "file": "../evidence/round-02-july-schedule-notice-details.json",
-            "locator": "960556666831503378"
-          }
-        ]
-      }
+      "text": "亲爱的EOES们，很抱歉通知，由于身体原因，原定周五@露早GOGO ，@柚恩不加糖 ，@虞莫MOMO 的直播取消，等身体康复再给大家带来精彩直播内容！期望大家的谅解，谢谢大家的等待！",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [],
+      "sources": [],
+      "notes": [
+        "内容标注：schedule-change"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_94106496-016a-45b1-bec4-e451e8ad8716",
       "date": "2024-08-02",
-      "kind": "livestream",
       "title": "哈哈又是病娇限定",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        12
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1Yn4y1f7BS",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1Yn4y1f7BS"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1Yn4y1f7BS",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1Yn4y1f7BS"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Yn4y1f7BS"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        12
+      ]
     },
     {
       "id": "evt_ea3bc54f-912e-413a-8f80-74fe55a74038",
       "date": "2024-08-02",
-      "kind": "publication",
-      "subtype": "music-video",
       "title": "可是这一刻！鲜活的想流泪【Girls never die】",
-      "text": "-\n一首很喜欢的舞蹈，跟很喜欢的大家跳了，开心！",
+      "kind": "publication",
       "publishedAt": "2024-08-02T09:00:00.000Z",
-      "occurrence": "published",
+      "text": "-\n一首很喜欢的舞蹈，跟很喜欢的大家跳了，开心！",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_2fefd77e-8524-45c0-a85c-d41cdbd4c526"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1jZ421K72L",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-17-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1jZ421K72L]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-17-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1jZ421K72L]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-02T09:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-17-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1jZ421K72L]",
-            "sourceField": "title",
-            "excerpt": "可是这一刻！鲜活的想流泪【Girls never die】"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-17-post-video-details-batch01.json",
-            "locator": "videos[bvid=BV1jZ421K72L]",
-            "sourceField": "title and description",
-            "excerpt": "可是这一刻！鲜活的想流泪【Girls never die】\n-\n一首很喜欢的舞蹈，跟很喜欢的大家跳了，开心！"
-          }
-        ]
-      },
-      "note": "记录歌舞视频发布；未据投稿日期创建直播表演，未从联合投稿账号或通用主页列表展开逐曲成员。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1jZ421K72L"
+        }
+      ],
+      "notes": [
+        "记录歌舞视频发布；未据投稿日期创建直播表演，未从联合投稿账号或通用主页列表展开逐曲成员。",
+        "内容标注：music-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_445551d2-dd7f-4597-9749-b5a10fed4d65",
       "date": "2024-08-03",
-      "kind": "livestream",
       "title": "【绝区零】维多利亚家政主线！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1yT42167ua",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1yT42167ua"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1yT42167ua",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1yT42167ua"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1yT42167ua"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_99a70c14-76ed-4513-b22e-9096e3d2977b",
       "date": "2024-08-04",
-      "kind": "livestream",
       "title": "这合理吗？",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "minuo"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1vM4m1y7sC",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1778026586.json",
-            "locator": "BV1vM4m1y7sC"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1vM4m1y7sC",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1778026586.json",
-            "locator": "BV1vM4m1y7sC"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1vM4m1y7sC"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_1bbaaf79-6974-4b7e-b087-01baa0b6e9b2",
       "date": "2024-08-04",
-      "kind": "livestream",
       "title": "哞哞哞",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao",
         "youen"
       ],
-      "titleHours": [
-        20,
-        21
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV133YcecESX",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV133YcecESX"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1P9iwewEEB",
-          "relation": "same-event-recording",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch15.json",
-            "locator": "sources[3].items[3]"
-          }
+          "partNumbers": [],
+          "role": "same-event-recording",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1X4421Z7sA",
-          "relation": "same-event-recording",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "items[392]"
-          }
+          "partNumbers": [],
+          "role": "same-event-recording",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1ry411e7Fi",
-          "relation": "same-event-recording",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "items[391]"
-          }
+          "partNumbers": [],
+          "role": "same-event-recording",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV133YcecESX",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV133YcecESX"
-          },
-          {
-            "file": "../evidence/round-08-source-directory-batch15.json",
-            "locator": "sources[3].items[3]"
-          },
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "items[391]"
-          },
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "items[392]"
-          }
-        ]
-      },
-      "contentType": "radio",
-      "dimension": "1d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV133YcecESX"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1P9iwewEEB"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1X4421Z7sA"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1ry411e7Fi"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20,
+        21
+      ]
     },
     {
       "id": "evt_97acdeb3-ded6-48e3-99c2-23ae825cd4bf",
       "date": "2024-08-04",
-      "kind": "livestream",
       "title": "绝区零第三章主线",
-      "occurrence": "recording-attested",
-      "formatLabel": "2D",
-      "tags": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-02-august-waner-song-details.json",
-            "locator": "BV14av9e5E4u"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-02-august-waner-song-details.json",
-            "locator": "BV14av9e5E4u"
-          }
-        ],
-        "occurrence": [
-          {
-            "file": "../evidence/round-02-august-waner-song-details.json",
-            "locator": "BV14av9e5E4u"
-          }
-        ],
-        "formatLabel": [
-          {
-            "file": "../evidence/round-02-august-waner-song-details.json",
-            "locator": "BV14av9e5E4u"
-          }
-        ],
-        "recordingNamedMembers": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV14av9e5E4u",
-            "locator": "BV14av9e5E4u",
-            "excerpt": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
-          }
-        ]
-      },
+      "kind": "livestream",
       "contentType": "game",
       "dimension": "2d",
       "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV14av9e5E4u",
-          "role": "performance-excerpt"
+          "partNumbers": [],
+          "role": "performance-excerpt",
+          "notes": []
         }
-      ]
+      ],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV14av9e5E4u",
+          "summary": "已关联本场的明确表演切片署名，证明这些成员实际出现；不表示本场完整参与名单。"
+        }
+      ],
+      "notes": [
+        "形式标注：2D",
+        "标签："
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": []
     },
     {
       "id": "evt_95a159a5-0adf-4139-b0ae-9015aba5afae",
       "date": "2024-08-04",
-      "kind": "announcement",
-      "subtype": "schedule-change",
       "title": "露早8月4日20:40直播改为电台",
-      "text": "亲爱的EOES们，临时插播一条消息，由于@露早GOGO 还未痊愈，原定于今日20:40的3D直播将改为电台形式，待身体康复后再给大家带来更精彩的直播内容！感谢大家的谅解。",
+      "kind": "announcement",
       "publishedAt": "2024-08-04T05:50:29.000Z",
-      "occurrence": "announced",
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-02-august-schedule-notice-details.json",
-            "locator": "961695700795523091"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-02-august-schedule-notice-details.json",
-            "locator": "961695700795523091"
-          }
-        ],
-        "text": [
-          {
-            "file": "../evidence/round-02-august-schedule-notice-details.json",
-            "locator": "961695700795523091"
-          }
-        ]
-      }
+      "text": "亲爱的EOES们，临时插播一条消息，由于@露早GOGO 还未痊愈，原定于今日20:40的3D直播将改为电台形式，待身体康复后再给大家带来更精彩的直播内容！感谢大家的谅解。",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [],
+      "sources": [],
+      "notes": [
+        "内容标注：schedule-change"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_8d7268f2-a1c4-4aec-b29b-7ac6168678a9",
       "date": "2024-08-05",
-      "kind": "livestream",
       "title": "栓在一起！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1yr421M7pN",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1yr421M7pN"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1yr421M7pN",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1yr421M7pN"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1yr421M7pN"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_30e7ba5f-0ba7-43f8-8bad-2717e0bbe63b",
       "date": "2024-08-05",
-      "kind": "livestream",
       "title": "【联动】链在一起！！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1rT42167zC",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1rT42167zC"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1rT42167zC",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1rT42167zC"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1rT42167zC"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_d66063e5-dd59-459f-bb29-81be985eb017",
       "date": "2024-08-07",
-      "kind": "livestream",
       "title": "被窝-离谱网文鉴赏",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen",
         "luzao",
         "yumo"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1wXYsenEyu",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1wXYsenEyu"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1FFa9exEVP",
-          "relation": "same-event-recording",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[6].items[17]"
-          }
+          "partNumbers": [],
+          "role": "same-event-recording",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1wXYsenEyu",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1wXYsenEyu"
-          },
-          {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[6].items[17]"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1wXYsenEyu"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1FFa9exEVP"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_8dcb661f-575f-4144-a753-8686545b9eb1",
       "date": "2024-08-08",
-      "kind": "livestream",
       "title": "突突突",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": true,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        17
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1fz421v7mu",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1fz421v7mu"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1fz421v7mu",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1fz421v7mu"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": true
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1fz421v7mu"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        17
+      ]
     },
     {
       "id": "evt_f2f17844-68d5-4861-a937-6d45b807d865",
       "date": "2024-08-08",
-      "kind": "livestream",
       "title": "您好，需要托尼老师吗",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "yumo"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV14gYbevEHH",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV14gYbevEHH"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV14gYbevEHH",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV14gYbevEHH"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV14gYbevEHH"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_af863791-26eb-40b0-98bd-ceabe92ec34f",
       "date": "2024-08-09",
-      "kind": "livestream",
       "title": "谁还没“装”过了？",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1ST421k7Vn",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1ST421k7Vn"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1ST421k7Vn",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1ST421k7Vn"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ST421k7Vn"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_1ff1996a-69bc-4732-89e0-fd86d9f992e9",
       "date": "2024-08-10",
-      "kind": "livestream",
       "title": "【周六】甜甜的莞",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        16
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV16i42167dW",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV16i42167dW"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1ZUYEeZES8",
-          "relation": "alternate-version"
+          "partNumbers": [],
+          "role": "alternate-version",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV16i42167dW",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV16i42167dW"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1ZUYEeZES8",
-            "locator": "BV1ZUYEeZES8",
-            "excerpt": "【EOE】莞儿L2D 2024.08.10 甜甜的莞【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV16i42167dW"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1ZUYEeZES8",
+          "summary": "【EOE】莞儿L2D 2024.08.10 甜甜的莞【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        16
+      ]
     },
     {
       "id": "evt_2e335e98-0c4a-4bf9-8543-191643b2efb8",
       "date": "2024-08-10",
-      "kind": "livestream",
       "title": "抓住夏天的尾巴~！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "minuo"
       ],
-      "titleHours": [
-        17
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1hb421J7z6",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1778026586.json",
-            "locator": "BV1hb421J7z6"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1hb421J7z6",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1778026586.json",
-            "locator": "BV1hb421J7z6"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1hb421J7z6"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        17
+      ]
     },
     {
       "id": "evt_96200117-7a52-42e2-81f8-2453dbec5d31",
       "date": "2024-08-10",
-      "kind": "livestream",
       "title": "七夕快乐",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "celebration",
+      "dimension": "1d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "yumo"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1CfY7eAEFF",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1CfY7eAEFF"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1CfY7eAEFF",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1CfY7eAEFF"
-          }
-        ]
-      },
-      "contentType": "celebration",
-      "dimension": "1d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1CfY7eAEFF"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_1dfcbb97-460b-4b1e-a402-c604db65a827",
       "date": "2024-08-10",
-      "kind": "livestream",
       "title": "【七夕电台】听海",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "celebration",
+      "dimension": "1d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV18U411U7CU",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV18U411U7CU"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1G1YHetE17",
-          "relation": "alternate-version"
+          "partNumbers": [],
+          "role": "alternate-version",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV18U411U7CU",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV18U411U7CU"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1G1YHetE17",
-            "locator": "BV1G1YHetE17",
-            "excerpt": "【EOE】柚恩 电台 2024.08.10 听海【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
-          }
-        ]
-      },
-      "contentType": "celebration",
-      "dimension": "1d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV18U411U7CU"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1G1YHetE17",
+          "summary": "【EOE】柚恩 电台 2024.08.10 听海【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_c79f9db7-9596-4886-a2c1-d53ee0875ba9",
       "date": "2024-08-11",
-      "kind": "livestream",
       "title": "我回来了！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        21
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1XZ421N7jD",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1XZ421N7jD"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1XZ421N7jD",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1XZ421N7jD"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1XZ421N7jD"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        21
+      ]
     },
     {
       "id": "evt_f2486a61-ff82-45a1-813b-0171e4ebfc23",
       "date": "2024-08-11",
-      "kind": "activity",
       "title": "破次元Live",
-      "occurrence": "recording-attested",
+      "kind": "activity",
+      "plannedTime": "20:00",
       "recordingNamedMembers": [
         "youen"
       ],
-      "recordings": [
-        {
-          "bvid": "BV1cuYRewEwA",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1cuYRewEwA"
-          }
-        },
-        {
-          "bvid": "BV1wPYRevES2",
-          "relation": "same-event-recording",
-          "source": {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1wPYRevES2"
-          }
-        },
-        {
-          "bvid": "BV19JYXe1Erw",
-          "relation": "same-event-recording",
-          "source": {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV19JYXe1Erw"
-          }
-        }
-      ],
-      "preferredRecordingBvid": "BV1cuYRewEwA",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1cuYRewEwA",
-            "sourceField": "title",
-            "excerpt": "【EOE】柚恩 2024.08.11 破次元Live【4K丨直播录像】"
-          },
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1cuYRewEwA",
-            "sourceField": "descriptionExcerpt",
-            "excerpt": "https://live.bilibili.com/25512501/\n直播日期：2024年08月11日\n柚恩【破次元Live】直播录像\n--------------------------------------------------------\n录制：录制工具人\n压制：压制工具人\n笔记：笔记工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504409"
-          },
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1wPYRevES2"
-          },
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV19JYXe1Erw"
-          }
-        ],
-        "schedule": [
-          {
-            "file": "../source/august-2024/961986770927353881.png",
-            "locator": "8/11 柚恩20:00 破次元LIVE"
-          }
-        ]
-      },
       "plannedMembers": [
         "youen"
       ],
-      "plannedTime": "20:00"
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [
+        {
+          "kind": "video",
+          "bvid": "BV1cuYRewEwA",
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
+        },
+        {
+          "kind": "video",
+          "bvid": "BV1wPYRevES2",
+          "partNumbers": [],
+          "role": "same-event-recording",
+          "notes": []
+        },
+        {
+          "kind": "video",
+          "bvid": "BV19JYXe1Erw",
+          "partNumbers": [],
+          "role": "same-event-recording",
+          "notes": []
+        }
+      ],
+      "preferredRecordingBvid": "BV1cuYRewEwA",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1cuYRewEwA",
+          "summary": "【EOE】柚恩 2024.08.11 破次元Live【4K丨直播录像】；https://live.bilibili.com/25512501/\n直播日期：2024年08月11日\n柚恩【破次元Live】直播录像\n--------------------------------------------------------\n录制：录制工具人\n压制：压制工具人\n笔记：笔记工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/187504409"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1wPYRevES2"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV19JYXe1Erw"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": []
     },
     {
       "id": "evt_22b342fb-c60b-4b0a-8b7b-cfb35a86c24a",
       "date": "2024-08-12",
-      "kind": "livestream",
       "title": "高冷女神",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1KW421R7pU",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1KW421R7pU"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1KW421R7pU",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1KW421R7pU"
-          }
-        ]
-      },
-      "contentType": "radio",
-      "dimension": "1d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1KW421R7pU"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_26fd4b7e-2b64-4c75-b271-806df395f530",
       "date": "2024-08-13",
-      "kind": "livestream",
       "title": "纸嫁衣7",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV18ceHepENL",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV18ceHepENL"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1tWe3edEmK",
-          "relation": "same-event-recording",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[6].items[9]"
-          }
+          "partNumbers": [],
+          "role": "same-event-recording",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV18ceHepENL",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV18ceHepENL"
-          },
-          {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[6].items[9]"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV18ceHepENL"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1tWe3edEmK"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": []
     },
     {
       "id": "evt_18820737-cf4c-4914-b0bb-dd45e6a4f88e",
       "date": "2024-08-13",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "自制MV☼f(x)《HOT SUMMER》唱跳cover 🔥 专属于夏天的经典 It must be burning！",
-      "text": "“It must be burning”🔥\n原唱：f（x）\n翻唱跳：露早\n视频剪辑：露早\n镜头：白醋\n妆造：露早 白醋",
+      "kind": "publication",
       "publishedAt": "2024-08-13T06:10:37.000Z",
-      "occurrence": "published",
+      "text": "“It must be burning”🔥\n原唱：f（x）\n翻唱跳：露早\n视频剪辑：露早\n镜头：白醋\n妆造：露早 白醋",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_85b82ea5-f63f-4db8-adac-3a06e17979f5"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1PU411S7ut",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch01.json",
-            "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1PU411S7ut]"
-          }
+          "notes": []
         }
       ],
-      "creditedMembers": [],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch01.json",
-            "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1PU411S7ut]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-13T06:10:37.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch01.json",
-            "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1PU411S7ut]",
-            "sourceField": "title",
-            "excerpt": "自制MV☼f(x)《HOT SUMMER》唱跳cover 🔥 专属于夏天的经典 It must be burning！"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch01.json",
-            "locator": "sources[accountId=1669777785,page=3].items[bvid=BV1PU411S7ut]",
-            "sourceField": "description",
-            "excerpt": "“It must be burning”🔥\n原唱：f（x）\n翻唱跳：露早\n视频剪辑：露早\n镜头：白醋\n妆造：露早 白醋"
-          }
-        ]
-      },
-      "note": "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1PU411S7ut"
+        }
+      ],
+      "notes": [
+        "账号投稿标题与既有作品精确对应；本记录表示作品发布，不推断演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_917e1583-6258-41f6-bea4-49dfce08af35",
       "date": "2024-08-14",
-      "kind": "livestream",
       "title": "下雨天做什么？",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "yumo"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1QVeneWEGE",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1QVeneWEGE"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1QVeneWEGE",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1QVeneWEGE"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1QVeneWEGE"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_42988733-2c52-43df-bca4-3be9aec38f5d",
       "date": "2024-08-14",
-      "kind": "livestream",
       "title": "Bingo！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1Dy411i7u4",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1Dy411i7u4"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1Dy411i7u4",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1Dy411i7u4"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Dy411i7u4"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_1465c9f3-0342-481a-a524-72f55269ef59",
       "date": "2024-08-15",
-      "kind": "livestream",
       "title": "莞儿的性格色彩大揭秘！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1W1421t7C5",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1W1421t7C5"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1W1421t7C5",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1W1421t7C5"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1W1421t7C5"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_e7c7c3f4-8d72-4411-8893-3fbadc1d7c87",
       "date": "2024-08-16",
-      "kind": "livestream",
       "title": "纳凉-医务室怪谈",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1rS421X7bq",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1rS421X7bq"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1rS421X7bq",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1rS421X7bq"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1rS421X7bq"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_8df53843-5e70-41e5-bc9d-118aeb084f01",
       "date": "2024-08-17",
-      "kind": "livestream",
       "title": "来了来了",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "yumo"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV176pZe3EPu",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV176pZe3EPu"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV176pZe3EPu",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV176pZe3EPu"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV176pZe3EPu"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_a628b2ce-8eed-4f13-866f-53198524f345",
       "date": "2024-08-17",
-      "kind": "livestream",
       "title": "弹唱歌会",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "singing",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1AE4m1d7BC",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1AE4m1d7BC"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1vKWFeGEWU",
-          "relation": "same-event-recording",
-          "source": {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1vKWFeGEWU"
-          }
+          "partNumbers": [],
+          "role": "same-event-recording",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1Qtpoe8EQ7",
-          "relation": "same-event-recording",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[6].items[2]"
-          }
+          "partNumbers": [],
+          "role": "same-event-recording",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1AE4m1d7BC",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1AE4m1d7BC"
-          },
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1vKWFeGEWU"
-          },
-          {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[6].items[2]"
-          }
-        ]
-      },
-      "contentType": "singing",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1AE4m1d7BC"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1vKWFeGEWU"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1Qtpoe8EQ7"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_dfb6417a-32e4-4da0-bf3b-1282a2fdf872",
       "date": "2024-08-17",
-      "kind": "announcement",
-      "subtype": "schedule-change",
       "title": "虞莫8月17日19点直播改为2D",
-      "text": "亲爱的EOES们，临时插播一条消息，由于@虞莫MOMO 身体不适，原定于今日19:00的3D直播将改为2D形式，待身体恢复后再给大家带来更精彩的直播内容！感谢大家的谅解。",
+      "kind": "announcement",
       "publishedAt": "2024-08-17T10:08:42.000Z",
-      "occurrence": "announced",
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-02-august-schedule-notice-details.json",
-            "locator": "966586349961347081"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-02-august-schedule-notice-details.json",
-            "locator": "966586349961347081"
-          }
-        ],
-        "text": [
-          {
-            "file": "../evidence/round-02-august-schedule-notice-details.json",
-            "locator": "966586349961347081"
-          }
-        ]
-      }
+      "text": "亲爱的EOES们，临时插播一条消息，由于@虞莫MOMO 身体不适，原定于今日19:00的3D直播将改为2D形式，待身体恢复后再给大家带来更精彩的直播内容！感谢大家的谅解。",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [],
+      "sources": [],
+      "notes": [
+        "内容标注：schedule-change"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_153923a6-2f2f-49b9-9940-fd24fb5679d6",
       "date": "2024-08-18",
-      "kind": "livestream",
       "title": "和米诺的对抗路日常",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "minuo"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1bZ421N7Hj",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1778026586.json",
-            "locator": "BV1bZ421N7Hj"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1bZ421N7Hj",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1778026586.json",
-            "locator": "BV1bZ421N7Hj"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1bZ421N7Hj"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_9c2e8483-622a-45c2-a4d0-a284e24c792e",
       "date": "2024-08-18",
-      "kind": "livestream",
       "title": "亿点都不怕",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1gi421a7kM",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1gi421a7kM"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1gi421a7kM",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1gi421a7kM"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1gi421a7kM"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_cb716c4c-8904-4e4e-a0eb-dce60d7f4673",
       "date": "2024-08-19",
-      "kind": "livestream",
       "title": "又来啦",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "yumo"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1QepSeVEZi",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1QepSeVEZi"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1QepSeVEZi",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1QepSeVEZi"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1QepSeVEZi"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_96c24909-d34f-4649-b2e2-2a15b1af49e0",
       "date": "2024-08-19",
-      "kind": "livestream",
       "title": "台词配音回",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1bApQeGEYK",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1bApQeGEYK"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1MnpUePE2Y",
-          "relation": "same-event-recording",
-          "source": {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[7].items[29]"
-          }
+          "partNumbers": [],
+          "role": "same-event-recording",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1bApQeGEYK",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1bApQeGEYK"
-          },
-          {
-            "file": "../evidence/round-08-source-directory-batch18.json",
-            "locator": "sources[7].items[29]"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1bApQeGEYK"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1MnpUePE2Y"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": []
     },
     {
       "id": "evt_86155485-4217-4d65-b5c3-75485dccd65a",
       "date": "2024-08-20",
-      "kind": "livestream",
       "title": "玩一下黑神话！！！！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        11
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1mFWHedETK",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1mFWHedETK"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV15kW8eFECV",
-          "relation": "alternate-version"
+          "partNumbers": [],
+          "role": "alternate-version",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1mFWHedETK",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1mFWHedETK"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV15kW8eFECV",
-            "locator": "BV15kW8eFECV",
-            "excerpt": "【EOE】莞儿L2D 2024.08.20 来咯【直播录像】；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1mFWHedETK"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV15kW8eFECV",
+          "summary": "【EOE】莞儿L2D 2024.08.20 来咯【直播录像】；录播分P、标题/形式转换及对应时间共同表明是已知场次的完整或分段版本，不新增直播。"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        11
+      ]
     },
     {
       "id": "evt_4c48eb28-6292-4f26-aba8-35f754cbdc15",
       "date": "2024-08-20",
-      "kind": "livestream",
       "title": "当个老板吧！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1Z4421Z73b",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1Z4421Z73b"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1Z4421Z73b",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1Z4421Z73b"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Z4421Z73b"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_a633cd93-6e35-487d-99c9-3ad4768db98e",
       "date": "2024-08-21",
-      "kind": "livestream",
       "title": "柚柚焕新机",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1xn4y1f7Fg",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1xn4y1f7Fg"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1xn4y1f7Fg",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1xn4y1f7Fg"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1xn4y1f7Fg"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_d7f45213-929e-4627-91f9-a91d906564c9",
       "date": "2024-08-22",
-      "kind": "livestream",
       "title": "体能训练运动会——",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "yumo"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1tQWje1ET6",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1tQWje1ET6"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1tQWje1ET6",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1tQWje1ET6"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1tQWje1ET6"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_b523399b-6262-4a1e-a360-f9710d0baa87",
       "date": "2024-08-22",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "『如果可以』红线划过深藏轮回的秘密...",
-      "text": "如果可以 ....\n我想吃泡面、小龙虾、蛋挞、炸鸡、蒸羊羔、蒸鹿邑、烧鸡、烧鸭...\n\n一键三连拜托啦~",
+      "kind": "publication",
       "publishedAt": "2024-08-22T09:00:00.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_e68ddd5a-2868-4f17-af6a-05fc49058f12"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1f5WheTEhy",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1f5WheTEhy]"
-          }
-        }
-      ],
+      "text": "如果可以 ....\n我想吃泡面、小龙虾、蛋挞、炸鸡、蒸羊羔、蒸鹿邑、烧鸡、烧鸭...\n\n一键三连拜托啦~",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
       "creditedMembers": [
         "yumo"
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1f5WheTEhy]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-22T09:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1f5WheTEhy]",
-            "sourceField": "title",
-            "excerpt": "『如果可以』红线划过深藏轮回的秘密..."
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1f5WheTEhy]",
-            "sourceField": "title",
-            "excerpt": "『如果可以』红线划过深藏轮回的秘密..."
-          },
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1f5WheTEhy]",
-            "sourceField": "description",
-            "excerpt": "如果可以 ....\n我想吃泡面、小龙虾、蛋挞、炸鸡、蒸羊羔、蒸鹿邑、烧鸡、烧鸭...\n\n一键三连拜托啦~"
-          }
-        ]
-      },
-      "note": "投稿标题明确作品身份；本记录表示作品发布或切片，不推断直播演出日期。"
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [
+        "song_e68ddd5a-2868-4f17-af6a-05fc49058f12"
+      ],
+      "relations": [],
+      "assets": [
+        {
+          "kind": "video",
+          "bvid": "BV1f5WheTEhy",
+          "partNumbers": [],
+          "role": "publication-link",
+          "notes": []
+        }
+      ],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1f5WheTEhy"
+        }
+      ],
+      "notes": [
+        "投稿标题明确作品身份；本记录表示作品发布或切片，不推断直播演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_b44e03bb-1718-4182-a02b-5104235542e6",
       "date": "2024-08-25",
-      "kind": "livestream",
       "title": "突击",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "radio",
+      "dimension": "1d",
+      "isUnannounced": true,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        17
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1LH4y1F7ou",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1LH4y1F7ou"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1LH4y1F7ou",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1LH4y1F7ou"
-          }
-        ]
-      },
-      "contentType": "radio",
-      "dimension": "1d",
-      "isUnannounced": true
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1LH4y1F7ou"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        17
+      ]
     },
     {
       "id": "evt_e3a1384e-b87e-4726-ae05-c1a5a87b0ed2",
       "date": "2024-08-25",
-      "kind": "livestream",
       "title": "在干嘛呢",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": true,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1VH4y1F7fY",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1VH4y1F7fY"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1VH4y1F7fY",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1VH4y1F7fY"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": true
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1VH4y1F7fY"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_8ebc76e2-5dd5-4b66-9096-8495b3a4b8fb",
       "date": "2024-08-25",
-      "kind": "livestream",
       "title": "来咯",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV11NWyeDEGL",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV11NWyeDEGL"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV11NWyeDEGL",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV11NWyeDEGL"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV11NWyeDEGL"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_ba92021b-15c2-48c6-a618-76bf9e98ef2a",
       "date": "2024-08-25",
-      "kind": "publication",
-      "subtype": "performance-video",
       "title": "乐华家族演唱会 || EOE和你一起《远行》!",
+      "kind": "publication",
       "publishedAt": "2024-08-25T04:00:00.000Z",
-      "occurrence": "published",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "creditedGroup": "EOE",
-      "assets": [
-        {
-          "bvid": "BV1TmWZe8Ej1",
-          "role": "published-work"
-        }
-      ],
       "relatedWorks": [
         "song_5179b5b8-2fe0-4c14-94d8-15e10ab6afeb"
       ],
-      "description": "官方发布乐华家族演唱会《远行》视频。发布日期与实际演出日分别记录；简介为五成员通用账号列表，不据此认定五人全部出席。",
-      "evidence": {
-        "officialVideo": {
-          "file": "../evidence/round-02-august2024-official-video-current-detail.json",
-          "locator": "BV1TmWZe8Ej1"
-        },
-        "officialDynamic": {
-          "file": "../evidence/history-01/dynamics-2024.json",
-          "locator": "969460103967146067"
+      "relations": [],
+      "assets": [
+        {
+          "kind": "video",
+          "bvid": "BV1TmWZe8Ej1",
+          "partNumbers": [],
+          "role": "published-work",
+          "notes": []
         }
-      }
+      ],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1TmWZe8Ej1"
+        }
+      ],
+      "notes": [
+        "官方发布乐华家族演唱会《远行》视频。发布日期与实际演出日分别记录；简介为五成员通用账号列表，不据此认定五人全部出席。",
+        "内容标注：performance-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_effc6750-5997-47df-8510-ef5e4eb3d749",
       "date": "2024-08-25",
-      "kind": "announcement",
-      "subtype": "schedule-change",
       "title": "虞莫8月25日19点直播取消",
-      "text": "亲爱的EOES们，临时插播一条消息，由于@虞莫MOMO 身体不适，原定于今日19:00的3D直播将取消，感谢大家的谅解。",
+      "kind": "announcement",
       "publishedAt": "2024-08-25T08:43:53.000Z",
-      "occurrence": "announced",
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-02-august-schedule-notice-details.json",
-            "locator": "969533174302375975"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-02-august-schedule-notice-details.json",
-            "locator": "969533174302375975"
-          }
-        ],
-        "text": [
-          {
-            "file": "../evidence/round-02-august-schedule-notice-details.json",
-            "locator": "969533174302375975"
-          }
-        ]
-      }
+      "text": "亲爱的EOES们，临时插播一条消息，由于@虞莫MOMO 身体不适，原定于今日19:00的3D直播将取消，感谢大家的谅解。",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
+      "recordings": [],
+      "sources": [],
+      "notes": [
+        "内容标注：schedule-change"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "announcement",
+      "titleHours": []
     },
     {
       "id": "evt_7963c114-905f-4ea9-b964-20042dda58ce",
       "date": "2024-08-25",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "《我的秘密》“我在犹豫要不要告诉你，喜欢你是我的秘密”",
-      "text": "嘘——\n美人虞，敲敲告诉你一个秘密\n其实....\n\n其实....我喜欢你很久了\n (v〃∇〃)v\n\n一键三连拜托啦~",
+      "kind": "publication",
       "publishedAt": "2024-08-25T09:00:00.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_88e1f7db-9755-48c0-bedc-ac47a9ce3160"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1DaWhedE68",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1DaWhedE68]"
-          }
-        }
-      ],
+      "text": "嘘——\n美人虞，敲敲告诉你一个秘密\n其实....\n\n其实....我喜欢你很久了\n (v〃∇〃)v\n\n一键三连拜托啦~",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
       "creditedMembers": [
         "yumo"
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1DaWhedE68]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-25T09:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1DaWhedE68]",
-            "sourceField": "title",
-            "excerpt": "《我的秘密》“我在犹豫要不要告诉你，喜欢你是我的秘密”"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1DaWhedE68]",
-            "sourceField": "title",
-            "excerpt": "《我的秘密》“我在犹豫要不要告诉你，喜欢你是我的秘密”"
-          },
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1DaWhedE68]",
-            "sourceField": "description",
-            "excerpt": "嘘——\n美人虞，敲敲告诉你一个秘密\n其实....\n\n其实....我喜欢你很久了\n (v〃∇〃)v\n\n一键三连拜托啦~"
-          }
-        ]
-      },
-      "note": "投稿标题明确作品身份；本记录表示作品发布或切片，不推断直播演出日期。"
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [
+        "song_88e1f7db-9755-48c0-bedc-ac47a9ce3160"
+      ],
+      "relations": [],
+      "assets": [
+        {
+          "kind": "video",
+          "bvid": "BV1DaWhedE68",
+          "partNumbers": [],
+          "role": "publication-link",
+          "notes": []
+        }
+      ],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1DaWhedE68"
+        }
+      ],
+      "notes": [
+        "投稿标题明确作品身份；本记录表示作品发布或切片，不推断直播演出日期。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_e85fbb57-532e-492a-ab07-1c0c2768e016",
       "date": "2024-08-26",
-      "kind": "livestream",
       "title": "迷迷糊糊",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "yumo"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1WesJeUEvK",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1WesJeUEvK"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1WesJeUEvK",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1WesJeUEvK"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1WesJeUEvK"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_0d27e177-b688-4bf9-aecb-fcd56ee2b871",
       "date": "2024-08-27",
-      "kind": "livestream",
       "title": "莞上好~",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV11Ws4eBE3f",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV11Ws4eBE3f"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV11Ws4eBE3f",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV11Ws4eBE3f"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV11Ws4eBE3f"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_c99d02f6-78d6-473f-b446-0cc010662f3f",
       "date": "2024-08-28",
-      "kind": "livestream",
       "title": "我真信了",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "minuo"
       ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1AEs3eoE3y",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1AEs3eoE3y"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1AEs3eoE3y",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1AEs3eoE3y",
-            "sourceField": "title",
-            "excerpt": "【EOE】米诺 2024.08.28 我真信了【4K丨直播录像】"
-          },
-          {
-            "file": "../evidence/history-01/videos-3546645526481422-2024-1.json",
-            "locator": "BV1AEs3eoE3y",
-            "sourceField": "descriptionExcerpt",
-            "excerpt": "https://live.bilibili.com/25512465/\n直播日期：2024年08月28日\n米诺【我真信了】直播录像\n--------------------------------------------------------\n录制：录制工具人\n压制：压制工具人\n笔记：笔记工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1AEs3eoE3y",
+          "summary": "【EOE】米诺 2024.08.28 我真信了【4K丨直播录像】；https://live.bilibili.com/25512465/\n直播日期：2024年08月28日\n米诺【我真信了】直播录像\n--------------------------------------------------------\n录制：录制工具人\n压制：压制工具人\n笔记：笔记工具人\n--------------------------------------------------------\n莞儿@莞儿睡不醒：https://space.bilibili.com/1875044092/\n"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": []
     },
     {
       "id": "evt_caf79a0c-1ad7-4be6-94f8-a99acd5bf94d",
       "date": "2024-08-29",
-      "kind": "livestream",
       "title": "分享视频",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "2d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1WU411S7Qg",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1WU411S7Qg"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1WU411S7Qg",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1WU411S7Qg"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "2d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1WU411S7Qg"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_1efd37f8-4e9a-4f7d-b08a-9d237151fb22",
       "date": "2024-08-29",
-      "kind": "livestream",
       "title": "来玩一款治愈的小游戏!~",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "game",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV17HHueKEZR",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV17HHueKEZR"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV17HHueKEZR",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV17HHueKEZR"
-          }
-        ]
-      },
-      "contentType": "game",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV17HHueKEZR"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_57e7bb0e-9dce-4aeb-80ef-5ddc78dea2a9",
       "date": "2024-08-30",
-      "kind": "livestream",
       "title": "嗦面了!~",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        14
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1B9Hje4Emr",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1B9Hje4Emr"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1B9Hje4Emr",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "BV1B9Hje4Emr"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1B9Hje4Emr"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        14
+      ]
     },
     {
       "id": "evt_584b6192-bc2b-498d-bc55-60cfb88d9f15",
       "date": "2024-08-30",
-      "kind": "livestream",
       "title": "红温？挑战！",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "youen"
       ],
-      "titleHours": [
-        19
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1Tx4y1x7k6",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1Tx4y1x7k6"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1Tx4y1x7k6",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1795147802.json",
-            "locator": "BV1Tx4y1x7k6"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Tx4y1x7k6"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        19
+      ]
     },
     {
       "id": "evt_782e3d65-48fa-453a-a153-01bc2e397b5e",
       "date": "2024-08-31",
-      "kind": "livestream",
       "title": "来咯",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        11
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1L6nReoEqe",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "items[12]"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1L6nReoEqe",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "items[12]"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1L6nReoEqe"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        11
+      ]
     },
     {
       "id": "evt_0bb1a302-b6f4-4b50-a62c-477d45a04465",
       "date": "2024-08-31",
-      "kind": "livestream",
       "title": "来咯",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "unknown",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "waner"
       ],
-      "titleHours": [
-        16
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1ZznoeNECo",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "items[11]"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1iKnfeiEuu",
-          "relation": "alternate-version"
+          "partNumbers": [],
+          "role": "alternate-version",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1crHcenELF",
-          "relation": "alternate-version"
+          "partNumbers": [],
+          "role": "alternate-version",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1ZznoeNECo",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1875044092.json",
-            "locator": "items[11]"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1iKnfeiEuu",
-            "locator": "BV1iKnfeiEuu",
-            "excerpt": "【EOE】莞儿L2D 2024.08.31 来咯【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1crHcenELF",
-            "locator": "BV1crHcenELF",
-            "excerpt": "【EOE】莞儿L2D 2024.08.31 来咯【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "unknown",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ZznoeNECo"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1iKnfeiEuu",
+          "summary": "【EOE】莞儿L2D 2024.08.31 来咯【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1crHcenELF",
+          "summary": "【EOE】莞儿L2D 2024.08.31 来咯【直播录像】；同日明确成员、录制时间（如有）和时长相互印证，为标题变体，不新增直播。"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        16
+      ]
     },
     {
       "id": "evt_c07b8663-de8e-438e-936d-aecfb4dc1ee1",
       "date": "2024-08-31",
-      "kind": "livestream",
       "title": "判断一下自己",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "unknown",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "yumo"
       ],
-      "titleHours": [
-        18
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1AanfeSECg",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1AanfeSECg"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1AanfeSECg",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1811071010.json",
-            "locator": "BV1AanfeSECg"
-          }
-        ]
-      },
-      "contentType": "unknown",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1AanfeSECg"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        18
+      ]
     },
     {
       "id": "evt_0d6768af-dc44-41af-8b01-78c5a089d3ff",
       "date": "2024-08-31",
-      "kind": "livestream",
       "title": "进来学夸人的艺术",
-      "occurrence": "recording-attested",
+      "kind": "livestream",
+      "contentType": "lesson",
+      "dimension": "3d",
+      "isUnannounced": false,
       "recordingNamedMembers": [
         "luzao"
       ],
-      "titleHours": [
-        20
-      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1P2421o7Vo",
-          "relation": "primary-evidence",
-          "source": {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1P2421o7Vo"
-          }
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1P2421o7Vo",
-      "evidence": {
-        "recordings": [
-          {
-            "file": "../evidence/history-01/series-1669777785.json",
-            "locator": "BV1P2421o7Vo"
-          }
-        ]
-      },
-      "contentType": "lesson",
-      "dimension": "3d",
-      "isUnannounced": false
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1P2421o7Vo"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": [
+        20
+      ]
     },
     {
       "id": "evt_27f6bce6-19d1-41c1-8017-7332c1bd9c32",
       "date": "2024-08-10",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "甜 过 初 恋！(///▽///)tell me",
+      "kind": "publication",
       "publishedAt": "2024-08-10T09:10:00.000Z",
-      "occurrence": "published",
+      "text": "【抖腿预警】\n嘟嘟 嘟比嘟 哒哒~",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_be6b6238-6cc4-4431-9e3a-3a289566540f"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1Vw4m1k7mL",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Vw4m1k7mL]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Vw4m1k7mL]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-10T09:10:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Vw4m1k7mL]",
-            "sourceField": "title",
-            "excerpt": "甜 过 初 恋！(///▽///)tell me"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Vw4m1k7mL]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "甜 过 初 恋！(///▽///)tell me\n【抖腿预警】\n嘟嘟 嘟比嘟 哒哒~"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "【抖腿预警】\n嘟嘟 嘟比嘟 哒哒~"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Vw4m1k7mL"
+        }
+      ],
+      "notes": [
+        "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_1481c6e0-b04c-4cfb-9bef-24135dba50e3",
       "date": "2024-08-24",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "【Wonderful U】我听着满是悲伤",
+      "kind": "publication",
       "publishedAt": "2024-08-24T09:00:00.000Z",
-      "occurrence": "published",
+      "text": "I never knew\n我从未察觉\nWhen the clock stopped and I'm looking at you\n自己在凝视你时如此入神，仿佛时间停止了流逝\nI never thought I'll miss someone like you\n我从不知我会如此想念你\nSomeone I thought that I knew\n想念我曾以为我已了解透彻的你\nI never knew\n我从来不认为\nI should have known something wouldn't be true\n我",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_1780ec93-64a5-4639-b8b7-3dc64f4e0e83"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1UeWheWEXE",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UeWheWEXE]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UeWheWEXE]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-24T09:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UeWheWEXE]",
-            "sourceField": "title",
-            "excerpt": "【Wonderful U】我听着满是悲伤"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1UeWheWEXE]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "【Wonderful U】我听着满是悲伤\nI never knew\n我从未察觉\nWhen the clock stopped and I'm looking at you\n自己在凝视你时如此入神，仿佛时间停止了流逝\nI never thought I'll miss someone like you\n我从不知我会如此想念你\nSomeone I thought that I knew\n想念我曾以为我已了解透彻的你\nI never knew\n我从来不认为\nI should have known something wouldn't be true\n我"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "I never knew\n我从未察觉\nWhen the clock stopped and I'm looking at you\n自己在凝视你时如此入神，仿佛时间停止了流逝\nI never thought I'll miss someone like you\n我从不知我会如此想念你\nSomeone I thought that I knew\n想念我曾以为我已了解透彻的你\nI never knew\n我从来不认为\nI should have known something wouldn't be true\n我"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1UeWheWEXE"
+        }
+      ],
+      "notes": [
+        "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_fce17095-0a71-46e9-8c9f-128b699b4168",
       "date": "2024-08-23",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "【 Mr.Mr.】她 太 帅 了！",
+      "kind": "publication",
       "publishedAt": "2024-08-23T09:00:00.000Z",
-      "occurrence": "published",
+      "text": "爱我，你怕了嘛！~\n嘿嘿(*^▽^*)~别怕~\n\n一键三连拜托啦~",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_252d8ac1-14c6-4f8f-8287-e95165b3b57d"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1QhWhe4Eca",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1QhWhe4Eca]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1QhWhe4Eca]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-23T09:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1QhWhe4Eca]",
-            "sourceField": "title",
-            "excerpt": "【 Mr.Mr.】她 太 帅 了！"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1QhWhe4Eca]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "【 Mr.Mr.】她 太 帅 了！\n爱我，你怕了嘛！~\n嘿嘿(*^▽^*)~别怕~\n\n一键三连拜托啦~"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "爱我，你怕了嘛！~\n嘿嘿(*^▽^*)~别怕~\n\n一键三连拜托啦~"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1QhWhe4Eca"
+        }
+      ],
+      "notes": [
+        "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_910539ee-e9b9-4b98-a0f5-59aa7e7c707f",
       "date": "2024-08-21",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "❤Q&A❤可爱在性感面前...",
+      "kind": "publication",
       "publishedAt": "2024-08-21T09:54:17.000Z",
-      "occurrence": "published",
+      "text": "喜欢这首歌的美人虞都很有品味~\n\n一键三连拜托啦~",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_bad583d7-b722-4192-b89a-24dd387a4a6a"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV16GWhezEw1",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV16GWhezEw1]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV16GWhezEw1]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-21T09:54:17.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV16GWhezEw1]",
-            "sourceField": "title",
-            "excerpt": "❤Q&A❤可爱在性感面前..."
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV16GWhezEw1]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "❤Q&A❤可爱在性感面前...\n喜欢这首歌的美人虞都很有品味~\n\n一键三连拜托啦~"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "喜欢这首歌的美人虞都很有品味~\n\n一键三连拜托啦~"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV16GWhezEw1"
+        }
+      ],
+      "notes": [
+        "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_465131fc-b889-498a-82e0-33916bc638f5",
       "date": "2024-08-04",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "还原度99%的 守护甜心♥心灵之蛋 翻跳！",
+      "kind": "publication",
       "publishedAt": "2024-08-04T09:00:00.000Z",
-      "occurrence": "published",
+      "text": "豹豹猫猫，我破壳啦～\n二次元！要自信！",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_e20c4972-db78-4b89-bbeb-da3bd378db6b"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1DZ421T7LQ",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1DZ421T7LQ]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1DZ421T7LQ]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-04T09:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1DZ421T7LQ]",
-            "sourceField": "title",
-            "excerpt": "还原度99%的 守护甜心♥心灵之蛋 翻跳！"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1DZ421T7LQ]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "还原度99%的 守护甜心♥心灵之蛋 翻跳！\n豹豹猫猫，我破壳啦～\n二次元！要自信！"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "豹豹猫猫，我破壳啦～\n二次元！要自信！"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1DZ421T7LQ"
+        }
+      ],
+      "notes": [
+        "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_23a3e9c9-c706-4cce-b0ca-d7ac05e79724",
       "date": "2024-08-03",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "你是我的笼中鸟【Rooftop】",
+      "kind": "publication",
       "publishedAt": "2024-08-03T09:00:00.000Z",
-      "occurrence": "published",
+      "text": "把喜欢的舞台呈现给大家，一键三连拜托啦～",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_7dce8fb8-e08b-48e7-ac72-88142a7a75b5"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1tx4y1s7cw",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1tx4y1s7cw]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1tx4y1s7cw]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-03T09:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1tx4y1s7cw]",
-            "sourceField": "title",
-            "excerpt": "你是我的笼中鸟【Rooftop】"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1tx4y1s7cw]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "你是我的笼中鸟【Rooftop】\n把喜欢的舞台呈现给大家，一键三连拜托啦～"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "把喜欢的舞台呈现给大家，一键三连拜托啦～"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1tx4y1s7cw"
+        }
+      ],
+      "notes": [
+        "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_bc482fa2-41c9-478d-941c-8529957f4522",
       "date": "2024-08-01",
-      "kind": "publication",
-      "subtype": "cover-video",
       "title": "塞克西又帅气的【ABCD】翻跳！",
+      "kind": "publication",
       "publishedAt": "2024-08-01T09:00:00.000Z",
-      "occurrence": "published",
+      "text": "这下对胃了！谁还没看过这个舞台～罚你看1伯遍～",
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
       "relatedWorks": [
         "song_c8d8c553-f74b-4671-af43-75a66b42228e"
       ],
+      "relations": [],
       "assets": [
         {
+          "kind": "video",
           "bvid": "BV1cS42197Ze",
+          "partNumbers": [],
           "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1cS42197Ze]"
-          }
+          "notes": []
         }
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1cS42197Ze]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-01T09:00:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1cS42197Ze]",
-            "sourceField": "title",
-            "excerpt": "塞克西又帅气的【ABCD】翻跳！"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-first-pages.json",
-            "locator": "sources[accountId=1811071010,page=1].items[bvid=BV1cS42197Ze]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "塞克西又帅气的【ABCD】翻跳！\n这下对胃了！谁还没看过这个舞台～罚你看1伯遍～"
-          }
-        ]
-      },
-      "note": "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
-      "text": "这下对胃了！谁还没看过这个舞台～罚你看1伯遍～"
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1cS42197Ze"
+        }
+      ],
+      "notes": [
+        "按原始投稿记录作品发布；不以投稿日期推断演出日期或场次。",
+        "内容标注：cover-video"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_1b326794-2b64-46b2-b8cc-e8b8e3710d6a",
       "date": "2024-08-20",
-      "kind": "publication",
-      "subtype": "dance-cover",
       "title": "洗脑呀～～包乖的《纯妹妹》！【柚恩舞蹈】",
+      "kind": "publication",
       "publishedAt": "2024-08-20T09:10:00.000Z",
-      "occurrence": "published",
-      "relatedWorks": [
-        "song_071d8c7a-548b-4575-823d-e9dcd56c7092"
-      ],
-      "assets": [
-        {
-          "bvid": "BV1Dy411i7FM",
-          "role": "publication-link",
-          "source": {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Dy411i7FM]"
-          }
-        }
-      ],
+      "recordingNamedMembers": [],
+      "plannedMembers": [],
       "creditedMembers": [
         "youen"
       ],
-      "evidence": {
-        "date": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Dy411i7FM]",
-            "sourceField": "publishedAt",
-            "excerpt": "2024-08-20T09:10:00.000Z"
-          }
-        ],
-        "title": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Dy411i7FM]",
-            "sourceField": "title",
-            "excerpt": "洗脑呀～～包乖的《纯妹妹》！"
-          }
-        ],
-        "relatedWorks": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Dy411i7FM]",
-            "sourceField": "title + descriptionExcerpt",
-            "excerpt": "标题明确《纯妹妹》，简介说明为舞蹈短片"
-          }
-        ],
-        "creditedMembers": [
-          {
-            "file": "../evidence/round-16-member-official-directory-batch02.json",
-            "locator": "sources[accountId=1795147802,page=5].items[bvid=BV1Dy411i7FM]",
-            "sourceField": "accountId",
-            "excerpt": "投稿来自柚恩不加糖账号"
-          }
-        ]
-      },
-      "note": "原始条目明确曲名与舞蹈形式；只登记投稿事件，不把投稿日期当作实际演出日期。"
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [
+        "song_071d8c7a-548b-4575-823d-e9dcd56c7092"
+      ],
+      "relations": [],
+      "assets": [
+        {
+          "kind": "video",
+          "bvid": "BV1Dy411i7FM",
+          "partNumbers": [],
+          "role": "publication-link",
+          "notes": []
+        }
+      ],
+      "recordings": [],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Dy411i7FM"
+        }
+      ],
+      "notes": [
+        "原始条目明确曲名与舞蹈形式；只登记投稿事件，不把投稿日期当作实际演出日期。",
+        "内容标注：dance-cover"
+      ],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "publication",
+      "titleHours": []
     },
     {
       "id": "evt_3235eee2-e51f-56b6-97cd-a139aff878f5",
       "date": "2024-08-10",
-      "kind": "livestream",
       "title": "今天是什么日子",
-      "occurrence": "recording-attested",
-      "recordingNamedMembers": [
-        "luzao"
-      ],
+      "kind": "livestream",
       "contentType": "radio",
       "dimension": "1d",
       "isUnannounced": false,
+      "recordingNamedMembers": [
+        "luzao"
+      ],
+      "plannedMembers": [],
+      "creditedMembers": [],
+      "announcedMembers": [],
+      "absentMembers": [],
+      "guests": [],
+      "stages": [],
+      "creditedPerformers": [],
+      "relatedWorks": [],
+      "relations": [],
+      "assets": [],
       "recordings": [
         {
+          "kind": "video",
           "bvid": "BV1W7Y7ecEnG",
-          "relation": "primary-evidence"
+          "partNumbers": [],
+          "role": "primary-evidence",
+          "notes": []
         },
         {
+          "kind": "video",
           "bvid": "BV1gSYHeRE6q",
-          "relation": "alternate-version"
+          "partNumbers": [],
+          "role": "alternate-version",
+          "notes": []
         }
       ],
       "preferredRecordingBvid": "BV1W7Y7ecEnG",
-      "evidence": {
-        "recordings": [
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1W7Y7ecEnG",
-            "locator": "BV1W7Y7ecEnG",
-            "excerpt": "露早 2024.8.10 【今天是什么日子】【直播录像】【电台】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
-          },
-          {
-            "kind": "bilibili-video",
-            "url": "https://www.bilibili.com/video/BV1gSYHeRE6q",
-            "locator": "BV1gSYHeRE6q",
-            "excerpt": "【EOE】露早 电台 2024.08.10 今天是什么日子【直播录像】；同日同名同成员录播的另一版本；保留一场。"
-          }
-        ]
-      }
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1W7Y7ecEnG",
+          "summary": "露早 2024.8.10 【今天是什么日子】【直播录像】【电台】；录播标题与简介明确署名、日期；与同日已知其他成员场次分别保存，不从简介末尾账号列表推断参与者。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1gSYHeRE6q",
+          "summary": "【EOE】露早 电台 2024.08.10 今天是什么日子【直播录像】；同日同名同成员录播的另一版本；保留一场。"
+        }
+      ],
+      "notes": [],
+      "recordingDateClaims": [],
+      "segments": [],
+      "planIds": [],
+      "basis": "recording",
+      "titleHours": []
     }
   ]
 }
