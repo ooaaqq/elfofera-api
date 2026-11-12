@@ -15,11 +15,10 @@ trap 'rm -rf "$stage"' EXIT
 mkdir -p "$stage/bin" dist
 install -m755 target/release/elfofera-api "$stage/bin/"
 "$stage/bin/elfofera-api" --version | grep -Fx "elfofera-api $version"
-# Reuse the data, contracts and frontend produced by bun run check.
+# Reuse the data and contracts produced by bun run check.
 mkdir -p "$stage/share/elfofera-api/contract"
 cp dist/archive.json "$stage/share/elfofera-api/"
 cp dist/tools.json dist/openapi.json dist/members.json "$stage/share/elfofera-api/contract/"
-cp -r frontend/dist "$stage/share/elfofera-api/frontend"
 printf '%s\n' "$version" >"$stage/VERSION"
 archive="elfofera-api-$version-x86_64-linux.tar.gz"
 tar -C "$stage" -czf "dist/$archive" .
