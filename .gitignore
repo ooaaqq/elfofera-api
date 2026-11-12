@@ -7,11 +7,7 @@ dist/
 .direnv/
 result
 
-# Local archival copies of research inputs and review history
-.local/calendar-backup-*/
-
 # Local Codex configuration
 .codex/
 
 /target/
-/generated/

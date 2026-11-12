@@ -275,6 +275,15 @@ pub struct Event {
     #[serde(default)]
     pub notes: Vec<String>,
 }
+impl Event {
+    pub fn dates(&self) -> impl Iterator<Item = NaiveDate> + '_ {
+        let last = self.end_date.unwrap_or(self.date);
+        self.date.iter_days().take_while(move |date| *date <= last)
+    }
+    pub fn contains_date(&self, date: NaiveDate) -> bool {
+        self.date <= date && date <= self.end_date.unwrap_or(self.date)
+    }
+}
 #[derive(Debug, Clone, Copy, Serialize, Deserialize, JsonSchema)]
 #[serde(rename_all = "kebab-case")]
 pub enum WorkKind {

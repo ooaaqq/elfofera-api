@@ -4,7 +4,7 @@ use crate::{
     model::*,
     views::*,
 };
-use chrono::{Days, NaiveDate};
+use chrono::NaiveDate;
 
 impl Archive {
     pub fn search_works(&self, q: SearchQuery) -> SearchResponse {
@@ -15,11 +15,13 @@ impl Archive {
             .iter()
             .copied()
             .filter(|i| {
-                let (title, artists) = &self.search[*i];
-                search
+                let (titles, artists) = &self.search[*i];
+                search.as_ref().is_none_or(|s| {
+                    titles.iter().any(|title| title.contains(s))
+                        || artists.iter().any(|name| name.contains(s))
+                }) && artist
                     .as_ref()
-                    .is_none_or(|s| title.contains(s) || artists.contains(s))
-                    && artist.as_ref().is_none_or(|s| artists.contains(s))
+                    .is_none_or(|s| artists.iter().any(|name| name.contains(s)))
             })
             .collect::<Vec<_>>();
         let items = selected
@@ -114,11 +116,7 @@ impl Archive {
         let included = q.include.split(',').map(str::to_owned).collect::<Vec<_>>();
         let want = |s: &str| included.iter().any(|v| v == s);
         let mut days = Vec::new();
-        let count = (q.through - q.from).num_days();
-        for offset in 0..=count {
-            let Some(date) = q.from.checked_add_days(Days::new(offset as u64)) else {
-                break;
-            };
+        for date in q.from.iter_days().take_while(|date| *date <= q.through) {
             let empty = crate::data::DayIndex::default();
             let index = self.by_date.get(&date).unwrap_or(&empty);
             let events = index
@@ -187,13 +185,21 @@ impl Archive {
                             .map(|i| self.data.events[*i].id.clone())
                             .collect::<Vec<_>>();
                         if q.member.is_some()
-                            && !linked.iter().any(|id| event_ids.contains(&id.as_str()))
+                            && !linked.iter().any(|id| {
+                                let event = &self.data.events[self.events[id]];
+                                event.contains_date(date) && matches_member(event, q.member)
+                            })
                         {
                             return None;
                         }
                         Some(RecordingView {
                             bvid: r.bvid.clone(),
-                            date: r.title_session.date,
+                            title_session: r.title_session.clone(),
+                            date_basis: if linked.is_empty() {
+                                RecordingDateBasis::Title
+                            } else {
+                                RecordingDateBasis::Event
+                            },
                             event_ids: linked,
                             title: r.title.clone(),
                             uploader_name: r.uploader.name.clone(),
@@ -271,6 +277,9 @@ fn matches_member(e: &Event, member: Option<Member>) -> bool {
     member.is_none_or(|m| {
         e.recording_named_members.contains(&m)
             || e.planned_members.contains(&m)
+            || e.credited_members.contains(&m)
+            || e.announced_members.contains(&m)
+            || e.absent_members.contains(&m)
             || e.host_member == Some(m)
     })
 }

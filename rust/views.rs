@@ -12,6 +12,9 @@ pub struct WorkView {
     pub id: String,
     pub title: String,
     pub original_artists: Vec<String>,
+    pub aliases: Vec<String>,
+    pub kind: Option<WorkKind>,
+    pub series: Option<String>,
     pub source_urls: Vec<String>,
 }
 impl From<&Work> for WorkView {
@@ -20,6 +23,9 @@ impl From<&Work> for WorkView {
             id: w.id.clone(),
             title: w.title.clone(),
             original_artists: w.original_artists.clone(),
+            aliases: w.aliases.clone(),
+            kind: w.kind,
+            series: w.series.clone(),
             source_urls: source_urls(&w.sources),
         }
     }
@@ -35,10 +41,21 @@ pub struct EventView {
     pub basis: EvidenceBasis,
     pub recording_named_members: Vec<Member>,
     pub planned_members: Vec<Member>,
+    pub credited_members: Vec<Member>,
+    pub announced_members: Vec<Member>,
+    pub absent_members: Vec<Member>,
+    pub credited_performers: Vec<String>,
+    pub credited_group: Option<String>,
+    pub relations: Vec<EventRelation>,
+    pub plan_ids: Vec<String>,
+    pub text: Option<String>,
+    pub notes: Vec<String>,
     pub host_member: Option<Member>,
     pub guests: Vec<Guest>,
     pub stages: Vec<Stage>,
     pub title_hours: Vec<u8>,
+    pub recordings: Vec<Asset>,
+    pub preferred_recording_bvid: Option<Bvid>,
     pub content_type: Option<ContentType>,
     pub series: Option<String>,
     pub dimension: Option<Dimension>,
@@ -56,10 +73,21 @@ impl From<&Event> for EventView {
             basis: e.basis,
             recording_named_members: e.recording_named_members.clone(),
             planned_members: e.planned_members.clone(),
+            credited_members: e.credited_members.clone(),
+            announced_members: e.announced_members.clone(),
+            absent_members: e.absent_members.clone(),
+            credited_performers: e.credited_performers.clone(),
+            credited_group: e.credited_group.clone(),
+            relations: e.relations.clone(),
+            plan_ids: e.plan_ids.clone(),
+            text: e.text.clone(),
+            notes: e.notes.clone(),
             host_member: e.host_member,
             guests: e.guests.clone(),
             stages: e.stages.clone(),
             title_hours: e.title_hours.clone(),
+            recordings: e.recordings.clone(),
+            preferred_recording_bvid: e.preferred_recording_bvid.clone(),
             content_type: e.content_type,
             series: e.series.clone(),
             dimension: e.dimension,
@@ -79,6 +107,13 @@ pub struct PerformanceView {
     pub kind: PerformanceKind,
     pub credited_members: Vec<Member>,
     pub credited_group: Option<String>,
+    pub credited_performers: Vec<String>,
+    pub member_roles: Vec<MemberRole>,
+    pub stage_name: Option<String>,
+    pub instrument: Option<String>,
+    pub reference_artist: Option<String>,
+    pub assets: Vec<Asset>,
+    pub notes: Vec<String>,
     pub source_urls: Vec<String>,
 }
 impl From<&Performance> for PerformanceView {
@@ -91,15 +126,29 @@ impl From<&Performance> for PerformanceView {
             kind: p.kind,
             credited_members: p.credited_members.clone(),
             credited_group: p.credited_group.clone(),
+            credited_performers: p.credited_performers.clone(),
+            member_roles: p.member_roles.clone(),
+            stage_name: p.stage_name.clone(),
+            instrument: p.instrument.clone(),
+            reference_artist: p.reference_artist.clone(),
+            assets: p.assets.clone(),
+            notes: p.notes.clone(),
             source_urls: source_urls(&p.sources),
         }
     }
 }
 #[derive(Debug, Serialize, JsonSchema)]
+#[serde(rename_all = "kebab-case")]
+pub enum RecordingDateBasis {
+    Event,
+    Title,
+}
+#[derive(Debug, Serialize, JsonSchema)]
 #[serde(rename_all = "camelCase")]
 pub struct RecordingView {
     pub bvid: Bvid,
-    pub date: NaiveDate,
+    pub title_session: TitleSession,
+    pub date_basis: RecordingDateBasis,
     pub event_ids: Vec<String>,
     pub title: String,
     pub uploader_name: Option<String>,

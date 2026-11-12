@@ -153,3 +153,13 @@ fn every_confirmed_change_is_reachable_with_its_identity_and_links() -> Result<(
 fn from_value(value: serde_json::Value) -> anyhow::Result<Archive> {
     Archive::new(serde_json::from_value(value)?)
 }
+
+#[test]
+fn replacement_relations_must_be_acyclic() -> Result<()> {
+    let mut a = change("a", json!({"kind":"dates","dates":["2024-01-01"]}));
+    let mut b = change("b", json!({"kind":"dates","dates":["2024-01-01"]}));
+    a["replacesChangeIds"] = json!(["b"]);
+    b["replacesChangeIds"] = json!(["a"]);
+    assert!(fixture(vec![a, b]).is_err());
+    Ok(())
+}

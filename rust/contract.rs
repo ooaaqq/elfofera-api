@@ -67,6 +67,10 @@ impl Validate for SearchQuery {
     fn validate(&self) -> Result<()> {
         for text in [&self.q, &self.artist].into_iter().flatten() {
             ensure!(
+                !text.chars().any(char::is_control),
+                "search must not contain control characters"
+            );
+            ensure!(
                 !normalize(text.trim()).is_empty(),
                 "search must contain letters or numbers"
             );
@@ -186,7 +190,7 @@ impl Definition {
                         .context("expected nonnegative integer")?
                 )
             } else {
-                json!(value.trim())
+                json!(value.as_ref())
             };
             object.insert(key.into_owned(), value);
         }

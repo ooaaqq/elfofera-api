@@ -331,6 +331,20 @@ fn adopted_work_and_event_associations_preserve_dates_identity_and_renditions() 
 #[test]
 fn current_plans_and_changes_do_not_replace_actual_broadcast_evidence() -> Result<()> {
     let a = confirmed()?;
+    for event in &a.data.events {
+        ensure!(
+            !event.sources.is_empty(),
+            "event {} lost its public source",
+            event.id
+        );
+    }
+    for change in &a.data.changes {
+        ensure!(
+            !change.sources.is_empty(),
+            "change {} lost its public source",
+            change.id
+        );
+    }
     let matches = sessions(&a, "2026-10-29", None);
     let e = sole(&matches)?;
     assert!(

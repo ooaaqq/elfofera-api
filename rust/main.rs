@@ -32,16 +32,13 @@ enum Command {
     Serve {
         #[arg(long)]
         snapshot: PathBuf,
+        #[arg(long, default_value = "127.0.0.1:3000")]
+        listen: std::net::SocketAddr,
     },
-}
-async fn shutdown() -> Result<()> {
-    let mut term = tokio::signal::unix::signal(tokio::signal::unix::SignalKind::terminate())?;
-    tokio::select! {r=tokio::signal::ctrl_c()=>r?,_=term.recv()=>{}}
-    Ok(())
 }
 #[tokio::main]
 async fn main() -> Result<()> {
-    tracing_subscriber::fmt::init();
+    tracing_subscriber::fmt().with_ansi(false).init();
     match Args::parse().command {
         Command::Contract { output } => {
             std::fs::create_dir_all(&output)?;
@@ -60,26 +57,36 @@ async fn main() -> Result<()> {
                 "validated snapshot built"
             );
         }
-        Command::Serve { snapshot } => {
-            let archive = Archive::new(read_json(&snapshot)?)?;
+        Command::Serve { snapshot, listen } => {
+            let archive = Archive::new(read_json(&snapshot)?)
+                .with_context(|| format!("invalid snapshot {}", snapshot.display()))?;
             let app = router(App {
                 archive,
                 contract: Contract::new()?,
             });
-            let listener = tokio::net::TcpListener::bind("127.0.0.1:3000").await?;
-            let (stopped_tx, stopped_rx) = tokio::sync::oneshot::channel();
+            let mut terminate =
+                tokio::signal::unix::signal(tokio::signal::unix::SignalKind::terminate())?;
+            let mut interrupt =
+                tokio::signal::unix::signal(tokio::signal::unix::SignalKind::interrupt())?;
+            let shutdown = async {
+                tokio::select! { value=terminate.recv()=>value,value=interrupt.recv()=>value }
+            };
+            let listener = tokio::net::TcpListener::bind(listen).await?;
+            tracing::info!(address=%listener.local_addr()?,"archive API ready");
+            let (stop_tx, stop_rx) = tokio::sync::oneshot::channel();
             let server = axum::serve(listener, app)
                 .with_graceful_shutdown(async {
-                    if let Err(error) = shutdown().await {
-                        tracing::error!(%error,"signal handler failed");
-                    }
-                    let _ = stopped_tx.send(());
+                    let _ = stop_rx.await;
                 })
                 .into_future();
             tokio::pin!(server);
             tokio::select! {
                 result=&mut server=>result.context("HTTP server failed")?,
-                _=stopped_rx=>tokio::time::timeout(Duration::from_secs(10),server).await.context("graceful shutdown timed out")??,
+                result=shutdown=>{
+                    result.context("signal stream closed")?;
+                    let _=stop_tx.send(());
+                    tokio::time::timeout(Duration::from_secs(10),server).await.context("graceful shutdown timed out")??;
+                },
             }
         }
     }

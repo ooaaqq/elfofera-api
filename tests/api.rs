@@ -4,6 +4,7 @@ use axum::{
     body::Body,
     http::{Request, StatusCode},
 };
+use chrono::Datelike;
 use elfofera_api::{
     contract::Contract,
     data::{Archive, normalize},
@@ -13,7 +14,7 @@ use elfofera_api::{
 };
 use http_body_util::BodyExt;
 use serde_json::{Value, json};
-use std::path::Path;
+use std::{collections::BTreeSet, path::Path};
 use tower::ServiceExt;
 
 fn confirmed() -> Result<Archive> {
@@ -43,6 +44,8 @@ async fn boundary_rejects_invalid_dates_ranges_and_parameters() -> Result<()> {
         "from=2026-01-01&through=2026-02-01",
         "from=2026-10-11&through=2026-10-10",
         "from=2026-10-11&through=2026-10-11&member=unknown",
+        "from=%202026-10-11&through=2026-10-11",
+        "from=2026-10-11&through=2026-10-11&member=%20luzao",
         "from=2026-10-11&through=2026-10-11&include=events,wrong",
         "from=2026-10-11&through=2026-10-11&include=events,events",
     ] {
@@ -54,6 +57,11 @@ async fn boundary_rejects_invalid_dates_ranges_and_parameters() -> Result<()> {
     }
     for query in [
         "q=!!!",
+        "q=%00",
+        "q=abc%00",
+        "q=%0Aabc",
+        "q=%E2%80%8D",
+        "q=%CC%81",
         "limit=101",
         "limit=0",
         "offset=-1",
@@ -86,6 +94,9 @@ async fn boundary_rejects_invalid_dates_ranges_and_parameters() -> Result<()> {
         request(&app, "/songs").await?.1,
         json!({"error":"not_found"})
     );
+    let malformed = request(&app, "/v1/works/%FF/history").await?;
+    assert_eq!(malformed.0, StatusCode::BAD_REQUEST);
+    assert!(malformed.1["error"].is_string());
     let health = request(&app, "/health").await?;
     assert_eq!(health.1, json!({"service":"available"}));
     assert_eq!(health.2["cache-control"], "no-store");
@@ -99,29 +110,32 @@ async fn every_confirmed_month_satisfies_the_generated_response_contract() -> Re
     let validator = jsonschema::options()
         .should_validate_formats(true)
         .build(schema)?;
+    let months = archive
+        .by_date
+        .keys()
+        .map(|date| (date.year(), date.month()))
+        .collect::<BTreeSet<_>>();
     let app = app(archive)?;
-    for year in 2022..=2026 {
-        for month in 1..=12 {
-            let from = chrono::NaiveDate::from_ymd_opt(year, month, 1).context("month start")?;
-            let (next_year, next_month) = if month == 12 {
-                (year + 1, 1)
-            } else {
-                (year, month + 1)
-            };
-            let through = chrono::NaiveDate::from_ymd_opt(next_year, next_month, 1)
-                .and_then(|d| d.pred_opt())
-                .context("month end")?;
-            let (status,body,headers)=request(&app,&format!("/v1/timeline?from={from}&through={through}&include=events,plans,performances,recordings,changes")).await?;
-            assert_eq!(status, StatusCode::OK);
-            assert_eq!(headers["cache-control"], "public, max-age=60");
-            validator
-                .validate(&body)
-                .map_err(|e| anyhow::anyhow!("{from}: {e}"))?;
-            assert_eq!(
-                body["days"].as_array().context("days")?.len(),
-                (through - from).num_days() as usize + 1
-            );
-        }
+    for (year, month) in months {
+        let from = chrono::NaiveDate::from_ymd_opt(year, month, 1).context("month start")?;
+        let (next_year, next_month) = if month == 12 {
+            (year + 1, 1)
+        } else {
+            (year, month + 1)
+        };
+        let through = chrono::NaiveDate::from_ymd_opt(next_year, next_month, 1)
+            .and_then(|d| d.pred_opt())
+            .context("month end")?;
+        let (status,body,headers)=request(&app,&format!("/v1/timeline?from={from}&through={through}&include=events,plans,performances,recordings,changes")).await?;
+        assert_eq!(status, StatusCode::OK);
+        assert_eq!(headers["cache-control"], "public, max-age=60");
+        validator
+            .validate(&body)
+            .map_err(|e| anyhow::anyhow!("{from}: {e}"))?;
+        assert_eq!(
+            body["days"].as_array().context("days")?.len(),
+            (through - from).num_days() as usize + 1
+        );
     }
     Ok(())
 }

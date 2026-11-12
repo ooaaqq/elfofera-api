@@ -47,9 +47,21 @@ pub fn router(app: App) -> Router {
             definition.path,
             get(
                 move |State(app): State<Arc<App>>,
-                      Path(path): Path<std::collections::HashMap<String, String>>,
+                      path: Result<
+                    Path<std::collections::HashMap<String, String>>,
+                    axum::extract::rejection::PathRejection,
+                >,
                       RawQuery(query): RawQuery| async move {
-                    respond(&app, index, path.get("workId").cloned(), query)
+                    match path {
+                        Ok(Path(path)) => respond(&app, index, path.get("workId").cloned(), query),
+                        Err(_) => (
+                            StatusCode::BAD_REQUEST,
+                            Json(ErrorBody {
+                                error: "invalid path encoding".to_owned(),
+                            }),
+                        )
+                            .into_response(),
+                    }
                 },
             ),
         );

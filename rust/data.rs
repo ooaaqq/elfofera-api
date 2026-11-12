@@ -4,7 +4,6 @@ use std::{
     collections::{HashMap, HashSet},
     path::Path,
 };
-use unicode_categories::UnicodeCategories;
 use unicode_normalization::UnicodeNormalization;
 
 #[derive(Default)]
@@ -21,10 +20,9 @@ pub struct Archive {
     pub events: HashMap<String, usize>,
     pub works: HashMap<String, usize>,
     pub by_work: HashMap<String, Vec<usize>>,
-    pub by_event: HashMap<String, Vec<usize>>,
     pub by_recording: HashMap<Bvid, Vec<usize>>,
     pub sorted_works: Vec<usize>,
-    pub search: Vec<(String, String)>,
+    pub search: Vec<(Vec<String>, Vec<String>)>,
 }
 fn identities<'a>(keys: impl Iterator<Item = &'a str>) -> Result<HashMap<String, usize>> {
     let mut map = HashMap::new();
@@ -102,7 +100,6 @@ impl Archive {
         let dates = data.plans.iter().map(|e| e.date).collect::<HashSet<_>>();
         ensure!(dates.len() == data.plans.len(), "duplicate plan date");
         let mut by_work: HashMap<String, Vec<usize>> = HashMap::new();
-        let mut by_event: HashMap<String, Vec<usize>> = HashMap::new();
         let mut by_recording: HashMap<Bvid, Vec<usize>> = HashMap::new();
         for (i, event) in data.events.iter().enumerate() {
             (|| -> Result<()> {
@@ -230,13 +227,17 @@ impl Archive {
                 Ok(())
             })()
             .with_context(|| format!("performance {}", p.id))?;
-            let event = &data.events[*events
-                .get(&p.event_id)
-                .context("unlinked performance event")?];
+            let event = &data.events[*events.get(&p.event_id).with_context(|| {
+                format!(
+                    "performance {} references missing eventId {}",
+                    p.id, p.event_id
+                )
+            })?];
             ensure!(
                 works.contains_key(&p.work_id),
-                "unlinked performance work {}",
-                p.id
+                "performance {} references missing workId {}",
+                p.id,
+                p.work_id
             );
             ensure!(
                 event.kind != EventKind::Announcement,
@@ -244,12 +245,11 @@ impl Archive {
                 p.id
             );
             ensure!(
-                event.date == p.date,
+                event.contains_date(p.date),
                 "performance date differs from event {}",
                 p.id
             );
             by_work.entry(p.work_id.clone()).or_default().push(i);
-            by_event.entry(p.event_id.clone()).or_default().push(i);
         }
         for indexes in by_work.values_mut() {
             indexes.sort_by_key(|i| (data.performances[*i].date, &data.performances[*i].id));
@@ -314,21 +314,24 @@ impl Archive {
         let search = data
             .works
             .iter()
-            .map(|w| {
+            .map(|work| {
                 (
-                    normalize(
-                        &std::iter::once(w.title.as_str())
-                            .chain(w.aliases.iter().map(String::as_str))
-                            .collect::<Vec<_>>()
-                            .join(" "),
-                    ),
-                    normalize(&w.original_artists.join(" ")),
+                    std::iter::once(&work.title)
+                        .chain(&work.aliases)
+                        .map(|title| normalize(title))
+                        .collect(),
+                    work.original_artists
+                        .iter()
+                        .map(|name| normalize(name))
+                        .collect(),
                 )
             })
             .collect();
         let mut by_date: HashMap<chrono::NaiveDate, DayIndex> = HashMap::new();
         for (i, row) in data.events.iter().enumerate() {
-            by_date.entry(row.date).or_default().events.push(i);
+            for date in row.dates() {
+                by_date.entry(date).or_default().events.push(i);
+            }
         }
         for (i, row) in data.performances.iter().enumerate() {
             by_date.entry(row.date).or_default().performances.push(i);
@@ -337,11 +340,16 @@ impl Archive {
             by_date.entry(row.date).or_default().plans.push(i);
         }
         for (i, row) in data.recordings.iter().enumerate() {
-            by_date
-                .entry(row.title_session.date)
-                .or_default()
-                .recordings
-                .push(i);
+            let dates = match by_recording.get(&row.bvid) {
+                Some(events) => events
+                    .iter()
+                    .flat_map(|index| data.events[*index].dates())
+                    .collect::<std::collections::BTreeSet<_>>(),
+                None => std::collections::BTreeSet::from([row.title_session.date]),
+            };
+            for date in dates {
+                by_date.entry(date).or_default().recordings.push(i);
+            }
         }
         for (i, row) in data.changes.iter().enumerate() {
             row.validate()?;
@@ -392,6 +400,20 @@ impl Archive {
                 by_date.entry(date).or_default().changes.push(i);
             }
         }
+        for change in &data.changes {
+            let mut pending = change.replaces_change_ids.iter().collect::<Vec<_>>();
+            let mut visited = HashSet::new();
+            while let Some(id) = pending.pop() {
+                ensure!(
+                    id != &change.id,
+                    "change {} has a cyclic replacement relation",
+                    change.id
+                );
+                if visited.insert(id) {
+                    pending.extend(&data.changes[changes[id]].replaces_change_ids);
+                }
+            }
+        }
         for day in by_date.values_mut() {
             day.events.sort_by_key(|i| &data.events[*i].id);
             day.changes.sort_by_key(|i| &data.changes[*i].id);
@@ -402,7 +424,6 @@ impl Archive {
             events,
             works,
             by_work,
-            by_event,
             by_recording,
             sorted_works,
             search,
@@ -410,6 +431,7 @@ impl Archive {
     }
     pub fn read(directory: &Path) -> Result<Self> {
         Self::new(Dataset::read(directory)?)
+            .with_context(|| format!("invalid confirmed archive {}", directory.display()))
     }
 }
 #[derive(serde::Deserialize)]
@@ -526,6 +548,6 @@ pub fn normalize(value: &str) -> String {
     value
         .nfkc()
         .flat_map(char::to_lowercase)
-        .filter(|c| !c.is_punctuation() && !c.is_symbol() && !c.is_whitespace())
+        .filter(|c| c.is_alphanumeric())
         .collect()
 }

@@ -34,7 +34,7 @@ cargo run --locked --release -- serve --snapshot dist/archive.json
 curl --fail http://127.0.0.1:3000/health
 ```
 
-`.local/`、登录状态和研究备份均被 Git 忽略。应用监听 `127.0.0.1:3000`。
+`.local/`、登录状态和研究备份均被 Git 忽略。默认监听 `127.0.0.1:3000`，可用 `serve --listen <地址:端口>` 显式指定。信号处理器和快照就绪后才监听，SIGINT／SIGTERM 触发最长 10 秒的优雅退出。
 `rust/model.rs` 定义确认资料，`data.rs` 读取与校验关联并预先建立日期与关联索引、搜索文本和中文排序；
 `queries.rs` 查询，`views.rs` 投影公开字段。`contract.rs` 的 Rust 输入类型同时用于请求校验、OpenAPI 和工具契约。
 
