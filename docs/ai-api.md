@@ -28,6 +28,13 @@ GET /v1/timeline?from=2026-10-09&through=2026-10-09&member=luzao&include=events,
 不增加直播场次。`titleHours` 来自录播标题，不表示精确开播时间；事件的
 `dimension` 表示主要录播形态，完整切换过程参照阶段记录。
 
+变更的 `id` 是持久身份，跨日展示或资料排序变化不会改变。`impact` 明确区分
+`dates`（指定日期集合）、`range`（包含两端的影响范围）、`ongoing`（结束未知，仅在起始日展示）
+和 `undated`（影响日期未定，在 `announcedOn` 展示）。不会把未知结束日期展开到未来。
+变更返回 `before`、`after` 的已确认安排、`eventIds`、`announcementEventIds`、`relatedPlanDates`、
+`replacesChangeIds`、`notes` 和结构化 `sources`（`url` 及可选 `summary`）。公告与被影响事件分别关联；
+部分安排未知时保留空值，不以实际事件回填公告当时尚未公布的信息。
+
 `member` 支持 `luzao`（露早）、`youen`（柚恩）、`yumo`（虞莫）、`waner`（莞儿）和
 `minuo`（米诺）。事件按录播明确提及的成员、开播成员 `hostMember` 或计划成员筛选；这些身份在返回值中
 分别保留。表演只按明确的 `creditedMembers` 筛选，不从整场参与者或上传者推断
@@ -77,7 +84,7 @@ GET /v1/works/song_xxx/history?from=2022-07-24&through=2023-12-31&member=youen
 - `completeness: known-records` 表示已确认的子集；空结果不能证明从未直播或演唱。
 - 计划、取消、改期和实际事件分别返回，不能把计划当作发生证据。
 - 成员没有明确署名时保留未知，不从录播上传者或整场参与者推断歌曲演唱者。
-- 回答可引用 `sourceUrls` 和录播 `url`（`eventIds` 保留合集关联的所有场次）。接口不返回本机 evidence 路径、研究摘录或完整来源原记录。
+- 回答可引用 `sourceUrls`、变更的 `sources[].url` 和录播 `url`（`eventIds` 保留合集关联的所有场次）。接口不返回本机 evidence 路径、研究摘录或完整来源原记录。
 - 请求失败明确报告查询未完成；400 修正参数，404 核对作品 ID，不能把失败当成空结果。
 
 AstrBot 插件消费本项目 `dist/tools.json`。工具字段、路由和限制由 Rust 请求类型和 JSON Schema生成，

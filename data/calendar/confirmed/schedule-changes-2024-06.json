@@ -1,188 +1,489 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "943922104120639488",
-      "relatedAnnouncementEventId": "evt_7dae166e-ab46-4b7c-a965-d70a13efa1b9",
-      "date": "2024-06-17",
-      "action": "cancel",
-      "member": "yumo",
-      "plannedTime": "20:00",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-06-17/events/0"
+      "id": "chg_ad558f21-3c5d-41a0-94b3-592c00ed6938",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-06-17"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "943922104120639488"
-      }
+      "members": [
+        "yumo"
+      ],
+      "before": [
+        {
+          "date": "2024-06-17",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "members": [
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_7dae166e-ab46-4b7c-a965-d70a13efa1b9"
+      ],
+      "relatedPlanDates": [
+        "2024-06-17"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/943922104120639488"
+        }
+      ],
+      "announcedOn": "2024-06-17"
     },
     {
-      "announcementId": "946123016924823558",
-      "relatedAnnouncementEventId": "evt_349f5f53-938b-4cf4-b7c8-e46daaf96a59",
-      "date": "2024-06-23",
-      "action": "cancel",
-      "member": "minuo",
-      "plannedTime": "19:00",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-06-23/events/0"
+      "id": "chg_1aeec0fe-a249-40a1-8ed9-238e00af8a05",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-06-23"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "946123016924823558"
-      }
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2024-06-23",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_349f5f53-938b-4cf4-b7c8-e46daaf96a59"
+      ],
+      "relatedPlanDates": [
+        "2024-06-23"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/946123016924823558"
+        }
+      ],
+      "announcedOn": "2024-06-23"
     },
     {
-      "announcementId": "946964139265228805",
-      "relatedAnnouncementEventId": "evt_a7f43d34-b0c0-4e96-802f-01c262c8d054",
-      "date": "2024-06-25",
-      "action": "cancel",
-      "member": "minuo",
-      "plannedTime": "21:00",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-06-25/events/1"
+      "id": "chg_b25bfb63-e707-4967-b837-5f10388a2b18",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-06-25"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "946964139265228805"
-      }
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2024-06-25",
+          "events": [
+            {
+              "plannedTime": "21:00",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_a7f43d34-b0c0-4e96-802f-01c262c8d054"
+      ],
+      "relatedPlanDates": [
+        "2024-06-25"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/946964139265228805"
+        }
+      ],
+      "announcedOn": "2024-06-25"
     },
     {
-      "announcementId": "948362073573687304",
-      "relatedAnnouncementEventId": "evt_fd895432-5342-4d8b-a814-03eb3ca0a017",
-      "date": "2024-06-29",
-      "action": "cancel",
-      "member": "minuo",
-      "plannedTime": "20:40",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-06-29/events/1"
+      "id": "chg_07ee9388-ca9a-44fe-afd2-fa85e1da8875",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-06-29"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "948362073573687304"
-      }
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2024-06-29",
+          "events": [
+            {
+              "plannedTime": "20:40",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_fd895432-5342-4d8b-a814-03eb3ca0a017"
+      ],
+      "relatedPlanDates": [
+        "2024-06-29"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/948362073573687304"
+        }
+      ],
+      "announcedOn": "2024-06-29"
     },
     {
-      "announcementId": "945821763860693041",
-      "relatedAnnouncementEventId": "evt_bf307209-0658-4df0-a14e-64abd0718cb9",
-      "date": "2024-06-22",
-      "action": "member-absence",
-      "member": "minuo",
-      "plannedTime": "19:30",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-06-22/events/0"
+      "id": "chg_c4d7caee-272b-48ba-9a09-7cfa798227b7",
+      "action": "absence",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-06-22"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "945821763860693041"
-      }
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2024-06-22",
+          "events": [
+            {
+              "plannedTime": "19:30",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_bf307209-0658-4df0-a14e-64abd0718cb9"
+      ],
+      "relatedPlanDates": [
+        "2024-06-22"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/945821763860693041"
+        }
+      ],
+      "announcedOn": "2024-06-22"
     },
     {
-      "announcementId": "947974401262878759",
-      "relatedAnnouncementEventId": "evt_8acb8679-04a1-4a0a-9335-ea3629eec742",
-      "date": "2024-06-28",
+      "id": "chg_2fff87b0-2302-406a-90a4-f3cb67395f70",
       "action": "time-change",
-      "member": "youen",
-      "fromPlannedTime": "19:00",
-      "toPlannedTime": "18:30",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-06-28/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-06-28"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "947974401262878759"
-      }
+      "members": [
+        "youen"
+      ],
+      "before": [
+        {
+          "date": "2024-06-28",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2024-06-28",
+          "events": [
+            {
+              "plannedTime": "18:30",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_8acb8679-04a1-4a0a-9335-ea3629eec742"
+      ],
+      "relatedPlanDates": [
+        "2024-06-28"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/947974401262878759"
+        }
+      ],
+      "announcedOn": "2024-06-28"
     },
     {
-      "announcementId": "947974401262878759",
-      "relatedAnnouncementEventId": "evt_8acb8679-04a1-4a0a-9335-ea3629eec742",
-      "date": "2024-06-28",
+      "id": "chg_fc175409-d58c-4300-9072-344181287489",
       "action": "schedule-announcement",
-      "member": "youen",
-      "title": "观看绝区零前瞻直播",
-      "plannedTime": "18:30",
-      "formatLabel": "2D",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-06-28/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-06-28"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "947974401262878759"
-      }
+      "members": [
+        "youen"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-06-28",
+          "events": [
+            {
+              "plannedTime": "18:30",
+              "title": "观看绝区零前瞻直播",
+              "formatLabel": "2D",
+              "members": [
+                "youen"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_8acb8679-04a1-4a0a-9335-ea3629eec742"
+      ],
+      "relatedPlanDates": [
+        "2024-06-28"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/947974401262878759"
+        }
+      ],
+      "announcedOn": "2024-06-28",
+      "title": "观看绝区零前瞻直播"
     },
     {
-      "announcementId": "947974401262878759",
-      "relatedAnnouncementEventId": "evt_8acb8679-04a1-4a0a-9335-ea3629eec742",
-      "date": "2024-06-28",
+      "id": "chg_2c2b28dc-6685-418a-af16-ae600bdb2cb1",
       "action": "format-change",
-      "member": "youen",
-      "fromFormatLabel": null,
-      "toFormatLabel": "2D",
-      "note": "原图未标形式，不能由该公告倒推出原计划为3D。",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-06-28/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-06-28"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "947974401262878759"
-      }
+      "members": [
+        "youen"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-06-28",
+          "events": [
+            {
+              "formatLabel": "2D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_8acb8679-04a1-4a0a-9335-ea3629eec742"
+      ],
+      "relatedPlanDates": [
+        "2024-06-28"
+      ],
+      "notes": [
+        "原图未标形式，不能由该公告倒推出原计划为3D。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/947974401262878759"
+        }
+      ],
+      "announcedOn": "2024-06-28"
     },
     {
-      "announcementId": "947974401262878759",
-      "relatedAnnouncementEventId": "evt_8acb8679-04a1-4a0a-9335-ea3629eec742",
-      "date": "2024-06-28",
+      "id": "chg_c8288d5f-94a4-489f-996b-2f8ea1186f4f",
       "action": "time-change",
-      "member": "yumo",
-      "fromPlannedTime": "21:00",
-      "toPlannedTime": "18:30",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-06-28/events/1"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-06-28"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "947974401262878759"
-      }
+      "members": [
+        "yumo"
+      ],
+      "before": [
+        {
+          "date": "2024-06-28",
+          "events": [
+            {
+              "plannedTime": "21:00",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2024-06-28",
+          "events": [
+            {
+              "plannedTime": "18:30",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_8acb8679-04a1-4a0a-9335-ea3629eec742"
+      ],
+      "relatedPlanDates": [
+        "2024-06-28"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/947974401262878759"
+        }
+      ],
+      "announcedOn": "2024-06-28"
     },
     {
-      "announcementId": "947974401262878759",
-      "relatedAnnouncementEventId": "evt_8acb8679-04a1-4a0a-9335-ea3629eec742",
-      "date": "2024-06-28",
+      "id": "chg_83b5c911-aed1-49b2-ad17-ae296cd7c4ed",
       "action": "schedule-announcement",
-      "member": "yumo",
-      "title": "观看绝区零前瞻直播",
-      "plannedTime": "18:30",
-      "formatLabel": "2D",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-06-28/events/1"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-06-28"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "947974401262878759"
-      }
+      "members": [
+        "yumo"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-06-28",
+          "events": [
+            {
+              "plannedTime": "18:30",
+              "title": "观看绝区零前瞻直播",
+              "formatLabel": "2D",
+              "members": [
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_8acb8679-04a1-4a0a-9335-ea3629eec742"
+      ],
+      "relatedPlanDates": [
+        "2024-06-28"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/947974401262878759"
+        }
+      ],
+      "announcedOn": "2024-06-28",
+      "title": "观看绝区零前瞻直播"
     },
     {
-      "announcementId": "948362073573687304",
-      "relatedAnnouncementEventId": "evt_fd895432-5342-4d8b-a814-03eb3ca0a017",
-      "date": "2024-06-29",
+      "id": "chg_aee99c97-df62-4246-8e84-8ea72bc00cc6",
       "action": "schedule-announcement",
-      "member": "minuo",
-      "effectiveFrom": "2024-07-01",
-      "text": "米诺减少直播安排作休养调整；自下周起更多投入个人3D及2D单播，多人直播以双人及三人形式呈现。",
-      "scope": "forward-policy",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "948362073573687304"
+      "impact": {
+        "kind": "ongoing",
+        "from": "2024-07-01"
       },
-      "note": "后续方针仅按公告收录；不推断停止活动，不据此修改任何具体日期的名单或确认实际执行。"
+      "members": [
+        "minuo"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-06-29",
+          "events": [
+            {
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_fd895432-5342-4d8b-a814-03eb3ca0a017"
+      ],
+      "relatedPlanDates": [],
+      "notes": [
+        "forward-policy",
+        "后续方针仅按公告收录；不推断停止活动，不据此修改任何具体日期的名单或确认实际执行。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/948362073573687304"
+        }
+      ],
+      "announcedOn": "2024-06-29",
+      "text": "米诺减少直播安排作休养调整；自下周起更多投入个人3D及2D单播，多人直播以双人及三人形式呈现。"
     }
   ]
 }

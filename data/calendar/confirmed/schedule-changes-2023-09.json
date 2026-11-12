@@ -1,21 +1,43 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "844903441033592832",
+      "id": "chg_06581d2d-82f4-4a07-9543-47a5e9b6763f",
       "action": "cancellation",
-      "date": "2023-09-24",
-      "member": "yumo",
-      "plannedTime": "21:30",
-      "relatedEventId": "evt_38a244f1-6d6f-4a4a-a6c6-905c8cbe483e",
-      "evidence": {
-        "file": "../evidence/history-01/dynamics-2023.json",
-        "locator": "844903441033592832"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2023-09-24"
+        ]
       },
-      "memberEvidence": {
-        "file": "../evidence/september-2023-official-details.json",
-        "locator": "844903441033592832"
-      }
+      "members": [
+        "yumo"
+      ],
+      "before": [
+        {
+          "date": "2023-09-24",
+          "events": [
+            {
+              "plannedTime": "21:30",
+              "members": [
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [
+        "evt_38a244f1-6d6f-4a4a-a6c6-905c8cbe483e"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/844903441033592832"
+        }
+      ]
     }
   ]
 }

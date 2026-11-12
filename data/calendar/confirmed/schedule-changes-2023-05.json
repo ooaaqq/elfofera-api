@@ -1,71 +1,190 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "799558353400365171",
-      "relatedAnnouncementEventId": "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b",
-      "evidence": {
-        "file": "../evidence/round-02-schedule-notice-2023-05-25.json",
-        "locator": "799558353400365171"
+      "id": "chg_101ed153-4bb2-4218-90e7-2e47558002e0",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2023-05-26"
+        ]
       },
-      "action": "cancel",
-      "date": "2023-05-26",
-      "member": "waner",
-      "plannedTime": "19:00",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2023-05-26/events/0"
-      },
-      "scope": "公告发布后本周个人直播取消；不倒推已发生场次取消。"
-    },
-    {
-      "announcementId": "799558353400365171",
-      "relatedAnnouncementEventId": "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b",
-      "evidence": {
-        "file": "../evidence/round-02-schedule-notice-2023-05-25.json",
-        "locator": "799558353400365171"
-      },
-      "action": "tentative-absence",
-      "member": "waner",
-      "fromDate": "2023-05-25",
-      "throughDate": "2023-05-28",
-      "scope": "暂定缺席本周团播，不等同实际出席结论。",
-      "relatedPlans": [
+      "members": [
+        "waner"
+      ],
+      "before": [
         {
-          "file": "plans.json",
-          "locator": "2023-05-28/events/0"
+          "date": "2023-05-26",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "members": [
+                "waner"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
         }
-      ]
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b"
+      ],
+      "relatedPlanDates": [
+        "2023-05-26"
+      ],
+      "notes": [
+        "公告发布后本周个人直播取消；不倒推已发生场次取消。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/799558353400365171"
+        }
+      ],
+      "announcedOn": "2023-05-25"
     },
     {
-      "announcementId": "799558353400365171",
-      "relatedAnnouncementEventId": "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b",
-      "evidence": {
-        "file": "../evidence/round-02-schedule-notice-2023-05-25.json",
-        "locator": "799558353400365171"
+      "id": "chg_cb9b0b4b-3d83-44cc-888a-3902aeb5091b",
+      "action": "tentative-absence",
+      "impact": {
+        "kind": "range",
+        "from": "2023-05-25",
+        "through": "2023-05-28"
       },
+      "members": [
+        "waner"
+      ],
+      "before": [
+        {
+          "date": "2023-05-25",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        },
+        {
+          "events": [
+            {
+              "members": [
+                "waner"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b"
+      ],
+      "relatedPlanDates": [
+        "2023-05-28"
+      ],
+      "notes": [
+        "暂定缺席本周团播，不等同实际出席结论。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/799558353400365171"
+        }
+      ],
+      "announcedOn": "2023-05-25"
+    },
+    {
+      "id": "chg_71eea312-4a8f-4b9c-9a0e-57fcbcd25cea",
       "action": "time-change",
-      "date": "2023-05-26",
-      "member": "yumo",
-      "fromTime": "20:30",
-      "toTime": "20:00",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2023-05-26/events/1"
-      }
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2023-05-26"
+        ]
+      },
+      "members": [
+        "yumo"
+      ],
+      "before": [
+        {
+          "date": "2023-05-26",
+          "events": [
+            {
+              "plannedTime": "20:30",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2023-05-26",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b"
+      ],
+      "relatedPlanDates": [
+        "2023-05-26"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/799558353400365171"
+        }
+      ],
+      "announcedOn": "2023-05-25"
     },
     {
-      "announcementId": "799558353400365171",
-      "relatedAnnouncementEventId": "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b",
-      "evidence": {
-        "file": "../evidence/round-02-schedule-notice-2023-05-25.json",
-        "locator": "799558353400365171"
+      "id": "chg_7e06be56-e876-4be7-a56e-5c33f8781700",
+      "action": "postponement",
+      "impact": {
+        "kind": "undated"
       },
-      "action": "postpone",
-      "members": ["waner", "yumo"],
-      "eventTitle": "双人才艺回",
-      "originalDateLabel": "2023年6月初",
-      "scope": "新日期未公布；不把6月3日周表双播自动等同延期才艺回。"
+      "members": [
+        "waner",
+        "yumo"
+      ],
+      "before": [
+        {
+          "events": [
+            {
+              "title": "双人才艺回",
+              "members": [
+                "waner",
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_ffd5c757-16f9-4d41-8d8a-a652a62cf39b"
+      ],
+      "relatedPlanDates": [],
+      "notes": [
+        "2023年6月初",
+        "新日期未公布；不把6月3日周表双播自动等同延期才艺回。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/799558353400365171"
+        }
+      ],
+      "announcedOn": "2023-05-25"
     }
   ]
 }

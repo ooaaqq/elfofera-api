@@ -1,34 +1,65 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "date": "2026-09-09",
+      "id": "chg_f7468fb3-20ce-4124-b5a8-5206c45a43eb",
       "action": "cancellation",
-      "members": ["youen"],
-      "originalPlan": {
-        "date": "2026-09-09",
-        "restDay": false,
-        "events": [
-          {
-            "members": ["youen"],
-            "plannedTime": "19:00",
-            "formatLabel": "3D",
-            "participation": "individual"
-          }
-        ],
-        "source": {
-          "dynamicId": "1245176304797483017",
-          "image": "../source/september-2026/1245176304797483017.jpg"
-        }
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2026-09-09"
+        ]
       },
-      "announcementEventId": "evt_da42183b-b4f9-4039-af9c-94a0f9e0df84",
-      "evidence": [
+      "members": [
+        "youen"
+      ],
+      "before": [
         {
-          "file": "../evidence/history-01/dynamics-2026.json",
-          "locator": "1245953648754688019"
+          "date": "2026-09-09",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "formatLabel": "3D",
+              "participation": "individual",
+              "members": [
+                "youen"
+              ]
+            }
+          ],
+          "nonStreamActivities": [],
+          "restDay": false,
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/1245176304797483017"
+            }
+          ]
+        },
+        {
+          "date": "2026-09-09",
+          "events": [
+            {
+              "members": [
+                "youen"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
         }
       ],
-      "note": "原19:00 3D计划保留，取消公告未给补播安排，不建立实际发生事件。"
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_da42183b-b4f9-4039-af9c-94a0f9e0df84"
+      ],
+      "relatedPlanDates": [],
+      "notes": [
+        "原19:00 3D计划保留，取消公告未给补播安排，不建立实际发生事件。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1245176304797483017"
+        }
+      ],
+      "announcedOn": "2026-09-09"
     }
   ]
 }

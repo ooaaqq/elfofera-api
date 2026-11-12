@@ -160,16 +160,11 @@ pub struct PlanView {
 #[derive(Debug, Serialize, JsonSchema)]
 #[serde(rename_all = "camelCase")]
 pub struct ChangeView {
-    pub id: String,
     pub date: NaiveDate,
-    pub action: String,
-    pub title: Option<String>,
-    pub members: Vec<String>,
-    pub from: Option<ChangeSlot>,
-    pub to: Option<ChangeSlot>,
-    pub event_id: Option<String>,
-    pub source_urls: Vec<String>,
+    #[serde(flatten)]
+    pub change: Change,
 }
+
 #[derive(Debug, Serialize, JsonSchema)]
 #[serde(rename_all = "camelCase")]
 pub struct Page {

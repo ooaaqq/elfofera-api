@@ -53,11 +53,9 @@ impl Archive {
         for row in &mut data.plans {
             row.source_urls = crate::views::source_urls(row)?;
         }
-        for row in &mut data.changes {
-            row.source_urls = crate::views::source_urls(row)?;
-        }
         let events = identities(data.events.iter().map(|e| e.id.as_str()))?;
         let works = identities(data.works.iter().map(|e| e.id.as_str()))?;
+        let changes = identities(data.changes.iter().map(|e| e.id.as_str()))?;
         identities(data.performances.iter().map(|e| e.id.as_str()))?;
         identities(data.recordings.iter().map(|e| e.bvid.as_str()))?;
         let dates = data.plans.iter().map(|e| e.date).collect::<HashSet<_>>();
@@ -160,20 +158,59 @@ impl Archive {
                 .push(i);
         }
         for (i, row) in data.changes.iter().enumerate() {
-            let dates = [
-                row.date,
-                row.from.as_ref().and_then(|r| r.date),
-                row.to.as_ref().and_then(|r| r.date),
-            ]
-            .into_iter()
-            .flatten()
-            .collect::<HashSet<_>>();
-            for date in dates {
+            row.validate()?;
+            for id in &row.event_ids {
+                ensure!(
+                    events.contains_key(id),
+                    "change {} references missing event {id}",
+                    row.id
+                );
+            }
+            for id in &row.announcement_event_ids {
+                let event = events.get(id).with_context(|| {
+                    format!("change {} references missing announcement {id}", row.id)
+                })?;
+                ensure!(
+                    data.events[*event].kind == "announcement",
+                    "change {} references non-announcement {id}",
+                    row.id
+                );
+            }
+            for id in &row.replaces_change_ids {
+                ensure!(
+                    id != &row.id && changes.contains_key(id),
+                    "change {} references invalid prior change {id}",
+                    row.id
+                );
+            }
+            for date in &row.related_plan_dates {
+                ensure!(
+                    dates.contains(date),
+                    "change {} references missing plan {date}",
+                    row.id
+                );
+            }
+            for source in row.sources.iter().chain(
+                row.before
+                    .iter()
+                    .chain(&row.after)
+                    .flat_map(|schedule| &schedule.sources),
+            ) {
+                let url = url::Url::parse(&source.url)
+                    .with_context(|| format!("change {} has invalid source URL", row.id))?;
+                ensure!(
+                    matches!(url.scheme(), "http" | "https") && url.host_str().is_some(),
+                    "change {} has non-HTTP source",
+                    row.id
+                );
+            }
+            for date in row.dates()? {
                 by_date.entry(date).or_default().changes.push(i);
             }
         }
         for day in by_date.values_mut() {
             day.events.sort_by_key(|i| &data.events[*i].id);
+            day.changes.sort_by_key(|i| &data.changes[*i].id);
         }
         Ok(Self {
             by_date,

@@ -1,132 +1,318 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "930231509105770529",
-      "relatedAnnouncementEventId": "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e",
-      "date": "2024-05-11",
-      "action": "cancel",
-      "plannedTime": "19:30",
-      "formatLabel": "3D",
-      "participation": "group",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-05-11/events/0"
+      "id": "chg_80b2445b-2517-4f61-ad7d-8b5946bbe36f",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-05-11"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "930231509105770529"
-      }
+      "members": [],
+      "before": [
+        {
+          "date": "2024-05-11",
+          "events": [
+            {
+              "plannedTime": "19:30",
+              "formatLabel": "3D",
+              "participation": "group",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e"
+      ],
+      "relatedPlanDates": [
+        "2024-05-11"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/930231509105770529"
+        }
+      ],
+      "announcedOn": "2024-05-11"
     },
     {
-      "announcementId": "930231509105770529",
-      "relatedAnnouncementEventId": "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e",
-      "date": "2024-05-11",
+      "id": "chg_8b4d6cd2-18ed-4916-985b-d1e888368bc8",
       "action": "additional-stream",
-      "member": "yumo",
-      "plannedTime": "19:30",
-      "plannedEndTime": "20:30",
-      "formatLabel": "电台/2D",
-      "replacesPlan": {
-        "file": "plans.json",
-        "locator": "2024-05-11/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-05-11"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "930231509105770529"
-      },
-      "participation": "individual"
+      "members": [
+        "yumo"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-05-11",
+          "events": [
+            {
+              "plannedTime": "19:30",
+              "plannedEndTime": "20:30",
+              "formatLabel": "电台/2D",
+              "participation": "individual",
+              "members": [
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e"
+      ],
+      "relatedPlanDates": [
+        "2024-05-11"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/930231509105770529"
+        }
+      ],
+      "announcedOn": "2024-05-11"
     },
     {
-      "announcementId": "930231509105770529",
-      "relatedAnnouncementEventId": "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e",
-      "date": "2024-05-11",
+      "id": "chg_242fc99b-4b95-4f25-967a-6ce1950ae3e6",
       "action": "additional-stream",
-      "member": "minuo",
-      "plannedTime": "20:30",
-      "plannedEndTime": "21:30",
-      "formatLabel": "电台/2D",
-      "replacesPlan": {
-        "file": "plans.json",
-        "locator": "2024-05-11/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-05-11"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "930231509105770529"
-      },
-      "participation": "individual"
+      "members": [
+        "minuo"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-05-11",
+          "events": [
+            {
+              "plannedTime": "20:30",
+              "plannedEndTime": "21:30",
+              "formatLabel": "电台/2D",
+              "participation": "individual",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e"
+      ],
+      "relatedPlanDates": [
+        "2024-05-11"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/930231509105770529"
+        }
+      ],
+      "announcedOn": "2024-05-11"
     },
     {
-      "announcementId": "930231509105770529",
-      "relatedAnnouncementEventId": "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e",
-      "date": "2024-05-11",
+      "id": "chg_9599f52c-e68d-440d-8af9-87d3b9e50c8d",
       "action": "additional-stream",
-      "member": "youen",
-      "plannedTime": "21:30",
-      "plannedEndTime": "22:30",
-      "formatLabel": "电台/2D",
-      "replacesPlan": {
-        "file": "plans.json",
-        "locator": "2024-05-11/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-05-11"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "930231509105770529"
-      },
-      "participation": "individual"
+      "members": [
+        "youen"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-05-11",
+          "events": [
+            {
+              "plannedTime": "21:30",
+              "plannedEndTime": "22:30",
+              "formatLabel": "电台/2D",
+              "participation": "individual",
+              "members": [
+                "youen"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e"
+      ],
+      "relatedPlanDates": [
+        "2024-05-11"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/930231509105770529"
+        }
+      ],
+      "announcedOn": "2024-05-11"
     },
     {
-      "announcementId": "930231509105770529",
-      "relatedAnnouncementEventId": "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e",
-      "date": "2024-05-11",
+      "id": "chg_c7602e04-552c-446a-bf7c-9ad232a1c52d",
       "action": "additional-stream",
-      "member": "luzao",
-      "plannedTime": "22:30",
-      "plannedEndTime": "23:30",
-      "formatLabel": "电台/2D",
-      "replacesPlan": {
-        "file": "plans.json",
-        "locator": "2024-05-11/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-05-11"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-05-06.json",
-        "locator": "930231509105770529"
-      },
-      "participation": "individual"
+      "members": [
+        "luzao"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-05-11",
+          "events": [
+            {
+              "plannedTime": "22:30",
+              "plannedEndTime": "23:30",
+              "formatLabel": "电台/2D",
+              "participation": "individual",
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_1c99a0ae-78fb-4feb-8233-37d10443ab7e"
+      ],
+      "relatedPlanDates": [
+        "2024-05-11"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/930231509105770529"
+        }
+      ],
+      "announcedOn": "2024-05-11"
     },
     {
-      "announcementId": "933499004235284484",
-      "relatedAnnouncementEventId": "evt_a895b60d-cf4b-4074-b256-8ba9a5c6e4ab",
-      "date": "2024-05-20",
-      "action": "member-absence",
-      "member": "minuo",
-      "plannedTime": "19:30",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-05-20/events/0"
+      "id": "chg_8eb070b2-4cd0-4775-be43-b2d324a11642",
+      "action": "absence",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-05-20"
+        ]
       },
-      "source": {
-        "file": "../evidence/history-01/dynamics-2024.json",
-        "locator": "933499004235284484"
-      }
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2024-05-20",
+          "events": [
+            {
+              "plannedTime": "19:30",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_a895b60d-cf4b-4074-b256-8ba9a5c6e4ab"
+      ],
+      "relatedPlanDates": [
+        "2024-05-20"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/933499004235284484"
+        }
+      ],
+      "announcedOn": "2024-05-20"
     },
     {
-      "announcementId": "934295209596944425",
-      "relatedAnnouncementEventId": "evt_a0ee3e46-6783-42ae-a810-0d0fc53e2066",
-      "date": "2024-05-22",
+      "id": "chg_f350c756-248f-47e2-95fc-f1a422e892e0",
       "action": "format-change",
-      "member": "minuo",
-      "plannedTime": "19:00",
-      "fromFormatLabel": "3D",
-      "toFormatLabel": "2D",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-05-22/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-05-22"
+        ]
       },
-      "source": {
-        "file": "../evidence/history-01/dynamics-2024.json",
-        "locator": "934295209596944425"
-      }
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2024-05-22",
+          "events": [
+            {
+              "formatLabel": "3D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2024-05-22",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "formatLabel": "2D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_a0ee3e46-6783-42ae-a810-0d0fc53e2066"
+      ],
+      "relatedPlanDates": [
+        "2024-05-22"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/934295209596944425"
+        }
+      ],
+      "announcedOn": "2024-05-22"
     }
   ]
 }

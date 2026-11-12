@@ -1,21 +1,45 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "828852641465368582",
+      "id": "chg_4f75f532-27e2-4236-ab52-82e490a108cd",
       "action": "cancellation",
-      "date": "2023-08-12",
-      "plannedTime": "20:00",
-      "relatedEventId": "evt_a7f2b583-b9d8-4f35-bfe6-d9033e4ea5ee",
-      "evidence": {
-        "file": "../evidence/round-02-schedule-notice-2023-08-12.json",
-        "locator": "828852641465368582"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2023-08-12"
+        ]
       },
-      "member": "yumo",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2023-08-12/events/0"
-      }
+      "members": [
+        "yumo"
+      ],
+      "before": [
+        {
+          "date": "2023-08-12",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "members": [
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [
+        "evt_a7f2b583-b9d8-4f35-bfe6-d9033e4ea5ee"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [
+        "2023-08-12"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/828852641465368582"
+        }
+      ]
     }
   ]
 }

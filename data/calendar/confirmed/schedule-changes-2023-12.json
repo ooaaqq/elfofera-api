@@ -1,15 +1,38 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "878660333529464918",
-      "action": "delay",
-      "date": "2023-12-24",
-      "relatedEventId": "evt_2ac50a6e-7be4-4ccc-9324-ad4ff253f60b",
-      "evidence": {
-        "file": "../evidence/history-01/dynamics-2023.json",
-        "locator": "878660333529464918"
-      }
+      "id": "chg_b9974016-2be8-45bd-a711-5c677d929ba6",
+      "action": "postponement",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2023-12-24"
+        ]
+      },
+      "members": [],
+      "before": [
+        {
+          "date": "2023-12-24",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [
+        "evt_2ac50a6e-7be4-4ccc-9324-ad4ff253f60b"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/878660333529464918"
+        }
+      ]
     }
   ]
 }

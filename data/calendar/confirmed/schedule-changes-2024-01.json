@@ -1,86 +1,251 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "882289976002215942",
-      "date": "2024-01-03",
-      "action": "cancel",
-      "members": ["luzao"],
-      "plannedTime": "19:00",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
-        "locator": "882289976002215942"
-      }
+      "id": "chg_34f09838-943d-4f80-a762-bf3f300744c7",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-01-03"
+        ]
+      },
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2024-01-03",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/882289976002215942"
+        }
+      ]
     },
     {
-      "announcementId": "882289976002215942",
-      "date": "2024-01-03",
+      "id": "chg_201e6bd8-68c6-4367-8ab8-3c133da91a29",
       "action": "reschedule",
-      "from": {
-        "date": "2024-01-03",
-        "plannedTime": "20:30",
-        "members": ["minuo"]
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-01-03"
+        ]
       },
-      "to": {
-        "date": "2024-01-03",
-        "plannedTime": "19:00"
-      },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
-        "locator": "882289976002215942"
-      }
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2024-01-03",
+          "events": [
+            {
+              "plannedTime": "20:30",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2024-01-03",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/882289976002215942"
+        }
+      ]
     },
     {
-      "announcementId": "890101366204137475",
-      "date": "2024-01-24",
-      "action": "cancel",
-      "members": ["minuo"],
-      "plannedTime": "19:00",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
-        "locator": "890101366204137475"
-      }
+      "id": "chg_17d4e19c-6b3d-4265-9277-7cfc8df1cd24",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-01-24"
+        ]
+      },
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2024-01-24",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/890101366204137475"
+        }
+      ]
     },
     {
-      "announcementId": "890101366204137475",
-      "date": "2024-01-24",
+      "id": "chg_e9f37a82-be00-4f8a-bf85-9a54329979d3",
       "action": "reschedule",
-      "from": {
-        "date": "2024-01-24",
-        "plannedTime": "20:30",
-        "members": ["luzao"]
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-01-24"
+        ]
       },
-      "to": {
-        "date": "2024-01-24",
-        "plannedTime": "20:00"
-      },
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
-        "locator": "890101366204137475"
-      }
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2024-01-24",
+          "events": [
+            {
+              "plannedTime": "20:30",
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2024-01-24",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/890101366204137475"
+        }
+      ]
     },
     {
-      "announcementId": "891590882337226839",
-      "date": "2024-01-28",
-      "action": "cancel",
-      "members": ["minuo", "luzao"],
-      "plannedTime": "19:30",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
-        "locator": "891590882337226839"
-      }
+      "id": "chg_4bfcf9ac-3b10-46af-869d-b3724092bdf1",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-01-28"
+        ]
+      },
+      "members": [
+        "minuo",
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2024-01-28",
+          "events": [
+            {
+              "plannedTime": "19:30",
+              "members": [
+                "minuo",
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/891590882337226839"
+        }
+      ]
     },
     {
-      "announcementId": "891590882337226839",
-      "date": "2024-01-28",
+      "id": "chg_57bcd09c-f4f7-4654-bc6e-f61f8dd33d49",
       "action": "additional-stream",
-      "members": ["luzao"],
-      "plannedTime": "19:30",
-      "formatLabel": "2D",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
-        "locator": "891590882337226839"
-      }
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-01-28"
+        ]
+      },
+      "members": [
+        "luzao"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-01-28",
+          "events": [
+            {
+              "plannedTime": "19:30",
+              "formatLabel": "2D",
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/891590882337226839"
+        }
+      ]
     }
   ]
 }

@@ -1,36 +1,78 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "date": "2026-08-19",
+      "id": "chg_6ff7f680-bd30-4c4d-b7f2-bfed07d1f3eb",
       "action": "postponement",
-      "members": ["youen"],
-      "originalPlan": {
-        "date": "2026-08-19",
-        "restDay": false,
-        "events": [
-          {
-            "members": ["youen"],
-            "plannedTime": "20:45",
-            "formatLabel": "3D",
-            "participation": "individual"
-          }
-        ],
-        "source": {
-          "dynamicId": "1237383516141912087",
-          "image": "../source/august-2026/1237383516141912087.jpg"
-        }
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2026-08-19"
+        ]
       },
-      "announcedPlannedTime": "21:15",
-      "announcementEventId": "evt_aa0c1edd-411f-41b8-a132-bcfa5fbf9c97",
-      "relatedEventId": "evt_6b089664-6b4c-4b32-99ce-84b0dfa24e7c",
-      "evidence": [
+      "members": [
+        "youen"
+      ],
+      "before": [
         {
-          "file": "../evidence/history-01/dynamics-2026.json",
-          "locator": "1238224043395514372"
+          "date": "2026-08-19",
+          "events": [
+            {
+              "plannedTime": "20:45",
+              "formatLabel": "3D",
+              "participation": "individual",
+              "members": [
+                "youen"
+              ]
+            }
+          ],
+          "nonStreamActivities": [],
+          "restDay": false,
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/1237383516141912087"
+            }
+          ]
+        },
+        {
+          "date": "2026-08-19",
+          "events": [
+            {
+              "members": [
+                "youen"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
         }
       ],
-      "note": "原20:45计划保留，延期21:15为公布安排，未推精确实际开播。"
+      "after": [
+        {
+          "date": "2026-08-19",
+          "events": [
+            {
+              "plannedTime": "21:15",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [
+        "evt_6b089664-6b4c-4b32-99ce-84b0dfa24e7c"
+      ],
+      "announcementEventIds": [
+        "evt_aa0c1edd-411f-41b8-a132-bcfa5fbf9c97"
+      ],
+      "relatedPlanDates": [],
+      "notes": [
+        "原20:45计划保留，延期21:15为公布安排，未推精确实际开播。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1237383516141912087"
+        }
+      ],
+      "announcedOn": "2026-08-19"
     }
   ]
 }

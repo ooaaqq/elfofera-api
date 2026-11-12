@@ -140,7 +140,7 @@ fn schema<T: JsonSchema>() -> Value {
             Value::Object(fields) => Value::Object(
                 fields
                     .iter()
-                    .filter(|(k, _)| !matches!(k.as_str(), "$schema" | "$defs" | "title"))
+                    .filter(|(k, _)| !matches!(k.as_str(), "$schema" | "$defs"))
                     .map(|(k, v)| (k.clone(), inline(v, root)))
                     .collect(),
             ),

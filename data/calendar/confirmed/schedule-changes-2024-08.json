@@ -1,60 +1,155 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "961695700795523091",
-      "relatedAnnouncementEventId": "evt_95a159a5-0adf-4139-b0ae-9015aba5afae",
-      "date": "2024-08-04",
-      "member": "luzao",
-      "plannedTime": "20:40",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-08-04/events/1"
-      },
-      "source": {
-        "file": "../evidence/round-02-august-schedule-notice-details.json",
-        "locator": "961695700795523091"
-      },
+      "id": "chg_95142daa-41f0-4ad5-9eda-a713fc29e8b4",
       "action": "format-change",
-      "fromFormatLabel": "3D",
-      "toFormatLabel": "电台",
-      "note": "3D为完整公告明确声明的原形式；原周表未标形式，originalFormatLabel保留null，不回填原图。"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-08-04"
+        ]
+      },
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2024-08-04",
+          "events": [
+            {
+              "formatLabel": "3D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2024-08-04",
+          "events": [
+            {
+              "plannedTime": "20:40",
+              "formatLabel": "电台",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_95a159a5-0adf-4139-b0ae-9015aba5afae"
+      ],
+      "relatedPlanDates": [
+        "2024-08-04"
+      ],
+      "notes": [
+        "3D为完整公告明确声明的原形式；原周表未标形式，originalFormatLabel保留null，不回填原图。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/961695700795523091"
+        }
+      ],
+      "announcedOn": "2024-08-04"
     },
     {
-      "announcementId": "966586349961347081",
-      "relatedAnnouncementEventId": "evt_dfb6417a-32e4-4da0-bf3b-1282a2fdf872",
-      "date": "2024-08-17",
-      "member": "yumo",
-      "plannedTime": "19:00",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-08-17/events/0"
-      },
-      "source": {
-        "file": "../evidence/round-02-august-schedule-notice-details.json",
-        "locator": "966586349961347081"
-      },
+      "id": "chg_c53c5893-9e0d-4812-801a-1d93777c345d",
       "action": "format-change",
-      "fromFormatLabel": "3D",
-      "toFormatLabel": "2D",
-      "note": "3D为完整公告明确声明的原形式；原周表未标形式，originalFormatLabel保留null，不回填原图。"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-08-17"
+        ]
+      },
+      "members": [
+        "yumo"
+      ],
+      "before": [
+        {
+          "date": "2024-08-17",
+          "events": [
+            {
+              "formatLabel": "3D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2024-08-17",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "formatLabel": "2D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_dfb6417a-32e4-4da0-bf3b-1282a2fdf872"
+      ],
+      "relatedPlanDates": [
+        "2024-08-17"
+      ],
+      "notes": [
+        "3D为完整公告明确声明的原形式；原周表未标形式，originalFormatLabel保留null，不回填原图。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/966586349961347081"
+        }
+      ],
+      "announcedOn": "2024-08-17"
     },
     {
-      "announcementId": "969533174302375975",
-      "relatedAnnouncementEventId": "evt_effc6750-5997-47df-8510-ef5e4eb3d749",
-      "date": "2024-08-25",
-      "member": "yumo",
-      "plannedTime": "19:00",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-08-25/events/0"
+      "id": "chg_aa039491-8d8e-4cba-b556-ca6d7b098568",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-08-25"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-august-schedule-notice-details.json",
-        "locator": "969533174302375975"
-      },
-      "action": "cancel",
-      "formatLabel": "3D"
+      "members": [
+        "yumo"
+      ],
+      "before": [
+        {
+          "date": "2024-08-25",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "formatLabel": "3D",
+              "members": [
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_effc6750-5997-47df-8510-ef5e4eb3d749"
+      ],
+      "relatedPlanDates": [
+        "2024-08-25"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/969533174302375975"
+        }
+      ],
+      "announcedOn": "2024-08-25"
     }
   ]
 }

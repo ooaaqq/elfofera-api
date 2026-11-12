@@ -252,14 +252,19 @@ describe("Performance associations", () => {
       days.find((day) => day.date === "2026-10-18").events[0].members,
     ).toEqual(["luzao"]);
     const changes = read("schedule-changes-2026-10.json").changes.filter(
-      (change) => change.action === "rescheduling",
+      (change) => change.action === "reschedule",
     );
     expect(changes).toHaveLength(2);
     for (const change of changes) {
-      expect(change.originalPlan.date).toBe(change.from.date);
-      expect(change.originalPlan.events[0].members).toEqual(change.members);
-      expect(change.to.date).not.toBe(change.from.date);
-      expect(eventById.get(change.eventId).kind).toBe("announcement");
+      expect(change.before[0].events[0].members).toEqual(change.members);
+      expect(change.after[0].date).not.toBe(change.before[0].date);
+      expect(change.impact.dates).toContain(change.before[0].date);
+      expect(change.impact.dates).toContain(change.after[0].date);
+      expect(change.eventIds).toEqual([]);
+      expect(change.announcementEventIds).toHaveLength(1);
+      expect(eventById.get(change.announcementEventIds[0]).kind).toBe(
+        "announcement",
+      );
     }
   });
 

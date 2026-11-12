@@ -1,15 +1,40 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "901631219017449478",
-      "date": "2024-02-24",
-      "action": "member-absence",
-      "member": "minuo",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2024-01-02.json",
-        "locator": "901631219017449478"
-      }
+      "id": "chg_56bb9d69-b638-4c5b-b0dd-904792b16f1f",
+      "action": "absence",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-02-24"
+        ]
+      },
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2024-02-24",
+          "events": [
+            {
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/901631219017449478"
+        }
+      ]
     }
   ]
 }

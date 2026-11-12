@@ -1,18 +1,54 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "823010798732312632",
+      "id": "chg_1e97284e-cb0e-4d7b-974b-23f92ecac4f1",
       "action": "time-change",
-      "date": "2023-07-29",
-      "member": "minuo",
-      "previousPlannedTime": "20:00",
-      "plannedTime": "17:30",
-      "relatedEventId": "evt_0c2fbb54-6c63-41af-b0de-f7ff65f48dfc",
-      "evidence": {
-        "file": "../evidence/history-01/dynamics-2023.json",
-        "locator": "823010798732312632"
-      }
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2023-07-29"
+        ]
+      },
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2023-07-29",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2023-07-29",
+          "events": [
+            {
+              "plannedTime": "17:30",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [
+        "evt_0c2fbb54-6c63-41af-b0de-f7ff65f48dfc"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/823010798732312632"
+        }
+      ]
     }
   ]
 }

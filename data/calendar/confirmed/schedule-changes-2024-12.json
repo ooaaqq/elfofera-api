@@ -1,43 +1,112 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "1007351765758115846",
-      "relatedAnnouncementEventId": "evt_75dd8ba1-0277-464a-acff-e4a33597a0c3",
-      "date": "2024-12-06",
-      "member": "luzao",
-      "plannedTime": "19:00",
+      "id": "chg_f1b57495-f9ae-4efa-a0bd-228fe363f71d",
       "action": "format-change",
-      "fromFormatLabel": "3D",
-      "toFormatLabel": "2D",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-12-06/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-12-06"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-december-schedule-notice-detail.json",
-        "locator": "1007351765758115846"
-      },
-      "note": "plans只保留原图形式；公告声明的原形式与后续调整在此独立记录，不把公告回填原图。"
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2024-12-06",
+          "events": [
+            {
+              "formatLabel": "3D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2024-12-06",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "formatLabel": "2D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_75dd8ba1-0277-464a-acff-e4a33597a0c3"
+      ],
+      "relatedPlanDates": [
+        "2024-12-06"
+      ],
+      "notes": [
+        "plans只保留原图形式；公告声明的原形式与后续调整在此独立记录，不把公告回填原图。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1007351765758115846"
+        }
+      ],
+      "announcedOn": "2024-12-05"
     },
     {
-      "announcementId": "1007351765758115846",
-      "relatedAnnouncementEventId": "evt_75dd8ba1-0277-464a-acff-e4a33597a0c3",
-      "date": "2024-12-08",
-      "member": "luzao",
-      "plannedTime": "19:30",
+      "id": "chg_18d43395-40f7-4088-875e-302c1447e0af",
       "action": "format-change",
-      "fromFormatLabel": "2D",
-      "toFormatLabel": "3D",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-12-08/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-12-08"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-december-schedule-notice-detail.json",
-        "locator": "1007351765758115846"
-      },
-      "note": "plans只保留原图形式；公告声明的原形式与后续调整在此独立记录，不把公告回填原图。"
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2024-12-08",
+          "events": [
+            {
+              "formatLabel": "2D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2024-12-08",
+          "events": [
+            {
+              "plannedTime": "19:30",
+              "formatLabel": "3D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_75dd8ba1-0277-464a-acff-e4a33597a0c3"
+      ],
+      "relatedPlanDates": [
+        "2024-12-08"
+      ],
+      "notes": [
+        "plans只保留原图形式；公告声明的原形式与后续调整在此独立记录，不把公告回填原图。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1007351765758115846"
+        }
+      ],
+      "announcedOn": "2024-12-05"
     }
   ]
 }

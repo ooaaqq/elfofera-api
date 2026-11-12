@@ -1,81 +1,215 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "972171314977570841",
-      "relatedAnnouncementEventId": "evt_1b72564f-7027-427e-8124-bed8cfe72f06",
-      "date": "2024-09-01",
+      "id": "chg_da2734f3-fce2-4cb8-97a6-4c6504e1758d",
       "action": "format-change",
-      "member": "luzao",
-      "plannedTime": "21:00",
-      "fromFormatLabel": "2D",
-      "toFormatLabel": "电台",
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2024-09-01/events/1"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-09-01"
+        ]
       },
-      "source": {
-        "file": "../evidence/round-02-september-schedule-notice-details.json",
-        "locator": "972171314977570841"
-      }
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2024-09-01",
+          "events": [
+            {
+              "formatLabel": "2D",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2024-09-01",
+          "events": [
+            {
+              "plannedTime": "21:00",
+              "formatLabel": "电台",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_1b72564f-7027-427e-8124-bed8cfe72f06"
+      ],
+      "relatedPlanDates": [
+        "2024-09-01"
+      ],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/972171314977570841"
+        }
+      ],
+      "announcedOn": "2024-09-01"
     },
     {
-      "announcementId": "979077311044255746",
-      "relatedAnnouncementEventId": "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470",
-      "date": "2024-09-20",
+      "id": "chg_9e5412af-13c8-4545-b35f-b3c4ebd09146",
       "action": "schedule-announcement",
-      "source": {
-        "file": "../evidence/round-02-september-schedule-notice-details.json",
-        "locator": "979077311044255746"
+      "impact": {
+        "kind": "ongoing",
+        "from": "2024-09-20"
       },
-      "scope": "temporary-3d-suspension",
-      "effectiveFrom": "2024-09-20",
-      "expectedDuration": "三周",
-      "text": "设备迁移期间暂停3D，成员以2D或电台形式出现。",
-      "note": "预计时长不转换为已确定恢复日期；不回填逐日形式，也不将设备暂停等同停止所有直播。"
+      "members": [],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-09-20",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470"
+      ],
+      "relatedPlanDates": [],
+      "notes": [
+        "temporary-3d-suspension",
+        "三周",
+        "预计时长不转换为已确定恢复日期；不回填逐日形式，也不将设备暂停等同停止所有直播。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/979077311044255746"
+        }
+      ],
+      "announcedOn": "2024-09-20",
+      "text": "设备迁移期间暂停3D，成员以2D或电台形式出现。"
     },
     {
-      "announcementId": "979077311044255746",
-      "relatedAnnouncementEventId": "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470",
-      "date": "2024-09-20",
+      "id": "chg_8347af70-019e-4c84-acea-214e9d080e51",
       "action": "schedule-announcement",
-      "source": {
-        "file": "../evidence/round-02-september-schedule-notice-details.json",
-        "locator": "979077311044255746"
+      "impact": {
+        "kind": "ongoing",
+        "from": "2024-09-20"
       },
-      "scope": "member-hiatus",
-      "member": "minuo",
-      "effectiveFrom": "2024-09-20",
-      "text": "自9月20日起停止活动，进入休眠状态。",
-      "note": "按公告决定收录，不推断退团、账号删除或永久停止活动。"
+      "members": [
+        "minuo"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-09-20",
+          "events": [
+            {
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470"
+      ],
+      "relatedPlanDates": [],
+      "notes": [
+        "member-hiatus",
+        "按公告决定收录，不推断退团、账号删除或永久停止活动。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/979077311044255746"
+        }
+      ],
+      "announcedOn": "2024-09-20",
+      "text": "自9月20日起停止活动，进入休眠状态。"
     },
     {
-      "announcementId": "979077311044255746",
-      "relatedAnnouncementEventId": "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470",
-      "date": "2024-09-20",
+      "id": "chg_9f247f88-4e71-4cf7-8728-04fee250642d",
       "action": "schedule-announcement",
-      "source": {
-        "file": "../evidence/round-02-september-schedule-notice-details.json",
-        "locator": "979077311044255746"
+      "impact": {
+        "kind": "ongoing",
+        "from": "2024-09-30"
       },
-      "scope": "member-hiatus",
-      "member": "waner",
-      "effectiveFrom": "2024-09-30",
-      "text": "自9月30日起停止活动，进入休眠状态。",
-      "note": "保留9/30原图14点计划及后续独立事件证据，不把公告起始日期当成逐条取消证明。"
+      "members": [
+        "waner"
+      ],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-09-20",
+          "events": [
+            {
+              "members": [
+                "waner"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470"
+      ],
+      "relatedPlanDates": [],
+      "notes": [
+        "member-hiatus",
+        "保留9/30原图14点计划及后续独立事件证据，不把公告起始日期当成逐条取消证明。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/979077311044255746"
+        }
+      ],
+      "announcedOn": "2024-09-20",
+      "text": "自9月30日起停止活动，进入休眠状态。"
     },
     {
-      "announcementId": "979077311044255746",
-      "relatedAnnouncementEventId": "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470",
-      "date": "2024-09-20",
+      "id": "chg_82d4f77e-ffeb-45f0-aa7e-5798907beee6",
       "action": "schedule-announcement",
-      "source": {
-        "file": "../evidence/round-02-september-schedule-notice-details.json",
-        "locator": "979077311044255746"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2024-09-20"
+        ]
       },
-      "scope": "group-future-arrangements",
-      "text": "接下来EOE将以三人的形式继续活动。",
-      "note": "公告未给三人名单，不把剩余成员推断写成实际出席名单，也不覆盖原周表。"
+      "members": [],
+      "before": [],
+      "after": [
+        {
+          "date": "2024-09-20",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [
+        "evt_4069c4fe-13c1-4e50-a2b4-92f4d58ad470"
+      ],
+      "relatedPlanDates": [],
+      "notes": [
+        "group-future-arrangements",
+        "公告未给三人名单，不把剩余成员推断写成实际出席名单，也不覆盖原周表。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/979077311044255746"
+        }
+      ],
+      "announcedOn": "2024-09-20",
+      "text": "接下来EOE将以三人的形式继续活动。"
     }
   ]
 }

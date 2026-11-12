@@ -8,7 +8,7 @@
 - `performances-YYYY-MM.json`：表演与事件、作品的关联。
 - `recordings-YYYY.json`：按 BV 记录的录播资料。
 - `plans.json`：官方计划及关联的变更。
-- `schedule-changes-YYYY-MM.json`：取消、改期、时间和形式变更。
+- `schedule-changes-YYYY-MM.json`：使用持久 ID 的取消、改期、时间和形式变更；`impact` 声明时间归属，`before`、`after` 保留安排，公告与被影响事件分开关联。
 - `songs.json`：独立作品、原唱和必要的来源摘要。
 - [账号清单](../accounts.json)：成员、组合和主要来源账号。
 

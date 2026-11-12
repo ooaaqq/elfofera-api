@@ -1,398 +1,987 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "723466088481816643",
+      "id": "chg_a800570d-210e-4eae-881c-4c74af55b7e0",
       "action": "lineup-change",
-      "date": "2022-11-01",
-      "plannedTime": "20:00",
-      "originalMembers": ["yumo"],
-      "members": ["youen"],
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "723466088481816643"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-01"
+        ]
       },
-      "replacesPlan": {
-        "date": "2022-11-01",
-        "source": {
-          "dynamicId": "723015013827084292",
-          "image": "../source/october-2022/723015013827084292.png"
+      "members": [
+        "youen",
+        "yumo"
+      ],
+      "before": [
+        {
+          "date": "2022-11-01",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/723015013827084292"
+            }
+          ]
+        },
+        {
+          "date": "2022-11-01",
+          "events": [
+            {
+              "members": [
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
         }
-      }
+      ],
+      "after": [
+        {
+          "date": "2022-11-01",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "members": [
+                "youen"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/723466088481816643"
+        },
+        {
+          "url": "https://t.bilibili.com/723015013827084292"
+        }
+      ]
     },
     {
-      "announcementId": "723466088481816643",
+      "id": "chg_c2484404-2be5-43b7-a241-f91da55ec3bc",
       "action": "lineup-change",
-      "date": "2022-11-02",
-      "plannedTime": "20:00",
-      "originalMembers": ["youen"],
-      "members": ["yumo"],
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "723466088481816643"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-02"
+        ]
       },
-      "replacesPlan": {
-        "date": "2022-11-02",
-        "source": {
-          "dynamicId": "723015013827084292",
-          "image": "../source/october-2022/723015013827084292.png"
+      "members": [
+        "yumo",
+        "youen"
+      ],
+      "before": [
+        {
+          "date": "2022-11-02",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/723015013827084292"
+            }
+          ]
+        },
+        {
+          "date": "2022-11-02",
+          "events": [
+            {
+              "members": [
+                "youen"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
         }
-      }
+      ],
+      "after": [
+        {
+          "date": "2022-11-02",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "members": [
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/723466088481816643"
+        },
+        {
+          "url": "https://t.bilibili.com/723015013827084292"
+        }
+      ]
     },
     {
-      "announcementId": "727236455573749769",
-      "action": "cancel",
-      "date": "2022-11-11",
-      "members": ["luzao"],
-      "plannedTime": "20:30",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "727236455573749769"
+      "id": "chg_a3e9e9e6-9856-4a44-833e-f131a16417db",
+      "action": "cancellation",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-11"
+        ]
       },
-      "replacesPlan": {
-        "date": "2022-11-11",
-        "source": {
-          "dynamicId": "725598565520375816",
-          "image": "../source/november-2022/725598565520375816-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "725598565520375816"
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2022-11-11",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/725598565520375816"
+            }
+          ]
+        },
+        {
+          "date": "2022-11-11",
+          "events": [
+            {
+              "plannedTime": "20:30",
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
         }
-      }
+      ],
+      "after": [],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/727236455573749769"
+        },
+        {
+          "url": "https://t.bilibili.com/725598565520375816"
+        }
+      ]
     },
     {
-      "announcementId": "727236455573749769",
+      "id": "chg_1d0d53db-bc02-4bf7-b7c9-0ea3c5432a8d",
       "action": "additional-stream",
-      "date": "2022-11-11",
-      "members": ["minuo"],
-      "plannedTime": "20:30",
-      "eventId": "evt_243e5815-18d2-4c81-b570-a4ac888de453",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "727236455573749769"
-      },
-      "replacesPlan": {
-        "date": "2022-11-11",
-        "source": {
-          "dynamicId": "725598565520375816",
-          "image": "../source/november-2022/725598565520375816-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "725598565520375816"
-        }
-      }
-    },
-    {
-      "announcementId": "727957116738863139",
-      "action": "member-absence",
-      "date": "2022-11-13",
-      "member": "minuo",
-      "eventId": "evt_ad5bda61-d1c8-4b6e-93d4-a63ff7051568",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "727957116738863139"
-      },
-      "replacesPlan": {
-        "date": "2022-11-13",
-        "source": {
-          "dynamicId": "725598565520375816",
-          "image": "../source/november-2022/725598565520375816-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "725598565520375816"
-        }
-      }
-    },
-    {
-      "announcementId": "730511527057031206",
-      "action": "reschedule",
-      "from": {
-        "date": "2022-11-20",
-        "plannedTime": "20:30",
-        "members": ["luzao"]
-      },
-      "to": {
-        "date": "2022-11-20",
-        "plannedTime": "19:00"
-      },
-      "eventId": "evt_17f4b69d-a626-4641-b452-9795b78f46af",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "730511527057031206"
-      },
-      "replacesPlan": {
-        "date": "2022-11-20",
-        "source": {
-          "dynamicId": "728215802619101189",
-          "image": "../source/november-2022/728215802619101189-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "728215802619101189"
-        }
-      }
-    },
-    {
-      "announcementId": "730511527057031206",
-      "action": "reschedule",
-      "from": {
-        "date": "2022-11-20",
-        "plannedTime": "19:00",
-        "members": ["yumo"]
-      },
-      "to": {
-        "date": "2022-11-20",
-        "plannedTime": "20:30",
-        "formatLabel": "电台"
-      },
-      "eventId": "evt_641525b8-8ec5-459c-8997-f3cd1db60433",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "730511527057031206"
-      },
-      "replacesPlan": {
-        "date": "2022-11-20",
-        "source": {
-          "dynamicId": "728215802619101189",
-          "image": "../source/november-2022/728215802619101189-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "728215802619101189"
-        }
-      }
-    },
-    {
-      "announcementId": "731614964298547233",
-      "action": "lineup-change",
-      "date": "2022-11-24",
-      "replacesPlan": {
-        "date": "2022-11-24",
-        "source": {
-          "dynamicId": "730787066400473096",
-          "image": "../source/november-2022/730787066400473096-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "730787066400473096"
-        },
-        "events": [
-          {
-            "members": ["minuo"],
-            "plannedTime": "19:00",
-            "formatLabel": null,
-            "participation": "individual"
-          },
-          {
-            "members": ["luzao"],
-            "plannedTime": "20:30",
-            "formatLabel": null,
-            "participation": "individual"
-          }
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-11"
         ]
       },
-      "members": ["youen"],
-      "plannedTime": "20:00",
-      "formatLabel": "电台",
-      "participation": "individual",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "731614964298547233"
-      },
-      "sourceNote": "公告日期与星期标签不一致；按明确月日记录，保留原文字。不据此改写录播日期或成员。"
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2022-11-11",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/725598565520375816"
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "date": "2022-11-11",
+          "events": [
+            {
+              "plannedTime": "20:30",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [
+        "evt_243e5815-18d2-4c81-b570-a4ac888de453"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/727236455573749769"
+        },
+        {
+          "url": "https://t.bilibili.com/725598565520375816"
+        }
+      ]
     },
     {
-      "announcementId": "731614964298547233",
-      "action": "lineup-change",
-      "date": "2022-11-25",
-      "replacesPlan": {
-        "date": "2022-11-25",
-        "source": {
-          "dynamicId": "730787066400473096",
-          "image": "../source/november-2022/730787066400473096-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "730787066400473096"
-        },
-        "events": [
-          {
-            "members": ["yumo"],
-            "plannedTime": "19:00",
-            "formatLabel": null,
-            "participation": "individual"
-          },
-          {
-            "members": ["waner", "youen"],
-            "plannedTime": "20:30",
-            "formatLabel": null,
-            "participation": "collaboration",
-            "hostMember": "youen"
-          }
+      "id": "chg_87eaec42-a87d-447d-8ede-6c2919bdda77",
+      "action": "absence",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-13"
         ]
       },
-      "members": ["minuo"],
-      "plannedTime": "20:00",
-      "formatLabel": "电台",
-      "participation": "individual",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "731614964298547233"
-      },
-      "sourceNote": "公告日期与星期标签不一致；按明确月日记录，保留原文字。不据此改写录播日期或成员。"
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2022-11-13",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/725598565520375816"
+            }
+          ]
+        },
+        {
+          "date": "2022-11-13",
+          "events": [
+            {
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [
+        "evt_ad5bda61-d1c8-4b6e-93d4-a63ff7051568"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/727957116738863139"
+        },
+        {
+          "url": "https://t.bilibili.com/725598565520375816"
+        }
+      ]
     },
     {
-      "announcementId": "731614964298547233",
-      "action": "lineup-change",
-      "date": "2022-11-26",
-      "replacesPlan": {
-        "date": "2022-11-26",
-        "source": {
-          "dynamicId": "730787066400473096",
-          "image": "../source/november-2022/730787066400473096-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "730787066400473096"
-        },
-        "events": [
-          {
-            "members": ["minuo"],
-            "plannedTime": "20:00",
-            "formatLabel": "电台",
-            "participation": "individual"
-          }
+      "id": "chg_53aea3be-d82a-401b-9070-eb29e814f602",
+      "action": "reschedule",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-20"
         ]
       },
-      "members": ["luzao"],
-      "plannedTime": "20:00",
-      "formatLabel": "电台",
-      "participation": "individual",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "731614964298547233"
-      },
-      "sourceNote": "公告日期与星期标签不一致；按明确月日记录，保留原文字。不据此改写录播日期或成员。"
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2022-11-20",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/728215802619101189"
+            }
+          ]
+        },
+        {
+          "date": "2022-11-20",
+          "events": [
+            {
+              "plannedTime": "20:30",
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2022-11-20",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [
+        "evt_17f4b69d-a626-4641-b452-9795b78f46af"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/730511527057031206"
+        },
+        {
+          "url": "https://t.bilibili.com/728215802619101189"
+        }
+      ]
     },
     {
-      "announcementId": "732410014268915751",
+      "id": "chg_7f4692fa-0e57-4b2b-815e-401d8a703c67",
+      "action": "reschedule",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-20"
+        ]
+      },
+      "members": [
+        "yumo"
+      ],
+      "before": [
+        {
+          "date": "2022-11-20",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/728215802619101189"
+            }
+          ]
+        },
+        {
+          "date": "2022-11-20",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "members": [
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2022-11-20",
+          "events": [
+            {
+              "plannedTime": "20:30",
+              "formatLabel": "电台",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [
+        "evt_641525b8-8ec5-459c-8997-f3cd1db60433"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/730511527057031206"
+        },
+        {
+          "url": "https://t.bilibili.com/728215802619101189"
+        }
+      ]
+    },
+    {
+      "id": "chg_62bdb2c2-d68d-43a6-a95f-7463d6af6692",
       "action": "lineup-change",
-      "date": "2022-11-26",
-      "replacesChange": {
-        "announcementId": "731614964298547233",
-        "date": "2022-11-26"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-24"
+        ]
       },
-      "originalMembers": ["luzao"],
-      "members": ["yumo"],
-      "plannedTime": "20:00",
-      "formatLabel": "电台",
-      "participation": "individual",
-      "eventId": "evt_b3639d41-6074-4eba-ab72-16b3fe5845c3",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "732410014268915751"
-      }
+      "members": [
+        "youen",
+        "minuo",
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2022-11-24",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "participation": "individual",
+              "members": [
+                "minuo"
+              ]
+            },
+            {
+              "plannedTime": "20:30",
+              "participation": "individual",
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/730787066400473096"
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "date": "2022-11-24",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "formatLabel": "电台",
+              "participation": "individual",
+              "members": [
+                "youen"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [
+        "公告日期与星期标签不一致；按明确月日记录，保留原文字。不据此改写录播日期或成员。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/731614964298547233"
+        },
+        {
+          "url": "https://t.bilibili.com/730787066400473096"
+        }
+      ]
     },
     {
-      "announcementId": "732410014268915751",
-      "action": "reschedule",
-      "from": {
-        "date": "2022-11-27",
-        "plannedTime": "19:30"
+      "id": "chg_c876dc2f-0ff9-43ee-bc7f-6b9ea8814aaf",
+      "action": "lineup-change",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-25"
+        ]
       },
-      "to": {
-        "date": "2022-11-27",
-        "plannedTime": "20:00",
-        "formatLabel": "电台",
-        "participation": "group",
-        "namedMembers": ["waner"]
-      },
-      "replacesPlan": {
-        "date": "2022-11-27",
-        "source": {
-          "dynamicId": "730787066400473096",
-          "image": "../source/november-2022/730787066400473096-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "730787066400473096"
+      "members": [
+        "minuo",
+        "yumo",
+        "waner",
+        "youen"
+      ],
+      "before": [
+        {
+          "date": "2022-11-25",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "participation": "individual",
+              "members": [
+                "yumo"
+              ]
+            },
+            {
+              "plannedTime": "20:30",
+              "participation": "collaboration",
+              "hostMember": "youen",
+              "members": [
+                "waner",
+                "youen"
+              ]
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/730787066400473096"
+            }
+          ]
         }
-      },
-      "eventId": "evt_593ef447-abf5-4d5a-b95a-9df2ee194c19",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "732410014268915751"
-      },
-      "sourceNote": "公告点名莞儿团播，不把此点名扩展为完整成员名单或实际直播间。"
+      ],
+      "after": [
+        {
+          "date": "2022-11-25",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "formatLabel": "电台",
+              "participation": "individual",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [
+        "公告日期与星期标签不一致；按明确月日记录，保留原文字。不据此改写录播日期或成员。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/731614964298547233"
+        },
+        {
+          "url": "https://t.bilibili.com/730787066400473096"
+        }
+      ]
     },
     {
-      "announcementId": "730121857570701401",
-      "action": "reschedule",
-      "from": {
-        "date": "2022-11-19",
-        "title": "新衣发布团播"
+      "id": "chg_aec7c02a-3a86-4235-b2d3-213eb7063498",
+      "action": "lineup-change",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-26"
+        ]
       },
-      "to": {
-        "date": null,
-        "dateDescription": "下周"
-      },
-      "replacesPlan": {
-        "date": "2022-11-19",
-        "source": {
-          "dynamicId": "728215802619101189",
-          "image": "../source/november-2022/728215802619101189-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "728215802619101189"
+      "members": [
+        "luzao",
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2022-11-26",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "formatLabel": "电台",
+              "participation": "individual",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/730787066400473096"
+            }
+          ]
         }
-      },
-      "source": {
-        "file": "../evidence/history-01/dynamics-2022.json",
-        "locator": "730121857570701401"
-      },
-      "sourceNote": "原定新衣发布延期；公告未明确新日期。当天改由另外四位成员播出，缺席者在已读文字中未署名，不猜测身份。",
-      "replacementArrangement": {
-        "date": "2022-11-19",
-        "participation": "group",
-        "members": [],
-        "plannedMemberCount": 4
-      }
+      ],
+      "after": [
+        {
+          "date": "2022-11-26",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "formatLabel": "电台",
+              "participation": "individual",
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [
+        "公告日期与星期标签不一致；按明确月日记录，保留原文字。不据此改写录播日期或成员。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/731614964298547233"
+        },
+        {
+          "url": "https://t.bilibili.com/730787066400473096"
+        }
+      ]
     },
     {
-      "announcementId": "734267836733587493",
-      "action": "reschedule",
-      "from": {
-        "date": "2022-11-30"
+      "id": "chg_acd485d7-89d0-484a-92d8-6d70a1d2a743",
+      "action": "lineup-change",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-26"
+        ]
       },
-      "to": {
-        "date": "2022-12-02",
-        "timeRelation": "same-as-original"
-      },
-      "replacesPlan": {
-        "date": "2022-11-30",
-        "source": {
-          "dynamicId": "733397315577970755",
-          "image": "../source/november-2022/733397315577970755-1.png",
-          "evidence": "../evidence/november-2022.json",
-          "locator": "733397315577970755"
+      "members": [
+        "yumo",
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2022-11-26",
+          "events": [
+            {
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
         }
-      },
-      "scope": "day-level-arrangement",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "734267836733587493"
-      },
-      "sourceNote": "官方只说今日安排移周五同时间，未点名成员或逐场范围；不分配实际eventId，不自行转录两场成员与时刻。"
+      ],
+      "after": [
+        {
+          "date": "2022-11-26",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "formatLabel": "电台",
+              "participation": "individual",
+              "members": [
+                "yumo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [
+        "evt_b3639d41-6074-4eba-ab72-16b3fe5845c3"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/732410014268915751"
+        },
+        {
+          "url": "https://t.bilibili.com/731614964298547233"
+        }
+      ],
+      "replacesChangeIds": [
+        "chg_aec7c02a-3a86-4235-b2d3-213eb7063498"
+      ]
     },
     {
-      "announcementId": "734267836733587493",
+      "id": "chg_89487fc2-e569-4ab0-a288-405fe4732dff",
       "action": "reschedule",
-      "from": {
-        "date": "2022-12-02"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-27"
+        ]
       },
-      "to": {
-        "date": null,
-        "dateDescription": "下周"
-      },
-      "replacesPlan": {
-        "date": "2022-12-02",
-        "source": {
-          "dynamicId": "735001726381195330",
-          "image": "../source/december-2022/735001726381195330-1.png",
-          "evidence": "../evidence/december-2022.json",
-          "locator": "735001726381195330"
+      "members": [
+        "waner"
+      ],
+      "before": [
+        {
+          "date": "2022-11-27",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/730787066400473096"
+            }
+          ]
+        },
+        {
+          "date": "2022-11-27",
+          "events": [
+            {
+              "plannedTime": "19:30",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
         }
+      ],
+      "after": [
+        {
+          "date": "2022-11-27",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "formatLabel": "电台",
+              "participation": "group",
+              "members": [
+                "waner"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [
+        "evt_593ef447-abf5-4d5a-b95a-9df2ee194c19"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [
+        "公告点名莞儿团播，不把此点名扩展为完整成员名单或实际直播间。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/732410014268915751"
+        },
+        {
+          "url": "https://t.bilibili.com/730787066400473096"
+        }
+      ]
+    },
+    {
+      "id": "chg_2bf238d2-1be4-4bc2-b44d-e4ca0a8c76ec",
+      "action": "reschedule",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-19"
+        ]
       },
-      "scope": "day-level-arrangement",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-10-11.json",
-        "locator": "734267836733587493"
+      "members": [],
+      "before": [
+        {
+          "date": "2022-11-19",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/728215802619101189"
+            }
+          ]
+        },
+        {
+          "date": "2022-11-19",
+          "events": [
+            {
+              "title": "新衣发布团播",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2022-11-19",
+          "events": [
+            {
+              "participation": "group",
+              "memberCount": 4,
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        },
+        {
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "notes": [
+            "下周"
+          ]
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [
+        "下周",
+        "原定新衣发布延期；公告未明确新日期。当天改由另外四位成员播出，缺席者在已读文字中未署名，不猜测身份。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/730121857570701401"
+        },
+        {
+          "url": "https://t.bilibili.com/728215802619101189"
+        }
+      ]
+    },
+    {
+      "id": "chg_44930a1d-5cbc-484c-bd3c-cf97d9fdf524",
+      "action": "reschedule",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-11-30",
+          "2022-12-02"
+        ]
       },
-      "sourceNote": "原周五安排延期至下周，未给具体日期或成员；与前一条作为同公告的两段日级变更保存。"
+      "members": [],
+      "before": [
+        {
+          "date": "2022-11-30",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/733397315577970755"
+            }
+          ]
+        },
+        {
+          "date": "2022-11-30",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2022-12-02",
+          "events": [
+            {
+              "timeRelation": "same-as-original",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [
+        "day-level-arrangement",
+        "官方只说今日安排移周五同时间，未点名成员或逐场范围；不分配实际eventId，不自行转录两场成员与时刻。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/734267836733587493"
+        },
+        {
+          "url": "https://t.bilibili.com/733397315577970755"
+        }
+      ]
+    },
+    {
+      "id": "chg_10f90d4e-7c92-4fbd-8d46-ac0d5c1ae81f",
+      "action": "reschedule",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-12-02"
+        ]
+      },
+      "members": [],
+      "before": [
+        {
+          "date": "2022-12-02",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "sources": [
+            {
+              "url": "https://t.bilibili.com/735001726381195330"
+            }
+          ]
+        },
+        {
+          "date": "2022-12-02",
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "events": [
+            {
+              "members": []
+            }
+          ],
+          "nonStreamActivities": [],
+          "notes": [
+            "下周"
+          ]
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [
+        "下周",
+        "day-level-arrangement",
+        "原周五安排延期至下周，未给具体日期或成员；与前一条作为同公告的两段日级变更保存。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/734267836733587493"
+        },
+        {
+          "url": "https://t.bilibili.com/735001726381195330"
+        }
+      ]
     }
   ]
 }

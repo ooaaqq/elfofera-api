@@ -207,36 +207,14 @@ impl Archive {
                 index
                     .changes
                     .iter()
-                    .map(|i| (*i, &self.data.changes[*i]))
-                    .filter_map(|(index, c)| {
-                        let mut members = c.members.clone();
-                        for name in c.member.iter().chain(
-                            c.from
-                                .iter()
-                                .chain(c.to.iter())
-                                .chain(c.replaces_plan.iter())
-                                .flat_map(|s| s.members.iter().flatten()),
-                        ) {
-                            if !members.contains(name) {
-                                members.push(name.clone());
-                            }
-                        }
-                        if q.member
-                            .is_some_and(|m| !members.contains(&member_string(m)))
-                        {
-                            return None;
-                        }
-                        Some(ChangeView {
-                            id: format!("change_{index}_{date}"),
-                            date,
-                            action: c.action.clone(),
-                            title: c.title.clone(),
-                            members,
-                            from: c.from.clone(),
-                            to: c.to.clone(),
-                            event_id: c.event_id.clone(),
-                            source_urls: c.source_urls.clone(),
-                        })
+                    .map(|i| &self.data.changes[*i])
+                    .filter(|change| {
+                        q.member
+                            .is_none_or(|member| change.members.contains(&member))
+                    })
+                    .map(|change| ChangeView {
+                        date,
+                        change: change.clone(),
                     })
                     .collect()
             } else {

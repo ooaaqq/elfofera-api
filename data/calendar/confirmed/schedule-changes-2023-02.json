@@ -1,21 +1,45 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "758363135896715314",
-      "action": "member-absence",
-      "date": "2023-02-05",
-      "plannedEvent": "团播",
-      "evidence": {
-        "file": "../evidence/round-02-authenticated-dynamics-2023-02-03.json",
-        "locator": "758363135896715314"
+      "id": "chg_72f5d82d-fa5a-4cb9-9f3a-26aa2ea2a139",
+      "action": "absence",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2023-02-05"
+        ]
       },
-      "schedule": {
-        "file": "../source/january-2023/756815839542378546-1.png",
-        "dynamicId": "756815839542378546"
-      },
-      "member": "luzao",
-      "eventId": "evt_c0d2748a-ed47-4589-b951-2f2d63761257"
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2023-02-05",
+          "events": [
+            {
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [
+        "evt_c0d2748a-ed47-4589-b951-2f2d63761257"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/758363135896715314"
+        },
+        {
+          "url": "https://t.bilibili.com/756815839542378546"
+        }
+      ]
     }
   ]
 }

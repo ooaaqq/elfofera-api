@@ -1,32 +1,78 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "849652682739154999",
+      "id": "chg_5d70a1e9-adb5-4fc0-afbc-258dc301061c",
       "action": "cancellation",
-      "date": "2023-10-07",
-      "plannedTime": "19:00",
-      "relatedEventId": "evt_4641f473-0004-47f1-bbf6-e1a8c1288df3",
-      "evidence": {
-        "file": "../evidence/history-01/dynamics-2023.json",
-        "locator": "849652682739154999"
-      }
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2023-10-07"
+        ]
+      },
+      "members": [],
+      "before": [
+        {
+          "date": "2023-10-07",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [
+        "evt_4641f473-0004-47f1-bbf6-e1a8c1288df3"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/849652682739154999"
+        }
+      ]
     },
     {
-      "announcementId": "857101564782837766",
+      "id": "chg_5af1ff45-6cbc-4473-a99f-f091bf27f6d5",
       "action": "cancellation",
-      "date": "2023-10-27",
-      "member": "minuo",
-      "plannedTime": "20:00",
-      "relatedEventId": "evt_2a273905-11c5-4d04-9371-2c7f30583ab3",
-      "evidence": {
-        "file": "../evidence/history-01/dynamics-2023.json",
-        "locator": "857101564782837766"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2023-10-27"
+        ]
       },
-      "memberEvidence": {
-        "file": "../source/october-2023/855471431403700228.png",
-        "locator": "855471431403700228"
-      }
+      "members": [
+        "minuo"
+      ],
+      "before": [
+        {
+          "date": "2023-10-27",
+          "events": [
+            {
+              "plannedTime": "20:00",
+              "members": [
+                "minuo"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [
+        "evt_2a273905-11c5-4d04-9371-2c7f30583ab3"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/857101564782837766"
+        }
+      ]
     }
   ]
 }

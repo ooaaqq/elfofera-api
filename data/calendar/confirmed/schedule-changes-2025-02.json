@@ -1,47 +1,129 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "1035941297163075593",
+      "id": "chg_c761b75d-e2a5-4c53-bebb-fe2253f0de09",
       "action": "time-change",
-      "member": "luzao",
-      "date": "2025-02-19",
-      "fromPlannedTime": "19:00",
-      "toPlannedTime": "19:30",
-      "originalPlan": {
-        "file": "../reviews/round-02-schedule-adoption-2025-02.json",
-        "locator": "originalPlans/2025-02-19/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2025-02-19"
+        ]
       },
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2025-02-19/events/0"
-      },
-      "source": {
-        "file": "../source/february-2025/1035941297163075593.jpg",
-        "locator": "February 19–20 cells"
-      },
-      "note": "2/20发布的修订周表与2/17原图存在时间差异，只记录计划版本，不倒推2/19实际开播时刻。 原图计划恢复至plans，修订值在此独立保留。"
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2025-02-19",
+          "events": [
+            {
+              "plannedTime": "19:00",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2025-02-19",
+          "events": [
+            {
+              "plannedTime": "19:30",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [
+        "2025-02-19"
+      ],
+      "notes": [
+        "2/20发布的修订周表与2/17原图存在时间差异，只记录计划版本，不倒推2/19实际开播时刻。 原图计划恢复至plans，修订值在此独立保留。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1035941297163075593"
+        }
+      ]
     },
     {
-      "announcementId": "1035941297163075593",
+      "id": "chg_f857026c-f19b-4f8e-8edf-7e9861af3bbe",
       "action": "room-change",
-      "date": "2025-02-20",
-      "members": ["luzao", "youen"],
-      "originalPlan": {
-        "file": "../reviews/round-02-schedule-adoption-2025-02.json",
-        "locator": "originalPlans/2025-02-20/events/0"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2025-02-20"
+        ]
       },
-      "relatedPlan": {
-        "file": "plans.json",
-        "locator": "2025-02-20/events/0"
-      },
-      "source": {
-        "file": "../source/february-2025/1035941297163075593.jpg",
-        "locator": "February 19–20 cells"
-      },
-      "note": "原图与修订图分别保留联动房间；图片不单独证明实际出席。 原图计划恢复至plans，修订值在此独立保留。",
-      "fromHostMember": "youen",
-      "toHostMember": "luzao"
+      "members": [
+        "luzao",
+        "youen"
+      ],
+      "before": [
+        {
+          "date": "2025-02-20",
+          "events": [
+            {
+              "hostMember": "youen",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        },
+        {
+          "date": "2025-02-20",
+          "events": [
+            {
+              "members": [],
+              "room": {
+                "hostMember": "youen"
+              }
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2025-02-20",
+          "events": [
+            {
+              "hostMember": "luzao",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        },
+        {
+          "date": "2025-02-20",
+          "events": [
+            {
+              "members": [],
+              "room": {
+                "hostMember": "luzao"
+              }
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [],
+      "announcementEventIds": [],
+      "relatedPlanDates": [
+        "2025-02-20"
+      ],
+      "notes": [
+        "原图与修订图分别保留联动房间；图片不单独证明实际出席。 原图计划恢复至plans，修订值在此独立保留。"
+      ],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/1035941297163075593"
+        }
+      ]
     }
   ]
 }

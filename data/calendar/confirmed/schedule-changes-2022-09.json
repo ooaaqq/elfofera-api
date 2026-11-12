@@ -1,41 +1,119 @@
 {
-  "timeZone": "Asia/Shanghai",
   "changes": [
     {
-      "announcementId": "708760455467761680",
+      "id": "chg_04b72a27-e97f-4c46-ba38-e8010afd1c17",
       "action": "lineup-change",
-      "date": "2022-09-23",
-      "plannedTime": "20:30",
-      "originalMembers": ["luzao"],
-      "members": ["waner"],
-      "formatLabel": "电台",
-      "eventId": "evt_837f252c-fd13-4969-8c9d-6d8aedaf08fc",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-09.json",
-        "locator": "708760455467761680"
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-09-23"
+        ]
       },
-      "replacesPlan": {
-        "date": "2022-09-23",
-        "plannedTime": "20:30",
-        "members": ["luzao"]
-      }
+      "members": [
+        "waner",
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2022-09-23",
+          "events": [
+            {
+              "plannedTime": "20:30",
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        },
+        {
+          "date": "2022-09-23",
+          "events": [
+            {
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [
+        {
+          "date": "2022-09-23",
+          "events": [
+            {
+              "plannedTime": "20:30",
+              "formatLabel": "电台",
+              "members": [
+                "waner"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "eventIds": [
+        "evt_837f252c-fd13-4969-8c9d-6d8aedaf08fc"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/708760455467761680"
+        }
+      ]
     },
     {
-      "announcementId": "708760455467761680",
-      "action": "member-absence",
-      "date": "2022-09-24",
-      "member": "luzao",
-      "eventId": "evt_87279804-468a-4254-9386-0f140859e266",
-      "source": {
-        "file": "../evidence/round-02-authenticated-dynamics-2022-09.json",
-        "locator": "708760455467761680"
+      "id": "chg_f58e3695-0f70-4d66-a808-e986e2f6a228",
+      "action": "absence",
+      "impact": {
+        "kind": "dates",
+        "dates": [
+          "2022-09-24"
+        ]
       },
-      "replacesPlan": {
-        "date": "2022-09-24",
-        "plannedTime": "19:30",
-        "participation": "group",
-        "hostMember": "waner"
-      }
+      "members": [
+        "luzao"
+      ],
+      "before": [
+        {
+          "date": "2022-09-24",
+          "events": [
+            {
+              "plannedTime": "19:30",
+              "participation": "group",
+              "hostMember": "waner",
+              "members": []
+            }
+          ],
+          "nonStreamActivities": []
+        },
+        {
+          "date": "2022-09-24",
+          "events": [
+            {
+              "members": [
+                "luzao"
+              ]
+            }
+          ],
+          "nonStreamActivities": []
+        }
+      ],
+      "after": [],
+      "eventIds": [
+        "evt_87279804-468a-4254-9386-0f140859e266"
+      ],
+      "announcementEventIds": [],
+      "relatedPlanDates": [],
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://t.bilibili.com/708760455467761680"
+        }
+      ]
     }
   ]
 }
