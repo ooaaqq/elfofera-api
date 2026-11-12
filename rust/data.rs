@@ -206,34 +206,42 @@ impl Archive {
         files.sort();
         let mut data = serde_json::json!({"events":[],"works":[],"performances":[],"recordings":[],"plans":[],"changes":[]});
         for path in files {
-            let Some(name) = path.file_name().and_then(|s| s.to_str()) else {
+            let name = path
+                .file_name()
+                .and_then(|s| s.to_str())
+                .with_context(|| format!("invalid input filename {}", path.display()))?;
+            ensure!(
+                path.is_file(),
+                "unexpected input directory {}",
+                path.display()
+            );
+            if name == "README.md" {
                 continue;
-            };
-            let category = if name == "songs.json" {
-                Some(("works", "works"))
-            } else if name == "plans.json" {
-                Some(("plans", "days"))
-            } else if file_period(name, "events-", 7) {
-                Some(("events", "events"))
-            } else if file_period(name, "performances-", 7) {
-                Some(("performances", "performances"))
-            } else if file_period(name, "recordings-", 4) {
-                Some(("recordings", "recordings"))
-            } else if file_period(name, "schedule-changes-", 7) {
-                Some(("changes", "changes"))
-            } else {
-                None
-            };
-            if let Some((target, key)) = category {
-                let value: Value = serde_json::from_slice(&std::fs::read(&path)?)?;
-                let rows = value[key]
-                    .as_array()
-                    .with_context(|| format!("{} missing {key}", path.display()))?;
-                data[target]
-                    .as_array_mut()
-                    .context("dataset array")?
-                    .extend(rows.iter().cloned());
             }
+            let (target, key) = if name == "songs.json" {
+                ("works", "works")
+            } else if name == "plans.json" {
+                ("plans", "days")
+            } else if file_period(name, "events-", 7) {
+                ("events", "events")
+            } else if file_period(name, "performances-", 7) {
+                ("performances", "performances")
+            } else if file_period(name, "recordings-", 4) {
+                ("recordings", "recordings")
+            } else if file_period(name, "schedule-changes-", 7) {
+                ("changes", "changes")
+            } else {
+                anyhow::bail!("unrecognized archive input {}", path.display());
+            };
+            let value: Value = serde_json::from_slice(&std::fs::read(&path)?)
+                .with_context(|| format!("invalid JSON {}", path.display()))?;
+            let rows = value[key]
+                .as_array()
+                .with_context(|| format!("{} missing {key}", path.display()))?;
+            data[target]
+                .as_array_mut()
+                .context("dataset array")?
+                .extend(rows.iter().cloned());
         }
         ensure!(
             directory.join("songs.json").is_file() && directory.join("plans.json").is_file(),
@@ -243,14 +251,26 @@ impl Archive {
     }
 }
 fn file_period(name: &str, prefix: &str, length: usize) -> bool {
-    name.strip_prefix(prefix)
+    let Some(period) = name
+        .strip_prefix(prefix)
         .and_then(|s| s.strip_suffix(".json"))
-        .is_some_and(|s| {
-            s.len() == length
-                && s.bytes()
-                    .enumerate()
-                    .all(|(i, b)| b.is_ascii_digit() || (length == 7 && i == 4 && b == b'-'))
-        })
+    else {
+        return false;
+    };
+    if period.len() != length {
+        return false;
+    }
+    let date = if length == 7 {
+        format!("{period}-01")
+    } else {
+        format!("{period}-01-01")
+    };
+    chrono::NaiveDate::parse_from_str(&date, "%Y-%m-%d").is_ok_and(|parsed| {
+        parsed
+            .format(if length == 7 { "%Y-%m" } else { "%Y" })
+            .to_string()
+            == period
+    })
 }
 pub fn normalize(value: &str) -> String {
     value
